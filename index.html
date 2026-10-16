@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radio Galo & Nake</title>
+<script>
+// ====================== CONFIGURACIÓN DE LA RADIO ======================
+// Esta es la única parte que tienen que editar (ver GUIA.md).
+
+window.RADIO_CONFIG = {
+  nombre: "Radio Galo & Nake",
+
+  // Los correos de Google con los que galo y Nake entran para aprobar canciones.
+  // Tienen que ser los mismos que pongan en las reglas de Firebase (ver GUIA.md, paso 4).
+  admins: ["galomoron84@gmail.com", "nake.keena@gmail.com"],
+
+  // Las radios en vivo. Para sumar otra, copien una línea y cambien id y nombre.
+  radios: [
+    { id: "nacional", nombre: "Rock Nacional", lema: "Lo nuestro, a todo volumen." },
+    { id: "internacional", nombre: "Rock Internacional", lema: "Clásicos y joyas de afuera." },
+  ],
+
+  // Pegar aquí la configuración de Firebase (GUIA.md, paso 3).
+  // Mientras esté en null, la página funciona en MODO DEMO: todo se guarda solo en este navegador.
+  firebase: {
+    apiKey: "AIzaSyAgIoJ0SMh-lQVWUprVOZQNp7xR_Nj088Y",
+    authDomain: "radio-galo-nake.firebaseapp.com",
+    projectId: "radio-galo-nake",
+    storageBucket: "radio-galo-nake.firebasestorage.app",
+    messagingSenderId: "1035424324499",
+    appId: "1:1035424324499:web:4f9663bde7a2a76ae0e666",
+  },
+};
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  /* Layout: station dial on top, a big "now playing" stage beside the on-air log, then rankings, requests, about us. Stacks on phones. */
+  :root {
+    --bg: #14110f;
+    --surface: #1f1a17;
+    --line: #3a302a;
+    --fg: #f3ebe4;
+    --muted: #a99a8e;
+    --accent: #f2a65a;
+    --live: #e5484d;
+    --ok: #4cb782;
+    --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Atkinson Hyperlegible", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f6f1ec; --surface: #fffaf5; --line: #e2d6cb; --fg: #231c17; --muted: #75655a; --accent: #b4590f; --live: #c62f34; --ok: #23784f; color-scheme: light; }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font: 16px/1.5 var(--font-body); min-height: 100vh;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 20px 48px; position: relative; overflow-x: hidden;
+  }
+  #ambiente { position: fixed; inset: -10%; z-index: -1; background-size: cover; background-position: center; filter: blur(60px) saturate(1.3); opacity: .32; transition: background-image 1s; }
+  @media (prefers-color-scheme: light) { #ambiente { opacity: .22; } }
+  .wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 40px; }
+  h2 { font: 600 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+  h3 { font: 800 1.6rem/1.1 var(--font-display); letter-spacing: -.02em; margin: 0 0 14px; text-wrap: balance; }
+  button { font: inherit; color: inherit; }
+  button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  a { color: var(--accent); }
+
+  /* Header + dial */
+  header { display: grid; gap: 18px; }
+  .arriba { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+  .marca { font: 800 1.7rem var(--font-display); letter-spacing: -.02em; }
+  .demo { font: 600 .72rem var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px dashed var(--accent); border-radius: 4px; padding: 3px 8px; }
+  .dial { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+  .emisora { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; cursor: pointer; display: grid; gap: 2px; min-width: 0; }
+  .emisora[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .emisora .n { font: 800 1.1rem var(--font-display); }
+  .emisora .vivo { font: 600 .68rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--live); display: flex; align-items: center; gap: 6px; }
+  .emisora .vivo::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: latido 1.6s infinite; }
+  .emisora .vivo.off { color: var(--muted); }
+  .emisora .vivo.off::before { animation: none; }
+  .emisora .q { color: var(--muted); font-size: .88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  @keyframes latido { 50% { opacity: .3; } }
+
+  /* Stage */
+  .en-vivo { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 36px; align-items: start; }
+  @media (max-width: 820px) { .en-vivo { grid-template-columns: minmax(0, 1fr); } }
+  .escenario { display: grid; gap: 20px; min-width: 0; }
+  .portada { position: relative; aspect-ratio: 16 / 10; max-width: 100%; border-radius: 6px; overflow: hidden; background: var(--surface); box-shadow: 0 30px 60px -20px rgb(0 0 0 / .55); }
+  .portada img, .portada #yt-vivo, .portada iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; border: 0; }
+  .portada .sin { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 20px; color: var(--muted); }
+  .etiqueta { font: 600 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+  h1 { font: 800 clamp(1.9rem, 4.6vw, 3.1rem)/1.04 var(--font-display); letter-spacing: -.025em; margin: 4px 0 6px; text-wrap: balance; }
+  .banda { font-size: 1.25rem; font-weight: 700; }
+  .ficha { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; margin: 12px 0 0; font-size: .95rem; }
+  .ficha dt { color: var(--muted); font: .78rem/1.9 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+  .ficha dd { margin: 0; }
+  .barra { display: grid; gap: 6px; }
+  .pista { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
+  .pista div { height: 100%; width: 0; background: var(--accent); transition: width .5s linear; }
+  .tiempos { display: flex; justify-content: space-between; font: .8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .controles { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+  .boton-aire { font: 800 1rem var(--font-display); background: var(--accent); color: #1a1008; border: 0; border-radius: 999px; padding: 12px 26px; cursor: pointer; }
+  body.encendida .boton-aire { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1.5px var(--line); }
+  .icono { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 9px 14px; cursor: pointer; font-weight: 700; font-size: .9rem; }
+  .icono[aria-pressed="true"] { color: var(--live); border-color: var(--live); }
+  .volumen { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: .85rem; }
+  .volumen input { accent-color: var(--accent); width: 110px; }
+  .aviso { font-size: .88rem; color: var(--muted); border-left: 2px solid var(--accent); padding-left: 10px; margin: 0; }
+  .aviso:empty { display: none; }
+
+  /* Live score */
+  .puntaje { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; display: grid; gap: 12px; }
+  .puntaje .cab { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .promedio { font: 800 2.2rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+  .promedio small { font: .85rem var(--font-body); color: var(--muted); margin-left: 6px; }
+  .notas { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 4px; }
+  .notas button { border: 1px solid var(--line); background: transparent; border-radius: 4px; padding: 8px 0; cursor: pointer; font: 600 .9rem var(--font-mono); position: relative; overflow: hidden; }
+  .notas button .b { position: absolute; left: 0; right: 0; bottom: 0; background: var(--accent); opacity: .22; }
+  .notas button[aria-pressed="true"] { background: var(--accent); color: #1a1008; border-color: var(--accent); }
+
+  /* Lists */
+  ol, ul { list-style: none; margin: 0; padding: 0; }
+  .fila { display: grid; grid-template-columns: 52px 56px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  .fila .hora { font: .8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .fila img, .fila .mini { width: 56px; height: 42px; object-fit: cover; border-radius: 3px; background: var(--surface); display: block; }
+  .fila .t { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fila .a { color: var(--muted); font-size: .88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fila .v { font: 600 .85rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+  .fila.ahora .hora { color: var(--live); font-weight: 600; }
+  .misterio { margin-top: 14px; padding: 12px 14px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); font-size: .92rem; }
+  .vacio { color: var(--muted); font-size: .92rem; padding: 10px 0; }
+
+  .dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
+  @media (max-width: 820px) { .dos { grid-template-columns: minmax(0, 1fr); } }
+  .rank .fila { grid-template-columns: 28px 56px minmax(0, 1fr) auto; }
+  .rank .pos { font: 800 1.1rem var(--font-display); color: var(--muted); }
+  .nota-chica { font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+
+  /* Forms */
+  form { display: grid; gap: 10px; }
+  .campos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .campos .ancho { grid-column: 1 / -1; }
+  @media (max-width: 480px) { .campos { grid-template-columns: minmax(0, 1fr); } }
+  label { display: grid; gap: 3px; font-size: .8rem; color: var(--muted); }
+  input[type="text"], input[type="url"], select, textarea { font: 1rem var(--font-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; width: 100%; }
+  textarea { min-height: 64px; resize: vertical; }
+  .primario { justify-self: start; background: var(--fg); color: var(--bg); border: 0; border-radius: 999px; padding: 10px 20px; font-weight: 700; cursor: pointer; }
+  .ok { color: var(--ok); font-size: .9rem; margin: 0; }
+  .error { color: var(--live); font-size: .9rem; margin: 0; }
+
+  .filtros { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .filtros button { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 5px 12px; font-size: .82rem; cursor: pointer; color: var(--muted); }
+  .filtros button[aria-pressed="true"] { color: var(--bg); background: var(--fg); border-color: var(--fg); }
+  .chip { font: 600 .68rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; border-radius: 4px; padding: 2px 7px; border: 1px solid currentColor; white-space: nowrap; }
+  .chip.pendiente { color: var(--accent); }
+  .chip.aprobada { color: var(--ok); }
+  .chip.rechazada { color: var(--muted); }
+  .solicitud .a q { font-style: italic; }
+
+  /* About */
+  .nosotros { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: start; }
+  @media (max-width: 820px) { .nosotros { grid-template-columns: minmax(0, 1fr); } }
+  .nosotros p { max-width: 60ch; margin: 0 0 12px; font-size: 1.05rem; }
+  .duo { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .persona { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px; }
+  .persona .n { font: 800 1.5rem var(--font-display); }
+  .persona ul { color: var(--muted); font-size: .92rem; display: grid; gap: 2px; margin-top: 6px; }
+
+  /* Admin */
+  .admin { border: 1px solid var(--accent); border-radius: 8px; padding: 18px; display: grid; gap: 16px; }
+  .moderar { border-bottom: 1px solid var(--line); padding-bottom: 16px; display: grid; gap: 10px; }
+  .moderar .acciones { display: flex; flex-wrap: wrap; gap: 8px; }
+  .previa { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; background: var(--surface); border-radius: 4px; overflow: hidden; }
+  .previa iframe { width: 100%; height: 100%; display: block; }
+  footer { color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
+  .enlace { background: none; border: 0; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; font-size: .85rem; }
+
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div id="ambiente"></div>
+<div class="wrap">
+  <header>
+    <div class="arriba">
+      <div class="marca" id="nombre-radio">Radio</div>
+      <span class="demo" id="modo-demo" hidden title="Todavía no está conectada a Firebase: lo que hagas queda solo en este navegador.">Modo demo</span>
+    </div>
+    <nav class="dial" id="dial" aria-label="Radios en vivo"></nav>
+  </header>
+
+  <section class="en-vivo" aria-live="polite">
+    <div class="escenario">
+      <div class="portada">
+        <div id="yt-vivo"></div>
+        <img id="portada" alt="">
+        <div class="sin" id="sin-musica" hidden>Esta radio todavía no tiene canciones aprobadas.<br>Pidan una más abajo.</div>
+      </div>
+      <div>
+        <div class="etiqueta">Ahora suena · <span id="radio-actual"></span></div>
+        <h1 id="titulo">—</h1>
+        <div class="banda" id="banda"></div>
+        <dl class="ficha" id="ficha"></dl>
+      </div>
+      <div class="barra">
+        <div class="pista"><div id="progreso"></div></div>
+        <div class="tiempos"><span id="t-actual">0:00</span><span id="t-total">0:00</span></div>
+      </div>
+      <div class="controles">
+        <button class="boton-aire" id="encender">Escuchar en vivo</button>
+        <button class="icono" id="megusta" aria-pressed="false">♥ Me gusta</button>
+        <label class="volumen" for="vol">Vol <input id="vol" type="range" min="0" max="100" value="80"></label>
+      </div>
+      <p class="aviso" id="aviso"></p>
+      <div class="puntaje">
+        <div class="cab">
+          <div><div class="etiqueta">Puntaje en vivo</div><div class="promedio" id="promedio">–<small id="votantes">sin votos</small></div></div>
+          <div class="nota-chica" style="margin:0">¿Cuánto le das a este tema?</div>
+        </div>
+        <div class="notas" id="notas" role="group" aria-label="Votar del 1 al 10"></div>
+      </div>
+    </div>
+
+    <aside>
+      <h2>Lo que sonó</h2>
+      <ol id="historial"></ol>
+      <div class="misterio">¿Qué viene después? Ni nosotros sabemos. Quédate escuchando.</div>
+    </aside>
+  </section>
+
+  <section class="dos">
+    <div class="rank">
+      <h2>Ranking histórico de me gusta</h2>
+      <ol id="rank-megusta"></ol>
+    </div>
+    <div class="rank">
+      <h2>Ranking de puntajes</h2>
+      <ol id="rank-puntaje"></ol>
+      <p class="nota-chica">Promedio ponderado de todos los votos del 1 al 10. Una canción con pocos votos se acerca al promedio general hasta que junta más, así un solo 10 no la pone primera.</p>
+    </div>
+  </section>
+
+  <section class="dos" id="solicitudes">
+    <div>
+      <h3>Pide tu canción</h3>
+      <form id="pedido">
+        <div class="campos">
+          <label class="ancho" for="p-link">Link de YouTube<input type="url" id="p-link" placeholder="https://www.youtube.com/watch?v=…" required></label>
+          <label for="p-titulo">Canción<input type="text" id="p-titulo" required maxlength="120"></label>
+          <label for="p-banda">Banda o artista<input type="text" id="p-banda" required maxlength="120"></label>
+          <label for="p-radio">¿Para qué radio?<select id="p-radio"></select></label>
+          <label for="p-nombre">Tu nombre<input type="text" id="p-nombre" maxlength="40"></label>
+          <label class="ancho" for="p-mensaje">Mensaje para Galo y Nake (opcional)<textarea id="p-mensaje" maxlength="280"></textarea></label>
+        </div>
+        <button class="primario" type="submit">Enviar pedido</button>
+        <p class="ok" id="p-ok" hidden>¡Listo! Tu pedido quedó en la lista. Galo y Nake deciden si entra al aire.</p>
+        <p class="error" id="p-error" hidden></p>
+      </form>
+    </div>
+    <div>
+      <h2>Canciones solicitadas</h2>
+      <div class="filtros" id="filtros"></div>
+      <ul id="lista-solicitudes"></ul>
+    </div>
+  </section>
+
+  <section class="nosotros">
+    <div>
+      <h3>Quiénes somos</h3>
+      <p>Somos Galo y Nake. Tenemos 20 años, estudiamos Economía y los dos tocamos la guitarra.</p>
+      <p>Nos encanta el rock, así que armamos esta radio para pasar los temas que nos gustan y los que nos recomiendan ustedes. Cada canción que suena la elegimos nosotros.</p>
+    </div>
+    <div class="duo">
+      <div class="persona"><div class="n">Galo</div><ul><li>20 años</li><li>Estudiante de Economía</li><li>Guitarrista</li></ul></div>
+      <div class="persona"><div class="n">Nake</div><ul><li>20 años</li><li>Estudiante de Economía</li><li>Guitarrista</li></ul></div>
+    </div>
+  </section>
+
+  <section class="admin" id="panel-admin" hidden>
+    <div>
+      <h3>Panel de Galo y Nake</h3>
+      <p class="nota-chica" style="margin:0">Escucha el pedido, completa los datos y apruébalo o recházalo. La duración se llena sola al darle a "Escuchar".</p>
+    </div>
+    <div class="previa"><div id="yt-previa"></div></div>
+    <div id="pendientes"></div>
+  </section>
+
+  <footer>
+    <span id="pie-usuario"></span>
+    <span><button class="enlace" id="entrar">Entrar como Galo o Nake</button><button class="enlace" id="salir" hidden>Salir</button></span>
+  </footer>
+</div>
+
+<script type="module">
+// Acceso a los datos compartidos. Dos versiones con las mismas funciones:
+//  - Firebase: lo que usa la radio publicada; todos ven lo mismo.
+//  - Demo: todo queda en este navegador, para probar sin configurar nada.
+
+const FB = "https://www.gstatic.com/firebasejs/10.12.2/";
+
+async function conectar(config) {
+  return config.firebase ? conectarFirebase(config) : conectarDemo(config);
+}
+
+// ---------------------------------------------------------------- Firebase
+async function conectarFirebase(config) {
+  const { initializeApp } = await import(FB + "firebase-app.js");
+  const fs = await import(FB + "firebase-firestore.js");
+  const au = await import(FB + "firebase-auth.js");
+  const app = initializeApp(config.firebase);
+  const db = fs.getFirestore(app);
+  const auth = au.getAuth(app);
+
+  const usuario = { uid: null, email: null };
+  const avisos = [];
+  au.onAuthStateChanged(auth, (u) => {
+    if (!u) { au.signInAnonymously(auth).catch((e) => console.error(e)); return; }
+    usuario.uid = u.uid; usuario.email = u.email || null;
+    avisos.forEach((f) => f(usuario));
+  });
+
+  const lista = (q, cb) => fs.onSnapshot(q, (s) => cb(s.docs.map((d) => ({ id: d.id, ...d.data() }))), (e) => console.error(e));
+
+  return {
+    modo: "firebase",
+    usuario,
+    alCambiarUsuario: (f) => { avisos.push(f); if (usuario.uid) f(usuario); },
+    entrarAdmin: () => au.signInWithPopup(auth, new au.GoogleAuthProvider()),
+    salir: () => au.signOut(auth),
+
+    escucharSolicitudes: (cb) => lista(fs.collection(db, "solicitudes"), cb),
+    pedir: (datos) => fs.addDoc(fs.collection(db, "solicitudes"), { ...datos, estado: "pendiente", creada: Date.now(), uid: usuario.uid }),
+    actualizar: (id, cambios) => fs.updateDoc(fs.doc(db, "solicitudes", id), cambios),
+
+    escucharCola: (radio, cb) => fs.onSnapshot(fs.doc(db, "colas", radio), (s) => cb(s.exists() ? s.data().items || [] : []), (e) => console.error(e)),
+    extenderCola: (radio, planificar) => fs.runTransaction(db, async (tx) => {
+      const ref = fs.doc(db, "colas", radio);
+      const s = await tx.get(ref);
+      const nuevo = planificar(s.exists() ? s.data().items || [] : []);
+      if (nuevo) tx.set(ref, { items: nuevo });
+    }),
+
+    escucharMegusta: (cb) => lista(fs.collection(db, "megusta"), cb),
+    alternarMegusta: (cid, poner) => {
+      const ref = fs.doc(db, "megusta", usuario.uid + "_" + cid);
+      return poner ? fs.setDoc(ref, { uid: usuario.uid, cid }) : fs.deleteDoc(ref);
+    },
+
+    escucharVotos: (cb) => lista(fs.collection(db, "votos"), cb),
+    votar: (emision, cid, puntaje) =>
+      fs.setDoc(fs.doc(db, "votos", emision + "__" + usuario.uid), { uid: usuario.uid, cid, emision, puntaje }),
+  };
+}
+
+// ---------------------------------------------------------------- Demo
+function conectarDemo(config) {
+  const CLAVE = "radio.demo.v1";
+  const canal = "BroadcastChannel" in window ? new BroadcastChannel(CLAVE) : null;
+  const leer = () => { try { return JSON.parse(localStorage.getItem(CLAVE)); } catch { return null; } };
+  let estado = leer() || semilla();
+  const oyentes = new Set();
+  const guardar = () => {
+    try { localStorage.setItem(CLAVE, JSON.stringify(estado)); } catch {}
+    canal?.postMessage("cambio");
+    oyentes.forEach((f) => f());
+  };
+  canal && (canal.onmessage = () => { estado = leer() || estado; oyentes.forEach((f) => f()); });
+  const escuchar = (sacar, cb) => { const f = () => cb(structuredClone(sacar())); oyentes.add(f); f(); return () => oyentes.delete(f); };
+
+  let uid = null;
+  try { uid = localStorage.getItem("radio.demo.uid"); } catch {}
+  if (!uid) { uid = "oyente-" + Math.random().toString(36).slice(2, 8); try { localStorage.setItem("radio.demo.uid", uid); } catch {} }
+  const usuario = { uid, email: null };
+  const avisos = [];
+  const avisar = () => avisos.forEach((f) => f(usuario));
+
+  return {
+    modo: "demo",
+    usuario,
+    alCambiarUsuario: (f) => { avisos.push(f); f(usuario); },
+    entrarAdmin: async () => { usuario.email = config.admins[0]; avisar(); },
+    salir: async () => { usuario.email = null; avisar(); },
+
+    escucharSolicitudes: (cb) => escuchar(() => Object.entries(estado.solicitudes).map(([id, d]) => ({ id, ...d })), cb),
+    pedir: async (datos) => { estado.solicitudes["s" + Date.now()] = { ...datos, estado: "pendiente", creada: Date.now(), uid }; guardar(); },
+    actualizar: async (id, cambios) => { Object.assign(estado.solicitudes[id], cambios); guardar(); },
+
+    escucharCola: (radio, cb) => escuchar(() => estado.colas[radio] || [], cb),
+    extenderCola: async (radio, planificar) => { const n = planificar(structuredClone(estado.colas[radio] || [])); if (n) { estado.colas[radio] = n; guardar(); } },
+
+    escucharMegusta: (cb) => escuchar(() => Object.entries(estado.megusta).map(([id, d]) => ({ id, ...d })), cb),
+    alternarMegusta: async (cid, poner) => { const id = uid + "_" + cid; if (poner) estado.megusta[id] = { uid, cid }; else delete estado.megusta[id]; guardar(); },
+
+    escucharVotos: (cb) => escuchar(() => Object.entries(estado.votos).map(([id, d]) => ({ id, ...d })), cb),
+    votar: async (emision, cid, puntaje) => { estado.votos[emision + "__" + uid] = { uid, cid, emision, puntaje }; guardar(); },
+  };
+}
+
+// Canciones de ejemplo para el modo demo. Son solo para ver cómo funciona.
+function semilla() {
+  const t = Date.now() - 86400000;
+  const s = (titulo, banda, album, anio, youtubeId, duracion, extra = {}) =>
+    ({ titulo, banda, album, anio, youtubeId, link: "https://youtu.be/" + youtubeId, duracion, radio: "internacional", estado: "aprobada", creada: t, pidio: "galo", ...extra });
+  return {
+    solicitudes: {
+      ej1: s("Bohemian Rhapsody", "Queen", "A Night at the Opera", 1975, "fJ9rUzIMcZQ", 359, { musicos: "Freddie Mercury, Brian May, Roger Taylor, John Deacon" }),
+      ej2: s("Take On Me", "a-ha", "Hunting High and Low", 1985, "djV11Xbc914", 227, { pidio: "Nake", musicos: "Morten Harket, Magne Furuholmen, Paul Waaktaar-Savoy" }),
+      ej3: s("Africa", "Toto", "Toto IV", 1982, "FTQbiNvZqaY", 295, { pidio: "Nake" }),
+      ej4: { titulo: "Never Gonna Give You Up", banda: "Rick Astley", link: "https://youtu.be/dQw4w9WgXcQ", youtubeId: "dQw4w9WgXcQ", radio: "internacional", estado: "pendiente", creada: Date.now() - 600000, pidio: "Un oyente", mensaje: "¡Pásenla, no se van a arrepentir!" },
+    },
+    colas: {},
+    megusta: {},
+    votos: {},
+  };
+}
+
+// ====================== LA RADIO ======================
+
+const C = window.RADIO_CONFIG;
+const $ = (id) => document.getElementById(id);
+const el = (tag, props = {}, ...hijos) => { const e = Object.assign(document.createElement(tag), props); e.append(...hijos.filter((h) => h != null)); return e; };
+const fmt = (s) => { s = Math.max(0, Math.floor(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
+const seg = (txt) => { const m = String(txt || "").match(/^(\d{1,2}):(\d{2})$/); return m ? +m[1] * 60 + +m[2] : 0; };
+const ytId = (v) => { const m = String(v || "").match(/(?:youtu\.be\/|[?&]v=|embed\/|shorts\/|live\/)([\w-]{11})/); return m ? m[1] : null; };
+const miniatura = (id) => id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
+const guardado = (k, d) => { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } };
+const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || id;
+const imagen = (id) => { const i = el("img", { alt: "", loading: "lazy", src: miniatura(id) }); i.onerror = () => i.replaceWith(el("span", { className: "mini" })); return i; };
+
+$("nombre-radio").textContent = C.nombre;
+document.title = C.nombre;
+$("portada").onerror = () => { $("portada").hidden = true; };
+
+const B = await conectar(C);
+$("modo-demo").hidden = B.modo !== "demo";
+
+// ------------------------------------------------------------ Estado
+const S = {
+  radio: C.radios.some((r) => r.id === guardado("radio.radio", "")) ? guardado("radio.radio", "") : C.radios[0].id,
+  solicitudes: [], colas: {}, megusta: [], votos: [],
+  actual: null, encendida: false, filtro: "pendiente",
+  elegida: C.radios.some((r) => r.id === guardado("radio.radio", "")),
+};
+const aprobadas = (radio) => S.solicitudes.filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
+const esAdmin = () => !!B.usuario.email && C.admins.map((a) => a.toLowerCase()).includes(B.usuario.email.toLowerCase());
+const emisionDe = (it) => S.radio + "_" + it.desde;
+const mismo = (a, b) => !!a && !!b && a.desde === b.desde && a.cid === b.cid;
+
+// ------------------------------------------------------------ Programación en vivo
+// La cola de cada radio vive en la base de datos: todos leen la misma y suenan juntos.
+// Solo se agenda lo próximo a sonar, al azar, y la página nunca lo muestra.
+const fin = (it) => it.desde + it.dur * 1000;
+function planificar(radio) {
+  return (items) => {
+    const ahora = Date.now(), pool = aprobadas(radio);
+    if (!pool.length) return null;
+    const lista = items.filter((it) => fin(it) > ahora - 6 * 3600e3).slice(-20);
+    let t = lista.length ? fin(lista.at(-1)) : 0;
+    if (t >= ahora + 3 * 60e3) return null; // otro oyente ya la extendió
+    if (t < ahora) t = ahora;
+    while (t < ahora + 8 * 60e3) {
+      const k = Math.min(pool.length - 1, 5);
+      const recientes = k > 0 ? lista.slice(-k).map((i) => i.cid) : [];
+      const opciones = pool.filter((s) => !recientes.includes(s.id));
+      const elegibles = opciones.length ? opciones : pool;
+      const s = elegibles[Math.floor(Math.random() * elegibles.length)];
+      lista.push({ cid: s.id, desde: t, dur: s.duracion, titulo: s.titulo, banda: s.banda || "", youtubeId: s.youtubeId });
+      t += s.duracion * 1000;
+    }
+    return lista;
+  };
+}
+const extendiendo = {};
+function asegurarCola(radio) {
+  const items = S.colas[radio];
+  if (!items || !aprobadas(radio).length) return;
+  const ultimo = items.at(-1);
+  if (ultimo && fin(ultimo) > Date.now() + 3 * 60e3) return;
+  if (extendiendo[radio] && Date.now() - extendiendo[radio] < 8000) return;
+  extendiendo[radio] = Date.now();
+  B.extenderCola(radio, planificar(radio)).catch((e) => console.error("No se pudo programar la radio", e));
+}
+const sonandoEn = (radio, t = Date.now()) => (S.colas[radio] || []).find((it) => it.desde <= t && t < fin(it)) || null;
+
+// ------------------------------------------------------------ Dial de radios
+function pintarDial() {
+  const d = $("dial"); d.textContent = "";
+  for (const r of C.radios) {
+    const it = sonandoEn(r.id);
+    const b = el("button", { className: "emisora" },
+      el("span", { className: "vivo" + (it ? "" : " off"), textContent: it ? "En vivo" : "En silencio" }),
+      el("span", { className: "n", textContent: r.nombre }),
+      el("span", { className: "q", textContent: it ? `${it.titulo} · ${it.banda}` : r.lema || "" }));
+    b.setAttribute("aria-pressed", String(r.id === S.radio));
+    b.onclick = () => { S.elegida = true; if (S.radio === r.id) return; S.radio = r.id; guardar("radio.radio", r.id); S.actual = null; pintarDial(); tic(true); };
+    d.append(b);
+  }
+}
+
+// ------------------------------------------------------------ Ahora suena
+const datosCancion = (cid) => S.solicitudes.find((s) => s.id === cid);
+function pintarAhora() {
+  const it = S.actual;
+  $("radio-actual").textContent = nombreRadio(S.radio);
+  $("sin-musica").hidden = !!it || aprobadas(S.radio).length > 0;
+  $("portada").hidden = !it || S.encendida;
+  const ficha = $("ficha"); ficha.textContent = "";
+  if (!it) {
+    $("titulo").textContent = aprobadas(S.radio).length ? "Sintonizando…" : "En silencio";
+    $("banda").textContent = ""; $("t-total").textContent = "0:00";
+    $("ambiente").style.backgroundImage = "none"; pintarHistorial(); pintarVotos(); pintarMegusta(); return;
+  }
+  const s = datosCancion(it.cid) || it;
+  $("titulo").textContent = s.titulo;
+  $("banda").textContent = s.banda || "";
+  const filas = [["Álbum", s.album], ["Año", s.anio], ["Músicos", s.musicos], ["Dato", s.dato], ["La pidió", s.pidio]];
+  for (const [k, v] of filas) if (v) ficha.append(el("dt", { textContent: k }), el("dd", { textContent: String(v) }));
+  $("portada").src = miniatura(it.youtubeId);
+  $("ambiente").style.backgroundImage = `url("${miniatura(it.youtubeId)}")`;
+  $("t-total").textContent = fmt(it.dur);
+  pintarMegusta(); pintarHistorial(); pintarVotos();
+}
+
+function pintarHistorial() {
+  const ol = $("historial"); ol.textContent = "";
+  const ahora = Date.now();
+  const pasadas = (S.colas[S.radio] || []).filter((it) => it.desde <= ahora).reverse().slice(0, 8);
+  if (!pasadas.length) { ol.append(el("li", { className: "vacio", textContent: "Todavía no sonó nada en esta radio." })); return; }
+  for (const it of pasadas) {
+    const enAire = mismo(it, S.actual);
+    ol.append(el("li", { className: "fila" + (enAire ? " ahora" : "") },
+      el("span", { className: "hora", textContent: enAire ? "AHORA" : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+      imagen(it.youtubeId),
+      el("div", { style: "min-width:0" }, el("div", { className: "t", textContent: it.titulo }), el("div", { className: "a", textContent: it.banda })),
+      el("span")));
+  }
+}
+
+// ------------------------------------------------------------ Me gusta y votos
+function pintarMegusta() {
+  const mio = !!S.actual && S.megusta.some((m) => m.uid === B.usuario.uid && m.cid === S.actual.cid);
+  $("megusta").setAttribute("aria-pressed", String(mio));
+  $("megusta").disabled = !S.actual;
+}
+$("megusta").onclick = () => {
+  if (!S.actual || !B.usuario.uid) return;
+  const poner = $("megusta").getAttribute("aria-pressed") !== "true";
+  B.alternarMegusta(S.actual.cid, poner).catch(() => { $("aviso").textContent = "No se pudo guardar tu me gusta. Prueba de nuevo."; });
+};
+
+for (let n = 1; n <= 10; n++) {
+  const b = el("button", { type: "button" }, el("span", { className: "b" }), el("span", { textContent: n, style: "position:relative" }));
+  b.setAttribute("aria-label", `Votar ${n}`);
+  b.dataset.n = n;
+  b.onclick = () => {
+    if (!S.actual || !B.usuario.uid) return;
+    B.votar(emisionDe(S.actual), S.actual.cid, n).catch(() => { $("aviso").textContent = "No se pudo guardar tu voto. Prueba de nuevo."; });
+  };
+  $("notas").append(b);
+}
+function pintarVotos() {
+  const em = S.actual ? emisionDe(S.actual) : null;
+  const vs = em ? S.votos.filter((v) => v.emision === em) : [];
+  const conteo = Array(11).fill(0); vs.forEach((v) => conteo[v.puntaje]++);
+  const max = Math.max(1, ...conteo);
+  const mio = vs.find((v) => v.uid === B.usuario.uid);
+  for (const b of $("notas").children) {
+    const n = +b.dataset.n;
+    b.setAttribute("aria-pressed", String(mio?.puntaje === n));
+    b.querySelector(".b").style.height = (conteo[n] / max) * 100 + "%";
+    b.disabled = !S.actual;
+  }
+  const prom = vs.length ? vs.reduce((a, v) => a + v.puntaje, 0) / vs.length : null;
+  $("promedio").firstChild.textContent = prom === null ? "–" : prom.toFixed(1);
+  $("votantes").textContent = vs.length ? `${vs.length} ${vs.length === 1 ? "voto" : "votos"}` : "sin votos todavía";
+}
+
+// ------------------------------------------------------------ Rankings
+function filaRanking(pos, s, valor) {
+  return el("li", { className: "fila" },
+    el("span", { className: "pos", textContent: pos }), imagen(s.youtubeId),
+    el("div", { style: "min-width:0" }, el("div", { className: "t", textContent: s.titulo }), el("div", { className: "a", textContent: `${s.banda || ""} · ${nombreRadio(s.radio)}` })),
+    el("span", { className: "v", textContent: valor }));
+}
+function pintarRankings() {
+  const porId = Object.fromEntries(S.solicitudes.map((s) => [s.id, s]));
+  const likes = {}; S.megusta.forEach((m) => { if (porId[m.cid]) likes[m.cid] = (likes[m.cid] || 0) + 1; });
+  const ol1 = $("rank-megusta"); ol1.textContent = "";
+  const top1 = Object.entries(likes).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  top1.forEach(([cid, n], i) => ol1.append(filaRanking(i + 1, porId[cid], `♥ ${n}`)));
+  if (!top1.length) ol1.append(el("li", { className: "vacio", textContent: "Todavía no hay me gusta. Escucha y marca los que más te gusten." }));
+
+  // Promedio bayesiano: (C·m + suma) / (C + n), con m = promedio general y C = 3 votos "de arranque".
+  const vs = S.votos.filter((v) => porId[v.cid]);
+  const m = vs.length ? vs.reduce((a, v) => a + v.puntaje, 0) / vs.length : 0;
+  const por = {}; vs.forEach((v) => { (por[v.cid] ||= []).push(v.puntaje); });
+  const top2 = Object.entries(por).map(([cid, xs]) => [cid, (3 * m + xs.reduce((a, b) => a + b, 0)) / (3 + xs.length), xs.length])
+    .sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const ol2 = $("rank-puntaje"); ol2.textContent = "";
+  top2.forEach(([cid, p, n], i) => ol2.append(filaRanking(i + 1, porId[cid], `${p.toFixed(1)} · ${n} ${n === 1 ? "voto" : "votos"}`)));
+  if (!top2.length) ol2.append(el("li", { className: "vacio", textContent: "Todavía no hay votos. Puntúa el tema que está sonando." }));
+}
+
+// ------------------------------------------------------------ Pedidos
+for (const r of C.radios) $("p-radio").append(el("option", { value: r.id, textContent: r.nombre }));
+$("p-nombre").value = guardado("radio.nombre", "");
+$("pedido").onsubmit = async (e) => {
+  e.preventDefault();
+  $("p-ok").hidden = true; $("p-error").hidden = true;
+  const link = $("p-link").value.trim(), id = ytId(link);
+  if (!id) { $("p-error").textContent = "Ese link no parece de YouTube. Copia el link del video, por ejemplo https://youtu.be/…"; $("p-error").hidden = false; return; }
+  const nombre = $("p-nombre").value.trim();
+  guardar("radio.nombre", nombre);
+  try {
+    await B.pedir({ link, youtubeId: id, titulo: $("p-titulo").value.trim(), banda: $("p-banda").value.trim(), radio: $("p-radio").value, pidio: nombre || "Anónimo", mensaje: $("p-mensaje").value.trim() });
+    $("pedido").reset(); $("p-nombre").value = nombre; $("p-ok").hidden = false;
+  } catch (err) { console.error(err); $("p-error").textContent = "No se pudo enviar el pedido. Revisa tu conexión y prueba de nuevo."; $("p-error").hidden = false; }
+};
+
+const ESTADOS = [["pendiente", "Esperando"], ["aprobada", "Al aire"], ["rechazada", "No entraron"], ["todas", "Todas"]];
+function pintarSolicitudes() {
+  const f = $("filtros"); f.textContent = "";
+  for (const [k, txt] of ESTADOS) {
+    const n = k === "todas" ? S.solicitudes.length : S.solicitudes.filter((s) => s.estado === k).length;
+    const b = el("button", { type: "button", textContent: `${txt} (${n})` });
+    b.setAttribute("aria-pressed", String(S.filtro === k));
+    b.onclick = () => { S.filtro = k; pintarSolicitudes(); };
+    f.append(b);
+  }
+  const ul = $("lista-solicitudes"); ul.textContent = "";
+  const lista = S.solicitudes.filter((s) => S.filtro === "todas" || s.estado === S.filtro).sort((a, b) => b.creada - a.creada).slice(0, 30);
+  if (!lista.length) ul.append(el("li", { className: "vacio", textContent: "No hay pedidos acá todavía." }));
+  const etiqueta = { pendiente: "Esperando", aprobada: "Al aire", rechazada: "No entró" };
+  for (const s of lista) {
+    ul.append(el("li", { className: "fila solicitud", style: "grid-template-columns:56px minmax(0,1fr) auto" },
+      imagen(s.youtubeId),
+      el("div", { style: "min-width:0" },
+        el("div", { className: "t", textContent: `${s.titulo} · ${s.banda || ""}` }),
+        el("div", { className: "a" }, `${nombreRadio(s.radio)} · pidió ${s.pidio || "Anónimo"}`, s.mensaje ? el("span", {}, " · ", el("q", { textContent: s.mensaje })) : null)),
+      el("span", { className: "chip " + s.estado, textContent: etiqueta[s.estado] || s.estado })));
+  }
+}
+
+// ------------------------------------------------------------ Panel de admin
+let ytPrevia = null, previaPara = null;
+function pintarAdmin() {
+  const admin = esAdmin();
+  $("panel-admin").hidden = !admin;
+  $("entrar").hidden = !!B.usuario.email; $("salir").hidden = !B.usuario.email;
+  $("pie-usuario").textContent = B.usuario.email ? (admin ? `Entraste como ${B.usuario.email}` : `${B.usuario.email} no está en la lista de admins (configuración al principio de index.html).`) : "";
+  if (!admin) return;
+  const cont = $("pendientes");
+  if (cont.contains(document.activeElement) && document.activeElement.tagName !== "BUTTON") return; // no borrar lo que están escribiendo
+  cont.textContent = "";
+  const pend = S.solicitudes.filter((s) => s.estado === "pendiente").sort((a, b) => a.creada - b.creada);
+  if (!pend.length) cont.append(el("p", { className: "vacio", textContent: "No hay pedidos esperando." }));
+  for (const s of pend) {
+    const campo = (k, label, valor, extra = {}) => {
+      const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, el("input", { type: "text", id: `m-${s.id}-${k}`, value: valor ?? "", placeholder: extra.ph || "" }));
+      l.htmlFor = `m-${s.id}-${k}`; return l;
+    };
+    const sel = el("select", { id: `m-${s.id}-radio` }, ...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre, selected: r.id === s.radio })));
+    const msg = el("p", { className: "error", hidden: true });
+    cont.append(el("div", { className: "moderar" },
+      el("div", {}, el("strong", { textContent: `${s.titulo} · ${s.banda}` }), el("div", { className: "nota-chica", style: "margin:0" },
+        `Pidió ${s.pidio || "Anónimo"}${s.mensaje ? ` · "${s.mensaje}"` : ""} · `, el("a", { href: s.link, target: "_blank", rel: "noopener", textContent: "abrir en YouTube" }))),
+      el("div", { className: "campos" },
+        campo("titulo", "Canción", s.titulo), campo("banda", "Banda", s.banda),
+        campo("album", "Álbum", s.album), campo("anio", "Año", s.anio),
+        campo("musicos", "Músicos", s.musicos, { ancho: true, ph: "Quiénes tocan" }),
+        campo("dato", "Dato de la canción", s.dato, { ancho: true, ph: "Algo que el oyente no sepa" }),
+        el("label", {}, "Radio", sel),
+        campo("duracion", "Duración (m:ss)", s.duracion ? fmt(s.duracion) : "", { ph: "Se llena al escuchar" })),
+      el("div", { className: "acciones" },
+        el("button", { type: "button", className: "icono", textContent: "▶ Escuchar", onclick: () => escucharPrevia(s) }),
+        el("button", { type: "button", className: "primario", textContent: "Aprobar", onclick: () => aprobar(s, msg) }),
+        el("button", { type: "button", className: "icono", textContent: "Rechazar", onclick: () => B.actualizar(s.id, { estado: "rechazada" }) })),
+      msg));
+  }
+}
+const valor = (s, k) => $(`m-${s.id}-${k}`).value.trim();
+function aprobar(s, msg) {
+  const dur = seg(valor(s, "duracion"));
+  if (!dur) { msg.textContent = "Falta la duración. Dale a Escuchar y se completa sola, o escríbela como 3:45."; msg.hidden = false; return; }
+  const anio = parseInt(valor(s, "anio"), 10);
+  B.actualizar(s.id, {
+    estado: "aprobada", titulo: valor(s, "titulo"), banda: valor(s, "banda"), album: valor(s, "album"),
+    anio: Number.isFinite(anio) ? anio : null, musicos: valor(s, "musicos"), dato: valor(s, "dato"),
+    radio: $(`m-${s.id}-radio`).value, duracion: dur,
+  }).catch((e) => { console.error(e); msg.textContent = "No se pudo aprobar. ¿Entraste con un correo que está en las reglas de Firebase?"; msg.hidden = false; });
+}
+function escucharPrevia(s) {
+  previaPara = s;
+  if (ytPrevia?.loadVideoById) ytPrevia.loadVideoById(s.youtubeId);
+}
+
+$("entrar").onclick = () => B.entrarAdmin().catch((e) => { console.error(e); $("pie-usuario").textContent = "No se pudo entrar con Google."; });
+$("salir").onclick = () => B.salir();
+
+// ------------------------------------------------------------ Reproductor en vivo (YouTube)
+let yt = null, ytListo = false;
+function reproducir() {
+  const it = S.actual;
+  $("portada").hidden = !it || S.encendida;
+  if (!S.encendida || !it) { if (ytListo) yt.stopVideo(); return; }
+  if (!ytListo) { $("aviso").textContent = "Cargando el reproductor de YouTube…"; return; }
+  $("aviso").textContent = "";
+  yt.loadVideoById({ videoId: it.youtubeId, startSeconds: (Date.now() - it.desde) / 1000 });
+}
+$("encender").onclick = () => {
+  S.encendida = !S.encendida;
+  document.body.classList.toggle("encendida", S.encendida);
+  $("encender").textContent = S.encendida ? "Dejar de escuchar" : "Escuchar en vivo";
+  reproducir();
+};
+const vol = $("vol");
+vol.value = guardado("radio.vol", 80);
+vol.oninput = () => { if (ytListo) yt.setVolume(+vol.value); guardar("radio.vol", +vol.value); };
+
+window.onYouTubeIframeAPIReady = () => {
+  yt = new YT.Player("yt-vivo", {
+    playerVars: { playsinline: 1, controls: 0, disablekb: 1, rel: 0 },
+    events: {
+      onReady: () => { ytListo = true; yt.setVolume(+vol.value); reproducir(); },
+      onError: () => { $("aviso").textContent = "YouTube no deja pasar este video fuera de su página. Cuando termine, sigue la próxima."; },
+    },
+  });
+  ytPrevia = new YT.Player("yt-previa", {
+    playerVars: { playsinline: 1, rel: 0 },
+    events: {
+      onStateChange: (e) => {
+        if (e.data !== YT.PlayerState.PLAYING || !previaPara) return;
+        const input = $(`m-${previaPara.id}-duracion`), d = ytPrevia.getDuration();
+        if (input && d && !input.value) input.value = fmt(d);
+      },
+    },
+  });
+};
+document.head.append(el("script", { src: "https://www.youtube.com/iframe_api" }));
+
+// ------------------------------------------------------------ Reloj
+function tic(forzar = false) {
+  const ahora = Date.now();
+  C.radios.forEach((r) => asegurarCola(r.id));
+  // Si nadie eligió radio todavía, arrancar en una que esté sonando.
+  if (!S.elegida && !sonandoEn(S.radio, ahora)) {
+    const viva = C.radios.find((r) => sonandoEn(r.id, ahora));
+    if (viva) { S.radio = viva.id; forzar = true; pintarDial(); }
+  }
+  const it = sonandoEn(S.radio, ahora);
+  if (forzar || !(mismo(it, S.actual) || (!it && !S.actual))) {
+    S.actual = it; pintarAhora(); pintarDial(); reproducir();
+  }
+  if (it) {
+    const pos = (ahora - it.desde) / 1000;
+    $("progreso").style.width = Math.min(100, (pos / it.dur) * 100) + "%";
+    $("t-actual").textContent = fmt(pos);
+    if (S.encendida && ytListo && yt.getPlayerState?.() === YT.PlayerState.PLAYING) {
+      const real = yt.getCurrentTime();
+      if (Math.abs(real - pos) > 4 && pos < it.dur - 3) yt.seekTo(pos, true);
+    }
+  } else { $("progreso").style.width = "0"; $("t-actual").textContent = "0:00"; }
+}
+
+// ------------------------------------------------------------ Datos en vivo
+B.escucharSolicitudes((l) => { S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); });
+for (const r of C.radios) B.escucharCola(r.id, (items) => { S.colas[r.id] = items; pintarDial(); if (r.id === S.radio) pintarHistorial(); tic(); });
+B.escucharMegusta((l) => { S.megusta = l; pintarMegusta(); pintarRankings(); });
+B.escucharVotos((l) => { S.votos = l; pintarVotos(); pintarRankings(); });
+B.alCambiarUsuario(() => { pintarAdmin(); pintarMegusta(); pintarVotos(); });
+
+pintarDial(); pintarAhora(); tic();
+setInterval(tic, 1000);
+</script>
+</body>
+</html>
