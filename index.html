@@ -31,6 +31,7 @@ window.RADIO_CONFIG = {
     messagingSenderId: "1035424324499",
     appId: "1:1035424324499:web:4f9663bde7a2a76ae0e666",
   },
+  crossfade: 6,
 };
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,7 +94,10 @@ window.RADIO_CONFIG = {
   @media (max-width: 820px) { .en-vivo { grid-template-columns: minmax(0, 1fr); } }
   .escenario { display: grid; gap: 20px; min-width: 0; }
   .portada { position: relative; aspect-ratio: 16 / 10; max-width: 100%; border-radius: 6px; overflow: hidden; background: var(--surface); box-shadow: 0 30px 60px -20px rgb(0 0 0 / .55); }
-  .portada img, .portada #yt-vivo, .portada iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; border: 0; }
+  .portada img, .portada .sin { z-index: 2; }
+  .portada img, .portada > div[id^="yt-vivo"], .portada iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; border: 0; }
+  .portada .nota-mp3 { font: 800 6rem var(--font-display); color: var(--accent); background: var(--surface); }
+  .fila .mini { display: grid; place-items: center; color: var(--muted); }
   .portada .sin { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 20px; color: var(--muted); }
   .etiqueta { font: 600 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
   h1 { font: 800 clamp(1.9rem, 4.6vw, 3.1rem)/1.04 var(--font-display); letter-spacing: -.025em; margin: 4px 0 6px; text-wrap: balance; }
@@ -135,6 +139,17 @@ window.RADIO_CONFIG = {
   .fila .v { font: 600 .85rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
   .fila.ahora .hora { color: var(--live); font-weight: 600; }
   .misterio { margin-top: 14px; padding: 12px 14px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); font-size: .92rem; }
+  aside { display: grid; gap: 24px; align-content: start; min-width: 0; }
+  .chat { display: grid; gap: 10px; }
+  .chat h2 { margin: 0; }
+  #chat-lista { max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px; padding-right: 4px; }
+  #chat-lista li { font-size: .92rem; overflow-wrap: anywhere; }
+  #chat-lista .quien { font-weight: 700; margin-right: 6px; }
+  #chat-lista .quien.admin { color: var(--accent); }
+  #chat-lista .cuando { color: var(--muted); font: .72rem var(--font-mono); margin-left: 6px; }
+  #chat-lista .borrar { background: none; border: 0; color: var(--muted); cursor: pointer; margin-left: 4px; }
+  #chat-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) auto; gap: 6px; }
+  @media (max-width: 480px) { #chat-form { grid-template-columns: minmax(0, 1fr) auto; } #chat-nombre { grid-column: 1 / -1; } }
   .vacio { color: var(--muted); font-size: .92rem; padding: 10px 0; }
 
   .dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
@@ -179,6 +194,17 @@ window.RADIO_CONFIG = {
   .moderar .acciones { display: flex; flex-wrap: wrap; gap: 8px; }
   .previa { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; background: var(--surface); border-radius: 4px; overflow: hidden; }
   .previa iframe { width: 100%; height: 100%; display: block; }
+  .fila-radio h4 { font: 800 1.1rem var(--font-display); margin: 0 0 6px; }
+  .fila-radio li { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: .9rem; }
+  .fila-radio li .hora { font: .78rem var(--font-mono); color: var(--muted); }
+  .fila-radio li .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fila-radio li .btns { display: flex; gap: 4px; }
+  .fila-radio li .btns button { border: 1px solid var(--line); background: transparent; border-radius: 4px; padding: 2px 8px; cursor: pointer; }
+  .fila-radio .agregar { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; margin-top: 8px; }
+  #previa-mp3 audio { width: 100%; max-width: 360px; }
+  .cancion-aire { border-bottom: 1px solid var(--line); padding: 8px 0; }
+  .cancion-aire summary { cursor: pointer; font-weight: 700; }
+  .cancion-aire[open] .moderar { border-bottom: 0; padding-top: 12px; }
   footer { color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
   .enlace { background: none; border: 0; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; font-size: .85rem; }
 
@@ -199,8 +225,10 @@ window.RADIO_CONFIG = {
   <section class="en-vivo" aria-live="polite">
     <div class="escenario">
       <div class="portada">
-        <div id="yt-vivo"></div>
+        <div id="yt-vivo-0"></div>
+        <div id="yt-vivo-1"></div>
         <img id="portada" alt="">
+        <div class="sin nota-mp3" id="nota-mp3" hidden>♪</div>
         <div class="sin" id="sin-musica" hidden>Esta radio todavía no tiene canciones aprobadas.<br>Pidan una más abajo.</div>
       </div>
       <div>
@@ -222,7 +250,7 @@ window.RADIO_CONFIG = {
       <div class="puntaje">
         <div class="cab">
           <div><div class="etiqueta">Puntaje en vivo</div><div class="promedio" id="promedio">–<small id="votantes">sin votos</small></div></div>
-          <div class="nota-chica" style="margin:0">¿Cuánto le das a este tema?</div>
+          <div class="nota-chica" style="margin:0" id="voto-mio">¿Cuánto le das a este tema?</div>
         </div>
         <div class="notas" id="notas" role="group" aria-label="Votar del 1 al 10"></div>
       </div>
@@ -231,7 +259,16 @@ window.RADIO_CONFIG = {
     <aside>
       <h2>Lo que sonó</h2>
       <ol id="historial"></ol>
-      <div class="misterio">¿Qué viene después? Ni nosotros sabemos. Quédate escuchando.</div>
+      <div class="misterio">¿Qué viene después? Solo Galo y Nake lo saben. Quédate escuchando.</div>
+      <div class="chat">
+        <h2>Chat en vivo</h2>
+        <ol id="chat-lista" aria-live="polite"></ol>
+        <form id="chat-form">
+          <input type="text" id="chat-nombre" placeholder="Tu nombre" maxlength="30" aria-label="Tu nombre">
+          <input type="text" id="chat-texto" placeholder="Escribe algo…" maxlength="300" aria-label="Mensaje" required>
+          <button class="primario" type="submit">Enviar</button>
+        </form>
+      </div>
     </aside>
   </section>
 
@@ -286,10 +323,29 @@ window.RADIO_CONFIG = {
   <section class="admin" id="panel-admin" hidden>
     <div>
       <h3>Panel de Galo y Nake</h3>
-      <p class="nota-chica" style="margin:0">Escucha el pedido, completa los datos y apruébalo o recházalo. La duración se llena sola al darle a "Escuchar".</p>
+      <p class="nota-chica" style="margin:0">Aprueben pedidos, sumen sus MP3, ordenen lo que viene y corrijan canciones. La duración se toma sola del video o del archivo.</p>
     </div>
-    <div class="previa"><div id="yt-previa"></div></div>
-    <div id="pendientes"></div>
+    <div class="previa" id="previa-yt"><div id="yt-previa"></div></div>
+    <div id="previa-mp3" hidden></div>
+    <div>
+      <h2>Fila de reproducción (solo la ven ustedes)</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Lo que va a sonar en cada radio. Suban, bajen o saquen temas, o pongan uno para que suene después del actual.</p>
+      <div id="fila" class="dos"></div>
+    </div>
+    <div>
+      <h2>Pedidos esperando</h2>
+      <div id="pendientes"></div>
+    </div>
+    <div>
+      <h2>Agregar un MP3 propio</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Primero suban el archivo a su repositorio de GitHub (ver la guía). Después escriban acá su nombre exacto. La duración se completa sola.</p>
+      <div id="nuevo-mp3"></div>
+    </div>
+    <div>
+      <h2>Canciones al aire</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Toquen una para corregir sus datos o sacarla de la radio.</p>
+      <div id="al-aire"></div>
+    </div>
   </section>
 
   <footer>
@@ -354,8 +410,13 @@ async function conectarFirebase(config) {
     },
 
     escucharVotos: (cb) => lista(fs.collection(db, "votos"), cb),
-    votar: (emision, cid, puntaje) =>
-      fs.setDoc(fs.doc(db, "votos", emision + "__" + usuario.uid), { uid: usuario.uid, cid, emision, puntaje }),
+    // Un voto por persona y canción: el documento se crea una sola vez y las reglas no dejan cambiarlo.
+    votar: (cid, puntaje) =>
+      fs.setDoc(fs.doc(db, "votos", cid + "__" + usuario.uid), { uid: usuario.uid, cid, puntaje, t: Date.now() }),
+
+    escucharChat: (cb) => lista(fs.query(fs.collection(db, "chat"), fs.orderBy("t", "desc"), fs.limit(60)), cb),
+    escribir: (nombre, texto, admin) => fs.addDoc(fs.collection(db, "chat"), { uid: usuario.uid, nombre, texto, admin, t: Date.now() }),
+    borrarMensaje: (id) => fs.deleteDoc(fs.doc(db, "chat", id)),
   };
 }
 
@@ -389,7 +450,7 @@ function conectarDemo(config) {
     salir: async () => { usuario.email = null; avisar(); },
 
     escucharSolicitudes: (cb) => escuchar(() => Object.entries(estado.solicitudes).map(([id, d]) => ({ id, ...d })), cb),
-    pedir: async (datos) => { estado.solicitudes["s" + Date.now()] = { ...datos, estado: "pendiente", creada: Date.now(), uid }; guardar(); },
+    pedir: async (datos) => { const id = "s" + Date.now(); estado.solicitudes[id] = { ...datos, estado: "pendiente", creada: Date.now(), uid }; guardar(); return { id }; },
     actualizar: async (id, cambios) => { Object.assign(estado.solicitudes[id], cambios); guardar(); },
 
     escucharCola: (radio, cb) => escuchar(() => estado.colas[radio] || [], cb),
@@ -399,7 +460,15 @@ function conectarDemo(config) {
     alternarMegusta: async (cid, poner) => { const id = uid + "_" + cid; if (poner) estado.megusta[id] = { uid, cid }; else delete estado.megusta[id]; guardar(); },
 
     escucharVotos: (cb) => escuchar(() => Object.entries(estado.votos).map(([id, d]) => ({ id, ...d })), cb),
-    votar: async (emision, cid, puntaje) => { estado.votos[emision + "__" + uid] = { uid, cid, emision, puntaje }; guardar(); },
+    votar: async (cid, puntaje) => {
+      const id = cid + "__" + uid;
+      if (estado.votos[id]) throw new Error("ya votaste");
+      estado.votos[id] = { uid, cid, puntaje, t: Date.now() }; guardar();
+    },
+
+    escucharChat: (cb) => escuchar(() => Object.entries(estado.chat ||= {}).map(([id, d]) => ({ id, ...d })).sort((a, b) => b.t - a.t).slice(0, 60), cb),
+    escribir: async (nombre, texto, admin) => { (estado.chat ||= {})["c" + Date.now()] = { uid, nombre, texto, admin, t: Date.now() }; guardar(); },
+    borrarMensaje: async (id) => { delete estado.chat[id]; guardar(); },
   };
 }
 
@@ -433,7 +502,14 @@ const miniatura = (id) => id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : ""
 const guardado = (k, d) => { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } };
 const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || id;
-const imagen = (id) => { const i = el("img", { alt: "", loading: "lazy", src: miniatura(id) }); i.onerror = () => i.replaceWith(el("span", { className: "mini" })); return i; };
+const tema = (x) => [x.titulo, x.banda].filter(Boolean).join(" · ");
+const portadaDe = (x) => (x && (x.portada || miniatura(x.youtubeId))) || "";
+const rutaMp3 = (x) => encodeURI(x.mp3);
+const imagen = (x) => {
+  const src = portadaDe(x);
+  if (!src) return el("span", { className: "mini", textContent: "♪" });
+  const i = el("img", { alt: "", loading: "lazy", src }); i.onerror = () => i.replaceWith(el("span", { className: "mini", textContent: "♪" })); return i;
+};
 
 $("nombre-radio").textContent = C.nombre;
 document.title = C.nombre;
@@ -451,29 +527,36 @@ const S = {
 };
 const aprobadas = (radio) => S.solicitudes.filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
 const esAdmin = () => !!B.usuario.email && C.admins.map((a) => a.toLowerCase()).includes(B.usuario.email.toLowerCase());
-const emisionDe = (it) => S.radio + "_" + it.desde;
 const mismo = (a, b) => !!a && !!b && a.desde === b.desde && a.cid === b.cid;
 
 // ------------------------------------------------------------ Programación en vivo
 // La cola de cada radio vive en la base de datos: todos leen la misma y suenan juntos.
-// Solo se agenda lo próximo a sonar, al azar, y la página nunca lo muestra.
+// Se agenda al azar unos minutos hacia adelante. Los oyentes no ven lo que viene; Galo y Nake sí, y lo pueden cambiar.
+// Cada canción arranca XF segundos antes de que termine la anterior: ese solapamiento es el crossfade.
+const XF = Math.max(0, Number(C.crossfade ?? 6));
 const fin = (it) => it.desde + it.dur * 1000;
+const itemDe = (s, desde) => ({ cid: s.id, desde, dur: s.duracion, titulo: s.titulo, banda: s.banda || "", youtubeId: s.youtubeId || null, mp3: s.mp3 || null, portada: s.portada || null });
+const paso = (it) => Math.max(it.dur - XF, Math.min(it.dur, 10)) * 1000;
 function planificar(radio) {
   return (items) => {
     const ahora = Date.now(), pool = aprobadas(radio);
     if (!pool.length) return null;
-    const lista = items.filter((it) => fin(it) > ahora - 6 * 3600e3).slice(-20);
-    let t = lista.length ? fin(lista.at(-1)) : 0;
-    if (t >= ahora + 3 * 60e3) return null; // otro oyente ya la extendió
+    const lista = items.filter((it) => fin(it) > ahora - 6 * 3600e3).slice(-25);
+    const ultimo = lista.at(-1);
+    let futuras = lista.filter((it) => it.desde > ahora).length;
+    if (futuras >= Math.min(2, pool.length)) return null; // otro oyente ya la extendió
+    let t = ultimo ? ultimo.desde + paso(ultimo) : 0;
     if (t < ahora) t = ahora;
-    while (t < ahora + 8 * 60e3) {
+    // Se agendan solo unas pocas canciones hacia adelante, así lo recién aprobado entra rápido.
+    while (futuras < Math.min(3, pool.length) || t < ahora + 60e3) {
+      futuras++;
       const k = Math.min(pool.length - 1, 5);
       const recientes = k > 0 ? lista.slice(-k).map((i) => i.cid) : [];
       const opciones = pool.filter((s) => !recientes.includes(s.id));
       const elegibles = opciones.length ? opciones : pool;
-      const s = elegibles[Math.floor(Math.random() * elegibles.length)];
-      lista.push({ cid: s.id, desde: t, dur: s.duracion, titulo: s.titulo, banda: s.banda || "", youtubeId: s.youtubeId });
-      t += s.duracion * 1000;
+      const it = itemDe(elegibles[Math.floor(Math.random() * elegibles.length)], t);
+      lista.push(it);
+      t += paso(it);
     }
     return lista;
   };
@@ -482,13 +565,38 @@ const extendiendo = {};
 function asegurarCola(radio) {
   const items = S.colas[radio];
   if (!items || !aprobadas(radio).length) return;
-  const ultimo = items.at(-1);
-  if (ultimo && fin(ultimo) > Date.now() + 3 * 60e3) return;
+  if (items.filter((it) => it.desde > Date.now()).length >= Math.min(2, aprobadas(radio).length)) return;
   if (extendiendo[radio] && Date.now() - extendiendo[radio] < 8000) return;
   extendiendo[radio] = Date.now();
   B.extenderCola(radio, planificar(radio)).catch((e) => console.error("No se pudo programar la radio", e));
 }
-const sonandoEn = (radio, t = Date.now()) => (S.colas[radio] || []).find((it) => it.desde <= t && t < fin(it)) || null;
+// Si dos canciones se solapan (crossfade), manda la que empezó más tarde.
+const sonandoEn = (radio, t = Date.now()) => [...(S.colas[radio] || [])].reverse().find((it) => it.desde <= t && t < fin(it)) || null;
+
+// Cambios de Galo y Nake a la fila: se aplican sobre la versión más nueva y se recalculan los horarios.
+function cambiarFila(radio, cambio) {
+  return B.extenderCola(radio, (items) => {
+    const ahora = Date.now();
+    const fijas = items.filter((it) => it.desde <= ahora);
+    const futuras = cambio(items.filter((it) => it.desde > ahora).map((it) => ({ ...it })));
+    if (!futuras) return null;
+    const ult = fijas.at(-1);
+    let t = ult ? Math.max(ahora + 1000, ult.desde + paso(ult)) : ahora + 1000;
+    for (const it of futuras) { it.desde = t; t += paso(it); }
+    return [...fijas, ...futuras];
+  });
+}
+const claveItem = (it) => it.cid + "@" + it.desde;
+const moverEnFila = (radio, clave, dir) => cambiarFila(radio, (f) => {
+  const i = f.findIndex((it) => claveItem(it) === clave), j = i + dir;
+  if (i < 0 || j < 0 || j >= f.length) return null;
+  [f[i], f[j]] = [f[j], f[i]]; return f;
+});
+const quitarDeFila = (radio, clave) => cambiarFila(radio, (f) => {
+  const i = f.findIndex((it) => claveItem(it) === clave);
+  if (i < 0) return null; f.splice(i, 1); return f;
+});
+const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f) => [itemDe(cancion, 0), ...f]);
 
 // ------------------------------------------------------------ Dial de radios
 function pintarDial() {
@@ -498,7 +606,7 @@ function pintarDial() {
     const b = el("button", { className: "emisora" },
       el("span", { className: "vivo" + (it ? "" : " off"), textContent: it ? "En vivo" : "En silencio" }),
       el("span", { className: "n", textContent: r.nombre }),
-      el("span", { className: "q", textContent: it ? `${it.titulo} · ${it.banda}` : r.lema || "" }));
+      el("span", { className: "q", textContent: it ? tema(it) : r.lema || "" }));
     b.setAttribute("aria-pressed", String(r.id === S.radio));
     b.onclick = () => { S.elegida = true; if (S.radio === r.id) return; S.radio = r.id; guardar("radio.radio", r.id); S.actual = null; pintarDial(); tic(true); };
     d.append(b);
@@ -511,7 +619,7 @@ function pintarAhora() {
   const it = S.actual;
   $("radio-actual").textContent = nombreRadio(S.radio);
   $("sin-musica").hidden = !!it || aprobadas(S.radio).length > 0;
-  $("portada").hidden = !it || S.encendida;
+  mostrarPortada();
   const ficha = $("ficha"); ficha.textContent = "";
   if (!it) {
     $("titulo").textContent = aprobadas(S.radio).length ? "Sintonizando…" : "En silencio";
@@ -523,8 +631,10 @@ function pintarAhora() {
   $("banda").textContent = s.banda || "";
   const filas = [["Álbum", s.album], ["Año", s.anio], ["Músicos", s.musicos], ["Dato", s.dato], ["La pidió", s.pidio]];
   for (const [k, v] of filas) if (v) ficha.append(el("dt", { textContent: k }), el("dd", { textContent: String(v) }));
-  $("portada").src = miniatura(it.youtubeId);
-  $("ambiente").style.backgroundImage = `url("${miniatura(it.youtubeId)}")`;
+  const src = portadaDe(it);
+  if (src) $("portada").src = src; else $("portada").removeAttribute("src");
+  mostrarPortada();
+  $("ambiente").style.backgroundImage = src ? `url("${src}")` : "none";
   $("t-total").textContent = fmt(it.dur);
   pintarMegusta(); pintarHistorial(); pintarVotos();
 }
@@ -538,7 +648,7 @@ function pintarHistorial() {
     const enAire = mismo(it, S.actual);
     ol.append(el("li", { className: "fila" + (enAire ? " ahora" : "") },
       el("span", { className: "hora", textContent: enAire ? "AHORA" : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
-      imagen(it.youtubeId),
+      imagen(it),
       el("div", { style: "min-width:0" }, el("div", { className: "t", textContent: it.titulo }), el("div", { className: "a", textContent: it.banda })),
       el("span")));
   }
@@ -562,31 +672,52 @@ for (let n = 1; n <= 10; n++) {
   b.dataset.n = n;
   b.onclick = () => {
     if (!S.actual || !B.usuario.uid) return;
-    B.votar(emisionDe(S.actual), S.actual.cid, n).catch(() => { $("aviso").textContent = "No se pudo guardar tu voto. Prueba de nuevo."; });
+    if (votosUnicos().some((v) => v.cid === S.actual.cid && v.uid === B.usuario.uid)) return;
+    B.votar(S.actual.cid, n).catch(() => { $("aviso").textContent = "No se pudo guardar tu voto. Puede que ya hayas votado este tema."; });
   };
   $("notas").append(b);
 }
+// Un voto por persona y canción (si quedaron votos viejos repetidos, cuenta el primero).
+function votosUnicos() {
+  const vistos = new Set();
+  return [...S.votos].sort((a, b) => (a.t || 0) - (b.t || 0)).filter((v) => {
+    const k = v.uid + "|" + v.cid; if (vistos.has(k)) return false; vistos.add(k); return true;
+  });
+}
+// Promedio ponderado (bayesiano): (C·m + suma) / (C + n), con m = promedio de todos los votos y C = 3.
+// Así una canción con pocos votos arranca cerca del promedio general y se mueve a medida que la votan.
+function puntajes() {
+  const vs = votosUnicos();
+  const m = vs.length ? vs.reduce((a, v) => a + v.puntaje, 0) / vs.length : 0;
+  const por = {};
+  vs.forEach((v) => { (por[v.cid] ||= []).push(v.puntaje); });
+  const r = {};
+  for (const [cid, xs] of Object.entries(por)) {
+    const suma = xs.reduce((a, b) => a + b, 0);
+    r[cid] = { n: xs.length, simple: suma / xs.length, ponderado: (3 * m + suma) / (3 + xs.length), xs };
+  }
+  return r;
+}
 function pintarVotos() {
-  const em = S.actual ? emisionDe(S.actual) : null;
-  const vs = em ? S.votos.filter((v) => v.emision === em) : [];
-  const conteo = Array(11).fill(0); vs.forEach((v) => conteo[v.puntaje]++);
+  const p = S.actual ? puntajes()[S.actual.cid] : null;
+  const conteo = Array(11).fill(0); (p?.xs || []).forEach((x) => conteo[x]++);
   const max = Math.max(1, ...conteo);
-  const mio = vs.find((v) => v.uid === B.usuario.uid);
+  const mio = S.actual && votosUnicos().find((v) => v.cid === S.actual.cid && v.uid === B.usuario.uid);
   for (const b of $("notas").children) {
     const n = +b.dataset.n;
     b.setAttribute("aria-pressed", String(mio?.puntaje === n));
     b.querySelector(".b").style.height = (conteo[n] / max) * 100 + "%";
-    b.disabled = !S.actual;
+    b.disabled = !S.actual || !!mio;
   }
-  const prom = vs.length ? vs.reduce((a, v) => a + v.puntaje, 0) / vs.length : null;
-  $("promedio").firstChild.textContent = prom === null ? "–" : prom.toFixed(1);
-  $("votantes").textContent = vs.length ? `${vs.length} ${vs.length === 1 ? "voto" : "votos"}` : "sin votos todavía";
+  $("promedio").firstChild.textContent = p ? p.ponderado.toFixed(1) : "–";
+  $("votantes").textContent = p ? `ponderado · ${p.n} ${p.n === 1 ? "voto" : "votos"} · promedio simple ${p.simple.toFixed(1)}` : "sin votos todavía";
+  $("voto-mio").textContent = mio ? `Ya votaste: le diste ${mio.puntaje}.` : "Puedes votar una sola vez por canción.";
 }
 
 // ------------------------------------------------------------ Rankings
 function filaRanking(pos, s, valor) {
   return el("li", { className: "fila" },
-    el("span", { className: "pos", textContent: pos }), imagen(s.youtubeId),
+    el("span", { className: "pos", textContent: pos }), imagen(s),
     el("div", { style: "min-width:0" }, el("div", { className: "t", textContent: s.titulo }), el("div", { className: "a", textContent: `${s.banda || ""} · ${nombreRadio(s.radio)}` })),
     el("span", { className: "v", textContent: valor }));
 }
@@ -598,11 +729,7 @@ function pintarRankings() {
   top1.forEach(([cid, n], i) => ol1.append(filaRanking(i + 1, porId[cid], `♥ ${n}`)));
   if (!top1.length) ol1.append(el("li", { className: "vacio", textContent: "Todavía no hay me gusta. Escucha y marca los que más te gusten." }));
 
-  // Promedio bayesiano: (C·m + suma) / (C + n), con m = promedio general y C = 3 votos "de arranque".
-  const vs = S.votos.filter((v) => porId[v.cid]);
-  const m = vs.length ? vs.reduce((a, v) => a + v.puntaje, 0) / vs.length : 0;
-  const por = {}; vs.forEach((v) => { (por[v.cid] ||= []).push(v.puntaje); });
-  const top2 = Object.entries(por).map(([cid, xs]) => [cid, (3 * m + xs.reduce((a, b) => a + b, 0)) / (3 + xs.length), xs.length])
+  const top2 = Object.entries(puntajes()).filter(([cid]) => porId[cid]).map(([cid, p]) => [cid, p.ponderado, p.n])
     .sort((a, b) => b[1] - a[1]).slice(0, 10);
   const ol2 = $("rank-puntaje"); ol2.textContent = "";
   top2.forEach(([cid, p, n], i) => ol2.append(filaRanking(i + 1, porId[cid], `${p.toFixed(1)} · ${n} ${n === 1 ? "voto" : "votos"}`)));
@@ -641,110 +768,315 @@ function pintarSolicitudes() {
   const etiqueta = { pendiente: "Esperando", aprobada: "Al aire", rechazada: "No entró" };
   for (const s of lista) {
     ul.append(el("li", { className: "fila solicitud", style: "grid-template-columns:56px minmax(0,1fr) auto" },
-      imagen(s.youtubeId),
+      imagen(s),
       el("div", { style: "min-width:0" },
-        el("div", { className: "t", textContent: `${s.titulo} · ${s.banda || ""}` }),
+        el("div", { className: "t", textContent: tema(s) }),
         el("div", { className: "a" }, `${nombreRadio(s.radio)} · pidió ${s.pidio || "Anónimo"}`, s.mensaje ? el("span", {}, " · ", el("q", { textContent: s.mensaje })) : null)),
       el("span", { className: "chip " + s.estado, textContent: etiqueta[s.estado] || s.estado })));
   }
 }
 
+// ------------------------------------------------------------ Chat en vivo
+S.chat = [];
+$("chat-nombre").value = guardado("radio.nombre", "");
+function pintarChat() {
+  const ol = $("chat-lista");
+  const abajo = ol.scrollHeight - ol.scrollTop - ol.clientHeight < 40;
+  ol.textContent = "";
+  if (!S.chat.length) ol.append(el("li", { className: "vacio", textContent: "Nadie escribió todavía. ¡Estrena el chat!" }));
+  for (const m of [...S.chat].reverse()) {
+    ol.append(el("li", {},
+      el("span", { className: "quien" + (m.admin ? " admin" : ""), textContent: (m.nombre || "Anónimo") + (m.admin ? " 🎸" : "") }),
+      el("span", { textContent: m.texto }),
+      el("span", { className: "cuando", textContent: new Date(m.t).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+      esAdmin() ? el("button", { className: "borrar", type: "button", title: "Borrar mensaje", textContent: "✕", onclick: () => B.borrarMensaje(m.id) }) : null));
+  }
+  if (abajo) ol.scrollTop = ol.scrollHeight;
+}
+$("chat-form").onsubmit = async (e) => {
+  e.preventDefault();
+  const texto = $("chat-texto").value.trim(), nombre = $("chat-nombre").value.trim() || "Anónimo";
+  if (!texto || !B.usuario.uid) return;
+  guardar("radio.nombre", nombre === "Anónimo" ? "" : nombre);
+  $("chat-texto").value = "";
+  try { await B.escribir(nombre, texto, esAdmin()); $("chat-lista").scrollTop = 1e9; }
+  catch (err) { console.error(err); $("chat-texto").value = texto; $("aviso").textContent = "No se pudo mandar el mensaje. Prueba de nuevo."; }
+};
+
 // ------------------------------------------------------------ Panel de admin
 let ytPrevia = null, previaPara = null;
+const previaMp3 = new Audio();
+previaMp3.controls = true;
+const campo = (s, k, label, valor, extra = {}) => {
+  const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, el("input", { type: "text", id: `m-${s.id}-${k}`, value: valor ?? "", placeholder: extra.ph || "" }));
+  l.htmlFor = `m-${s.id}-${k}`; return l;
+};
+const valor = (s, k) => ($(`m-${s.id}-${k}`)?.value || "").trim();
+
+// Ficha editable de una canción: sirve para aprobar pedidos, corregir canciones al aire y cargar MP3.
+function ficha(s, modo) {
+  const sel = el("select", { id: `m-${s.id}-radio` }, ...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre, selected: r.id === s.radio })));
+  const msg = el("p", { className: "error", hidden: true });
+  const esMp3 = modo === "nuevo-mp3" || !!s.mp3;
+  const origen = esMp3
+    ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" }),
+       campo(s, "portada", "Portada (opcional: nombre de una imagen en GitHub, o link https)", s.portada, { ancho: true, ph: "ej: portada.jpg" })]
+    : [];
+  const acciones = {
+    pendiente: [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Aprobar", "primario", () => guardarFicha(s, msg, "aprobar")], ["Rechazar", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
+    aprobada: [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Guardar cambios", "primario", () => guardarFicha(s, msg, "guardar")], ["Sacar de la radio", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
+    "nuevo-mp3": [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Agregar a la radio", "primario", () => guardarFicha(s, msg, "crear")]],
+  }[modo];
+  return el("div", { className: "moderar" },
+    modo === "pendiente" ? el("div", {}, el("strong", { textContent: tema(s) }), el("div", { className: "nota-chica", style: "margin:0" },
+      `Pidió ${s.pidio || "Anónimo"}${s.mensaje ? ` · "${s.mensaje}"` : ""} · `, el("a", { href: s.link, target: "_blank", rel: "noopener", textContent: "abrir en YouTube" }))) : null,
+    el("div", { className: "campos" },
+      ...origen,
+      campo(s, "titulo", "Canción", s.titulo), campo(s, "banda", "Banda", s.banda),
+      campo(s, "album", "Álbum", s.album), campo(s, "anio", "Año", s.anio),
+      campo(s, "musicos", "Músicos", s.musicos, { ancho: true, ph: "Quiénes tocan" }),
+      campo(s, "dato", "Dato de la canción", s.dato, { ancho: true, ph: "Algo que el oyente no sepa" }),
+      el("label", {}, "Radio", sel),
+      campo(s, "duracion", "Duración (m:ss)", s.duracion ? fmt(s.duracion) : "", { ph: "Automática" })),
+    el("div", { className: "acciones" }, ...acciones.map(([t, c, f]) => el("button", { type: "button", className: c, textContent: t, onclick: f }))),
+    msg);
+}
+
+let nuevoMp3 = { id: "nuevo" + Date.now(), radio: C.radios[0].id };
 function pintarAdmin() {
   const admin = esAdmin();
   $("panel-admin").hidden = !admin;
   $("entrar").hidden = !!B.usuario.email; $("salir").hidden = !B.usuario.email;
   $("pie-usuario").textContent = B.usuario.email ? (admin ? `Entraste como ${B.usuario.email}` : `${B.usuario.email} no está en la lista de admins (configuración al principio de index.html).`) : "";
   if (!admin) return;
-  const cont = $("pendientes");
-  if (cont.contains(document.activeElement) && document.activeElement.tagName !== "BUTTON") return; // no borrar lo que están escribiendo
-  cont.textContent = "";
+  const panel = $("panel-admin");
+  if (panel.contains(document.activeElement) && document.activeElement.tagName !== "BUTTON") return; // no borrar lo que están escribiendo
+  const abiertos = new Set([...panel.querySelectorAll("details[open]")].map((d) => d.dataset.id));
+
+  const cont = $("pendientes"); cont.textContent = "";
   const pend = S.solicitudes.filter((s) => s.estado === "pendiente").sort((a, b) => a.creada - b.creada);
   if (!pend.length) cont.append(el("p", { className: "vacio", textContent: "No hay pedidos esperando." }));
-  for (const s of pend) {
-    const campo = (k, label, valor, extra = {}) => {
-      const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, el("input", { type: "text", id: `m-${s.id}-${k}`, value: valor ?? "", placeholder: extra.ph || "" }));
-      l.htmlFor = `m-${s.id}-${k}`; return l;
-    };
-    const sel = el("select", { id: `m-${s.id}-radio` }, ...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre, selected: r.id === s.radio })));
-    const msg = el("p", { className: "error", hidden: true });
-    cont.append(el("div", { className: "moderar" },
-      el("div", {}, el("strong", { textContent: `${s.titulo} · ${s.banda}` }), el("div", { className: "nota-chica", style: "margin:0" },
-        `Pidió ${s.pidio || "Anónimo"}${s.mensaje ? ` · "${s.mensaje}"` : ""} · `, el("a", { href: s.link, target: "_blank", rel: "noopener", textContent: "abrir en YouTube" }))),
-      el("div", { className: "campos" },
-        campo("titulo", "Canción", s.titulo), campo("banda", "Banda", s.banda),
-        campo("album", "Álbum", s.album), campo("anio", "Año", s.anio),
-        campo("musicos", "Músicos", s.musicos, { ancho: true, ph: "Quiénes tocan" }),
-        campo("dato", "Dato de la canción", s.dato, { ancho: true, ph: "Algo que el oyente no sepa" }),
-        el("label", {}, "Radio", sel),
-        campo("duracion", "Duración (m:ss)", s.duracion ? fmt(s.duracion) : "", { ph: "Se llena al escuchar" })),
-      el("div", { className: "acciones" },
-        el("button", { type: "button", className: "icono", textContent: "▶ Escuchar", onclick: () => escucharPrevia(s) }),
-        el("button", { type: "button", className: "primario", textContent: "Aprobar", onclick: () => aprobar(s, msg) }),
-        el("button", { type: "button", className: "icono", textContent: "Rechazar", onclick: () => B.actualizar(s.id, { estado: "rechazada" }) })),
-      msg));
+  pend.forEach((s) => cont.append(ficha(s, "pendiente")));
+
+  if (!$(`m-${nuevoMp3.id}-titulo`)) { $("nuevo-mp3").textContent = ""; $("nuevo-mp3").append(ficha(nuevoMp3, "nuevo-mp3")); }
+
+  const aire = $("al-aire"); aire.textContent = "";
+  const lista = S.solicitudes.filter((s) => s.estado === "aprobada").sort((a, b) => (a.radio + a.titulo).localeCompare(b.radio + b.titulo));
+  if (!lista.length) aire.append(el("p", { className: "vacio", textContent: "Todavía no hay canciones aprobadas." }));
+  for (const s of lista) {
+    const d = el("details", { className: "cancion-aire", open: abiertos.has(s.id) },
+      el("summary", { textContent: `${tema(s)} — ${nombreRadio(s.radio)}${s.mp3 ? " · MP3" : ""}` }), ficha(s, "aprobada"));
+    d.dataset.id = s.id;
+    aire.append(d);
+  }
+  pintarFila();
+}
+
+function pintarFila() {
+  if (!esAdmin()) return;
+  const cont = $("fila");
+  if (cont.contains(document.activeElement) && document.activeElement.tagName === "SELECT") return;
+  cont.textContent = "";
+  const ahora = Date.now();
+  for (const r of C.radios) {
+    const futuras = (S.colas[r.id] || []).filter((it) => it.desde > ahora);
+    const ol = el("ol");
+    if (!futuras.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
+    futuras.forEach((it, i) => {
+      const k = claveItem(it);
+      const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; return x; };
+      ol.append(el("li", {},
+        el("span", { className: "hora", textContent: new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+        el("span", { className: "t", textContent: `${tema(it)}${it.mp3 ? " · MP3" : ""}` }),
+        el("span", { className: "btns" },
+          b("↑", "Subir", () => moverEnFila(r.id, k, -1), i === 0),
+          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === futuras.length - 1),
+          b("✕", "Sacar de la fila", () => quitarDeFila(r.id, k)))));
+    });
+    const sel = el("select", { id: "fila-sel-" + r.id }, el("option", { value: "", textContent: "Elegir canción…" }),
+      ...aprobadas(r.id).sort((a, b) => a.titulo.localeCompare(b.titulo)).map((s) => el("option", { value: s.id, textContent: tema(s) })));
+    const poner = el("button", { type: "button", className: "icono", textContent: "Que suene después", onclick: () => {
+      const s = S.solicitudes.find((x) => x.id === sel.value); if (s) ponerSiguiente(r.id, s).then(() => { sel.value = ""; pintarFila(); });
+    } });
+    cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner)));
   }
 }
-const valor = (s, k) => $(`m-${s.id}-${k}`).value.trim();
-function aprobar(s, msg) {
+
+function leerFicha(s) {
   const dur = seg(valor(s, "duracion"));
-  if (!dur) { msg.textContent = "Falta la duración. Dale a Escuchar y se completa sola, o escríbela como 3:45."; msg.hidden = false; return; }
   const anio = parseInt(valor(s, "anio"), 10);
-  B.actualizar(s.id, {
-    estado: "aprobada", titulo: valor(s, "titulo"), banda: valor(s, "banda"), album: valor(s, "album"),
+  const datos = {
+    titulo: valor(s, "titulo"), banda: valor(s, "banda"), album: valor(s, "album"),
     anio: Number.isFinite(anio) ? anio : null, musicos: valor(s, "musicos"), dato: valor(s, "dato"),
     radio: $(`m-${s.id}-radio`).value, duracion: dur,
-  }).catch((e) => { console.error(e); msg.textContent = "No se pudo aprobar. ¿Entraste con un correo que está en las reglas de Firebase?"; msg.hidden = false; });
+  };
+  if ($(`m-${s.id}-mp3`)) { datos.mp3 = valor(s, "mp3"); datos.portada = valor(s, "portada") || null; }
+  return datos;
+}
+async function guardarFicha(s, msg, accion) {
+  msg.hidden = true;
+  const d = leerFicha(s);
+  const error = (t) => { msg.textContent = t; msg.hidden = false; };
+  if (accion === "crear" && (!d.mp3 || !d.titulo)) return error("Faltan el archivo MP3 y el nombre de la canción.");
+  if (!d.duracion) {
+    msg.className = "nota-chica"; msg.textContent = "Buscando la duración…"; msg.hidden = false;
+    d.duracion = await duracionAuto(s);
+    msg.className = "error"; msg.hidden = true;
+    if (!d.duracion) return error("No se pudo leer la duración (el video o el archivo no carga). Escríbela a mano como 3:45.");
+    const input = $(`m-${s.id}-duracion`); if (input) input.value = fmt(d.duracion);
+  }
+  try {
+    if (accion === "crear") {
+      // Entra como pedido y se aprueba enseguida, así sirven las mismas reglas de Firebase.
+      const ref = await B.pedir({ link: d.mp3, titulo: d.titulo, banda: d.banda, radio: d.radio, pidio: "Galo y Nake", mensaje: "" });
+      await B.actualizar(ref.id, { ...d, estado: "aprobada" });
+      nuevoMp3 = { id: "nuevo" + Date.now(), radio: d.radio };
+      $("nuevo-mp3").textContent = ""; $("nuevo-mp3").append(ficha(nuevoMp3, "nuevo-mp3"));
+      pintarAdmin();
+    } else {
+      await B.actualizar(s.id, accion === "aprobar" ? { ...d, estado: "aprobada" } : d);
+      if (accion === "guardar") { msg.className = "ok"; msg.textContent = "Guardado."; msg.hidden = false; }
+    }
+  } catch (e) { console.error(e); error("No se pudo guardar. ¿Entraste con un correo que está en las reglas de Firebase?"); }
 }
 function escucharPrevia(s) {
   previaPara = s;
+  const mp3 = $(`m-${s.id}-mp3`) ? valor(s, "mp3") : null;
+  if (mp3) {
+    if (ytPrevia?.stopVideo) ytPrevia.stopVideo();
+    $("previa-mp3").hidden = false; $("previa-yt").hidden = true;
+    previaMp3.src = encodeURI(mp3);
+    previaMp3.onloadedmetadata = () => { const i = $(`m-${s.id}-duracion`); if (i && !i.value) i.value = fmt(previaMp3.duration); };
+    previaMp3.onerror = () => { const i = $(`m-${s.id}-duracion`); if (i) i.placeholder = "No se encontró el archivo"; };
+    previaMp3.play().catch(() => {});
+    return;
+  }
+  previaMp3.pause(); $("previa-mp3").hidden = true; $("previa-yt").hidden = false;
   if (ytPrevia?.loadVideoById) ytPrevia.loadVideoById(s.youtubeId);
 }
+$("previa-mp3").append(previaMp3);
 
 $("entrar").onclick = () => B.entrarAdmin().catch((e) => { console.error(e); $("pie-usuario").textContent = "No se pudo entrar con Google."; });
 $("salir").onclick = () => B.salir();
 
-// ------------------------------------------------------------ Reproductor en vivo (YouTube)
-let yt = null, ytListo = false;
-function reproducir() {
-  const it = S.actual;
-  $("portada").hidden = !it || S.encendida;
-  if (!S.encendida || !it) { if (ytListo) yt.stopVideo(); return; }
-  if (!ytListo) { $("aviso").textContent = "Cargando el reproductor de YouTube…"; return; }
-  $("aviso").textContent = "";
-  yt.loadVideoById({ videoId: it.youtubeId, startSeconds: (Date.now() - it.desde) / 1000 });
+// ------------------------------------------------------------ Reproductor en vivo con crossfade
+// Dos "bandejas", como una consola de DJ: mientras una baja el volumen, la otra lo sube.
+// Cada bandeja tiene un reproductor de YouTube y uno de audio para los MP3.
+const vol = $("vol");
+vol.value = guardado("radio.vol", 80);
+const decks = [0, 1].map((i) => ({ id: "yt-vivo-" + i, yt: null, listo: false, audio: new Audio(), item: null, gain: 0 }));
+let activo = 0;
+decks.forEach((d) => {
+  d.audio.preload = "auto";
+  d.audio.onerror = () => { if (d.item?.mp3 && d === decks[activo]) $("aviso").textContent = `No se encontró el archivo ${d.item.mp3}. Revisen que esté subido a GitHub con ese nombre exacto.`; };
+});
+function volDeck(d, g) {
+  d.gain = g;
+  const v = +vol.value * g;
+  d.audio.volume = Math.min(1, Math.max(0, v / 100));
+  if (d.listo) d.yt.setVolume(Math.round(v));
 }
+function pararDeck(d) {
+  d.item = null;
+  d.audio.pause(); d.audio.removeAttribute("src");
+  if (d.listo) d.yt.stopVideo();
+}
+function cargarDeck(d, it) {
+  d.item = it;
+  if (it.mp3) {
+    if (d.listo) d.yt.stopVideo();
+    d.audio.src = rutaMp3(it);
+    d.audio.addEventListener("loadedmetadata", () => { d.audio.currentTime = Math.max(0, (Date.now() - it.desde) / 1000); }, { once: true });
+    d.audio.play().catch(() => {});
+  } else {
+    d.audio.pause();
+    if (d.listo) d.yt.loadVideoById({ videoId: it.youtubeId, startSeconds: Math.max(0, (Date.now() - it.desde) / 1000) });
+    else $("aviso").textContent = "Cargando el reproductor de YouTube…";
+  }
+}
+// La portada tapa el video cuando no se está escuchando. Un MP3 siempre muestra su portada (o una nota).
+function mostrarPortada() {
+  const it = S.actual, src = portadaDe(it);
+  const tapar = !!it && (!S.encendida || !!it.mp3);
+  $("portada").hidden = !(tapar && src);
+  $("nota-mp3").hidden = !(tapar && !src);
+}
+function mezclar() {
+  const it = S.actual, ahora = Date.now();
+  if (!S.encendida || !it) { decks.forEach((d) => d.item && pararDeck(d)); return; }
+  let a = decks[activo];
+  if (!mismo(a.item, it)) {
+    const otro = decks[1 - activo];
+    if (otro.item) pararDeck(otro);
+    activo = 1 - activo; a = decks[activo];
+    volDeck(a, 0); cargarDeck(a, it);
+    decks.forEach((d, i) => { const f = document.getElementById(d.id); if (f) f.style.zIndex = i === activo ? 1 : 0; });
+  }
+  const entrada = XF ? Math.min(1, Math.max(0, (ahora - it.desde) / (XF * 1000))) : 1;
+  volDeck(a, entrada);
+  const viejo = decks[1 - activo];
+  if (viejo.item) {
+    const salida = XF ? (fin(viejo.item) - ahora) / (XF * 1000) : 0;
+    if (salida <= 0 || ahora - it.desde > XF * 1000) pararDeck(viejo); else volDeck(viejo, Math.min(1, salida));
+  }
+}
+function reproducir() { mostrarPortada(); mezclar(); }
 $("encender").onclick = () => {
   S.encendida = !S.encendida;
   document.body.classList.toggle("encendida", S.encendida);
   $("encender").textContent = S.encendida ? "Dejar de escuchar" : "Escuchar en vivo";
+  $("aviso").textContent = "";
   reproducir();
 };
-const vol = $("vol");
-vol.value = guardado("radio.vol", 80);
-vol.oninput = () => { if (ytListo) yt.setVolume(+vol.value); guardar("radio.vol", +vol.value); };
+vol.oninput = () => { decks.forEach((d) => volDeck(d, d.gain)); guardar("radio.vol", +vol.value); };
 
+let esperandoDuracion = null;
 window.onYouTubeIframeAPIReady = () => {
-  yt = new YT.Player("yt-vivo", {
-    playerVars: { playsinline: 1, controls: 0, disablekb: 1, rel: 0 },
-    events: {
-      onReady: () => { ytListo = true; yt.setVolume(+vol.value); reproducir(); },
-      onError: () => { $("aviso").textContent = "YouTube no deja pasar este video fuera de su página. Cuando termine, sigue la próxima."; },
-    },
+  decks.forEach((d) => {
+    d.yt = new YT.Player(d.id, {
+      playerVars: { playsinline: 1, controls: 0, disablekb: 1, rel: 0 },
+      events: {
+        onReady: () => {
+          d.listo = true; volDeck(d, d.gain);
+          if (d.item && !d.item.mp3) { $("aviso").textContent = ""; cargarDeck(d, d.item); }
+        },
+        onError: () => { if (d === decks[activo]) $("aviso").textContent = "YouTube no deja pasar este video fuera de su página. Cuando termine, sigue la próxima."; },
+      },
+    });
   });
   ytPrevia = new YT.Player("yt-previa", {
     playerVars: { playsinline: 1, rel: 0 },
     events: {
       onStateChange: (e) => {
-        if (e.data !== YT.PlayerState.PLAYING || !previaPara) return;
-        const input = $(`m-${previaPara.id}-duracion`), d = ytPrevia.getDuration();
+        if (e.data !== YT.PlayerState.PLAYING) return;
+        const d = ytPrevia.getDuration();
+        if (esperandoDuracion) { const f = esperandoDuracion; esperandoDuracion = null; ytPrevia.stopVideo(); ytPrevia.unMute(); f(d); return; }
+        const input = previaPara && $(`m-${previaPara.id}-duracion`);
         if (input && d && !input.value) input.value = fmt(d);
       },
+      onError: () => { if (esperandoDuracion) { const f = esperandoDuracion; esperandoDuracion = null; f(0); } },
     },
   });
 };
 document.head.append(el("script", { src: "https://www.youtube.com/iframe_api" }));
+
+// Duración automática al aprobar: se carga el video (o el MP3) en silencio y se lee cuánto dura.
+function duracionAuto(s) {
+  return new Promise((ok) => {
+    let listo = false;
+    const fin = (d) => { if (listo) return; listo = true; ok(d ? Math.round(d) : 0); };
+    setTimeout(() => fin(0), 15000);
+    const mp3 = $(`m-${s.id}-mp3`) ? valor(s, "mp3") : null;
+    if (mp3) {
+      const a = new Audio(); a.preload = "metadata";
+      a.onloadedmetadata = () => fin(a.duration); a.onerror = () => fin(0);
+      a.src = encodeURI(mp3); return;
+    }
+    if (!ytPrevia?.loadVideoById || !s.youtubeId) return fin(0);
+    esperandoDuracion = fin;
+    ytPrevia.mute(); ytPrevia.loadVideoById(s.youtubeId);
+  });
+}
 
 // ------------------------------------------------------------ Reloj
 function tic(forzar = false) {
@@ -763,22 +1095,29 @@ function tic(forzar = false) {
     const pos = (ahora - it.desde) / 1000;
     $("progreso").style.width = Math.min(100, (pos / it.dur) * 100) + "%";
     $("t-actual").textContent = fmt(pos);
-    if (S.encendida && ytListo && yt.getPlayerState?.() === YT.PlayerState.PLAYING) {
-      const real = yt.getCurrentTime();
-      if (Math.abs(real - pos) > 4 && pos < it.dur - 3) yt.seekTo(pos, true);
+    const d = decks[activo];
+    if (S.encendida && mismo(d.item, it) && pos < it.dur - XF - 2) {
+      if (it.mp3 && !d.audio.paused && d.audio.readyState > 0) {
+        if (Math.abs(d.audio.currentTime - pos) > 4) d.audio.currentTime = pos;
+      } else if (!it.mp3 && d.listo && d.yt.getPlayerState?.() === YT.PlayerState.PLAYING) {
+        if (Math.abs(d.yt.getCurrentTime() - pos) > 4) d.yt.seekTo(pos, true);
+      }
     }
   } else { $("progreso").style.width = "0"; $("t-actual").textContent = "0:00"; }
 }
 
 // ------------------------------------------------------------ Datos en vivo
 B.escucharSolicitudes((l) => { S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); });
-for (const r of C.radios) B.escucharCola(r.id, (items) => { S.colas[r.id] = items; pintarDial(); if (r.id === S.radio) pintarHistorial(); tic(); });
+for (const r of C.radios) B.escucharCola(r.id, (items) => { S.colas[r.id] = items; pintarDial(); if (r.id === S.radio) pintarHistorial(); pintarFila(); tic(); });
 B.escucharMegusta((l) => { S.megusta = l; pintarMegusta(); pintarRankings(); });
 B.escucharVotos((l) => { S.votos = l; pintarVotos(); pintarRankings(); });
-B.alCambiarUsuario(() => { pintarAdmin(); pintarMegusta(); pintarVotos(); });
+B.escucharChat((l) => { S.chat = l; pintarChat(); });
+B.alCambiarUsuario(() => { pintarAdmin(); pintarMegusta(); pintarVotos(); pintarChat(); });
 
 pintarDial(); pintarAhora(); tic();
 setInterval(tic, 1000);
+setInterval(mezclar, 250);
+setInterval(pintarFila, 15000);
 </script>
 </body>
 </html>
