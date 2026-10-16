@@ -105,6 +105,9 @@ window.RADIO_CONFIG = {
   .ficha { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; margin: 12px 0 0; font-size: .95rem; }
   .ficha dt { color: var(--muted); font: .78rem/1.9 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
   .ficha dd { margin: 0; }
+  .letra { margin-top: 12px; }
+  .letra summary { cursor: pointer; color: var(--accent); font-weight: 700; font-size: .92rem; }
+  .letra pre { font: .95rem/1.6 var(--font-body); white-space: pre-wrap; margin: 10px 0 0; max-height: 360px; overflow-y: auto; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
   .barra { display: grid; gap: 6px; }
   .pista { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
   .pista div { height: 100%; width: 0; background: var(--accent); transition: width .5s linear; }
@@ -180,11 +183,13 @@ window.RADIO_CONFIG = {
   .solicitud .a q { font-style: italic; }
 
   /* About */
-  .nosotros { display: grid; gap: 8px; }
+  .nosotros { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: start; }
+  @media (max-width: 820px) { .nosotros { grid-template-columns: minmax(0, 1fr); } }
   .nosotros p { max-width: 60ch; margin: 0 0 12px; font-size: 1.05rem; }
-  .redes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
-  .redes a { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; text-decoration: none; font-weight: 700; color: var(--fg); }
-  .redes a:hover { border-color: var(--accent); color: var(--accent); }
+  .duo { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .persona { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px; }
+  .persona .n { font: 800 1.5rem var(--font-display); }
+  .persona ul { color: var(--muted); font-size: .92rem; display: grid; gap: 2px; margin-top: 6px; }
 
   /* Admin */
   .admin { border: 1px solid var(--accent); border-radius: 8px; padding: 18px; display: grid; gap: 16px; }
@@ -192,13 +197,6 @@ window.RADIO_CONFIG = {
   .moderar .acciones { display: flex; flex-wrap: wrap; gap: 8px; }
   .previa { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; background: var(--surface); border-radius: 4px; overflow: hidden; }
   .previa iframe { width: 100%; height: 100%; display: block; }
-  .fila-radio { border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; background: var(--surface); }
-  .fila-radio li[draggable="true"] { cursor: grab; }
-  .fila-radio li.arrastrando { opacity: .4; }
-  .fila-radio li.destino { box-shadow: 0 -2px 0 var(--accent); }
-  .fila-radio li.sonando .hora { color: var(--live); font-weight: 600; }
-  .fila-radio li.sonando .t { font-weight: 700; }
-  #saltar { color: var(--live); border-color: var(--live); }
   .fila-radio h4 { font: 800 1.1rem var(--font-display); margin: 0 0 6px; }
   .fila-radio li { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: .9rem; }
   .fila-radio li .hora { font: .78rem var(--font-mono); color: var(--muted); }
@@ -207,8 +205,6 @@ window.RADIO_CONFIG = {
   .fila-radio li .btns button { border: 1px solid var(--line); background: transparent; border-radius: 4px; padding: 2px 8px; cursor: pointer; }
   .fila-radio .agregar { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; margin-top: 8px; }
   #previa-mp3 audio { width: 100%; max-width: 360px; }
-  .grupo-aire { border: 1px solid var(--line); border-radius: 12px; padding: 4px 14px; margin-bottom: 10px; }
-  .grupo-aire > summary { cursor: pointer; font: 800 1.05rem var(--font-display); padding: 8px 0; }
   .cancion-aire { border-bottom: 1px solid var(--line); padding: 8px 0; }
   .cancion-aire summary { cursor: pointer; font-weight: 700; }
   .cancion-aire[open] .moderar { border-bottom: 0; padding-top: 12px; }
@@ -243,6 +239,7 @@ window.RADIO_CONFIG = {
         <h1 id="titulo">—</h1>
         <div class="banda" id="banda"></div>
         <dl class="ficha" id="ficha"></dl>
+        <details class="letra" id="letra" hidden><summary>Ver la letra</summary><pre id="letra-texto"></pre></details>
       </div>
       <div class="barra">
         <div class="pista"><div id="progreso"></div></div>
@@ -250,7 +247,6 @@ window.RADIO_CONFIG = {
       </div>
       <div class="controles">
         <button class="boton-aire" id="encender">Escuchar en vivo</button>
-        <button class="icono" id="saltar" type="button" hidden title="Solo Galo y Nake: pasa a la próxima de la fila">⏭ Saltar canción</button>
         <button class="icono" id="megusta" aria-pressed="false">♥ Me gusta</button>
         <label class="volumen" for="vol">Vol <input id="vol" type="range" min="0" max="100" value="80"></label>
       </div>
@@ -269,7 +265,7 @@ window.RADIO_CONFIG = {
       <ol id="historial"></ol>
       <div class="misterio">¿Qué viene después? Solo Galo y Nake lo saben. Quédate escuchando.</div>
       <div class="chat">
-        <h2>Chat en vivo · <span id="chat-radio"></span></h2>
+        <h2>Chat en vivo</h2>
         <ol id="chat-lista" aria-live="polite"></ol>
         <form id="chat-form">
           <input type="text" id="chat-nombre" placeholder="Tu nombre" maxlength="30" aria-label="Tu nombre">
@@ -316,6 +312,18 @@ window.RADIO_CONFIG = {
     </div>
   </section>
 
+  <section class="nosotros">
+    <div>
+      <h3>Quiénes somos</h3>
+      <p>Somos Galo y Nake. Tenemos 20 años, estudiamos Economía y los dos tocamos la guitarra.</p>
+      <p>Nos encanta el rock, así que armamos esta radio para pasar los temas que nos gustan y los que nos recomiendan ustedes. Cada canción que suena la elegimos nosotros.</p>
+    </div>
+    <div class="duo">
+      <div class="persona"><div class="n">Galo</div><ul><li>20 años</li><li>Estudiante de Economía</li><li>Guitarrista</li></ul></div>
+      <div class="persona"><div class="n">Nake</div><ul><li>20 años</li><li>Estudiante de Economía</li><li>Guitarrista</li></ul></div>
+    </div>
+  </section>
+
   <section class="admin" id="panel-admin" hidden>
     <div>
       <h3>Panel de Galo y Nake</h3>
@@ -324,8 +332,8 @@ window.RADIO_CONFIG = {
     <div class="previa" id="previa-yt"><div id="yt-previa"></div></div>
     <div id="previa-mp3" hidden></div>
     <div>
-      <h2>Listas de reproducción (solo las ven ustedes)</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Una lista por radio. La de arriba de todo es la que está sonando: arrastren los temas (o usen ↑ ↓) para reordenar. Si bajan la que suena o la sacan con ✕, arranca al instante la que quede primera.</p>
+      <h2>Fila de reproducción (solo la ven ustedes)</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Lo que va a sonar en cada radio. Suban, bajen o saquen temas, o pongan uno para que suene después del actual.</p>
       <div id="fila" class="dos"></div>
     </div>
     <div>
@@ -341,17 +349,6 @@ window.RADIO_CONFIG = {
       <h2>Canciones al aire</h2>
       <p class="nota-chica" style="margin:0 0 10px">Toquen una para corregir sus datos o sacarla de la radio.</p>
       <div id="al-aire"></div>
-    </div>
-  </section>
-
-  <section class="nosotros" id="quienes-somos">
-    <h3>Quiénes somos</h3>
-    <p>Somos Galo y Nake. Tenemos 20 años, estudiamos Economía y los dos tocamos la guitarra.</p>
-    <p>Nos encanta el rock, así que armamos esta radio para pasar los temas que nos gustan y los que nos recomiendan ustedes. Cada canción que suena la elegimos nosotros.</p>
-    <div class="redes">
-      <a href="https://instagram.com/galomoron__" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset=".35" stop-color="#fa7e1e"/><stop offset=".6" stop-color="#d62976"/><stop offset="1" stop-color="#4f5bd5"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#igg)"/><rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" stroke-width="2"/><circle cx="16.3" cy="7.7" r="1.1" fill="#fff"/></svg> Galo · @galomoron__</a>
-      <a href="https://x.com/GaloMoron" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#000"/><path d="M6.5 6.5h3.2l2.7 3.7 3.1-3.7h1.6l-4 4.7 4.4 6.3h-3.2l-2.9-4.1-3.5 4.1H6.3l4.4-5.1z" fill="#fff"/></svg> Galo · @GaloMoron</a>
-      <a href="https://instagram.com/nacho__keena" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset=".35" stop-color="#fa7e1e"/><stop offset=".6" stop-color="#d62976"/><stop offset="1" stop-color="#4f5bd5"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#igg)"/><rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" stroke-width="2"/><circle cx="16.3" cy="7.7" r="1.1" fill="#fff"/></svg> Nake · @nacho__keena</a>
     </div>
   </section>
 
@@ -421,8 +418,8 @@ async function conectarFirebase(config) {
     votar: (cid, puntaje) =>
       fs.setDoc(fs.doc(db, "votos", cid + "__" + usuario.uid), { uid: usuario.uid, cid, puntaje, t: Date.now() }),
 
-    escucharChat: (cb) => lista(fs.query(fs.collection(db, "chat"), fs.orderBy("t", "desc"), fs.limit(200)), cb),
-    escribir: (nombre, texto, admin, radio) => fs.addDoc(fs.collection(db, "chat"), { uid: usuario.uid, nombre, texto, admin, radio, t: Date.now() }),
+    escucharChat: (cb) => lista(fs.query(fs.collection(db, "chat"), fs.orderBy("t", "desc"), fs.limit(60)), cb),
+    escribir: (nombre, texto, admin) => fs.addDoc(fs.collection(db, "chat"), { uid: usuario.uid, nombre, texto, admin, t: Date.now() }),
     borrarMensaje: (id) => fs.deleteDoc(fs.doc(db, "chat", id)),
   };
 }
@@ -473,8 +470,8 @@ function conectarDemo(config) {
       estado.votos[id] = { uid, cid, puntaje, t: Date.now() }; guardar();
     },
 
-    escucharChat: (cb) => escuchar(() => Object.entries(estado.chat ||= {}).map(([id, d]) => ({ id, ...d })).sort((a, b) => b.t - a.t).slice(0, 200), cb),
-    escribir: async (nombre, texto, admin, radio) => { (estado.chat ||= {})["c" + Date.now()] = { uid, nombre, texto, admin, radio, t: Date.now() }; guardar(); },
+    escucharChat: (cb) => escuchar(() => Object.entries(estado.chat ||= {}).map(([id, d]) => ({ id, ...d })).sort((a, b) => b.t - a.t).slice(0, 60), cb),
+    escribir: async (nombre, texto, admin) => { (estado.chat ||= {})["c" + Date.now()] = { uid, nombre, texto, admin, t: Date.now() }; guardar(); },
     borrarMensaje: async (id) => { delete estado.chat[id]; guardar(); },
   };
 }
@@ -580,52 +577,30 @@ function asegurarCola(radio) {
 // Si dos canciones se solapan (crossfade), manda la que empezó más tarde.
 const sonandoEn = (radio, t = Date.now()) => [...(S.colas[radio] || [])].reverse().find((it) => it.desde <= t && t < fin(it)) || null;
 
-// Cambios de Galo y Nake a la lista de una radio. La lista es [la que suena, ...lo que viene].
-// Si la primera deja de ser la que suena (la bajaron, la sacaron o saltaron), la que suena se corta ya
-// y la nueva primera arranca en este momento para todos. Los horarios se recalculan solos.
+// Cambios de Galo y Nake a la fila: se aplican sobre la versión más nueva y se recalculan los horarios.
 function cambiarFila(radio, cambio) {
   return B.extenderCola(radio, (items) => {
     const ahora = Date.now();
-    const actual = [...items].reverse().find((it) => it.desde <= ahora && ahora < fin(it)) || null;
-    const lista = [...(actual ? [actual] : []), ...items.filter((it) => it.desde > ahora)].map((it) => ({ ...it }));
-    const nueva = cambio(lista, !!actual);
-    if (!nueva) return null;
-    let pasado = items.filter((it) => it.desde <= ahora).map((it) => ({ ...it })), t, resto;
-    if (actual && nueva[0] && claveItem(nueva[0]) === claveItem(actual)) {
-      resto = nueva.slice(1);
-      t = Math.max(ahora + 1000, actual.desde + paso(actual));
-    } else {
-      // Cortar lo que esté sonando (incluida una canción que se esté mezclando) justo ahora.
-      pasado = pasado.map((it) => fin(it) > ahora ? { ...it, dur: Math.max(1, (ahora - it.desde) / 1000) } : it);
-      resto = nueva;
-      t = ahora;
-    }
-    for (const it of resto) { it.desde = t; t += paso(it); }
-    return [...pasado, ...resto].slice(-40);
+    const fijas = items.filter((it) => it.desde <= ahora);
+    const futuras = cambio(items.filter((it) => it.desde > ahora).map((it) => ({ ...it })));
+    if (!futuras) return null;
+    const ult = fijas.at(-1);
+    let t = ult ? Math.max(ahora + 1000, ult.desde + paso(ult)) : ahora + 1000;
+    for (const it of futuras) { it.desde = t; t += paso(it); }
+    return [...fijas, ...futuras];
   });
 }
 const claveItem = (it) => it.cid + "@" + it.desde;
-const moverA = (radio, clave, destino) => cambiarFila(radio, (f) => {
-  const i = f.findIndex((it) => claveItem(it) === clave);
-  if (i < 0 || destino < 0 || destino >= f.length || destino === i) return null;
-  const [x] = f.splice(i, 1); f.splice(destino, 0, x); return f;
+const moverEnFila = (radio, clave, dir) => cambiarFila(radio, (f) => {
+  const i = f.findIndex((it) => claveItem(it) === clave), j = i + dir;
+  if (i < 0 || j < 0 || j >= f.length) return null;
+  [f[i], f[j]] = [f[j], f[i]]; return f;
 });
-const moverEnFila = (radio, clave, dir) => {
-  const lista = listaDe(radio), i = lista.findIndex((it) => claveItem(it) === clave);
-  return moverA(radio, clave, i + dir);
-};
 const quitarDeFila = (radio, clave) => cambiarFila(radio, (f) => {
   const i = f.findIndex((it) => claveItem(it) === clave);
   if (i < 0) return null; f.splice(i, 1); return f;
 });
-const saltar = (radio) => cambiarFila(radio, (f, hayActual) => hayActual ? f.slice(1) : null);
-const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f, hayActual) => { f.splice(hayActual ? 1 : 0, 0, itemDe(cancion, 0)); return f; });
-// Lo que ven Galo y Nake: la que suena arriba de todo y después lo que viene.
-function listaDe(radio) {
-  const ahora = Date.now(), items = S.colas[radio] || [];
-  const actual = sonandoEn(radio, ahora);
-  return [...(actual ? [actual] : []), ...items.filter((it) => it.desde > ahora)];
-}
+const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f) => [itemDe(cancion, 0), ...f]);
 
 // ------------------------------------------------------------ Dial de radios
 function pintarDial() {
@@ -637,7 +612,7 @@ function pintarDial() {
       el("span", { className: "n", textContent: r.nombre }),
       el("span", { className: "q", textContent: it ? tema(it) : r.lema || "" }));
     b.setAttribute("aria-pressed", String(r.id === S.radio));
-    b.onclick = () => { S.elegida = true; if (S.radio === r.id) return; S.radio = r.id; guardar("radio.radio", r.id); S.actual = null; pintarDial(); pintarChat(); tic(true); };
+    b.onclick = () => { S.elegida = true; if (S.radio === r.id) return; S.radio = r.id; guardar("radio.radio", r.id); S.actual = null; pintarDial(); tic(true); };
     d.append(b);
   }
 }
@@ -651,6 +626,7 @@ function pintarAhora() {
   mostrarPortada();
   const ficha = $("ficha"); ficha.textContent = "";
   if (!it) {
+    $("letra").hidden = true;
     $("titulo").textContent = aprobadas(S.radio).length ? "Sintonizando…" : "En silencio";
     $("banda").textContent = ""; $("t-total").textContent = "0:00";
     $("ambiente").style.backgroundImage = "none"; pintarHistorial(); pintarVotos(); pintarMegusta(); return;
@@ -660,6 +636,8 @@ function pintarAhora() {
   $("banda").textContent = s.banda || "";
   const filas = [["Álbum", s.album], ["Año", s.anio], ["Músicos", s.musicos], ["Dato", s.dato], ["La pidió", s.pidio]];
   for (const [k, v] of filas) if (v) ficha.append(el("dt", { textContent: k }), el("dd", { textContent: String(v) }));
+  $("letra").hidden = !s.letra;
+  if ($("letra-texto").textContent !== (s.letra || "")) { $("letra-texto").textContent = s.letra || ""; $("letra").open = false; }
   const src = portadaDe(it);
   if (src) $("portada").src = src; else $("portada").removeAttribute("src");
   mostrarPortada();
@@ -812,11 +790,8 @@ function pintarChat() {
   const ol = $("chat-lista");
   const abajo = ol.scrollHeight - ol.scrollTop - ol.clientHeight < 40;
   ol.textContent = "";
-  $("chat-radio").textContent = nombreRadio(S.radio);
-  // Cada radio tiene su propio chat. Los mensajes viejos sin radio se ven en las dos.
-  const msgs = S.chat.filter((m) => !m.radio || m.radio === S.radio).slice(0, 60);
-  if (!msgs.length) ol.append(el("li", { className: "vacio", textContent: "Nadie escribió todavía en esta radio. ¡Estrena el chat!" }));
-  for (const m of [...msgs].reverse()) {
+  if (!S.chat.length) ol.append(el("li", { className: "vacio", textContent: "Nadie escribió todavía. ¡Estrena el chat!" }));
+  for (const m of [...S.chat].reverse()) {
     ol.append(el("li", {},
       el("span", { className: "quien" + (m.admin ? " admin" : ""), textContent: (m.nombre || "Anónimo") + (m.admin ? " 🎸" : "") }),
       el("span", { textContent: m.texto }),
@@ -831,7 +806,7 @@ $("chat-form").onsubmit = async (e) => {
   if (!texto || !B.usuario.uid) return;
   guardar("radio.nombre", nombre === "Anónimo" ? "" : nombre);
   $("chat-texto").value = "";
-  try { await B.escribir(nombre, texto, esAdmin(), S.radio); $("chat-lista").scrollTop = 1e9; }
+  try { await B.escribir(nombre, texto, esAdmin()); $("chat-lista").scrollTop = 1e9; }
   catch (err) { console.error(err); $("chat-texto").value = texto; $("aviso").textContent = "No se pudo mandar el mensaje. Prueba de nuevo."; }
 };
 
@@ -839,9 +814,16 @@ $("chat-form").onsubmit = async (e) => {
 let ytPrevia = null, previaPara = null;
 const previaMp3 = new Audio();
 previaMp3.controls = true;
+// Lo que se escribe o se autocompleta en una ficha queda en un borrador hasta guardarla,
+// así no se pierde si el panel se vuelve a dibujar porque llegó un pedido nuevo.
+const borrador = {};
 const campo = (s, k, label, valor, extra = {}) => {
-  const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, el("input", { type: "text", id: `m-${s.id}-${k}`, value: valor ?? "", placeholder: extra.ph || "" }));
-  l.htmlFor = `m-${s.id}-${k}`; return l;
+  const b = borrador[s.id] || {};
+  const input = el(extra.area ? "textarea" : "input", { id: `m-${s.id}-${k}`, value: b[k] ?? valor ?? "", placeholder: extra.ph || "" });
+  if (!extra.area) input.type = "text";
+  input.oninput = () => { (borrador[s.id] ||= {})[k] = input.value; };
+  const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, input);
+  l.htmlFor = input.id; return l;
 };
 const valor = (s, k) => ($(`m-${s.id}-${k}`)?.value || "").trim();
 
@@ -850,14 +832,12 @@ function ficha(s, modo) {
   const sel = el("select", { id: `m-${s.id}-radio` }, ...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre, selected: r.id === s.radio })));
   const msg = el("p", { className: "error", hidden: true });
   const esMp3 = modo === "nuevo-mp3" || !!s.mp3;
-  const origen = esMp3
-    ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" }),
-       campo(s, "portada", "Portada (opcional: nombre de una imagen en GitHub, o link https)", s.portada, { ancho: true, ph: "ej: portada.jpg" })]
-    : [];
+  const origen = esMp3 ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" })] : [];
+  const estado = el("p", { className: "nota-chica", id: `m-${s.id}-estado`, style: "margin:0", textContent: borrador[s.id]?._estado || "" });
   const acciones = {
-    pendiente: [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Aprobar", "primario", () => guardarFicha(s, msg, "aprobar")], ["Rechazar", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
-    aprobada: [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Guardar cambios", "primario", () => guardarFicha(s, msg, "guardar")], ["Sacar de la radio", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
-    "nuevo-mp3": [["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Agregar a la radio", "primario", () => guardarFicha(s, msg, "crear")]],
+    pendiente: [["🔎 Buscar datos", "icono", () => buscarDatos(s)], ["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Aprobar", "primario", () => guardarFicha(s, msg, "aprobar")], ["Rechazar", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
+    aprobada: [["🔎 Buscar datos", "icono", () => buscarDatos(s)], ["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Guardar cambios", "primario", () => guardarFicha(s, msg, "guardar")], ["Sacar de la radio", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
+    "nuevo-mp3": [["🔎 Buscar datos", "icono", () => buscarDatos(s)], ["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Agregar a la radio", "primario", () => guardarFicha(s, msg, "crear")]],
   }[modo];
   return el("div", { className: "moderar" },
     modo === "pendiente" ? el("div", {}, el("strong", { textContent: tema(s) }), el("div", { className: "nota-chica", style: "margin:0" },
@@ -867,9 +847,12 @@ function ficha(s, modo) {
       campo(s, "titulo", "Canción", s.titulo), campo(s, "banda", "Banda", s.banda),
       campo(s, "album", "Álbum", s.album), campo(s, "anio", "Año", s.anio),
       campo(s, "musicos", "Músicos", s.musicos, { ancho: true, ph: "Quiénes tocan" }),
-      campo(s, "dato", "Dato de la canción", s.dato, { ancho: true, ph: "Algo que el oyente no sepa" }),
+      campo(s, "dato", "Dato de la canción", s.dato, { ancho: true, ph: "Algo que el oyente no sepa", area: true }),
+      campo(s, "portada", esMp3 ? "Portada (nombre de una imagen en GitHub, o link https)" : "Portada del disco (si queda vacía se usa la del video)", s.portada, { ancho: true, ph: "Se busca sola" }),
+      campo(s, "letra", "Letra", s.letra, { ancho: true, ph: "Se busca sola", area: true }),
       el("label", {}, "Radio", sel),
       campo(s, "duracion", "Duración (m:ss)", s.duracion ? fmt(s.duracion) : "", { ph: "Automática" })),
+    estado,
     el("div", { className: "acciones" }, ...acciones.map(([t, c, f]) => el("button", { type: "button", className: c, textContent: t, onclick: f }))),
     msg);
 }
@@ -889,65 +872,43 @@ function pintarAdmin() {
   const pend = S.solicitudes.filter((s) => s.estado === "pendiente").sort((a, b) => a.creada - b.creada);
   if (!pend.length) cont.append(el("p", { className: "vacio", textContent: "No hay pedidos esperando." }));
   pend.forEach((s) => cont.append(ficha(s, "pendiente")));
+  // Los pedidos nuevos se autocompletan solos una vez; después se puede volver a buscar con el botón.
+  pend.filter((s) => !buscados.has(s.id)).forEach((s) => { buscados.add(s.id); buscarDatos(s, { soloVacios: true }); });
 
   if (!$(`m-${nuevoMp3.id}-titulo`)) { $("nuevo-mp3").textContent = ""; $("nuevo-mp3").append(ficha(nuevoMp3, "nuevo-mp3")); }
 
   const aire = $("al-aire"); aire.textContent = "";
   const lista = S.solicitudes.filter((s) => s.estado === "aprobada").sort((a, b) => (a.radio + a.titulo).localeCompare(b.radio + b.titulo));
   if (!lista.length) aire.append(el("p", { className: "vacio", textContent: "Todavía no hay canciones aprobadas." }));
-  for (const r of C.radios) {
-    const deEsta = lista.filter((s) => s.radio === r.id);
-    if (!deEsta.length) continue;
-    const g = el("details", { className: "grupo-aire", open: abiertos.has("grupo-" + r.id) },
-      el("summary", { textContent: `${r.nombre} (${deEsta.length})` }));
-    g.dataset.id = "grupo-" + r.id;
-    for (const s of deEsta) {
-      const d = el("details", { className: "cancion-aire", open: abiertos.has(s.id) },
-        el("summary", { textContent: `${tema(s)}${s.mp3 ? " · MP3" : ""}` }), ficha(s, "aprobada"));
-      d.dataset.id = s.id;
-      g.append(d);
-    }
-    aire.append(g);
+  for (const s of lista) {
+    const d = el("details", { className: "cancion-aire", open: abiertos.has(s.id) },
+      el("summary", { textContent: `${tema(s)} — ${nombreRadio(s.radio)}${s.mp3 ? " · MP3" : ""}` }), ficha(s, "aprobada"));
+    d.dataset.id = s.id;
+    aire.append(d);
   }
   pintarFila();
 }
 
-let arrastre = null;
 function pintarFila() {
-  $("saltar").hidden = !esAdmin() || !S.actual;
   if (!esAdmin()) return;
   const cont = $("fila");
-  if (arrastre) return; // no redibujar mientras arrastran
   if (cont.contains(document.activeElement) && document.activeElement.tagName === "SELECT") return;
   cont.textContent = "";
+  const ahora = Date.now();
   for (const r of C.radios) {
-    const lista = listaDe(r.id);
-    const actual = sonandoEn(r.id);
+    const futuras = (S.colas[r.id] || []).filter((it) => it.desde > ahora);
     const ol = el("ol");
-    if (!lista.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
-    lista.forEach((it, i) => {
-      const k = claveItem(it), suena = mismo(it, actual);
-      const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; x.setAttribute("aria-label", title); return x; };
-      const li = el("li", { className: suena ? "sonando" : "", draggable: true },
-        el("span", { className: "hora", textContent: suena ? "SUENA" : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+    if (!futuras.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
+    futuras.forEach((it, i) => {
+      const k = claveItem(it);
+      const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; return x; };
+      ol.append(el("li", {},
+        el("span", { className: "hora", textContent: new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
         el("span", { className: "t", textContent: `${tema(it)}${it.mp3 ? " · MP3" : ""}` }),
         el("span", { className: "btns" },
           b("↑", "Subir", () => moverEnFila(r.id, k, -1), i === 0),
-          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === lista.length - 1),
-          b(suena ? "⏭" : "✕", suena ? "Saltar: sacarla y pasar a la próxima" : "Sacar de la lista", () => quitarDeFila(r.id, k))));
-      li.ondragstart = (e) => { arrastre = { radio: r.id, clave: k }; li.classList.add("arrastrando"); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", k); };
-      li.ondragend = () => { arrastre = null; li.classList.remove("arrastrando"); pintarFila(); };
-      li.ondragover = (e) => { if (arrastre?.radio === r.id) { e.preventDefault(); li.classList.add("destino"); } };
-      li.ondragleave = () => li.classList.remove("destino");
-      li.ondrop = (e) => {
-        e.preventDefault(); li.classList.remove("destino");
-        const a = arrastre; arrastre = null;
-        if (!a || a.radio !== r.id) return;
-        const desde = lista.findIndex((x) => claveItem(x) === a.clave);
-        let hasta = i; if (desde < hasta) hasta--; // se suelta "arriba" del tema destino
-        if (desde >= 0) moverA(r.id, a.clave, Math.max(0, hasta === desde ? i : hasta));
-      };
-      ol.append(li);
+          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === futuras.length - 1),
+          b("✕", "Sacar de la fila", () => quitarDeFila(r.id, k)))));
     });
     const sel = el("select", { id: "fila-sel-" + r.id }, el("option", { value: "", textContent: "Elegir canción…" }),
       ...aprobadas(r.id).sort((a, b) => a.titulo.localeCompare(b.titulo)).map((s) => el("option", { value: s.id, textContent: tema(s) })));
@@ -957,7 +918,123 @@ function pintarFila() {
     cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner)));
   }
 }
-$("saltar").onclick = () => { if (esAdmin()) saltar(S.radio).catch((e) => { console.error(e); $("aviso").textContent = "No se pudo saltar la canción."; }); };
+
+// ------------------------------------------------------------ Búsqueda automática de datos
+// Fuentes gratuitas que no piden clave: iTunes (álbum, año, portada y nombre correcto),
+// MusicBrainz (integrantes de la banda), LRCLIB (letra) y Wikipedia (un dato del tema).
+const buscados = new Set();
+const sinAcentos = (t) => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const limpiarTitulo = (t) => String(t || "").replace(/\(.*?\)|\[.*?\]/g, " ").replace(/\b(official|video|lyrics?|audio|remaster(ed)?|live|en vivo|hd)\b.*$/i, " ").replace(/\s+/g, " ").trim();
+async function pedirJSON(url) {
+  const c = new AbortController(), t = setTimeout(() => c.abort(), 9000);
+  try { const r = await fetch(url, { signal: c.signal }); if (!r.ok) throw new Error("HTTP " + r.status); return await r.json(); }
+  finally { clearTimeout(t); }
+}
+// iTunes se pide como JSONP (con un <script>), que funciona desde cualquier página.
+function pedirJSONP(url) {
+  return new Promise((ok, mal) => {
+    const cb = "itunes_" + Math.random().toString(36).slice(2), sc = document.createElement("script");
+    const limpiar = () => { clearTimeout(t); delete window[cb]; sc.remove(); };
+    const t = setTimeout(() => { limpiar(); mal(new Error("tiempo agotado")); }, 9000);
+    window[cb] = (d) => { limpiar(); ok(d); };
+    sc.onerror = () => { limpiar(); mal(new Error("no cargó")); };
+    sc.src = url + "&callback=" + cb;
+    document.head.append(sc);
+  });
+}
+async function buscarItunes(titulo, banda) {
+  for (const term of [`${titulo} ${banda}`, titulo]) {
+    if (!term.trim()) continue;
+    const d = await pedirJSONP("https://itunes.apple.com/search?" + new URLSearchParams({ term, entity: "song", limit: "15" }));
+    const rs = (d.results || []).filter((r) => r.trackName && r.artistName);
+    if (!rs.length) continue;
+    const nt = sinAcentos(titulo), nb = sinAcentos(banda);
+    const parecidas = rs.filter((r) => { const x = sinAcentos(limpiarTitulo(r.trackName)); return x.includes(nt) || nt.includes(x); });
+    const lista = parecidas.length ? parecidas : rs;
+    const mejor = lista.find((r) => sinAcentos(r.artistName) === nb) || lista.find((r) => nb && sinAcentos(r.artistName).includes(nb)) || lista[0];
+    // De todas las versiones del mismo tema, la más vieja suele ser el disco original (no un compilado).
+    const mismas = rs.filter((r) => sinAcentos(limpiarTitulo(r.trackName)) === sinAcentos(limpiarTitulo(mejor.trackName)) && sinAcentos(r.artistName) === sinAcentos(mejor.artistName))
+      .sort((a, b) => String(a.releaseDate).localeCompare(String(b.releaseDate)));
+    const r = mismas[0] || mejor;
+    return {
+      titulo: limpiarTitulo(r.trackName) || r.trackName, banda: r.artistName, album: r.collectionName || "",
+      anio: parseInt(String(r.releaseDate || "").slice(0, 4), 10) || "",
+      portada: r.artworkUrl100 ? r.artworkUrl100.replace(/\/\d+x\d+bb\./, "/600x600bb.") : "",
+    };
+  }
+  return null;
+}
+async function buscarMusicos(banda) {
+  const d = await pedirJSON("https://musicbrainz.org/ws/2/artist/?" + new URLSearchParams({ query: `artist:"${banda}"`, fmt: "json", limit: "3" }));
+  const a = (d.artists || []).find((x) => sinAcentos(x.name) === sinAcentos(banda)) || (d.artists || [])[0];
+  if (!a || a.type === "Person") return "";
+  const r = await pedirJSON(`https://musicbrainz.org/ws/2/artist/${a.id}?inc=artist-rels&fmt=json`);
+  const miembros = (r.relations || []).filter((x) => x.type === "member of band" && x.direction === "backward" && x.artist);
+  const orden = [...miembros.filter((x) => (x.attributes || []).includes("original")), ...miembros];
+  return [...new Set(orden.map((x) => x.artist.name))].slice(0, 6).join(", ");
+}
+async function buscarLetra(titulo, banda) {
+  try {
+    const rs = await pedirJSON("https://lrclib.net/api/search?" + new URLSearchParams({ track_name: titulo, artist_name: banda }));
+    const r = (rs || []).find((x) => x.plainLyrics && !x.instrumental);
+    if (r) return r.plainLyrics.trim();
+  } catch (e) { console.warn("LRCLIB", e); }
+  const d = await pedirJSON(`https://api.lyrics.ovh/v1/${encodeURIComponent(banda)}/${encodeURIComponent(titulo)}`);
+  return (d.lyrics || "").trim();
+}
+async function buscarDato(titulo, banda) {
+  const nt = sinAcentos(titulo);
+  for (const [idioma, extra] of [["es", "canción"], ["en", "song"]]) {
+    const q = await pedirJSON(`https://${idioma}.wikipedia.org/w/api.php?` + new URLSearchParams({ action: "query", list: "search", srsearch: `${titulo} ${banda} ${extra}`, format: "json", origin: "*", srlimit: "5" }));
+    const pagina = (q.query?.search || []).find((p) => sinAcentos(p.title).includes(nt));
+    if (!pagina) continue;
+    const r = await pedirJSON(`https://${idioma}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(pagina.title.replace(/ /g, "_"))}`);
+    const frases = (r.extract || "").match(/[^.!?]+[.!?]+/g) || [];
+    let dato = "";
+    for (const f of frases) { if ((dato + f).length > 300) break; dato += f; }
+    dato = dato.trim() || (r.extract || "").slice(0, 300);
+    if (dato) return idioma === "en" ? dato + " (Wikipedia, en inglés)" : dato;
+  }
+  return "";
+}
+async function buscarDatos(s, { soloVacios = false } = {}) {
+  const estado = (t) => { (borrador[s.id] ||= {})._estado = t; const e = $(`m-${s.id}-estado`); if (e) e.textContent = t; };
+  const poner = (k, v, pisar) => {
+    if (v === undefined || v === null || v === "") return false;
+    const input = $(`m-${s.id}-${k}`);
+    const actual = input ? input.value.trim() : (borrador[s.id]?.[k] ?? s[k] ?? "");
+    if (String(actual).trim() && !pisar) return false;
+    (borrador[s.id] ||= {})[k] = String(v);
+    if (input) input.value = String(v);
+    return true;
+  };
+  const leer = (k) => ($(`m-${s.id}-${k}`)?.value ?? borrador[s.id]?.[k] ?? s[k] ?? "").toString().trim();
+  let titulo = limpiarTitulo(leer("titulo")), banda = leer("banda");
+  if (!titulo) return estado("Escribe al menos el nombre de la canción para buscar.");
+  estado("Buscando datos de la canción…");
+  const hallado = [], falta = [];
+  try {
+    const it = await buscarItunes(titulo, banda);
+    if (it) {
+      // El nombre correcto del tema y de la banda corrige errores de tipeo del pedido.
+      if (!soloVacios || sinAcentos(it.titulo) !== sinAcentos(titulo)) poner("titulo", it.titulo, true);
+      if (!soloVacios || sinAcentos(it.banda) !== sinAcentos(banda)) poner("banda", it.banda, true);
+      titulo = it.titulo; banda = it.banda;
+      if (poner("album", it.album)) hallado.push("álbum");
+      if (poner("anio", it.anio)) hallado.push("año");
+      if (poner("portada", it.portada)) hallado.push("portada");
+    } else falta.push("álbum y año");
+  } catch (e) { console.warn("iTunes", e); falta.push("álbum y año"); }
+  const [m, l, d] = await Promise.allSettled([buscarMusicos(banda), buscarLetra(titulo, banda), buscarDato(titulo, banda)]);
+  if (m.status === "fulfilled" && m.value) { if (poner("musicos", m.value)) hallado.push("músicos"); } else falta.push("músicos");
+  if (l.status === "fulfilled" && l.value) { if (poner("letra", l.value)) hallado.push("letra"); } else falta.push("letra");
+  if (d.status === "fulfilled" && d.value) { if (poner("dato", d.value)) hallado.push("dato"); } else falta.push("dato");
+  const t = [`Encontré: ${titulo}${banda ? " · " + banda : ""}.`];
+  if (hallado.length) t.push(`Completé ${hallado.join(", ")}.`);
+  if (falta.length) t.push(`No encontré ${falta.join(", ")}.`);
+  t.push("Revisa antes de guardar.");
+  estado(t.join(" "));
+}
 
 function leerFicha(s) {
   const dur = seg(valor(s, "duracion"));
@@ -965,9 +1042,10 @@ function leerFicha(s) {
   const datos = {
     titulo: valor(s, "titulo"), banda: valor(s, "banda"), album: valor(s, "album"),
     anio: Number.isFinite(anio) ? anio : null, musicos: valor(s, "musicos"), dato: valor(s, "dato"),
+    portada: valor(s, "portada") || null, letra: ($(`m-${s.id}-letra`)?.value || "").trim(),
     radio: $(`m-${s.id}-radio`).value, duracion: dur,
   };
-  if ($(`m-${s.id}-mp3`)) { datos.mp3 = valor(s, "mp3"); datos.portada = valor(s, "portada") || null; }
+  if ($(`m-${s.id}-mp3`)) datos.mp3 = valor(s, "mp3");
   return datos;
 }
 async function guardarFicha(s, msg, accion) {
@@ -987,11 +1065,13 @@ async function guardarFicha(s, msg, accion) {
       // Entra como pedido y se aprueba enseguida, así sirven las mismas reglas de Firebase.
       const ref = await B.pedir({ link: d.mp3, titulo: d.titulo, banda: d.banda, radio: d.radio, pidio: "Galo y Nake", mensaje: "" });
       await B.actualizar(ref.id, { ...d, estado: "aprobada" });
+      delete borrador[s.id];
       nuevoMp3 = { id: "nuevo" + Date.now(), radio: d.radio };
       $("nuevo-mp3").textContent = ""; $("nuevo-mp3").append(ficha(nuevoMp3, "nuevo-mp3"));
       pintarAdmin();
     } else {
       await B.actualizar(s.id, accion === "aprobar" ? { ...d, estado: "aprobada" } : d);
+      delete borrador[s.id];
       if (accion === "guardar") { msg.className = "ok"; msg.textContent = "Guardado."; msg.hidden = false; }
     }
   } catch (e) { console.error(e); error("No se pudo guardar. ¿Entraste con un correo que está en las reglas de Firebase?"); }
@@ -1146,7 +1226,7 @@ function tic(forzar = false) {
   }
   const it = sonandoEn(S.radio, ahora);
   if (forzar || !(mismo(it, S.actual) || (!it && !S.actual))) {
-    S.actual = it; pintarAhora(); pintarDial(); reproducir(); pintarFila();
+    S.actual = it; pintarAhora(); pintarDial(); reproducir();
   }
   if (it) {
     const pos = (ahora - it.desde) / 1000;
