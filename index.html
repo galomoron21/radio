@@ -31,7 +31,7 @@ window.RADIO_CONFIG = {
     messagingSenderId: "1035424324499",
     appId: "1:1035424324499:web:4f9663bde7a2a76ae0e666",
   },
-  crossfade: 6,
+  crossfade: 12,
 };
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,6 +78,11 @@ window.RADIO_CONFIG = {
   .arriba { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
   .marca { font: 800 1.7rem var(--font-display); letter-spacing: -.02em; }
   .demo { font: 600 .72rem var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px dashed var(--accent); border-radius: 4px; padding: 3px 8px; }
+  .elige { display: grid; gap: 4px; text-align: center; padding: 18px 16px; border: 1px solid var(--accent); border-radius: 8px; background: var(--surface); }
+  .elige strong { font: 800 clamp(1.2rem, 3vw, 1.6rem) var(--font-display); }
+  .elige span { color: var(--muted); font-size: .92rem; }
+  body.sin-radio .en-vivo, body.sin-radio section.dos, body.sin-radio .dato-boludo { display: none !important; }
+  body.sin-radio .emisora { padding: 20px; }
   .dial { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
   .emisora { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; cursor: pointer; display: grid; gap: 2px; min-width: 0; }
   .emisora[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
@@ -230,7 +235,7 @@ window.RADIO_CONFIG = {
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 </head>
-<body>
+<body class="sin-radio">
 <div id="ambiente"></div>
 <div class="wrap">
   <header>
@@ -240,6 +245,7 @@ window.RADIO_CONFIG = {
     </div>
     <div class="clima" aria-live="polite"><span id="ba-hora">--:--</span><span id="ba-temp">Buenos Aires</span></div>
     <p class="dato-boludo" id="dato-boludo"></p>
+    <div class="elige" id="elige"><strong>Elegí una radio para empezar a escuchar</strong><span>Tocá Rock Nacional o Rock Internacional</span></div>
     <nav class="dial" id="dial" aria-label="Radios en vivo"></nav>
   </header>
 
@@ -556,7 +562,7 @@ const S = {
   radio: C.radios.some((r) => r.id === guardado("radio.radio", "")) ? guardado("radio.radio", "") : C.radios[0].id,
   solicitudes: [], colas: {}, megusta: [], votos: [],
   actual: null, encendida: false, filtro: "pendiente",
-  elegida: C.radios.some((r) => r.id === guardado("radio.radio", "")),
+  elegida: false, // cada visita arranca eligiendo radio
 };
 // Catálogo fijo (canciones.json en el repo) + lo que aprueban Galo y Nake en Firebase.
 S.catalogo = [];
@@ -675,7 +681,11 @@ function pintarDial() {
       el("span", { className: "n", textContent: r.nombre }),
       el("span", { className: "q", textContent: it ? tema(it) : r.lema || "" }));
     b.setAttribute("aria-pressed", String(r.id === S.radio));
-    b.onclick = () => { S.elegida = true; if (S.radio === r.id) return; S.radio = r.id; guardar("radio.radio", r.id); B.latido(r.id); S.actual = null; pintarDial(); tic(true); };
+    b.onclick = () => {
+      const primera = !S.elegida;
+      S.elegida = true; document.body.classList.remove("sin-radio");
+      if (primera) { $("elige").hidden = true; if (!S.encendida) encender(true); setTimeout(() => document.querySelector(".en-vivo").scrollIntoView({ behavior: "smooth" }), 50); }
+      if (S.radio === r.id) { if (primera) { S.actual = null; tic(true); } return; } S.radio = r.id; guardar("radio.radio", r.id); B.latido(r.id); S.actual = null; pintarDial(); tic(true); };
     d.append(b);
   }
 }
@@ -1215,7 +1225,7 @@ decks.forEach((d) => {
 });
 function volDeck(d, g) {
   d.gain = g;
-  const v = +vol.value * g;
+  const v = +vol.value * g * (S.duck ?? 1);
   d.audio.volume = Math.min(1, Math.max(0, v / 100));
   if (d.listo) d.yt.setVolume(Math.round(v));
 }
@@ -1255,12 +1265,14 @@ function mezclar() {
     volDeck(a, 0); cargarDeck(a, it);
     decks.forEach((d, i) => { const f = document.getElementById(d.id); if (f) f.style.zIndex = i === activo ? 1 : 0; });
   }
-  const entrada = XF ? Math.min(1, Math.max(0, (ahora - it.desde) / (XF * 1000))) : 1;
+  // Curva de igual potencia: la que entra sube suave y la que sale baja suave, sin bache en el medio.
+  const curva = (x) => Math.sin(Math.min(1, Math.max(0, x)) * Math.PI / 2);
+  const entrada = XF ? curva((ahora - it.desde) / (XF * 1000)) : 1;
   volDeck(a, entrada);
   const viejo = decks[1 - activo];
   if (viejo.item) {
     const salida = XF ? (fin(viejo.item) - ahora) / (XF * 1000) : 0;
-    if (salida <= 0 || ahora - it.desde > XF * 1000) pararDeck(viejo); else volDeck(viejo, Math.min(1, salida));
+    if (salida <= 0 || ahora - it.desde > XF * 1000) pararDeck(viejo); else volDeck(viejo, curva(salida));
   }
 }
 function reproducir() { mostrarPortada(); mezclar(); }
@@ -1272,7 +1284,7 @@ function encender(on) {
   reproducir();
 }
 $("play").onclick = () => encender(true);
-$("pausa").onclick = () => encender(false);
+$("pausa").onclick = () => { encender(false); if ("speechSynthesis" in window) speechSynthesis.cancel(); S.duck = 1; };
 vol.oninput = () => { decks.forEach((d) => volDeck(d, d.gain)); guardar("radio.vol", +vol.value); };
 
 let esperandoDuracion = null;
@@ -1396,14 +1408,65 @@ function rotarDato() {
 function pintarHoraBA() {
   $("ba-hora").textContent = new Date().toLocaleTimeString("es-AR", { timeZone: "America/Argentina/Buenos_Aires", hour: "2-digit", minute: "2-digit" });
 }
+function cieloDe(c) {
+  if (c === 0) return "cielo despejado"; if (c <= 2) return "algunas nubes"; if (c === 3) return "cielo nublado";
+  if (c <= 48) return "niebla"; if (c <= 57) return "llovizna"; if (c <= 67) return "lluvia"; if (c <= 77) return "nieve";
+  if (c <= 82) return "chaparrones"; return "tormenta";
+}
 async function pedirClima() {
   try {
-    const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&current=temperature_2m&timezone=America%2FArgentina%2FBuenos_Aires");
+    const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&current=temperature_2m,weather_code&timezone=America%2FArgentina%2FBuenos_Aires");
     const j = await r.json();
-    $("ba-temp").textContent = `Buenos Aires · ${Math.round(j.current.temperature_2m)}°C`;
+    S.temp = Math.round(j.current.temperature_2m); S.cielo = cieloDe(j.current.weather_code);
+    $("ba-temp").textContent = `Buenos Aires · ${S.temp}°C`;
   } catch { $("ba-temp").textContent = "Buenos Aires"; }
 }
 pintarHoraBA(); setInterval(pintarHoraBA, 10e3);
+
+// ------------------------------------------------------------ Locutor (voz del navegador)
+// Cada 3 canciones, a los pocos segundos de arrancar el tema, baja la música y dice hora, día y clima.
+const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+let vozElegida = null;
+function elegirVoz() {
+  const vs = speechSynthesis.getVoices().filter((v) => /^es/i.test(v.lang));
+  const pref = [/es-AR/i, /es-US/i, /es-MX/i, /es-419/i, /es-ES/i];
+  const buena = (v) => /google|natural|neural|online|paulina|sabina|monica|elena/i.test(v.name);
+  for (const re of pref) { const v = vs.find((x) => re.test(x.lang) && buena(x)) || vs.find((x) => re.test(x.lang)); if (v) return v; }
+  return vs[0] || null;
+}
+if ("speechSynthesis" in window) { vozElegida = elegirVoz(); speechSynthesis.onvoiceschanged = () => { vozElegida = elegirVoz(); }; }
+function textoLocutor() {
+  const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+  const h = ahora.getHours(), m = ahora.getMinutes();
+  const hora = m === 0 ? `Son las ${h} en punto` : `Son las ${h} y ${m}`;
+  let t = `${hora} de este ${DIAS[ahora.getDay()]} en Buenos Aires`;
+  if (S.temp != null) t += `, con ${S.temp} grados y ${S.cielo || "tiempo tranquilo"}`;
+  t += `. Estás escuchando ${nombreRadio(S.radio)}, en Radio Galo y Nake.`;
+  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
+  if (s) t += ` Ahora suena ${s.titulo}, de ${s.banda}.`;
+  const datos = s ? FRASES.filter((f) => normB(f.b) === normB(String(s.banda).split(",")[0])) : [];
+  if (datos.length && Math.random() < 0.6) t += " Un dato: " + datos[Math.floor(Math.random() * datos.length)].d;
+  return t;
+}
+let temasDesdeLocutor = 0, ultimoTema = null;
+function locutar() {
+  if (!("speechSynthesis" in window) || !S.encendida || speechSynthesis.speaking) return;
+  const u = new SpeechSynthesisUtterance(textoLocutor());
+  u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
+  u.rate = 1.0; u.pitch = 0.95;
+  const bajar = (a, b, ms) => { const t0 = performance.now(); const f = () => { const x = Math.min(1, (performance.now() - t0) / ms); S.duck = a + (b - a) * x; decks.forEach((d) => d.item && volDeck(d, d.gain)); if (x < 1) requestAnimationFrame(f); }; f(); };
+  u.onstart = () => bajar(1, 0.25, 800);
+  u.onend = u.onerror = () => bajar(S.duck ?? 0.25, 1, 1500);
+  speechSynthesis.speak(u);
+}
+setInterval(() => {
+  const it = S.actual; if (!it || !S.encendida) return;
+  const clave = it.cid + "@" + it.desde;
+  if (clave !== ultimoTema) { ultimoTema = clave; temasDesdeLocutor++; }
+  const pos = (Date.now() - it.desde) / 1000;
+  // Habla cuando ya terminó el crossfade de la entrada, una vez cada 3 temas.
+  if (temasDesdeLocutor >= 3 && pos > XF + 3 && pos < XF + 20) { temasDesdeLocutor = 0; locutar(); }
+}, 1000);
 pedirClima(); setInterval(pedirClima, 15 * 60e3);
 setInterval(rotarDato, 25e3);
 </script>
