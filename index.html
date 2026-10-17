@@ -40,21 +40,18 @@ window.RADIO_CONFIG = {
 <style>
   /* Layout: station dial on top, a big "now playing" stage beside the on-air log, then rankings, requests, about us. Stacks on phones. */
   :root {
-    --bg: #14110f;
-    --surface: #1f1a17;
-    --line: #3a302a;
-    --fg: #f3ebe4;
-    --muted: #a99a8e;
-    --accent: #f2a65a;
+    --bg: #0a0a0b;
+    --surface: #151517;
+    --line: #2a2a2e;
+    --fg: #f2f2f3;
+    --muted: #8e8e95;
+    --accent: #e6e6ea;
     --live: #e5484d;
     --ok: #4cb782;
     --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
     --font-body: "Atkinson Hyperlegible", system-ui, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
     color-scheme: dark;
-  }
-  @media (prefers-color-scheme: light) {
-    :root { --bg: #f6f1ec; --surface: #fffaf5; --line: #e2d6cb; --fg: #231c17; --muted: #75655a; --accent: #b4590f; --live: #c62f34; --ok: #23784f; color-scheme: light; }
   }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
@@ -75,6 +72,9 @@ window.RADIO_CONFIG = {
 
   /* Header + dial */
   header { display: grid; gap: 18px; }
+  .clima { display: flex; gap: 14px; align-items: baseline; font: 600 .85rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .clima #ba-hora { color: var(--fg); font-size: 1.05rem; }
+  .dato-boludo { margin: 0; font-size: .92rem; color: var(--muted); border-left: 2px solid var(--line); padding-left: 10px; min-height: 1.4em; transition: opacity .4s; }
   .arriba { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
   .marca { font: 800 1.7rem var(--font-display); letter-spacing: -.02em; }
   .demo { font: 600 .72rem var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); border: 1px dashed var(--accent); border-radius: 4px; padding: 3px 8px; }
@@ -113,7 +113,7 @@ window.RADIO_CONFIG = {
   .pista div { height: 100%; width: 0; background: var(--accent); transition: width .5s linear; }
   .tiempos { display: flex; justify-content: space-between; font: .8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
   .controles { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
-  .boton-aire { font: 800 1rem var(--font-display); background: var(--accent); color: #1a1008; border: 0; border-radius: 999px; padding: 12px 26px; cursor: pointer; }
+  .boton-aire { font: 800 1rem var(--font-display); background: var(--accent); color: #0a0a0b; border: 0; border-radius: 999px; padding: 12px 26px; cursor: pointer; }
   body.encendida .boton-aire { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1.5px var(--line); }
   .icono { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 9px 14px; cursor: pointer; font-weight: 700; font-size: .9rem; }
   .icono[aria-pressed="true"] { color: var(--live); border-color: var(--live); }
@@ -130,7 +130,7 @@ window.RADIO_CONFIG = {
   .notas { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 4px; }
   .notas button { border: 1px solid var(--line); background: transparent; border-radius: 4px; padding: 8px 0; cursor: pointer; font: 600 .9rem var(--font-mono); position: relative; overflow: hidden; }
   .notas button .b { position: absolute; left: 0; right: 0; bottom: 0; background: var(--accent); opacity: .22; }
-  .notas button[aria-pressed="true"] { background: var(--accent); color: #1a1008; border-color: var(--accent); }
+  .notas button[aria-pressed="true"] { background: var(--accent); color: #0a0a0b; border-color: var(--accent); }
 
   /* Lists */
   ol, ul { list-style: none; margin: 0; padding: 0; }
@@ -203,6 +203,15 @@ window.RADIO_CONFIG = {
   .moderar .acciones { display: flex; flex-wrap: wrap; gap: 8px; }
   .previa { width: 100%; max-width: 360px; aspect-ratio: 16 / 9; background: var(--surface); border-radius: 4px; overflow: hidden; }
   .previa iframe { width: 100%; height: 100%; display: block; }
+  .fila-radio li[draggable="true"] { cursor: grab; }
+  .fila-radio li.arrastrando { opacity: .4; }
+  .fila-radio li.destino { box-shadow: 0 -2px 0 var(--accent); }
+  .fila-radio li.sonando .hora { color: var(--live); font-weight: 600; }
+  .fila-radio li.sonando .t { font-weight: 700; }
+  #saltar { color: var(--live); border-color: var(--live); }
+  .redondo { width: 52px; height: 52px; border-radius: 50%; border: 0; display: grid; place-items: center; cursor: pointer; background: var(--accent); color: #0a0a0b; }
+  .redondo.sec { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1.5px var(--line); }
+  .redondo:disabled { opacity: .35; cursor: default; }
   .fila-radio h4 { font: 800 1.1rem var(--font-display); margin: 0 0 6px; }
   .fila-radio li { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: .9rem; }
   .fila-radio li .hora { font: .78rem var(--font-mono); color: var(--muted); }
@@ -228,6 +237,8 @@ window.RADIO_CONFIG = {
       <div class="marca" id="nombre-radio">Radio</div>
       <span class="demo" id="modo-demo" hidden title="Todavía no está conectada a Firebase: lo que hagas queda solo en este navegador.">Modo demo</span>
     </div>
+    <div class="clima" aria-live="polite"><span id="ba-hora">--:--</span><span id="ba-temp">Buenos Aires</span></div>
+    <p class="dato-boludo" id="dato-boludo"></p>
     <nav class="dial" id="dial" aria-label="Radios en vivo"></nav>
   </header>
 
@@ -252,7 +263,9 @@ window.RADIO_CONFIG = {
         <div class="tiempos"><span id="t-actual">0:00</span><span id="t-total">0:00</span></div>
       </div>
       <div class="controles">
-        <button class="boton-aire" id="encender">Escuchar en vivo</button>
+        <button class="redondo" id="play" type="button" title="Play" aria-label="Play"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+        <button class="redondo sec" id="pausa" type="button" title="Pausa" aria-label="Pausa" disabled><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+        <button class="icono" id="saltar" type="button" hidden title="Solo Galo y Nake: pasa a la próxima de la fila">⏭ Saltar canción</button>
         <button class="icono" id="megusta" aria-pressed="false">♥ Me gusta</button>
         <label class="volumen" for="vol">Vol <input id="vol" type="range" min="0" max="100" value="80"></label>
       </div>
@@ -595,30 +608,52 @@ function asegurarCola(radio) {
 // Si dos canciones se solapan (crossfade), manda la que empezó más tarde.
 const sonandoEn = (radio, t = Date.now()) => [...(S.colas[radio] || [])].reverse().find((it) => it.desde <= t && t < fin(it)) || null;
 
-// Cambios de Galo y Nake a la fila: se aplican sobre la versión más nueva y se recalculan los horarios.
+// Cambios de Galo y Nake a la lista de una radio. La lista es [la que suena, ...lo que viene].
+// Si la primera deja de ser la que suena (la bajaron, la sacaron o saltaron), la que suena se corta ya
+// y la nueva primera arranca en este momento para todos. Los horarios se recalculan solos.
 function cambiarFila(radio, cambio) {
   return B.extenderCola(radio, (items) => {
     const ahora = Date.now();
-    const fijas = items.filter((it) => it.desde <= ahora);
-    const futuras = cambio(items.filter((it) => it.desde > ahora).map((it) => ({ ...it })));
-    if (!futuras) return null;
-    const ult = fijas.at(-1);
-    let t = ult ? Math.max(ahora + 1000, ult.desde + paso(ult)) : ahora + 1000;
-    for (const it of futuras) { it.desde = t; t += paso(it); }
-    return [...fijas, ...futuras];
+    const actual = [...items].reverse().find((it) => it.desde <= ahora && ahora < fin(it)) || null;
+    const lista = [...(actual ? [actual] : []), ...items.filter((it) => it.desde > ahora)].map((it) => ({ ...it }));
+    const nueva = cambio(lista, !!actual);
+    if (!nueva) return null;
+    let pasado = items.filter((it) => it.desde <= ahora).map((it) => ({ ...it })), t, resto;
+    if (actual && nueva[0] && claveItem(nueva[0]) === claveItem(actual)) {
+      resto = nueva.slice(1);
+      t = Math.max(ahora + 1000, actual.desde + paso(actual));
+    } else {
+      // Cortar lo que esté sonando (incluida una canción que se esté mezclando) justo ahora.
+      pasado = pasado.map((it) => fin(it) > ahora ? { ...it, dur: Math.max(1, (ahora - it.desde) / 1000) } : it);
+      resto = nueva;
+      t = ahora;
+    }
+    for (const it of resto) { it.desde = t; t += paso(it); }
+    return [...pasado, ...resto].slice(-40);
   });
 }
 const claveItem = (it) => it.cid + "@" + it.desde;
-const moverEnFila = (radio, clave, dir) => cambiarFila(radio, (f) => {
-  const i = f.findIndex((it) => claveItem(it) === clave), j = i + dir;
-  if (i < 0 || j < 0 || j >= f.length) return null;
-  [f[i], f[j]] = [f[j], f[i]]; return f;
+const moverA = (radio, clave, destino) => cambiarFila(radio, (f) => {
+  const i = f.findIndex((it) => claveItem(it) === clave);
+  if (i < 0 || destino < 0 || destino >= f.length || destino === i) return null;
+  const [x] = f.splice(i, 1); f.splice(destino, 0, x); return f;
 });
+const moverEnFila = (radio, clave, dir) => {
+  const lista = listaDe(radio), i = lista.findIndex((it) => claveItem(it) === clave);
+  return moverA(radio, clave, i + dir);
+};
 const quitarDeFila = (radio, clave) => cambiarFila(radio, (f) => {
   const i = f.findIndex((it) => claveItem(it) === clave);
   if (i < 0) return null; f.splice(i, 1); return f;
 });
-const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f) => [itemDe(cancion, 0), ...f]);
+const saltar = (radio) => cambiarFila(radio, (f, hayActual) => hayActual ? f.slice(1) : null);
+const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f, hayActual) => { f.splice(hayActual ? 1 : 0, 0, itemDe(cancion, 0)); return f; });
+// Lo que ven Galo y Nake: la que suena arriba de todo y después lo que viene.
+function listaDe(radio) {
+  const ahora = Date.now(), items = S.colas[radio] || [];
+  const actual = sonandoEn(radio, ahora);
+  return [...(actual ? [actual] : []), ...items.filter((it) => it.desde > ahora)];
+}
 
 // ------------------------------------------------------------ Dial de radios
 let presencia = [];
@@ -932,26 +967,42 @@ function pintarAdmin() {
   pintarFila();
 }
 
+let arrastre = null;
 function pintarFila() {
+  $("saltar").hidden = !esAdmin() || !S.actual;
   if (!esAdmin()) return;
   const cont = $("fila");
+  if (arrastre) return; // no redibujar mientras arrastran
   if (cont.contains(document.activeElement) && document.activeElement.tagName === "SELECT") return;
   cont.textContent = "";
-  const ahora = Date.now();
   for (const r of C.radios) {
-    const futuras = (S.colas[r.id] || []).filter((it) => it.desde > ahora);
+    const lista = listaDe(r.id);
+    const actual = sonandoEn(r.id);
     const ol = el("ol");
-    if (!futuras.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
-    futuras.forEach((it, i) => {
-      const k = claveItem(it);
-      const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; return x; };
-      ol.append(el("li", {},
-        el("span", { className: "hora", textContent: new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+    if (!lista.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
+    lista.forEach((it, i) => {
+      const k = claveItem(it), suena = mismo(it, actual);
+      const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; x.setAttribute("aria-label", title); return x; };
+      const li = el("li", { className: suena ? "sonando" : "", draggable: true },
+        el("span", { className: "hora", textContent: suena ? "SUENA" : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
         el("span", { className: "t", textContent: `${tema(it)}${it.mp3 ? " · MP3" : ""}` }),
         el("span", { className: "btns" },
           b("↑", "Subir", () => moverEnFila(r.id, k, -1), i === 0),
-          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === futuras.length - 1),
-          b("✕", "Sacar de la fila", () => quitarDeFila(r.id, k)))));
+          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === lista.length - 1),
+          b(suena ? "⏭" : "✕", suena ? "Saltar: sacarla y pasar a la próxima" : "Sacar de la lista", () => quitarDeFila(r.id, k))));
+      li.ondragstart = (e) => { arrastre = { radio: r.id, clave: k }; li.classList.add("arrastrando"); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", k); };
+      li.ondragend = () => { arrastre = null; li.classList.remove("arrastrando"); pintarFila(); };
+      li.ondragover = (e) => { if (arrastre?.radio === r.id) { e.preventDefault(); li.classList.add("destino"); } };
+      li.ondragleave = () => li.classList.remove("destino");
+      li.ondrop = (e) => {
+        e.preventDefault(); li.classList.remove("destino");
+        const a = arrastre; arrastre = null;
+        if (!a || a.radio !== r.id) return;
+        const desde = lista.findIndex((x) => claveItem(x) === a.clave);
+        let hasta = i; if (desde < hasta) hasta--; // se suelta "arriba" del tema destino
+        if (desde >= 0) moverA(r.id, a.clave, Math.max(0, hasta === desde ? i : hasta));
+      };
+      ol.append(li);
     });
     const sel = el("select", { id: "fila-sel-" + r.id }, el("option", { value: "", textContent: "Elegir canción…" }),
       ...aprobadas(r.id).sort((a, b) => a.titulo.localeCompare(b.titulo)).map((s) => el("option", { value: s.id, textContent: tema(s) })));
@@ -961,6 +1012,7 @@ function pintarFila() {
     cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner)));
   }
 }
+$("saltar").onclick = () => { if (esAdmin()) saltar(S.radio).catch((e) => { console.error(e); $("aviso").textContent = "No se pudo saltar la canción."; }); };
 
 // ------------------------------------------------------------ Búsqueda automática de datos
 // Fuentes gratuitas que no piden clave: iTunes (álbum, año, portada y nombre correcto),
@@ -1211,13 +1263,15 @@ function mezclar() {
   }
 }
 function reproducir() { mostrarPortada(); mezclar(); }
-$("encender").onclick = () => {
-  S.encendida = !S.encendida;
-  document.body.classList.toggle("encendida", S.encendida);
-  $("encender").textContent = S.encendida ? "Dejar de escuchar" : "Escuchar en vivo";
+function encender(on) {
+  S.encendida = on;
+  document.body.classList.toggle("encendida", on);
+  $("play").disabled = on; $("pausa").disabled = !on;
   $("aviso").textContent = "";
   reproducir();
-};
+}
+$("play").onclick = () => encender(true);
+$("pausa").onclick = () => encender(false);
 vol.oninput = () => { decks.forEach((d) => volDeck(d, d.gain)); guardar("radio.vol", +vol.value); };
 
 let esperandoDuracion = null;
@@ -1313,6 +1367,51 @@ pintarDial(); pintarAhora(); tic();
 setInterval(tic, 1000);
 setInterval(mezclar, 250);
 setInterval(pintarFila, 15000);
+
+// ------------------------------------------------------------ Hora, clima y datos boludos
+const CHISTES = [
+  "¿Por qué el guitarrista no entra a la cocina? Porque se pierde entre tantos trastes.",
+  "Un baterista golpea la puerta. Sabés que es el baterista porque se acelera.",
+  "Si un tema dura 8 minutos y tiene solo de guitarra, es corto.",
+  "Afinar la guitarra: actividad que ocupa el 50% de cualquier recital.",
+  "El bajista llegó tarde al ensayo. Nadie se dio cuenta.",
+  "Dato: decir \"una más y nos vamos\" en un ensayo nunca fue verdad.",
+  "Esta radio no tiene publicidad. Tampoco tiene presupuesto.",
+  "Si pedís un tema y no entra, Galo y Nake lo están \"evaluando\".",
+];
+const DATOS = [
+  "Los Redondos casi no daban entrevistas ni salían en la tele: todo de boca en boca.",
+  "\"Shine On You Crazy Diamond\" es un homenaje de Pink Floyd a Syd Barrett, su exintegrante.",
+  "Serú Girán se formó en 1978 con Charly García, David Lebón, Pedro Aznar y Oscar Moro.",
+  "\"Sultans of Swing\" fue el primer gran éxito de Dire Straits, en 1978.",
+  "El MTV Unplugged de Soda Stereo se grabó en Miami en 1996.",
+  "Led Zeppelin nunca lanzó \"Stairway to Heaven\" como single en Estados Unidos ni el Reino Unido.",
+  "\"Abbey Road\" se llama así por la calle de Londres donde estaban los estudios.",
+  "Spinetta grabó \"Artaud\" en 1973 y el disco salió con una tapa de forma irregular.",
+];
+let fraseIdx = Math.floor(Math.random() * 100);
+function rotarDato() {
+  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
+  const pool = [...CHISTES, ...DATOS];
+  // Una de cada tres veces, si la canción que suena tiene dato, se muestra ese.
+  const txt = (fraseIdx % 3 === 0 && s?.dato) ? `Sobre "${s.titulo}": ${String(s.dato).slice(0, 220)}` : pool[fraseIdx % pool.length];
+  fraseIdx++;
+  const p = $("dato-boludo"); p.style.opacity = 0;
+  setTimeout(() => { p.textContent = txt; p.style.opacity = 1; }, 400);
+}
+function pintarHoraBA() {
+  $("ba-hora").textContent = new Date().toLocaleTimeString("es-AR", { timeZone: "America/Argentina/Buenos_Aires", hour: "2-digit", minute: "2-digit" });
+}
+async function pedirClima() {
+  try {
+    const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&current=temperature_2m&timezone=America%2FArgentina%2FBuenos_Aires");
+    const j = await r.json();
+    $("ba-temp").textContent = `Buenos Aires · ${Math.round(j.current.temperature_2m)}°C`;
+  } catch { $("ba-temp").textContent = "Buenos Aires"; }
+}
+pintarHoraBA(); setInterval(pintarHoraBA, 10e3);
+pedirClima(); setInterval(pedirClima, 15 * 60e3);
+rotarDato(); setInterval(rotarDato, 25e3);
 </script>
 </body>
 </html>
