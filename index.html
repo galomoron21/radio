@@ -143,7 +143,7 @@ window.RADIO_CONFIG = {
   .fila.ahora .hora { color: var(--live); font-weight: 600; }
   .misterio { margin-top: 14px; padding: 12px 14px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); font-size: .92rem; }
   aside { display: grid; gap: 24px; align-content: start; min-width: 0; }
-  .chat { display: grid; gap: 10px; }
+  .chat { display: grid; gap: 10px; border: 1px solid var(--line); border-radius: 8px; padding: 16px; background: var(--surface); margin-top: 18px; }
   .chat h2 { margin: 0; }
   #chat-lista { max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px; padding-right: 4px; }
   #chat-lista li { font-size: .92rem; overflow-wrap: anywhere; }
@@ -299,7 +299,8 @@ window.RADIO_CONFIG = {
       <h3>Pide tu canción</h3>
       <form id="pedido">
         <div class="campos">
-          <label class="ancho" for="p-link">Link de YouTube<input type="url" id="p-link" placeholder="https://www.youtube.com/watch?v=…" required></label>
+          <p class="ancho nota-chica" style="margin:0">Solo escribí el nombre de la canción y la banda. Nosotros la buscamos en YouTube y la sumamos a la radio. Si ya tenés el link, pegalo y entra más rápido.</p>
+          <label class="ancho" for="p-link">Link de YouTube (opcional)<input type="url" id="p-link" placeholder="https://www.youtube.com/watch?v=…"></label>
           <label for="p-titulo">Canción<input type="text" id="p-titulo" required maxlength="120"></label>
           <label for="p-banda">Banda o artista<input type="text" id="p-banda" required maxlength="120"></label>
           <label for="p-radio">¿Para qué radio?<select id="p-radio"></select></label>
@@ -780,12 +781,12 @@ $("p-nombre").value = guardado("radio.nombre", "");
 $("pedido").onsubmit = async (e) => {
   e.preventDefault();
   $("p-ok").hidden = true; $("p-error").hidden = true;
-  const link = $("p-link").value.trim(), id = ytId(link);
-  if (!id) { $("p-error").textContent = "Ese link no parece de YouTube. Copia el link del video, por ejemplo https://youtu.be/…"; $("p-error").hidden = false; return; }
+  const link = $("p-link").value.trim(), id = link ? ytId(link) : null;
+  if (link && !id) { $("p-error").textContent = "Ese link no parece de YouTube. Copia el link del video, por ejemplo https://youtu.be/…"; $("p-error").hidden = false; return; }
   const nombre = $("p-nombre").value.trim();
   guardar("radio.nombre", nombre);
   try {
-    await B.pedir({ link, youtubeId: id, titulo: $("p-titulo").value.trim(), banda: $("p-banda").value.trim(), radio: $("p-radio").value, pidio: nombre || "Anónimo", mensaje: $("p-mensaje").value.trim() });
+    await B.pedir({ link, youtubeId: id || null, titulo: $("p-titulo").value.trim(), banda: $("p-banda").value.trim(), radio: $("p-radio").value, pidio: nombre || "Anónimo", mensaje: $("p-mensaje").value.trim() });
     $("pedido").reset(); $("p-nombre").value = nombre; $("p-ok").hidden = false;
   } catch (err) { console.error(err); $("p-error").textContent = "No se pudo enviar el pedido. Revisa tu conexión y prueba de nuevo."; $("p-error").hidden = false; }
 };
@@ -863,7 +864,9 @@ function ficha(s, modo) {
   const sel = el("select", { id: `m-${s.id}-radio` }, ...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre, selected: r.id === s.radio })));
   const msg = el("p", { className: "error", hidden: true });
   const esMp3 = modo === "nuevo-mp3" || !!s.mp3;
-  const origen = esMp3 ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" })] : [];
+  const sinVideo = !esMp3 && !s.youtubeId;
+  const origen = esMp3 ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" })]
+    : sinVideo ? [campo(s, "link", "Link de YouTube (lo pidieron sin link: búsquenlo y péguenlo acá)", s.link, { ancho: true, ph: "https://youtu.be/…" })] : [];
   const estado = el("p", { className: "nota-chica", id: `m-${s.id}-estado`, style: "margin:0", textContent: borrador[s.id]?._estado || "" });
   const acciones = {
     pendiente: [["🔎 Buscar datos", "icono", () => buscarDatos(s)], ["▶ Escuchar", "icono", () => escucharPrevia(s)], ["Aprobar", "primario", () => guardarFicha(s, msg, "aprobar")], ["Rechazar", "icono", () => B.actualizar(s.id, { estado: "rechazada" })]],
@@ -872,7 +875,8 @@ function ficha(s, modo) {
   }[modo];
   return el("div", { className: "moderar" },
     modo === "pendiente" ? el("div", {}, el("strong", { textContent: tema(s) }), el("div", { className: "nota-chica", style: "margin:0" },
-      `Pidió ${s.pidio || "Anónimo"}${s.mensaje ? ` · "${s.mensaje}"` : ""} · `, el("a", { href: s.link, target: "_blank", rel: "noopener", textContent: "abrir en YouTube" }))) : null,
+      `Pidió ${s.pidio || "Anónimo"}${s.mensaje ? ` · "${s.mensaje}"` : ""} · `, s.youtubeId ? el("a", { href: s.link, target: "_blank", rel: "noopener", textContent: "abrir en YouTube" })
+        : el("a", { href: "https://www.youtube.com/results?search_query=" + encodeURIComponent(`${s.titulo || ""} ${s.banda || ""}`.trim()), target: "_blank", rel: "noopener", textContent: "🔎 buscar en YouTube" }))) : null,
     el("div", { className: "campos" },
       ...origen,
       campo(s, "titulo", "Canción", s.titulo), campo(s, "banda", "Banda", s.banda),
@@ -1075,7 +1079,13 @@ async function buscarDatos(s, { soloVacios = false } = {}) {
   estado(t.join(" "));
 }
 
+// Si el pedido vino sin link, toma el que pegaron Galo o Nake en la ficha.
+function tomarLink(s) {
+  if (!$(`m-${s.id}-link`)) return;
+  const l = valor(s, "link"); s.link = l; s.youtubeId = l ? ytId(l) : null;
+}
 function leerFicha(s) {
+  tomarLink(s);
   const dur = seg(valor(s, "duracion"));
   const anio = parseInt(valor(s, "anio"), 10);
   const datos = {
@@ -1085,12 +1095,14 @@ function leerFicha(s) {
     radio: $(`m-${s.id}-radio`).value, duracion: dur,
   };
   if ($(`m-${s.id}-mp3`)) datos.mp3 = valor(s, "mp3");
+  if ($(`m-${s.id}-link`)) { datos.link = s.link; datos.youtubeId = s.youtubeId; }
   return datos;
 }
 async function guardarFicha(s, msg, accion) {
   msg.hidden = true;
   const d = leerFicha(s);
   const error = (t) => { msg.textContent = t; msg.hidden = false; };
+  if (accion !== "crear" && !d.mp3 && !s.mp3 && !s.youtubeId) return error("Falta el link de YouTube. Toquen \"buscar en YouTube\", copien el link del video y péguenlo arriba.");
   if (accion === "crear" && (!d.mp3 || !d.titulo)) return error("Faltan el archivo MP3 y el nombre de la canción.");
   if (!d.duracion) {
     msg.className = "nota-chica"; msg.textContent = "Buscando la duración…"; msg.hidden = false;
@@ -1116,6 +1128,8 @@ async function guardarFicha(s, msg, accion) {
   } catch (e) { console.error(e); error("No se pudo guardar. ¿Entraste con un correo que está en las reglas de Firebase?"); }
 }
 function escucharPrevia(s) {
+  tomarLink(s);
+  if (!s.youtubeId && !$(`m-${s.id}-mp3`)) return;
   previaPara = s;
   const mp3 = $(`m-${s.id}-mp3`) ? valor(s, "mp3") : null;
   if (mp3) {
@@ -1238,6 +1252,7 @@ document.head.append(el("script", { src: "https://www.youtube.com/iframe_api" })
 
 // Duración automática al aprobar: se carga el video (o el MP3) en silencio y se lee cuánto dura.
 function duracionAuto(s) {
+  tomarLink(s);
   return new Promise((ok) => {
     let listo = false;
     const fin = (d) => { if (listo) return; listo = true; ok(d ? Math.round(d) : 0); };
