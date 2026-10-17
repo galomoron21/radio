@@ -618,7 +618,28 @@ const guardado = (k, d) => { try { const v = localStorage.getItem(k); return v =
 const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || id;
 const tema = (x) => [x.titulo, x.banda].filter(Boolean).join(" · ");
-const portadaDe = (x) => (x && (x.portada || miniatura(x.youtubeId))) || "";
+// Tapa del disco: la guardada, la del tema en la base, una buscada en iTunes, o la miniatura del video.
+const tapas = new Map();
+const portadaDe = (x) => {
+  if (!x) return "";
+  const s = x.cid ? datosCancion(x.cid) : null;
+  return x.portada || s?.portada || tapas.get(x.cid || x.id) || miniatura(x.youtubeId) || "";
+};
+async function buscarTapa(it) {
+  const id = it.cid || it.id;
+  if (!it || tapas.has(id) || portadaDe(it)) return;
+  tapas.set(id, "");
+  try {
+    const s = datosCancion(id) || it;
+    const r = await buscarItunes(String(s.titulo || "").replace(/\s*[\(\[].*?[\)\]]/g, ""), String(s.banda || "").split(",")[0]);
+    if (r?.portada) {
+      tapas.set(id, r.portada);
+      if (esAdmin() && !String(id).startsWith("yt-")) B.actualizar(id, { portada: r.portada, ...(s.album ? {} : { album: r.album || "" }), ...(s.anio ? {} : { anio: r.anio || null }) }).catch(() => {});
+      if (S.actual && (S.actual.cid === id)) { pintarAhora(); }
+      pintarHistorial();
+    }
+  } catch {}
+}
 // Acepta el nombre del archivo o cualquier link de GitHub (blob, raw o Pages) y lo convierte en la ruta que sirve la página.
 function urlMp3(v, enGithub = false) {
   let x = String(v || "").trim();
@@ -671,7 +692,8 @@ const todasLasCanciones = () => {
   const conMp3 = new Set(S.solicitudes.filter((s) => s.mp3 && s.estado === "aprobada").map(claveTema));
   return [...S.solicitudes, ...(conMp3.size ? S.catalogo.filter((c) => !conMp3.has(claveTema(c))) : S.catalogo)];
 };
-const aprobadas = (radio) => todasLasCanciones().filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
+// Solo MP3: los temas de YouTube ya no suenan (quedan en la lista solo como datos de referencia).
+const aprobadas = (radio) => todasLasCanciones().filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0 && s.mp3);
 fetch("canciones.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.json() : []).then((l) => {
   S.catalogo = l.map((c) => ({ id: "yt-" + c.y, youtubeId: c.y, titulo: c.t, banda: c.a, album: c.al || "", anio: c.an || null, duracion: c.d, radio: c.r, curio: c.c || "", pop: c.p || 3, pais: c.pa || "", genero: c.ti || "", spotify: c.sp || "", estado: "aprobada", pidio: "Galo y Nake" }));
   try { pintarRankings(); tic(); } catch {}
@@ -731,8 +753,15 @@ function planificar(radio) {
   };
 }
 const extendiendo = {};
+const limpiada = {};
 function asegurarCola(radio) {
   const items = S.colas[radio];
+  // Saca de la fila lo que quedaba programado de YouTube (lo que está sonando termina normal).
+  if (items && !limpiada[radio] && items.some((it) => it.desde > Date.now() && !it.mp3)) {
+    limpiada[radio] = true;
+    cambiarFila(radio, (f, hayActual) => f.filter((it, i) => (hayActual && i === 0) || it.mp3)).catch((e) => console.error(e));
+    return;
+  }
   if (!items || !aprobadas(radio).length) return;
   if (items.filter((it) => it.desde > Date.now()).length >= Math.min(2, aprobadas(radio).length)) return;
   if (extendiendo[radio] && Date.now() - extendiendo[radio] < 8000) return;
@@ -1387,6 +1416,7 @@ function cargarDeck(d, it) {
 // La portada tapa el video cuando no se está escuchando. Un MP3 siempre muestra su portada (o una nota).
 function mostrarPortada() {
   const it = S.actual, src = portadaDe(it);
+  if (it && it.mp3 && !src) buscarTapa(it);
   const tapar = !!it && (!S.encendida || !!it.mp3);
   $("portada").hidden = !(tapar && src);
   $("nota-mp3").hidden = !(tapar && !src);
@@ -1788,14 +1818,13 @@ setInterval(() => conectarVivo(estadoVivo), 5000);
 const cacheDisco = {};
 function discos(radio) {
   const g = {};
-  for (const s of S.catalogo) {
+  for (const s of todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada")) {
     if ((radio && s.radio !== radio) || !s.album || /best of|greatest|hits|collection|essential|anthology|grandes|lo mejor|antolog/i.test(s.album)) continue;
     const k = s.banda + "||" + s.album; (g[k] ||= []).push(s);
   }
   return Object.values(g).filter((l) => l.length >= 3).sort((a, b) => (a[0].banda + a[0].album).localeCompare(b[0].banda + b[0].album));
 }
 function discoDelDia(radio) {
-  if (!S.catalogo.length) return null;
   const dia = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
   const k = dia + (radio || "");
   if (k in cacheDisco) return cacheDisco[k];
