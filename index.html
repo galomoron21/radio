@@ -120,6 +120,7 @@ window.RADIO_CONFIG = {
   .disco-dia { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 24px; align-items: start; border: 1px solid var(--line); border-radius: 8px; padding: 18px; background: var(--surface); }
   @media (max-width: 700px) { .disco-dia { grid-template-columns: minmax(0, 1fr); } }
   .disco-dia img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; }
+  .disco-lista summary { cursor: pointer; color: var(--accent); font-weight: 700; margin-top: 10px; }
   .disco-temas { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: .92rem; display: grid; gap: 2px; }
   .disco-temas li.suena { color: var(--fg); font-weight: 700; }
   body.sin-radio .disco-dia { display: none !important; }
@@ -329,7 +330,7 @@ window.RADIO_CONFIG = {
       <div class="banda" id="disco-banda"></div>
       <p class="curiosidad" id="disco-dato" hidden></p>
       <p class="nota-chica" id="disco-nota"></p>
-      <ol class="disco-temas" id="disco-temas"></ol>
+      <details class="disco-lista"><summary id="disco-ver">Ver canciones</summary><ol class="disco-temas" id="disco-temas"></ol></details>
     </div>
   </section>
 
@@ -1689,6 +1690,7 @@ async function pintarDisco() {
   $("disco-nota").textContent = `Hoy suena más seguido en ${nombreRadio(d.radio)}.`;
   const dato = d.temas.map((t) => t.curio).find((c) => c && normB(c).startsWith(normB(d.album).split(" ").slice(0, 2).join(" ")));
   $("disco-dato").textContent = dato || ""; $("disco-dato").hidden = !dato;
+  $("disco-ver").textContent = `Ver canciones (${d.temas.length})`;
   const ol = $("disco-temas"); ol.textContent = "";
   d.temas.forEach((t) => ol.append(el("li", { className: S.actual && S.actual.cid === t.id ? "suena" : "", textContent: t.titulo })));
   if (!$("disco-tapa").src) {
