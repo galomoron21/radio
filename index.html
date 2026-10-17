@@ -560,7 +560,14 @@ const S = {
   actual: null, encendida: false, filtro: "pendiente",
   elegida: C.radios.some((r) => r.id === guardado("radio.radio", "")),
 };
-const aprobadas = (radio) => S.solicitudes.filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
+// Catálogo fijo (canciones.json en el repo) + lo que aprueban Galo y Nake en Firebase.
+S.catalogo = [];
+const todasLasCanciones = () => S.catalogo.length ? [...S.solicitudes, ...S.catalogo] : S.solicitudes;
+const aprobadas = (radio) => todasLasCanciones().filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
+fetch("canciones.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.json() : []).then((l) => {
+  S.catalogo = l.map((c) => ({ id: "yt-" + c.y, youtubeId: c.y, titulo: c.t, banda: c.a, album: c.al || "", anio: c.an || null, duracion: c.d, radio: c.r, estado: "aprobada", pidio: "Galo y Nake" }));
+  try { pintarRankings(); tic(); } catch {}
+}).catch(() => {});
 const esAdmin = () => !!B.usuario.email && C.admins.map((a) => a.toLowerCase()).includes(B.usuario.email.toLowerCase());
 const mismo = (a, b) => !!a && !!b && a.desde === b.desde && a.cid === b.cid;
 
@@ -676,7 +683,7 @@ function pintarDial() {
 }
 
 // ------------------------------------------------------------ Ahora suena
-const datosCancion = (cid) => S.solicitudes.find((s) => s.id === cid);
+const datosCancion = (cid) => S.solicitudes.find((s) => s.id === cid) || S.catalogo.find((s) => s.id === cid);
 function pintarAhora() {
   const it = S.actual;
   $("radio-actual").textContent = nombreRadio(S.radio);
@@ -796,7 +803,7 @@ function filaRanking(pos, s, valor) {
     el("span", { className: "v", textContent: valor }));
 }
 function pintarRankings() {
-  const porId = Object.fromEntries(S.solicitudes.map((s) => [s.id, s]));
+  const porId = Object.fromEntries(todasLasCanciones().map((s) => [s.id, s]));
   const likes = {}; S.megusta.forEach((m) => { if (porId[m.cid]) likes[m.cid] = (likes[m.cid] || 0) + 1; });
   const ol1 = $("rank-megusta"); ol1.textContent = "";
   const top1 = Object.entries(likes).sort((a, b) => b[1] - a[1]).slice(0, 10);
@@ -1007,7 +1014,7 @@ function pintarFila() {
     const sel = el("select", { id: "fila-sel-" + r.id }, el("option", { value: "", textContent: "Elegir canción…" }),
       ...aprobadas(r.id).sort((a, b) => a.titulo.localeCompare(b.titulo)).map((s) => el("option", { value: s.id, textContent: tema(s) })));
     const poner = el("button", { type: "button", className: "icono", textContent: "Que suene después", onclick: () => {
-      const s = S.solicitudes.find((x) => x.id === sel.value); if (s) ponerSiguiente(r.id, s).then(() => { sel.value = ""; pintarFila(); });
+      const s = todasLasCanciones().find((x) => x.id === sel.value); if (s) ponerSiguiente(r.id, s).then(() => { sel.value = ""; pintarFila(); });
     } });
     cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner)));
   }
