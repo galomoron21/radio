@@ -126,7 +126,8 @@ window.RADIO_CONFIG = {
   .disco-dia img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; }
   .disco-lista summary { cursor: pointer; color: var(--accent); font-weight: 700; margin-top: 10px; }
   .disco-temas { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: .92rem; display: grid; gap: 2px; }
-  .disco-temas li.suena { color: var(--fg); font-weight: 700; }
+  .disco-temas li.en-radio { color: var(--fg); font-weight: 700; }
+  .disco-temas li.suena { color: var(--live); }
   body.sin-radio .disco-dia { display: none !important; }
   .dedicatoria { margin: 10px 0 0; font-weight: 700; color: var(--live); }
   .curiosidad { margin: 10px 0 0; max-width: 62ch; font-size: .98rem; line-height: 1.5; color: var(--fg); opacity: .85; border-left: 2px solid var(--accent); padding-left: 12px; }
@@ -137,6 +138,8 @@ window.RADIO_CONFIG = {
   .letra summary { cursor: pointer; color: var(--accent); font-weight: 700; font-size: .92rem; }
   .letra pre { font: .95rem/1.6 var(--font-body); white-space: pre-wrap; margin: 10px 0 0; max-height: 360px; overflow-y: auto; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
   .barra { display: grid; gap: 6px; }
+  .mover { display: grid; gap: 4px; margin-top: 8px; font-size: .8rem; color: var(--muted); }
+  .mover input { width: 100%; accent-color: var(--live); }
   .pista { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
   .pista div { height: 100%; width: 0; background: var(--accent); transition: width .5s linear; }
   .tiempos { display: flex; justify-content: space-between; font: .8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -292,6 +295,7 @@ window.RADIO_CONFIG = {
       <div class="barra">
         <div class="pista"><div id="progreso"></div></div>
         <div class="tiempos"><span id="t-actual">0:00</span><span id="t-total">0:00</span></div>
+        <label class="mover" id="mover" hidden>Mover la canción (solo ustedes):<input type="range" id="mover-pos" min="0" max="100" step="1" value="0"></label>
       </div>
       <div class="controles">
         <button class="redondo" id="play" type="button" title="Play" aria-label="Play"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
@@ -699,7 +703,7 @@ fetch("canciones.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.
   try { pintarRankings(); tic(); } catch {}
 }).catch(() => {});
 const esAdmin = () => !!B.usuario.email && C.admins.map((a) => a.toLowerCase()).includes(B.usuario.email.toLowerCase());
-const mismo = (a, b) => !!a && !!b && a.desde === b.desde && a.cid === b.cid;
+const mismo = (a, b) => !!a && !!b && (a.desde0 ?? a.desde) === (b.desde0 ?? b.desde) && a.cid === b.cid; // desde0: inicio original si lo movieron
 
 // ------------------------------------------------------------ Programación en vivo
 // La cola de cada radio vive en la base de datos: todos leen la misma y suenan juntos.
@@ -809,6 +813,21 @@ const quitarDeFila = (radio, clave) => cambiarFila(radio, (f) => {
   const i = f.findIndex((it) => claveItem(it) === clave);
   if (i < 0) return null; f.splice(i, 1); return f;
 });
+// Galo y Nake mueven el momento de la canción que suena: se corre el inicio y se reacomoda lo que viene.
+function moverA_seg(radio, seg) {
+  return B.extenderCola(radio, (items) => {
+    const ahora = Date.now();
+    const i = items.map((it) => it.desde <= ahora && ahora < fin(it)).lastIndexOf(true);
+    if (i < 0) return null;
+    const lista = items.map((it) => ({ ...it }));
+    const act = lista[i];
+    act.desde0 ??= act.desde;
+    act.desde = ahora - Math.max(0, Math.min(act.dur - 5, seg)) * 1000;
+    let t = act.desde + paso(act);
+    for (let j = i + 1; j < lista.length; j++) { lista[j].desde = t; t += paso(lista[j]); }
+    return lista;
+  });
+}
 const saltar = (radio) => cambiarFila(radio, (f, hayActual) => hayActual ? f.slice(1) : null);
 const ponerSiguiente = (radio, cancion) => cambiarFila(radio, (f, hayActual) => { f.splice(hayActual ? 1 : 0, 0, itemDe(cancion, 0)); return f; });
 // Lo que ven Galo y Nake: la que suena arriba de todo y después lo que viene.
@@ -1146,6 +1165,7 @@ function pintarAdmin() {
 let arrastre = null;
 function pintarFila() {
   $("saltar").hidden = !esAdmin() || !S.actual;
+  $("mover").hidden = !esAdmin() || !S.actual;
   if (!esAdmin()) return;
   const cont = $("fila");
   if (arrastre) return; // no redibujar mientras arrastran
@@ -1550,6 +1570,21 @@ $("lote-cargar").onclick = async () => {
   }
 };
 
+// Barra para mover la canción
+let moviendo = false;
+$("mover-pos").addEventListener("input", () => { moviendo = true; $("t-actual").textContent = fmt(+$("mover-pos").value); });
+$("mover-pos").addEventListener("change", () => {
+  const seg = +$("mover-pos").value; moviendo = false;
+  moverA_seg(S.radio, seg).then(() => {
+    const d = decks[activo];
+    if (d?.item?.mp3 && !d.audio.paused) d.audio.currentTime = seg; else if (d?.listo) d.yt.seekTo?.(seg, true);
+  }).catch((e) => { console.error(e); $("aviso").textContent = "No se pudo mover la canción."; });
+});
+setInterval(() => {
+  if (moviendo || !S.actual || $("mover").hidden) return;
+  const r = $("mover-pos"); r.max = Math.max(1, Math.floor(S.actual.dur - 5)); r.value = Math.floor((Date.now() - S.actual.desde) / 1000);
+}, 1000);
+
 // ------------------------------------------------------------ Reloj
 function tic(forzar = false) {
   const ahora = Date.now();
@@ -1562,6 +1597,9 @@ function tic(forzar = false) {
   const it = sonandoEn(S.radio, ahora);
   if (forzar || !(mismo(it, S.actual) || (!it && !S.actual))) {
     S.actual = it; pintarAhora(); pintarDial(); reproducir();
+  } else if (it && S.actual && it.desde !== S.actual.desde) {
+    // Movieron el momento de la canción: mismo tema, nuevo punto de partida.
+    S.actual = it; decks.forEach((d) => { if (mismo(d.item, it)) d.item = it; });
   }
   if (it) {
     const pos = (ahora - it.desde) / 1000;
@@ -1811,6 +1849,7 @@ function escucharVivo() {
   B.fs.onSnapshot(B.fs.collection(B.db, "voces"), (s) => { S.voces = s.docs.map((d) => ({ id: d.id, ...d.data() })).sort((a, b) => b.t - a.t); pintarVoces(); }, () => {});
 }
 setTimeout(escucharVivo, 1500);
+setTimeout(() => { if (B.fs) B.fs.onSnapshot(B.fs.doc(B.db, "config", "disco"), (sn) => { S.discoGuardado = sn.data() || null; pintarDisco(); }, () => {}); }, 1200);
 setInterval(() => conectarVivo(estadoVivo), 5000);
 
 // ------------------------------------------------------------ Disco del día
@@ -1824,35 +1863,74 @@ function discos(radio) {
   }
   return Object.values(g).filter((l) => l.length >= 3).sort((a, b) => (a[0].banda + a[0].album).localeCompare(b[0].banda + b[0].album));
 }
+// El disco del día se elige una vez por día y queda guardado en Firebase (config/disco): todos ven el mismo.
+S.discoGuardado = null;
+const hoyDisco = () => new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
+function armarDisco(banda, album) {
+  const temas = todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada" && x.banda === banda && x.album === album);
+  const base = temas[0] || {};
+  return { album: String(album).replace(/\s*[\(\[].*?[\)\]]/g, "").trim(), albumOriginal: album, banda, anio: base.anio || S.discoGuardado?.anio || null, radio: base.radio || S.discoGuardado?.radio || C.radios[0].id, temas };
+}
+let eligiendoDisco = false;
 function discoDelDia(radio) {
-  const dia = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
-  const k = dia + (radio || "");
-  if (k in cacheDisco) return cacheDisco[k];
-  const todos = discos(null); if (!todos.length) return null;
+  const dia = hoyDisco();
+  const g = S.discoGuardado;
+  if (g && g.fecha === dia) { const d = armarDisco(g.banda, g.album); return !radio || d.radio === radio ? d : null; }
+  // Nadie lo eligió todavía hoy: lo elige este navegador y lo guarda para todos.
+  const todos = discos(null); if (!todos.length || !B.fs || !B.usuario.uid || eligiendoDisco) return null;
   let h = 0; for (const c of dia) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  const elegido = todos[h % todos.length];
-  const d = { album: elegido[0].album.replace(/\s*[\(\[].*?[\)\]]/g, "").trim(), banda: elegido[0].banda, anio: elegido[0].anio, radio: elegido[0].radio, temas: elegido };
-  cacheDisco[k] = !radio || d.radio === radio ? d : null;
-  return cacheDisco[k];
+  const e = todos[h % todos.length][0];
+  eligiendoDisco = true;
+  B.fs.runTransaction(B.db, async (tx) => {
+    const ref = B.fs.doc(B.db, "config", "disco");
+    const act = (await tx.get(ref)).data();
+    if (act && act.fecha === dia) return;
+    tx.set(ref, { fecha: dia, banda: e.banda, album: e.album, anio: e.anio || null, radio: e.radio });
+  }).catch((err) => console.error(err)).finally(() => { eligiendoDisco = false; });
+  return null;
+}
+const infoDisco = {};
+async function datosDelDisco(d) {
+  const k = d.banda + "||" + d.album;
+  if (infoDisco[k]) return infoDisco[k];
+  const info = infoDisco[k] = { tapa: "", temas: [], resena: "" };
+  try {
+    const r = await pedirJSONP("https://itunes.apple.com/search?" + new URLSearchParams({ term: d.banda + " " + d.album, entity: "album", limit: "10" }));
+    const nb = normB(d.banda.split(",")[0]), na = normB(d.album);
+    const albums = (r.results || []).filter((x) => x.collectionId);
+    const a = albums.find((x) => normB(x.artistName).includes(nb) && normB(x.collectionName).startsWith(na)) || albums.find((x) => normB(x.artistName).includes(nb)) || albums[0];
+    if (a) {
+      info.tapa = a.artworkUrl100 ? a.artworkUrl100.replace(/\/\d+x\d+bb\./, "/600x600bb.") : "";
+      const l = await pedirJSONP("https://itunes.apple.com/lookup?" + new URLSearchParams({ id: a.collectionId, entity: "song", limit: "200" }));
+      info.temas = (l.results || []).filter((x) => x.wrapperType === "track").sort((x, y) => (x.discNumber - y.discNumber) || (x.trackNumber - y.trackNumber)).map((x) => ({ titulo: x.trackName, dur: Math.round((x.trackTimeMillis || 0) / 1000) }));
+      if (!d.anio && a.releaseDate) info.anio = parseInt(a.releaseDate.slice(0, 4), 10);
+    }
+  } catch {}
+  // Reseña corta: Wikipedia en español (y si no, en inglés).
+  for (const lang of ["es", "en"]) {
+    try {
+      const q = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?` + new URLSearchParams({ action: "query", format: "json", formatversion: "2", origin: "*", generator: "search", gsrsearch: `${d.album} ${d.banda} ${lang === "es" ? "álbum" : "album"}`, gsrlimit: "3", prop: "extracts", exintro: "1", explaintext: "1", exsentences: "4" }))).json();
+      const pg = (q.query?.pages || []).sort((x, y) => x.index - y.index).find((x) => normB(x.title).includes(normB(d.album).split(" ").slice(0, 3).join(" ")) && x.extract);
+      if (pg) { info.resena = pg.extract.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim().slice(0, 600); break; }
+    } catch {}
+  }
+  return info;
 }
 async function pintarDisco() {
   const d = discoDelDia(null); if (!d) return;
   $("disco-dia").hidden = false;
   $("disco-nombre").textContent = d.album;
-  $("disco-banda").textContent = d.banda + (d.anio ? ` · ${d.anio}` : "");
-  $("disco-nota").textContent = `Hoy suena más seguido en ${nombreRadio(d.radio)}.`;
-  const dato = d.temas.map((t) => t.curio).find((c) => c && normB(c).startsWith(normB(d.album).split(" ").slice(0, 2).join(" ")));
-  $("disco-dato").textContent = dato || ""; $("disco-dato").hidden = !dato;
-  $("disco-ver").textContent = `Ver canciones (${d.temas.length})`;
+  $("disco-nota").textContent = d.temas.length ? `Hoy suena más seguido en ${nombreRadio(d.radio)}. Los temas en negrita están en la radio.` : "";
+  const info = await datosDelDisco(d);
+  $("disco-banda").textContent = d.banda + ((d.anio || info.anio) ? ` · ${d.anio || info.anio}` : "");
+  const resena = info.resena || d.temas.map((t) => t.curio).find(Boolean) || "";
+  $("disco-dato").textContent = resena; $("disco-dato").hidden = !resena;
+  if (info.tapa && $("disco-tapa").src !== info.tapa) { $("disco-tapa").src = info.tapa; $("disco-tapa").hidden = false; $("disco-tapa").alt = "Tapa de " + d.album; }
+  const lista = info.temas.length ? info.temas : d.temas.map((t) => ({ titulo: t.titulo, dur: t.duracion }));
+  $("disco-ver").textContent = `Ver canciones (${lista.length})`;
   const ol = $("disco-temas"); ol.textContent = "";
-  d.temas.forEach((t) => ol.append(el("li", { className: S.actual && S.actual.cid === t.id ? "suena" : "", textContent: t.titulo })));
-  if (!$("disco-tapa").src) {
-    try {
-      const r = await pedirJSONP("https://itunes.apple.com/search?" + new URLSearchParams({ term: d.banda + " " + d.album, entity: "album", limit: "5" }));
-      const a = (r.results || [])[0];
-      if (a?.artworkUrl100) { $("disco-tapa").src = a.artworkUrl100.replace(/\/\d+x\d+bb\./, "/600x600bb."); $("disco-tapa").hidden = false; $("disco-tapa").alt = "Tapa de " + d.album; }
-    } catch {}
-  }
+  const enRadio = (t) => d.temas.find((x) => normB(limpiarTitulo(x.titulo)).includes(normB(limpiarTitulo(t.titulo))) || normB(limpiarTitulo(t.titulo)).includes(normB(limpiarTitulo(x.titulo))));
+  lista.forEach((t) => { const r = enRadio(t); ol.append(el("li", { className: (r ? "en-radio" : "") + (r && S.actual && S.actual.cid === r.id ? " suena" : ""), textContent: t.titulo + (t.dur ? ` · ${fmt(t.dur)}` : "") })); });
 }
 setInterval(pintarDisco, 20e3); setTimeout(pintarDisco, 3000);
 
