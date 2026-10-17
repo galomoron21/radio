@@ -685,7 +685,7 @@ function pintarHistorial() {
     }
     const enAire = mismo(it, S.actual);
     ol.append(el("li", { className: "fila" + (enAire ? " ahora" : "") },
-      el("span", { className: "hora", textContent: enAire ? "AHORA · " + new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
+      el("span", { className: "hora", style: "white-space:pre-line", textContent: enAire ? "AHORA\n" + new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
       imagen(it),
       el("div", { style: "min-width:0" }, el("div", { className: "t", textContent: it.titulo }), el("div", { className: "a", textContent: it.banda })),
       el("span")));
