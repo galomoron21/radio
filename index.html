@@ -590,7 +590,18 @@ const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } 
 const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || id;
 const tema = (x) => [x.titulo, x.banda].filter(Boolean).join(" · ");
 const portadaDe = (x) => (x && (x.portada || miniatura(x.youtubeId))) || "";
-const rutaMp3 = (x) => encodeURI(x.mp3);
+// Acepta el nombre del archivo o cualquier link de GitHub (blob, raw o Pages) y lo convierte en la ruta que sirve la página.
+function urlMp3(v) {
+  let x = String(v || "").trim();
+  const m = x.match(/^https?:\/\/(?:www\.)?github\.com\/[^/]+\/[^/]+\/(?:blob|raw)\/[^/]+\/(.+?)(?:\?.*)?$/i)
+    || x.match(/^https?:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/[^/]+\/(.+?)(?:\?.*)?$/i)
+    || x.match(/^https?:\/\/[^/]+\.github\.io\/[^/]+\/(.+?)(?:\?.*)?$/i);
+  if (m) x = m[1];
+  try { x = decodeURIComponent(x); } catch {}
+  if (/^https?:\/\//i.test(x)) return encodeURI(x);
+  return x.split("/").map(encodeURIComponent).join("/");
+}
+const rutaMp3 = (x) => urlMp3(x.mp3);
 const imagen = (x) => {
   const src = portadaDe(x);
   if (!src) return el("span", { className: "mini", textContent: "♪" });
@@ -1268,7 +1279,7 @@ function escucharPrevia(s) {
   if (mp3) {
     if (ytPrevia?.stopVideo) ytPrevia.stopVideo();
     $("previa-mp3").hidden = false; $("previa-yt").hidden = true;
-    previaMp3.src = encodeURI(mp3);
+    previaMp3.src = urlMp3(mp3);
     previaMp3.onloadedmetadata = () => { const i = $(`m-${s.id}-duracion`); if (i && !i.value) i.value = fmt(previaMp3.duration); };
     previaMp3.onerror = () => { const i = $(`m-${s.id}-duracion`); if (i) i.placeholder = "No se encontró el archivo"; };
     previaMp3.play().catch(() => {});
@@ -1291,7 +1302,7 @@ const decks = [0, 1].map((i) => ({ id: "yt-vivo-" + i, yt: null, listo: false, a
 let activo = 0;
 decks.forEach((d) => {
   d.audio.preload = "auto";
-  d.audio.onerror = () => { if (d.item?.mp3 && d === decks[activo]) $("aviso").textContent = `No se encontró el archivo ${d.item.mp3}. Revisen que esté subido a GitHub con ese nombre exacto.`; };
+  d.audio.onerror = () => { if (d.item?.mp3 && d === decks[activo]) $("aviso").textContent = `No se encontró el archivo ${d.item.mp3}. Revisen que esté subido a GitHub (en la carpeta principal del repo) y esperen 1 o 2 minutos después de subirlo.`; };
 });
 function volDeck(d, g) {
   d.gain = g;
@@ -1398,7 +1409,7 @@ function duracionAuto(s) {
     if (mp3) {
       const a = new Audio(); a.preload = "metadata";
       a.onloadedmetadata = () => fin(a.duration); a.onerror = () => fin(0);
-      a.src = encodeURI(mp3); return;
+      a.src = urlMp3(mp3); return;
     }
     if (!ytPrevia?.loadVideoById || !s.youtubeId) return fin(0);
     esperandoDuracion = fin;
