@@ -410,6 +410,11 @@ window.RADIO_CONFIG = {
       <div id="pendientes"></div>
     </div>
     <div>
+      <h2>Arreglar títulos y artistas de los MP3</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Revisa los MP3 que están al aire y corrige tema, banda, disco y año cuando el nombre del archivo venía raro (por ejemplo "Fusilados por la Cruz Roja - Estadio Único de La Plata…"). Busca en la lista de Spotify y en MusicBrainz. Tarda ~1 segundo por tema.</p>
+      <div class="acciones-vivo"><button class="icono" type="button" id="arreglar-btn">🧹 Arreglar títulos</button><span class="nota-chica" id="arreglar-estado"></span></div>
+    </div>
+    <div>
       <h2>Cargar muchos MP3 de una</h2>
       <p class="nota-chica" style="margin:0 0 10px">1) Suban los MP3 a Cloudflare R2 (radio-mp3). 2) Acá toquen "Elegir MP3" y seleccionen <b>los mismos archivos</b> desde su compu: no se suben de nuevo, solo se leen el nombre y la duración. La radio busca sola banda, tema, disco, año y tapa, y los pone al aire. Si el tema ya estaba por YouTube, se usa el MP3 en su lugar. Mejor si los archivos se llaman "Banda - Tema.mp3".</p>
       <div class="acciones-vivo">
@@ -621,7 +626,10 @@ const miniatura = (id) => id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : ""
 const guardado = (k, d) => { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } };
 const guardar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || id;
-const tema = (x) => [x.titulo, x.banda].filter(Boolean).join(" · ");
+// Saca "subtítulos" del nombre: (2015 Remaster), [Official Video], - Remastered 2011, Full HD, Lyrics, etc.
+const RUIDO = /\s*[\(\[][^\)\]]*(remaster|official|oficial|video|audio|lyric|letra|hd|hq|4k|full|version|versión|mono|stereo|edit|mix|live at|bonus|deluxe|explicit)[^\)\]]*[\)\]]/gi;
+const tituloLimpio = (t) => String(t || "").replace(/\[[^\]]*\]/g, "").replace(RUIDO, "").replace(/\s+-\s+(\d{4}\s+)?(digital\s+)?remaster.*$/i, "").replace(/\s+-\s+(single|radio|album)\s+(version|edit).*$/i, "").replace(/\b(full\s*hd|hd|hq|4k|video\s*oficial|official\s*(music\s*)?video|lyrics?)\b/gi, "").replace(/\s{2,}/g, " ").replace(/[\s\-–·]+$/g, "").trim() || String(t || "");
+const tema = (x) => [tituloLimpio(x.titulo), x.banda].filter(Boolean).join(" · ");
 // Tapa del disco: la guardada, la del tema en la base, una buscada en iTunes, o la miniatura del video.
 const tapas = new Map();
 const portadaDe = (x) => {
@@ -878,7 +886,7 @@ function pintarAhora() {
     $("ambiente").style.backgroundImage = "none"; pintarHistorial(); pintarVotos(); pintarMegusta(); return;
   }
   const s = datosCancion(it.cid) || it;
-  $("titulo").textContent = s.titulo;
+  $("titulo").textContent = tituloLimpio(s.titulo);
   const cur = s.curio || s.dato || "";
   $("curiosidad").textContent = cur; $("curiosidad").hidden = !cur;
   const ded = dedicatoriaDe(s);
@@ -1585,6 +1593,64 @@ setInterval(() => {
   const r = $("mover-pos"); r.max = Math.max(1, Math.floor(S.actual.dur - 5)); r.value = Math.floor((Date.now() - S.actual.desde) / 1000);
 }, 1000);
 
+// ------------------------------------------------------------ Identificar tema y banda desde el nombre del archivo
+const BANDAS = () => new Set(S.catalogo.map((c) => normB(String(c.banda).split(",")[0])));
+const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
+async function mbBuscar(texto) {
+  const r = await fetch("https://musicbrainz.org/ws/2/recording?" + new URLSearchParams({ query: texto, fmt: "json", limit: "8" }), { headers: { Accept: "application/json" } });
+  if (!r.ok) throw new Error("MusicBrainz " + r.status);
+  return (await r.json()).recordings || [];
+}
+async function identificar(s) {
+  const archivo = decodeURIComponent(String(s.mp3 || "").split("/").pop() || "").replace(/\.mp3$/i, "");
+  const crudo = tituloLimpio(archivo.replace(/_/g, " ")).replace(/\(.*?\)/g, " ").replace(/\s+/g, " ").trim();
+  const ncrudo = normB(crudo);
+  const partes = crudo.split(/\s+[-–]\s+/).map((x) => x.trim()).filter(Boolean);
+  // 1) La lista de Spotify: algún tema cuyo título y banda aparezcan en el nombre del archivo.
+  const cand = S.catalogo.filter((c) => { const t = normB(tituloLimpio(c.titulo)), b = normB(String(c.banda).split(",")[0]); return t.length > 2 && ncrudo.includes(t) && ncrudo.includes(b); })
+    .sort((a, b) => normB(b.titulo).length - normB(a.titulo).length);
+  if (cand[0]) { const c = cand[0]; return { titulo: tituloLimpio(c.titulo), banda: c.banda, album: c.album || "", anio: c.anio || null, spotify: c.spotify || "", curio: c.curio || "", pop: c.pop || 4, fuente: "lista" }; }
+  // 2) MusicBrainz: un tema cuyo título y artista estén en el nombre.
+  try {
+    const recs = await mbBuscar(crudo);
+    const ok = recs.map((r) => ({ r, t: normB(tituloLimpio(r.title)), a: normB(r["artist-credit"]?.[0]?.name || "") }))
+      .filter((x) => x.t.length > 1 && ncrudo.includes(x.t) && x.a && ncrudo.includes(x.a.split(" ").filter((w) => w.length > 2)[0] || x.a))
+      .sort((a, b) => (b.r.score || 0) - (a.r.score || 0) || b.t.length - a.t.length);
+    if (ok[0]) {
+      const r = ok[0].r, rel = (r.releases || []).find((x) => x["release-group"]?.["primary-type"] === "Album") || (r.releases || [])[0];
+      return { titulo: tituloLimpio(r.title), banda: r["artist-credit"].map((a) => a.name + (a.joinphrase || "")).join("").trim(), album: rel?.title || s.album || "", anio: parseInt(String(rel?.date || r["first-release-date"] || "").slice(0, 4), 10) || s.anio || null, fuente: "musicbrainz" };
+    }
+  } catch (e) { console.warn(e); }
+  // 3) Sin datos: si una de las partes es una banda conocida, la otra es el tema.
+  const conocidas = BANDAS();
+  if (partes.length >= 2) {
+    const ib = partes.findIndex((p) => conocidas.has(normB(p)));
+    if (ib >= 0) return { titulo: partes.filter((_, i) => i !== ib)[0], banda: partes[ib], fuente: "nombre" };
+  }
+  return null;
+}
+$("arreglar-btn").onclick = async () => {
+  const lista = S.solicitudes.filter((x) => x.mp3 && x.estado === "aprobada");
+  let n = 0, cambiados = 0;
+  $("arreglar-btn").disabled = true;
+  for (const s of lista) {
+    n++; $("arreglar-estado").textContent = `Revisando ${n} de ${lista.length}… (${cambiados} corregidos)`;
+    try {
+      const d = await identificar(s);
+      if (d && (normB(d.titulo) !== normB(s.titulo) || normB(d.banda) !== normB(s.banda) || (d.album && d.album !== s.album))) {
+        const cambios = { titulo: d.titulo.slice(0, 120), banda: d.banda.slice(0, 120) };
+        if (d.album) cambios.album = d.album; if (d.anio) cambios.anio = d.anio;
+        for (const k of ["spotify", "curio", "pop"]) if (d[k]) cambios[k] = d[k];
+        if (normB(d.album || "") !== normB(s.album || "")) cambios.portada = ""; // la tapa vieja era de otro disco
+        await B.actualizar(s.id, cambios); cambiados++;
+      }
+    } catch (e) { console.error(e); }
+    await esperar(1100); // MusicBrainz pide como máximo 1 consulta por segundo
+  }
+  $("arreglar-estado").textContent = `Listo: revisé ${lista.length} temas y corregí ${cambiados}.`;
+  $("arreglar-btn").disabled = false;
+};
+
 // ------------------------------------------------------------ Reloj
 function tic(forzar = false) {
   const ahora = Date.now();
@@ -1899,16 +1965,32 @@ const infoDisco = {};
 async function datosDelDisco(d) {
   const k = d.banda + "||" + d.album;
   if (infoDisco[k] && (infoDisco[k].temas.length || Date.now() - infoDisco[k].t < 60e3)) return infoDisco[k];
-  const info = infoDisco[k] = { tapa: "", temas: [], resena: "", t: Date.now() }; // si iTunes no respondió, se reintenta al minuto
+  const info = infoDisco[k] = { tapa: "", temas: [], resena: "", t: Date.now() }; // si no respondió, se reintenta al minuto
   try {
+    const q = `release:"${d.album.replace(/"/g, "")}" AND artist:"${d.banda.split(",")[0].replace(/"/g, "")}"`;
+    const rs = await (await fetch("https://musicbrainz.org/ws/2/release?" + new URLSearchParams({ query: q, fmt: "json", limit: "10" }))).json();
+    const rels = (rs.releases || []).filter((x) => normB(x.title) === normB(d.album) || normB(x.title).startsWith(normB(d.album)));
+    const rel = rels.find((x) => x.status === "Official" && (x.country === "GB" || x.country === "US" || x.country === "XE")) || rels.find((x) => x.status === "Official") || rels[0];
+    if (rel) {
+      info.tapa = `https://coverartarchive.org/release/${rel.id}/front-500`;
+      const det = await (await fetch(`https://musicbrainz.org/ws/2/release/${rel.id}?` + new URLSearchParams({ inc: "recordings", fmt: "json" }))).json();
+      info.temas = (det.media || []).flatMap((m) => (m.tracks || []).map((t) => ({ titulo: t.title, dur: Math.round((t.length || 0) / 1000) })));
+      if (!d.anio && rel.date) info.anio = parseInt(rel.date.slice(0, 4), 10);
+      // si la tapa no existe en Cover Art Archive, se prueba con la del grupo de lanzamientos
+      const rg = rel["release-group"]?.id;
+      const prueba = await fetch(info.tapa, { method: "HEAD" }).catch(() => null);
+      if ((!prueba || !prueba.ok) && rg) info.tapa = `https://coverartarchive.org/release-group/${rg}/front-500`;
+    }
+  } catch (e) { console.warn(e); }
+  if (!info.temas.length || !info.tapa) try {
     const r = await pedirJSONP("https://itunes.apple.com/search?" + new URLSearchParams({ term: d.banda + " " + d.album, entity: "album", limit: "10" }));
     const nb = normB(d.banda.split(",")[0]), na = normB(d.album);
     const albums = (r.results || []).filter((x) => x.collectionId);
     const a = albums.find((x) => normB(x.artistName).includes(nb) && normB(x.collectionName).startsWith(na)) || albums.find((x) => normB(x.artistName).includes(nb)) || albums[0];
     if (a) {
-      info.tapa = a.artworkUrl100 ? a.artworkUrl100.replace(/\/\d+x\d+bb\./, "/600x600bb.") : "";
+      info.tapa ||= a.artworkUrl100 ? a.artworkUrl100.replace(/\/\d+x\d+bb\./, "/600x600bb.") : "";
       const l = await pedirJSONP("https://itunes.apple.com/lookup?" + new URLSearchParams({ id: a.collectionId, entity: "song", limit: "200" }));
-      info.temas = (l.results || []).filter((x) => x.wrapperType === "track").sort((x, y) => (x.discNumber - y.discNumber) || (x.trackNumber - y.trackNumber)).map((x) => ({ titulo: x.trackName, dur: Math.round((x.trackTimeMillis || 0) / 1000) }));
+      if (!info.temas.length) info.temas = (l.results || []).filter((x) => x.wrapperType === "track").sort((x, y) => (x.discNumber - y.discNumber) || (x.trackNumber - y.trackNumber)).map((x) => ({ titulo: x.trackName, dur: Math.round((x.trackTimeMillis || 0) / 1000) }));
       if (!d.anio && a.releaseDate) info.anio = parseInt(a.releaseDate.slice(0, 4), 10);
     }
   } catch {}
