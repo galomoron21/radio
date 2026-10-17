@@ -32,6 +32,8 @@ window.RADIO_CONFIG = {
     appId: "1:1035424324499:web:4f9663bde7a2a76ae0e666",
   },
   crossfade: 12,
+  // Donde están los MP3 (Cloudflare R2, bucket "radio-mp3"). Si un archivo no está ahí, se busca en el repo de GitHub.
+  mp3Base: "https://pub-ce09f47a92bd4beab08062275563c1ad.r2.dev/",
 };
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -403,7 +405,7 @@ window.RADIO_CONFIG = {
     </div>
     <div>
       <h2>Agregar un MP3 propio</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Primero suban el archivo a su repositorio de GitHub (ver la guía). Después escriban acá su nombre exacto. La duración se completa sola.</p>
+      <p class="nota-chica" style="margin:0 0 10px">Primero suban el archivo a Cloudflare R2 (dash.cloudflare.com → R2 → radio-mp3 → arrastrar el MP3). Después escriban acá su nombre exacto, por ejemplo <b>Pride and Joy.mp3</b>. La duración se completa sola.</p>
       <div id="nuevo-mp3"></div>
     </div>
     <div>
@@ -591,7 +593,7 @@ const nombreRadio = (id) => (C.radios.find((r) => r.id === id) || {}).nombre || 
 const tema = (x) => [x.titulo, x.banda].filter(Boolean).join(" · ");
 const portadaDe = (x) => (x && (x.portada || miniatura(x.youtubeId))) || "";
 // Acepta el nombre del archivo o cualquier link de GitHub (blob, raw o Pages) y lo convierte en la ruta que sirve la página.
-function urlMp3(v) {
+function urlMp3(v, enGithub = false) {
   let x = String(v || "").trim();
   const m = x.match(/^https?:\/\/(?:www\.)?github\.com\/[^/]+\/[^/]+\/(?:blob|raw)\/[^/]+\/(.+?)(?:\?.*)?$/i)
     || x.match(/^https?:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/[^/]+\/(.+?)(?:\?.*)?$/i)
@@ -599,9 +601,20 @@ function urlMp3(v) {
   if (m) x = m[1];
   try { x = decodeURIComponent(x); } catch {}
   if (/^https?:\/\//i.test(x)) return encodeURI(x);
-  return x.split("/").map(encodeURIComponent).join("/");
+  const ruta = x.split("/").map(encodeURIComponent).join("/");
+  return (!enGithub && C.mp3Base ? C.mp3Base : "") + ruta;
 }
 const rutaMp3 = (x) => urlMp3(x.mp3);
+// Si no está en R2, prueba en GitHub (los primeros MP3 se subieron ahí).
+function conRespaldo(audio, nombre) {
+  audio.dataset.mp3 = nombre; audio.dataset.respaldo = "";
+  if (audio._respaldo) return; audio._respaldo = true;
+  audio.addEventListener("error", () => {
+    const n = audio.dataset.mp3;
+    if (audio.dataset.respaldo || !n || !urlMp3(n).startsWith(C.mp3Base || "#")) return;
+    audio.dataset.respaldo = "1"; audio.src = urlMp3(n, true); audio.play?.().catch(() => {});
+  });
+}
 const imagen = (x) => {
   const src = portadaDe(x);
   if (!src) return el("span", { className: "mini", textContent: "♪" });
@@ -1279,7 +1292,7 @@ function escucharPrevia(s) {
   if (mp3) {
     if (ytPrevia?.stopVideo) ytPrevia.stopVideo();
     $("previa-mp3").hidden = false; $("previa-yt").hidden = true;
-    previaMp3.src = urlMp3(mp3);
+    previaMp3.src = urlMp3(mp3); conRespaldo(previaMp3, mp3);
     previaMp3.onloadedmetadata = () => { const i = $(`m-${s.id}-duracion`); if (i && !i.value) i.value = fmt(previaMp3.duration); };
     previaMp3.onerror = () => { const i = $(`m-${s.id}-duracion`); if (i) i.placeholder = "No se encontró el archivo"; };
     previaMp3.play().catch(() => {});
@@ -1302,7 +1315,7 @@ const decks = [0, 1].map((i) => ({ id: "yt-vivo-" + i, yt: null, listo: false, a
 let activo = 0;
 decks.forEach((d) => {
   d.audio.preload = "auto";
-  d.audio.onerror = () => { if (d.item?.mp3 && d === decks[activo]) $("aviso").textContent = `No se encontró el archivo ${d.item.mp3}. Revisen que esté subido a GitHub (en la carpeta principal del repo) y esperen 1 o 2 minutos después de subirlo.`; };
+  d.audio.onerror = () => { if (d.audio.dataset.respaldo !== "1" && d.item?.mp3 && urlMp3(d.item.mp3).startsWith(C.mp3Base || "#")) { d.audio.dataset.respaldo = "1"; d.audio.src = urlMp3(d.item.mp3, true); d.audio.play().catch(() => {}); return; } if (d.item?.mp3 && d === decks[activo]) $("aviso").textContent = `No se encontró el archivo ${d.item.mp3}. Revisen que esté subido a Cloudflare R2 (bucket radio-mp3) con ese nombre exacto.`; };
 });
 function volDeck(d, g) {
   d.gain = g;
@@ -1319,7 +1332,7 @@ function cargarDeck(d, it) {
   d.item = it;
   if (it.mp3) {
     if (d.listo) d.yt.stopVideo();
-    d.audio.src = rutaMp3(it);
+    d.audio.dataset.respaldo = ""; d.audio.src = rutaMp3(it);
     d.audio.addEventListener("loadedmetadata", () => { d.audio.currentTime = Math.max(0, (Date.now() - it.desde) / 1000); }, { once: true });
     d.audio.play().catch(() => {});
   } else {
@@ -1409,7 +1422,7 @@ function duracionAuto(s) {
     if (mp3) {
       const a = new Audio(); a.preload = "metadata";
       a.onloadedmetadata = () => fin(a.duration); a.onerror = () => fin(0);
-      a.src = urlMp3(mp3); return;
+      a.src = urlMp3(mp3); conRespaldo(a, mp3); return;
     }
     if (!ytPrevia?.loadVideoById || !s.youtubeId) return fin(0);
     esperandoDuracion = fin;
