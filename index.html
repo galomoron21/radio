@@ -1857,7 +1857,8 @@ setInterval(() => conectarVivo(estadoVivo), 5000);
 const cacheDisco = {};
 function discos(radio) {
   const g = {};
-  for (const s of todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada")) {
+  // Solo temas cuyo disco viene de la lista de Spotify (datos confiables), no de una búsqueda automática.
+  for (const s of todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada" && x.spotify)) {
     if ((radio && s.radio !== radio) || !s.album || /best of|greatest|hits|collection|essential|anthology|grandes|lo mejor|antolog/i.test(s.album)) continue;
     const k = s.banda + "||" + s.album; (g[k] ||= []).push(s);
   }
@@ -1875,7 +1876,12 @@ let eligiendoDisco = false;
 function discoDelDia(radio) {
   const dia = hoyDisco();
   const g = S.discoGuardado;
-  if (g && g.fecha === dia) { const d = armarDisco(g.banda, g.album); return !radio || d.radio === radio ? d : null; }
+  let forzar = false;
+  if (g && g.fecha === dia) {
+    const d = armarDisco(g.banda, g.album);
+    if (d.temas.some((t) => t.spotify) || !S.solicitudes.length) return !radio || d.radio === radio ? d : null;
+    forzar = true; // el guardado no tiene datos confiables: se elige otro
+  }
   // Nadie lo eligió todavía hoy: lo elige este navegador y lo guarda para todos.
   const todos = discos(null); if (!todos.length || !B.fs || !B.usuario.uid || eligiendoDisco) return null;
   let h = 0; for (const c of dia) h = (h * 31 + c.charCodeAt(0)) >>> 0;
@@ -1884,7 +1890,7 @@ function discoDelDia(radio) {
   B.fs.runTransaction(B.db, async (tx) => {
     const ref = B.fs.doc(B.db, "config", "disco");
     const act = (await tx.get(ref)).data();
-    if (act && act.fecha === dia) return;
+    if (act && act.fecha === dia && !forzar) return;
     tx.set(ref, { fecha: dia, banda: e.banda, album: e.album, anio: e.anio || null, radio: e.radio });
   }).catch((err) => console.error(err)).finally(() => { eligiendoDisco = false; });
   return null;
@@ -1892,8 +1898,8 @@ function discoDelDia(radio) {
 const infoDisco = {};
 async function datosDelDisco(d) {
   const k = d.banda + "||" + d.album;
-  if (infoDisco[k]) return infoDisco[k];
-  const info = infoDisco[k] = { tapa: "", temas: [], resena: "" };
+  if (infoDisco[k] && (infoDisco[k].temas.length || Date.now() - infoDisco[k].t < 60e3)) return infoDisco[k];
+  const info = infoDisco[k] = { tapa: "", temas: [], resena: "", t: Date.now() }; // si iTunes no respondió, se reintenta al minuto
   try {
     const r = await pedirJSONP("https://itunes.apple.com/search?" + new URLSearchParams({ term: d.banda + " " + d.album, entity: "album", limit: "10" }));
     const nb = normB(d.banda.split(",")[0]), na = normB(d.album);
