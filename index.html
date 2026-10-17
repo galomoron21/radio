@@ -757,8 +757,8 @@ const limpiada = {};
 function asegurarCola(radio) {
   const items = S.colas[radio];
   // Saca de la fila lo que quedaba programado de YouTube (lo que está sonando termina normal).
-  if (items && !limpiada[radio] && items.some((it) => it.desde > Date.now() && !it.mp3)) {
-    limpiada[radio] = true;
+  if (items && Date.now() - (limpiada[radio] || 0) > 10000 && items.some((it) => it.desde > Date.now() && !it.mp3)) {
+    limpiada[radio] = Date.now(); // se repite por si algún oyente con la página vieja vuelve a agregar temas de YouTube
     cambiarFila(radio, (f, hayActual) => f.filter((it, i) => (hayActual && i === 0) || it.mp3)).catch((e) => console.error(e));
     return;
   }
