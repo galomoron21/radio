@@ -637,7 +637,13 @@ const S = {
 };
 // Catálogo fijo (canciones.json en el repo) + lo que aprueban Galo y Nake en Firebase.
 S.catalogo = [];
-const todasLasCanciones = () => S.catalogo.length ? [...S.solicitudes, ...S.catalogo] : S.solicitudes;
+// Cuando suben el MP3 de un tema que ya estaba por YouTube, la versión de YouTube deja de sonar sola.
+const claveTema = (s) => normB(String(s.titulo || "").replace(/\(.*?\)|\[.*?\]| - .*$/g, "")) + "|" + normB(String(s.banda || "").split(",")[0]);
+const todasLasCanciones = () => {
+  if (!S.catalogo.length) return S.solicitudes;
+  const conMp3 = new Set(S.solicitudes.filter((s) => s.mp3 && s.estado === "aprobada").map(claveTema));
+  return [...S.solicitudes, ...(conMp3.size ? S.catalogo.filter((c) => !conMp3.has(claveTema(c))) : S.catalogo)];
+};
 const aprobadas = (radio) => todasLasCanciones().filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
 fetch("canciones.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.json() : []).then((l) => {
   S.catalogo = l.map((c) => ({ id: "yt-" + c.y, youtubeId: c.y, titulo: c.t, banda: c.a, album: c.al || "", anio: c.an || null, duracion: c.d, radio: c.r, curio: c.c || "", pop: c.p || 3, pais: c.pa || "", genero: c.ti || "", spotify: c.sp || "", estado: "aprobada", pidio: "Galo y Nake" }));
@@ -992,7 +998,17 @@ const campo = (s, k, label, valor, extra = {}) => {
   const b = borrador[s.id] || {};
   const input = el(extra.area ? "textarea" : "input", { id: `m-${s.id}-${k}`, value: b[k] ?? valor ?? "", placeholder: extra.ph || "" });
   if (!extra.area) input.type = "text";
-  input.oninput = () => { (borrador[s.id] ||= {})[k] = input.value; };
+  input.oninput = () => {
+    (borrador[s.id] ||= {})[k] = input.value;
+    // Con un archivo "Banda - Tema.mp3" se completan solos la banda y el tema (si están vacíos).
+    if (k === "mp3") {
+      const base = decodeURIComponent(input.value.split("/").pop() || "").replace(/\.mp3$/i, "").replace(/\[.*?\]|\((official|audio|video|lyric|remaster)[^)]*\)/gi, "").trim();
+      const [a, b] = base.includes(" - ") ? base.split(/ - (.+)/) : ["", base];
+      const t = $(`m-${s.id}-titulo`), bd = $(`m-${s.id}-banda`);
+      if (t && !t.value.trim() && (b || a)) { t.value = (b || a).trim(); (borrador[s.id] ||= {}).titulo = t.value; }
+      if (bd && !bd.value.trim() && a && b) { bd.value = a.trim(); borrador[s.id].banda = bd.value; }
+    }
+  };
   const l = el("label", { className: extra.ancho ? "ancho" : "" }, label, input);
   l.htmlFor = input.id; return l;
 };
@@ -1004,7 +1020,7 @@ function ficha(s, modo) {
   const msg = el("p", { className: "error", hidden: true });
   const esMp3 = modo === "nuevo-mp3" || !!s.mp3;
   const sinVideo = !esMp3 && !s.youtubeId;
-  const origen = esMp3 ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en GitHub, o link https)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" })]
+  const origen = esMp3 ? [campo(s, "mp3", "Archivo MP3 (nombre exacto en Cloudflare R2)", s.mp3, { ancho: true, ph: "ej: mi-cancion.mp3" })]
     : sinVideo ? [campo(s, "link", "Link de YouTube (lo pidieron sin link: búsquenlo y péguenlo acá)", s.link, { ancho: true, ph: "https://youtu.be/…" })] : [];
   const estado = el("p", { className: "nota-chica", id: `m-${s.id}-estado`, style: "margin:0", textContent: borrador[s.id]?._estado || "" });
   const acciones = {
