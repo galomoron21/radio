@@ -1630,7 +1630,8 @@ async function identificar(s) {
   return null;
 }
 $("arreglar-btn").onclick = async () => {
-  const lista = S.solicitudes.filter((x) => x.mp3 && x.estado === "aprobada");
+  // Los ya revisados se saltean, así si se corta se puede seguir donde quedó.
+  const lista = S.solicitudes.filter((x) => x.mp3 && x.estado === "aprobada" && !x.revisado);
   let n = 0, cambiados = 0;
   $("arreglar-btn").disabled = true;
   for (const s of lista) {
@@ -1642,12 +1643,12 @@ $("arreglar-btn").onclick = async () => {
         if (d.album) cambios.album = d.album; if (d.anio) cambios.anio = d.anio;
         for (const k of ["spotify", "curio", "pop"]) if (d[k]) cambios[k] = d[k];
         if (normB(d.album || "") !== normB(s.album || "")) cambios.portada = ""; // la tapa vieja era de otro disco
-        await B.actualizar(s.id, cambios); cambiados++;
-      }
+        await B.actualizar(s.id, { ...cambios, revisado: true }); cambiados++;
+      } else await B.actualizar(s.id, { revisado: true });
     } catch (e) { console.error(e); }
     await esperar(1100); // MusicBrainz pide como máximo 1 consulta por segundo
   }
-  $("arreglar-estado").textContent = `Listo: revisé ${lista.length} temas y corregí ${cambiados}.`;
+  $("arreglar-estado").textContent = `Listo: revisé ${lista.length} temas y corregí ${cambiados}. (Los temas nuevos que carguen se pueden revisar tocando de nuevo.)`;
   $("arreglar-btn").disabled = false;
 };
 
@@ -1961,8 +1962,12 @@ function discoDelDia(radio) {
   }).catch((err) => console.error(err)).finally(() => { eligiendoDisco = false; });
   return null;
 }
-const infoDisco = {};
-async function datosDelDisco(d) {
+const infoDisco = {}, pidiendoDisco = {};
+function datosDelDisco(d) {
+  const k = d.banda + "||" + d.album;
+  return pidiendoDisco[k] ||= datosDelDisco2(d).finally(() => { delete pidiendoDisco[k]; }); // una sola consulta a la vez
+}
+async function datosDelDisco2(d) {
   const k = d.banda + "||" + d.album;
   if (infoDisco[k] && (infoDisco[k].temas.length || Date.now() - infoDisco[k].t < 60e3)) return infoDisco[k];
   const info = infoDisco[k] = { tapa: "", temas: [], resena: "", t: Date.now() }; // si no respondió, se reintenta al minuto
