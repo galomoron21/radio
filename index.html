@@ -426,9 +426,22 @@ window.RADIO_CONFIG = {
       <div class="acciones-vivo"><button class="primario" type="button" id="vivo-btn">🎙 Salir al aire</button><span class="nota-chica" id="vivo-estado"></span></div>
     </div>
     <div>
+      <h2>Voz del locutor (Daniela, voz neural argentina)</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Genera una sola vez las frases del locutor con una voz casi humana y las guarda para todos los oyentes. Usa esta compu (la primera vez baja la voz, unos 110 MB). Se puede cortar y seguir después: retoma donde quedó. Mientras más partes generen, más cosas dice el locutor con esta voz.</p>
+      <div class="acciones-vivo">
+        <button class="primario" type="button" data-gen="basico">1 · Básico: hora, día, clima (~5 min)</button>
+        <button class="icono" type="button" data-gen="datos">2 · Datos de las bandas (~30 min)</button>
+        <button class="icono" type="button" data-gen="temas">3 · Nombres de los temas (~1 h 30)</button>
+        <button class="icono" type="button" id="gen-parar" hidden>⏹ Parar</button>
+        <button class="icono" type="button" id="gen-probar">▶ Probar locutor</button>
+      </div>
+      <p class="nota-chica" id="gen-estado" style="margin:8px 0 0"></p>
+    </div>
+    <div>
       <h2>Grabaciones del locutor</h2>
       <p class="nota-chica" style="margin:0 0 10px">Graben separadores cortos ("Estás escuchando Radio Galo &amp; Nake…"). Suenan cada tanto entre temas, intercalados con la hora y el clima. Máximo 20 segundos cada una.</p>
       <div class="acciones-vivo"><button class="icono" type="button" id="grabar-btn">⏺ Grabar</button><span class="nota-chica" id="grabar-estado"></span></div>
+      <details class="disco-lista"><summary>Ver guión: 50 frases para grabar</summary><ol class="disco-temas" id="guion"></ol></details>
       <ul class="voces-lista" id="voces-lista"></ul>
     </div>
     <div>
@@ -1307,6 +1320,7 @@ async function guardarFicha(s, msg, accion) {
       pintarAdmin();
     } else {
       await B.actualizar(s.id, accion === "aprobar" ? { ...d, estado: "aprobada" } : d);
+      if (accion === "aprobar" && s.dedica) generarClip("ded-" + claveSegura(s.id), `Este tema va dedicado a ${s.dedica}, de parte de ${s.pidio || "un oyente"}. Suena ${d.titulo || s.titulo}, de ${d.banda || s.banda}, en Radio Galo y Nake.`).catch((e) => console.error(e));
       delete borrador[s.id];
       if (accion === "guardar") { msg.className = "ok"; msg.textContent = "Guardado."; msg.hidden = false; }
     }
@@ -1849,10 +1863,132 @@ function decir(texto) {
   u.onend = u.onerror = () => bajarMusica(S.duck ?? 0.25, 1, 1500);
   speechSynthesis.speak(u);
 }
-function locutar() {
-  if (!S.encendida || S.enVivo || ("speechSynthesis" in window && speechSynthesis.speaking)) return;
+// ------------------------------------------------------------ Voz neural pregenerada (colección "locutor")
+const GUION = ["¡Esto es Radio Galo y Nake! Subile, que esto recién empieza.", "Estás escuchando Radio Galo y Nake: rock del bueno, sin publicidad y sin vergüenza.", "Radio Galo y Nake. Dos guitarras, un micrófono y cero presupuesto.", "Nake, subile el volumen que este tema es una masa.", "Galo, dejá de afinar que estamos al aire.", "Si te gusta lo que suena, dale me gusta. Si no te gusta… también, total no se nota.", "Pedí tu tema en la página. Nosotros lo escuchamos… y después decidimos.", "Radio Galo y Nake: la radio que tu viejo escucharía si supiera usar la compu.", "Desde zona norte para todo el mundo. Bueno, para los que entren.", "Acá no hay algoritmo. Hay dos pibes eligiendo temas.", "Rock nacional, rock internacional y algún que otro capricho nuestro.", "Estás en Radio Galo y Nake. Ponete cómodo, que esto sigue.", "Un clásico más en Radio Galo y Nake. Si no lo cantás, revisate.", "¿Te gustó? Mandanos un mensaje en el chat. ¿No te gustó? También, pero con respeto.", "Esto es Radio Galo y Nake, y vos tenés buen gusto por estar acá.", "Galo y Nake, estudiantes de Economía de día, locutores de noche.", "La inflación sube, pero el volumen de esta radio sube más.", "Nake, ¿quién eligió este tema? Ah, fui yo. Buena elección.", "Ningún tema de esta radio pasó por un focus group.", "Radio Galo y Nake: hecha a pulmón, con mate y con rock.", "Si estás manejando, cuidate. Si estás estudiando, también. Nosotros te acompañamos.", "Seguimos. Que suene fuerte, que se enteren los vecinos.", "Esto no es Spotify. Esto es mejor: esto tiene onda.", "Pedí tu tema con dedicatoria y te lo leemos al aire.", "Gracias por estar del otro lado. En serio.", "Estás escuchando Rock Nacional en Radio Galo y Nake.", "Estás escuchando Rock Internacional en Radio Galo y Nake.", "Nake, contá un chiste. … Mejor no, sigamos con la música.", "Radio Galo y Nake: el rock no murió, se vino a vivir acá.", "Volvemos con más música. No te vayas, que lo mejor está por sonar.", "Esto que viene es para los que todavía usan auriculares con cable.", "Sonando fuerte desde algún cuarto de Buenos Aires.", "Bienvenidos a los que recién llegan. A los que ya estaban: ustedes son de la casa.", "Este tema va para los que estudian con música y después se quejan de que no rinden.", "Radio Galo y Nake: guitarra, batería, bajo, y algún solo que te vuela la cabeza.", "Si te gusta la radio, compartila. Si no, compartila igual, que somos pocos.", "Galo y Nake, en vivo y en directo. Bueno, más o menos en directo.", "Hora de un clásico. Subí el volumen, bajá las expectativas, y disfrutá.", "Esto no lo pasa ninguna otra radio. Bueno, capaz sí, pero acá suena mejor.", "La música sigue. El rock sigue. Nosotros seguimos.", "Nake, ¿estamos al aire? … Ah, sí. Hola a todos.", "Desde la tribuna de la música: Radio Galo y Nake.", "Un tema más y nos vamos. Mentira, esto no termina nunca.", "Radio Galo y Nake: la previa perfecta, el after perfecto, y todo lo del medio.", "Este es para cantar con la ventana abierta.", "Si llegaste hasta acá, ya sos parte de la radio.", "Los temas los elegimos nosotros, pero el volumen lo elegís vos.", "Radio Galo y Nake. Rock para los que saben, y para los que están aprendiendo.", "Seguimos con música. Mandá saludos en el chat y te los leemos.", "Esto fue Radio Galo y Nake… y seguimos siendo. Que siga sonando."];
+GUION.forEach((f) => $("guion").append(el("li", { textContent: f })));
+const HORAS = ["Son las doce", "Es la una", "Son las dos", "Son las tres", "Son las cuatro", "Son las cinco", "Son las seis", "Son las siete", "Son las ocho", "Son las nueve", "Son las diez", "Son las once"];
+const MINUTOS = ["en punto", "y cinco", "y diez", "y cuarto", "y veinte", "y veinticinco", "y media", "y treinta y cinco", "y cuarenta", "y cuarenta y cinco", "y cincuenta", "y cincuenta y cinco"];
+const PERIODOS = { madrugada: "de la madrugada", manana: "de la mañana", mediodia: "del mediodía", tarde: "de la tarde", noche: "de la noche", medianoche: "de la noche" };
+const CIELOS = ["cielo despejado", "algunas nubes", "cielo nublado", "niebla", "llovizna", "lluvia", "nieve", "chaparrones", "tormenta", "tiempo tranquilo"];
+const numTexto = (n) => n === 1 ? "un grado" : n === -1 ? "un grado bajo cero" : n < 0 ? `${-n} grados bajo cero` : `${n} grados`;
+const hashTxt = (t) => { let h = 0; for (const c of String(t)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h.toString(36); };
+const claveSegura = (k) => String(k).replace(/[\/\s]/g, "_").slice(0, 140);
+function frasesBasicas() {
+  const l = [];
+  HORAS.forEach((t, i) => l.push(["h-" + i, t]));
+  MINUTOS.forEach((t, i) => l.push(["m-" + i, t]));
+  Object.entries(PERIODOS).forEach(([k, t]) => l.push(["p-" + k, t]));
+  DIAS.forEach((d, i) => l.push(["dia-" + i, `de este ${d} en Buenos Aires.`]));
+  for (let g = -5; g <= 42; g++) l.push(["t-" + g, `Hacen ${numTexto(g)}`]);
+  CIELOS.forEach((c, i) => l.push(["c-" + i, `con ${c}.`]));
+  C.radios.forEach((r) => l.push(["r-" + r.id, `Estás escuchando ${r.nombre}, en Radio Galo y Nake.`]));
+  l.push(["dato-intro", "Un dato:"], ["suena-intro", "Ahora suena"]);
+  return l;
+}
+const frasesDatos = () => FRASES.filter((f) => f.d).map((f) => ["d-" + hashTxt(f.b + f.d), `Un dato sobre ${f.b}: ${f.d}`]);
+const frasesTemas = () => todasLasCanciones().filter((s) => s.estado === "aprobada").map((s) => ["s-" + claveSegura(s.id), `Ahora suena ${String(s.titulo).replace(/\s*[\(\[].*?[\)\]]|\s+-\s+.*$/g, "")}, de ${String(s.banda).split(",")[0]}.`]);
+
+// Piper (voz neural) en el navegador: se baja de Hugging Face y queda guardada en la compu.
+let piper = null;
+async function cargarPiper() {
+  if (piper) return piper;
+  if (!window.__fetchPiper) {
+    const orig = window.fetch.bind(window); window.__fetchPiper = true;
+    window.fetch = (u, o) => (typeof u === "string" && u.includes("diffusionstudio/piper-voices") && u.includes("es_AR")) ? orig(u.replace("diffusionstudio/piper-voices", "rhasspy/piper-voices"), o) : orig(u, o);
+  }
+  piper = await import("https://cdn.jsdelivr.net/npm/@mintplex-labs/piper-tts-web@1.0.4/+esm");
+  piper.PATH_MAP["es_AR-daniela-high"] = "es/es_AR/daniela/high/es_AR-daniela-high.onnx";
+  return piper;
+}
+// Pasa el WAV de Piper a 16 kHz mono (más liviano) y lo devuelve como data: URL.
+async function achicarWav(blob) {
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const buf = await ctx.decodeAudioData(await blob.arrayBuffer()); ctx.close();
+  const sr = 16000, off = new OfflineAudioContext(1, Math.ceil(buf.duration * sr), sr);
+  const src = off.createBufferSource(); src.buffer = buf; src.connect(off.destination); src.start();
+  const r = (await off.startRendering()).getChannelData(0);
+  const dv = new DataView(new ArrayBuffer(44 + r.length * 2));
+  const w = (o, t) => [...t].forEach((c, i) => dv.setUint8(o + i, c.charCodeAt(0)));
+  w(0, "RIFF"); dv.setUint32(4, 36 + r.length * 2, true); w(8, "WAVE"); w(12, "fmt "); dv.setUint32(16, 16, true); dv.setUint16(20, 1, true); dv.setUint16(22, 1, true);
+  dv.setUint32(24, sr, true); dv.setUint32(28, sr * 2, true); dv.setUint16(32, 2, true); dv.setUint16(34, 16, true); w(36, "data"); dv.setUint32(40, r.length * 2, true);
+  for (let i = 0; i < r.length; i++) dv.setInt16(44 + i * 2, Math.max(-1, Math.min(1, r[i])) * 0x7fff, true);
+  return await new Promise((ok) => { const fr = new FileReader(); fr.onload = () => ok(fr.result); fr.readAsDataURL(new Blob([dv], { type: "audio/wav" })); });
+}
+async function generarClip(clave, texto) {
+  const tts = await cargarPiper();
+  const wav = await tts.predict({ text: texto, voiceId: "es_AR-daniela-high" });
+  const audio = await achicarWav(wav);
+  await B.fs.setDoc(B.fs.doc(B.db, "locutor", clave), { audio, texto, t: Date.now() });
+  clips.set(clave, audio);
+}
+let generando = false, pararGen = false;
+async function generar(tipo) {
+  if (generando || !B.fs) return; generando = true; pararGen = false;
+  const est = $("gen-estado"); $("gen-parar").hidden = false;
+  try {
+    est.textContent = "Cargando la voz (la primera vez tarda 1 o 2 minutos)…";
+    await cargarPiper();
+    const lista = tipo === "basico" ? frasesBasicas() : tipo === "datos" ? frasesDatos() : frasesTemas();
+    const hechas = new Set((await B.fs.getDocs(B.fs.query(B.fs.collection(B.db, "locutor"), B.fs.where(B.fs.documentId(), ">=", lista[0][0].split("-")[0] + "-"), B.fs.where(B.fs.documentId(), "<", lista[0][0].split("-")[0] + "."))).catch(() => ({ docs: [] }))).docs.map((d) => d.id));
+    let n = 0;
+    for (const [k, t] of lista) {
+      if (pararGen) break;
+      n++;
+      if (hechas.has(k) && tipo !== "basico") continue;
+      if (tipo === "basico" && hechas.has(k)) continue;
+      est.textContent = `Generando ${n} de ${lista.length}: "${t.slice(0, 60)}"`;
+      try { await generarClip(k, t); } catch (e) { console.error(e); est.textContent = "Error generando: " + (e.message || e); if (String(e).includes("permission")) break; }
+    }
+    est.textContent = pararGen ? `Pausado en ${n} de ${lista.length}. Tocá el mismo botón para seguir.` : `¡Listo! ${lista.length} frases con la voz nueva.`;
+  } catch (e) { console.error(e); est.textContent = "No se pudo cargar la voz: " + (e.message || e); }
+  generando = false; $("gen-parar").hidden = true;
+}
+document.querySelectorAll("[data-gen]").forEach((b) => b.onclick = () => generar(b.dataset.gen));
+$("gen-parar").onclick = () => { pararGen = true; };
+
+// Lado del oyente: busca cada frase (y la guarda en memoria), y las encadena bajando la música.
+const clips = new Map();
+async function clip(clave) {
+  if (clips.has(clave)) return clips.get(clave);
+  if (!B.fs) return null;
+  try { const d = await B.fs.getDoc(B.fs.doc(B.db, "locutor", clave)); const a = d.exists() ? d.data().audio : null; clips.set(clave, a); return a; } catch { return null; }
+}
+function periodoDe(h) { return h === 0 ? "medianoche" : h < 6 ? "madrugada" : h < 12 ? "manana" : h === 12 ? "mediodia" : h < 20 ? "tarde" : "noche"; }
+async function clavesLocutor({ conTema = true } = {}) {
+  const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+  let h = ahora.getHours(), m5 = Math.round(ahora.getMinutes() / 5);
+  if (m5 === 12) { m5 = 0; h = (h + 1) % 24; }
+  const k = ["h-" + (h % 12), "m-" + m5, "p-" + periodoDe(h), "dia-" + ahora.getDay()];
+  if (S.temp != null) { k.push("t-" + Math.max(-5, Math.min(42, S.temp))); k.push("c-" + Math.max(0, CIELOS.indexOf(S.cielo || "tiempo tranquilo"))); }
+  k.push("r-" + S.radio);
+  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
+  if (s && conTema) k.push("s-" + claveSegura(s.id || S.actual.cid));
+  const datos = s ? FRASES.filter((f) => f.d && normB(f.b) === normB(String(s.banda).split(",")[0])) : [];
+  if (datos.length && Math.random() < 0.6) { const f = datos[Math.floor(Math.random() * datos.length)]; k.push("d-" + hashTxt(f.b + f.d)); }
+  return k;
+}
+async function pasarClips(claves, obligatorias = 4) {
+  const audios = [];
+  for (const k of claves) { const a = await clip(k); if (a) audios.push(a); else if (audios.length < obligatorias) return false; }
+  if (audios.length < obligatorias) return false;
+  bajarMusica(1, 0.22, 700);
+  S.hablando = true;
+  for (const a of audios) {
+    await new Promise((ok) => { const el = new Audio(a); el.volume = Math.min(1, +vol.value / 100); el.onended = el.onerror = ok; el.play().catch(ok); });
+    await new Promise((ok) => setTimeout(ok, 120));
+  }
+  S.hablando = false;
+  bajarMusica(S.duck ?? 0.22, 1, 1500);
+  return true;
+}
+$("gen-probar").onclick = async () => { $("gen-estado").textContent = "Probando…"; const ok = await pasarClips(await clavesLocutor(), 4); $("gen-estado").textContent = ok ? "Así suena el locutor." : "Todavía faltan frases: generen al menos la parte 1."; };
+
+async function locutar() {
+  if (!S.encendida || S.enVivo || S.hablando || ("speechSynthesis" in window && speechSynthesis.speaking)) return;
   turnoGrabacion = !turnoGrabacion;
   if (turnoGrabacion && S.voces.length && pasarGrabacion()) return;
+  // Primero la voz neural pregenerada; si todavía no está, la del navegador.
+  if (await pasarClips(await clavesLocutor(), 4)) return;
   if (!("speechSynthesis" in window)) return;
   const u = new SpeechSynthesisUtterance(textoLocutor());
   u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
@@ -1871,7 +2007,10 @@ setInterval(() => {
   if (ded && !S.dedicaLeida && !S.enVivo && pos > XF + 1 && pos < XF + 30 && !("speechSynthesis" in window && speechSynthesis.speaking)) {
     S.dedicaLeida = true; temasDesdeLocutor = 0;
     const s = datosCancion(it.cid);
-    decir(`Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena ${s.titulo}, de ${s.banda}, en Radio Galo y Nake.`);
+    clip("ded-" + claveSegura(s.id)).then((a) => {
+      if (a) pasarClips(["ded-" + claveSegura(s.id)], 1);
+      else decir(`Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena ${s.titulo}, de ${s.banda}, en Radio Galo y Nake.`);
+    });
     return;
   }
   // Habla cuando ya terminó el crossfade de la entrada, una vez cada 3 temas.
