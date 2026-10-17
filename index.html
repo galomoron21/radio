@@ -1520,7 +1520,7 @@ async function pintarStats() {
   const cont = $("stats");
   const { fs, db } = B;
   let dias = [];
-  try { const q = await fs.getDocs(fs.query(fs.collection(db, "stats"), fs.orderBy(fs.documentId(), "desc"), fs.limit(7))); dias = q.docs.map((d) => ({ id: d.id, ...d.data() })); } catch (e) { console.error(e); }
+  try { const q = await fs.getDocs(fs.collection(db, "stats")); dias = q.docs.map((d) => ({ id: d.id, ...d.data() })).sort((x, y) => y.id.localeCompare(x.id)).slice(0, 7); } catch (e) { console.error(e); }
   const caja = (titulo, ...hijos) => el("div", { className: "caja" }, el("h4", { textContent: titulo }), ...hijos);
   const top = (obj, n = 8) => { const ol = el("ol"); Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, n).forEach(([k, v]) => ol.append(el("li", { textContent: `${k} · ${v}` }))); if (!ol.children.length) ol.append(el("li", { textContent: "Todavía sin datos" })); return ol; };
   const vivos = presencia.filter((p) => Date.now() - p.t < 75e3);
