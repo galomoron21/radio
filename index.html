@@ -509,7 +509,27 @@ async function conectarFirebase(config) {
     entrarAdmin: () => au.signInWithPopup(auth, new au.GoogleAuthProvider()),
     salir: () => au.signOut(auth),
 
-    escucharSolicitudes: (cb) => lista(fs.collection(db, "solicitudes"), cb),
+    // Para ahorrar lecturas: los oyentes leen los pedidos pendientes + la lista de MP3 empaquetada en
+    // unos pocos documentos (config/mp3-*). Solo Galo y Nake leen la colección completa.
+    escucharSolicitudes: (cb) => {
+      let pend = [], cat = [], completa = null, partes = {}, cortes = [];
+      const emitir = () => cb(completa || [...pend, ...cat]);
+      lista(fs.query(fs.collection(db, "solicitudes"), fs.where("estado", "==", "pendiente")), (l) => { pend = l; emitir(); });
+      fs.onSnapshot(fs.doc(db, "config", "mp3-meta"), (sn) => {
+        const n = sn.data()?.n || 0;
+        cortes.forEach((c) => c()); cortes = []; partes = {};
+        if (!n) { cat = []; emitir(); return; }
+        for (let i = 0; i < n; i++) cortes.push(fs.onSnapshot(fs.doc(db, "config", "mp3-" + i), (d) => { partes[i] = d.data()?.items || []; cat = Object.values(partes).flat(); emitir(); }, (e) => console.error(e)));
+      }, (e) => console.error(e));
+      return { modoAdmin: () => { if (completa) return; lista(fs.collection(db, "solicitudes"), (l) => { completa = l; emitir(); }); } };
+    },
+    publicarCatalogo: async (canciones) => {
+      const partes = []; let actual = [], tam = 0;
+      for (const c of canciones) { const t = JSON.stringify(c).length; if (tam + t > 700000 && actual.length) { partes.push(actual); actual = []; tam = 0; } actual.push(c); tam += t; }
+      if (actual.length) partes.push(actual);
+      for (let i = 0; i < partes.length; i++) await fs.setDoc(fs.doc(db, "config", "mp3-" + i), { items: partes[i] });
+      await fs.setDoc(fs.doc(db, "config", "mp3-meta"), { n: partes.length, t: Date.now(), total: canciones.length });
+    },
     pedir: (datos) => fs.addDoc(fs.collection(db, "solicitudes"), { ...datos, estado: "pendiente", creada: Date.now(), uid: usuario.uid }),
     actualizar: (id, cambios) => fs.updateDoc(fs.doc(db, "solicitudes", id), cambios),
 
@@ -538,7 +558,12 @@ async function conectarFirebase(config) {
 
     // Oyentes en vivo: cada pestaña abierta avisa cada 30 segundos en qué radio está.
     latido: (radio) => usuario.uid && fs.setDoc(fs.doc(db, "presencia", usuario.uid), { radio, t: Date.now() }).catch(() => {}),
-    escucharOyentes: (cb) => lista(fs.collection(db, "presencia"), cb),
+    // Solo los que dieron señales en los últimos minutos (y se renueva cada 5 minutos).
+    escucharOyentes: (cb) => {
+      let corte = null;
+      const sub = () => { corte?.(); corte = lista(fs.query(fs.collection(db, "presencia"), fs.where("t", ">", Date.now() - 3 * 60e3)), cb); };
+      sub(); setInterval(sub, 5 * 60e3);
+    },
   };
 }
 
@@ -1684,7 +1709,20 @@ function tic(forzar = false) {
 }
 
 // ------------------------------------------------------------ Datos en vivo
-B.escucharSolicitudes((l) => { S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); });
+const subSolicitudes = B.escucharSolicitudes((l) => { S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); if (esAdmin()) programarPublicacion(); });
+// Galo o Nake con la página abierta mantienen al día la lista de MP3 que leen los oyentes.
+const CAMPOS_PUBLICOS = ["id", "titulo", "banda", "album", "anio", "duracion", "radio", "mp3", "portada", "curio", "dato", "pop", "spotify", "genero", "pais", "musicos", "dedica", "pidio", "creada", "estado", "youtubeId"];
+let pubTimer = null, ultimaPub = "";
+function programarPublicacion() {
+  if (!B.publicarCatalogo) return;
+  clearTimeout(pubTimer);
+  pubTimer = setTimeout(async () => {
+    const canciones = S.solicitudes.filter((x) => x.estado === "aprobada" && x.mp3).map((x) => Object.fromEntries(CAMPOS_PUBLICOS.filter((k) => x[k] !== undefined && x[k] !== null && x[k] !== "").map((k) => [k, x[k]])));
+    const firma = JSON.stringify(canciones);
+    if (firma === ultimaPub) return;
+    try { await B.publicarCatalogo(canciones); ultimaPub = firma; } catch (e) { console.error("No se pudo publicar la lista de MP3", e); }
+  }, 20000);
+}
 B.escucharOyentes((ps) => { presencia = ps; pintarDial(); });
 const latir = () => B.latido(S.radio);
 setInterval(latir, 30000); setTimeout(latir, 1500);
@@ -1694,7 +1732,7 @@ B.escucharMegusta((l) => { S.megusta = l; pintarMegusta(); pintarRankings(); });
 B.escucharVotos((l) => { S.votos = l; pintarVotos(); pintarRankings(); });
 B.escucharChat((l) => { S.chat = l; pintarChat(); });
 setInterval(pintarChat, 60e3); // el chat muestra solo la última media hora
-B.alCambiarUsuario(() => { pintarAdmin(); pintarMegusta(); pintarVotos(); pintarChat(); });
+B.alCambiarUsuario(() => { if (esAdmin()) subSolicitudes?.modoAdmin?.(); pintarAdmin(); pintarMegusta(); pintarVotos(); pintarChat(); });
 
 pintarDial(); pintarAhora(); tic();
 setInterval(tic, 1000);
