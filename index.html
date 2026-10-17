@@ -1371,31 +1371,25 @@ setInterval(mezclar, 250);
 setInterval(pintarFila, 15000);
 
 // ------------------------------------------------------------ Hora, clima y datos boludos
-const CHISTES = [
-  "¿Por qué el guitarrista no entra a la cocina? Porque se pierde entre tantos trastes.",
-  "Un baterista golpea la puerta. Sabés que es el baterista porque se acelera.",
-  "Si un tema dura 8 minutos y tiene solo de guitarra, es corto.",
-  "Afinar la guitarra: actividad que ocupa el 50% de cualquier recital.",
-  "El bajista llegó tarde al ensayo. Nadie se dio cuenta.",
-  "Dato: decir \"una más y nos vamos\" en un ensayo nunca fue verdad.",
-  "Esta radio no tiene publicidad. Tampoco tiene presupuesto.",
-  "Si pedís un tema y no entra, Galo y Nake lo están \"evaluando\".",
-];
-const DATOS = [
-  "Los Redondos casi no daban entrevistas ni salían en la tele: todo de boca en boca.",
-  "\"Shine On You Crazy Diamond\" es un homenaje de Pink Floyd a Syd Barrett, su exintegrante.",
-  "Serú Girán se formó en 1978 con Charly García, David Lebón, Pedro Aznar y Oscar Moro.",
-  "\"Sultans of Swing\" fue el primer gran éxito de Dire Straits, en 1978.",
-  "El MTV Unplugged de Soda Stereo se grabó en Miami en 1996.",
-  "Led Zeppelin nunca lanzó \"Stairway to Heaven\" como single en Estados Unidos ni el Reino Unido.",
-  "\"Abbey Road\" se llama así por la calle de Londres donde estaban los estudios.",
-  "Spinetta grabó \"Artaud\" en 1973 y el disco salió con una tapa de forma irregular.",
-];
-let fraseIdx = Math.floor(Math.random() * 100);
+// Datos y chistes de cada banda: datos-chistes.json en el repo (Radio, Banda, Dato curioso, Chiste).
+// Se prioriza la banda que está sonando; si no hay, la radio; si no, cualquiera. Alterna dato y chiste.
+let FRASES = [];
+fetch("datos-chistes.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.json() : []).then((l) => { FRASES = l; rotarDato(); }).catch(() => {});
+const normB = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+let fraseIdx = 0, ultimaFrase = "";
 function rotarDato() {
-  const pool = [...CHISTES, ...DATOS];
-  const txt = pool[fraseIdx % pool.length];
-  fraseIdx++;
+  if (!FRASES.length) return;
+  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
+  const bandas = s ? String(s.banda || "").split(/,|&| y | feat\.? /i).map(normB).filter(Boolean) : [];
+  let pool = FRASES.filter((f) => bandas.includes(normB(f.b)));
+  if (!pool.length) pool = FRASES.filter((f) => f.r === S.radio);
+  if (!pool.length) pool = FRASES;
+  const tipo = fraseIdx++ % 2 === 0 ? "d" : "c";
+  const opciones = pool.map((f) => ({ f, t: f[tipo] || f.d || f.c })).filter((o) => o.t && o.t !== ultimaFrase);
+  if (!opciones.length) return;
+  const o = opciones[Math.floor(Math.random() * opciones.length)];
+  ultimaFrase = o.t;
+  const txt = (tipo === "d" ? "Dato · " : "Chiste · ") + o.f.b + ": " + o.t;
   const p = $("dato-boludo"); p.style.opacity = 0;
   setTimeout(() => { p.textContent = txt; p.style.opacity = 1; }, 400);
 }
@@ -1411,7 +1405,7 @@ async function pedirClima() {
 }
 pintarHoraBA(); setInterval(pintarHoraBA, 10e3);
 pedirClima(); setInterval(pedirClima, 15 * 60e3);
-rotarDato(); setInterval(rotarDato, 25e3);
+setInterval(rotarDato, 25e3);
 </script>
 </body>
 </html>
