@@ -426,21 +426,23 @@ window.RADIO_CONFIG = {
       <div class="acciones-vivo"><button class="primario" type="button" id="vivo-btn">🎙 Salir al aire</button><span class="nota-chica" id="vivo-estado"></span></div>
     </div>
     <div>
-      <h2>Voz del locutor (Daniela, voz neural argentina)</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Genera una sola vez las frases del locutor con una voz casi humana y las guarda para todos los oyentes. Usa esta compu (la primera vez baja la voz, unos 110 MB). Se puede cortar y seguir después: retoma donde quedó. Mientras más partes generen, más cosas dice el locutor con esta voz.</p>
+      <h2>Voz automática del locutor</h2>
+      <p class="nota-chica" style="margin:0 0 10px">Es la voz que dice la hora, el clima y los datos entre canción y canción, con la música de fondo. Esa voz ("Daniela") no está en internet como un audio: hay que <b>fabricar</b> cada frase una vez desde esta compu, y queda guardada para todos los oyentes. Los botones 1, 2 y 3 fabrican frases; el 1 ya está hecho. Si cortan, después siguen donde quedó.</p>
       <div class="acciones-vivo">
         <button class="primario" type="button" data-gen="basico">1 · Básico: hora, día, clima (~5 min)</button>
         <button class="icono" type="button" data-gen="datos">2 · Datos de las bandas (~30 min)</button>
         <button class="icono" type="button" data-gen="temas">3 · Nombres de los temas (~1 h 30)</button>
         <button class="icono" type="button" id="gen-parar" hidden>⏹ Parar</button>
-        <button class="icono" type="button" id="gen-probar">▶ Probar locutor</button>
+        <button class="icono" type="button" id="gen-ejemplo">🔊 Escuchar la voz</button>
+        <button class="icono" type="button" id="gen-probar">▶ Probar un anuncio completo</button>
       </div>
       <p class="nota-chica" id="gen-estado" style="margin:8px 0 0"></p>
     </div>
     <div>
       <h2>Grabaciones del locutor</h2>
       <p class="nota-chica" style="margin:0 0 10px">Graben separadores cortos ("Estás escuchando Radio Galo &amp; Nake…"). Suenan cada tanto entre temas, intercalados con la hora y el clima. Máximo 20 segundos cada una.</p>
-      <div class="acciones-vivo"><button class="icono" type="button" id="grabar-btn">⏺ Grabar</button><span class="nota-chica" id="grabar-estado"></span></div>
+      <p class="nota-chica" style="margin:0 0 8px"><b>Recomendado:</b> grábenlas con el celular (app de notas de voz), en un lugar sin eco y cerca del micrófono, y súbanlas acá con "📁 Subir audios". Suena mejor que grabar desde la compu. Igual pueden grabar directo con "⏺ Grabar".</p>
+      <div class="acciones-vivo"><label class="icono" style="cursor:pointer">📁 Subir audios<input type="file" id="subir-voces" accept="audio/*" multiple hidden></label><button class="icono" type="button" id="grabar-btn">⏺ Grabar</button><span class="nota-chica" id="grabar-estado"></span></div>
       <details class="disco-lista"><summary>Ver guión: 50 frases para grabar</summary><ol class="disco-temas" id="guion"></ol></details>
       <ul class="voces-lista" id="voces-lista"></ul>
     </div>
@@ -1669,6 +1671,16 @@ function pintarVoces() {
   S.voces.forEach((v) => ul.append(el("li", {}, el("audio", { controls: true, src: v.audio, preload: "none" }), el("span", { textContent: `${v.por || ""} · ${new Date(v.t).toLocaleDateString("es-AR")}` }),
     el("button", { className: "icono", type: "button", textContent: "Borrar", onclick: () => B.fs.deleteDoc(B.fs.doc(B.db, "voces", v.id)) }))));
 }
+$("subir-voces").onchange = async (e) => {
+  const files = [...e.target.files]; let ok = 0;
+  for (const f of files) {
+    $("grabar-estado").textContent = `Subiendo ${f.name}…`;
+    if (f.size > 650000) { $("grabar-estado").textContent = `${f.name} pesa mucho (máx. ~30 segundos). Recórtenlo y prueben de nuevo.`; continue; }
+    const audio = await new Promise((r) => { const fr = new FileReader(); fr.onload = () => r(fr.result); fr.readAsDataURL(f); });
+    try { await B.fs.addDoc(B.fs.collection(B.db, "voces"), { audio, por: B.usuario.email, nombre: f.name, t: Date.now() }); ok++; } catch (err) { console.error(err); }
+  }
+  $("grabar-estado").textContent = `${ok} de ${files.length} audios subidos.`; e.target.value = "";
+};
 $("grabar-btn").onclick = async () => {
   if (grabador) { grabador.stop(); return; }
   try {
@@ -1847,20 +1859,43 @@ let temasDesdeLocutor = 0, ultimoTema = null, turnoGrabacion = false;
 S.voces = [];
 const bajarMusica = (a, b, ms) => { const t0 = performance.now(); const f = () => { const x = Math.min(1, (performance.now() - t0) / ms); S.duck = a + (b - a) * x; decks.forEach((d) => d.item && volDeck(d, d.gain)); if (x < 1) requestAnimationFrame(f); }; f(); };
 // Grabaciones de Galo y Nake (separadores): suenan en lugar de la voz del navegador, una vez sí y una no.
+// La voz pasa por un compresor y se sube bastante, así se escucha clara arriba de la música.
+let ctxVoz = null;
+async function sonarVoz(dataUrl, ganancia = 2.6) {
+  try {
+    ctxVoz ||= new (window.AudioContext || window.webkitAudioContext)();
+    if (ctxVoz.state === "suspended") await ctxVoz.resume();
+    const buf = await ctxVoz.decodeAudioData(await (await fetch(dataUrl)).arrayBuffer());
+    const src = ctxVoz.createBufferSource(); src.buffer = buf;
+    const g = ctxVoz.createGain(); g.gain.value = ganancia * Math.max(0.15, +vol.value / 100);
+    const comp = ctxVoz.createDynamicsCompressor(); comp.threshold.value = -24; comp.ratio.value = 6; comp.attack.value = 0.003; comp.release.value = 0.2;
+    src.connect(g); g.connect(comp); comp.connect(ctxVoz.destination);
+    await new Promise((ok) => { src.onended = ok; src.start(); });
+  } catch (e) {
+    await new Promise((ok) => { const a = new Audio(dataUrl); a.volume = Math.min(1, +vol.value / 100); a.onended = a.onerror = ok; a.play().catch(ok); });
+  }
+}
+const MUSICA_DE_FONDO = 0.15; // cuánto queda la música mientras habla el locutor ("en off")
+async function hablarEncima(audios) {
+  S.hablando = true;
+  bajarMusica(S.duck ?? 1, MUSICA_DE_FONDO, 900);
+  await new Promise((ok) => setTimeout(ok, 700));
+  for (const a of audios) { await sonarVoz(a); await new Promise((ok) => setTimeout(ok, 90)); }
+  await new Promise((ok) => setTimeout(ok, 300));
+  bajarMusica(S.duck ?? MUSICA_DE_FONDO, 1, 2000);
+  S.hablando = false;
+}
 function pasarGrabacion() {
   const v = S.voces[Math.floor(Math.random() * S.voces.length)]; if (!v) return false;
-  const a = new Audio(v.audio); a.volume = Math.min(1, +vol.value / 100);
-  a.onplay = () => bajarMusica(1, 0.2, 600);
-  a.onended = a.onerror = () => bajarMusica(S.duck ?? 0.2, 1, 1500);
-  a.play().catch(() => {}); return true;
+  hablarEncima([v.audio]); return true;
 }
 function decir(texto) {
   if (!("speechSynthesis" in window)) return;
   const u = new SpeechSynthesisUtterance(texto);
   u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
   u.rate = 1.0; u.pitch = 0.95;
-  u.onstart = () => bajarMusica(1, 0.25, 800);
-  u.onend = u.onerror = () => bajarMusica(S.duck ?? 0.25, 1, 1500);
+  u.onstart = () => bajarMusica(1, MUSICA_DE_FONDO, 800);
+  u.onend = u.onerror = () => bajarMusica(S.duck ?? MUSICA_DE_FONDO, 1, 1500);
   speechSynthesis.speak(u);
 }
 // ------------------------------------------------------------ Voz neural pregenerada (colección "locutor")
@@ -1936,10 +1971,10 @@ async function generar(tipo) {
       n++;
       if (hechas.has(k) && tipo !== "basico") continue;
       if (tipo === "basico" && hechas.has(k)) continue;
-      est.textContent = `Generando ${n} de ${lista.length}: "${t.slice(0, 60)}"`;
+      est.textContent = `Fabricando frase ${n} de ${lista.length} con la voz automática… (pueden seguir usando la página; no cierren esta pestaña)`;
       try { await generarClip(k, t); } catch (e) { console.error(e); est.textContent = "Error generando: " + (e.message || e); if (String(e).includes("permission")) break; }
     }
-    est.textContent = pararGen ? `Pausado en ${n} de ${lista.length}. Tocá el mismo botón para seguir.` : `¡Listo! ${lista.length} frases con la voz nueva.`;
+    est.textContent = pararGen ? `Pausado en ${n} de ${lista.length}. Toquen el mismo botón para seguir.` : `¡Listo! Ya están las ${lista.length} frases. Toquen "🔊 Escuchar la voz".`;
   } catch (e) { console.error(e); est.textContent = "No se pudo cargar la voz: " + (e.message || e); }
   generando = false; $("gen-parar").hidden = true;
 }
@@ -1954,15 +1989,16 @@ async function clip(clave) {
   try { const d = await B.fs.getDoc(B.fs.doc(B.db, "locutor", clave)); const a = d.exists() ? d.data().audio : null; clips.set(clave, a); return a; } catch { return null; }
 }
 function periodoDe(h) { return h === 0 ? "medianoche" : h < 6 ? "madrugada" : h < 12 ? "manana" : h === 12 ? "mediodia" : h < 20 ? "tarde" : "noche"; }
-async function clavesLocutor({ conTema = true } = {}) {
+async function clavesLocutor({ conTema = true, tema = null } = {}) {
   const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
   let h = ahora.getHours(), m5 = Math.round(ahora.getMinutes() / 5);
   if (m5 === 12) { m5 = 0; h = (h + 1) % 24; }
   const k = ["h-" + (h % 12), "m-" + m5, "p-" + periodoDe(h), "dia-" + ahora.getDay()];
   if (S.temp != null) { k.push("t-" + Math.max(-5, Math.min(42, S.temp))); k.push("c-" + Math.max(0, CIELOS.indexOf(S.cielo || "tiempo tranquilo"))); }
   k.push("r-" + S.radio);
-  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
-  if (s && conTema) k.push("s-" + claveSegura(s.id || S.actual.cid));
+  const base = tema || S.actual;
+  const s = base && (datosCancion(base.cid) || base);
+  if (s && conTema) k.push("s-" + claveSegura(s.id || base.cid));
   const datos = s ? FRASES.filter((f) => f.d && normB(f.b) === normB(String(s.banda).split(",")[0])) : [];
   if (datos.length && Math.random() < 0.6) { const f = datos[Math.floor(Math.random() * datos.length)]; k.push("d-" + hashTxt(f.b + f.d)); }
   return k;
@@ -1971,30 +2007,28 @@ async function pasarClips(claves, obligatorias = 4) {
   const audios = [];
   for (const k of claves) { const a = await clip(k); if (a) audios.push(a); else if (audios.length < obligatorias) return false; }
   if (audios.length < obligatorias) return false;
-  bajarMusica(1, 0.22, 700);
-  S.hablando = true;
-  for (const a of audios) {
-    await new Promise((ok) => { const el = new Audio(a); el.volume = Math.min(1, +vol.value / 100); el.onended = el.onerror = ok; el.play().catch(ok); });
-    await new Promise((ok) => setTimeout(ok, 120));
-  }
-  S.hablando = false;
-  bajarMusica(S.duck ?? 0.22, 1, 1500);
+  await hablarEncima(audios);
   return true;
 }
+$("gen-ejemplo").onclick = async () => {
+  const a = await clip("r-" + S.radio) || await clip("r-nacional");
+  if (!a) { $("gen-estado").textContent = "Todavía no hay frases fabricadas: toquen el botón 1."; return; }
+  $("gen-estado").textContent = "Así suena la voz automática (Daniela)."; await sonarVoz(a);
+};
 $("gen-probar").onclick = async () => { $("gen-estado").textContent = "Probando…"; const ok = await pasarClips(await clavesLocutor(), 4); $("gen-estado").textContent = ok ? "Así suena el locutor." : "Todavía faltan frases: generen al menos la parte 1."; };
 
-async function locutar() {
+async function locutar(tema = null) {
   if (!S.encendida || S.enVivo || S.hablando || ("speechSynthesis" in window && speechSynthesis.speaking)) return;
   turnoGrabacion = !turnoGrabacion;
   if (turnoGrabacion && S.voces.length && pasarGrabacion()) return;
   // Primero la voz neural pregenerada; si todavía no está, la del navegador.
-  if (await pasarClips(await clavesLocutor(), 4)) return;
+  if (await pasarClips(await clavesLocutor({ tema }), 4)) return;
   if (!("speechSynthesis" in window)) return;
   const u = new SpeechSynthesisUtterance(textoLocutor());
   u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
   u.rate = 1.0; u.pitch = 0.95;
-  u.onstart = () => bajarMusica(1, 0.25, 800);
-  u.onend = u.onerror = () => bajarMusica(S.duck ?? 0.25, 1, 1500);
+  u.onstart = () => bajarMusica(1, MUSICA_DE_FONDO, 800);
+  u.onend = u.onerror = () => bajarMusica(S.duck ?? MUSICA_DE_FONDO, 1, 1500);
   speechSynthesis.speak(u);
 }
 setInterval(() => {
@@ -2013,8 +2047,14 @@ setInterval(() => {
     });
     return;
   }
-  // Habla cuando ya terminó el crossfade de la entrada, una vez cada 3 temas.
-  if (temasDesdeLocutor >= 3 && pos > XF + 3 && pos < XF + 20) { temasDesdeLocutor = 0; locutar(); }
+  // Cada 2 o 3 temas habla "en off" en el cambio de canción: arranca unos segundos antes del final,
+  // la música queda de fondo y el tema nuevo entra por debajo de la voz.
+  const cadaCuanto = 2 + (it.desde % 2);
+  if (temasDesdeLocutor >= cadaCuanto && it.dur > 60 && pos > it.dur - XF - 6 && pos < it.dur - XF + 1) {
+    temasDesdeLocutor = 0;
+    const proximo = (S.colas[S.radio] || []).find((x) => x.desde > it.desde);
+    locutar(proximo || null);
+  }
 }, 1000);
 pedirClima(); setInterval(pedirClima, 15 * 60e3);
 setInterval(rotarDato, 25e3);
