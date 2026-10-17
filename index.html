@@ -109,6 +109,8 @@ window.RADIO_CONFIG = {
   .etiqueta { font: 600 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
   h1 { font: 800 clamp(1.9rem, 4.6vw, 3.1rem)/1.04 var(--font-display); letter-spacing: -.025em; margin: 4px 0 6px; text-wrap: balance; }
   .banda { font-size: 1.25rem; font-weight: 700; }
+  .lote-lista { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 3px; font-size: .88rem; }
+  .lote-lista .ok { color: var(--ok); } .lote-lista .mal { color: var(--live); }
   .acciones-vivo { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   #vivo-btn.al-aire { background: var(--live); color: #fff; }
   .voces-lista { display: grid; gap: 6px; margin-top: 10px; }
@@ -404,7 +406,17 @@ window.RADIO_CONFIG = {
       <div id="pendientes"></div>
     </div>
     <div>
-      <h2>Agregar un MP3 propio</h2>
+      <h2>Cargar muchos MP3 de una</h2>
+      <p class="nota-chica" style="margin:0 0 10px">1) Suban los MP3 a Cloudflare R2 (radio-mp3). 2) Acá toquen "Elegir MP3" y seleccionen <b>los mismos archivos</b> desde su compu: no se suben de nuevo, solo se leen el nombre y la duración. La radio busca sola banda, tema, disco, año y tapa, y los pone al aire. Si el tema ya estaba por YouTube, se usa el MP3 en su lugar. Mejor si los archivos se llaman "Banda - Tema.mp3".</p>
+      <div class="acciones-vivo">
+        <label class="icono" style="cursor:pointer">📂 Elegir MP3<input type="file" id="lote-archivos" accept=".mp3,audio/mpeg" multiple hidden></label>
+        <label>Si no se sabe la radio: <select id="lote-radio"></select></label>
+        <button class="primario" type="button" id="lote-cargar" disabled>Cargar todos</button>
+      </div>
+      <ol class="lote-lista" id="lote-lista"></ol>
+    </div>
+    <div>
+      <h2>Agregar un MP3 propio (de a uno)</h2>
       <p class="nota-chica" style="margin:0 0 10px">Primero suban el archivo a Cloudflare R2 (dash.cloudflare.com → R2 → radio-mp3 → arrastrar el MP3). Después escriban acá su nombre exacto, por ejemplo <b>Pride and Joy.mp3</b>. La duración se completa sola.</p>
       <div id="nuevo-mp3"></div>
     </div>
@@ -1445,6 +1457,53 @@ function duracionAuto(s) {
     ytPrevia.mute(); ytPrevia.loadVideoById(s.youtubeId);
   });
 }
+
+// ------------------------------------------------------------ Carga de muchos MP3 de una
+let lote = [];
+$("lote-radio").append(...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre })));
+const limpiarNombre = (n) => n.replace(/\.mp3$/i, "").replace(/\[[^\]]*\]/g, "").replace(/\((official|audio|video|lyric|letra|remaster|hd|hq)[^)]*\)/gi, "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
+function duracionLocal(f) {
+  return new Promise((ok) => { const a = new Audio(), u = URL.createObjectURL(f); a.preload = "metadata"; a.onloadedmetadata = () => { ok(Math.round(a.duration) || 0); URL.revokeObjectURL(u); }; a.onerror = () => ok(0); a.src = u; setTimeout(() => ok(0), 10000); });
+}
+const estaEnR2 = (nombre) => new Promise((ok) => { const a = new Audio(); a.preload = "metadata"; a.onloadedmetadata = () => ok(true); a.onerror = () => ok(false); a.src = urlMp3(nombre); setTimeout(() => ok(false), 12000); });
+function pintarLote() {
+  const ol = $("lote-lista"); ol.textContent = "";
+  lote.forEach((x) => ol.append(el("li", { className: x.estado === "listo" ? "ok" : x.estado === "error" ? "mal" : "" , textContent: `${x.banda ? x.banda + " – " : ""}${x.titulo} · ${fmt(x.dur)}${x.msg ? " · " + x.msg : ""}` })));
+  $("lote-cargar").disabled = !lote.some((x) => !x.estado);
+}
+$("lote-archivos").onchange = async (e) => {
+  const files = [...e.target.files]; lote = [];
+  for (const f of files) {
+    const base = limpiarNombre(f.name);
+    let [banda, titulo] = base.includes(" - ") ? base.split(/ - (.+)/) : ["", base];
+    banda = banda.trim(); titulo = (titulo || "").trim();
+    // ¿Ya está en el catálogo? Se prueban las dos órdenes (Banda - Tema y Tema - Banda).
+    const c1 = S.catalogo.find((c) => claveTema(c) === claveTema({ titulo, banda }));
+    const c2 = !c1 && banda ? S.catalogo.find((c) => claveTema(c) === claveTema({ titulo: banda, banda: titulo })) : null;
+    const cat = c1 || c2 || (!banda ? S.catalogo.find((c) => normB(c.titulo) === normB(titulo)) : null);
+    lote.push({ nombre: f.name, titulo: cat ? cat.titulo : titulo, banda: cat ? cat.banda : banda, cat, dur: await duracionLocal(f) });
+    pintarLote();
+  }
+  pintarLote();
+};
+$("lote-cargar").onclick = async () => {
+  $("lote-cargar").disabled = true;
+  for (const x of lote) {
+    if (x.estado) continue;
+    x.msg = "cargando…"; pintarLote();
+    try {
+      if (!(await estaEnR2(x.nombre))) { x.estado = "error"; x.msg = "no está en R2 todavía (súbanlo y vuelvan a probar)"; pintarLote(); continue; }
+      const d = { titulo: x.titulo.slice(0, 120), banda: (x.banda || "").slice(0, 120), radio: x.cat?.radio || $("lote-radio").value, mp3: x.nombre, duracion: x.dur };
+      if (x.cat) Object.assign(d, { album: x.cat.album || "", anio: x.cat.anio || null, curio: x.cat.curio || "", pop: x.cat.pop || 4, spotify: x.cat.spotify || "", genero: x.cat.genero || "", pais: x.cat.pais || "" });
+      try { const it = await buscarItunes(d.titulo, d.banda); if (it) { d.portada = it.portada || ""; d.album ||= it.album || ""; d.anio ||= it.anio || null; if (!d.banda) d.banda = it.banda || ""; } } catch {}
+      if (!d.duracion) { x.estado = "error"; x.msg = "no se pudo leer la duración"; pintarLote(); continue; }
+      const ref = await B.pedir({ link: x.nombre.slice(0, 300), titulo: d.titulo, banda: d.banda, radio: d.radio, pidio: "Galo y Nake", mensaje: "" });
+      await B.actualizar(ref.id, { ...d, estado: "aprobada" });
+      x.estado = "listo"; x.msg = `al aire en ${nombreRadio(d.radio)}${x.cat ? " (reemplaza YouTube)" : ""}`;
+    } catch (err) { console.error(err); x.estado = "error"; x.msg = "no se pudo guardar"; }
+    pintarLote();
+  }
+};
 
 // ------------------------------------------------------------ Reloj
 function tic(forzar = false) {
