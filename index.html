@@ -425,7 +425,7 @@ window.RADIO_CONFIG = {
       <p class="nota-chica" style="margin:0 0 10px">Hablen en vivo encima de la música: todos los que estén escuchando los oyen al toque y la música baja sola. Solo ustedes dos ven este botón.</p>
       <div class="acciones-vivo"><button class="primario" type="button" id="vivo-btn">🎙 Salir al aire</button><span class="nota-chica" id="vivo-estado"></span></div>
     </div>
-    <div>
+    <div hidden>
       <h2>Voz automática del locutor</h2>
       <p class="nota-chica" style="margin:0 0 10px">Es la voz que dice la hora, el clima y los datos entre canción y canción, con la música de fondo. Esa voz ("Daniela") no está en internet como un audio: hay que <b>fabricar</b> cada frase una vez desde esta compu, y queda guardada para todos los oyentes. Los botones 1, 2 y 3 fabrican frases; el 1 ya está hecho. Si cortan, después siguen donde quedó.</p>
       <div class="acciones-vivo">
@@ -438,7 +438,7 @@ window.RADIO_CONFIG = {
       </div>
       <p class="nota-chica" id="gen-estado" style="margin:8px 0 0"></p>
     </div>
-    <div>
+    <div hidden>
       <h2>Grabaciones del locutor</h2>
       <p class="nota-chica" style="margin:0 0 10px">Graben separadores cortos ("Estás escuchando Radio Galo &amp; Nake…"). Suenan cada tanto entre temas, intercalados con la hora y el clima. Máximo 20 segundos cada una.</p>
       <p class="nota-chica" style="margin:0 0 8px"><b>Recomendado:</b> grábenlas con el celular (app de notas de voz), en un lugar sin eco y cerca del micrófono, y súbanlas acá con "📁 Subir audios". Suena mejor que grabar desde la compu. Igual pueden grabar directo con "⏺ Grabar".</p>
@@ -1322,7 +1322,6 @@ async function guardarFicha(s, msg, accion) {
       pintarAdmin();
     } else {
       await B.actualizar(s.id, accion === "aprobar" ? { ...d, estado: "aprobada" } : d);
-      if (accion === "aprobar" && s.dedica) generarClip("ded-" + claveSegura(s.id), `Este tema va dedicado a ${s.dedica}, de parte de ${s.pidio || "un oyente"}. Suena ${d.titulo || s.titulo}, de ${d.banda || s.banda}, en Radio Galo y Nake.`).catch((e) => console.error(e));
       delete borrador[s.id];
       if (accion === "guardar") { msg.className = "ok"; msg.textContent = "Guardado."; msg.hidden = false; }
     }
@@ -1842,15 +1841,16 @@ function elegirVoz() {
   return vs[0] || null;
 }
 if ("speechSynthesis" in window) { vozElegida = elegirVoz(); speechSynthesis.onvoiceschanged = () => { vozElegida = elegirVoz(); }; }
-function textoLocutor() {
+function textoLocutor(tema = null) {
   const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
   const h = ahora.getHours(), m = ahora.getMinutes();
   const hora = m === 0 ? `Son las ${h} en punto` : `Son las ${h} y ${m}`;
   let t = `${hora} de este ${DIAS[ahora.getDay()]} en Buenos Aires`;
   if (S.temp != null) t += `, con ${S.temp} grados y ${S.cielo || "tiempo tranquilo"}`;
   t += `. Estás escuchando ${nombreRadio(S.radio)}, en Radio Galo y Nake.`;
-  const s = S.actual && (datosCancion(S.actual.cid) || S.actual);
-  if (s) t += ` Ahora suena ${s.titulo}, de ${s.banda}.`;
+  const base = tema || S.actual;
+  const s = base && (datosCancion(base.cid) || base);
+  if (s) t += ` ${tema ? "Se viene" : "Ahora suena"} ${s.titulo}, de ${s.banda}.`;
   const datos = s ? FRASES.filter((f) => normB(f.b) === normB(String(s.banda).split(",")[0])) : [];
   if (datos.length && Math.random() < 0.6) t += " Un dato: " + datos[Math.floor(Math.random() * datos.length)].d;
   return t;
@@ -1875,7 +1875,7 @@ async function sonarVoz(dataUrl, ganancia = 2.6) {
     await new Promise((ok) => { const a = new Audio(dataUrl); a.volume = Math.min(1, +vol.value / 100); a.onended = a.onerror = ok; a.play().catch(ok); });
   }
 }
-const MUSICA_DE_FONDO = 0.15; // cuánto queda la música mientras habla el locutor ("en off")
+const MUSICA_DE_FONDO = 0.25; // cuánto queda la música mientras habla el locutor ("en off")
 async function hablarEncima(audios) {
   S.hablando = true;
   bajarMusica(S.duck ?? 1, MUSICA_DE_FONDO, 900);
@@ -2019,12 +2019,9 @@ $("gen-probar").onclick = async () => { $("gen-estado").textContent = "Probando�
 
 async function locutar(tema = null) {
   if (!S.encendida || S.enVivo || S.hablando || ("speechSynthesis" in window && speechSynthesis.speaking)) return;
-  turnoGrabacion = !turnoGrabacion;
-  if (turnoGrabacion && S.voces.length && pasarGrabacion()) return;
-  // Primero la voz neural pregenerada; si todavía no está, la del navegador.
-  if (await pasarClips(await clavesLocutor({ tema }), 4)) return;
+  // Voz del navegador (la original), "en off" con la música de fondo.
   if (!("speechSynthesis" in window)) return;
-  const u = new SpeechSynthesisUtterance(textoLocutor());
+  const u = new SpeechSynthesisUtterance(textoLocutor(tema));
   u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
   u.rate = 1.0; u.pitch = 0.95;
   u.onstart = () => bajarMusica(1, MUSICA_DE_FONDO, 800);
@@ -2041,10 +2038,7 @@ setInterval(() => {
   if (ded && !S.dedicaLeida && !S.enVivo && pos > XF + 1 && pos < XF + 30 && !("speechSynthesis" in window && speechSynthesis.speaking)) {
     S.dedicaLeida = true; temasDesdeLocutor = 0;
     const s = datosCancion(it.cid);
-    clip("ded-" + claveSegura(s.id)).then((a) => {
-      if (a) pasarClips(["ded-" + claveSegura(s.id)], 1);
-      else decir(`Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena ${s.titulo}, de ${s.banda}, en Radio Galo y Nake.`);
-    });
+    decir(`Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena ${s.titulo}, de ${s.banda}, en Radio Galo y Nake.`);
     return;
   }
   // Cada 2 o 3 temas habla "en off" en el cambio de canción: arranca unos segundos antes del final,
