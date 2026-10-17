@@ -356,7 +356,7 @@ window.RADIO_CONFIG = {
     <div id="previa-mp3" hidden></div>
     <div>
       <h2>Fila de reproducción (solo la ven ustedes)</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Lo que va a sonar en cada radio. Suban, bajen o saquen temas, o pongan uno para que suene después del actual.</p>
+      <p class="nota-chica" style="margin:0 0 10px">Abajo de todo, lo que suena ahora; arriba, lo que viene (el más cercano justo encima). Arrastren, suban, bajen o saquen temas, o pongan uno para que suene después del actual.</p>
       <div id="fila" class="dos"></div>
     </div>
     <div>
@@ -563,7 +563,7 @@ S.catalogo = [];
 const todasLasCanciones = () => S.catalogo.length ? [...S.solicitudes, ...S.catalogo] : S.solicitudes;
 const aprobadas = (radio) => todasLasCanciones().filter((s) => s.estado === "aprobada" && s.radio === radio && s.duracion > 0);
 fetch("canciones.json?v=" + Math.floor(Date.now() / 36e5)).then((r) => r.ok ? r.json() : []).then((l) => {
-  S.catalogo = l.map((c) => ({ id: "yt-" + c.y, youtubeId: c.y, titulo: c.t, banda: c.a, album: c.al || "", anio: c.an || null, duracion: c.d, radio: c.r, curio: c.c || "", estado: "aprobada", pidio: "Galo y Nake" }));
+  S.catalogo = l.map((c) => ({ id: "yt-" + c.y, youtubeId: c.y, titulo: c.t, banda: c.a, album: c.al || "", anio: c.an || null, duracion: c.d, radio: c.r, curio: c.c || "", pais: c.pa || "", genero: c.ti || "", spotify: c.sp || "", estado: "aprobada", pidio: "Galo y Nake" }));
   try { pintarRankings(); tic(); } catch {}
 }).catch(() => {});
 const esAdmin = () => !!B.usuario.email && C.admins.map((a) => a.toLowerCase()).includes(B.usuario.email.toLowerCase());
@@ -699,8 +699,9 @@ function pintarAhora() {
   const cur = s.curio || s.dato || "";
   $("curiosidad").textContent = cur; $("curiosidad").hidden = !cur;
   $("banda").textContent = s.banda || "";
-  const filas = [["Álbum", s.album], ["Año", s.anio], ["Músicos", s.musicos], ["La pidió", s.pidio]];
+  const filas = [["Álbum", s.album], ["Año", s.anio], ["Género", s.genero], ["País", s.pais], ["Músicos", s.musicos], ["La pidió", s.pidio]];
   for (const [k, v] of filas) if (v) ficha.append(el("dt", { textContent: k }), el("dd", { textContent: String(v) }));
+  if (s.spotify) ficha.append(el("dt", { textContent: "Spotify" }), el("dd", {}, el("a", { href: "https://open.spotify.com/track/" + encodeURIComponent(s.spotify), target: "_blank", rel: "noopener", textContent: "Escuchala en Spotify" })));
   $("letra").hidden = !s.letra;
   if ($("letra-texto").textContent !== (s.letra || "")) { $("letra-texto").textContent = s.letra || ""; $("letra").open = false; }
   const src = portadaDe(it);
@@ -979,15 +980,17 @@ function pintarFila() {
     const actual = sonandoEn(r.id);
     const ol = el("ol");
     if (!lista.length) ol.append(el("li", { className: "vacio", style: "display:block", textContent: aprobadas(r.id).length ? "Se está armando…" : "No hay canciones aprobadas en esta radio." }));
-    lista.forEach((it, i) => {
+    // Se muestra al revés: lo que viene arriba y lo que suena abajo de todo.
+    [...lista].reverse().forEach((it, j) => {
+      const i = lista.length - 1 - j;
       const k = claveItem(it), suena = mismo(it, actual);
       const b = (txt, title, f, off) => { const x = el("button", { type: "button", textContent: txt, title, onclick: f }); x.disabled = !!off; x.setAttribute("aria-label", title); return x; };
       const li = el("li", { className: suena ? "sonando" : "", draggable: true },
         el("span", { className: "hora", textContent: suena ? "SUENA" : new Date(it.desde).toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" }) }),
         el("span", { className: "t", textContent: `${tema(it)}${it.mp3 ? " · MP3" : ""}` }),
         el("span", { className: "btns" },
-          b("↑", "Subir", () => moverEnFila(r.id, k, -1), i === 0),
-          b("↓", "Bajar", () => moverEnFila(r.id, k, 1), i === lista.length - 1),
+          b("↑", "Subir (suena más tarde)", () => moverEnFila(r.id, k, 1), i === lista.length - 1),
+          b("↓", "Bajar (suena antes)", () => moverEnFila(r.id, k, -1), i === 0),
           b(suena ? "⏭" : "✕", suena ? "Saltar: sacarla y pasar a la próxima" : "Sacar de la lista", () => quitarDeFila(r.id, k))));
       li.ondragstart = (e) => { arrastre = { radio: r.id, clave: k }; li.classList.add("arrastrando"); e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", k); };
       li.ondragend = () => { arrastre = null; li.classList.remove("arrastrando"); pintarFila(); };
@@ -998,8 +1001,7 @@ function pintarFila() {
         const a = arrastre; arrastre = null;
         if (!a || a.radio !== r.id) return;
         const desde = lista.findIndex((x) => claveItem(x) === a.clave);
-        let hasta = i; if (desde < hasta) hasta--; // se suelta "arriba" del tema destino
-        if (desde >= 0) moverA(r.id, a.clave, Math.max(0, hasta === desde ? i : hasta));
+        if (desde >= 0 && desde !== i) moverA(r.id, a.clave, i); // toma el lugar del tema donde lo sueltan
       };
       ol.append(li);
     });
