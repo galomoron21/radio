@@ -2042,7 +2042,9 @@ async function datosDelDisco2(d) {
     const q = `release:"${d.album.replace(/"/g, "")}" AND artist:"${d.banda.split(",")[0].replace(/"/g, "")}"`;
     const rs = await (await fetch("https://musicbrainz.org/ws/2/release?" + new URLSearchParams({ query: q, fmt: "json", limit: "10" }))).json();
     const rels = (rs.releases || []).filter((x) => normB(x.title) === normB(d.album) || normB(x.title).startsWith(normB(d.album)));
-    const rel = rels.find((x) => x.status === "Official" && (x.country === "GB" || x.country === "US" || x.country === "XE")) || rels.find((x) => x.status === "Official") || rels[0];
+    // La edición original: oficial y con menos temas (evita las "deluxe" con 26 temas extra).
+    const oficiales = rels.filter((x) => x.status === "Official" && x["track-count"]).sort((x, y) => x["track-count"] - y["track-count"] || String(x.date || "9").localeCompare(String(y.date || "9")));
+    const rel = oficiales[0] || rels[0];
     if (rel) {
       info.tapa = `https://coverartarchive.org/release/${rel.id}/front-500`;
       const det = await (await fetch(`https://musicbrainz.org/ws/2/release/${rel.id}?` + new URLSearchParams({ inc: "recordings", fmt: "json" }))).json();
