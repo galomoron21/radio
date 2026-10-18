@@ -1,17 +1,53 @@
 {
- "t": 1792349584069,
+ "t": 1792356293659,
  "items": [
   {
    "tema": "fútbol",
-   "titulo": "¡EN VIVO! Racing e Independiente se juegan todo en el clásico de Avellaneda",
-   "fuente": "ESPN Argentina",
-   "t": 1792349437000
+   "titulo": "Lo que pudo haber sido...",
+   "fuente": "Racing Club - Sitio Oficial",
+   "t": 1792354587000
   },
   {
    "tema": "fútbol",
-   "titulo": "La salida de Boca rumbo a Brasil",
+   "titulo": "¿Cómo ver el partido de Belgrano vs River Plate fuera de Argentina?",
+   "fuente": "365Scores",
+   "t": 1792354500000
+  },
+  {
+   "tema": "política",
+   "titulo": "Venezuela: la oposición anunció un gran acuerdo nacional y ratificó a María Corina Machado como líder",
+   "fuente": "La Voz del Interior",
+   "t": 1792354232000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Historial de Racing vs. Independiente: quién ganó más y todos los enfrentamientos",
+   "fuente": "TyC Sports",
+   "t": 1792354170000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing e Independiente empataron 1-1 en el clásico de Avellaneda",
+   "fuente": "Filo News",
+   "t": 1792353600000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Estudiantes vs. San Lorenzo, EN VIVO: dónde ver por TV y cómo seguir ONLINE",
+   "fuente": "TyC Sports",
+   "t": 1792349802000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La particular mirada de un ídolo de Boca sobre Leonel Flores: \"A veces exagera...\"",
    "fuente": "Olé",
-   "t": 1792347704000
+   "t": 1792348921000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Alineaciones de Belgrano y River para el duelo de la Fecha 13 del Torneo Clausura 2026",
+   "fuente": "Bolavip Argentina",
+   "t": 1792345718000
   },
   {
    "tema": "política",
@@ -32,28 +68,16 @@
    "t": 1792343860000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Racing e Independiente protagonizan una nueva edición del clásico de Avellaneda octubre 2026",
-   "fuente": "Canal Showsport",
-   "t": 1792340452000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "10 datos de la previa de Belgrano Vs. River",
-   "fuente": "El Gráfico",
-   "t": 1792340325000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing Club vs Independiente: previa del partido, canales, streaming en vivo, hora de inicio y más",
-   "fuente": "Goal.com",
-   "t": 1792339933000
-  },
-  {
    "tema": "recitales",
    "titulo": "Arrancó la previa del Primavera Sound Buenos Aires 2026: encuentro de artistas, “Primavera en la Ciudad” y todos los detalles del festival",
    "fuente": "Pronto",
    "t": 1792339560000
+  },
+  {
+   "tema": "política",
+   "titulo": "Otra inversión extranjera apunta a Los Glaciares y fue declarada de interés por el Gobierno Nacional",
+   "fuente": "Ahora Calafate",
+   "t": 1792339200000
   },
   {
    "tema": "música",
@@ -74,28 +98,10 @@
    "t": 1792334919000
   },
   {
-   "tema": "fútbol",
-   "titulo": "(VIDEO) ¡FELIZ DIA DE LA MADRE!",
-   "fuente": "sanlorenzowebsite.com.ar",
-   "t": 1792334595000
-  },
-  {
    "tema": "música",
    "titulo": "El rock nacional tal vez esté preparando un show en la eternidad",
    "fuente": "El Tribuno",
    "t": 1792322400000
-  },
-  {
-   "tema": "política",
-   "titulo": "Banco de Talentos del Gobierno: 145 colombianos ya fueron contratados y más de 70 hojas de vida siguen en revisión",
-   "fuente": "Infobae",
-   "t": 1792321560000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Belgrano vs. River Plate, por el Torneo Clausura 2026: dónde ver en vivo, horario y formaciones",
-   "fuente": "Somos Jujuy",
-   "t": 1792321200000
   },
   {
    "tema": "economía",
@@ -108,12 +114,6 @@
    "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 18 de octubre",
    "fuente": "La Nación",
    "t": 1792317660000
-  },
-  {
-   "tema": "política",
-   "titulo": "El Gobierno anunció que obtuvo un nuevo superávit fiscal en septiembre",
-   "fuente": "elheraldo.com.ar",
-   "t": 1792317600000
   },
   {
    "tema": "clima",
