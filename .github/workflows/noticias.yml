@@ -1,4 +1,4 @@
-name: Noticias para el locutor
+name: Noticias y voz del locutor
 
 on:
   schedule:
@@ -8,18 +8,40 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: locutor
+  cancel-in-progress: false
+
 jobs:
-  noticias:
+  locutor:
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/noticias.py
+      - name: Noticias
+        run: python scripts/noticias.py
       - name: Guardar noticias.json
         run: |
           git config user.name "radio-bot"
           git config user.email "radio-bot@users.noreply.github.com"
           git add noticias.json
           git diff --cached --quiet || (git commit -m "Noticias actualizadas" && git push)
+      - name: Traer los audios ya fabricados (rama voz)
+        run: git clone --depth 1 --branch voz "https://github.com/${{ github.repository }}.git" voz || mkdir -p voz
+      - name: Fabricar audios del locutor
+        run: |
+          pip install edge-tts
+          python scripts/locutor.py
+      - name: Publicar la rama voz (un solo commit, sin historial)
+        run: |
+          cd voz
+          rm -rf .git
+          git init -q -b voz
+          git config user.name "radio-bot"
+          git config user.email "radio-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Audios del locutor"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" voz
