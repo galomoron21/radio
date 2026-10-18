@@ -1,6 +1,30 @@
 {
- "t": 1792344935200,
+ "t": 1792349584069,
  "items": [
+  {
+   "tema": "fútbol",
+   "titulo": "¡EN VIVO! Racing e Independiente se juegan todo en el clásico de Avellaneda",
+   "fuente": "ESPN Argentina",
+   "t": 1792349437000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La salida de Boca rumbo a Brasil",
+   "fuente": "Olé",
+   "t": 1792347704000
+  },
+  {
+   "tema": "política",
+   "titulo": "Semana clave para el Presupuesto de 2027 en el Congreso: debe aprobarse antes del 20 de octubre",
+   "fuente": "Infobae",
+   "t": 1792345455000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Alineaciones de Estudiantes y San Lorenzo para el duelo de la Fecha 13 del Torneo Clausura 2026",
+   "fuente": "Bolavip Argentina",
+   "t": 1792344789000
+  },
   {
    "tema": "fútbol",
    "titulo": "Boca renovó el contrato de Milton Delgado",
@@ -9,9 +33,21 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Así está el historial entre Racing e Independiente: dos equipos que llegan al clásico de Avellaneda en crisis",
-   "fuente": "Los Andes",
-   "t": 1792343640000
+   "titulo": "Racing e Independiente protagonizan una nueva edición del clásico de Avellaneda octubre 2026",
+   "fuente": "Canal Showsport",
+   "t": 1792340452000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "10 datos de la previa de Belgrano Vs. River",
+   "fuente": "El Gráfico",
+   "t": 1792340325000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing Club vs Independiente: previa del partido, canales, streaming en vivo, hora de inicio y más",
+   "fuente": "Goal.com",
+   "t": 1792339933000
   },
   {
    "tema": "recitales",
@@ -26,22 +62,10 @@
    "t": 1792338904000
   },
   {
-   "tema": "fútbol",
-   "titulo": "La escalada de Merentiel en la historia de Boca y la certeza de ser el hombre-gol del equipo",
-   "fuente": "Olé",
-   "t": 1792338558000
-  },
-  {
    "tema": "política",
    "titulo": "La UCR traba el Presupuesto 2027 y exige actualización por inflación de la AUH",
    "fuente": "MendoVoz",
    "t": 1792337400000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Pronóstico CA Belgrano River Plate - Liga Profesional Argentina 18/10/26",
-   "fuente": "SportyTrader",
-   "t": 1792335300000
   },
   {
    "tema": "fútbol",
@@ -56,34 +80,10 @@
    "t": 1792334595000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Pronóstico Estudiantes de La Plata - CA San Lorenzo De Almagro - Liga Profesional Argentina",
-   "fuente": "SportyTrader",
-   "t": 1792325640000
-  },
-  {
-   "tema": "política",
-   "titulo": "La UCR exige reforzar los fondos de discapacidad y mantener la movilidad en las AUH para aprobar el presupuesto 2027",
-   "fuente": "Filo News",
-   "t": 1792324243000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing e Independiente: así salieron los últimos 10 clásicos de Avellaneda",
-   "fuente": "Somos Jujuy",
-   "t": 1792323000000
-  },
-  {
    "tema": "música",
    "titulo": "El rock nacional tal vez esté preparando un show en la eternidad",
    "fuente": "El Tribuno",
    "t": 1792322400000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing Club vs Independiente en vivo: canales, streaming y horarios del Clausura de Argentina para España, México, Latinoamérica y USA",
-   "fuente": "DAZN",
-   "t": 1792321770000
   },
   {
    "tema": "política",
@@ -92,10 +92,16 @@
    "t": 1792321560000
   },
   {
+   "tema": "fútbol",
+   "titulo": "Belgrano vs. River Plate, por el Torneo Clausura 2026: dónde ver en vivo, horario y formaciones",
+   "fuente": "Somos Jujuy",
+   "t": 1792321200000
+  },
+  {
    "tema": "economía",
-   "titulo": "Dólar hoy en México: precio y cotización de la divisa este domingo 18 de octubre de 2026",
-   "fuente": "Clarin.com",
-   "t": 1792320012000
+   "titulo": "Dólar hoy en Venezuela: precio y cotización de la divisa este domingo 18 de octubre de 2026",
+   "fuente": "Clarín",
+   "t": 1792320015000
   },
   {
    "tema": "economía",
@@ -110,12 +116,6 @@
    "t": 1792317600000
   },
   {
-   "tema": "fútbol",
-   "titulo": "La Tabla Anual: Boca a un punto del líder y River en zona de Sudamericana",
-   "fuente": "Olé",
-   "t": 1792316652000
-  },
-  {
    "tema": "clima",
    "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
    "fuente": "Clarin.com",
@@ -124,7 +124,7 @@
   {
    "tema": "clima",
    "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
-   "fuente": "Clarin.com",
+   "fuente": "Clarín",
    "t": 1792292608000
   },
   {
