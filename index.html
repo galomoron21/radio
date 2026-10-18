@@ -128,7 +128,8 @@ window.RADIO_CONFIG = {
   .disco-temas { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: .92rem; display: grid; gap: 2px; }
   .disco-temas li.en-radio { color: var(--fg); font-weight: 700; }
   .disco-temas li.suena { color: var(--live); }
-  body.sin-radio .disco-dia { display: none !important; }
+  body.sin-radio .discos-dia { display: none !important; }
+  .discos-dia { display: grid; gap: 16px; }
   .dedicatoria { margin: 10px 0 0; font-weight: 700; color: var(--live); }
   .curiosidad { margin: 10px 0 0; max-width: 62ch; font-size: .98rem; line-height: 1.5; color: var(--fg); opacity: .85; border-left: 2px solid var(--accent); padding-left: 12px; }
   .ficha { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; margin: 12px 0 0; font-size: .95rem; }
@@ -330,17 +331,30 @@ window.RADIO_CONFIG = {
     </aside>
   </section>
 
-  <section class="disco-dia" id="disco-dia" hidden>
-    <img id="disco-tapa" alt="" hidden>
-    <div>
-      <div class="etiqueta">Disco del día</div>
-      <h2 id="disco-nombre" style="margin:4px 0 2px"></h2>
-      <div class="banda" id="disco-banda"></div>
-      <p class="curiosidad" id="disco-dato" hidden></p>
-      <p class="nota-chica" id="disco-nota"></p>
-      <details class="disco-lista"><summary id="disco-ver">Ver canciones</summary><ol class="disco-temas" id="disco-temas"></ol></details>
-    </div>
-  </section>
+  <div class="discos-dia" id="discos-dia">
+    <section class="disco-dia" id="disco-dia-nacional" hidden>
+      <img id="disco-tapa-nacional" alt="" hidden>
+      <div>
+        <div class="etiqueta">Disco del día · Rock Nacional</div>
+        <h2 id="disco-nombre-nacional" style="margin:4px 0 2px"></h2>
+        <div class="banda" id="disco-banda-nacional"></div>
+        <p class="curiosidad" id="disco-dato-nacional" hidden></p>
+        <p class="nota-chica" id="disco-nota-nacional"></p>
+        <details class="disco-lista"><summary id="disco-ver-nacional">Ver canciones</summary><ol class="disco-temas" id="disco-temas-nacional"></ol></details>
+      </div>
+    </section>
+    <section class="disco-dia" id="disco-dia-internacional" hidden>
+      <img id="disco-tapa-internacional" alt="" hidden>
+      <div>
+        <div class="etiqueta">Disco del día · Rock Internacional</div>
+        <h2 id="disco-nombre-internacional" style="margin:4px 0 2px"></h2>
+        <div class="banda" id="disco-banda-internacional"></div>
+        <p class="curiosidad" id="disco-dato-internacional" hidden></p>
+        <p class="nota-chica" id="disco-nota-internacional"></p>
+        <details class="disco-lista"><summary id="disco-ver-internacional">Ver canciones</summary><ol class="disco-temas" id="disco-temas-internacional"></ol></details>
+      </div>
+    </section>
+  </div>
 
   <section class="dos">
     <div class="rank">
@@ -1202,7 +1216,8 @@ function pintarFila() {
   if (!esAdmin()) return;
   const cont = $("fila");
   if (arrastre) return; // no redibujar mientras arrastran
-  if (cont.contains(document.activeElement) && document.activeElement.tagName === "SELECT") return;
+  if (cont.contains(document.activeElement) && ["SELECT", "INPUT"].includes(document.activeElement.tagName)) return;
+  if ([...cont.querySelectorAll("input")].some((i) => i.value)) return; // no borrar lo que están escribiendo
   cont.textContent = "";
   for (const r of C.radios) {
     const lista = listaDe(r.id);
@@ -1234,12 +1249,18 @@ function pintarFila() {
       };
       ol.append(li);
     });
-    const sel = el("select", { id: "fila-sel-" + r.id }, el("option", { value: "", textContent: "Elegir canción…" }),
-      ...aprobadas(r.id).sort((a, b) => a.titulo.localeCompare(b.titulo)).map((s) => el("option", { value: s.id, textContent: tema(s) })));
+    // Buscador: se ve lo que escribís y va sugiriendo temas de esa radio.
+    const opciones = aprobadas(r.id).sort((a, b) => tituloLimpio(a.titulo).localeCompare(tituloLimpio(b.titulo)));
+    const dl = el("datalist", { id: "fila-opc-" + r.id }, ...opciones.map((s) => el("option", { value: tema(s) })));
+    const sel = el("input", { id: "fila-sel-" + r.id, type: "search", placeholder: `Buscar tema o banda (${opciones.length} temas)…`, autocomplete: "off" });
+    sel.setAttribute("list", dl.id);
     const poner = el("button", { type: "button", className: "icono", textContent: "Que suene después", onclick: () => {
-      const s = todasLasCanciones().find((x) => x.id === sel.value); if (s) ponerSiguiente(r.id, s).then(() => { sel.value = ""; pintarFila(); });
+      const q = sel.value.trim();
+      const s = opciones.find((x) => tema(x) === q) || opciones.find((x) => normB(tema(x)).includes(normB(q)));
+      if (!q || !s) { sel.setCustomValidity("No encontré ese tema"); sel.reportValidity(); setTimeout(() => sel.setCustomValidity(""), 1500); return; }
+      ponerSiguiente(r.id, s).then(() => { sel.value = ""; pintarFila(); });
     } });
-    cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner)));
+    cont.append(el("div", { className: "fila-radio" }, el("h4", { textContent: r.nombre }), ol, el("div", { className: "agregar" }, sel, poner, dl)));
   }
 }
 $("saltar").onclick = () => { if (esAdmin()) saltar(S.radio).catch((e) => { console.error(e); $("aviso").textContent = "No se pudo saltar la canción."; }); };
@@ -1954,7 +1975,7 @@ function escucharVivo() {
   B.fs.onSnapshot(B.fs.collection(B.db, "voces"), (s) => { S.voces = s.docs.map((d) => ({ id: d.id, ...d.data() })).sort((a, b) => b.t - a.t); pintarVoces(); }, () => {});
 }
 setTimeout(escucharVivo, 1500);
-setTimeout(() => { if (B.fs) B.fs.onSnapshot(B.fs.doc(B.db, "config", "disco"), (sn) => { S.discoGuardado = sn.data() || null; pintarDisco(); }, () => {}); }, 1200);
+setTimeout(() => { if (B.fs) C.radios.forEach((r) => B.fs.onSnapshot(B.fs.doc(B.db, "config", "disco-" + r.id), (sn) => { S.discosGuardados[r.id] = sn.data() || null; pintarDisco(); }, () => {})); }, 1200);
 setInterval(() => conectarVivo(estadoVivo), 5000);
 
 // ------------------------------------------------------------ Disco del día
@@ -1969,36 +1990,44 @@ function discos(radio) {
   }
   return Object.values(g).filter((l) => l.length >= 3).sort((a, b) => (a[0].banda + a[0].album).localeCompare(b[0].banda + b[0].album));
 }
-// El disco del día se elige una vez por día y queda guardado en Firebase (config/disco): todos ven el mismo.
-S.discoGuardado = null;
+// Hay un disco del día por radio. Se elige una vez por día y queda guardado en Firebase (config/disco-<radio>):
+// todos ven el mismo.
+S.discosGuardados = {};
 const hoyDisco = () => new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" });
-function armarDisco(banda, album) {
+function armarDisco(banda, album, radio) {
   const temas = todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada" && x.banda === banda && x.album === album);
-  const base = temas[0] || {};
-  return { album: String(album).replace(/\s*[\(\[].*?[\)\]]/g, "").trim(), albumOriginal: album, banda, anio: base.anio || S.discoGuardado?.anio || null, radio: base.radio || S.discoGuardado?.radio || C.radios[0].id, temas };
+  const base = temas[0] || {}, g = S.discosGuardados[radio] || {};
+  return { album: String(album).replace(/\s*[\(\[].*?[\)\]]/g, "").trim(), albumOriginal: album, banda, anio: base.anio || g.anio || null, radio, temas };
 }
-let eligiendoDisco = false;
+const eligiendoDisco = {};
 function discoDelDia(radio) {
-  const dia = hoyDisco();
-  const g = S.discoGuardado;
+  if (!radio) return null;
+  const dia = hoyDisco(), g = S.discosGuardados[radio];
   let forzar = false;
   if (g && g.fecha === dia) {
-    const d = armarDisco(g.banda, g.album);
-    if (d.temas.some((t) => t.spotify) || !S.solicitudes.length) return !radio || d.radio === radio ? d : null;
+    const d = armarDisco(g.banda, g.album, radio);
+    if (d.temas.some((t) => t.spotify) || !S.solicitudes.length) return d;
     forzar = true; // el guardado no tiene datos confiables: se elige otro
   }
-  // Nadie lo eligió todavía hoy: lo elige este navegador y lo guarda para todos.
-  const todos = discos(null); if (!todos.length || !B.fs || !B.usuario.uid || eligiendoDisco) return null;
-  let h = 0; for (const c of dia) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  let todos = discos(radio);
+  if (!todos.length) todos = discos2(radio);
+  if (!todos.length || !B.fs || !B.usuario.uid || eligiendoDisco[radio]) return null;
+  let h = 0; for (const c of dia + radio) h = (h * 31 + c.charCodeAt(0)) >>> 0;
   const e = todos[h % todos.length][0];
-  eligiendoDisco = true;
+  eligiendoDisco[radio] = true;
   B.fs.runTransaction(B.db, async (tx) => {
-    const ref = B.fs.doc(B.db, "config", "disco");
+    const ref = B.fs.doc(B.db, "config", "disco-" + radio);
     const act = (await tx.get(ref)).data();
     if (act && act.fecha === dia && !forzar) return;
-    tx.set(ref, { fecha: dia, banda: e.banda, album: e.album, anio: e.anio || null, radio: e.radio });
-  }).catch((err) => console.error(err)).finally(() => { eligiendoDisco = false; });
+    tx.set(ref, { fecha: dia, banda: e.banda, album: e.album, anio: e.anio || null, radio });
+  }).catch((err) => console.error(err)).finally(() => { eligiendoDisco[radio] = false; });
   return null;
+}
+// Si una radio todavía tiene pocos MP3, alcanza con discos de 2 temas.
+function discos2(radio) {
+  const g = {};
+  for (const s of todasLasCanciones().filter((x) => x.mp3 && x.estado === "aprobada" && x.spotify && x.radio === radio && x.album)) { const k = s.banda + "||" + s.album; (g[k] ||= []).push(s); }
+  return Object.values(g).filter((l) => l.length >= 2);
 }
 const infoDisco = {}, pidiendoDisco = {};
 function datosDelDisco(d) {
@@ -2048,20 +2077,23 @@ async function datosDelDisco2(d) {
   return info;
 }
 async function pintarDisco() {
-  const d = discoDelDia(null); if (!d) return;
-  $("disco-dia").hidden = false;
-  $("disco-nombre").textContent = d.album;
-  $("disco-nota").textContent = d.temas.length ? `Hoy suena más seguido en ${nombreRadio(d.radio)}. Los temas en negrita están en la radio.` : "";
-  const info = await datosDelDisco(d);
-  $("disco-banda").textContent = d.banda + ((d.anio || info.anio) ? ` · ${d.anio || info.anio}` : "");
-  const resena = info.resena || d.temas.map((t) => t.curio).find(Boolean) || "";
-  $("disco-dato").textContent = resena; $("disco-dato").hidden = !resena;
-  if (info.tapa && $("disco-tapa").src !== info.tapa) { $("disco-tapa").src = info.tapa; $("disco-tapa").hidden = false; $("disco-tapa").alt = "Tapa de " + d.album; }
-  const lista = info.temas.length ? info.temas : d.temas.map((t) => ({ titulo: t.titulo, dur: t.duracion }));
-  $("disco-ver").textContent = `Ver canciones (${lista.length})`;
-  const ol = $("disco-temas"); ol.textContent = "";
-  const enRadio = (t) => d.temas.find((x) => normB(limpiarTitulo(x.titulo)).includes(normB(limpiarTitulo(t.titulo))) || normB(limpiarTitulo(t.titulo)).includes(normB(limpiarTitulo(x.titulo))));
-  lista.forEach((t) => { const r = enRadio(t); ol.append(el("li", { className: (r ? "en-radio" : "") + (r && S.actual && S.actual.cid === r.id ? " suena" : ""), textContent: t.titulo + (t.dur ? ` · ${fmt(t.dur)}` : "") })); });
+  for (const r of C.radios) {
+    const d = discoDelDia(r.id), $$ = (k) => $(`disco-${k}-${r.id}`);
+    if (!d) continue;
+    $$("dia").hidden = false;
+    $$("nombre").textContent = d.album;
+    $$("nota").textContent = d.temas.length ? `Hoy suena más seguido. Los temas en negrita están en la radio.` : "";
+    const info = await datosDelDisco(d);
+    $$("banda").textContent = d.banda + ((d.anio || info.anio) ? ` · ${d.anio || info.anio}` : "");
+    const resena = info.resena || d.temas.map((t) => t.curio).find(Boolean) || "";
+    $$("dato").textContent = resena; $$("dato").hidden = !resena;
+    if (info.tapa && $$("tapa").src !== info.tapa) { $$("tapa").src = info.tapa; $$("tapa").hidden = false; $$("tapa").alt = "Tapa de " + d.album; }
+    const lista = info.temas.length ? info.temas : d.temas.map((t) => ({ titulo: t.titulo, dur: t.duracion }));
+    $$("ver").textContent = `Ver canciones (${lista.length})`;
+    const ol = $$("temas"); ol.textContent = "";
+    const enRadio = (t) => d.temas.find((x) => normB(limpiarTitulo(x.titulo)).includes(normB(limpiarTitulo(t.titulo))) || normB(limpiarTitulo(t.titulo)).includes(normB(limpiarTitulo(x.titulo))));
+    lista.forEach((t) => { const x = enRadio(t); ol.append(el("li", { className: (x ? "en-radio" : "") + (x && S.actual && S.actual.cid === x.id ? " suena" : ""), textContent: tituloLimpio(t.titulo) + (t.dur ? ` · ${fmt(t.dur)}` : "") })); });
+  }
 }
 setInterval(pintarDisco, 20e3); setTimeout(pintarDisco, 3000);
 
@@ -2079,19 +2111,129 @@ function elegirVoz() {
   return vs[0] || null;
 }
 if ("speechSynthesis" in window) { vozElegida = elegirVoz(); speechSynthesis.onvoiceschanged = () => { vozElegida = elegirVoz(); }; }
-function textoLocutor(tema = null) {
+// El locutor arma el anuncio en partes: lo que está en inglés (títulos y bandas de afuera) se lee con voz en inglés.
+const pareceIngles = (t) => !/[áéíóúñ¿¡ü]/i.test(t) && /\b(the|you|love|my|me|on|of|in|it|and|for|your|don't|i'm|is|be|all|we|baby|night|time|heart|girl|man|world|life|go|get|day|rock|roll|blues|street|road|dream|fire|light|sweet)\b/i.test(t);
+const enIngles = (t, s) => s?.radio === "internacional" ? !/[áéíóúñ¿¡]/i.test(t) : pareceIngles(t);
+function partesLocutor(tema = null, extra = null) {
   const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
   const h = ahora.getHours(), m = ahora.getMinutes();
   const hora = m === 0 ? `Son las ${h} en punto` : `Son las ${h} y ${m}`;
+  const p = [];
   let t = `${hora} de este ${DIAS[ahora.getDay()]} en Buenos Aires`;
   if (S.temp != null) t += `, con ${S.temp} grados y ${S.cielo || "tiempo tranquilo"}`;
   t += `. Estás escuchando ${nombreRadio(S.radio)}, en Radio Galo y Nake.`;
+  p.push({ t });
+  if (extra) p.push(...extra);
   const base = tema || S.actual;
   const s = base && (datosCancion(base.cid) || base);
-  if (s) t += ` ${tema ? "Se viene" : "Ahora suena"} ${s.titulo}, de ${s.banda}.`;
-  const datos = s ? FRASES.filter((f) => normB(f.b) === normB(String(s.banda).split(",")[0])) : [];
-  if (datos.length && Math.random() < 0.6) t += " Un dato: " + datos[Math.floor(Math.random() * datos.length)].d;
-  return t;
+  if (s) {
+    const titulo = tituloLimpio(s.titulo), banda = String(s.banda || "").split(",")[0];
+    p.push({ t: tema ? "Se viene" : "Ahora suena" });
+    p.push({ t: titulo, en: enIngles(titulo, s) });
+    p.push({ t: "de" });
+    p.push({ t: banda + ".", en: enIngles(banda, s) });
+  }
+  return p;
+}
+function textoLocutor(tema = null) { return partesLocutor(tema).map((x) => x.t).join(" "); }
+let vozIngles = null;
+function elegirVozIngles() {
+  const vs = speechSynthesis.getVoices().filter((v) => /^en/i.test(v.lang));
+  const buena = (v) => /natural|neural|online|google|samantha|daniel|serena|aria|guy/i.test(v.name);
+  return vs.find((v) => /en-US/i.test(v.lang) && buena(v)) || vs.find((v) => /en-GB/i.test(v.lang) && buena(v)) || vs.find((v) => /en-US/i.test(v.lang)) || vs[0] || null;
+}
+if ("speechSynthesis" in window) { vozIngles = elegirVozIngles(); speechSynthesis.addEventListener?.("voiceschanged", () => { vozIngles = elegirVozIngles(); }); }
+// Lee las partes una tras otra, con la música de fondo bajita mientras habla.
+function decirPartes(partes) {
+  if (!("speechSynthesis" in window) || !partes.length) return;
+  partes.forEach((x, i) => {
+    const u = new SpeechSynthesisUtterance(x.t);
+    const v = x.en && vozIngles ? vozIngles : vozElegida;
+    u.lang = v?.lang || (x.en ? "en-US" : "es-AR"); if (v) u.voice = v;
+    u.rate = x.en ? 0.95 : 1.0; u.pitch = 0.95;
+    if (i === 0) u.onstart = () => bajarMusica(1, MUSICA_DE_FONDO, 800);
+    if (i === partes.length - 1) u.onend = u.onerror = () => bajarMusica(S.duck ?? MUSICA_DE_FONDO, 1, 1500);
+    speechSynthesis.speak(u);
+  });
+}
+
+// ------------------------------------------------------------ Noticias y datos del momento para el locutor
+// noticias.json lo arma solo GitHub (cada hora) con titulares de Google Noticias sobre los temas que nos interesan.
+S.noticias = []; S.futbol = []; S.lluvia = null; const leidas = new Set();
+async function cargarNoticias() {
+  try { const j = await (await fetch("noticias.json?v=" + Math.floor(Date.now() / 6e5))).json(); S.noticias = (j.items || []).filter((n) => Date.now() - (n.t || 0) < 36 * 3600e3); } catch {}
+}
+// Resultados de los 5 grandes (Boca, River, Racing, Independiente, San Lorenzo) de hoy y ayer.
+const GRANDES = ["River Plate", "Boca Juniors", "Racing Club", "Independiente", "San Lorenzo"];
+async function cargarFutbol() {
+  const res = [];
+  for (const dias of [0, 1]) {
+    const f = new Date(Date.now() - dias * 864e5).toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" }).replace(/-/g, "");
+    try {
+      const j = await (await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=${f}`)).json();
+      for (const e of j.events || []) {
+        const c = e.competitions?.[0]; if (!c || !e.status?.type?.completed) continue;
+        const [x, y] = c.competitors;
+        const nx = x.team.shortDisplayName || x.team.displayName, ny = y.team.shortDisplayName || y.team.displayName;
+        const gx = +x.score, gy = +y.score;
+        const grande = GRANDES.find((g) => (x.team.displayName + " " + y.team.displayName).includes(g)); if (!grande) continue;
+        const cuando = dias === 0 ? "Hoy" : "Ayer";
+        const t = gx === gy ? `${cuando} ${nx} y ${ny} empataron ${gx} a ${gy}.` : `${cuando} ${gx > gy ? nx : ny} le ganó ${Math.max(gx, gy)} a ${Math.min(gx, gy)} a ${gx > gy ? ny : nx}.`;
+        res.push({ t: "En el fútbol: " + t, clave: "fut-" + e.id });
+      }
+    } catch {}
+  }
+  S.futbol = res;
+}
+// ¿Llueve en las próximas horas?
+async function cargarLluvia() {
+  try {
+    const j = await (await fetch("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&hourly=precipitation_probability&forecast_hours=14&timezone=America%2FArgentina%2FBuenos_Aires")).json();
+    const hs = j.hourly.time.map((t, i) => [t, j.hourly.precipitation_probability[i]]).filter(([, p]) => p >= 60);
+    if (!hs.length) { S.lluvia = null; return; }
+    const hora = +hs[0][0].slice(11, 13);
+    const momento = hora < 12 ? "a la mañana" : hora < 20 ? "a la tarde" : "a la noche";
+    S.lluvia = { t: `Ojo, que se pronostican lluvias ${momento}, a eso de las ${hora}. Si salís, llevá paraguas.`, clave: "lluvia-" + hs[0][0].slice(0, 10) + momento };
+  } catch {}
+}
+// Edad del artista o años de la banda (Wikidata).
+const edades = {};
+async function datoEdad(banda) {
+  const k = normB(banda); if (k in edades) return edades[k];
+  edades[k] = null;
+  try {
+    const b = await (await fetch("https://www.wikidata.org/w/api.php?" + new URLSearchParams({ action: "wbsearchentities", search: banda, language: "es", format: "json", origin: "*", limit: "3" }))).json();
+    const id = b.search?.[0]?.id; if (!id) return null;
+    const e = (await (await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+    const fecha = (p) => e.claims?.[p]?.[0]?.mainsnak?.datavalue?.value?.time;
+    const anios = (t) => { const d = new Date(t.replace(/^\+/, "").slice(0, 10)); return Math.floor((Date.now() - d) / (365.25 * 864e5)); };
+    const esPersona = e.claims?.P31?.some((c) => c.mainsnak?.datavalue?.value?.id === "Q5");
+    if (esPersona && fecha("P569")) {
+      if (fecha("P570")) return null; // no decimos la edad de artistas que ya murieron
+      const nac = fecha("P569").replace(/^\+/, "").slice(5, 10), hoy = new Date().toLocaleDateString("en-CA", { timeZone: "America/Argentina/Buenos_Aires" }).slice(5);
+      edades[k] = { t: nac === hoy ? `Y hoy ${banda} cumple ${anios(fecha("P569"))} años. ¡Feliz cumpleaños!` : `Un dato: ${banda} tiene ${anios(fecha("P569"))} años.`, clave: "edad-" + k };
+    } else if (fecha("P571")) edades[k] = { t: `Un dato: ${banda} se formó hace ${anios(fecha("P571"))} años.`, clave: "edad-" + k };
+  } catch {}
+  return edades[k];
+}
+cargarNoticias(); cargarFutbol(); cargarLluvia();
+setInterval(cargarNoticias, 15 * 60e3); setInterval(cargarFutbol, 30 * 60e3); setInterval(cargarLluvia, 30 * 60e3);
+// Elige un "segmento" para sumar al anuncio: lluvia (si hay), fútbol, una noticia, la edad del artista o un dato de la banda.
+async function segmentoLocutor(tema) {
+  const base = tema || S.actual, s = base && (datosCancion(base.cid) || base);
+  const banda = s ? String(s.banda || "").split(",")[0] : "";
+  const opciones = [];
+  if (S.lluvia && !leidas.has(S.lluvia.clave)) opciones.push(S.lluvia, S.lluvia); // más chances
+  S.futbol.filter((f) => !leidas.has(f.clave)).forEach((f) => opciones.push(f));
+  const nuevas = S.noticias.filter((n) => !leidas.has(n.titulo));
+  if (nuevas.length) { const n = nuevas[Math.floor(Math.random() * nuevas.length)]; opciones.push({ t: `Noticias${n.tema ? ", " + n.tema : ""}: ${n.titulo}.`, clave: n.titulo }, { t: `Noticias${n.tema ? ", " + n.tema : ""}: ${n.titulo}.`, clave: n.titulo }); }
+  if (banda) { const e = await datoEdad(banda); if (e && !leidas.has(e.clave)) opciones.push(e); }
+  const datos = banda ? FRASES.filter((f) => normB(f.b) === normB(banda)) : [];
+  if (datos.length) { const f = datos[Math.floor(Math.random() * datos.length)]; opciones.push({ t: "Un dato: " + f.d, clave: "dato-" + f.d }); }
+  if (!opciones.length || Math.random() < 0.15) return null;
+  const o = opciones[Math.floor(Math.random() * opciones.length)];
+  leidas.add(o.clave);
+  return [{ t: o.t }];
 }
 let temasDesdeLocutor = 0, ultimoTema = null, turnoGrabacion = false;
 S.voces = [];
@@ -2257,14 +2399,9 @@ $("gen-probar").onclick = async () => { $("gen-estado").textContent = "Probando�
 
 async function locutar(tema = null) {
   if (!S.encendida || S.enVivo || S.hablando || ("speechSynthesis" in window && speechSynthesis.speaking)) return;
-  // Voz del navegador (la original), "en off" con la música de fondo.
+  // Voz del navegador (la original), "en off" con la música de fondo; títulos en inglés con voz en inglés.
   if (!("speechSynthesis" in window)) return;
-  const u = new SpeechSynthesisUtterance(textoLocutor(tema));
-  u.lang = vozElegida?.lang || "es-AR"; if (vozElegida) u.voice = vozElegida;
-  u.rate = 1.0; u.pitch = 0.95;
-  u.onstart = () => bajarMusica(1, MUSICA_DE_FONDO, 800);
-  u.onend = u.onerror = () => bajarMusica(S.duck ?? MUSICA_DE_FONDO, 1, 1500);
-  speechSynthesis.speak(u);
+  decirPartes(partesLocutor(tema, await segmentoLocutor(tema)));
 }
 setInterval(() => {
   const it = S.actual; if (!it || !S.encendida) return;
@@ -2276,7 +2413,7 @@ setInterval(() => {
   if (ded && !S.dedicaLeida && !S.enVivo && pos > XF + 1 && pos < XF + 30 && !("speechSynthesis" in window && speechSynthesis.speaking)) {
     S.dedicaLeida = true; temasDesdeLocutor = 0;
     const s = datosCancion(it.cid);
-    decir(`Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena ${s.titulo}, de ${s.banda}, en Radio Galo y Nake.`);
+    decirPartes([{ t: `Este tema va dedicado a ${ded.a}, de parte de ${ded.de}. Suena` }, { t: tituloLimpio(s.titulo), en: enIngles(tituloLimpio(s.titulo), s) }, { t: "de" }, { t: String(s.banda).split(",")[0] + ",", en: enIngles(String(s.banda), s) }, { t: "en Radio Galo y Nake." }]);
     return;
   }
   // Cada 2 o 3 temas habla "en off" en el cambio de canción: arranca unos segundos antes del final,
