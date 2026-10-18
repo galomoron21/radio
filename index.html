@@ -139,6 +139,8 @@ window.RADIO_CONFIG = {
   .letra summary { cursor: pointer; color: var(--accent); font-weight: 700; font-size: .92rem; }
   .letra pre { font: .95rem/1.6 var(--font-body); white-space: pre-wrap; margin: 10px 0 0; max-height: 360px; overflow-y: auto; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
   .barra { display: grid; gap: 6px; }
+  .corregir { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; margin-top: 10px; padding: 12px; border: 1px solid var(--live); border-radius: 8px; }
+  .corregir label { display: grid; gap: 4px; font-size: .82rem; color: var(--muted); }
   .mover { display: grid; gap: 4px; margin-top: 8px; font-size: .8rem; color: var(--muted); }
   .mover input { width: 100%; accent-color: var(--live); }
   .pista { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
@@ -291,6 +293,20 @@ window.RADIO_CONFIG = {
         <p class="dedicatoria" id="dedicatoria" hidden></p>
         <p class="curiosidad" id="curiosidad" hidden></p>
         <dl class="ficha" id="ficha"></dl>
+        <button class="icono" type="button" id="corregir-btn" hidden style="margin-top:10px">✏️ Corregir este tema</button>
+        <form class="corregir" id="corregir" hidden>
+          <label>Canción<input id="c-titulo" maxlength="120" required></label>
+          <label>Banda o artista<input id="c-banda" maxlength="120" required></label>
+          <label>Disco<input id="c-album" maxlength="160"></label>
+          <label>Año<input id="c-anio" inputmode="numeric" maxlength="4"></label>
+          <label>Radio<select id="c-radio"></select></label>
+          <div class="acciones-vivo" style="grid-column:1/-1">
+            <button class="primario" type="submit">Guardar</button>
+            <button class="icono" type="button" id="c-tapa">🔎 Buscar tapa y disco</button>
+            <button class="icono" type="button" id="c-cancelar">Cancelar</button>
+            <span class="nota-chica" id="c-estado"></span>
+          </div>
+        </form>
         <details class="letra" id="letra" hidden><summary>Ver la letra</summary><pre id="letra-texto"></pre></details>
       </div>
       <div class="barra">
@@ -475,7 +491,8 @@ window.RADIO_CONFIG = {
     </div>
     <div>
       <h2>Canciones al aire</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Toquen una para corregir sus datos o sacarla de la radio.</p>
+      <p class="nota-chica" style="margin:0 0 10px">Busquen un tema y tóquenlo para corregir sus datos (nombre, banda, disco, año) o sacarlo de la radio. También pueden corregir el que está sonando con "✏️ Corregir este tema", abajo de la ficha.</p>
+      <input type="search" id="buscar-aire" placeholder="Buscar en todas las canciones (tema, banda o disco)…" style="width:100%;margin-bottom:10px">
       <div id="al-aire"></div>
     </div>
   </section>
@@ -1190,12 +1207,13 @@ function pintarAdmin() {
   if (!$(`m-${nuevoMp3.id}-titulo`)) { $("nuevo-mp3").textContent = ""; $("nuevo-mp3").append(ficha(nuevoMp3, "nuevo-mp3")); }
 
   const aire = $("al-aire"); aire.textContent = "";
-  const lista = S.solicitudes.filter((s) => s.estado === "aprobada").sort((a, b) => (a.radio + a.titulo).localeCompare(b.radio + b.titulo));
+  const q = normB($("buscar-aire")?.value || "");
+  const lista = S.solicitudes.filter((s) => s.estado === "aprobada" && (!q || normB(tema(s) + " " + (s.album || "")).includes(q))).sort((a, b) => (a.radio + tituloLimpio(a.titulo)).localeCompare(b.radio + tituloLimpio(b.titulo)));
   if (!lista.length) aire.append(el("p", { className: "vacio", textContent: "Todavía no hay canciones aprobadas." }));
   for (const r of C.radios) {
     const deEsta = lista.filter((s) => s.radio === r.id);
     if (!deEsta.length) continue;
-    const g = el("details", { className: "grupo-aire", open: abiertos.has("grupo-" + r.id) },
+    const g = el("details", { className: "grupo-aire", open: !!q || abiertos.has("grupo-" + r.id) },
       el("summary", { textContent: `${r.nombre} (${deEsta.length})` }));
     g.dataset.id = "grupo-" + r.id;
     for (const s of deEsta) {
@@ -1209,6 +1227,8 @@ function pintarAdmin() {
   pintarFila();
 }
 
+let buscarAireT = null;
+$("buscar-aire").addEventListener("input", () => { clearTimeout(buscarAireT); buscarAireT = setTimeout(pintarAdmin, 250); });
 let arrastre = null;
 function pintarFila() {
   $("saltar").hidden = !esAdmin() || !S.actual;
@@ -1624,6 +1644,39 @@ $("lote-cargar").onclick = async () => {
   }
 };
 
+// Corrección rápida del tema que está sonando
+$("c-radio").append(...C.radios.map((r) => el("option", { value: r.id, textContent: r.nombre })));
+function pintarCorregir() {
+  const s = S.actual && datosCancion(S.actual.cid);
+  $("corregir-btn").hidden = !esAdmin() || !s || String(s.id).startsWith("yt-") || !$("corregir").hidden;
+}
+setInterval(pintarCorregir, 2000);
+let corrigiendo = null, tapaNueva = null;
+$("corregir-btn").onclick = () => {
+  const s = S.actual && datosCancion(S.actual.cid); if (!s) return;
+  corrigiendo = s; tapaNueva = null;
+  $("c-titulo").value = tituloLimpio(s.titulo); $("c-banda").value = s.banda || ""; $("c-album").value = s.album || ""; $("c-anio").value = s.anio || ""; $("c-radio").value = s.radio;
+  $("c-estado").textContent = `Archivo: ${s.mp3 || "—"}`;
+  $("corregir").hidden = false; $("corregir-btn").hidden = true; $("c-titulo").focus();
+};
+$("c-cancelar").onclick = () => { $("corregir").hidden = true; corrigiendo = null; pintarCorregir(); };
+$("c-tapa").onclick = async () => {
+  $("c-estado").textContent = "Buscando…";
+  try {
+    const r = await buscarItunes($("c-titulo").value, $("c-banda").value);
+    if (r) { tapaNueva = r.portada || null; if (r.album) $("c-album").value = r.album; if (r.anio) $("c-anio").value = r.anio; $("c-estado").textContent = `Encontré: ${r.album || "?"} (${r.anio || "?"})${r.portada ? " con tapa" : ""}. Si está bien, toquen Guardar.`; }
+    else $("c-estado").textContent = "No encontré nada. Revisen cómo está escrito.";
+  } catch { $("c-estado").textContent = "No se pudo buscar ahora. Prueben en un rato."; }
+};
+$("corregir").onsubmit = async (e) => {
+  e.preventDefault(); if (!corrigiendo) return;
+  const cambios = { titulo: $("c-titulo").value.trim(), banda: $("c-banda").value.trim(), album: $("c-album").value.trim(), anio: parseInt($("c-anio").value, 10) || null, radio: $("c-radio").value, revisado: true, revisado2: true };
+  if (tapaNueva) cambios.portada = tapaNueva;
+  else if (normB(cambios.album) !== normB(corrigiendo.album || "") || normB(cambios.banda) !== normB(corrigiendo.banda || "")) cambios.portada = ""; // se busca la tapa nueva sola
+  try { await B.actualizar(corrigiendo.id, cambios); tapas.delete(corrigiendo.id); $("corregir").hidden = true; corrigiendo = null; pintarCorregir(); }
+  catch (err) { console.error(err); $("c-estado").textContent = "No se pudo guardar."; }
+};
+
 // Barra para mover la canción
 let moviendo = false;
 $("mover-pos").addEventListener("input", () => { moviendo = true; $("t-actual").textContent = fmt(+$("mover-pos").value); });
@@ -1642,7 +1695,9 @@ setInterval(() => {
 // ------------------------------------------------------------ Identificar tema y banda desde el nombre del archivo
 const BANDAS = () => new Set(S.catalogo.map((c) => normB(String(c.banda).split(",")[0])));
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
+let usoMB = false;
 async function mbBuscar(texto) {
+  usoMB = true;
   const r = await fetch("https://musicbrainz.org/ws/2/recording?" + new URLSearchParams({ query: texto, fmt: "json", limit: "8" }), { headers: { Accept: "application/json" } });
   if (!r.ok) throw new Error("MusicBrainz " + r.status);
   return (await r.json()).recordings || [];
@@ -1667,7 +1722,24 @@ async function identificar(s) {
       return { titulo: tituloLimpio(r.title), banda: r["artist-credit"].map((a) => a.name + (a.joinphrase || "")).join("").trim(), album: rel?.title || s.album || "", anio: parseInt(String(rel?.date || r["first-release-date"] || "").slice(0, 4), 10) || s.anio || null, fuente: "musicbrainz" };
     }
   } catch (e) { console.warn(e); }
-  // 3) Sin datos: si una de las partes es una banda conocida, la otra es el tema.
+  // 3) El archivo no dice la banda: se busca por título y se confirma con la duración del MP3.
+  const dur = s.duracion || 0;
+  const titulos = [crudo, ...partes].map((x) => normB(x)).filter((x) => x.length > 1);
+  const porTitulo = S.catalogo.filter((c) => titulos.includes(normB(tituloLimpio(c.titulo))));
+  const cerca = porTitulo.filter((c) => dur && c.duracion && Math.abs(c.duracion - dur) <= 8).sort((a, b) => Math.abs(a.duracion - dur) - Math.abs(b.duracion - dur));
+  const c = cerca[0] || (porTitulo.length === 1 ? porTitulo[0] : null);
+  if (c) return { titulo: tituloLimpio(c.titulo), banda: c.banda, album: c.album || "", anio: c.anio || null, spotify: c.spotify || "", curio: c.curio || "", pop: c.pop || 4, fuente: "lista-titulo" };
+  if (dur) {
+    try {
+      const recs = await mbBuscar(`recording:"${crudo.replace(/"/g, "")}"`);
+      const ok = recs.filter((r) => titulos.includes(normB(tituloLimpio(r.title))) && r.length && Math.abs(r.length / 1000 - dur) <= 4).sort((a, b) => (b.score || 0) - (a.score || 0));
+      if (ok[0]) {
+        const r = ok[0], rel = (r.releases || []).find((x) => x["release-group"]?.["primary-type"] === "Album") || (r.releases || [])[0];
+        return { titulo: tituloLimpio(r.title), banda: r["artist-credit"].map((a) => a.name + (a.joinphrase || "")).join("").trim(), album: rel?.title || "", anio: parseInt(String(rel?.date || r["first-release-date"] || "").slice(0, 4), 10) || null, fuente: "musicbrainz-duracion" };
+      }
+    } catch (e) { console.warn(e); }
+  }
+  // 4) Sin datos: si una de las partes es una banda conocida, la otra es el tema.
   const conocidas = BANDAS();
   if (partes.length >= 2) {
     const ib = partes.findIndex((p) => conocidas.has(normB(p)));
@@ -1677,11 +1749,12 @@ async function identificar(s) {
 }
 $("arreglar-btn").onclick = async () => {
   // Los ya revisados se saltean, así si se corta se puede seguir donde quedó.
-  const lista = S.solicitudes.filter((x) => x.mp3 && x.estado === "aprobada" && !x.revisado);
+  const lista = S.solicitudes.filter((x) => x.mp3 && x.estado === "aprobada" && !x.revisado2);
   let n = 0, cambiados = 0;
   $("arreglar-btn").disabled = true;
   for (const s of lista) {
     n++; $("arreglar-estado").textContent = `Revisando ${n} de ${lista.length}… (${cambiados} corregidos)`;
+    usoMB = false;
     try {
       const d = await identificar(s);
       if (d && (normB(d.titulo) !== normB(s.titulo) || normB(d.banda) !== normB(s.banda) || (d.album && d.album !== s.album))) {
@@ -1689,10 +1762,10 @@ $("arreglar-btn").onclick = async () => {
         if (d.album) cambios.album = d.album; if (d.anio) cambios.anio = d.anio;
         for (const k of ["spotify", "curio", "pop"]) if (d[k]) cambios[k] = d[k];
         if (normB(d.album || "") !== normB(s.album || "")) cambios.portada = ""; // la tapa vieja era de otro disco
-        await B.actualizar(s.id, { ...cambios, revisado: true }); cambiados++;
-      } else await B.actualizar(s.id, { revisado: true });
+        await B.actualizar(s.id, { ...cambios, revisado: true, revisado2: true }); cambiados++;
+      } else await B.actualizar(s.id, { revisado: true, revisado2: true });
     } catch (e) { console.error(e); }
-    await esperar(1100); // MusicBrainz pide como máximo 1 consulta por segundo
+    if (usoMB) await esperar(1100); // MusicBrainz pide como máximo 1 consulta por segundo
   }
   $("arreglar-estado").textContent = `Listo: revisé ${lista.length} temas y corregí ${cambiados}. (Los temas nuevos que carguen se pueden revisar tocando de nuevo.)`;
   $("arreglar-btn").disabled = false;
