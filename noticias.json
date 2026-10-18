@@ -1,6 +1,42 @@
 {
- "t": 1792356293659,
+ "t": 1792365229492,
  "items": [
+  {
+   "tema": "fútbol",
+   "titulo": "¿Juega Martínez Quarta? Las alineaciones de Belgrano vs. River Plate por el Clausura 2026",
+   "fuente": "Bolavip México",
+   "t": 1792362107000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Gobierno anunció nuevas reformas para impulsar inversiones y exportaciones",
+   "fuente": "La Brújula 24",
+   "t": 1792359615000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Qué canal transmite Belgrano vs. River por el Torneo Clausura: hora, TV y cómo verlo en VIVO",
+   "fuente": "DeporTV",
+   "t": 1792356780000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Ver EN VIVO Estudiantes vs. San Lorenzo: dónde seguirlo por TV y ONLINE",
+   "fuente": "TyC Sports",
+   "t": 1792356295000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Concurso Ricardo Miró abre sus plicas y anuncia a los ganadores",
+   "fuente": "El Siglo Panamá",
+   "t": 1792356226000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El uno por uno del empate de Racing con Independiente",
+   "fuente": "Olé",
+   "t": 1792354712000
+  },
   {
    "tema": "fútbol",
    "titulo": "Lo que pudo haber sido...",
@@ -9,9 +45,9 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "¿Cómo ver el partido de Belgrano vs River Plate fuera de Argentina?",
-   "fuente": "365Scores",
-   "t": 1792354500000
+   "titulo": "El uno por uno de Independiente ante Racing",
+   "fuente": "Olé",
+   "t": 1792354547000
   },
   {
    "tema": "política",
@@ -21,33 +57,21 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Historial de Racing vs. Independiente: quién ganó más y todos los enfrentamientos",
-   "fuente": "TyC Sports",
-   "t": 1792354170000
+   "titulo": "No hubo dueño en el clásico de Avellaneda: Racing e Independiente empataron en el Cilindro",
+   "fuente": "DeporTV",
+   "t": 1792351800000
   },
   {
    "tema": "fútbol",
-   "titulo": "Racing e Independiente empataron 1-1 en el clásico de Avellaneda",
-   "fuente": "Filo News",
-   "t": 1792353600000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Estudiantes vs. San Lorenzo, EN VIVO: dónde ver por TV y cómo seguir ONLINE",
+   "titulo": "¿Y Paredes? Los convocados de Boca para la revancha con Vasco da Gama por la Sudamericana",
    "fuente": "TyC Sports",
-   "t": 1792349802000
+   "t": 1792350636000
   },
   {
    "tema": "fútbol",
    "titulo": "La particular mirada de un ídolo de Boca sobre Leonel Flores: \"A veces exagera...\"",
    "fuente": "Olé",
    "t": 1792348921000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Alineaciones de Belgrano y River para el duelo de la Fecha 13 del Torneo Clausura 2026",
-   "fuente": "Bolavip Argentina",
-   "t": 1792345718000
   },
   {
    "tema": "política",
@@ -62,22 +86,10 @@
    "t": 1792344789000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Boca renovó el contrato de Milton Delgado",
-   "fuente": "TyC Sports",
-   "t": 1792343860000
-  },
-  {
    "tema": "recitales",
    "titulo": "Arrancó la previa del Primavera Sound Buenos Aires 2026: encuentro de artistas, “Primavera en la Ciudad” y todos los detalles del festival",
    "fuente": "Pronto",
    "t": 1792339560000
-  },
-  {
-   "tema": "política",
-   "titulo": "Otra inversión extranjera apunta a Los Glaciares y fue declarada de interés por el Gobierno Nacional",
-   "fuente": "Ahora Calafate",
-   "t": 1792339200000
   },
   {
    "tema": "música",
@@ -92,12 +104,6 @@
    "t": 1792337400000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Alineaciones de Racing e Independiente para el duelo de la fecha 13 del Torneo Clausura",
-   "fuente": "Bolavip Argentina",
-   "t": 1792334919000
-  },
-  {
    "tema": "música",
    "titulo": "El rock nacional tal vez esté preparando un show en la eternidad",
    "fuente": "El Tribuno",
@@ -106,7 +112,7 @@
   {
    "tema": "economía",
    "titulo": "Dólar hoy en Venezuela: precio y cotización de la divisa este domingo 18 de octubre de 2026",
-   "fuente": "Clarín",
+   "fuente": "Clarin.com",
    "t": 1792320015000
   },
   {
@@ -117,9 +123,9 @@
   },
   {
    "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
+   "titulo": "Clima hoy en Berazategui, Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
    "fuente": "Clarin.com",
-   "t": 1792294816000
+   "t": 1792293019000
   },
   {
    "tema": "clima",
