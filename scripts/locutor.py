@@ -31,13 +31,22 @@ def valor(v):  # Firestore REST -> Python
     return None
 
 def canciones():
-    meta = bajar(FS + "mp3-meta")
-    n = valor(meta["fields"]["n"])
-    todas = []
-    for i in range(n):
-        d = bajar(FS + f"mp3-{i}")
-        todas += valor(d["fields"]["items"])
-    return todas
+    # Si Firebase no responde (cupo diario agotado), se usa la copia de la vez anterior.
+    copia = os.path.join(CARPETA, "catalogo.json")
+    try:
+        meta = bajar(FS + "mp3-meta")
+        n = valor(meta["fields"]["n"])
+        todas = []
+        for i in range(n):
+            d = bajar(FS + f"mp3-{i}")
+            todas += valor(d["fields"]["items"])
+        if todas:
+            os.makedirs(CARPETA, exist_ok=True)
+            with open(copia, "w", encoding="utf-8") as f: json.dump(todas, f, ensure_ascii=False)
+        return todas
+    except Exception as e:
+        print("Firebase no respondió, uso la copia del catálogo:", e)
+        return json.load(open(copia, encoding="utf-8"))
 
 RUIDO = re.compile(r"\s*[\(\[][^\)\]]*(remaster|official|oficial|video|audio|lyric|letra|hd|hq|4k|full|version|versión|mono|stereo|edit|mix|live at|bonus|deluxe|explicit)[^\)\]]*[\)\]]", re.I)
 def limpio(t):
@@ -70,14 +79,14 @@ ahora = datetime.datetime.now(BA)
 frases["radio-nacional"] = "Estás escuchando Rock Nacional, en Radio Galo y Nake."
 frases["radio-internacional"] = "Estás escuchando Rock Internacional, en Radio Galo y Nake."
 
-# Hora y clima: cada 15 minutos para las próximas 3 horas
+# Hora y clima: cada 15 minutos para las próximas 6 horas (GitHub a veces se atrasa con la acción horaria)
 try:
     w = bajar("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&hourly=temperature_2m,weather_code,precipitation_probability&forecast_hours=18&timezone=America%2FArgentina%2FBuenos_Aires")
     clima = {t[:13]: (round(tt), CIELOS.get(c, "tiempo tranquilo"), p) for t, tt, c, p in zip(w["hourly"]["time"], w["hourly"]["temperature_2m"], w["hourly"]["weather_code"], w["hourly"]["precipitation_probability"])}
 except Exception as e:
     print("Sin clima", e); clima = {}
 inicio = ahora.replace(minute=(ahora.minute // 15) * 15, second=0, microsecond=0)
-for k in range(13):
+for k in range(25):
     t = inicio + datetime.timedelta(minutes=15 * k)
     texto = f"{hora_texto(t.hour, t.minute)} de este {DIAS[t.weekday()]} en Buenos Aires."
     c = clima.get(t.strftime("%Y-%m-%dT%H"))
