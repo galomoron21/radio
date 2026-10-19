@@ -1,68 +1,250 @@
 {
- "t": 1792424239560,
+ "t": 1792443852987,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Procesión del Señor de los Milagros EN VIVO: ruta y ubicación del Cristo Moreno en su tercer recorrido este lunes 19 de octubre",
-   "bajada": "El itinerario contempla el paso por importantes calles y avenidas del Cercado de Lima y La Victoria, así como paradas frente a hospitales que forman parte de la ruta del Cristo Moreno.",
+   "titulo": "El papa León XIV se dirige al Perú vía mail tras dejar el hospital Gemelli, donde fue operado: “Un fuerte abrazo para todos”",
+   "bajada": "El pontífice respondió un mensaje del cardenal Carlos Castillo, arzobispo de Lima, y envió bendiciones a los devotos del Señor de los Milagros.",
    "fuente": "infobae.com",
-   "t": 1792424147000
+   "t": 1792443593000
   },
   {
    "tema": "actualidad",
-   "titulo": "Netflix retransmitirá La Velada del Año de Ibai Llanos durante los próximos tres años",
-   "bajada": "El evento de boxeo se emitirá en exclusiva y en directo en la plataforma.",
+   "titulo": "Pemex reporta incendio en la plataforma Abkatún-H y activa protocolo de seguridad",
+   "bajada": "Equipos de emergencia siguen trabajando en la zona.",
    "fuente": "infobae.com",
-   "t": 1792424125000
+   "t": 1792443575000
   },
   {
    "tema": "actualidad",
-   "titulo": "“En el Gobierno siempre van a tener una aliada”: Sheinbaum respalda a Los Tigres del Norte tras la polémica por el discurso recortado en el Tiny Desk",
-   "bajada": "La mandataria afirmó que la agrupación y los mexicanos en Estados Unidos tienen una aliada en el Ejecutivo, después de los señalamientos sobre la edición del video difundido por NPR.",
+   "titulo": "Óscar Julián Ruíz, exárbitro colombiano, reveló que pitó gratis el partido entre Santa Fe y Real Madrid porque le iban a pagar solo $1 millón",
+   "bajada": "Ese juego se desarrolló el 7 de agosto del 2008 en el estadio Nemesio Camacho el Campín, como conmemoración a los 470 años de Bogotá.",
    "fuente": "infobae.com",
-   "t": 1792424111000
+   "t": 1792443557000
   },
   {
    "tema": "actualidad",
-   "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este lunes 19 de octubre, minuto a minuto",
-   "bajada": "La divisa oficial opera a $1540 para la venta en el Banco Nación; el dólar blue cotiza a $1555 para esa operación; qué pasa con el MEP y el CCL.",
+   "titulo": "Manchester City se expone a una sanción histórica en un caso que toca intereses económicos de Emiratos Árabes y Gran Bretaña",
+   "bajada": "La Comisión de Investigación independiente de la Premier League investiga irregularidades financieras y podría castigarlo con una quita de puntos que lo haga descender a la Championship; el club apeló; horas decisivas.",
    "fuente": "lanacion.com.ar",
-   "t": 1792423873000
+   "t": 1792443417000
   },
   {
    "tema": "actualidad",
-   "titulo": "Javier Milei y sus medidas, EN VIVO: “La casta, la alta política, los empresaurios y los periodistas no son muy distintos”",
-   "bajada": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios.",
+   "titulo": "Según la psicología, qué revela el hábito de dormir con medias sobre tu personalidad",
+   "bajada": "Especialistas analizan la conducta de utilizar este accesorio al descansar; los expertos aseguran que esta práctica refleja rasgos de carácter, rutinas de autocuidado y una búsqueda subconsciente de seguridad emocional.",
    "fuente": "lanacion.com.ar",
-   "t": 1792423837000
+   "t": 1792443392000
   },
   {
    "tema": "actualidad",
-   "titulo": "ARBA lanza un plan de pagos de impuestos con descuentos de hasta el 40%",
-   "bajada": "Los presentará la ARBA y abarcará Ingresos Brutos, Sellos, Inmobiliario Básico y Complementario y Automotor y Embarcaciones Deportivas; no presentar pasivos será condición obligatoria para los beneficios en 2027.",
+   "titulo": "Road to Australia: la segunda edición del torneo de exhibición que conecta con el primer Grand Slam del año",
+   "bajada": "Se disputará en el Buenos Aires del 16 al 20 de diciembre, con una nueva atracción; también habrá acción en La Plata, con los locales Etcheverry y Tirante más invitados.",
    "fuente": "lanacion.com.ar",
-   "t": 1792423830000
+   "t": 1792443306000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La chicana de San Lorenzo a Estudiantes tras ganarle 2-1: \"Chiquititos son otros\"",
+   "bajada": "El Ciclón se impuso en su visita a La Plata por el Clausura y le dejó un picante mensaje al Pincha en las redes sociales.",
+   "fuente": "ole.com.ar",
+   "t": 1792442453000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Tiró una pelota de rugby en Brentford-Liverpool y ahora lo busca la policía",
+   "bajada": "Un individuo se grabó mientras pateaba el balón en pleno partido de la Premier League, el club local lo denunció y ahora lo buscan para aplicarle la ley.",
+   "fuente": "ole.com.ar",
+   "t": 1792442275000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "San Lorenzo y sus minúsculas oportunidades de jugar un torneo internacional",
+   "bajada": "",
+   "fuente": "San Lorenzo Primero",
+   "t": 1792442134000
   },
   {
    "tema": "actualidad",
-   "titulo": "Una jueza de Florida firma una orden de arresto contra Raúl Castro por el el derribo de dos aviones humanitarios en 1996",
-   "bajada": "La jueza principal Ariana Fajardo Orshan, del Undécimo Circuito Judicial de Florida, dispuso la detención estatal del expresidente cubano. El fiscal general James Uthmeier ratificó que se acusa al ex mandatario del delito de conspiración para cometer asesinato en primer grado.",
+   "titulo": "\"Sencillo, tranquilo, fraterno y cercano a los jóvenes\": quién era el sacerdote que murió aplastado por una cruz mientras daba misa",
+   "bajada": "Patricio Alfredo Sánchez Molinari desempeñaba sus funciones en la iglesia Nuestra Señora del Perpetuo Socorro de Guayaquil. Tenía 52 años, pertenecía a la Congregación del Santísimo Redentor y transmitía sus celebraciones religiosas a través de las redes sociales.",
    "fuente": "clarin.com",
-   "t": 1792423308000
+   "t": 1792441536000
   },
   {
    "tema": "actualidad",
-   "titulo": "Quiniela Nacional: resultado del sorteo de la Primera de hoy, lunes 19 de octubre",
-   "bajada": "Conocé los números ganadores, cuáles salieron hoy a la cabeza y todo lo que necesitás saber.",
+   "titulo": "Quincho de Ford: buscan convertir en sitio de memoria el lugar donde torturaron a trabajadores",
+   "bajada": "El proyecto busca recuperar el espacio de la planta de General Pacheco donde trabajadores fueron secuestrados y torturados durante la última dictadura. Ya obtuvo dictamen favorable en una comisión de la Legislatura bonaerense, pero todavía debe atravesar otras instancias antes de llegar al recinto.",
    "fuente": "clarin.com",
-   "t": 1792423271000
+   "t": 1792441347000
   },
   {
    "tema": "actualidad",
-   "titulo": "Florida inculpa a expresidente cubano Raúl Castro por derribo de avionetas en 1996",
-   "bajada": "Florida acusa al exlíder cubano por el derribo de avionetas en 1996, que dejó cuatro muertos. Emiten orden por conspiración para homicidio. La denuncia estatal se suma a la federal, destacando la independencia de los procesos judiciales en EE.UU. en medio de tensiones con Cuba.",
+   "titulo": "Corrupción en la AFA: Tapia y Toviggino ya nombraron diez intermediarios para cobrar contratos de la Selección y hay sospechas por transferencias millonarias",
+   "bajada": "Los contratos de patrocinio ingresan a un circuito de empresas de papel que cobran comisiones millonarias por servicios opacos y modifican sus estructuras o son dadas de baja cuando se enciende una alarma judicial. La última es una empresa creada en una zona franca de Dubai.",
    "fuente": "clarin.com",
-   "t": 1792423210000
+   "t": 1792441342000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca copó Copacabana con un banderazo que revolucionó Río de Janeiro",
+   "bajada": "Más de mil hinchas del Xeneize alientan al equipo antes de la vuelta de la semifinal de la Sudamericana.",
+   "fuente": "ole.com.ar",
+   "t": 1792440550000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Las posibles sanciones para el Manchester City por el escándalo en la Premier League: ¿el equipo de Enzo Fernández puede descender?",
+   "bajada": "Un importante medio de comunicación de Reino Unido sostuvo que la sanción para el equipo ciudadano será una histórica deducción de puntos. ¿Le quitan los títulos?",
+   "fuente": "clarin.com",
+   "t": 1792440158000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Apu volvió a hablar en Los Simpson después de casi diez años: por qué había sido silenciado y quién es su nueva voz",
+   "bajada": "El dueño del Kwik-E-Mart recuperó su voz. Su regreso llega después de una larga polémica por los estereotipos raciales del personaje.",
+   "fuente": "clarin.com",
+   "t": 1792438877000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Las lluvias torrenciales y las graves inundaciones en el este de España dejan al menos cuatro muertos",
+   "bajada": "El temporal afectó al litoral mediterráneo y provocó al menos cuatro muertes en la Comunidad Valenciana y Cataluña. Las fuerzas de seguridad llevaron a cabo más de 400 rescates por tierra y aire para asistir a las zonas afectadas.",
+   "fuente": "clarin.com",
+   "t": 1792438867000
+  },
+  {
+   "tema": "economía",
+   "titulo": "“Extrema gravedad”: una asociación empresaria pide la remoción del juez que absolvió a dirigentes de Camioneros que bloquearon una fábrica",
+   "bajada": "El pedido es del Movimiento Empresarial Anti Bloqueos (MEAB), fundada por una diputada de La Libertad Avanza. Consideran que el juez Alejandro López avaló “la comisión de delitos” al absolver a los acusados por el conflicto con una distribuidora de San Pedro.",
+   "fuente": "clarin.com",
+   "t": 1792438746000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El superávit comercial de septiembre rozó los u$s3.000 millones, segundo máximo de 2026",
+   "bajada": "Las exportaciones treparon 21,6% interanual en el noveno mes del año. En términos mensuales, el alza fue mayor al 8%.",
+   "fuente": "ambito.com",
+   "t": 1792438740000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Las 42 preguntas que la UEFA le envió a la FIFA por el escándalo de Gianni Infantino: el plazo que le dio para darle sus respuestas",
+   "bajada": "Fue después de la reunión del Consejo de la FIFA en la que el presidente abrió las consultas a las asociaciones miembro sobre los hechos ocurridos después del Mundial 2026. \"Las futuras reformas de gobernanza no pueden sustituir el escrutinio de las decisiones ya tomadas y la rendición de cuentas por ellas\", aseguró.",
+   "fuente": "clarin.com",
+   "t": 1792438207000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Avellaneda nunca estuvo tan lejos",
+   "bajada": "",
+   "fuente": "Página|12",
+   "t": 1792437851000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "El otoño del descontento: vivienda, recortes e inflación, las razones detrás del estallido social que recorre a Europa",
+   "bajada": "Las nuevas generaciones enfrentan un escenario donde la educación superior y el empleo ya no aseguran el acceso a una vida digna ni a la clase media. Esta ruptura del contrato social genera un desencanto que los partidos y sindicatos tradicionales no consiguen encauzar.",
+   "fuente": "clarin.com",
+   "t": 1792437522000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El partido de los 72 goles: PSG y Barcelona chocan por la Champions League en un duelo que nadie se quiere (y debe) perder",
+   "bajada": "Dos potencias que hicieron del ataque una religión se enfrentan en París. El equipo de Hansi Flick tiene un promedio demoledor de 4,36 goles por partido. Liverpool-Villarreal y Stuttgart-Atlético de Madrid, otros atractivos del martes.",
+   "fuente": "clarin.com",
+   "t": 1792437133000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Otro récord para las exportaciones: por primera vez superaron los US$ 10.000 millones en un solo mes",
+   "bajada": "Son datos del INDEC para septiembre. Las ventas externas treparon 23,5%. En tanto, las importaciones bajaron 1,8% y hubo un superávit de US$ 2.976 millones.",
+   "fuente": "clarin.com",
+   "t": 1792436709000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Cifra récord: el costo de los intereses de la deuda de EEUU superó el u$s1 billón",
+   "bajada": "El rápido aumento de los costos de financiamiento genera preocupaciones en el mercado ante la posibilidad de que el endeudamiento norteamericano se acelere como una bola de nieve.",
+   "fuente": "ambito.com",
+   "t": 1792436280000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La formación de Boca vs. Vasco da Gama, por la Copa Sudamericana",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792435386000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cuándo juega y cómo ver a Boca: Día, hora, canal de TV y streaming online del partido vs. Vasco da Gama por la Sudamericana 2026",
+   "bajada": "",
+   "fuente": "Yahoo",
+   "t": 1792434180000
+  },
+  {
+   "tema": "economía",
+   "titulo": "En Buenos Aires se adelantan a la crecida del Paraná: el drama por sacar a los miles de animales que quedan en las islas y conseguir campos para ubicarlos",
+   "bajada": "En los partidos del norte de la provincia hay una gran cantidad de cabezas de ganado que todavía no pudieron ser evacuadas a 15 días de que llegue el pico de agua.",
+   "fuente": "clarin.com",
+   "t": 1792432246000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Kristin Davis reveló el calvario que vivió durante \"Sex and the City\": las dietas extremas y los crueles comentarios sobre su cuerpo",
+   "bajada": "La actriz que interpretó a Charlotte York en la exitosa serie habló sobre la presión estética que sufrió. A los 61 años, recordó cómo las críticas sobre su apariencia afectaron su relación con la comida y la llevaron a adoptar hábitos perjudiciales.",
+   "fuente": "clarin.com",
+   "t": 1792431744000
+  },
+  {
+   "tema": "música",
+   "titulo": "Rock Nacional en el CC 25 de Mayo",
+   "bajada": "",
+   "fuente": "claramenteweb.com.ar",
+   "t": 1792431419000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "[Video] Esteban Bichi Fuertes - Colon vs San Lorenzo - Clausura 2009",
+   "bajada": "",
+   "fuente": "El Litoral",
+   "t": 1792431067000
+  },
+  {
+   "tema": "política",
+   "titulo": "Otra denuncia de Kicillof contra Milei: ahora por demoras en la transferencia de fondos para atenuar los efectos del Niño",
+   "bajada": "Lo anticiparon los ministros Bianco y Katopodis. Plantearon que Nación no ejecuta las obras hidráulicas para reducir los efectos del fenómeno climático en la Provincia.",
+   "fuente": "clarin.com",
+   "t": 1792425411000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Cataratas del Iguazú: la buena noticia para el turismo del fin de semana y qué puede pasar con la lluvias de los próximos días",
+   "bajada": "Los niveles del agua bajaron, aunque se mantienen altos. El impacto en el litoral y el pronóstico de precipitaciones.",
+   "fuente": "clarin.com",
+   "t": 1792425378000
+  },
+  {
+   "tema": "política",
+   "titulo": "Milei vuelve a hacer campaña en el extranjero: viaja a España para militar por Vox y contra Pedro Sánchez",
+   "bajada": "Llegará este martes para asistir a actos de apoyo a la derecha. Viene de estar en Brasil para apoyar a Flavio Bolsonaro y en Estados Unidos, antes de las legislativas.",
+   "fuente": "clarin.com",
+   "t": 1792425034000
+  },
+  {
+   "tema": "política",
+   "titulo": "A 50 años del crimen de Mario Abel Amaya, el defensor de presos políticos que originó el \"Trelewazo\", fue candidato estando detenido y al que Alfonsín lloró",
+   "bajada": "El Servicio Penitenciario atribuyó la muerte a problemas cardíacos y asma para ocultar las torturas que padeció en cautiverio. Antes de ser capturado por las fuerzas armadas, una red de dirigentes radicales lo mantuvo oculto en campos bonaerenses.",
+   "fuente": "clarin.com",
+   "t": 1792423957000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Caso Nancy Godoy en Corrientes: el fiscal reveló que hallaron \"manchas rojizas\" en ropa y cuchillos de un peón rural",
+   "bajada": "Javier Mosquera contó que una testigo vio a la maestra en la escuela el 9 de octubre, tres días después del último rastro que se tenía hasta ahora. Demoraron a un sospechoso mientras se investiga un posible rastro de sangre. \"Yo sospecho de todos\", dijo el hijo de la docente.",
+   "fuente": "clarin.com",
+   "t": 1792423487000
   },
   {
    "tema": "música",
@@ -80,87 +262,31 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "¿La NBA arranca sin Stephen Curry?",
-   "bajada": "A días del inicio de una nueva temporada, la estrella de los Warriors tuvo que abandonar la práctica abierta del equipo por una molestia en el tobillo derecho.",
-   "fuente": "ole.com.ar",
-   "t": 1792422307000
+   "titulo": "Egüen firmó un convenio marco de cooperación con River Plate",
+   "bajada": "",
+   "fuente": "La Mañana",
+   "t": 1792422520000
   },
   {
    "tema": "fútbol",
-   "titulo": "Con quién fue Enzo Pérez a la popular de River en el Kempes",
-   "bajada": "El héroe de Madrid sorprendió a todos en la cabecera visitante con un grupo muy especial que comparte su misma devoción por River desde la infancia.",
-   "fuente": "ole.com.ar",
-   "t": 1792422166000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La lesión de Vincent Kompany que lo obligaría a dirigir sentado al Bayern Munich ante el Arsenal",
-   "bajada": "El entrenador belga atraviesa un problema físico que le impidió moverse con normalidad ante Leipzig el pasado fin de semana. Su presencia en el banco está prevista, pero hay una incógnita.",
-   "fuente": "ole.com.ar",
-   "t": 1792422117000
+   "titulo": "Egüen firmó un convenio con River Plate para promover el deporte y fortalecer los clubes de barrio",
+   "bajada": "",
+   "fuente": "25 Digital",
+   "t": 1792422413000
   },
   {
    "tema": "espectáculos",
-   "titulo": "Premios ACE 2026: todos los detalles de la 35ª ceremonia que distingue lo mejor del teatro argentino",
-   "bajada": "Este lunes a la noche, en El Nacional, se realizará la entrega de las estatuillas a los más destacados de la última temporada. \"Company\" es la obra que llega con más nominaciones, 11, una más que las que consiguió \"Billy Elliot\". A pesar de que se había anunciado, la fiesta no se televisará por Canal 7 (ex TV Pública).",
+   "titulo": "Lo que viene: la cuarta temporada de Lupin encabeza los estrenos de la semana en el streaming",
+   "bajada": "La nueva entrega de la serie francesa inspirada en el ladrón de guante blanco llega el viernes a Netflix. Tras pasar cuatro años en prisión, Assane (el personaje central) quiere comenzar una nueva vida con su familia, pero cuando alguien decide imitar sus robos, no puede con su genio y vuelve con sus delitos mágicos.",
    "fuente": "clarin.com",
-   "t": 1792421468000
+   "t": 1792421700000
   },
   {
-   "tema": "política",
-   "titulo": "Estados Unidos propuso disolver el comité especial de Naciones Unidas donde Argentina sostiene el reclamo por Malvinas",
-   "bajada": "\"Dejó de cumplir su propósito\", dijo la representante estadounidense sobre el Comité Especial de Descolonización.",
-   "fuente": "clarin.com",
-   "t": 1792420295000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Sarmiento vs Barracas Central, EN VIVO: a qué hora es, formaciones y cómo ver el partido del Torneo Clausura",
-   "bajada": "El Verde recibe al Guapo por la fecha 13 de la Liga Profesional, en el estadio Eva Perón de Junín. Seguí el minuto a minuto en Clarín.",
-   "fuente": "clarin.com",
-   "t": 1792419628000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Newell's vs Central Córdoba (SdE), EN VIVO: a qué hora juegan, formaciones y cómo ver el partido del Torneo Clausura",
-   "bajada": "La Lepra recibe al Ferroviario por la fecha 13 de la Liga Profesional, en el estadio Marcelo Bielsa de Rosario. Seguí el minuto a minuto en Clarín.",
-   "fuente": "clarin.com",
-   "t": 1792419540000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Deportivo Riestra vs Unión, EN VIVO: a qué hora es, formaciones y cómo ver el partido por el Torneo Clausura",
-   "bajada": "El Malevo recibe al Tatengue por la fecha 13 de la Liga Profesional, en el Estadio Guillermo Laza. Seguí el minuto a minuto en Clarín.",
-   "fuente": "clarin.com",
-   "t": 1792419233000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "La salud del Papa: entre una recuperación increíble y la cautela de un famoso especialista de Milán",
-   "bajada": "Aunque la gira por Uruguay, Argentina y Perú está programada entre el 6 y el 17 de noviembre, los médicos desaconsejan trayectos tan extensos a poco tiempo de la intervención. Sin embargo, el pontífice podría realizar la actividad planificada gracias al acompañamiento de un equipo médico especializado.",
-   "fuente": "clarin.com",
-   "t": 1792419168000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "La inesperada muerte del periodista Gastón \"Pampa\" Leturia: \"Hasta el próximo asado, mono\"",
-   "bajada": "Trabajó en los diarios Olé y Clarín entre 1996 y 2023. Ahora estaba en el equipo de comunicación del Ministerio de Seguridad de la Ciudad. Este domingo hacía un asado para el Día de la Madre en Santa Rosa, se descompensó y falleció de un infarto. Tenía 52 años.",
-   "fuente": "clarin.com",
-   "t": 1792418730000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Rating del domingo: un Día de la Madre con bajo encendido a la tarde y una gala de delantales negros en MasterChef Celebrity",
-   "bajada": "Los planes familiares lejos de la TV les ganaron a los programas de los canales de aire. El Top Five estuvo repartido entre Telefe y El Trece y tuvo seis programas en la tabla. La gala de eliminación del reality de cocina pasó para este lunes. Los más vistos de cada señal.",
-   "fuente": "clarin.com",
-   "t": 1792418718000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El Gobierno dio luz verde a una inversión de Mindlin y Sielecki por más de US$ 3.200 millones en Vaca Muerta",
-   "bajada": "Son dos proyectos RIGI de la empresa TGS para procesar y exportar líquidos del gas natural. Incluyen un caño de 577 kilómetros y aportarían ventas al exterior por US$ 1.100 millones anuales desde 2030.",
-   "fuente": "clarin.com",
-   "t": 1792418403000
+   "tema": "recitales",
+   "titulo": "Giacomo Benavides viajó a Miami para ver a Tini y show fue cancelado a último momento: “¿Cómo es que cancelaron el concierto?\"",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792418820000
   },
   {
    "tema": "fútbol",
@@ -170,95 +296,11 @@
    "t": 1792418227000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Brasil: afirman que el frustrante debate del domingo \"no moverá la aguja\" y otra encuesta reafirma el empate",
-   "bajada": "La ausencia de propuestas y la intención de ir a la pelea desacreditó el encuentro entre Lula y Bolsonaro del domingo. BTG/Nexus difundió este lunes su último sondeo que reafirma el empate, con una diferencia para Bolsonaro de 50,3% de los votos válidos contra 49,7% de Lula.",
-   "fuente": "clarin.com",
-   "t": 1792417836000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Uno de los rubros más afectados de la industria reclamó que el RIGI impulse a otros sectores: \"Sería un desperdicio\"",
-   "bajada": "La cámara de empresas metalúrgicas reclamó que las inversiones en minería y energía \"traccionen\" a otros rubros como proveedores. La metalurgia cayó 5,3% en lo que va del año, informó Adimra.",
-   "fuente": "clarin.com",
-   "t": 1792417000000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Mató a golpes a su pareja y se lo confesó a su mamá: \"Me mandé una cagada\"",
-   "bajada": "Cristian Navarro le fracturó el cráneo a Aldana Novik Rojas durante una discusión en Valeria del Mar. Fue detenido tras contarle a un amigo lo que había hecho y dónde estaba.",
-   "fuente": "clarin.com",
-   "t": 1792416882000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Giacomo Benavides viajó a Miami para ver a Tini y show fue cancelado a último momento: “¿Cómo es que cancelaron el concierto?\"",
-   "bajada": "",
-   "fuente": "Infobae",
-   "t": 1792416726000
-  },
-  {
-   "tema": "política",
-   "titulo": "Con el respaldo de la política nacional, cuatro listas de abogados compiten en las elecciones del Consejo de la Magistratura",
-   "bajada": "Será en los comicios de este martes. Es para elegir a los cuatro representantes de ese estamento en el órgano que selecciona y sanciona a los jueces nacionales y federales. La UCR, el PJ y el kirchnerismo, el PRO y La Libertad Avanza de lleno en las listas. La palabra de los candidatos.",
-   "fuente": "clarin.com",
-   "t": 1792416387000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Vasco da Gama vs. Boca, por la Copa Sudamericana: hora, TV, formaciones y más",
+   "titulo": "Racing e Independiente repartieron puntos en el clásico de Avellaneda",
    "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792415000000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca en Río: banderazo, expectativa por Paredes y el equipo para enfrentar a Vasco",
-   "bajada": "",
-   "fuente": "Perfil",
-   "t": 1792414939000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Tras más de un mes de demora, el Gobierno prorrogó la medida que complementa los planes sociales con el trabajo rural por un año más",
-   "bajada": "A través del decreto 1204/2026, el Ejecutivo extendió la normativa hasta el 1° de septiembre de 2027. Según el gremio, la no extensión ponía en riesgo 120.000 puestos de trabajo.",
-   "fuente": "clarin.com",
-   "t": 1792414453000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La industria metalúrgica volvió a caer y tuvo el septiembre con más máquinas paradas desde 2016",
-   "bajada": "La actividad acumula una contracción del 5,3% en lo que va de 2026 y opera con apenas el 40,2% de su capacidad productiva. La debilidad de la demanda y la postergación de inversiones afectan al sector, mientras las empresas mantienen expectativas desfavorables para los próximos meses.",
-   "fuente": "ambito.com",
-   "t": 1792414140000
-  },
-  {
-   "tema": "política",
-   "titulo": "El Gobierno presentó un nuevo régimen de retiros voluntarios para empleados públicos nacionales",
-   "bajada": "La medida se oficializó este lunes en el Boletín Oficial, con firmas de Milei, Santilli y Sturzenegger. Cerca de 20 mil empleados son elegibles para tomarlo. Si lo hacen, no podrán volver a la administración pública en el futuro. Desde ATE anunciaron una movilización a la Quinta de Olivos en rechazo de la medida.",
-   "fuente": "clarin.com",
-   "t": 1792412657000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La economía de China creció 4,5% en el tercer trimestre y superó las proyecciones del mercado",
-   "bajada": "Pese al repunte de las ventas minoristas (1,1%) y el impulso exportador de los vehículos eléctricos y la alta tecnología, la economía china enfrenta severos desequilibrios internos por la crisis inmobiliaria y el estancamiento del consumo.",
-   "fuente": "ambito.com",
-   "t": 1792412640000
-  },
-  {
-   "tema": "música",
-   "titulo": "Semana Charly: conciertos gratis por los 75 años de Charly García, con horarios, sedes y cómo conseguir lugar",
-   "bajada": "",
-   "fuente": "El Economista - Últimas noticias económicas y financieras",
-   "t": 1792411680000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "BTS en Argentina: qué se puede llevar al Estadio Único y todo lo que hay que saber antes del recital",
-   "bajada": "Mochilas, botellas, cámaras y ARMY Bomb: lo que indican las normas de ingreso. Los antecedentes de otros recitales para evitar problemas en los controles.",
-   "fuente": "clarin.com",
-   "t": 1792411216000
+   "fuente": "Diario Democracia",
+   "t": 1792417289000
   },
   {
    "tema": "fútbol",
@@ -268,25 +310,11 @@
    "t": 1792407519000
   },
   {
-   "tema": "fútbol",
-   "titulo": "La jugada temprana que pudo haber cambiado el rumbo del Clásico de Avellaneda",
-   "bajada": "",
-   "fuente": "InfiernoRojo.com",
-   "t": 1792406083000
-  },
-  {
    "tema": "tecnología",
    "titulo": "Zapatillas para el gimnasio: marca por marca, cuáles son y cuánto cuestan los mejores modelos para entrenar fuerza",
    "bajada": "No cualquier calzado deportivo ofrece la estabilidad necesaria para levantar peso. Puma, Nike, Adidas, Reebok, Under Armour, Atomik y On explican qué distingue a sus propuestas.",
    "fuente": "clarin.com",
    "t": 1792399572000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing e Independiente empataron 1-1: un clásico marcado por las crisis de Avellaneda",
-   "bajada": "",
-   "fuente": "Perfil",
-   "t": 1792398600000
   },
   {
    "tema": "clima",
@@ -301,34 +329,6 @@
    "bajada": "",
    "fuente": "Clarin.com",
    "t": 1792381221000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "¡GOLAZO Y TRIUNFAZO!",
-   "bajada": "",
-   "fuente": "San Lorenzo",
-   "t": 1792370306000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Resultados en Vivo",
-   "bajada": "",
-   "fuente": "ESPN Argentina",
-   "t": 1792365537000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Belgrano 0-3 River Plate (18 de Oct., 2026) Estadísticas del equipo",
-   "bajada": "",
-   "fuente": "ESPN Deportes",
-   "t": 1792365435000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo venció por 2-1 a Estudiantes de La Plata, por el Torneo Clausura 2026",
-   "bajada": "",
-   "fuente": "La Nación",
-   "t": 1792364100000
   }
  ]
 }
