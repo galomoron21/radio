@@ -1,29 +1,47 @@
 {
- "t": 1792365229492,
+ "t": 1792372753794,
  "items": [
   {
-   "tema": "fútbol",
-   "titulo": "¿Juega Martínez Quarta? Las alineaciones de Belgrano vs. River Plate por el Clausura 2026",
-   "fuente": "Bolavip México",
-   "t": 1792362107000
-  },
-  {
    "tema": "política",
-   "titulo": "El Gobierno anunció nuevas reformas para impulsar inversiones y exportaciones",
-   "fuente": "La Brújula 24",
-   "t": 1792359615000
+   "titulo": "Arroceros confían en el Gobierno dominicano para proteger la producción nacional tras la derogación del decreto sobre importaciones",
+   "fuente": "Infobae",
+   "t": 1792372128000
   },
   {
    "tema": "fútbol",
-   "titulo": "Qué canal transmite Belgrano vs. River por el Torneo Clausura: hora, TV y cómo verlo en VIVO",
-   "fuente": "DeporTV",
-   "t": 1792356780000
+   "titulo": "¡GOLAZO Y TRIUNFAZO!",
+   "fuente": "San Lorenzo",
+   "t": 1792370306000
   },
   {
    "tema": "fútbol",
-   "titulo": "Ver EN VIVO Estudiantes vs. San Lorenzo: dónde seguirlo por TV y ONLINE",
+   "titulo": "Vasco da Gama vs. Boca Juniors en vivo: cómo llegan al partido",
    "fuente": "TyC Sports",
-   "t": 1792356295000
+   "t": 1792369812000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Resultados en Vivo",
+   "fuente": "ESPN Argentina",
+   "t": 1792365537000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Estadísticas del equipo",
+   "fuente": "ESPN Deportes",
+   "t": 1792365435000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "San Lorenzo venció por 2-1 a Estudiantes de La Plata, por el Torneo Clausura 2026",
+   "fuente": "La Nación",
+   "t": 1792364100000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing e Independiente empataron 1-1 en un clásico caliente de Avellaneda",
+   "fuente": "Somos Jujuy",
+   "t": 1792361400000
   },
   {
    "tema": "recitales",
@@ -33,21 +51,9 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "El uno por uno del empate de Racing con Independiente",
-   "fuente": "Olé",
-   "t": 1792354712000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "Lo que pudo haber sido...",
    "fuente": "Racing Club - Sitio Oficial",
    "t": 1792354587000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El uno por uno de Independiente ante Racing",
-   "fuente": "Olé",
-   "t": 1792354547000
   },
   {
    "tema": "política",
@@ -63,27 +69,21 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "¿Y Paredes? Los convocados de Boca para la revancha con Vasco da Gama por la Sudamericana",
-   "fuente": "TyC Sports",
-   "t": 1792350636000
+   "titulo": "Boca se subió al avión y ya está camino a Río",
+   "fuente": "Olé",
+   "t": 1792347401000
   },
   {
    "tema": "fútbol",
-   "titulo": "La particular mirada de un ídolo de Boca sobre Leonel Flores: \"A veces exagera...\"",
-   "fuente": "Olé",
-   "t": 1792348921000
+   "titulo": "Racing 1-1 Independiente (18 de Oct., 2026) Estadísticas del equipo",
+   "fuente": "ESPN Argentina",
+   "t": 1792345460000
   },
   {
    "tema": "política",
    "titulo": "Semana clave para el Presupuesto de 2027 en el Congreso: debe aprobarse antes del 20 de octubre",
    "fuente": "Infobae",
    "t": 1792345455000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Alineaciones de Estudiantes y San Lorenzo para el duelo de la Fecha 13 del Torneo Clausura 2026",
-   "fuente": "Bolavip Argentina",
-   "t": 1792344789000
   },
   {
    "tema": "recitales",
@@ -132,12 +132,6 @@
    "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
    "fuente": "Clarín",
    "t": 1792292608000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Abel Pintos anunció un recital en Esquel y las entradas salen a la venta este lunes",
-   "fuente": "ADNSUR",
-   "t": 1792280324000
   }
  ]
 }
