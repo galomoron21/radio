@@ -1,6 +1,60 @@
 {
- "t": 1792372753794,
+ "t": 1792396078919,
  "items": [
+  {
+   "tema": "economía",
+   "titulo": "Dólar blue hoy: a cuánto cotiza este lunes 19 de octubre",
+   "fuente": "Clarin.com",
+   "t": 1792393207000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Vasco da Gama vs. Boca Juniors, por la Copa Sudamericana 2026: día, hora y cómo ver online",
+   "fuente": "La Nación",
+   "t": 1792386000000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este lunes 19 octubre de 2026",
+   "fuente": "Clarin.com",
+   "t": 1792381221000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en José C. Paz, Buenos Aires: el pronóstico del tiempo para este lunes 19 octubre de 2026",
+   "fuente": "Clarin.com",
+   "t": 1792379683000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Dólar hoy: a cuánto cotiza este lunes 19 de octubre",
+   "fuente": "Ambito",
+   "t": 1792379544000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Tini Stoessel debió cancelar su show en Miami a último momento",
+   "fuente": "Infobae",
+   "t": 1792377300000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¿Y Paredes? Los convocados de Boca para la revancha con Vasco da Gama por la Sudamericana",
+   "fuente": "TyC Sports",
+   "t": 1792377122000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Tini Stoessel canceló su show en Miami media hora antes del inicio: el comunicado de la productora",
+   "fuente": "La 100",
+   "t": 1792374485000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El uno por uno de River en la goleada ante Belgrano en Córdoba",
+   "fuente": "Olé",
+   "t": 1792374315000
+  },
   {
    "tema": "política",
    "titulo": "Arroceros confían en el Gobierno dominicano para proteger la producción nacional tras la derogación del decreto sobre importaciones",
@@ -15,19 +69,7 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Vasco da Gama vs. Boca Juniors en vivo: cómo llegan al partido",
-   "fuente": "TyC Sports",
-   "t": 1792369812000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Resultados en Vivo",
-   "fuente": "ESPN Argentina",
-   "t": 1792365537000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Estadísticas del equipo",
+   "titulo": "Belgrano 0-3 River Plate (18 de Oct., 2026) Estadísticas del equipo",
    "fuente": "ESPN Deportes",
    "t": 1792365435000
   },
@@ -39,15 +81,15 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Racing e Independiente empataron 1-1 en un clásico caliente de Avellaneda",
-   "fuente": "Somos Jujuy",
-   "t": 1792361400000
+   "titulo": "Torneo Clausura: Racing sigue en deuda e Independiente quedó a mano",
+   "fuente": "Página|12",
+   "t": 1792363987000
   },
   {
-   "tema": "recitales",
-   "titulo": "Concurso Ricardo Miró abre sus plicas y anuncia a los ganadores",
-   "fuente": "El Siglo Panamá",
-   "t": 1792356226000
+   "tema": "política",
+   "titulo": "El Gobierno anunció nuevas reformas para impulsar inversiones y exportaciones",
+   "fuente": "La Brújula 24",
+   "t": 1792359615000
   },
   {
    "tema": "fútbol",
@@ -56,34 +98,22 @@
    "t": 1792354587000
   },
   {
-   "tema": "política",
-   "titulo": "Venezuela: la oposición anunció un gran acuerdo nacional y ratificó a María Corina Machado como líder",
-   "fuente": "La Voz del Interior",
-   "t": 1792354232000
-  },
-  {
    "tema": "fútbol",
    "titulo": "No hubo dueño en el clásico de Avellaneda: Racing e Independiente empataron en el Cilindro",
    "fuente": "DeporTV",
    "t": 1792351800000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Boca se subió al avión y ya está camino a Río",
-   "fuente": "Olé",
-   "t": 1792347401000
+   "tema": "política",
+   "titulo": "Semana clave para el Presupuesto de 2027 en el Congreso: debe aprobarse antes del 20 de octubre",
+   "fuente": "Infobae",
+   "t": 1792347900000
   },
   {
    "tema": "fútbol",
    "titulo": "Racing 1-1 Independiente (18 de Oct., 2026) Estadísticas del equipo",
    "fuente": "ESPN Argentina",
    "t": 1792345460000
-  },
-  {
-   "tema": "política",
-   "titulo": "Semana clave para el Presupuesto de 2027 en el Congreso: debe aprobarse antes del 20 de octubre",
-   "fuente": "Infobae",
-   "t": 1792345455000
   },
   {
    "tema": "recitales",
@@ -108,30 +138,6 @@
    "titulo": "El rock nacional tal vez esté preparando un show en la eternidad",
    "fuente": "El Tribuno",
    "t": 1792322400000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dólar hoy en Venezuela: precio y cotización de la divisa este domingo 18 de octubre de 2026",
-   "fuente": "Clarin.com",
-   "t": 1792320015000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 18 de octubre",
-   "fuente": "La Nación",
-   "t": 1792317660000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Berazategui, Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
-   "fuente": "Clarin.com",
-   "t": 1792293019000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este domingo 18 octubre de 2026",
-   "fuente": "Clarín",
-   "t": 1792292608000
   }
  ]
 }
