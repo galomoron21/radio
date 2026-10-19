@@ -1,47 +1,194 @@
 {
- "t": 1792417487544,
+ "t": 1792424239560,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Un viaje a Japón como premio: así será el concurso de cosplay con ramen, sushi y comida callejera en Palermo",
-   "bajada": "Dos jornadas en el Jardín Japonés con un concurso de cosplay y una edición especial de Gastro Japo Street Food, la feria con puestos de comida japonesa.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792417200000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "U2 toca en River 2027: entradas desde $120.000, mapa de ubicaciones y todas las fechas de venta",
-   "bajada": "La banda irlandesa se presentará el 23 y 25 de marzo con Beck como invitado; habrá preventas antes de la venta general y cuotas sin interés.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792417173000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La pareja más famosa del mundo del tenis anunció su separación: “Nuestro matrimonio se está acabando”",
-   "bajada": "La tenista Elina Svitolina compartió una carta en sus redes sociales donde destacó cómo le impactó la guerra de Ucrania y los motivos detrás de la ruptura con Gael Monfils.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792417123000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Alerta roja en Gandía, Oliva o Denia por la DANA Adam, en directo: última hora de las lluvias torrenciales en Valencia, Baleares y Cataluña",
-   "bajada": "Las autoridades han pedido precaución a la población ante el peligro de inundaciones.",
+   "titulo": "Procesión del Señor de los Milagros EN VIVO: ruta y ubicación del Cristo Moreno en su tercer recorrido este lunes 19 de octubre",
+   "bajada": "El itinerario contempla el paso por importantes calles y avenidas del Cercado de Lima y La Victoria, así como paradas frente a hospitales que forman parte de la ruta del Cristo Moreno.",
    "fuente": "infobae.com",
-   "t": 1792417032000
+   "t": 1792424147000
   },
   {
    "tema": "actualidad",
-   "titulo": "Por qué se canceló el show de Tini Stoessel en Miami, según la versión oficial del estadio: “Circunstancias imprevistas”",
-   "bajada": "El Kaseya Center, donde se iba a presentar la artista en los Estados Unidos, publicó un comunicado.",
+   "titulo": "Netflix retransmitirá La Velada del Año de Ibai Llanos durante los próximos tres años",
+   "bajada": "El evento de boxeo se emitirá en exclusiva y en directo en la plataforma.",
    "fuente": "infobae.com",
-   "t": 1792416945000
+   "t": 1792424125000
   },
   {
    "tema": "actualidad",
-   "titulo": "El juez archiva la denuncia de Vito Quiles contra Begoña Gómez por acusarlo falsamente de coacciones durante un incidente en un restaurante de Las Rozas",
-   "bajada": "El magistrado estima el recurso de la defensa de la esposa del presidente del Gobierno y deja sin efecto las comparecencias previstas para este viernes, después de que la defensa de Gómez solicitara suspenderlas.",
+   "titulo": "“En el Gobierno siempre van a tener una aliada”: Sheinbaum respalda a Los Tigres del Norte tras la polémica por el discurso recortado en el Tiny Desk",
+   "bajada": "La mandataria afirmó que la agrupación y los mexicanos en Estados Unidos tienen una aliada en el Ejecutivo, después de los señalamientos sobre la edición del video difundido por NPR.",
    "fuente": "infobae.com",
-   "t": 1792416940000
+   "t": 1792424111000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este lunes 19 de octubre, minuto a minuto",
+   "bajada": "La divisa oficial opera a $1540 para la venta en el Banco Nación; el dólar blue cotiza a $1555 para esa operación; qué pasa con el MEP y el CCL.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792423873000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Javier Milei y sus medidas, EN VIVO: “La casta, la alta política, los empresaurios y los periodistas no son muy distintos”",
+   "bajada": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792423837000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "ARBA lanza un plan de pagos de impuestos con descuentos de hasta el 40%",
+   "bajada": "Los presentará la ARBA y abarcará Ingresos Brutos, Sellos, Inmobiliario Básico y Complementario y Automotor y Embarcaciones Deportivas; no presentar pasivos será condición obligatoria para los beneficios en 2027.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792423830000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Una jueza de Florida firma una orden de arresto contra Raúl Castro por el el derribo de dos aviones humanitarios en 1996",
+   "bajada": "La jueza principal Ariana Fajardo Orshan, del Undécimo Circuito Judicial de Florida, dispuso la detención estatal del expresidente cubano. El fiscal general James Uthmeier ratificó que se acusa al ex mandatario del delito de conspiración para cometer asesinato en primer grado.",
+   "fuente": "clarin.com",
+   "t": 1792423308000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Quiniela Nacional: resultado del sorteo de la Primera de hoy, lunes 19 de octubre",
+   "bajada": "Conocé los números ganadores, cuáles salieron hoy a la cabeza y todo lo que necesitás saber.",
+   "fuente": "clarin.com",
+   "t": 1792423271000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Florida inculpa a expresidente cubano Raúl Castro por derribo de avionetas en 1996",
+   "bajada": "Florida acusa al exlíder cubano por el derribo de avionetas en 1996, que dejó cuatro muertos. Emiten orden por conspiración para homicidio. La denuncia estatal se suma a la federal, destacando la independencia de los procesos judiciales en EE.UU. en medio de tensiones con Cuba.",
+   "fuente": "clarin.com",
+   "t": 1792423210000
+  },
+  {
+   "tema": "música",
+   "titulo": "\"Celebrando a Charly y el rock nacional\"",
+   "bajada": "",
+   "fuente": "El Litoral",
+   "t": 1792423054000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Tini Stoessel anunció un nuevo álbum y reflotó el escándalo con su padre: el detalle que generó revuelo",
+   "bajada": "",
+   "fuente": "Lmneuquen.com",
+   "t": 1792422840000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¿La NBA arranca sin Stephen Curry?",
+   "bajada": "A días del inicio de una nueva temporada, la estrella de los Warriors tuvo que abandonar la práctica abierta del equipo por una molestia en el tobillo derecho.",
+   "fuente": "ole.com.ar",
+   "t": 1792422307000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con quién fue Enzo Pérez a la popular de River en el Kempes",
+   "bajada": "El héroe de Madrid sorprendió a todos en la cabecera visitante con un grupo muy especial que comparte su misma devoción por River desde la infancia.",
+   "fuente": "ole.com.ar",
+   "t": 1792422166000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La lesión de Vincent Kompany que lo obligaría a dirigir sentado al Bayern Munich ante el Arsenal",
+   "bajada": "El entrenador belga atraviesa un problema físico que le impidió moverse con normalidad ante Leipzig el pasado fin de semana. Su presencia en el banco está prevista, pero hay una incógnita.",
+   "fuente": "ole.com.ar",
+   "t": 1792422117000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Premios ACE 2026: todos los detalles de la 35ª ceremonia que distingue lo mejor del teatro argentino",
+   "bajada": "Este lunes a la noche, en El Nacional, se realizará la entrega de las estatuillas a los más destacados de la última temporada. \"Company\" es la obra que llega con más nominaciones, 11, una más que las que consiguió \"Billy Elliot\". A pesar de que se había anunciado, la fiesta no se televisará por Canal 7 (ex TV Pública).",
+   "fuente": "clarin.com",
+   "t": 1792421468000
+  },
+  {
+   "tema": "política",
+   "titulo": "Estados Unidos propuso disolver el comité especial de Naciones Unidas donde Argentina sostiene el reclamo por Malvinas",
+   "bajada": "\"Dejó de cumplir su propósito\", dijo la representante estadounidense sobre el Comité Especial de Descolonización.",
+   "fuente": "clarin.com",
+   "t": 1792420295000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Sarmiento vs Barracas Central, EN VIVO: a qué hora es, formaciones y cómo ver el partido del Torneo Clausura",
+   "bajada": "El Verde recibe al Guapo por la fecha 13 de la Liga Profesional, en el estadio Eva Perón de Junín. Seguí el minuto a minuto en Clarín.",
+   "fuente": "clarin.com",
+   "t": 1792419628000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Newell's vs Central Córdoba (SdE), EN VIVO: a qué hora juegan, formaciones y cómo ver el partido del Torneo Clausura",
+   "bajada": "La Lepra recibe al Ferroviario por la fecha 13 de la Liga Profesional, en el estadio Marcelo Bielsa de Rosario. Seguí el minuto a minuto en Clarín.",
+   "fuente": "clarin.com",
+   "t": 1792419540000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Deportivo Riestra vs Unión, EN VIVO: a qué hora es, formaciones y cómo ver el partido por el Torneo Clausura",
+   "bajada": "El Malevo recibe al Tatengue por la fecha 13 de la Liga Profesional, en el Estadio Guillermo Laza. Seguí el minuto a minuto en Clarín.",
+   "fuente": "clarin.com",
+   "t": 1792419233000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "La salud del Papa: entre una recuperación increíble y la cautela de un famoso especialista de Milán",
+   "bajada": "Aunque la gira por Uruguay, Argentina y Perú está programada entre el 6 y el 17 de noviembre, los médicos desaconsejan trayectos tan extensos a poco tiempo de la intervención. Sin embargo, el pontífice podría realizar la actividad planificada gracias al acompañamiento de un equipo médico especializado.",
+   "fuente": "clarin.com",
+   "t": 1792419168000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "La inesperada muerte del periodista Gastón \"Pampa\" Leturia: \"Hasta el próximo asado, mono\"",
+   "bajada": "Trabajó en los diarios Olé y Clarín entre 1996 y 2023. Ahora estaba en el equipo de comunicación del Ministerio de Seguridad de la Ciudad. Este domingo hacía un asado para el Día de la Madre en Santa Rosa, se descompensó y falleció de un infarto. Tenía 52 años.",
+   "fuente": "clarin.com",
+   "t": 1792418730000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Rating del domingo: un Día de la Madre con bajo encendido a la tarde y una gala de delantales negros en MasterChef Celebrity",
+   "bajada": "Los planes familiares lejos de la TV les ganaron a los programas de los canales de aire. El Top Five estuvo repartido entre Telefe y El Trece y tuvo seis programas en la tabla. La gala de eliminación del reality de cocina pasó para este lunes. Los más vistos de cada señal.",
+   "fuente": "clarin.com",
+   "t": 1792418718000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El Gobierno dio luz verde a una inversión de Mindlin y Sielecki por más de US$ 3.200 millones en Vaca Muerta",
+   "bajada": "Son dos proyectos RIGI de la empresa TGS para procesar y exportar líquidos del gas natural. Incluyen un caño de 577 kilómetros y aportarían ventas al exterior por US$ 1.100 millones anuales desde 2030.",
+   "fuente": "clarin.com",
+   "t": 1792418403000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Básquetbol: Adelante Reconquista y la Escuela Municipal Racing Club disputaron un encuentro amistoso",
+   "bajada": "",
+   "fuente": "ReconquistaHOY",
+   "t": 1792418227000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Elecciones en Brasil: afirman que el frustrante debate del domingo \"no moverá la aguja\" y otra encuesta reafirma el empate",
+   "bajada": "La ausencia de propuestas y la intención de ir a la pelea desacreditó el encuentro entre Lula y Bolsonaro del domingo. BTG/Nexus difundió este lunes su último sondeo que reafirma el empate, con una diferencia para Bolsonaro de 50,3% de los votos válidos contra 49,7% de Lula.",
+   "fuente": "clarin.com",
+   "t": 1792417836000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Uno de los rubros más afectados de la industria reclamó que el RIGI impulse a otros sectores: \"Sería un desperdicio\"",
+   "bajada": "La cámara de empresas metalúrgicas reclamó que las inversiones en minería y energía \"traccionen\" a otros rubros como proveedores. La metalurgia cayó 5,3% en lo que va del año, informó Adimra.",
+   "fuente": "clarin.com",
+   "t": 1792417000000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Mató a golpes a su pareja y se lo confesó a su mamá: \"Me mandé una cagada\"",
+   "bajada": "Cristian Navarro le fracturó el cráneo a Aldana Novik Rojas durante una discusión en Valeria del Mar. Fue detenido tras contarle a un amigo lo que había hecho y dónde estaba.",
+   "fuente": "clarin.com",
+   "t": 1792416882000
   },
   {
    "tema": "recitales",
@@ -51,18 +198,11 @@
    "t": 1792416726000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Fútbol top en medio del caos: PSG-Barcelona en París",
-   "bajada": "El gobierno francés confirmó el partido por la Champions en medio de posibles toques de queda y estado de emergencia por los disturbios y saqueos.",
-   "fuente": "ole.com.ar",
-   "t": 1792416191000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca en VIVO: la práctica en Brasil, Paredes y más noticias de hoy lunes 19 de octubre",
-   "bajada": "El Xeneize se prepara para la revancha de este martes en el Maracaná ante Vasco Da Gama por la semifinal de la Copa Sudamericana.",
-   "fuente": "ole.com.ar",
-   "t": 1792415786000
+   "tema": "política",
+   "titulo": "Con el respaldo de la política nacional, cuatro listas de abogados compiten en las elecciones del Consejo de la Magistratura",
+   "bajada": "Será en los comicios de este martes. Es para elegir a los cuatro representantes de ese estamento en el órgano que selecciona y sanciona a los jueces nacionales y federales. La UCR, el PJ y el kirchnerismo, el PRO y La Libertad Avanza de lleno en las listas. La palabra de los candidatos.",
+   "fuente": "clarin.com",
+   "t": 1792416387000
   },
   {
    "tema": "fútbol",
@@ -72,25 +212,11 @@
    "t": 1792415000000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Modern Love: ¿Por qué mi esposo se está casando con ella?",
-   "bajada": "Era lindo, divertido, y no era para mí en absoluto. ¿O sí?",
-   "fuente": "clarin.com",
-   "t": 1792414864000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El canciller ruso llega a Irán en medio de los esfuerzos de Moscú por mediar en la guerra",
-   "bajada": "El jefe diplomático ruso visita Irán para mediar en el conflicto en Oriente Medio y evitar una guerra de gran magnitud, tras meses de tensiones. Rusia e Irán, ambos bajo fuertes sanciones, buscan fortalecer sus lazos políticos y militares mientras Moscú intenta estabilizar la región.",
-   "fuente": "clarin.com",
-   "t": 1792414812000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Alba Aguilera, la pescadora que alerta sobre el futuro del oficio: \"Si con 25 años soy la más joven de España, es que no hay relevo generacional\"",
-   "bajada": "La barcelonesa es una de las pocas jóvenes que se dedica al oficio. Se levanta todos los días a las 4 AM para trabajar en el puerto y además concientiza sobre el cuidado del mar en redes sociales.",
-   "fuente": "clarin.com",
-   "t": 1792414721000
+   "tema": "fútbol",
+   "titulo": "Boca en Río: banderazo, expectativa por Paredes y el equipo para enfrentar a Vasco",
+   "bajada": "",
+   "fuente": "Perfil",
+   "t": 1792414939000
   },
   {
    "tema": "economía",
@@ -107,16 +233,9 @@
    "t": 1792414140000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El polémico gesto de Ladstatter a los hinchas de Estudiantes tras el triunfo de San Lorenzo",
-   "bajada": "El delantero protagonizó un festejo que generó repercusión luego de la agónica victoria del Ciclón en La Plata. Las cámaras captaron su reacción y una frase dirigida a la tribuna local.",
-   "fuente": "ole.com.ar",
-   "t": 1792413172000
-  },
-  {
    "tema": "política",
    "titulo": "El Gobierno presentó un nuevo régimen de retiros voluntarios para empleados públicos nacionales",
-   "bajada": "La medida se oficializó este lunes en el Boletín Oficial, con firmas de Milei, Santilli y Sturzenegger. Cerca de 20 mil empleados son elegibles para tomarlo. Si lo hacen, no podrán volver a la administración pública en el futuro.",
+   "bajada": "La medida se oficializó este lunes en el Boletín Oficial, con firmas de Milei, Santilli y Sturzenegger. Cerca de 20 mil empleados son elegibles para tomarlo. Si lo hacen, no podrán volver a la administración pública en el futuro. Desde ATE anunciaron una movilización a la Quinta de Olivos en rechazo de la medida.",
    "fuente": "clarin.com",
    "t": 1792412657000
   },
@@ -128,60 +247,11 @@
    "t": 1792412640000
   },
   {
-   "tema": "economía",
-   "titulo": "El Gobierno formalizó la aprobación de otro RIGI en Vaca Muerta, con una inversión total de 12 mil millones de dólares",
-   "bajada": "Se trata del proyecto Bajo del Choique–La Invernada de la empresa Pluspetrol, que se destinará al desarrollo no convencional de hidrocarburos en Vaca Muerta La aprobación había sido anunciada en la Argentina Week de París.",
-   "fuente": "clarin.com",
-   "t": 1792412468000
-  },
-  {
-   "tema": "política",
-   "titulo": "Nueva encuesta electoral con tres buenas noticias para Javier Milei",
-   "bajada": "Es un estudio nacional de la consultora Proyección, que suele trabajar más cerca de la oposición. Midió distintos escenarios de cara a las presidenciales del año próximo.",
-   "fuente": "clarin.com",
-   "t": 1792412461000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El viejo orden mundial ha terminado. Esto es lo que podría venir después",
-   "bajada": "A estas alturas, para la mayor parte de EE.UU. y gran parte del mundo, es evidente que Estados Unidos y lo que representa han cambiado.",
-   "fuente": "clarin.com",
-   "t": 1792412394000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "El ranking ATP se sacude: Sinner sigue como número uno, Djokovic vuelve a salir del top ten y diez argentinos resisten entre los cien mejores",
-   "bajada": "El italiano conserva el liderazgo, aunque Alexander Zverev ya tiene asegurado terminar 2026 en la cima. Francisco Cerúndolo sigue siendo el mejor tenista nacional, Etcheverry regresó al Top 30 y Báez y Tirante ganaron cuatro lugares cada uno.",
-   "fuente": "clarin.com",
-   "t": 1792412243000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Tres jóvenes murieron al ser atropellados por una camioneta en la ruta mientras cambiaban una goma pinchada",
-   "bajada": "Hubo otros dos heridos y se investigan las circunstancias del accidente. Ocurrió este sábado sobre la Ruta Nacional 65, en Santa Fe.",
-   "fuente": "clarin.com",
-   "t": 1792412038000
-  },
-  {
-   "tema": "política",
-   "titulo": "Javier Milei, EN VIVO: Karina Milei visita la cárcel de Devoto antes de la llegada del Papa León XIV a la Argentina",
-   "bajada": "La secretaria general de la presidencia encabeza el acto junto a los ministros Santilli y Monteoliva. Esta noche, el presidente Javier Milei viaja a España. Por la tarde, habrá conferencia de prensa del vocero presidencial.",
-   "fuente": "clarin.com",
-   "t": 1792411648000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Crónica de una recuperación milagrosa: Paredes, listo para llevar a Boca a la final",
+   "tema": "música",
+   "titulo": "Semana Charly: conciertos gratis por los 75 años de Charly García, con horarios, sedes y cómo conseguir lugar",
    "bajada": "",
-   "fuente": "Olé",
-   "t": 1792411498000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Cómo sigue la salud del papa León XIV: confirman que presidirá la audiencia general del miércoles, pero evitará un viaje de rutina",
-   "bajada": "El Sumo Pontífice seguirá su recuperación en El Vaticano y va retomando gradualmente su agenda. Se suspendió el traslado a la residencia de Castelgandolfo, donde solía descansar los lunes y martes antes de la operación.",
-   "fuente": "clarin.com",
-   "t": 1792411438000
+   "fuente": "El Economista - Últimas noticias económicas y financieras",
+   "t": 1792411680000
   },
   {
    "tema": "espectáculos",
@@ -191,27 +261,6 @@
    "t": 1792411216000
   },
   {
-   "tema": "música",
-   "titulo": "Skay y Los Fakires llegan a Quilmes en noviembre",
-   "bajada": "",
-   "fuente": "Diario EL SOL",
-   "t": 1792411087000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Impacto en el tenis: Svitolina se separó de Gael Monfils cinco años después de su casamiento con una brutal carta a corazón abierto",
-   "bajada": "La ucraniana habló de su lucha personal y psicológica derivada de la guerra con Rusia. Tienen una hija de cuatro años en común, Skai.",
-   "fuente": "clarin.com",
-   "t": 1792410840000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo llegará el pico de las fuertes lluvias y cómo cambiará el clima en el país",
-   "bajada": "El Servicio Meteorológico Nacional ya anticipó que el fenómeno alcanzará en el centro-este argentino una intensidad \"fuerte o muy fuerte\". Hay riesgo alto de graves inundaciones por la anomalía climática.",
-   "fuente": "clarin.com",
-   "t": 1792410366000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Quién es el nuevo líder de la barra de Racing a partir de Independiente",
    "bajada": "",
@@ -219,46 +268,11 @@
    "t": 1792407519000
   },
   {
-   "tema": "economía",
-   "titulo": "Euro hoy en Venezuela: precio y cotización de la divisa este lunes 19 de octubre de 2026",
-   "bajada": "Mirá la cotización del euro en Venezuela, su variación y los valores de referencia. Cómo es la tendencia de la moneda europea en lo que va del año.",
-   "fuente": "clarin.com",
-   "t": 1792406713000
-  },
-  {
    "tema": "fútbol",
    "titulo": "La jugada temprana que pudo haber cambiado el rumbo del Clásico de Avellaneda",
    "bajada": "",
    "fuente": "InfiernoRojo.com",
    "t": 1792406083000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 19 de octubre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1792404905000
-  },
-  {
-   "tema": "música",
-   "titulo": "COSQUÍN: FPA APREHENDIÓ A DOS SUJETOS Y SECUESTRÓ ESTUPEFACIENTES DURANTE UN RECITAL DE ROCK",
-   "bajada": "",
-   "fuente": "Ministerio Público Fiscal Córdoba",
-   "t": 1792403407000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "\"Defensa siciliana\" y \"apertura española\": Davidovich Fokina, el tenista que cambió su cabeza con el ajedrez y levantó su trofeo más importante en Shanghai",
-   "bajada": "Superó a Rafael Jódar en la final del Masters 1000 de Shanghai, donde levantó su tercer trofeo ATP y se convirtió en el primer campeón español de ese torneo. Gracias a la victoria trepó al 13° puesto del ranking.",
-   "fuente": "clarin.com",
-   "t": 1792400416000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Después de 26 años, la Filarmónica de Berlín se presenta en el Teatro Colón y sus protagonistas adelantan cómo serán los conciertos",
-   "bajada": "En un encuentro de prensa internacional y virtual, Clarín entrevistó al director, Kirill Petrenko, a la directora de la fundación de la Filarmónica (Andrea Zietzschmann) y a la violinista Eva-Maria Tomasi. Las funciones serán miércoles 21, jueves 22 y viernes 23, con dos programas diferentes.",
-   "fuente": "clarin.com",
-   "t": 1792400416000
   },
   {
    "tema": "tecnología",
@@ -289,25 +303,18 @@
    "t": 1792381221000
   },
   {
-   "tema": "recitales",
-   "titulo": "Tini Stoessel canceló su show en Miami media hora antes del inicio: el comunicado de la productora",
-   "bajada": "",
-   "fuente": "La 100",
-   "t": 1792374485000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El uno por uno de River en la goleada ante Belgrano en Córdoba",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792374264000
-  },
-  {
    "tema": "fútbol",
    "titulo": "¡GOLAZO Y TRIUNFAZO!",
    "bajada": "",
    "fuente": "San Lorenzo",
    "t": 1792370306000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Belgrano vs. River Plate (18 de Oct., 2026) Resultados en Vivo",
+   "bajada": "",
+   "fuente": "ESPN Argentina",
+   "t": 1792365537000
   },
   {
    "tema": "fútbol",
@@ -322,13 +329,6 @@
    "bajada": "",
    "fuente": "La Nación",
    "t": 1792364100000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Lo que pudo haber sido...",
-   "bajada": "",
-   "fuente": "Racing Club - Sitio Oficial",
-   "t": 1792354587000
   }
  ]
 }
