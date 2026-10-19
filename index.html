@@ -256,6 +256,9 @@ window.RADIO_CONFIG = {
   #previa-mp3 audio { width: 100%; max-width: 360px; }
   .cancion-aire { border-bottom: 1px solid var(--line); padding: 8px 0; }
   .cancion-aire summary { cursor: pointer; font-weight: 700; }
+  .menos { margin-right: 10px; min-width: 30px; height: 26px; padding: 0 8px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--fg); font-weight: 800; cursor: pointer; vertical-align: middle; }
+  .menos:hover { border-color: var(--live); color: var(--live); }
+  .menos.armado { background: var(--live); border-color: var(--live); color: #fff; }
   .cancion-aire[open] .moderar { border-bottom: 0; padding-top: 12px; }
   footer { color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
   .enlace { background: none; border: 0; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; font-size: .85rem; }
@@ -273,7 +276,7 @@ window.RADIO_CONFIG = {
     </div>
     <div class="clima" aria-live="polite"><span id="ba-hora">--:--</span><span id="ba-temp">Buenos Aires</span></div>
     <p class="dato-boludo" id="dato-boludo"></p>
-    <div class="elige" id="elige"><strong>Elegí una radio para empezar a escuchar</strong><span>Tocá Rock Nacional o Rock Internacional</span></div>
+    <div class="elige" id="elige"><strong>Elegí una radio y dejate sorprender</strong><span>Acá no elegís qué suena. Suena. Y lo escuchamos todos al mismo tiempo.</span></div>
     <nav class="dial" id="dial" aria-label="Radios en vivo"></nav>
   </header>
 
@@ -332,7 +335,7 @@ window.RADIO_CONFIG = {
     </div>
 
     <aside>
-      <div class="misterio" style="margin:0 0 18px">¿Qué viene después? Solo Galo y Nake lo saben. Quédate escuchando.</div>
+      <div class="misterio" style="margin:0 0 18px">¿Qué viene después? No lo sabés, y esa es la gracia. Quedate.</div>
       <h2>Lo que sonó</h2>
       <ol id="historial"></ol>
       <div class="chat">
@@ -386,7 +389,8 @@ window.RADIO_CONFIG = {
 
   <section class="dos" id="solicitudes">
     <div>
-      <h3>Pide tu canción</h3>
+      <h3>Pedí tu canción</h3>
+      <p class="nota-chica" style="margin:0 0 10px">Pedila y esperala. Cuando suene, va a sonar para todos.</p>
       <form id="pedido">
         <div class="campos">
           <p class="ancho nota-chica" style="margin:0">Solo escribí el nombre de la canción y la banda. Nosotros la buscamos en YouTube y la sumamos a la radio. Si ya tenés el link, pegalo y entra más rápido.</p>
@@ -412,9 +416,19 @@ window.RADIO_CONFIG = {
 
   <section class="nosotros">
     <div>
+      <h3>¿Por qué una radio?</h3>
+      <p>Porque nos cansamos del skip. De tener todas las canciones del mundo a un toque y no escuchar ninguna entera.</p>
+      <p>Una radio no te pregunta qué querés: te sorprende. Y cuando de repente suena ese tema que te encanta, la emoción es otra. No lo pusiste vos, te tocó.</p>
+      <p>Acá todos escuchamos lo mismo al mismo tiempo, estemos donde estemos. No se puede adelantar ni elegir el próximo. Es volver a lo tangible, a lo analógico, a compartir algo de verdad.</p>
+      <p>Contra la dopamina de lo instantáneo, un poco de espera y mucho rock.</p>
+    </div>
+  </section>
+
+  <section class="nosotros">
+    <div>
       <h3>Quiénes somos</h3>
-      <p>Somos Galo y Nake. Tenemos 20 años, estudiamos Economía y los dos tocamos la guitarra.</p>
-      <p>Nos encanta el rock, así que armamos esta radio para pasar los temas que nos gustan y los que nos recomiendan ustedes. Cada canción que suena la elegimos nosotros.</p>
+      <p>Somos Galo y Nake, dos amigos de 20 años que estudian Economía y tocan la guitarra.</p>
+      <p>Armamos esta radio porque extrañábamos que una canción te encuentre a vos, en vez de salir a buscarla. Elegimos cada tema a mano: los nuestros y los que nos recomiendan ustedes.</p>
       <div class="redes">
         <a href="https://instagram.com/galomoron__" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset=".35" stop-color="#fa7e1e"/><stop offset=".6" stop-color="#d62976"/><stop offset="1" stop-color="#4f5bd5"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#igg)"/><rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" stroke-width="2"/><circle cx="16.3" cy="7.7" r="1.1" fill="#fff"/></svg> Galo · @galomoron__</a>
         <a href="https://x.com/GaloMoron" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#000"/><path d="M6.5 6.5h3.2l2.7 3.7 3.1-3.7h1.6l-4 4.7 4.4 6.3h-3.2l-2.9-4.1-3.5 4.1H6.3l4.4-5.1z" fill="#fff"/></svg> Galo · @GaloMoron</a>
@@ -491,7 +505,7 @@ window.RADIO_CONFIG = {
     </div>
     <div>
       <h2>Canciones al aire</h2>
-      <p class="nota-chica" style="margin:0 0 10px">Busquen un tema y tóquenlo para corregir sus datos (nombre, banda, disco, año) o sacarlo de la radio. También pueden corregir el que está sonando con "✏️ Corregir este tema", abajo de la ficha.</p>
+      <p class="nota-chica" style="margin:0 0 10px">Busquen un tema y tóquenlo para corregir sus datos (nombre, banda, disco, año). Para sacarlo de la radio, toquen el "−" de al lado y después "¿Sacar?". También pueden corregir el que está sonando con "✏️ Corregir este tema", abajo de la ficha.</p>
       <input type="search" id="buscar-aire" placeholder="Buscar en todas las canciones (tema, banda o disco)…" style="width:100%;margin-bottom:10px">
       <div id="al-aire"></div>
     </div>
@@ -782,10 +796,13 @@ const paso = (it) => Math.max(it.dur - XF, Math.min(it.dur, 10)) * 1000;
 // Nunca repite un tema de los últimos 25 ni la misma banda que los últimos 2.
 const PESO = { 1: 1, 2: 1.4, 3: 2, 4: 2.8, 5: 3.6 };
 const popDe = (s) => s.pop || 4; // lo aprobado a mano cuenta como conocido
+// Bandas que suenan menos seguido: 0.5 = la mitad de chances. Para sumar otra: "nombre de la banda": 0.5
+const MENOS_SEGUIDO = { "van halen": 0.5 };
+const pesoDe = (s) => PESO[popDe(s)] * (MENOS_SEGUIDO[normB(String(s.banda).split(",")[0])] ?? 1);
 function sortear(lista) {
-  const total = lista.reduce((t, s) => t + PESO[popDe(s)], 0);
+  const total = lista.reduce((t, s) => t + pesoDe(s), 0);
   let r = Math.random() * total;
-  for (const s of lista) { r -= PESO[popDe(s)]; if (r <= 0) return s; }
+  for (const s of lista) { r -= pesoDe(s); if (r <= 0) return s; }
   return lista.at(-1);
 }
 function elegirTema(radio, pool, lista) {
@@ -796,7 +813,7 @@ function elegirTema(radio, pool, lista) {
   if (!base.length) base = pool;
   const disco = discoDelDia(radio);
   if (disco && Math.random() < 0.12) { const d = base.filter((s) => disco.temas.some((t) => t.id === s.id)); if (d.length) return d[Math.floor(Math.random() * d.length)]; }
-  if (lista.length % 3 === 0) { const c = base.filter((s) => popDe(s) >= 4); if (c.length) return c[Math.floor(Math.random() * c.length)]; }
+  if (lista.length % 3 === 0) { const c = base.filter((s) => popDe(s) >= 4); if (c.length) return sortear(c); }
   return sortear(base);
 }
 function planificar(radio) {
@@ -1218,7 +1235,7 @@ function pintarAdmin() {
     g.dataset.id = "grupo-" + r.id;
     for (const s of deEsta) {
       const d = el("details", { className: "cancion-aire", open: abiertos.has(s.id) },
-        el("summary", { textContent: `${tema(s)}${s.mp3 ? " · MP3" : ""}` }), ficha(s, "aprobada"));
+        el("summary", {}, botonMenos(s), `${tema(s)}${s.mp3 ? " · MP3" : ""}`), ficha(s, "aprobada"));
       d.dataset.id = s.id;
       g.append(d);
     }
@@ -1227,6 +1244,18 @@ function pintarAdmin() {
   pintarFila();
 }
 
+// Botón "−": primer toque pide confirmar, el segundo (dentro de 3 segundos) saca el tema de la radio.
+function botonMenos(s) {
+  let armado = null;
+  const b = el("button", { className: "menos", type: "button", textContent: "−", title: "Sacar de la radio" });
+  b.onclick = async (e) => {
+    e.preventDefault(); e.stopPropagation();
+    if (!armado) { b.textContent = "¿Sacar?"; b.classList.add("armado"); armado = setTimeout(() => { armado = null; b.textContent = "−"; b.classList.remove("armado"); }, 3000); return; }
+    clearTimeout(armado); b.disabled = true; b.textContent = "…";
+    try { await B.actualizar(s.id, { estado: "rechazada" }); } catch (err) { console.error(err); b.disabled = false; b.textContent = "−"; b.classList.remove("armado"); armado = null; }
+  };
+  return b;
+}
 let buscarAireT = null;
 $("buscar-aire").addEventListener("input", () => { clearTimeout(buscarAireT); buscarAireT = setTimeout(pintarAdmin, 250); });
 let arrastre = null;
@@ -2354,7 +2383,7 @@ function decir(texto) {
   speechSynthesis.speak(u);
 }
 // ------------------------------------------------------------ Voz neural pregenerada (colección "locutor")
-const GUION = ["¡Esto es Radio Galo y Nake! Subile, que esto recién empieza.", "Estás escuchando Radio Galo y Nake: rock del bueno, sin publicidad y sin vergüenza.", "Radio Galo y Nake. Dos guitarras, un micrófono y cero presupuesto.", "Nake, subile el volumen que este tema es una masa.", "Galo, dejá de afinar que estamos al aire.", "Si te gusta lo que suena, dale me gusta. Si no te gusta… también, total no se nota.", "Pedí tu tema en la página. Nosotros lo escuchamos… y después decidimos.", "Radio Galo y Nake: la radio que tu viejo escucharía si supiera usar la compu.", "Desde zona norte para todo el mundo. Bueno, para los que entren.", "Acá no hay algoritmo. Hay dos pibes eligiendo temas.", "Rock nacional, rock internacional y algún que otro capricho nuestro.", "Estás en Radio Galo y Nake. Ponete cómodo, que esto sigue.", "Un clásico más en Radio Galo y Nake. Si no lo cantás, revisate.", "¿Te gustó? Mandanos un mensaje en el chat. ¿No te gustó? También, pero con respeto.", "Esto es Radio Galo y Nake, y vos tenés buen gusto por estar acá.", "Galo y Nake, estudiantes de Economía de día, locutores de noche.", "La inflación sube, pero el volumen de esta radio sube más.", "Nake, ¿quién eligió este tema? Ah, fui yo. Buena elección.", "Ningún tema de esta radio pasó por un focus group.", "Radio Galo y Nake: hecha a pulmón, con mate y con rock.", "Si estás manejando, cuidate. Si estás estudiando, también. Nosotros te acompañamos.", "Seguimos. Que suene fuerte, que se enteren los vecinos.", "Esto no es Spotify. Esto es mejor: esto tiene onda.", "Pedí tu tema con dedicatoria y te lo leemos al aire.", "Gracias por estar del otro lado. En serio.", "Estás escuchando Rock Nacional en Radio Galo y Nake.", "Estás escuchando Rock Internacional en Radio Galo y Nake.", "Nake, contá un chiste. … Mejor no, sigamos con la música.", "Radio Galo y Nake: el rock no murió, se vino a vivir acá.", "Volvemos con más música. No te vayas, que lo mejor está por sonar.", "Esto que viene es para los que todavía usan auriculares con cable.", "Sonando fuerte desde algún cuarto de Buenos Aires.", "Bienvenidos a los que recién llegan. A los que ya estaban: ustedes son de la casa.", "Este tema va para los que estudian con música y después se quejan de que no rinden.", "Radio Galo y Nake: guitarra, batería, bajo, y algún solo que te vuela la cabeza.", "Si te gusta la radio, compartila. Si no, compartila igual, que somos pocos.", "Galo y Nake, en vivo y en directo. Bueno, más o menos en directo.", "Hora de un clásico. Subí el volumen, bajá las expectativas, y disfrutá.", "Esto no lo pasa ninguna otra radio. Bueno, capaz sí, pero acá suena mejor.", "La música sigue. El rock sigue. Nosotros seguimos.", "Nake, ¿estamos al aire? … Ah, sí. Hola a todos.", "Desde la tribuna de la música: Radio Galo y Nake.", "Un tema más y nos vamos. Mentira, esto no termina nunca.", "Radio Galo y Nake: la previa perfecta, el after perfecto, y todo lo del medio.", "Este es para cantar con la ventana abierta.", "Si llegaste hasta acá, ya sos parte de la radio.", "Los temas los elegimos nosotros, pero el volumen lo elegís vos.", "Radio Galo y Nake. Rock para los que saben, y para los que están aprendiendo.", "Seguimos con música. Mandá saludos en el chat y te los leemos.", "Esto fue Radio Galo y Nake… y seguimos siendo. Que siga sonando."];
+const GUION = ["¡Esto es Radio Galo y Nake! Subile, que esto recién empieza.", "Estás escuchando Radio Galo y Nake: rock del bueno y sin vergüenza.", "Radio Galo y Nake. Dos guitarras, un micrófono y cero presupuesto.", "Nake, subile el volumen que este tema es una masa.", "Galo, dejá de afinar que estamos al aire.", "Si te gusta lo que suena, dale me gusta. Si no te gusta… también, total no se nota.", "Pedí tu tema en la página. Nosotros lo escuchamos… y después decidimos.", "Radio Galo y Nake: la radio que tu viejo escucharía si supiera usar la compu.", "Desde zona norte para todo el mundo. Bueno, para los que entren.", "Acá no hay algoritmo. Hay dos pibes eligiendo temas.", "Rock nacional, rock internacional y algún que otro capricho nuestro.", "Estás en Radio Galo y Nake. Ponete cómodo, que esto sigue.", "Un clásico más en Radio Galo y Nake. Si no lo cantás, revisate.", "¿Te gustó? Mandanos un mensaje en el chat. ¿No te gustó? También, pero con respeto.", "Esto es Radio Galo y Nake, y vos tenés buen gusto por estar acá.", "Galo y Nake, estudiantes de Economía de día, locutores de noche.", "La inflación sube, pero el volumen de esta radio sube más.", "Nake, ¿quién eligió este tema? Ah, fui yo. Buena elección.", "Ningún tema de esta radio pasó por un focus group.", "Radio Galo y Nake: hecha a pulmón, con mate y con rock.", "Si estás manejando, cuidate. Si estás estudiando, también. Nosotros te acompañamos.", "Seguimos. Que suene fuerte, que se enteren los vecinos.", "Esto no es Spotify. Esto es mejor: esto tiene onda.", "Pedí tu tema con dedicatoria y te lo leemos al aire.", "Gracias por estar del otro lado. En serio.", "Estás escuchando Rock Nacional en Radio Galo y Nake.", "Estás escuchando Rock Internacional en Radio Galo y Nake.", "Nake, contá un chiste. … Mejor no, sigamos con la música.", "Radio Galo y Nake: el rock no murió, se vino a vivir acá.", "Volvemos con más música. No te vayas, que lo mejor está por sonar.", "Esto que viene es para los que todavía usan auriculares con cable.", "Sonando fuerte desde algún cuarto de Buenos Aires.", "Bienvenidos a los que recién llegan. A los que ya estaban: ustedes son de la casa.", "Este tema va para los que estudian con música y después se quejan de que no rinden.", "Radio Galo y Nake: guitarra, batería, bajo, y algún solo que te vuela la cabeza.", "Si te gusta la radio, compartila. Si no, compartila igual, que somos pocos.", "Galo y Nake, en vivo y en directo. Bueno, más o menos en directo.", "Hora de un clásico. Subí el volumen, bajá las expectativas, y disfrutá.", "Esto no lo pasa ninguna otra radio. Bueno, capaz sí, pero acá suena mejor.", "La música sigue. El rock sigue. Nosotros seguimos.", "Nake, ¿estamos al aire? … Ah, sí. Hola a todos.", "Desde la tribuna de la música: Radio Galo y Nake.", "Un tema más y nos vamos. Mentira, esto no termina nunca.", "Radio Galo y Nake: la previa perfecta, el after perfecto, y todo lo del medio.", "Este es para cantar con la ventana abierta.", "Si llegaste hasta acá, ya sos parte de la radio.", "Los temas los elegimos nosotros, pero el volumen lo elegís vos.", "Radio Galo y Nake. Rock para los que saben, y para los que están aprendiendo.", "Seguimos con música. Mandá saludos en el chat y te los leemos.", "Esto fue Radio Galo y Nake… y seguimos siendo. Que siga sonando."];
 GUION.forEach((f) => $("guion").append(el("li", { textContent: f })));
 const HORAS = ["Son las doce", "Es la una", "Son las dos", "Son las tres", "Son las cuatro", "Son las cinco", "Son las seis", "Son las siete", "Son las ocho", "Son las nueve", "Son las diez", "Son las once"];
 const MINUTOS = ["en punto", "y cinco", "y diez", "y cuarto", "y veinte", "y veinticinco", "y media", "y treinta y cinco", "y cuarenta", "y cuarenta y cinco", "y cincuenta", "y cincuenta y cinco"];
