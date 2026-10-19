@@ -1,7 +1,7 @@
 # Fabrica los audios del locutor de Radio Galo & Nake con una voz neural argentina (Microsoft "Tomás").
 # Lo corre GitHub Actions cada hora. Los audios quedan en la rama "voz" del repo, con un indice.json.
 # Cada frase es una oración entera (no pedacitos pegados), así suena natural.
-import asyncio, datetime, hashlib, json, os, re, time, urllib.request, zoneinfo
+import asyncio, random, datetime, hashlib, json, os, re, time, urllib.request, zoneinfo
 import edge_tts
 
 VOZ = "es-AR-TomasNeural"
@@ -60,7 +60,7 @@ def limpio(t):
 def hora_texto(h, m):
     base = NUM[h % 12]
     art = "Es la" if h % 12 == 1 else "Son las"
-    mins = {0: "en punto", 15: "y cuarto", 30: "y media", 45: "y cuarenta y cinco"}[m]
+    mins = {0: "en punto", 15: "y cuarto", 30: "y media"}.get(m) or f"y {m}"
     if h == 0: per = "de la noche"
     elif h < 6: per = "de la madrugada"
     elif h < 12: per = "de la mañana"
@@ -79,15 +79,15 @@ ahora = datetime.datetime.now(BA)
 frases["radio-nacional"] = "Estás escuchando Rock Nacional, en Radio Galo y Nake."
 frases["radio-internacional"] = "Estás escuchando Rock Internacional, en Radio Galo y Nake."
 
-# Hora y clima: cada 15 minutos para las próximas 6 horas (GitHub a veces se atrasa con la acción horaria)
+# Hora exacta (minuto a minuto) y clima para las próximas 6 horas (GitHub a veces se atrasa con la acción horaria)
 try:
     w = bajar("https://api.open-meteo.com/v1/forecast?latitude=-34.61&longitude=-58.38&hourly=temperature_2m,weather_code,precipitation_probability&forecast_hours=18&timezone=America%2FArgentina%2FBuenos_Aires")
     clima = {t[:13]: (round(tt), CIELOS.get(c, "tiempo tranquilo"), p) for t, tt, c, p in zip(w["hourly"]["time"], w["hourly"]["temperature_2m"], w["hourly"]["weather_code"], w["hourly"]["precipitation_probability"])}
 except Exception as e:
     print("Sin clima", e); clima = {}
-inicio = ahora.replace(minute=(ahora.minute // 15) * 15, second=0, microsecond=0)
-for k in range(25):
-    t = inicio + datetime.timedelta(minutes=15 * k)
+inicio = ahora.replace(second=0, microsecond=0)
+for k in range(6 * 60):
+    t = inicio + datetime.timedelta(minutes=k)
     texto = f"{hora_texto(t.hour, t.minute)} de este {DIAS[t.weekday()]} en Buenos Aires."
     c = clima.get(t.strftime("%Y-%m-%dT%H"))
     if c: texto += f" Hacen {c[0]} grados, con {c[1]}."
@@ -106,6 +106,9 @@ try:
         if not s.get("id") or not s.get("titulo"): continue
         banda = str(s.get("banda") or "").split(",")[0].strip()
         frases["tema-" + s["id"]] = f"Se viene {limpio(s['titulo'])}, de {banda}."
+        cur = re.sub(r"\s+", " ", str(s.get("curio") or "")).strip()
+        if len(cur) > 30:
+            frases["cur-" + s["id"]] = random.Random(s["id"]).choice(["Un dato de este tema:", "Un datito:", "¿Sabías esto?", "Dato de color:"]) + " " + cur
         if s.get("dedica") and s.get("creada") and time.time() * 1000 - s["creada"] < 3 * 86400000:
             frases["ded-" + s["id"]] = f"Este tema va dedicado a {s['dedica']}, de parte de {s.get('pidio') or 'un oyente'}. Suena {limpio(s['titulo'])}, de {banda}."
 except Exception as e:
@@ -114,7 +117,9 @@ except Exception as e:
 # Noticias (las arma noticias.py)
 try:
     for n in json.load(open("noticias.json", encoding="utf-8"))["items"]:
-        frases["noti-" + hashlib.sha1(n["titulo"].encode()).hexdigest()[:12]] = f"Noticias de {n['tema']}: {n['titulo']}."
+        k = hashlib.sha1(n["titulo"].encode()).hexdigest()[:12]
+        intro = random.Random(k).choice([f"Noticias de {n['tema']}:", f"Pasamos a {n['tema']}:", f"En {n['tema']}:", f"Un repaso de {n['tema']}:", f"Les cuento algo de {n['tema']}:"])
+        frases["noti-" + k] = f"{intro} {n['titulo']}. {n.get('bajada') or ''}".strip()
 except Exception as e:
     print("Sin noticias", e)
 
