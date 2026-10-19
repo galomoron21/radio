@@ -1,143 +1,334 @@
 {
- "t": 1792396078919,
+ "t": 1792417487544,
  "items": [
   {
-   "tema": "economía",
-   "titulo": "Dólar blue hoy: a cuánto cotiza este lunes 19 de octubre",
-   "fuente": "Clarin.com",
-   "t": 1792393207000
+   "tema": "actualidad",
+   "titulo": "Un viaje a Japón como premio: así será el concurso de cosplay con ramen, sushi y comida callejera en Palermo",
+   "bajada": "Dos jornadas en el Jardín Japonés con un concurso de cosplay y una edición especial de Gastro Japo Street Food, la feria con puestos de comida japonesa.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792417200000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "U2 toca en River 2027: entradas desde $120.000, mapa de ubicaciones y todas las fechas de venta",
+   "bajada": "La banda irlandesa se presentará el 23 y 25 de marzo con Beck como invitado; habrá preventas antes de la venta general y cuotas sin interés.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792417173000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "La pareja más famosa del mundo del tenis anunció su separación: “Nuestro matrimonio se está acabando”",
+   "bajada": "La tenista Elina Svitolina compartió una carta en sus redes sociales donde destacó cómo le impactó la guerra de Ucrania y los motivos detrás de la ruptura con Gael Monfils.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792417123000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Alerta roja en Gandía, Oliva o Denia por la DANA Adam, en directo: última hora de las lluvias torrenciales en Valencia, Baleares y Cataluña",
+   "bajada": "Las autoridades han pedido precaución a la población ante el peligro de inundaciones.",
+   "fuente": "infobae.com",
+   "t": 1792417032000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Por qué se canceló el show de Tini Stoessel en Miami, según la versión oficial del estadio: “Circunstancias imprevistas”",
+   "bajada": "El Kaseya Center, donde se iba a presentar la artista en los Estados Unidos, publicó un comunicado.",
+   "fuente": "infobae.com",
+   "t": 1792416945000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El juez archiva la denuncia de Vito Quiles contra Begoña Gómez por acusarlo falsamente de coacciones durante un incidente en un restaurante de Las Rozas",
+   "bajada": "El magistrado estima el recurso de la defensa de la esposa del presidente del Gobierno y deja sin efecto las comparecencias previstas para este viernes, después de que la defensa de Gómez solicitara suspenderlas.",
+   "fuente": "infobae.com",
+   "t": 1792416940000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Giacomo Benavides viajó a Miami para ver a Tini y show fue cancelado a último momento: “¿Cómo es que cancelaron el concierto?\"",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792416726000
   },
   {
    "tema": "fútbol",
-   "titulo": "Vasco da Gama vs. Boca Juniors, por la Copa Sudamericana 2026: día, hora y cómo ver online",
-   "fuente": "La Nación",
-   "t": 1792386000000
+   "titulo": "Fútbol top en medio del caos: PSG-Barcelona en París",
+   "bajada": "El gobierno francés confirmó el partido por la Champions en medio de posibles toques de queda y estado de emergencia por los disturbios y saqueos.",
+   "fuente": "ole.com.ar",
+   "t": 1792416191000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca en VIVO: la práctica en Brasil, Paredes y más noticias de hoy lunes 19 de octubre",
+   "bajada": "El Xeneize se prepara para la revancha de este martes en el Maracaná ante Vasco Da Gama por la semifinal de la Copa Sudamericana.",
+   "fuente": "ole.com.ar",
+   "t": 1792415786000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Vasco da Gama vs. Boca, por la Copa Sudamericana: hora, TV, formaciones y más",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792415000000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Modern Love: ¿Por qué mi esposo se está casando con ella?",
+   "bajada": "Era lindo, divertido, y no era para mí en absoluto. ¿O sí?",
+   "fuente": "clarin.com",
+   "t": 1792414864000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El canciller ruso llega a Irán en medio de los esfuerzos de Moscú por mediar en la guerra",
+   "bajada": "El jefe diplomático ruso visita Irán para mediar en el conflicto en Oriente Medio y evitar una guerra de gran magnitud, tras meses de tensiones. Rusia e Irán, ambos bajo fuertes sanciones, buscan fortalecer sus lazos políticos y militares mientras Moscú intenta estabilizar la región.",
+   "fuente": "clarin.com",
+   "t": 1792414812000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Alba Aguilera, la pescadora que alerta sobre el futuro del oficio: \"Si con 25 años soy la más joven de España, es que no hay relevo generacional\"",
+   "bajada": "La barcelonesa es una de las pocas jóvenes que se dedica al oficio. Se levanta todos los días a las 4 AM para trabajar en el puerto y además concientiza sobre el cuidado del mar en redes sociales.",
+   "fuente": "clarin.com",
+   "t": 1792414721000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Tras más de un mes de demora, el Gobierno prorrogó la medida que complementa los planes sociales con el trabajo rural por un año más",
+   "bajada": "A través del decreto 1204/2026, el Ejecutivo extendió la normativa hasta el 1° de septiembre de 2027. Según el gremio, la no extensión ponía en riesgo 120.000 puestos de trabajo.",
+   "fuente": "clarin.com",
+   "t": 1792414453000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La industria metalúrgica volvió a caer y tuvo el septiembre con más máquinas paradas desde 2016",
+   "bajada": "La actividad acumula una contracción del 5,3% en lo que va de 2026 y opera con apenas el 40,2% de su capacidad productiva. La debilidad de la demanda y la postergación de inversiones afectan al sector, mientras las empresas mantienen expectativas desfavorables para los próximos meses.",
+   "fuente": "ambito.com",
+   "t": 1792414140000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El polémico gesto de Ladstatter a los hinchas de Estudiantes tras el triunfo de San Lorenzo",
+   "bajada": "El delantero protagonizó un festejo que generó repercusión luego de la agónica victoria del Ciclón en La Plata. Las cámaras captaron su reacción y una frase dirigida a la tribuna local.",
+   "fuente": "ole.com.ar",
+   "t": 1792413172000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Gobierno presentó un nuevo régimen de retiros voluntarios para empleados públicos nacionales",
+   "bajada": "La medida se oficializó este lunes en el Boletín Oficial, con firmas de Milei, Santilli y Sturzenegger. Cerca de 20 mil empleados son elegibles para tomarlo. Si lo hacen, no podrán volver a la administración pública en el futuro.",
+   "fuente": "clarin.com",
+   "t": 1792412657000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La economía de China creció 4,5% en el tercer trimestre y superó las proyecciones del mercado",
+   "bajada": "Pese al repunte de las ventas minoristas (1,1%) y el impulso exportador de los vehículos eléctricos y la alta tecnología, la economía china enfrenta severos desequilibrios internos por la crisis inmobiliaria y el estancamiento del consumo.",
+   "fuente": "ambito.com",
+   "t": 1792412640000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El Gobierno formalizó la aprobación de otro RIGI en Vaca Muerta, con una inversión total de 12 mil millones de dólares",
+   "bajada": "Se trata del proyecto Bajo del Choique–La Invernada de la empresa Pluspetrol, que se destinará al desarrollo no convencional de hidrocarburos en Vaca Muerta La aprobación había sido anunciada en la Argentina Week de París.",
+   "fuente": "clarin.com",
+   "t": 1792412468000
+  },
+  {
+   "tema": "política",
+   "titulo": "Nueva encuesta electoral con tres buenas noticias para Javier Milei",
+   "bajada": "Es un estudio nacional de la consultora Proyección, que suele trabajar más cerca de la oposición. Midió distintos escenarios de cara a las presidenciales del año próximo.",
+   "fuente": "clarin.com",
+   "t": 1792412461000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "El viejo orden mundial ha terminado. Esto es lo que podría venir después",
+   "bajada": "A estas alturas, para la mayor parte de EE.UU. y gran parte del mundo, es evidente que Estados Unidos y lo que representa han cambiado.",
+   "fuente": "clarin.com",
+   "t": 1792412394000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El ranking ATP se sacude: Sinner sigue como número uno, Djokovic vuelve a salir del top ten y diez argentinos resisten entre los cien mejores",
+   "bajada": "El italiano conserva el liderazgo, aunque Alexander Zverev ya tiene asegurado terminar 2026 en la cima. Francisco Cerúndolo sigue siendo el mejor tenista nacional, Etcheverry regresó al Top 30 y Báez y Tirante ganaron cuatro lugares cada uno.",
+   "fuente": "clarin.com",
+   "t": 1792412243000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Tres jóvenes murieron al ser atropellados por una camioneta en la ruta mientras cambiaban una goma pinchada",
+   "bajada": "Hubo otros dos heridos y se investigan las circunstancias del accidente. Ocurrió este sábado sobre la Ruta Nacional 65, en Santa Fe.",
+   "fuente": "clarin.com",
+   "t": 1792412038000
+  },
+  {
+   "tema": "política",
+   "titulo": "Javier Milei, EN VIVO: Karina Milei visita la cárcel de Devoto antes de la llegada del Papa León XIV a la Argentina",
+   "bajada": "La secretaria general de la presidencia encabeza el acto junto a los ministros Santilli y Monteoliva. Esta noche, el presidente Javier Milei viaja a España. Por la tarde, habrá conferencia de prensa del vocero presidencial.",
+   "fuente": "clarin.com",
+   "t": 1792411648000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Crónica de una recuperación milagrosa: Paredes, listo para llevar a Boca a la final",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792411498000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Cómo sigue la salud del papa León XIV: confirman que presidirá la audiencia general del miércoles, pero evitará un viaje de rutina",
+   "bajada": "El Sumo Pontífice seguirá su recuperación en El Vaticano y va retomando gradualmente su agenda. Se suspendió el traslado a la residencia de Castelgandolfo, donde solía descansar los lunes y martes antes de la operación.",
+   "fuente": "clarin.com",
+   "t": 1792411438000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "BTS en Argentina: qué se puede llevar al Estadio Único y todo lo que hay que saber antes del recital",
+   "bajada": "Mochilas, botellas, cámaras y ARMY Bomb: lo que indican las normas de ingreso. Los antecedentes de otros recitales para evitar problemas en los controles.",
+   "fuente": "clarin.com",
+   "t": 1792411216000
+  },
+  {
+   "tema": "música",
+   "titulo": "Skay y Los Fakires llegan a Quilmes en noviembre",
+   "bajada": "",
+   "fuente": "Diario EL SOL",
+   "t": 1792411087000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Impacto en el tenis: Svitolina se separó de Gael Monfils cinco años después de su casamiento con una brutal carta a corazón abierto",
+   "bajada": "La ucraniana habló de su lucha personal y psicológica derivada de la guerra con Rusia. Tienen una hija de cuatro años en común, Skai.",
+   "fuente": "clarin.com",
+   "t": 1792410840000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo llegará el pico de las fuertes lluvias y cómo cambiará el clima en el país",
+   "bajada": "El Servicio Meteorológico Nacional ya anticipó que el fenómeno alcanzará en el centro-este argentino una intensidad \"fuerte o muy fuerte\". Hay riesgo alto de graves inundaciones por la anomalía climática.",
+   "fuente": "clarin.com",
+   "t": 1792410366000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Quién es el nuevo líder de la barra de Racing a partir de Independiente",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792407519000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Euro hoy en Venezuela: precio y cotización de la divisa este lunes 19 de octubre de 2026",
+   "bajada": "Mirá la cotización del euro en Venezuela, su variación y los valores de referencia. Cómo es la tendencia de la moneda europea en lo que va del año.",
+   "fuente": "clarin.com",
+   "t": 1792406713000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La jugada temprana que pudo haber cambiado el rumbo del Clásico de Avellaneda",
+   "bajada": "",
+   "fuente": "InfiernoRojo.com",
+   "t": 1792406083000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 19 de octubre de 2026 en Argentina",
+   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "fuente": "clarin.com",
+   "t": 1792404905000
+  },
+  {
+   "tema": "música",
+   "titulo": "COSQUÍN: FPA APREHENDIÓ A DOS SUJETOS Y SECUESTRÓ ESTUPEFACIENTES DURANTE UN RECITAL DE ROCK",
+   "bajada": "",
+   "fuente": "Ministerio Público Fiscal Córdoba",
+   "t": 1792403407000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "\"Defensa siciliana\" y \"apertura española\": Davidovich Fokina, el tenista que cambió su cabeza con el ajedrez y levantó su trofeo más importante en Shanghai",
+   "bajada": "Superó a Rafael Jódar en la final del Masters 1000 de Shanghai, donde levantó su tercer trofeo ATP y se convirtió en el primer campeón español de ese torneo. Gracias a la victoria trepó al 13° puesto del ranking.",
+   "fuente": "clarin.com",
+   "t": 1792400416000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Después de 26 años, la Filarmónica de Berlín se presenta en el Teatro Colón y sus protagonistas adelantan cómo serán los conciertos",
+   "bajada": "En un encuentro de prensa internacional y virtual, Clarín entrevistó al director, Kirill Petrenko, a la directora de la fundación de la Filarmónica (Andrea Zietzschmann) y a la violinista Eva-Maria Tomasi. Las funciones serán miércoles 21, jueves 22 y viernes 23, con dos programas diferentes.",
+   "fuente": "clarin.com",
+   "t": 1792400416000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "Zapatillas para el gimnasio: marca por marca, cuáles son y cuánto cuestan los mejores modelos para entrenar fuerza",
+   "bajada": "No cualquier calzado deportivo ofrece la estabilidad necesaria para levantar peso. Puma, Nike, Adidas, Reebok, Under Armour, Atomik y On explican qué distingue a sus propuestas.",
+   "fuente": "clarin.com",
+   "t": 1792399572000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing e Independiente empataron 1-1: un clásico marcado por las crisis de Avellaneda",
+   "bajada": "",
+   "fuente": "Perfil",
+   "t": 1792398600000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Fenómeno climático El niño",
+   "bajada": "",
+   "fuente": "Buenos Aires Ciudad",
+   "t": 1792389842000
   },
   {
    "tema": "clima",
    "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este lunes 19 octubre de 2026",
+   "bajada": "",
    "fuente": "Clarin.com",
    "t": 1792381221000
   },
   {
-   "tema": "clima",
-   "titulo": "Clima hoy en José C. Paz, Buenos Aires: el pronóstico del tiempo para este lunes 19 octubre de 2026",
-   "fuente": "Clarin.com",
-   "t": 1792379683000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dólar hoy: a cuánto cotiza este lunes 19 de octubre",
-   "fuente": "Ambito",
-   "t": 1792379544000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Tini Stoessel debió cancelar su show en Miami a último momento",
-   "fuente": "Infobae",
-   "t": 1792377300000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "¿Y Paredes? Los convocados de Boca para la revancha con Vasco da Gama por la Sudamericana",
-   "fuente": "TyC Sports",
-   "t": 1792377122000
-  },
-  {
    "tema": "recitales",
    "titulo": "Tini Stoessel canceló su show en Miami media hora antes del inicio: el comunicado de la productora",
+   "bajada": "",
    "fuente": "La 100",
    "t": 1792374485000
   },
   {
    "tema": "fútbol",
    "titulo": "El uno por uno de River en la goleada ante Belgrano en Córdoba",
+   "bajada": "",
    "fuente": "Olé",
-   "t": 1792374315000
-  },
-  {
-   "tema": "política",
-   "titulo": "Arroceros confían en el Gobierno dominicano para proteger la producción nacional tras la derogación del decreto sobre importaciones",
-   "fuente": "Infobae",
-   "t": 1792372128000
+   "t": 1792374264000
   },
   {
    "tema": "fútbol",
    "titulo": "¡GOLAZO Y TRIUNFAZO!",
+   "bajada": "",
    "fuente": "San Lorenzo",
    "t": 1792370306000
   },
   {
    "tema": "fútbol",
    "titulo": "Belgrano 0-3 River Plate (18 de Oct., 2026) Estadísticas del equipo",
+   "bajada": "",
    "fuente": "ESPN Deportes",
    "t": 1792365435000
   },
   {
    "tema": "fútbol",
    "titulo": "San Lorenzo venció por 2-1 a Estudiantes de La Plata, por el Torneo Clausura 2026",
+   "bajada": "",
    "fuente": "La Nación",
    "t": 1792364100000
   },
   {
    "tema": "fútbol",
-   "titulo": "Torneo Clausura: Racing sigue en deuda e Independiente quedó a mano",
-   "fuente": "Página|12",
-   "t": 1792363987000
-  },
-  {
-   "tema": "política",
-   "titulo": "El Gobierno anunció nuevas reformas para impulsar inversiones y exportaciones",
-   "fuente": "La Brújula 24",
-   "t": 1792359615000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "Lo que pudo haber sido...",
+   "bajada": "",
    "fuente": "Racing Club - Sitio Oficial",
    "t": 1792354587000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "No hubo dueño en el clásico de Avellaneda: Racing e Independiente empataron en el Cilindro",
-   "fuente": "DeporTV",
-   "t": 1792351800000
-  },
-  {
-   "tema": "política",
-   "titulo": "Semana clave para el Presupuesto de 2027 en el Congreso: debe aprobarse antes del 20 de octubre",
-   "fuente": "Infobae",
-   "t": 1792347900000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing 1-1 Independiente (18 de Oct., 2026) Estadísticas del equipo",
-   "fuente": "ESPN Argentina",
-   "t": 1792345460000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Arrancó la previa del Primavera Sound Buenos Aires 2026: encuentro de artistas, “Primavera en la Ciudad” y todos los detalles del festival",
-   "fuente": "Pronto",
-   "t": 1792339560000
-  },
-  {
-   "tema": "música",
-   "titulo": "Maxi Pachecoy: la música como herramienta para sanar, sus raíces chaqueñas y las historias detrás de El Artesano",
-   "fuente": "Filo News",
-   "t": 1792338904000
-  },
-  {
-   "tema": "política",
-   "titulo": "La UCR traba el Presupuesto 2027 y exige actualización por inflación de la AUH",
-   "fuente": "MendoVoz",
-   "t": 1792337400000
-  },
-  {
-   "tema": "música",
-   "titulo": "El rock nacional tal vez esté preparando un show en la eternidad",
-   "fuente": "El Tribuno",
-   "t": 1792322400000
   }
  ]
 }
