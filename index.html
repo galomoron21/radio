@@ -534,7 +534,11 @@ async function conectarFirebase(config) {
   const fs = await import(FB + "firebase-firestore.js");
   const au = await import(FB + "firebase-auth.js");
   const app = initializeApp(config.firebase);
-  const db = fs.getFirestore(app);
+  // Caché guardada en el navegador: al recargar (o al volver a la pestaña en el celular) Firebase manda
+  // solo lo que cambió desde la última vez, en vez de cobrar de nuevo cada documento.
+  let db;
+  try { db = fs.initializeFirestore(app, { localCache: fs.persistentLocalCache({ tabManager: fs.persistentMultipleTabManager() }) }); }
+  catch { db = fs.getFirestore(app); }
   const auth = au.getAuth(app);
 
   const usuario = { uid: null, email: null };
@@ -566,7 +570,8 @@ async function conectarFirebase(config) {
         if (!n) { cat = []; emitir(); return; }
         for (let i = 0; i < n; i++) cortes.push(fs.onSnapshot(fs.doc(db, "config", "mp3-" + i), (d) => { partes[i] = d.data()?.items || []; cat = Object.values(partes).flat(); emitir(); }, (e) => console.error(e)));
       }, (e) => console.error(e));
-      return { modoAdmin: () => { if (completa) return; lista(fs.collection(db, "solicitudes"), (l) => { completa = l; emitir(); }); } };
+      let pedida = false;
+      return { completa: () => !!completa, modoAdmin: () => { if (pedida) return; pedida = true; lista(fs.collection(db, "solicitudes"), (l) => { completa = l; emitir(); }); } };
     },
     publicarCatalogo: async (canciones) => {
       const partes = []; let actual = [], tam = 0;
@@ -597,7 +602,7 @@ async function conectarFirebase(config) {
     votar: (cid, puntaje) =>
       fs.setDoc(fs.doc(db, "votos", cid + "__" + usuario.uid), { uid: usuario.uid, cid, puntaje, t: Date.now() }),
 
-    escucharChat: (cb) => lista(fs.query(fs.collection(db, "chat"), fs.orderBy("t", "desc"), fs.limit(60)), cb),
+    escucharChat: (cb) => lista(fs.query(fs.collection(db, "chat"), fs.where("t", ">", Date.now() - 35 * 60e3), fs.orderBy("t", "desc"), fs.limit(40)), cb),
     escribir: (nombre, texto, admin) => fs.addDoc(fs.collection(db, "chat"), { uid: usuario.uid, nombre, texto, admin, t: Date.now() }),
     borrarMensaje: (id) => fs.deleteDoc(fs.doc(db, "chat", id)),
 
@@ -797,7 +802,30 @@ const PESO = { 1: 1, 2: 1.4, 3: 2, 4: 2.8, 5: 3.6 };
 const popDe = (s) => s.pop || 4; // lo aprobado a mano cuenta como conocido
 // Bandas que suenan menos seguido: 0.5 = la mitad de chances. Para sumar otra: "nombre de la banda": 0.5
 const MENOS_SEGUIDO = { "van halen": 0.5 };
-const pesoDe = (s) => PESO[popDe(s)] * (MENOS_SEGUIDO[normB(String(s.banda).split(",")[0])] ?? 1);
+// Energía de cada tema según la banda (y algunas pistas del título): "duro", "tranqui" o "medio".
+const DUROS = ["van halen", "david lee roth", "def leppard", "ac dc", "guns n roses", "metallica", "ozzy", "black sabbath", "motley crue", "scorpions", "kiss", "aerosmith", "bon jovi", "europe", "rage against", "audioslave", "iron maiden", "judas priest", "motorhead", "bang tango", "infernal tenebra", "nirvana", "green day", "offspring", "the oppressed", "foo fighters", "deep purple", "rata blanca", "hermetica", "almafuerte", "attaque 77", "la renga", "2 minutos"];
+const TRANQUIS = ["stevie ray vaughan", "j j cale", "mark knopfler", "chet atkins", "dire straits", "notting hillbillies", "eric clapton", "derek the dominos", "blind faith", "b b king", "bb king", "john mayall", "albert collins", "howlin wolf", "muddy waters", "doctor ross", "panama limited", "etta jones", "janis joplin", "gary moore", "jeff buckley", "fleetwood mac", "america", "neil young", "eagles", "radiohead", "coldplay", "keane", "robbie williams", "sinatra", "elvis", "beach boys", "george harrison", "john lennon", "paul mccartney", "beatles", "pink floyd", "steely dan", "hall oates", "elton john", "sting", "bob dylan", "nick cave", "morrissey", "alan parsons", "camel", "crowded house", "laufey", "cigarettes after sex", "mac demarco", "tame impala", "boswell sisters", "roy eldridge", "willie nelson", "chris young", "norah jones",
+  "spinetta", "cerati", "charly garcia", "seru giran", "sui generis", "fito paez", "pescado rabioso", "leon gieco", "memphis", "manal", "zoe gotusso", "conociendo rusia", "bandalos chinos", "el kuelgue", "abuelos de la nada", "los rodriguez", "vela puerca", "pappo s blues"];
+const energia = (s) => {
+  const t = " " + normB(`${s.banda || ""} ${s.mp3 || ""}`) + " ", tit = normB(s.titulo);
+  if (/\b(blues|acustico|acoustic|unplugged|ballad|lullaby)\b/.test(tit) || TRANQUIS.some((b) => t.includes(" " + b + " "))) return "tranqui";
+  if (DUROS.some((b) => t.includes(" " + b + " "))) return "duro";
+  // Los temas de Van Halen que se cargaron sin banda: remasters 2015/2023 y el vivo en Tokio.
+  if (!s.banda && /\((2015|2023) remaster\)|tokyo dome/i.test(s.mp3 || s.titulo || "")) return "duro";
+  return "medio";
+};
+// Cuánto pesa cada energía según la hora de Buenos Aires: a la tarde-noche y de madrugada, más blues y temas tranquilos.
+function pesoFranja() {
+  const h = +new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires", hour: "numeric", hour12: false }) % 24;
+  if (h >= 6 && h < 12) return { duro: 0.55, medio: 1, tranqui: 1 };
+  if (h >= 12 && h < 18) return { duro: 0.55, medio: 1, tranqui: 1.2 };
+  if (h >= 18) return { duro: 0.3, medio: 0.85, tranqui: 2 };
+  return { duro: 0.2, medio: 0.7, tranqui: 2.2 };
+}
+let franja = pesoFranja(); setInterval(() => { franja = pesoFranja(); }, 5 * 60e3);
+const energiaCache = new Map();
+const energiaDe = (s) => { let e = energiaCache.get(s.id + s.banda); if (!e) { e = energia(s); energiaCache.set(s.id + s.banda, e); } return e; };
+const pesoDe = (s) => PESO[popDe(s)] * (MENOS_SEGUIDO[normB(String(s.banda).split(",")[0])] ?? 1) * franja[energiaDe(s)];
 function sortear(lista) {
   const total = lista.reduce((t, s) => t + pesoDe(s), 0);
   let r = Math.random() * total;
@@ -1851,7 +1879,9 @@ setTimeout(async () => {
     if (!S.solicitudes.some((s) => s.mp3) && l.length) { S.solicitudes = [...S.solicitudes, ...l]; pintarRankings(); pintarAhora(); tic(); }
   } catch {}
 }, 12000);
-const subSolicitudes = B.escucharSolicitudes((l) => { if (!l.some((s) => s.mp3) && S.solicitudes.some((s) => s.mp3)) l = [...l, ...S.solicitudes.filter((s) => s.mp3 && s.estado !== "pendiente")]; S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); if (esAdmin()) programarPublicacion(); });
+let subSol = null;
+const subSolicitudes = B.escucharSolicitudes((l) => { if (!l.some((s) => s.mp3) && S.solicitudes.some((s) => s.mp3)) l = [...l, ...S.solicitudes.filter((s) => s.mp3 && s.estado !== "pendiente")]; S.solicitudes = l; pintarSolicitudes(); pintarRankings(); pintarAdmin(); pintarAhora(); tic(); if (esAdmin() && subSol?.completa?.()) programarPublicacion(); });
+subSol = subSolicitudes;
 // Galo o Nake con la página abierta mantienen al día la lista de MP3 que leen los oyentes.
 const CAMPOS_PUBLICOS = ["id", "titulo", "banda", "album", "anio", "duracion", "radio", "mp3", "portada", "curio", "dato", "pop", "spotify", "genero", "pais", "musicos", "dedica", "pidio", "creada", "estado", "youtubeId"];
 let pubTimer = null, ultimaPub = "";
@@ -1874,7 +1904,9 @@ B.escucharMegusta((l) => { S.megusta = l; pintarMegusta(); pintarRankings(); });
 B.escucharVotos((l) => { S.votos = l; pintarVotos(); pintarRankings(); });
 B.escucharChat((l) => { S.chat = l; pintarChat(); });
 setInterval(pintarChat, 60e3); // el chat muestra solo la última media hora
-B.alCambiarUsuario(() => { if (esAdmin()) subSolicitudes?.modoAdmin?.(); pintarAdmin(); pintarMegusta(); pintarVotos(); pintarChat(); });
+// El panel lee la lista completa recién cuando aparece en pantalla (antes se leía al entrar, cada vez).
+new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting) && esAdmin()) subSolicitudes?.modoAdmin?.(); }).observe($("panel-admin"));
+B.alCambiarUsuario(() => { pintarAdmin(); pintarMegusta(); pintarVotos(); pintarChat(); });
 
 pintarDial(); pintarAhora(); tic();
 setInterval(tic, 1000);
