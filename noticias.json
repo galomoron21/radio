@@ -1,82 +1,215 @@
 {
- "t": 1792528587116,
+ "t": 1792540415164,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "La erosión del río Vilcanota provocó daños en un muro inca de Machu Picchu y obligó a especialistas a recuperar la base de la estructura",
-   "bajada": "Con técnicas tradicionales y nuevos elementos líticos, especialistas ejecutaron trabajos para recuperar el soporte de la estructura arqueológica.",
+   "titulo": "Ministro de El Salvador sobre recorte millonario en seguridad: “Nos van a hacer falta esos veinte millones, pero ahí está la eficiencia”",
+   "bajada": "El ministro de Justicia y Seguridad de El Salvador compareció ante la Comisión de Hacienda para defender la reducción presupuestaria del ramo de cara a 2027. Aseguró que el Plan Control Territorial y las prestaciones del personal no se verán afectados.",
    "fuente": "infobae.com",
-   "t": 1792528403000
+   "t": 1792540240000
   },
   {
    "tema": "actualidad",
-   "titulo": "Brasil acusa a Milei de intentar interferir en las elecciones con \"ofensas\" y \"mentiras\"",
-   "bajada": "São Paulo, 20 oct (EFE).- El Gobierno de Brasil acusó este martes al mandatario argentino, Javier Milei, de intentar interferir en las elecciones del país por medio de \"ofensas\" y \"mentiras\" contra el presidente Luiz Inácio Lula da Silva, el Poder Judicial y el sistema electrónico de votación.",
+   "titulo": "Organización de visita del papa León XIV al Perú confirma que “todos los indicios médicos” respaldan su llegada en noviembre",
+   "bajada": "El coordinador nacional de la visita, monseñor Guillermo Inca, señaló que la evolución médica del pontífice permite mantener la expectativa sobre su llegada, mientras se prevén medidas para evitarle esfuerzos físicos en el recorrido.",
    "fuente": "infobae.com",
-   "t": 1792528397000
+   "t": 1792540216000
   },
   {
    "tema": "actualidad",
-   "titulo": "PSG - FC Barcelona, en directo: Xavi Espart firma un golazo para volver a instaurar las tablas en el marcador",
-   "bajada": "Sigue el minuto a minutos del partido entre el club parisino y el equipo azulgrana.",
+   "titulo": "Cúcuta Deportivo vs. Atlético Nacional - Liga BetPlay en vivo HOY: GOL de Cúcuta en el partido con James Rodríguez de titular, siga aquí el minuto a minuto",
+   "bajada": "El equipo Verdolaga sumando de a tres puntos sería el nuevo líder del campeonato y aseguraría su presencia en los cuadrangulares semifinales con seis partidos por jugar.",
    "fuente": "infobae.com",
-   "t": 1792528386000
+   "t": 1792540169000
   },
   {
    "tema": "actualidad",
-   "titulo": "Javier Milei y sus medidas, en vivo: el mandatario se refirió al crecimiento energético y habló de una “revancha histórica”",
-   "bajada": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios.",
+   "titulo": "El presidente de Vasco da Gama fue internado en la previa del cruce con Boca",
+   "bajada": "Fue ingresado en un hospital de la zona oeste de Río de Janeiro, donde se espera que pase la noche; su estado de salud se considera estable.",
    "fuente": "lanacion.com.ar",
-   "t": 1792528200000
+   "t": 1792540134000
   },
   {
    "tema": "actualidad",
-   "titulo": "Champions League, EN VIVO: el minuto a minuto de los partidos",
-   "bajada": "Se disputa el comienzo de la tercera fecha, con nueve partidos.",
+   "titulo": "ICE en California: el fiscal Rob Bonta cuestiona los arrestos sin orden judicial y exige evaluar el riesgo de fuga",
+   "bajada": "Conoce qué reclama Rob Bonta contra los arrestos del ICE sin orden judicial y por qué la coalición de 21 estados pide evaluar el riesgo de fuga.",
    "fuente": "lanacion.com.ar",
-   "t": 1792528169000
+   "t": 1792539922000
   },
   {
    "tema": "actualidad",
-   "titulo": "Combativa tras el caos, Meloni decreta medidas de mano dura contra los menores: prisión preventiva y baja de imputabilidad",
-   "bajada": "Un nuevo decreto-ley aprobó la prisión preventiva de chicos de entre 14 y 18 años y el envío de 500 militares a Milán, epicentro de los desmanes.",
+   "titulo": "Reid Wiseman, comandante de la histórica misión Artemis II: “Vimos cosas que ningún ser humano ha visto jamás”",
+   "bajada": "Se trató de un mensaje que difundieron mientras realizaban la misión, que se concretó en abril de este año, antes de que la tripulación perdiera la conexión con el planeta durante 40 minutos.",
    "fuente": "lanacion.com.ar",
-   "t": 1792528116000
+   "t": 1792539720000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Detuvieron al streamer uruguayo \"Chaipa7\" en Nordelta: su novia lo denunció por golpearla a piñas y patadas",
+   "bajada": "El creador de contenido fue imputado por lesiones agravadas tras golpear a su pareja. En la previa habían tenido una fuerte discusión automovilística que quedó grabada.",
+   "fuente": "clarin.com",
+   "t": 1792538497000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "EEUU concede a minera canadiense Sherritt permiso con miras a reactivar operaciones en Cuba",
+   "bajada": "La empresa canadiense recibió autorización inicial de EE.UU. para reanudar la extracción de níquel y cobalto en Cuba tras sanciones previas. La reactivación completa de sus operaciones dependerá de obtener más licencias, mientras negocia con un grupo estadounidense para recapitalización.",
+   "fuente": "clarin.com",
+   "t": 1792538409000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Llega una enviada del Papa para reunirse con los movimientos sociales mientras el Vaticano define si León XIV viajará al país",
+   "bajada": "La prefecta Alessandra Smerilli encabezará el encuentro de movimientos populares entre el 27 y el 28 de octubre en La Matanza. La actividad se desarrollará mientras una junta médica resuelve la posible visita de León XIV a la Argentina.",
+   "fuente": "clarin.com",
+   "t": 1792538264000
   },
   {
    "tema": "fútbol",
-   "titulo": "Colapinto vuelve a una pista especial: del sobrepaso del año a la rebelión ante Gasly",
-   "bajada": "Franco regresa a Austin, escenario de dos de los momentos más destacados de su paso por la Fórmula 1. Uno fue en 2024, y el otro, en 2025. A ver qué depara el 2026...",
+   "titulo": "Vasco da Gama vs. Boca, hoy EN VIVO por la Copa Sudamericana: formación confirmada, horario y TV",
+   "bajada": "Sin su capitán y referente, Leandro Paredes, el Xeneize va por la remontada y la clasificación a la gran final: debe vencer al Gigante da Colina en el Estadio Maracaná. Seguilo en Olé.",
    "fuente": "ole.com.ar",
-   "t": 1792527595000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Perdieron sus casas y negocios en el terremoto, pero quieren quedarse en Los Palos Grandes, Venezuela: \"¿A dónde más me voy a ir?\"",
-   "bajada": "La historias de vecinos del barrio del municipio de Chacao que buscan volver a sus casas. Fue uno de los sitios más afectados del doble sismo del 24 de junio pasado.",
-   "fuente": "clarin.com",
-   "t": 1792527277000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Julián Alvarez se sacó la mufa y volvió a meter un gol con el Atlético de Madrid, seis meses después y otra vez por Champions League",
-   "bajada": "El delantero argentino marcó el empate parcial de su equipo ante el Stuttgart, en Alemania. Fue en el arranque del segundo tiempo y lo gritó con todo: desde abril que no la metía en su club. El último había sido contra el Arsenal, en las semifinales del torneo pasado.",
-   "fuente": "clarin.com",
-   "t": 1792527125000
+   "t": 1792537740000
   },
   {
    "tema": "fútbol",
-   "titulo": "Boca Juniors y Waiwen llegan a Santa Cruz con un amistoso en Caleta Olivia",
-   "bajada": "",
-   "fuente": "Santa Cruz",
-   "t": 1792526919000
+   "titulo": "De Messi a Lisandro López y el Jardinero Cruz: los máximos goleadores argentinos en la historia de la Champions League",
+   "bajada": "Diez futbolistas del país forman parte del selecto grupo de los cien máximos artilleros en el torneo de clubes más prestigioso de todo el mundo. Los repasamos.",
+   "fuente": "ole.com.ar",
+   "t": 1792537613000
   },
   {
-   "tema": "actualidad",
-   "titulo": "\"Quien rompe paga\": Italia crea un nuevo delito y habilita la prisión preventiva para menores tras los graves desórdenes en Milán",
-   "bajada": "El gobierno italiano dispuso que el arresto preventivo sea aplicable a jóvenes de entre 14 y 18 años de manera inmediata. A su vez, los padres asumirán una mayor responsabilidad económica y podrán ser obligados a pagar por los saqueos y destrozos cometidos.",
+   "tema": "deportes",
+   "titulo": "Internaron al presidente de Vasco da Gama a horas de la revancha con Boca por la Copa Sudamericana",
+   "bajada": "Pedrinho fue hospitalizado y se perderá la definición de la serie de semifinal en el Maracaná de Río de Janeiro. ¿Qué le pasó?",
    "fuente": "clarin.com",
-   "t": 1792526901000
+   "t": 1792537603000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Primer día de la semana para San Lorenzo: qué hizo y cómo está Facundo Farías",
+   "bajada": "",
+   "fuente": "ole.com.ar",
+   "t": 1792537601000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente obligado y sin margen de error en Avellaneda: los números que preocupan antes de Boca",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792537221000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Doblete de Mac Allister en Liverpool y festejo de Nahuel Molina en Roma: los otros goles argentinos en la jornada de Champions",
+   "bajada": "El \"Colo\" fue vital para la remontada de los Reds en Anfield. El lateral derecho hizo olvidar la ausencia de Paulo Dybala, lesionado. Además, el Manchester City de Enzo Fernández goleó como local.",
+   "fuente": "clarin.com",
+   "t": 1792536223000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Fuerte sanción a Florencia Guerra Sodero, la jugadora de pádel que fue suspendida por un comentario antisemita",
+   "bajada": "El mes pasado publicó una encuesta en sus redes donde aclaraba que no podían participar judíos. La Asociación Argentina de Pádel decidió que no podrá representar al país hasta diciembre de 2029. Además, dejó en manos de la federación la posibilidad de extender la sanción al plano local.",
+   "fuente": "clarin.com",
+   "t": 1792535765000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¡Asegurá tu entrada para el partido con Newell’s este sábado!",
+   "bajada": "",
+   "fuente": "San Lorenzo Website",
+   "t": 1792534654000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Absolvieron a los acusados por el crimen del hincha de Independiente Juan Calvente: las razones por las que el asesinato quedó impune",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792534423000
+  },
+  {
+   "tema": "música",
+   "titulo": "La “Semana Charly”: la Ciudad celebra los 75 años del legendario García",
+   "bajada": "",
+   "fuente": "Buenos Aires Ciudad",
+   "t": 1792533939000
+  },
+  {
+   "tema": "política",
+   "titulo": "Kicillof enfrenta otro paro docente: un gremio rechazó el aumento del 6% y convocó a una medida de fuerza de 48 horas",
+   "bajada": "La Federación de Educadores Bonaerenses consideró insuficiente la oferta salarial de la Provincia y convocó a una medida de fuerza que comenzará este jueves. El sindicato se diferenció de Suteba y de los otros gremios docentes, que aceptaron la propuesta oficial.",
+   "fuente": "clarin.com",
+   "t": 1792533108000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¿Juega Leandro Paredes? Las alineaciones confirmadas para Vasco da Gama vs. Boca: formaciones, cambios y bajas",
+   "bajada": "",
+   "fuente": "Bolavip Perú",
+   "t": 1792531515000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Deterioro en las expectativas de los empresarios industriales para el cierre de 2026: apenas el 11,2% prevé una mejora",
+   "bajada": "La débil demanda interna se afianzó como la principal preocupación entre los representantes del sector. El segundo factor que más señales de alarma enciende es la competencia de productos importados.",
+   "fuente": "ambito.com",
+   "t": 1792531380000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Uno de los economistas más escuchados por Javier Milei advirtió por el freno al crecimiento",
+   "bajada": "Ricardo Arriazu sostuvo que la Argentina podría crecer al 5% anual, pero cuestionó la compra de divisas del BCRA y apuntó a la falta de credibilidad como principal obstáculo.",
+   "fuente": "ambito.com",
+   "t": 1792531260000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Vasco da Gama vs Boca hoy en vivo por la Copa Sudamericana: hora, TV y formaciones",
+   "bajada": "",
+   "fuente": "Página|12",
+   "t": 1792531112000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Se rebeló uno de los gremios docentes en Provincia: la FEB llamó a un paro de 48 horas y no habrá clases jueves y viernes",
+   "bajada": "Es en rechazo a la oferta salarial que hizo Kicillof en la paritaria. Suteba, que antes actuaba con firmeza, ahora firmó el aumento y no se suma a la medida. Las autoridades advirtieron que le descontarán el día no trabajado a los huelguistas.",
+   "fuente": "clarin.com",
+   "t": 1792530991000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Tensión en el espacio, el nuevo frente de guerra con Ucrania: un satélite militar ruso se acercó a menos de 100 metros de uno de Finlandia",
+   "bajada": "El Kosmos 2612 ejecutó maniobras deliberadas a 550 kilómetros de la Tierra hasta colocarse muy cerca de la nave finlandesa ICEYE-X36. Si bien no se registraron agresiones ni daños materiales, el episodio evidencia la posibilidad de extender el enfrentamiento armado hacia el espacio.",
+   "fuente": "clarin.com",
+   "t": 1792530038000
+  },
+  {
+   "tema": "política",
+   "titulo": "La unificación de Hotesur y Los Sauces complica a Cristina y Máximo Kirchner y fortalece la acusación de un solo circuito de lavado",
+   "bajada": "La decisión de la Cámara Federal de Casación Penal impide usar el argumento de cosa juzgada en un juicio para llevarlo a otro, si hubiese ido por separado. Y fortalece la hipótesis fiscal de que las dos empresas familiares fueron utilizadas para recibir retornos de contratistas del Estado.",
+   "fuente": "clarin.com",
+   "t": 1792529582000
+  },
+  {
+   "tema": "política",
+   "titulo": "Presupuesto, reforma electoral, Malvinas y Biocombustibles, los cuatro puntos de la cumbre entre el PRO y los libertarios",
+   "bajada": "Se volvieron a reunir en Casa Rosada, después de casi un mes. Evitaron conversar sobre un posible acuerdo electoral hacia 2027.",
+   "fuente": "clarin.com",
+   "t": 1792529099000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Mientras Harry dice que quiere reconciliarse, el rey Carlos III despliega todo el glamour de la realeza inglesa durante la cena de gala que ofreció al sultán de Omán",
+   "bajada": "El monarca agasajó en el Castillo de Windsor al sultán Haitham bin Tarik en el marco de una visita al Reino Unido. El despliegue de gala coincidió con las declaraciones de su hijo menor, quien expresó sus deseos de reconciliación familiar.",
+   "fuente": "clarin.com",
+   "t": 1792528261000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Juicio por YPF: la jueza Preska dio un paso clave y ahora quedan dos caminos hasta el final del caso por la estatización",
+   "bajada": "El cierre del expediente de Loretta Preska fue una formalidad esperada. La Corte Suprema de Justicia de Estados Unidos solo acepta revisar cerca de 1% de los casos que le piden. En el CIADI, el arbitraje llevará varios años.",
+   "fuente": "clarin.com",
+   "t": 1792527616000
   },
   {
    "tema": "fútbol",
@@ -86,74 +219,18 @@
    "t": 1792526596000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El PSG golpeó primero por un error de Lamine Yamal",
-   "bajada": "Doue abrió el marcador para el conjunto parisino después de una pelota perdida por la joya española. Barcelona reaccionó inmediatamente, pero Fermín López desperdició una ocasión clarísima para igualar el encuentro. Mirá.",
-   "fuente": "ole.com.ar",
-   "t": 1792526447000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Con gol de Nahuel Molina, la Roma golea 4-0 al Slovan Bratislava en la Champions",
-   "bajada": "El futbolista de la Selección Argentina puso el segundo tanto y estiró la diferencia en la tercera ronda de la fase de liga. Seguilo en Olé.",
-   "fuente": "ole.com.ar",
-   "t": 1792526144000
-  },
-  {
-   "tema": "política",
-   "titulo": "Desestimaron la denuncia por lavado contra los empresarios Foster Gillett y Guillermo Tofoni por transferencias de futbolistas",
-   "bajada": "La Justicia cerró el expediente al comprobar que los fondos que usaron para esos contratos provinieron desde EE.UU. eran lícitos y trazables y, por consiguiente, no configuraron delito alguno. Tofoni es uno de los principales denunciantes del presidente de la AFA, Claudio Chiqui Tapia y su Tesorero, Pablo Toviggino.",
+   "tema": "sociedad",
+   "titulo": "\"No va a dar cero\": un camionero que manejaba borracho se sinceró antes de que le hicieran el control de alcoholemia",
+   "bajada": "Un hombre que circulaba con 2,65 gramos de alcohol por litro de sangre fue detenido durante un control de rutina en la Panamericana. Cuál es la fuerte sanción que podría recibir el conductor.",
    "fuente": "clarin.com",
-   "t": 1792525533000
+   "t": 1792526498000
   },
   {
-   "tema": "deportes",
-   "titulo": "De “secarle las bolas a Tapia” al cruce con Argentino de Merlo y tomarse un café: la interna en la AFA bajó al Ascenso",
-   "bajada": "La foto de una plaqueta entregada por River a la dirigencia de Merlo encendió un inesperado conflicto. Maxi Levy, presidente de Almirante Brown y aliado del Chiqui, cuestionó el acercamiento. Martín Brieva respondió con altura, defendió la independencia de su club y lo invitó al diálogo.",
-   "fuente": "clarin.com",
-   "t": 1792525506000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "A diez años del caso Nassar, la jueza que lo condenó lanzó una inquietante advertencia: \"Hubo muy pocos cambios significativos”",
-   "bajada": "El ex médico del equipo olímpico de Estados Unidos fue condenado a entre 40 y 175 años de prisión por abuso sexual de niñas y adolescentes. La magistrada participó de un evento de Gimnastas por el Cambio Internacional (G4CI) en Rotterdam, en simultáneo con el Campeonato Mundial de Gimnasia Artística.",
-   "fuente": "clarin.com",
-   "t": 1792525447000
-  },
-  {
-   "tema": "política",
-   "titulo": "Javier Milei desembarcó por tercera vez en el año en España: dará un discurso sobre economía austríaca y busca reunirse con Díaz Ayuso",
-   "bajada": "El Presidente tiene una agenda centrada en disertaciones académicas y actividades privadas durante su breve estadía en Madrid. Pero no mantendrá encuentros institucionales ni se reunirá con su amigo y líder de Vox, Santiago Abascal.",
-   "fuente": "clarin.com",
-   "t": 1792525336000
-  },
-  {
-   "tema": "política",
-   "titulo": "Procesaron presos que haciéndose pasar por el juez Horacio Rosatti extorsionaban a familiares de otros detenidos",
-   "bajada": "El juez federal Julián Ercolini procesó a un grupo de presos alojados en una cárcel de Jujuy quienes con celulares escondidos en sus celdas realizaron múltiples estafas y extorsiones. Es otra de las maniobras que se hicieron contra jueces en la época K.",
-   "fuente": "clarin.com",
-   "t": 1792524816000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Impacto de la guerra en Medio Oriente: se desploma la venta de viviendas en EEUU tras el aumento de las hipotecas",
-   "bajada": "El aumento de los costes de endeudamiento — que siguen la evolución de los rendimientos de los bonos del Tesoro — y la guerra en Medio Oriente — que aviva la inflación de EEUU — están afectando al sector inmobiliario norteamericano.",
-   "fuente": "ambito.com",
-   "t": 1792524540000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Extienden el toque de queda en Francia e imponen restricciones en varias ciudades para frenar los incendios y saqueos",
-   "bajada": "La imposición de restricciones nocturnas en París y diversas localidades contribuyó a frenar la ola de violencia y destrozos. El primer ministro Sébastien Lecornu ponderó el impacto de la medida y anticipó nuevos límites donde las circunstancias lo requieran.",
-   "fuente": "clarin.com",
-   "t": 1792524532000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El CEO de Ryanair alerta a Europa por \"el mayor aumento de precios de vuelos de la historia\"",
-   "bajada": "Michael O'Leary proyectó incrementos de hasta un 20% en los pasajes tras la escalada del combustible y la reducción de oferta por quiebras y fusiones. El ejecutivo realizó las declaraciones en Bruselas, donde anunció la cancelación de 20 rutas en Bélgica.",
-   "fuente": "ambito.com",
-   "t": 1792523880000
+   "tema": "recitales",
+   "titulo": "La ARMY de La Plata explican por qué BTS genera tanta emoción y cómo viven la previa de los shows",
+   "bajada": "",
+   "fuente": "0221",
+   "t": 1792525920000
   },
   {
    "tema": "espectáculos",
@@ -184,13 +261,6 @@
    "t": 1792520957000
   },
   {
-   "tema": "deportes",
-   "titulo": "Nicolás Ramírez denunció que fue amenazado por dirigentes de Huracán: \"Comenzaron a increparnos\" y \"golpearon la puerta queriendo ingresar\"",
-   "bajada": "El árbitro del partido entre el Globo y Gimnasia, en el cual el equipo platense terminó imponiéndose por 2 a 1, detalló la situación en el informe.",
-   "fuente": "clarin.com",
-   "t": 1792520925000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Práctica en San Lorenzo con la mente puesta en Newell's Old Boys",
    "bajada": "",
@@ -198,32 +268,11 @@
    "t": 1792520598000
   },
   {
-   "tema": "economía",
-   "titulo": "Los supermercados reclaman al Gobierno por el uso de las billeteras virtuales en los comercios minoristas",
-   "bajada": "La cámara que agrupa al sector mantuvo un encuentro con el ministro Caputo para que interceda ante CABA, Santa Fe y La Pampa, hoy fuera de una herramienta fiscal. Reclama \"equidad competitiva\".",
-   "fuente": "clarin.com",
-   "t": 1792519729000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Brasil: ¿Qué votan los algoritmos? Un giro a favor del oficialismo en el mundo digital",
-   "bajada": "Inicialmente el candidato conservador Flávio Bolsonaro lideraba en las redes sociales. Pero un análisis de la consultora Quaest detectó que lo desplazó Lula da Silva. No implica un pronóstico de resultado electoral, pero se señala que hay una correlación entre estos indicadores y lo que puede suceder en las urnas.",
-   "fuente": "clarin.com",
-   "t": 1792519237000
-  },
-  {
    "tema": "recitales",
    "titulo": "Tiene más de 25 años de historia, recorrió 70 ciudades y debuta en Argentina: la banda española que llega a Niceto con entradas desde $40.000",
    "bajada": "",
    "fuente": "Canal26",
    "t": 1792519125000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "\"Hay mucha gente, pero tengo fe\": seis horas de cola y el CV en la mano en una búsqueda laboral que desbordó Ezeiza",
-   "bajada": "Una distribuidora de fiambres pidió a los candidatos que se presentaran en persona para cubrir 40 puestos. Las historias de varios postulantes que reflejan un complejo momento para la búsqueda de empleo.",
-   "fuente": "clarin.com",
-   "t": 1792519039000
   },
   {
    "tema": "fútbol",
@@ -240,18 +289,11 @@
    "t": 1792513979000
   },
   {
-   "tema": "sociedad",
-   "titulo": "Tiroteo escolar de San Cristóbal: sobreseyeron al alumno de 15 años que mató a un compañero en un colegio de Santa Fe",
-   "bajada": "El juez penal José Boaglio accedió al pedido de la defensa de desvincular al joven del caso por tener menos de la edad imputabilidad vigente al momento del hecho. El ataque ocurrió en marzo de este año en la escuela N° 40 Mariano Moreno de San Cristóbal.",
-   "fuente": "clarin.com",
-   "t": 1792512180000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo volvió a entrenarse con el ánimo por las nubes",
+   "tema": "clima",
+   "titulo": "Urgente: alerta meteorológica por fuertes tormentas y viento zonda en 16 provincias",
    "bajada": "",
-   "fuente": "San Lorenzo Website",
-   "t": 1792511270000
+   "fuente": "Crónica",
+   "t": 1792513140000
   },
   {
    "tema": "espectáculos",
@@ -261,32 +303,11 @@
    "t": 1792511040000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Alineaciones de Vasco da Gama y Boca para el duelo de vuelta de las semifinales de la Copa Sudamericana",
+   "tema": "clima",
+   "titulo": "Clima en AMBA: sube la temperatura y rigen alertas",
    "bajada": "",
-   "fuente": "Bolavip Argentina",
-   "t": 1792508542000
-  },
-  {
-   "tema": "música",
-   "titulo": "Maxi Pachecoy: la música como herramienta para sanar, sus raíces chaqueñas y las historias detrás de \"Arte Sano\"",
-   "bajada": "",
-   "fuente": "Filo News",
-   "t": 1792505547000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Melendi vuelve a la Argentina con nuevo disco y un repertorio lleno de clásicos...",
-   "bajada": "",
-   "fuente": "Quiero Música En Mi Idioma",
-   "t": 1792504236000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Imanol Machuca, el refuerzo que debutaría en Independiente en noviembre",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792502317000
+   "fuente": "Diario El Norte - San Nicolás",
+   "t": 1792497791000
   },
   {
    "tema": "música",
@@ -310,32 +331,11 @@
    "t": 1792490711000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Video: los mejores momentos del empate entre Racing e Independiente",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792490205000
-  },
-  {
    "tema": "tecnología",
    "titulo": "Cómo gastar menos en luz, gas y agua con dispositivos inteligentes para la casa",
    "bajada": "Enchufes, termostatos y sensores permiten monitorear consumos y automatizar tareas cotidianas. Algunos se instalan fácilmente; otros requieren ayuda profesional. Qué tener en cuenta antes de elegirlos.",
    "fuente": "clarin.com",
    "t": 1792485990000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Villarobles, Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
-   "bajada": "",
-   "fuente": "Clarin.com",
-   "t": 1792466732000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
-   "bajada": "",
-   "fuente": "Clarin.com",
-   "t": 1792465409000
   }
  ]
 }
