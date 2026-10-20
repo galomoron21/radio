@@ -1,6 +1,167 @@
 {
- "t": 1792455691609,
+ "t": 1792476136235,
  "items": [
+  {
+   "tema": "actualidad",
+   "titulo": "Elecciones generales 29-N, en directo: última hora de los sondeos, las pensiones, la ley de nietos y el Consejo de Ministros",
+   "bajada": "A 40 días del 29N, la izquierda llega dividida tras el fracaso del pacto entre Frente Amplio y Podemos. Las encuestas otorgan la victoria al bloque de derechas con una suma PP-Vox que rozaría los 200 diputados.",
+   "fuente": "infobae.com",
+   "t": 1792475888000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Pepe Navarro y Florentino Fernández recuerdan en ‘El Hormiguero’ la demanda por plagiar a Chiquito de la Calzada: “Fue surrealista”",
+   "bajada": "El presentador y el humorista han rememorado el enfrentamiento judicial por el personaje de Lucas Grijander en ‘Esta noche cruzamos el Mississippi’.",
+   "fuente": "infobae.com",
+   "t": 1792475725000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El riesgo país se acerca a los 700 puntos: ¿es un castigo exagerado a un año para las elecciones?",
+   "bajada": "Las dudas de los inversores se centran en lo que podría suceder en 2028 con un nuevo gobierno. Si los mercados siguen cerrados puede complicarse el pago de la deuda, lo que inquieta a los mercados.",
+   "fuente": "infobae.com",
+   "t": 1792475684000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Un fallo de la jueza Preska acerca el cierre del juicio por YPF y la caída del reclamo por US$16.000 millones",
+   "bajada": "A través de un nuevo trámite administrativo, quedaría cerrado formalmente el expediente en primera instancia en Nueva York en favor del Estado argentino, en el caso por la expropiación de la petrolera.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792475328000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "ICE en California: tiene ciudadanía americana, circulaba en bicicleta y denunció que agentes le quebraron un brazo",
+   "bajada": "Conoce el caso de Ricardo Gonzalez, ciudadano estadounidense que denunció una fractura de brazo durante un operativo de ICE en Long Beach, California.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792474200000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Un hombre de Minnesota buscó durante años la motocicleta de su padre fallecido y la encontró en Alaska: recorrió más de 5.600 kilómetros para llevarla de regreso a casa",
+   "bajada": "Spencer siguió durante años el rastro de una moto que había marcado su infancia. Un viaje que reflotó recuerdos y superó dificultades.",
+   "fuente": "clarin.com",
+   "t": 1792473867000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Canciller iraní afirma que su país y Rusia \"nunca\" trabajaron tan de cerca",
+   "bajada": "Irán y Rusia fortalecen su cooperación en medio de tensiones globales, abordando temas desde Europa hasta Asia occidental, con foco en economía y energía. Moscú busca evitar una guerra de gran escala mientras Irán controla estratégicamente el estrecho de Ormuz, crucial para el petróleo mundial.",
+   "fuente": "clarin.com",
+   "t": 1792473608000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Murió la modelo y actriz Marcela Ortiz, ex esposa de Raúl Taibo",
+   "bajada": "Tenía 61 años. Sufrió un accidente de tránsito fatal en Tigre. Protagonizó con el actor uno de los divorcios más mediáticos de los años '90. Tras su paso por las pasarelas, fue chica Olmedo y trabajó en comedias picarescas en cine y televisión, con Guillermo Francella.",
+   "fuente": "clarin.com",
+   "t": 1792472424000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El Gobierno postergó hasta diciembre la puesta en marcha de los Fondos de Asistencia Laboral",
+   "bajada": "El régimen debía comenzar el 1° de noviembre; además, se amplió de seis a doce meses el período mínimo de aportes previo al uso de los recursos.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792471523000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
+   "bajada": "",
+   "fuente": "Clarin.com",
+   "t": 1792467620000
+  },
+  {
+   "tema": "política",
+   "titulo": "Malvinas: un informe de la TV chilena mostró placas argentinas descartadas junto al Cementerio de Darwin",
+   "bajada": "Las imágenes exhiben objetos conmemorativos que fueron dejados por familiares y visitantes argentinos como homenaje a los caídos de la guerra de 1982. Según explicó el cronista, algunos de esos recuerdos terminaron fuera del predio tras ser considerados una provocación por los residentes del archipiélago.",
+   "fuente": "clarin.com",
+   "t": 1792467366000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Villarobles, Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
+   "bajada": "",
+   "fuente": "Clarin.com",
+   "t": 1792466732000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Dubái, hub del comercio global: cómo opera la zona franca líder en el mundo que busca atraer a la carne argentina",
+   "bajada": "Este medio pudo conocer de primera mano el Dubai Multi Commodities Center (DMCC), que trabaja con 289 empresas latinoamericanas para facilitar el comercio exterior.",
+   "fuente": "ambito.com",
+   "t": 1792465200000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Una misión del Vaticano llegará a Perú y se renueva la expectativa por la visita del papa León XIV",
+   "bajada": "La información la confirmó el canciller peruano, Carlos Espá, quien dijo que no suspendieron los preparativos para la llegada del pontífice. Durante su paso de seis días por ese país, el líder de la Iglesia católica tiene previsto visitar Lima, Chiclayo, Cusco y Pucallpa.",
+   "fuente": "clarin.com",
+   "t": 1792463241000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La jueza Loretta Preska de Nueva York dio un paso clave para cerrar el juicio por YPF y anular el reclamo de US$16.000 millones",
+   "bajada": "Oficializó en el expediente de primera instancia que tuvo abierto durante décadas, el fallo favorable al Estado que anuló la condena contra Argentina en marzo en la demanda más grande contra el país por la estatización de la petrolera en 2012.",
+   "fuente": "clarin.com",
+   "t": 1792462949000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Fuertísima acusación de Marabel: \"Jugar contra Barracas es muy difícil\"",
+   "bajada": "El delantero de Sarmiento se quejó por el arbitraje tras el empate ante el Guapo. Sobre el penal no cobrado a Salle, afirmó: \"Si era al revés lo cobraba\". Y aseguró: \"Así se va manchando al fútbol\".",
+   "fuente": "ole.com.ar",
+   "t": 1792462377000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El Ángel que ilusiona a River: los secretos detrás de la figura de Correa",
+   "bajada": "Intimidad de cómo el #10 conquista a los hinchas de River con su talento y goles. Humildad y sacrificio, claves de la figura que lidera el sueño de cerrar el año con una sonrisa.",
+   "fuente": "ole.com.ar",
+   "t": 1792462057000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La decisión de Racing tras el gesto del Pacha Espino a los hinchas y el descargo del jugador en redes",
+   "bajada": "",
+   "fuente": "MDZ Online",
+   "t": 1792461336000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las disculpas de Espino",
+   "bajada": "El lateral uruguayo admitió su equivocación y anunció que aceptará las consecuencias, la multa que le aplicará la dirigencia, por su reacción contra los hinchas de Racing.",
+   "fuente": "ole.com.ar",
+   "t": 1792460907000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Elecciones en GEBA: quiénes son los candidatos y cuándo se vota para elegir a las nuevas autoridades",
+   "bajada": "Uno de los clubes más tradicionales del país elige autoridades. Las elecciones se llevarán a cabo en el Salón Social de la Sede San Martín. Aquí, las tres listas que se presentan con sus candidatos a presidente.",
+   "fuente": "clarin.com",
+   "t": 1792460197000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El Balón de Oro busca al mejor ganador de su historia: la sorprendente ventaja de Cristiano Ronaldo sobre Messi",
+   "bajada": "Cada voto cuesta un euro. Está permitido participar más de una vez, e incluso elegir al mismo candidato. Hasta ahora, los datos consagran a CR7 con el 62% por su temporada 2008.",
+   "fuente": "clarin.com",
+   "t": 1792459969000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Malas noticias en River: Fausto Vera sufrió un desgarro y se perderá los partidos ante Racing y Boca",
+   "bajada": "Sintió un pinchazo y pidió el cambio durante la victoria ante Belgrano. No es la primera vez que se pierde el Superclásico por razones de salud.",
+   "fuente": "clarin.com",
+   "t": 1792459262000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El cruce de Alfonso Espino con los hinchas de Racing tras el clásico contra Independiente",
+   "bajada": "",
+   "fuente": "ESPN Argentina",
+   "t": 1792456140000
+  },
   {
    "tema": "música",
    "titulo": "Que CEA Rock 2026: la expo gratuita que reúne fotos de Charly García, Spinetta, Virus, Andrés Calamaro y otras leyendas de la música nacional",
@@ -9,95 +170,25 @@
    "t": 1792455480000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Es un hecho, Memo Ochoa será homenajeado con América en el Estadio Azteca",
-   "bajada": "El canterano americanista recibió la invitación de su club para ser parte de un evento especial que reconocerá su trayectoria deportiva tras colgar los guantes.",
-   "fuente": "infobae.com",
-   "t": 1792455428000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Sarmiento le ganaba a Barracas Central con un golazo, pero el VAR llamó al árbitro Zamora para anularlo",
-   "bajada": "Dudoso trazado de líneas en el tanto de Marabel, que hubiera significado el 2-1 para el equipo de Junín; el juez había echado a Suárez por una falta que no fue y debió corregir el fallo.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792455423000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La Corte Suprema de México decidirá si repite el juicio por ataque con ácido a saxofonista",
-   "bajada": "Ciudad de México, 19 oct (EFE).- La Suprema Corte de Justicia de México decidirá si debe repetirse el juicio por el ataque con ácido contra la saxofonista María Elena Ríos, tras aceptar este lunes revisar la anulación de una sentencia que había absuelto a los acusados del crimen.",
-   "fuente": "infobae.com",
-   "t": 1792455417000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "FGR busca tirar el amparo que Gilda Susana Lozoya solicitó contra su vinculación a proceso por lavado de dinero",
-   "bajada": "El ministerio público federal presentó un recurso de queja contra la suspensión concedida a la acusada.",
-   "fuente": "infobae.com",
-   "t": 1792455412000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Una empresa agropecuaria de la familia Brito pagó US$22,8 millones por un campo y anticipó un futuro con más accionistas",
-   "bajada": "Se trata de Juramento, que invirtió ese monto por 10.800 hectáreas y un rodeo de 4000 cabezas de ganado en Salta.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792454954000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Balotaje de las Elecciones Brasil 2026, EN VIVO: las últimas noticias sobre los comicios hoy",
-   "bajada": "Lula da Silva y Flávio Bolsonaro, se enfrentán en las urnas este domingo 25 de octubre; qué dicen las encuestas.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792454813000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Riestra vs Unión, por el Torneo Clausura, hoy EN VIVO: equipos confirmados",
-   "bajada": "El Malevo necesita una victoria para acercarse a la permanencia, mientras que el Tatengue quiere arrimarse a puestos de playoffs. Seguilo en Olé.",
-   "fuente": "ole.com.ar",
-   "t": 1792454164000
+   "titulo": "Meeting with Florentino Pérez in Madrid",
+   "bajada": "",
+   "fuente": "riverplate.com",
+   "t": 1792455074000
   },
   {
    "tema": "economía",
-   "titulo": "Retiros voluntarios: economistas prevén un ahorro acotado y reclaman una reforma del Estado",
-   "bajada": "El plan abarca a unos 37.000 empleados de Presidencia y los ministerios. Especialistas advierten que podría provocar la salida de personal calificado y debilitar la capacidad del Estado.",
+   "titulo": "Con la inyección de fondos de ANSES: cómo quedaron las tasas de los créditos hipotecarios UVA",
+   "bajada": "Después de varios meses de subas, algunos bancos empezaron a bajar sus tasas, aunque todavía hay diferencias importantes entre las ofertas.",
    "fuente": "ambito.com",
-   "t": 1792454040000
+   "t": 1792454400000
   },
   {
-   "tema": "actualidad",
-   "titulo": "JD Vance dice que si se presenta a la presidencia de EE.UU. cree que Trump lo respaldaría",
-   "bajada": "El vicepresidente sugiere que Trump podría apoyarlo en una futura candidatura presidencial, aunque no han discutido el tema directamente. Vance decidirá sobre su carrera política tras las elecciones de medio término, mientras Trump elogia sus posibilidades junto a Rubio.",
-   "fuente": "clarin.com",
-   "t": 1792453810000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La llegada de LeBron a Filadelfia convierte a los 76ers en favoritos de las apuestas en el Este",
-   "bajada": "LeBron James se une a Filadelfia tras dejar a los Lakers, impulsando a los 76ers como favoritos en el Este, superando a los Knicks en apuestas. La salud de Embiid es crucial para los Sixers, mientras Spurs y Thunder lideran en el Oeste. El Jazz busca sorprender con su joven talento.",
-   "fuente": "clarin.com",
-   "t": 1792453802000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Confirmado: habrá sanción de Racing a Espino",
-   "bajada": "El lateral uruguayo insultó les mostró la panza a los hinchas de la Academia luego del empate 1-1 ante Independiente en el Cilindro y la dirigencia reaccionó con una multa.",
-   "fuente": "ole.com.ar",
-   "t": 1792453235000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "economía",
    "titulo": "Milei ante petroleros: se abrazó al boom de Vaca Muerta, destacó el récord de exportaciones y dijo que el dólar no está atrasado",
    "bajada": "El Presidente se adjudicó parte del salto de la producción, negó un atraso cambiario y respaldó el RIGI. El sector acompaña las reformas, pero mira con preocupación la suba del riesgo país y su impacto en el financiamiento.",
    "fuente": "clarin.com",
    "t": 1792453215000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Liverpool vs. Villarreal, por la Champions League: hora, cómo ver y probables formaciones",
-   "bajada": "Los Reds de Mac Allister reciben al conjunto español con el objetivo de mantener su puntaje ideal.",
-   "fuente": "ole.com.ar",
-   "t": 1792453189000
   },
   {
    "tema": "fútbol",
@@ -107,11 +198,25 @@
    "t": 1792453017000
   },
   {
-   "tema": "deportes",
-   "titulo": "Racing en llamas y con el vestuario roto: la falta de líderes, más los casos Espino y Miljevic aceleran los cambios para 2027",
-   "bajada": "Alfonso Espino quedó en la mira de los dirigentes tras responder a las críticas de los hinchas mostrándoles su abdomen camino al vestuario. La reacción del lateral uruguayo generó enorme malestar en las redes sociales y las autoridades del club no descartan aplicarle una sanción.",
+   "tema": "política",
+   "titulo": "Archivaron definitivamente la causa contra Mauricio Macri y Luis Caputo por el acuerdo con el FMI en 2018",
+   "bajada": "Fue con un fallo de la Cámara de Casación que aceptó el retiro de una apelación por parte del fiscal general. Así quedó firme que el cierre del caso por ausencia de delito por parte del expresidente, el actual ministro de Economía y otros exfuncionarios macristas.",
    "fuente": "clarin.com",
-   "t": 1792451129000
+   "t": 1792452602000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River jugará un amistoso ante Ferro en Ezeiza el miércoles",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792451823000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Avellaneda nunca estuvo tan lejos",
+   "bajada": "",
+   "fuente": "Página|12",
+   "t": 1792450860000
   },
   {
    "tema": "fútbol",
@@ -128,18 +233,11 @@
    "t": 1792450082000
   },
   {
-   "tema": "política",
-   "titulo": "El canciller de Kast viajó a Londres y el embajador británico a Punta Arenas en medio de las tensiones por Malvinas y el estrecho de Magallanes",
-   "bajada": "El canciller chileno Francisco Pérez Mackenna se reunió con su par británico para elevar el nivel de la “asociación estratégica” entre ambos países.",
-   "fuente": "clarin.com",
-   "t": 1792449971000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River jugará un amistoso contra un club del Ascenso",
+   "tema": "recitales",
+   "titulo": "El supergrupo de K-Pop BTS llegó a la Argentina para sus tres noches en el Estadio Único de La Plata, bajo un...",
    "bajada": "",
-   "fuente": "Olé",
-   "t": 1792449694000
+   "fuente": "Exitoina",
+   "t": 1792449891000
   },
   {
    "tema": "fútbol",
@@ -163,27 +261,6 @@
    "t": 1792448890000
   },
   {
-   "tema": "política",
-   "titulo": "Sugestivo freno de la Ley Malvinas tras la presión de Estados Unidos por las posibles sanciones a empresas de su país",
-   "bajada": "En Diputados estaba convocado un plenario de comisiones para este martes y el oficialismo lo pospuso. El proyecto venía con dificultades para reunir las firmas para el dictamen y Estados Unidos metió presión.",
-   "fuente": "clarin.com",
-   "t": 1792448836000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Copacabana se pintó de azul y oro: el ritual de los hinchas de Boca antes de la semifinal en el Maracaná",
-   "bajada": "Más de mil \"bosteros\" se congregaron en la zona del Posto 5 para alentar al equipo en la previa del partido en el Maracaná. A diferencia de lo ocurrido tres años atrás, la jornada transcurrió con tranquilidad y esta vez no se registraron incidentes.",
-   "fuente": "clarin.com",
-   "t": 1792448802000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Jugó en Racing, se retiró en 2023 y vende su colección de más de 30 camisetas por “desapego”: de qué clubes son y cuánto cuestan",
-   "bajada": "",
-   "fuente": "Canal26",
-   "t": 1792448400000
-  },
-  {
    "tema": "el mundo",
    "titulo": "Brasil: Lula adelanta el pago del subsidio Bolsa Familia en la recta final al balotaje y estalla una polémica con Bolsonaro",
    "bajada": "Es para este lunes y lo hace además con un aumento de 15% ordenado a comienzos de mes. Flavio Bolsonaro buscó competir con la iniciativa proponiendo que se aumente a dos años la entrega de ese plan si el beneficiario mejoró sus ingresos.",
@@ -191,39 +268,11 @@
    "t": 1792448054000
   },
   {
-   "tema": "deportes",
-   "titulo": "Road to Australia: el increíble torneo donde los amateurs podrán desafiar a las estrellas a un solo punto en el Buenos Aires Lawn Tennis",
-   "bajada": "La segunda edición del certamen regional incluirá un desafío donde tenistas amateur enfrentarán a profesionales en cruces a un solo punto. Quienes adquieran entradas para las dos jornadas iniciales podrán disputar la clasificación que otorgará catorce lugares para el evento principal.",
-   "fuente": "clarin.com",
-   "t": 1792445844000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Israel: quién es quién en el mapa político que disputará el poder a Benjamin Netanyahu",
-   "bajada": "Los comicios del 27 de octubre se presentan como un referéndum sobre la conducción de Benjamin Netanyahu tras el ataque del 7 de octubre de 2023. Sus adversarios llaman a negarle un nuevo periodo al señalar que el primer ministro ha evitado asumir responsabilidades por los fallos de su gestión.",
-   "fuente": "clarin.com",
-   "t": 1792444999000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Preocupación en River Plate: se lesionó uno de los jugadores más utilizados por Ponzio y se perderá el Superclásico con Boca Juniors",
-   "bajada": "",
-   "fuente": "Infobae",
-   "t": 1792444381000
-  },
-  {
    "tema": "economía",
    "titulo": "Milei fue a Vaca Muerta con tres proyectos RIGI por US$ 15.400 millones",
    "bajada": "El Gobierno formalizó la aprobación de una inversión de Pluspetrol por US$ 12.240 millones y dio luz verde a otros dos proyectos de TGS por más de US$ 3.200 millones. El RIGI ya suma 25 proyectos por US$ 68.438 millones.",
    "fuente": "clarin.com",
    "t": 1792444352000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Hoy comienza Energía y Minería, el vertical de Clarín sobre el sector",
-   "bajada": "Cubre los proyectos en marcha, los que están en carpeta y la actividad de las empresas protagonistas, así como los desafíos pendientes. En poco tiempo pasaron a ser una fuente de divisas para el país. En el primer semestre el petróleo de Vaca Muerta fue el principal producto de exportación.",
-   "fuente": "clarin.com",
-   "t": 1792444081000
   },
   {
    "tema": "sociedad",
@@ -240,20 +289,6 @@
    "t": 1792438877000
   },
   {
-   "tema": "economía",
-   "titulo": "“Extrema gravedad”: una asociación empresaria pide la remoción del juez que absolvió a dirigentes de Camioneros que bloquearon una fábrica",
-   "bajada": "El pedido es del Movimiento Empresarial Anti Bloqueos (MEAB), fundada por una diputada de La Libertad Avanza. Consideran que el juez Alejandro López avaló “la comisión de delitos” al absolver a los acusados por el conflicto con una distribuidora de San Pedro.",
-   "fuente": "clarin.com",
-   "t": 1792438746000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El superávit comercial de septiembre fue el segundo más alto de 2026: las exportaciones superaron los u$s10.000 millones",
-   "bajada": "Las exportaciones treparon 21,6% interanual y 8,6% mensual. En paralelo, las importaciones tuvieron poco dinamismo, afectadas por la debilidad de la actividad y la elevada base de comparación.",
-   "fuente": "ambito.com",
-   "t": 1792438740000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Vasco da Gama vs. Boca, por la Copa Sudamericana: hora, cómo ver y probables formaciones",
    "bajada": "",
@@ -261,11 +296,11 @@
    "t": 1792436753000
   },
   {
-   "tema": "fútbol",
-   "titulo": "La formación de Boca vs. Vasco da Gama, por la Copa Sudamericana",
+   "tema": "recitales",
+   "titulo": "Vicentico frenó su show en Bogotá por una bengala entre el público: “¿Sabés lo que significa eso para un argentino?\"",
    "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792435386000
+   "fuente": "Infobae",
+   "t": 1792434060000
   },
   {
    "tema": "espectáculos",
@@ -275,13 +310,6 @@
    "t": 1792431744000
   },
   {
-   "tema": "recitales",
-   "titulo": "Los Red Hot Chili Peppers dieron un show benéfico en Los Ángeles tras dos años alejados de los escenarios",
-   "bajada": "",
-   "fuente": "Ambito",
-   "t": 1792424400000
-  },
-  {
    "tema": "música",
    "titulo": "\"Celebrando a Charly y el rock nacional\"",
    "bajada": "",
@@ -289,39 +317,11 @@
    "t": 1792423054000
   },
   {
-   "tema": "recitales",
-   "titulo": "Tini Stoessel anunció un nuevo álbum y reflotó el escándalo con su padre: el detalle que generó revuelo",
-   "bajada": "",
-   "fuente": "Lmneuquen.com",
-   "t": 1792422840000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Lo que viene: la cuarta temporada de Lupin encabeza los estrenos de la semana en el streaming",
    "bajada": "La nueva entrega de la serie francesa inspirada en el ladrón de guante blanco llega el viernes a Netflix. Tras pasar cuatro años en prisión, Assane (el personaje central) quiere comenzar una nueva vida con su familia, pero cuando alguien decide imitar sus robos, no puede con su genio y vuelve con sus delitos mágicos.",
    "fuente": "clarin.com",
    "t": 1792421700000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Básquetbol: Adelante Reconquista y la Escuela Municipal Racing Club disputaron un encuentro amistoso",
-   "bajada": "",
-   "fuente": "ReconquistaHOY",
-   "t": 1792418227000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Bragado, Buenos Aires: el pronóstico del tiempo para este lunes 19 octubre de 2026",
-   "bajada": "",
-   "fuente": "Vive Click",
-   "t": 1792407830000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Zapatillas para el gimnasio: marca por marca, cuáles son y cuánto cuestan los mejores modelos para entrenar fuerza",
-   "bajada": "No cualquier calzado deportivo ofrece la estabilidad necesaria para levantar peso. Puma, Nike, Adidas, Reebok, Under Armour, Atomik y On explican qué distingue a sus propuestas.",
-   "fuente": "clarin.com",
-   "t": 1792399572000
   }
  ]
 }
