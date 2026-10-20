@@ -1,124 +1,243 @@
 {
- "t": 1792516090549,
+ "t": 1792528587116,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Junqueras: La represión fue brutal e innecesaria, lo han hecho porque nos tenían miedo",
-   "bajada": "Barcelona, 20 oct (EFE).- El líder de ERC, Oriol Junqueras, ha celebrado este martes su amnistía y el fin de nueve años de una \"represión brutal e innecesaria\" por parte de un \"Estado fallido\": \"Si lo han hecho es porque nos han tenido y nos tienen miedo. Y hacen bien en tenernos miedo\".",
+   "titulo": "La erosión del río Vilcanota provocó daños en un muro inca de Machu Picchu y obligó a especialistas a recuperar la base de la estructura",
+   "bajada": "Con técnicas tradicionales y nuevos elementos líticos, especialistas ejecutaron trabajos para recuperar el soporte de la estructura arqueológica.",
    "fuente": "infobae.com",
-   "t": 1792515760000
+   "t": 1792528403000
   },
   {
    "tema": "actualidad",
-   "titulo": "Temblor hoy en México: noticias actividad sísmica 20 de octubre de 2026",
-   "bajada": "Sigue en vivo todas las actualizaciones sobre movimientos telúricos a lo largo y ancho del país.",
+   "titulo": "Brasil acusa a Milei de intentar interferir en las elecciones con \"ofensas\" y \"mentiras\"",
+   "bajada": "São Paulo, 20 oct (EFE).- El Gobierno de Brasil acusó este martes al mandatario argentino, Javier Milei, de intentar interferir en las elecciones del país por medio de \"ofensas\" y \"mentiras\" contra el presidente Luiz Inácio Lula da Silva, el Poder Judicial y el sistema electrónico de votación.",
    "fuente": "infobae.com",
-   "t": 1792515746000
+   "t": 1792528397000
   },
   {
    "tema": "actualidad",
-   "titulo": "Cristina Alberó recuerda a Antonio Grimau: la pareja de Trampa para un soñador y la química que enamoró a un país",
-   "bajada": "En 1980, protagonizaron un éxito inolvidable en Canal 9 y el público creyó que eran novios más allá de la ficción. Conmovida por la muerte del galán, la actriz evoca aquellos años de amistad que se trasladaron a sus familias y mantuvieron hasta el último día.",
+   "titulo": "PSG - FC Barcelona, en directo: Xavi Espart firma un golazo para volver a instaurar las tablas en el marcador",
+   "bajada": "Sigue el minuto a minutos del partido entre el club parisino y el equipo azulgrana.",
    "fuente": "infobae.com",
-   "t": 1792515744000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Olé y un recorrido por las entrañas del Sao Januario, la casa de Vasco Da Gama",
-   "bajada": "A horas de la semifinal de la Sudamericana contra Boca, un paseo por todos los rincones del estadio que le cedió su lugar al mítico Maracaná para el gran evento.",
-   "fuente": "ole.com.ar",
-   "t": 1792515305000
+   "t": 1792528386000
   },
   {
    "tema": "actualidad",
-   "titulo": "Murió Antonio Grimau: reacciones y mensajes de despedida al actor",
-   "bajada": "Lo confirmó la Asociación Argentina de Actores y Actrices; “Abrazamos con afecto a sus familiares, amistades y colegas en este momento de tristeza”, señalaron en un comunicado.",
+   "titulo": "Javier Milei y sus medidas, en vivo: el mandatario se refirió al crecimiento energético y habló de una “revancha histórica”",
+   "bajada": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios.",
    "fuente": "lanacion.com.ar",
-   "t": 1792515232000
+   "t": 1792528200000
   },
   {
    "tema": "actualidad",
-   "titulo": "Últimas encuestas de las elecciones en Brasil 2026: quién va ganando hoy para la segunda vuelta",
-   "bajada": "Los sondeos dan una escaso margen de diferencia entre los dos postulantes; dónde cosecha más votos cada candidato.",
+   "titulo": "Champions League, EN VIVO: el minuto a minuto de los partidos",
+   "bajada": "Se disputa el comienzo de la tercera fecha, con nueve partidos.",
    "fuente": "lanacion.com.ar",
-   "t": 1792515127000
+   "t": 1792528169000
   },
   {
    "tema": "actualidad",
-   "titulo": "La oposición cuestionó a Milei por negar que haya argentinos que no llegan a fin de mes",
-   "bajada": "Dirigentes del kirchnerismo, la UCR, la Coalición Cívica, el PS y exlibertarios repudiaron las expresiones del Presidente y alertaron sobre la crisis de los morosos.",
+   "titulo": "Combativa tras el caos, Meloni decreta medidas de mano dura contra los menores: prisión preventiva y baja de imputabilidad",
+   "bajada": "Un nuevo decreto-ley aprobó la prisión preventiva de chicos de entre 14 y 18 años y el envío de 500 militares a Milán, epicentro de los desmanes.",
    "fuente": "lanacion.com.ar",
-   "t": 1792515071000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Leandro Paredes, el enigma de Boca en la previa de la semifinal: su deseo de jugar y el riesgo que quiere evitar el Vasco Arruabarrena",
-   "bajada": "El club había informado su lesión sin emitir un parte médico oficial. El capitán quiere ser titular, pero el entrenador no lo quiere arriesgar. Si no va de arranque, ya está decidido quién ocupará su lugar en cancha.",
-   "fuente": "clarin.com",
-   "t": 1792514516000
+   "t": 1792528116000
   },
   {
    "tema": "fútbol",
-   "titulo": "Racing y una buena noticia con Leandro Córdoba: volvió a pisar el campo tras su lesión de tobillo",
-   "bajada": "El flamante refuerzo de la Academia trotó en el césped luego de kinesiología y un edema óseo, aunque el cuerpo técnico prefiere no apurar los tiempos. Los detalles.",
+   "titulo": "Colapinto vuelve a una pista especial: del sobrepaso del año a la rebelión ante Gasly",
+   "bajada": "Franco regresa a Austin, escenario de dos de los momentos más destacados de su paso por la Fórmula 1. Uno fue en 2024, y el otro, en 2025. A ver qué depara el 2026...",
    "fuente": "ole.com.ar",
-   "t": 1792514443000
+   "t": 1792527595000
   },
   {
    "tema": "actualidad",
-   "titulo": "\"José Luis Borges\", el fallido que repitió Jorge Macri en un acto por el legado del escritor argentino en España",
-   "bajada": "El mandatario porteño participó en un acto en Madrid donde se depositaron objetivos de Jorge Luis Borges y su esposa María Kodama en la Caja de las letras del Instituto Cervantes.",
+   "titulo": "Perdieron sus casas y negocios en el terremoto, pero quieren quedarse en Los Palos Grandes, Venezuela: \"¿A dónde más me voy a ir?\"",
+   "bajada": "La historias de vecinos del barrio del municipio de Chacao que buscan volver a sus casas. Fue uno de los sitios más afectados del doble sismo del 24 de junio pasado.",
    "fuente": "clarin.com",
-   "t": 1792514304000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Sueñan con Primera División: las cuentas de los seis equipos con chances de ascenso directo",
-   "bajada": "Ferro y Godoy Cruz, por la Zona A, y Tristán Suárez, Temperley, Gimnasia (J) y Atlanta, por la B, son los que pueden acceder a la final por un lugar en la A.",
-   "fuente": "ole.com.ar",
-   "t": 1792514231000
+   "t": 1792527277000
   },
   {
    "tema": "actualidad",
-   "titulo": "Elecciones anticipadas en España 2026: cuándo se vota, qué se elige y qué está en juego para Pedro Sánchez",
-   "bajada": "Los alquileres y los desalojos se suman a las tensiones políticas que atraviesa el país. España es una monarquía parlamentaria con un rey como jefe de Estado y un presidente de Gobierno.",
+   "titulo": "Julián Alvarez se sacó la mufa y volvió a meter un gol con el Atlético de Madrid, seis meses después y otra vez por Champions League",
+   "bajada": "El delantero argentino marcó el empate parcial de su equipo ante el Stuttgart, en Alemania. Fue en el arranque del segundo tiempo y lo gritó con todo: desde abril que no la metía en su club. El último había sido contra el Arsenal, en las semifinales del torneo pasado.",
    "fuente": "clarin.com",
-   "t": 1792514012000
+   "t": 1792527125000
   },
   {
    "tema": "fútbol",
-   "titulo": "La vuelta de Miljevic, el gran interrogante de Racing para jugar ante River",
+   "titulo": "Boca Juniors y Waiwen llegan a Santa Cruz con un amistoso en Caleta Olivia",
    "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792513268000
+   "fuente": "Santa Cruz",
+   "t": 1792526919000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "\"Quien rompe paga\": Italia crea un nuevo delito y habilita la prisión preventiva para menores tras los graves desórdenes en Milán",
+   "bajada": "El gobierno italiano dispuso que el arresto preventivo sea aplicable a jóvenes de entre 14 y 18 años de manera inmediata. A su vez, los padres asumirán una mayor responsabilidad económica y podrán ser obligados a pagar por los saqueos y destrozos cometidos.",
+   "fuente": "clarin.com",
+   "t": 1792526901000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los sueños están para cumplirse",
+   "bajada": "",
+   "fuente": "Racing Club - Sitio Oficial",
+   "t": 1792526596000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El PSG golpeó primero por un error de Lamine Yamal",
+   "bajada": "Doue abrió el marcador para el conjunto parisino después de una pelota perdida por la joya española. Barcelona reaccionó inmediatamente, pero Fermín López desperdició una ocasión clarísima para igualar el encuentro. Mirá.",
+   "fuente": "ole.com.ar",
+   "t": 1792526447000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con gol de Nahuel Molina, la Roma golea 4-0 al Slovan Bratislava en la Champions",
+   "bajada": "El futbolista de la Selección Argentina puso el segundo tanto y estiró la diferencia en la tercera ronda de la fase de liga. Seguilo en Olé.",
+   "fuente": "ole.com.ar",
+   "t": 1792526144000
   },
   {
    "tema": "política",
-   "titulo": "Malvinas: el Tribunal del Mar puso fecha y escuchará el 10 y 11 de noviembre el reclamo argentino para frenar el petróleo británico",
-   "bajada": "Lo decidió el presidente del Tribunal, el juez Maurice Kamga, según informó el propio organismo en un comunicado. El Tribunal fue creado por una convención de las Naciones Unidas.",
+   "titulo": "Desestimaron la denuncia por lavado contra los empresarios Foster Gillett y Guillermo Tofoni por transferencias de futbolistas",
+   "bajada": "La Justicia cerró el expediente al comprobar que los fondos que usaron para esos contratos provinieron desde EE.UU. eran lícitos y trazables y, por consiguiente, no configuraron delito alguno. Tofoni es uno de los principales denunciantes del presidente de la AFA, Claudio Chiqui Tapia y su Tesorero, Pablo Toviggino.",
    "fuente": "clarin.com",
-   "t": 1792512917000
+   "t": 1792525533000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "De “secarle las bolas a Tapia” al cruce con Argentino de Merlo y tomarse un café: la interna en la AFA bajó al Ascenso",
+   "bajada": "La foto de una plaqueta entregada por River a la dirigencia de Merlo encendió un inesperado conflicto. Maxi Levy, presidente de Almirante Brown y aliado del Chiqui, cuestionó el acercamiento. Martín Brieva respondió con altura, defendió la independencia de su club y lo invitó al diálogo.",
+   "fuente": "clarin.com",
+   "t": 1792525506000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "A diez años del caso Nassar, la jueza que lo condenó lanzó una inquietante advertencia: \"Hubo muy pocos cambios significativos”",
+   "bajada": "El ex médico del equipo olímpico de Estados Unidos fue condenado a entre 40 y 175 años de prisión por abuso sexual de niñas y adolescentes. La magistrada participó de un evento de Gimnastas por el Cambio Internacional (G4CI) en Rotterdam, en simultáneo con el Campeonato Mundial de Gimnasia Artística.",
+   "fuente": "clarin.com",
+   "t": 1792525447000
   },
   {
    "tema": "política",
-   "titulo": "Financiamiento universitario: revisarán el fallo que le aplica multa al gobierno nacional por no cumplir el fallo",
-   "bajada": "La Cámara en lo Contencioso Administrativo Federal aceptó un planteo del Ministerio de Capital Humano. El jefe de Gabinete Diego Santilli había sido multado con 100 mil pesos diarios. El tribunal también revisará si el gobierno cumple con la medida cautelar.",
+   "titulo": "Javier Milei desembarcó por tercera vez en el año en España: dará un discurso sobre economía austríaca y busca reunirse con Díaz Ayuso",
+   "bajada": "El Presidente tiene una agenda centrada en disertaciones académicas y actividades privadas durante su breve estadía en Madrid. Pero no mantendrá encuentros institucionales ni se reunirá con su amigo y líder de Vox, Santiago Abascal.",
    "fuente": "clarin.com",
-   "t": 1792512461000
+   "t": 1792525336000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El de Espino, uno más de tantos conflictos en Racing",
-   "bajada": "",
-   "fuente": "Racing de Alma",
-   "t": 1792512286000
+   "tema": "política",
+   "titulo": "Procesaron presos que haciéndose pasar por el juez Horacio Rosatti extorsionaban a familiares de otros detenidos",
+   "bajada": "El juez federal Julián Ercolini procesó a un grupo de presos alojados en una cárcel de Jujuy quienes con celulares escondidos en sus celdas realizaron múltiples estafas y extorsiones. Es otra de las maniobras que se hicieron contra jueces en la época K.",
+   "fuente": "clarin.com",
+   "t": 1792524816000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Impacto de la guerra en Medio Oriente: se desploma la venta de viviendas en EEUU tras el aumento de las hipotecas",
+   "bajada": "El aumento de los costes de endeudamiento — que siguen la evolución de los rendimientos de los bonos del Tesoro — y la guerra en Medio Oriente — que aviva la inflación de EEUU — están afectando al sector inmobiliario norteamericano.",
+   "fuente": "ambito.com",
+   "t": 1792524540000
   },
   {
    "tema": "el mundo",
-   "titulo": "“Pura atrocidad”: la imagen de una beba de un año asesinada en un ataque ruso vuelve a mostrar el horror de la guerra de Ucrania",
-   "bajada": "La compartió el presidente Volodimir Zelenski para denunciar un ataque de drones de Putin contra una plaza. “Son fotos horribles, pero detrás de ellas hay vidas destrozadas y la verdad sobre esta guerra”, manifestó.. La nena murió junto a su madre, Inna, de 28 años, que era maestra de primaria.",
+   "titulo": "Extienden el toque de queda en Francia e imponen restricciones en varias ciudades para frenar los incendios y saqueos",
+   "bajada": "La imposición de restricciones nocturnas en París y diversas localidades contribuyó a frenar la ola de violencia y destrozos. El primer ministro Sébastien Lecornu ponderó el impacto de la medida y anticipó nuevos límites donde las circunstancias lo requieran.",
    "fuente": "clarin.com",
-   "t": 1792512266000
+   "t": 1792524532000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El CEO de Ryanair alerta a Europa por \"el mayor aumento de precios de vuelos de la historia\"",
+   "bajada": "Michael O'Leary proyectó incrementos de hasta un 20% en los pasajes tras la escalada del combustible y la reducción de oferta por quiebras y fusiones. El ejecutivo realizó las declaraciones en Bruselas, donde anunció la cancelación de 20 rutas en Bélgica.",
+   "fuente": "ambito.com",
+   "t": 1792523880000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "El Festival de Cine de Mar del Plata anunció las 14 películas que competirán por el Astor de Oro",
+   "bajada": "La muestra será del 5 al 15 de noviembre. \"Caballo salvaje nueve\" (\"Wild Horse Nine\"), de Martin McDonagh, será el filme de apertura. Homenajes a Alejandro Agresti, Emilio Kauderer y Natalia Oreiro.",
+   "fuente": "clarin.com",
+   "t": 1792523762000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Ferro venció a Racing y se prendió otra vez en la lucha por el primer lugar",
+   "bajada": "",
+   "fuente": "DeporTV",
+   "t": 1792523760000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Fabián Lombardo, presidente de Aerolíneas Argentinas: “Hoy volamos y facturamos más con 2.200 empleados menos”",
+   "bajada": "En un foro regional, el CEO de la aerolínea de bandera señaló que procesos que podían realizar dos personas, los hacían cuatro”. Repasó como la compañía dejó atrás pérdidas de US$ 400 millones anuales y ahora da ganancias.",
+   "fuente": "clarin.com",
+   "t": 1792523207000
+  },
+  {
+   "tema": "economía",
+   "titulo": "\"Estamos poniendo la plata”: el embajador Lamelas ratificó el apoyo de Estados Unidos al Gobierno de Milei",
+   "bajada": "El diplomático aseguró que habrá inversiones y financiamiento por desde EE.UU. por hasta US$ 20.000 millones. Volvió a apuntar contra China.",
+   "fuente": "clarin.com",
+   "t": 1792520957000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Nicolás Ramírez denunció que fue amenazado por dirigentes de Huracán: \"Comenzaron a increparnos\" y \"golpearon la puerta queriendo ingresar\"",
+   "bajada": "El árbitro del partido entre el Globo y Gimnasia, en el cual el equipo platense terminó imponiéndose por 2 a 1, detalló la situación en el informe.",
+   "fuente": "clarin.com",
+   "t": 1792520925000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Práctica en San Lorenzo con la mente puesta en Newell's Old Boys",
+   "bajada": "",
+   "fuente": "San Lorenzo Primero",
+   "t": 1792520598000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Los supermercados reclaman al Gobierno por el uso de las billeteras virtuales en los comercios minoristas",
+   "bajada": "La cámara que agrupa al sector mantuvo un encuentro con el ministro Caputo para que interceda ante CABA, Santa Fe y La Pampa, hoy fuera de una herramienta fiscal. Reclama \"equidad competitiva\".",
+   "fuente": "clarin.com",
+   "t": 1792519729000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Elecciones en Brasil: ¿Qué votan los algoritmos? Un giro a favor del oficialismo en el mundo digital",
+   "bajada": "Inicialmente el candidato conservador Flávio Bolsonaro lideraba en las redes sociales. Pero un análisis de la consultora Quaest detectó que lo desplazó Lula da Silva. No implica un pronóstico de resultado electoral, pero se señala que hay una correlación entre estos indicadores y lo que puede suceder en las urnas.",
+   "fuente": "clarin.com",
+   "t": 1792519237000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Tiene más de 25 años de historia, recorrió 70 ciudades y debuta en Argentina: la banda española que llega a Niceto con entradas desde $40.000",
+   "bajada": "",
+   "fuente": "Canal26",
+   "t": 1792519125000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "\"Hay mucha gente, pero tengo fe\": seis horas de cola y el CV en la mano en una búsqueda laboral que desbordó Ezeiza",
+   "bajada": "Una distribuidora de fiambres pidió a los candidatos que se presentaran en persona para cubrir 40 puestos. Las historias de varios postulantes que reflejan un complejo momento para la búsqueda de empleo.",
+   "fuente": "clarin.com",
+   "t": 1792519039000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River y Red Itínere se unen para impulsar nuevas oportunidades educativas",
+   "bajada": "",
+   "fuente": "www.riverplate.com",
+   "t": 1792518533000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Premios ACE 2026: todos los ganadores del teatro en una noche en la que el Oro fue para Ingrid Pelicori",
+   "bajada": "La actriz recibió la máxima distinción por su trabajo en \"La muerte de un viajante\", mientras que \"Hairspray\" se consagró como el musical más premiado. La ceremonia se realizó en el Teatro El Nacional y reunió a las principales figuras de la escena porteña.",
+   "fuente": "clarin.com",
+   "t": 1792513979000
   },
   {
    "tema": "sociedad",
@@ -128,25 +247,11 @@
    "t": 1792512180000
   },
   {
-   "tema": "economía",
-   "titulo": "Mensaje al Gobierno desde un foro empresario: \"Preocupación, incertidumbre y tristeza, el estado de ánimo que predomina en los hogares”",
-   "bajada": "Fue en el simposio organizado por la Universidad de TelAviv. Los politólogos plantearon que Milei está ante una opción de hierro: dogmatismo o pragmatismo. ¿Qué puede pasar en 2027?",
-   "fuente": "clarin.com",
-   "t": 1792511411000
-  },
-  {
    "tema": "fútbol",
    "titulo": "San Lorenzo volvió a entrenarse con el ánimo por las nubes",
    "bajada": "",
    "fuente": "San Lorenzo Website",
    "t": 1792511270000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "\"Se ve manchado el fútbol\": la bronca de Marabel y la ironía de Sava por el gol anulado a Sarmiento frente a Barracas",
-   "bajada": "El árbitro Daniel Zamora y el VAR anularon un gol agónico de Junior Marabel por una supuesta posición adelantada. Tras la igualdad, el entrenador Facundo Sava sostuvo que el delantero paraguayo estaba habilitado por un rival.",
-   "fuente": "clarin.com",
-   "t": 1792511093000
   },
   {
    "tema": "espectáculos",
@@ -156,60 +261,11 @@
    "t": 1792511040000
   },
   {
-   "tema": "deportes",
-   "titulo": "La historia del hincha de Peñarol que fue captado caminando tranquilamente en medio de la represión policial en Francia",
-   "bajada": "Se trata de Felipe Alvariza, un joven de 21 años de padres uruguayos que vive en Francia. \"Todo el día todo el mundo estaba corriendo y, si corrés, la gente piensa que estás en el lío. Yo dije: ‘Mejor caminar tranquilo’\", contó el joven.",
-   "fuente": "clarin.com",
-   "t": 1792510345000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Qué pasará con Enzo Fernández y Haaland si el Manchester City pierde la categoría: ¿podrían rescindir sus contratos?",
-   "bajada": "No son pocas las fuentes que aseguran que el City podría perder la categoría por no respetar el fair play financiero. Qué pasó con los planteles de Milan y Juventus cuando perdieron las categorías por cuestiones extradeportivas.",
-   "fuente": "clarin.com",
-   "t": 1792509869000
-  },
-  {
-   "tema": "política",
-   "titulo": "\"El que bloquea un servicio esencial va preso\": la advertencia de Jorge Macri tras las detenciones de metrodelegados por el paro de subtes",
-   "bajada": "El jefe de Gobierno porteño apuntó contra los gremialistas Claudio Dellecarbonara, Néstor Segovia y Facundo Heredia, detenidos por la policía porteña en una estación de la línea B. Néstor Segovia fue demorado pero liberado minutos más tarde.",
-   "fuente": "clarin.com",
-   "t": 1792509248000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dólar: Alberto Ades explicó por qué la Argentina necesita un tipo de cambio más alto y qué puede pasar en 2027",
-   "bajada": "El economista consideró que un peso más débil ayudaría a mejorar la competitividad de distintos sectores, aunque advirtió sobre los riesgos de una devaluación. Cuáles son las tres alternativas que planteó y por qué cree que el Gobierno apostará a las reformas económicas.",
-   "fuente": "ambito.com",
-   "t": 1792508640000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Alineaciones de Vasco da Gama y Boca para el duelo de vuelta de las semifinales de la Copa Sudamericana",
    "bajada": "",
    "fuente": "Bolavip Argentina",
    "t": 1792508542000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El temporal de lluvias que provocó al menos cuatro muertes en España pierde fuerza",
-   "bajada": "Azotó el este del país y generó severas inundaciones, con lluvias acumuladas que superaron los 700 litros por metro cuadrado. El presidente Pedro Sánchez anunció que declarará como zona catastrófica a los municipios más perjudicados.",
-   "fuente": "clarin.com",
-   "t": 1792507345000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Por qué River se reunió con el Real Madrid y el obsequio especial a Florentino Pérez :: Olé - ole.com.ar",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792507018000
-  },
-  {
-   "tema": "economía",
-   "titulo": "\"Este cultivo se ha perdido\": El Niño provoca una crisis mundial del azúcar",
-   "bajada": "Una cosecha de caña de azúcar dañada por El Niño en India, el segundo mayor productor del mundo, está perjudicando a consumidores y agricultores, además de socavar los objetivos de seguridad energética del país.",
-   "fuente": "ambito.com",
-   "t": 1792506240000
   },
   {
    "tema": "música",
@@ -219,53 +275,11 @@
    "t": 1792505547000
   },
   {
-   "tema": "sociedad",
-   "titulo": "La historia de \"Uros-Z\", el barco fantasma que quedó a la deriva en la crecida del río Paraná por efecto de El Niño",
-   "bajada": "Encalló a dos kilómetros de donde estaba en Corrientes y representa un riesgo para otros navegantes. La historia de su frustrada construcción y los reclamos al Estado tras décadas de abandono de la estructura.",
-   "fuente": "clarin.com",
-   "t": 1792504578000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La pelea por los playoffs y lo que le queda a San Lorenzo en el torneo",
-   "bajada": "",
-   "fuente": "San Lorenzo Primero",
-   "t": 1792504524000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Ricardo Arriazu advirtió sobre una venta masiva de bonos a nivel global: \"La Argentina está sólida pero no es confiable, y el mundo está por ser un estafador serial\"",
-   "bajada": "En medio del clima financiero global volátil y que la Argentina lleva la peor parte, el economista advirtió sobre los coletazos de los problemas que enfrentan los países desarrollados. Culpó a la política monetaria actual del Banco Central por el bajo crecimiento de la economía.",
-   "fuente": "clarin.com",
-   "t": 1792504497000
-  },
-  {
    "tema": "recitales",
    "titulo": "Melendi vuelve a la Argentina con nuevo disco y un repertorio lleno de clásicos...",
    "bajada": "",
    "fuente": "Quiero Música En Mi Idioma",
    "t": 1792504236000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Murió Antonio Grimau a los 82 años: “El teatro me salvó la vida”, la frase que dejó en su última entrevista con Clarín",
-   "bajada": "En abril, el actor repasó con este medio sus comienzos, el dolor irreparable por la muerte de su hijo Lucas y el oficio que lo ayudó a atravesar sus pérdidas. “Aunque sea haciendo un monólogo y yo solo, pero ahí voy a estar, feliz y en paz”, había dicho.",
-   "fuente": "clarin.com",
-   "t": 1792503443000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El riesgo país vuelve a trepar y se mantiene en el nivel más alto en lo que va del año",
-   "bajada": "El índice que elabora JP Morgan llegó a superar los 700 puntos pero cerca del mediodía los bonos pasaron a tener mejoras. Continúa en su nivel más elevado desde la previa a las elecciones legislativas de 2025.",
-   "fuente": "clarin.com",
-   "t": 1792503193000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "La reacción de Ángela Torres ante un incidente en pleno recital en Salta: el video",
-   "bajada": "",
-   "fuente": "Infobae",
-   "t": 1792503180000
   },
   {
    "tema": "fútbol",
@@ -275,18 +289,11 @@
    "t": 1792502317000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "Murió a los 82 años el actor Antonio Grimau, el eterno galán que brilló en cine, teatro y televisión",
-   "bajada": "La noticia fue confirmada este martes por la Asociación Argentina de Actores. Comenzó a actuar a los 16 años, tras presentarse a un aviso que vio en Clarín y desarrolló una carrera de seis décadas en la que dejó una huella imborrable. Aunque las telenovelas le dieron fama, su gran pasión era el teatro.",
-   "fuente": "clarin.com",
-   "t": 1792501264000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima en AMBA: sube la temperatura y rigen alertas",
+   "tema": "música",
+   "titulo": "“Unidos por el rock” reunirá a dos bandas mendocinas en el Espacio Cultural Julio Le Parc",
    "bajada": "",
-   "fuente": "Diario El Norte - San Nicolás",
-   "t": 1792497791000
+   "fuente": "PRENSA GOBIERNO DE MENDOZA",
+   "t": 1792497371000
   },
   {
    "tema": "tecnología",
@@ -294,20 +301,6 @@
    "bajada": "Una de las afectadas en Revolut y sus usuarios reportan que no funcionan los pagos con tarjetas ni transferencias. Medios españoles estiman que la falla podría afectar a cerca de 80 millones de personas en todo el mundo.",
    "fuente": "clarin.com",
    "t": 1792495362000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Vasco da Gama vs. Boca Juniors, por la Copa Sudamericana 2026: dónde ver en vivo, horario y formaciones",
-   "bajada": "",
-   "fuente": "Somos Jujuy",
-   "t": 1792494000000
-  },
-  {
-   "tema": "música",
-   "titulo": "El lugar sin límites",
-   "bajada": "",
-   "fuente": "ANRed",
-   "t": 1792491175000
   },
   {
    "tema": "fútbol",
@@ -332,10 +325,17 @@
   },
   {
    "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
+   "titulo": "Clima hoy en Villarobles, Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
    "bajada": "",
    "fuente": "Clarin.com",
-   "t": 1792467620000
+   "t": 1792466732000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este martes 20 octubre de 2026",
+   "bajada": "",
+   "fuente": "Clarin.com",
+   "t": 1792465409000
   }
  ]
 }
