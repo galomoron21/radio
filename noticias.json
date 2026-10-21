@@ -1,117 +1,257 @@
 {
- "t": 1792595766016,
+ "t": 1792610473795,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Daniel López Rosetti, médico: “Muchas personas sufren por cosas que no pueden controlar”",
-   "bajada": "La charla del doctor en el festival que se realizará en el Hipódromo Palermo será el domingo 25 de octubre por la tarde.",
+   "titulo": "Champions League, EN VIVO: los goles de Nico Paz y el minuto a minuto de los partidos",
+   "bajada": "La tercera fecha se completa con nueve partidos.",
    "fuente": "lanacion.com.ar",
-   "t": 1792595607000
+   "t": 1792610326000
   },
   {
    "tema": "actualidad",
-   "titulo": "Chaco: condenaron a cuatro “cueveros” que escondían millones en los paneles de un auto y a la sociedad que usaron como fachada",
-   "bajada": "El monto de las multas y los bienes decomisados supera los $1000 millones; uno de los detenidos arrastraba otra condena.",
+   "titulo": "U2 agotó la preventa para sus dos shows en River en menos de dos horas: más de un millón de personas hicieron la fila virtual",
+   "bajada": "La banda irlandesa regresará a la Argentina el 23 y 25 de marzo de 2027 para celebrar sus 50 años de trayectoria; la venta general de entradas comenzará este jueves a las 10 a través de All Access.",
    "fuente": "lanacion.com.ar",
-   "t": 1792595607000
+   "t": 1792610234000
   },
   {
    "tema": "actualidad",
-   "titulo": "Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones",
-   "bajada": "El fiscal Pollicita dio los primeros pasos procesales en la causa contra Caputo y Bausili; busca recabar documentación técnica.",
+   "titulo": "Real Madrid - Leipzig, en directo: ya tenemos onces de ambos equipos y sorpresa en el de José Mourinho",
+   "bajada": "El equipo de José Mourinho quiere hacer valer el facto campo y lograr el pleno de victorias en Europa antes del Clásico.",
+   "fuente": "infobae.com",
+   "t": 1792610219000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Sporting Clube de Portugal vs. Lask Linz - en vivo HOY: Inicia el partido de la semana 3 de la Uefa Champions League con Luis Suárez titular",
+   "bajada": "El delantero de la selección Colombia espera marcar por tercera jornada consecutiva en la Liga de Campeones y ampliar su leyenda como máximo goleador del club portugués en la competencia.",
+   "fuente": "infobae.com",
+   "t": 1792610218000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El dólar subió por cuarto día consecutivo y marcó un nuevo récord nominal",
+   "bajada": "La divisa mayorista avanzó por cuarta jornada y cerró a un récord $1.526. Al público siguió a $1.545 en el Banco Nación.",
+   "fuente": "infobae.com",
+   "t": 1792610214000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Lucas Maglio, ingeniero en acuicultura, sobre un negocio en auge: “Quizás haya llegado el momento de comenzar a mirar también hacia el agua”",
+   "bajada": "El referente de Grupo Mar Andino, que disertará en un congreso de Caena, señaló que la Argentina “posee condiciones extraordinarias para desarrollar acuicultura a gran escala en su plataforma marina”.",
    "fuente": "lanacion.com.ar",
-   "t": 1792595579000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Qué territorios podría perder Ucrania si las fronteras con Rusia se fijan donde está hoy el frente de batalla",
-   "bajada": "Al menos un 25% del área que controlaba en 2022 permanece ocupada por tropas de Putin, pese a que una contraofensiva de Kiev obligó a cambiar la estrategia de pinzas del Kremlin.",
-   "fuente": "infobae.com",
-   "t": 1792595544000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Polémica en San Lázaro: exigen explicar quién autorizó premiación evangélica a alcaldes del PRI y PAN, cuestionan “blanqueamiento político”",
-   "bajada": "El Grupo de Amistad México-Palestina pide transparentar el uso del recinto para un acto con representantes diplomáticos israelíes y reclama apego a los principios de política exterior.",
-   "fuente": "infobae.com",
-   "t": 1792595538000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Álvaro Montero y Sebastián Villa jugarán la final de la Copa Sudamericana con Boca Juniors en Barranquilla: así los calificó la prensa en Argentina",
-   "bajada": "Boca Juniors jugará la gran final de la Copa Sudamericana frente a Atlético Mineiro de Brasil o Montevideo City Torque de Uruguay.",
-   "fuente": "infobae.com",
-   "t": 1792595537000
+   "t": 1792610149000
   },
   {
    "tema": "fútbol",
-   "titulo": "Merentiel, con Olé, tras el Maracanazo: \"Hasta que no gane algo con esta camiseta...\"",
-   "bajada": "La Bestia tiene la idea fija. No se siente un indiscutido y menos un histórico. Aunque lo sea. Por eso, tras la clasificación a la final, sueña con pagar su cuenta pendiente. Y hasta confiesa: \"Me siento hincha...\".",
-   "fuente": "ole.com.ar",
-   "t": 1792594980000
+   "titulo": "La nueva campaña de socios de San Lorenzo y el mensaje del presidente",
+   "bajada": "",
+   "fuente": "San Lorenzo Primero",
+   "t": 1792609917000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Un ex Racing recordó la pelea con Saja: «Teo Gutiérrez es el hijo de p… más grande»",
+   "bajada": "",
+   "fuente": "El Intransigente",
+   "t": 1792609615000
   },
   {
    "tema": "economía",
-   "titulo": "España ante su crisis habitacional más dura: de las \"pymes buitre\" al fin de los desahucios por ley",
-   "bajada": "Con alquileres en máximos históricos y 70.000 órdenes de desalojo reactivadas, el Ejecutivo impone un polémico paquete de medidas que divide al país y sacude el mercado inmobiliario. Los detalles, en la nota.",
+   "titulo": "Camino a la recesión: la economía se mantuvo estancada en agosto y no logró recuperar casi nada del derrumbe de julio",
+   "bajada": "",
    "fuente": "ambito.com",
-   "t": 1792594920000
+   "t": 1792609560000
   },
   {
    "tema": "actualidad",
-   "titulo": "Una invitación como musulmán a los “moderados”: unirnos contra las ideologías extremistas",
-   "bajada": "La libertad de expresión no se puede utilizar como licencia abierta para mentir, insultar y atacar a los demás.",
+   "titulo": "PAMI cubre los insumos para personas con diabetes: qué entrega gratis y cómo solicitarlos",
+   "bajada": "Es un trámite web que lo puede realizar la persona afiliada, un familiar o un apoderado. Además, es necesario estar registrado en el Padrón de personas con Diabetes.",
    "fuente": "clarin.com",
-   "t": 1792594637000
+   "t": 1792609255000
   },
   {
    "tema": "actualidad",
-   "titulo": "Ley de Biocombustibles: tras la media sanción en el Senado, sigue la disputa entre las pymes y las exportadoras de biodiésel",
-   "bajada": "Representantes de distintas Cámaras y Asociaciones productoras de biocombustibles participaron de la jornada informativa en la Cámara de Diputados.",
+   "titulo": "Meta deberá pagar USD 25.000 millones por caso relacionado con Cambridge Analytica",
+   "bajada": "Un tribunal de Nuevo México impuso a Meta una sanción de 25.000 millones de dólares por engañar a usuarios, tras el escándalo de Cambridge Analytica. La multa, que podría aumentar anualmente, es una de las mayores contra una empresa en EE.UU., destacando el impacto de las prácticas desleales de la firma.",
    "fuente": "clarin.com",
-   "t": 1792594580000
+   "t": 1792609230000
   },
   {
    "tema": "actualidad",
-   "titulo": "Fernando Savater, filósofo español: \"La felicidad como anhelo es así, radicalmente, un proyecto de inconformismo: de lo que se nos ofrece nada puede bastar\"",
-   "bajada": "El escritor reflexionó sobre la búsqueda de la plenitud en su libro El contenido de la felicidad. ﻿ \"Uno no puede proponerse ser feliz mañana mismo porque se frustra\", sostiene.",
+   "titulo": "Acusan a exfiscal de poner a México en riesgo de invasión de EEUU en caso por traición",
+   "bajada": "Un exfiscal de Chihuahua es acusado de traición por autorizar una operación con agentes extranjeros, generando tensiones diplomáticas. El caso, inédito en décadas, podría llevar a César Jáuregui a enfrentar hasta 40 años de cárcel por poner en riesgo la soberanía.",
    "fuente": "clarin.com",
-   "t": 1792594342000
+   "t": 1792609227000
   },
   {
    "tema": "fútbol",
-   "titulo": "Alexis Mac Allister volvió a hablar de la decisión del Liverpool de no renovarle el contrato",
-   "bajada": "El argentino fue figura con un doblete en el 4-3 al Villarreal por la Champions League y también reveló la influencia de Andoni Iraola en ayudarlo a levantar el nivel como equipo.",
+   "titulo": "Escándalo en el básquet griego: detuvieron al presidente de la Federación e investigan 50 partidos arreglados",
+   "bajada": "Vangelis Liolios fue arrestado junto a varios árbitros en una investigación por presuntos sobornos y manipulación de resultados. Encontraron mucha plata en la casa de uno de los sospechosos y el dueño del Panathinaikos pidió cárcel para los involucrados.",
    "fuente": "ole.com.ar",
-   "t": 1792594125000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Una suba inédita de temperatura potenciará El Niño a fin de año y preocupa a una experta argentina de la ONU: \"Nunca registramos un valor así en el pasado\"",
-   "bajada": "La Organización Meteorológica Mundial (OMM) prevé que la temperatura de la superficie marina del Pacífico sea 3,8 °C superior a la media entre noviembre y enero. En eventos anteriores había llegado a 3 y produjo graves consecuencias.",
-   "fuente": "clarin.com",
-   "t": 1792594074000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "\"Che, dicen que no me que querés más... ¡Ja!\", Milei subió un video hablando con el líder de Vox, Santiago Abascal, y se burló de las versiones de un distanciamiento",
-   "bajada": "Fue luego de rumores sobre una supuesta incomodidad por la visita del argentino entre los dirigentes y candidato de la derecha española. \"No hay nada más divertido que patear culos zurdos\", lanzó Milei desde una reunión con parte del equipo del candidato.",
-   "fuente": "clarin.com",
-   "t": 1792593795000
+   "t": 1792609225000
   },
   {
    "tema": "fútbol",
-   "titulo": "LeBron James debutó con los Sixers y Philadelphia le amargó la fiesta a los Knicks",
-   "bajada": "A los 41 años, el Rey se estrenó con 14 puntos, nueve rebotes y siete asistencias en el triunfo 106-100 sobre New York, que celebraba su último título en el Madison Square Garden.",
+   "titulo": "La divertida respuesta de Courtois a las teorías conspirativas sobre Vinicius Jr: \"Hasta mi padre se lo creyó\"",
+   "bajada": "El arquero del Real Madrid se refirió a los rumores que surgieron a partir de la nueva apariencia del extremo brasileño.",
    "fuente": "ole.com.ar",
-   "t": 1792593534000
+   "t": 1792608845000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Talleres podría sancionar a Galarza por sus elogios a Boca: ¿juega ante Defensa?",
+   "bajada": "Después de la derrota por 2-1 ante el Xeneize en la Bombonera, el mediocampista había quedado en el centro de la polémica por elogiar la cancha y reconocer que le gustaría jugar en el club.",
+   "fuente": "ole.com.ar",
+   "t": 1792608593000
   },
   {
    "tema": "fútbol",
    "titulo": "Las tres finales que le quedan a Independiente",
    "bajada": "",
    "fuente": "InfiernoRojo.com",
-   "t": 1792593450000
+   "t": 1792607893000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River sumó otro amistoso: el 11, cómo salió y la gran noticia que recibió Ponzio",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792607439000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cuánto cuesta ir a ver a Boca en la final de la Copa Sudamericana",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792606380000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Las claves del fenómeno de BTS en Argentina: el rol de ARMY, canciones que son himnos y el sueño de una generación",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792606120000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "San Lorenzo: cómo evoluciona Farías y el nuevo lesionado",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792605737000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Los trucos para comprar vuelos baratos a último momento",
+   "bajada": "Comparadores, itinerarios alternativos y promociones pueden aliviar el presupuesto, aunque cada oportunidad exige revisar las condiciones antes de pagar.",
+   "fuente": "ambito.com",
+   "t": 1792605600000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Ricardo Montaner agotó casi todas las entradas para su show en Buenos Aires y anunció una segunda fecha",
+   "bajada": "",
+   "fuente": "Ciudad Magazine",
+   "t": 1792605279000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La alegría de Daniel Osvaldo desde el hospital: así vivió la clasificación de Boca a la final de la Copa Sudamericana",
+   "bajada": "Internado por una afección pulmonar, el exdelantero compartió en redes sociales su festejo por la victoria del Xeneize en el Maracaná.",
+   "fuente": "clarin.com",
+   "t": 1792604790000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "La historia de Adéla, la estrella eslovaca de 22 años que saltó a la fama por una canción dedicada a Nicole Kidman",
+   "bajada": "A tres años de quedar afuera del reality \"Dream Academy\", donde se formó el grupo Katseye, la cantante explotó como solista a nivel mundial y se presentará en la Argentina en marzo. La actriz australiana quedó encantada con el tema que lleva su nombre y jugó un rol activo en la promoción de la nueva artista.",
+   "fuente": "clarin.com",
+   "t": 1792603427000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Ciberataques: agencias internacionales y gobiernos instan a dar de baja sitios web por errores que pasaron desapercibidos por más de diez años",
+   "bajada": "Finlandia y los Países Bajos optaron por desconectar de manera preventiva varios de sus portales oficiales para evitar riesgos. Del mismo modo, la Fundación Wikimedia y otras organizaciones desactivaron parte de sus sistemas mientras aplican las soluciones de seguridad necesarias.",
+   "fuente": "clarin.com",
+   "t": 1792603291000
+  },
+  {
+   "tema": "política",
+   "titulo": "Después de la elección de los abogados, la política define el perfil del Consejo de la Magistratura para el año electoral",
+   "bajada": "Solo resta que se elijan a los diputados y senadores, en donde LLA ganará más bancas y las perderá el kirchnerismo. El órgano discute si cambia la forma en que se eligen los jueces.",
+   "fuente": "clarin.com",
+   "t": 1792603275000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Rodolfo Arruabarrena, del plan perfecto para meter a Boca en la final de la Sudamericana a la honestidad brutal: \"Si no ganamos nada, me tendré que ir a la mierda\"",
+   "bajada": "El entrenador de Boca postergó el ingreso de Leandro Paredes y apostó por un esquema con pelotas largas en el Maracaná. Tras superar 3-1 a Vasco da Gama, el conjunto xeneize clasificó a la final de la Copa Sudamericana.",
+   "fuente": "clarin.com",
+   "t": 1792602628000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Nico Paz, con el aura de Messi en la Champions League: tremendo golazo para que Como le gane al Manchester United bajo la lluvia",
+   "bajada": "El nuevo crack de la Selección Argentina puso el 1-0 parcial de zurda ante los ingleses. Es su primer gol en Champions con la camiseta del club italiano, revelación en la Serie A.",
+   "fuente": "clarin.com",
+   "t": 1792602381000
+  },
+  {
+   "tema": "política",
+   "titulo": "Quién es el funcionario de origen argentino que acompaña al número dos del Departamento de Estado y a qué vienen al país",
+   "bajada": "Se trata de Juan Pablo Segura, un alto funcionario del Departamento de Estado de EE.UU. que llega este miércoles junto a al subsecretario de Estado Christopher Landau. Cuál es la agenda, que incluye un encuentro con Milei el viernes y reuniones de trabajo con Quirno, Monteoliva, Mahiques y Bullrich.",
+   "fuente": "clarin.com",
+   "t": 1792601146000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Iron Maiden celebró sus 50 años de historia con un monumental show en la cancha de Huracán",
+   "bajada": "La banda británica de heavy metal dio este martes el primero de los dos conciertos previstos en el Palacio Ducó: el segundo será este miércoles. Toda la intimidad de una noche metalera, con fans de varias generaciones.",
+   "fuente": "clarin.com",
+   "t": 1792600974000
+  },
+  {
+   "tema": "política",
+   "titulo": "Arrancó la sesión en Diputados y el oficialismo consiguió el quórum para tratar la Ley de Tierras, discapacidad y morosidad",
+   "bajada": "La sesión comenzó con 132 diputados gracias a la presencia del oficialismo, el PRO, la UCR y los provinciales. Los libertarios tendrían más de 132 votos para aprobar el proyecto de Inviolabilidad de la Propiedad Privada. Se espera un debate de más de 17 horas con discapacidad y endeudamiento.",
+   "fuente": "clarin.com",
+   "t": 1792598801000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "¿La mano de Rusia e Irán detrás del caos en Francia? Esto sabemos",
+   "bajada": "Autoridades y analistas advierten que una mano extranjera impulsó y viralizó las movilizaciones en el país. Las pistas y los motivos.",
+   "fuente": "clarin.com",
+   "t": 1792598573000
+  },
+  {
+   "tema": "música",
+   "titulo": "La “Semana Charly García”: shows y homenajes por los 75 años del ícono del rock nacional",
+   "bajada": "",
+   "fuente": "elDiarioAR.com",
+   "t": 1792597376000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Masacre escolar de San Cristóbal: qué pasará con el tirador tras el fallo que lo sobreseyó y qué pide la fiscal",
+   "bajada": "El adolescente de 15 años que disparó y mató a otro alumno de 13 fue sobreseído por el juez de la causa penal.",
+   "fuente": "clarin.com",
+   "t": 1792596755000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Qué es la \"ameba come cerebros\": dónde está el peligroso parásito que mató a un nene de 10 años en Catamarca",
+   "bajada": "La Naegleria fowleri es un microorganismo muy raro, pero que causa una alta mortalidad. Se encuentra en aguas cálidas y sin movimiento, como lagunas, arroyos y termas. El caso de Fiambalá es el segundo que se reporta en la Argentina.",
+   "fuente": "clarin.com",
+   "t": 1792595831000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Vaca Muerta, más cerca de un hito histórico: la producción de petróleo orilla el millón de barriles por día",
+   "bajada": "La producción de crudo cerró septiembre en 973 mil barriles, un salto interanual del 15%. El 40% de ese total ya se exporta. El 2027 habrá un fuerte salto de las ventas externas e iniciará el primer proyecto de GNL.",
+   "fuente": "clarin.com",
+   "t": 1792593881000
   },
   {
    "tema": "clima",
@@ -122,7 +262,7 @@
   },
   {
    "tema": "economía",
-   "titulo": "Privatización del Belgrano Cargas: se bajó de la licitación el Grupo México, que prometía US$ 3.000 millones de inversión",
+   "titulo": "Privatización del Belgrano Cargas: se bajó de la licitación el Grupo México, que prometía US$ 3.000 millones de inversiones",
    "bajada": "El principal grupo empresarial extranjero interesado no quedó conforme con los pliegos de la licitación. La concesión por 50 años empieza a definirse a partir del 11 de noviembre. Quedan en competencia compañías locales y un consorcio de cerealeras.",
    "fuente": "clarin.com",
    "t": 1792592544000
@@ -135,46 +275,11 @@
    "t": 1792592437000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Facundo Farías con Olé: el fútbol como \"salvación\" y su ambicioso sueño en San Lorenzo",
+   "tema": "música",
+   "titulo": "La leyenda del rock y el blues argentino que no detiene su trajín",
    "bajada": "",
-   "fuente": "Olé",
-   "t": 1792592244000
-  },
-  {
-   "tema": "política",
-   "titulo": "Javier Milei atacó a Clarín y se peleó con periodistas en España",
-   "bajada": "Volvió a embestir contra los medios en su visita a Madrid. Fue en el Foro Nueva Economía, donde disertó ante políticos y empresarios.",
-   "fuente": "clarin.com",
-   "t": 1792591739000
-  },
-  {
-   "tema": "política",
-   "titulo": "\"Yategate\": volvieron a rechazar un pedido de Insaurralde para apartar al fiscal que lo investiga",
-   "bajada": "La Cámara Federal de La Plata ratificó a Sergio Mola en la causa por enriquecimiento ilícito y lavado de dinero.",
-   "fuente": "clarin.com",
-   "t": 1792591184000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "\"Paredes tuvo tiempo de tomarse una caipirinha\" y \"sintieron la presión\": las feroces críticas de los medios brasileños a Vasco da Gama tras caer con Boca",
-   "bajada": "Los medios brasileños cuestionaron duramente el rendimiento de Vasco da Gama tras la derrota por 3 a 1 en el Maracaná. Al mismo tiempo, destacaron la eficacia del equipo dirigido por Rodolfo Arruabarrena para aprovechar las fallas rivales y clasificar a la final en Barranquilla.",
-   "fuente": "clarin.com",
-   "t": 1792590787000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Verón le torció el brazo a la Conmebol: el TAS falló a favor de Estudiantes y habilitó a Marcos Rojo para la jugar la revancha frente a Flamengo",
-   "bajada": "En la mañana de este miércoles, el organismo dio visto bueno al pedido del Pincha y habilitó al futbolista para jugar la vuelta. El Pincha se mide ante el Flamengo este jueves en el Maracaná. El comunicado de Estudiantes.",
-   "fuente": "clarin.com",
-   "t": 1792590177000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Árbitro y terna completa confirmada para el partido de San Lorenzo ante Newell's",
-   "bajada": "",
-   "fuente": "San Lorenzo Primero",
-   "t": 1792589708000
+   "fuente": "El Diario de la República",
+   "t": 1792590146000
   },
   {
    "tema": "economía",
@@ -184,13 +289,6 @@
    "t": 1792589678000
   },
   {
-   "tema": "recitales",
-   "titulo": "¿Los Red Hot Chili Peppers en Rosario Central?: qué se sabe el flyer que genera expectativa y confusión",
-   "bajada": "",
-   "fuente": "El Litoral",
-   "t": 1792589610000
-  },
-  {
    "tema": "clima",
    "titulo": "Buenos Aires enfrentará tormenta y lluvias antes de lo previsto: SMN lo revela",
    "bajada": "",
@@ -198,46 +296,11 @@
    "t": 1792588680000
   },
   {
-   "tema": "deportes",
-   "titulo": "Lo llora el PSG y lo sufre el fútbol: se rompió los ligamentos cruzados una de las estrellas del equipo de Luis Enrique",
-   "bajada": "El atacante sufrió la rotura del ligamento cruzado anterior de la rodilla derecha en el partido frente al Barcelona. El futbolista será operado en los próximos días y afrontará una recuperación que demandará entre seis y nueve meses.",
-   "fuente": "clarin.com",
-   "t": 1792588366000
-  },
-  {
-   "tema": "música",
-   "titulo": "Claudio Gabis trae la historia viva del rock a Rosario",
+   "tema": "fútbol",
+   "titulo": "Boca ya mira a Mineiro, el posible rival en la final: hay tres argentinos y un ex River en el plantel",
    "bajada": "",
-   "fuente": "RosarioPlus",
-   "t": 1792588358000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Inflación: en qué provincias cuesta más llenar el changuito y en cuáles hubo mayores aumentos mensuales",
-   "bajada": "Un relevamiento provincial sobre la canasta representativa de la clase media expone la disparidad de precios en alimentos y su fuerte impacto en los salarios. Los detalles, en la nota.",
-   "fuente": "ambito.com",
-   "t": 1792586880000
-  },
-  {
-   "tema": "política",
-   "titulo": "Javier Milei quiso ver al rey de España, pero la Casa Real se lo negó: los motivos",
-   "bajada": "El Presidente sostuvo que el encuentro con Felipe VI se frustró por \"distintas circunstancias\", pero desde el Palacio de la Zarzuela plantearon un incumplimiento de las prácticas habituales para una visita oficial.",
-   "fuente": "clarin.com",
-   "t": 1792586603000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Polémica en Buenos Aires: aprueban una ley que permite a los municipios destinar el 100% de los recursos coparticipables para caminos rurales a obras hídricas",
-   "bajada": "El proyecto fue aprobado en la Cámara de Diputados. La medida extraordinaria tendrá una vigencia de 180 días, en el marco de la emergencia por el fenómeno climático del Niño. Rechazo de la principal entidad rural de la provincia.",
-   "fuente": "clarin.com",
-   "t": 1792584401000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "El Ballet Contemporáneo del San Martín presenta una obra internacional creada para su elenco",
-   "bajada": "El Teatro San Martín presenta Paraíso perdido, una producción que explora la pérdida, los conflictos y sus consecuencias. Sus coreógrafos, Iratxe Ansa e Igor Bacovich, desarrollaron la pieza junto al elenco local. La función incluye también \"La consagración del tango\", de Ana María Stekelman, en la sala Martín Coronado.",
-   "fuente": "clarin.com",
-   "t": 1792584052000
+   "fuente": "Planeta Boca Juniors",
+   "t": 1792585014000
   },
   {
    "tema": "fútbol",
@@ -247,18 +310,11 @@
    "t": 1792583443000
   },
   {
-   "tema": "sociedad",
-   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: qué provincias están bajo alerta por tormentas y dónde habrá lluvias intensas",
-   "bajada": "El Servicio Meteorológico Nacional anticipó que el fenómeno alcanzará en el centro-este argentino una intensidad \"fuerte o muy fuerte\". Una tormenta con granizo azotó Mendoza y 10 provincias están bajo alerta amarilla.",
-   "fuente": "clarin.com",
-   "t": 1792583312000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Jugó en Belgrano y Racing y ahora vende lo que muchos futbolistas guardan para toda la vida",
+   "titulo": "Imanol Machuca podría debutar en Independiente en noviembre",
    "bajada": "",
-   "fuente": "La Voz del Interior",
-   "t": 1792578313000
+   "fuente": "Avellaneda Hoy",
+   "t": 1792580931000
   },
   {
    "tema": "tránsito",
@@ -266,34 +322,6 @@
    "bajada": "",
    "fuente": "Zonales",
    "t": 1792578000000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este miércoles 21 de octubre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1792577703000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Cómo saldrá Boca vs. Vasco da Gama según la Inteligencia Artificial: \"Mínima diferencia\"",
-   "bajada": "",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1792576867000
-  },
-  {
-   "tema": "música",
-   "titulo": "Fue “el auto de Perón” y la musa de un clásico del rock nacional: GM podría lanzar Cadillac en la Argentina",
-   "bajada": "",
-   "fuente": "El Cronista",
-   "t": 1792575000000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Iban juntos a caballo a rescatar vacas de la inundación en Corrientes y murieron ahogados: quiénes eran las víctimas",
-   "bajada": "Jorge Ledesma (55) y José \"Tatú\" Salazar (49) fueron hasta una isla sobre el río Paraná el viernes a evacuar el ganado. Al intentar bajar hasta una laguna a rescatar un panel solar, desaparecieron en el agua. Recién fueron encontrados el domingo tras una intensa búsqueda.",
-   "fuente": "clarin.com",
-   "t": 1792573253000
   },
   {
    "tema": "tecnología",
@@ -304,38 +332,10 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "River Plate de Chacabuco: más de un siglo de vida deportiva y familiar",
-   "bajada": "",
-   "fuente": "Diario Democracia",
-   "t": 1792555950000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los puntajes de Boca vs. Vasco da Gama por la Copa Sudamericana",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792552079000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "U2, el 23 y 25 de marzo de 2027 en el Monumental - PREVENTA EXCLUSIVA para SOCIOS del Club",
    "bajada": "",
    "fuente": "www.riverplate.com",
    "t": 1792547283000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente obligado y sin margen de error en Avellaneda: los números que preocupan antes de Boca",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792537221000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "BTS en La Plata: mapa de cortes de tránsito y calles afectadas por el show",
-   "bajada": "",
-   "fuente": "ANDigital",
-   "t": 1792532567000
   }
  ]
 }
