@@ -2642,7 +2642,7 @@ setInterval(() => {
   }
   // Cada 2 o 3 temas habla "en off" en el cambio de canción: arranca unos segundos antes del final,
   // la música queda de fondo y el tema nuevo entra por debajo de la voz.
-  const cadaCuanto = 4 + (it.desde % 2);
+  const cadaCuanto = 6;
   if (temasDesdeLocutor >= cadaCuanto && it.dur > 60 && pos > it.dur - XF - 14 && pos < it.dur - XF - 7) {
     temasDesdeLocutor = 0;
     const proximo = (S.colas[S.radio] || []).find((x) => x.desde > it.desde);
