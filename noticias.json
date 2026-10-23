@@ -1,131 +1,215 @@
 {
- "t": 1792711422569,
+ "t": 1792731062011,
  "items": [
   {
-   "tema": "actualidad",
-   "titulo": "La agenda de la TV del viernes: los ensayos de la Fórmula 1 en Austin, la fecha 14 del Clausura y fútbol de Europa",
-   "bajada": "La actividad deportiva en el fin de la semana, disponible a través de las pantallas.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792725600000
+   "tema": "fútbol",
+   "titulo": "El giro de mercado que ilusiona a River en la recta decisiva",
+   "bajada": "La gran inversión de casi 70 millones de dólares empieza a rendir con Correa y Almada antes de los clásicos frente a Racing y Boca que definirán el año. El once de Ponzio halló respuestas futbolísticas en Córdoba y ahora deberá ratificar su poderío ofensivo en una serie de duelos bravos de altísimo calibre.",
+   "fuente": "ole.com.ar",
+   "t": 1792737540000
   },
   {
    "tema": "actualidad",
-   "titulo": "Buscan intensamente a un joven de 18 años que fue visto por última vez en su casa en Martínez",
-   "bajada": "Felipe Canossa dejó una carta en la que anunció que se comunicaría con su familia dentro de siete días y pidió que cuidaran a su perro; su madre contó cómo fueron los momentos previos a su partida.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792711189000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Excarcelaron a otro sindicalista camionero que fue acusado junto a Cabaleyro por los bloqueos a una empresa de San Pedro",
-   "bajada": "Fernando Espíndola acordó un juicio abreviado con una pena de hasta seis años; llevaba detenido cuatro años y medio y estaba en prisión domiciliaria; quedó en libertad condicional.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792711146000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El cambio climático es responsable del 77 % de las muertes por calor en 2026 en España",
-   "bajada": "Madrid, 23 oct (EFE).- El cambio climático ha sido la causa responsable de 5.227 de las 6.824 muertes estimadas por calor entre junio y agosto de 2026 en España, alrededor del 77 %, según estimaciones de científicos del Imperial College y de la Escuela de Higiene y Medicina Tropical, ambos de Londres.",
+   "titulo": "De qué murió Karina Vázquez: los motivos por los que la familia exige investigar como feminicidio el deceso de la ex reina de belleza en Tlaxcala",
+   "bajada": "Las versiones iniciales mencionaron broncoaspiración y consumo de alcohol, pero cercanos rechazan que sean conclusiones definitivas.",
    "fuente": "infobae.com",
-   "t": 1792711078000
+   "t": 1792730803000
   },
   {
    "tema": "actualidad",
-   "titulo": "Entre lágrimas, Dalma y Jana expresaron sus últimas palabras en el juicio por la muerte de Maradona: “Que papá tenga justicia, por favor”",
-   "bajada": "Las hijas del Diez pidieron hablar una vez más ante los jueces del TOC N°7 de San Isidro previo a que se retiren a deliberar. Sus emotivos mensajes al tribunal y el recuerdo a su padre.",
+   "titulo": "Las señales tempranas de problemas de deglución que no hay que pasar por alto",
+   "bajada": "Tos durante las comidas, dificultades para tragar... Son comunes y muchos ignoran estos indicios, pero cuando se vuelven frecuente a la hora de comer pueden estar anticipando complicaciones graves.",
    "fuente": "infobae.com",
-   "t": 1792711076000
+   "t": 1792730796000
   },
   {
    "tema": "actualidad",
-   "titulo": "Barcelona, la segunda ciudad europea con más muertes por calor este verano",
-   "bajada": "Barcelona, 23 oct (EFE).- Barcelona fue la segunda ciudad europea con un mayor número de muertes adicionales por el calor provocado por el cambio climático el pasado verano, con 1.587 fallecimientos atribuibles al calentamiento global sobre un total de 1.842 muertes por altas temperaturas, según un.",
+   "titulo": "Noboa afirma que Petro es parte de una red de narcotráfico y blanqueo que Ecuador está \"desbaratando\"",
+   "bajada": "El presidente de Ecuador, Daniel Noboa, ha asegurado que las autoridades de su país están \"desbaratando una estructura grande de narcotráfico y lavado de activos que incluye al expresidente (de Colombia, Gustavo) Petro\", respondiendo así a las críticas del exmandatario izquierdista tras la.",
    "fuente": "infobae.com",
-   "t": 1792711061000
+   "t": 1792730793000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Estudiantes, finalista de la Copa Libertadores: el regreso a un escenario donde ya mostró su mística",
+   "bajada": "El Pincha regresa al Centenario, un lugar donde ya se consagró campeón.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792730639000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Chiqui Tapia felicitó a Estudiantes por el pase a la final de la Copa Libertadores: “Muchos éxitos en Montevideo”",
+   "bajada": "A través de un posteo en X, el presidente de la AFA le deseó buenos augurios al equipo argentino que se medirá frente a Palmeiras de Brasil.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792729509000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Rating: cuánto midió el partido de Estudiantes versus Flamengo por las semifinal de la Copa Libertadores",
+   "bajada": "El encuentro fue seguido en AMBA por más de 820.000 individuos según la medidora Ibope.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792729051000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Un \"noir\" salvaje en la frontera: El peligroso sueño del sicario Vicente \"el Indio\" Romero",
+   "bajada": "Desnuda , la aclamada novela negra que se mete de lleno en el barro del narcotráfico y los secretos de la mesopotamia argentina. El escritor platense Alfredo Benialgo rompe el molde del policial tradicional con una trama tan cruda como magnética.",
+   "fuente": "clarin.com",
+   "t": 1792727817000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este viernes 23 octubre de 2026",
+   "bajada": "El SMN anticipa para este viernes temperaturas entre 15°C y 22°C. El pronóstico extendido durante la jornada. ¿Cómo estará el cielo? ¿Cuál es la probabilidad de lluvias?",
+   "fuente": "clarin.com",
+   "t": 1792726824000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Clima hoy en Maracaibo, Venezuela: el pronóstico del tiempo para este viernes 23 octubre de 2026",
+   "bajada": "El pronóstico extendido durante la jornada. ¿Cómo estará el cielo? ¿Cuál es la probabilidad de lluvias?",
+   "fuente": "clarin.com",
+   "t": 1792726799000
   },
   {
    "tema": "fútbol",
-   "titulo": "El objetivo que le queda Gimnasia de Mendoza en el año de su regreso a Primera División",
-   "bajada": "El Lobo mendocino tuvo un balance muy positivo en su vuelta a la división top tras 41 años y busca cerrar con la clasificación a los playoffs del Clausura.",
+   "titulo": "Cacique Medina, DT de Estudiantes finalista de América: \"Carácter, corazón y huevo\" y \"una noche épica\"",
+   "bajada": "Luego de la clasificación de Estudiantes a la final de la Libertadores, el entrenador se mostró orgulloso por sus jugadores y resaltó a Fernando Muslera, el héroe de la noche.",
    "fuente": "ole.com.ar",
-   "t": 1792710304000
+   "t": 1792726682000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "A qué hora corre hoy Franco Colapinto en el GP de Estados Unidos y por dónde se puede ver EN VIVO la F1",
+   "bajada": "El piloto argentino sale a pista este viernes en Austin para disputar las primeras dos prácticas libres del GP de Estados Unidos. Seguilo en Olé.",
+   "fuente": "ole.com.ar",
+   "t": 1792726523000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Estudiantes, épico finalista de la Copa Libertadores: Muslera atajó tres penales y jugará por la Gloria Eterna contra Palmeiras",
+   "bajada": "El Pincha resistió casi todo el segundo tiempo con uno menos por la expulsión de Baltasar Rodríguez. En la definición, instancia en la que nunca había ganado en este torneo, se agigantó el arquero uruguayo de 40 años. Mirá el resumen.",
+   "fuente": "clarin.com",
+   "t": 1792725523000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Fernando Muslera, el arquero uruguayo que es argentino y metió a Estudiantes en la final de la Copa Libertadores: de su peor Mundial a los penales en el Maracaná",
+   "bajada": "Atajó tres en la definición contra Flamengo y le permitirá al Pincha ir por la quinta estrella del máximo torneo Conmebol. A sus 40 años, venía de ser muy castigado en Uruguay por su actuación en la Copa del Mundo 2026.",
+   "fuente": "clarin.com",
+   "t": 1792724894000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Pasta blanca: hallan cocaína escondida en un paquete de dentífrico que intentaban ingresar a una cárcel de Córdoba",
+   "bajada": "Además, el pomo también tenía un sobre de marihuana oculta. Ocurrió en la requisa que hicieron los agentes en el Complejo Penitenciario Número 9.",
+   "fuente": "clarin.com",
+   "t": 1792724580000
   },
   {
    "tema": "economía",
-   "titulo": "Cada vez es más difícil independizarse: 140.000 jóvenes volvieron al hogar familiar entre 2023 y 2026",
-   "bajada": "La baja se amplía a cerca de 240.000 personas si se toma como referencia el máximo de las últimas dos décadas, del 27,8%, alcanzado en 2006. Las dificultades económicas también se trasladan al sistema financiero, donde casi el 40% cayó en mora.",
+   "titulo": "Soja en Argentina: 30 años no es nada... o es todo",
+   "bajada": "Se cumplen tres décadas de la irrupción de la variedad RR (resistente al glifosato), llave maestra de la Segunda Revolución de las Pampas. La Argentina se hizo viable, avanzó la directa sin vuelta atrás, tenemos mejores suelos, mejores rotaciones, y un enorme efecto difusión sobre toda la economía del interior.",
+   "fuente": "clarin.com",
+   "t": 1792722281000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Importante visita internacional",
+   "bajada": "",
+   "fuente": "www.riverplate.com",
+   "t": 1792719830000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La cuenta pendiente frente a Boca en Avellaneda",
+   "bajada": "",
+   "fuente": "InfiernoRojo.com",
+   "t": 1792717370000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Un ex arquero campeón con River Plate elogió a Santiago Beltrán y señaló en qué potencia europea lo ve en el futuro",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792716420000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Luciano Nakis, candidato a presidente de Independiente, dijo que \"volvería a secarle la nuca\" a Chiqui Tapia y defendió el torneo de 30 equipos",
+   "bajada": "El dirigente está al frente de Lista Roja y cargó contra Gastón Gaudio, quien es el \"candidato del oficialismo\". Mirá el video.",
+   "fuente": "clarin.com",
+   "t": 1792714910000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente prepara una fiesta ante Boca: estadio repleto y la racha adversa en casa que busca cortar",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792714112000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Privatización del Belgrano Cargas: el Gobierno rechaza los cuestionamientos de Grupo México a la licitación",
+   "bajada": "El comunicado de la empresa sorprendió al Gobierno, donde reconocen que perder a un potencial oferente internacional no es una buena noticia. Sin embargo, aseguran que la salida no altera el proceso: ya hay otras ocho empresas inscriptas en la licitación.",
    "fuente": "ambito.com",
-   "t": 1792710300000
+   "t": 1792713240000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Desesperada búsqueda de un joven de 18 años en Martínez: dejó una carta y su familia dijo que atraviesa \"una situación delicada de salud mental\"",
+   "bajada": "Felipe Canossa se fue de su casa y dejó una carta para la familia. Operativo en las redes sociales para obtener algún dato sobre su paradero.",
+   "fuente": "clarin.com",
+   "t": 1792712697000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El Banco Ciudad bajó la tasa para créditos hipotecarios",
+   "bajada": "La entidad bancaria lanzó nuevos créditos hipotecarios para quienes buscan ampliarse, a una menor tasa. El Banco Ciudad cuenta con nuevo fondeo por su participación en las licitaciones del Fondo de Garantía de Sustentabilidad (FGS) de ANSES.",
+   "fuente": "ambito.com",
+   "t": 1792712400000
+  },
+  {
+   "tema": "política",
+   "titulo": "Dura advertencia de Elisa Carrió: \"No escuchen al Presidente porque es nocivo\"",
+   "bajada": "La dirigente se expresó a través de sus redes sociales y cuestionó la actitud de Javier Milei. \"Cuando se pierde el respeto, se pierde la dignidad humana\", sostuvo.",
+   "fuente": "clarin.com",
+   "t": 1792712243000
+  },
+  {
+   "tema": "música",
+   "titulo": "Charly García: la historia del músico que revolucionó el rock argentino",
+   "bajada": "",
+   "fuente": "Diario Norte",
+   "t": 1792711695000
+  },
+  {
+   "tema": "política",
+   "titulo": "Se fue otro funcionario del Gobierno de Milei: renunció el secretario coordinador de Energía y Minería",
+   "bajada": "Daniel González dejó este jueves su lugar en el área de Economía. El anunció lo hizo el mismo funcionario en un canal de streaming oficialista.",
+   "fuente": "clarin.com",
+   "t": 1792711636000
   },
   {
    "tema": "fútbol",
    "titulo": "El posible 11 de Boca para enfrentar al Rojo, con Paredes como incógnita principal",
-   "bajada": "El capitán podría descansar el domingo para llegar mejor al superclásico. Igual, la decisión del Vasco es poner el mejor equipo posible en Avellaneda. La otra duda...",
-   "fuente": "ole.com.ar",
-   "t": 1792710250000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El día en que me sentí Cortázar",
    "bajada": "",
-   "fuente": "clarin.com",
-   "t": 1792710074000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El verano se acerca con dos pésimas noticias judiciales para Cristina Kirchner",
-   "bajada": "Este viernes arranca el juicio por presunto lavado de dinero por Hotesur y Los Sauces. Pero el caso Vialidad, por el cual fue condenada y está detenida, también la va a complicar.",
-   "fuente": "clarin.com",
-   "t": 1792710074000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Llega la Luna llena en Tauro 2026: qué cambios trae y cómo afectará a cada signo del zodíaco",
-   "bajada": "Esta lunación invita a revisar los vínculos, la estabilidad emocional y la relación con el dinero. Cómo impactará en cada signo del zodíaco, según la astróloga Lourdes Ferro.",
-   "fuente": "clarin.com",
-   "t": 1792710074000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Insua, a la espera de Farías: \"Si está 10 puntos, va a jugar\"",
-   "bajada": "Con el partido clave contra Newell's a la vuelta de la esquina, el entrenador de San Lorenzo aseguró que se aguardará por el ex Inter Miami hasta último momento. En la práctica de este jueves, fue exigido y respondió bien.",
-   "fuente": "ole.com.ar",
-   "t": 1792709926000
+   "fuente": "Olé",
+   "t": 1792710250000
   },
   {
    "tema": "fútbol",
    "titulo": "La reacción no le alcanzó",
    "bajada": "",
    "fuente": "Racing Club - Sitio Oficial",
-   "t": 1792709292000
+   "t": 1792709383000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Boca vs. Independiente: los clásicos que quedaron en la historia",
-   "bajada": "",
-   "fuente": "ESPN Argentina",
-   "t": 1792707660000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La despedida de la delegación argentina para Juegos Olímpicos de la Juventud Dakar 2026: quiénes serán los abanderados",
-   "bajada": "La cuarta edición del evento multideportivo reunirá a unos 2.700 atletas de todo del mundo de entre 15 y 18 años. De ellos, 42 serán albicelestes y buscarán mejorar la cosecha de Buenos Aires 2018.",
+   "tema": "el mundo",
+   "titulo": "Alerta en Italia: la cantidad de menores presos creció un 40 por ciento y evalúan usar cárceles de adultos",
+   "bajada": "La cantidad de jóvenes detenidos en Italia creció un 40 por ciento desde 2022 y llevó al límite la capacidad de los centros especializados. Frente a este escenario, las autoridades buscan sumar plazas mediante la remodelación de recintos deteriorados y la construcción de nuevas instalaciones.",
    "fuente": "clarin.com",
-   "t": 1792707612000
-  },
-  {
-   "tema": "música",
-   "titulo": "Del jazz al cuarteto y el rock: el escenario artístico de la Feria del Libro reúne múltiples expresiones culturales",
-   "bajada": "",
-   "fuente": "Cultura – Municipalidad de Córdoba",
-   "t": 1792706791000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Messi revolucionó España antes de recibir el Princesa de Asturias: amor incondicional y fuera de protocolo, el consejo sabio que dejó y ¿una señal para el futuro?",
-   "bajada": "La presencia de la leyenda rosarina movilizó a Oviedo, a 700 kilómetros de Barcelona, donde miles de personas esperaron en las calles poder verlo de cerca o llevarse una firma. Este viernes formará parte del evento principal y luego volará directo a Nueva York, para hacer lo que más le gusta: jugar al fútbol.",
-   "fuente": "clarin.com",
-   "t": 1792706265000
+   "t": 1792707914000
   },
   {
    "tema": "política",
@@ -135,11 +219,11 @@
    "t": 1792705591000
   },
   {
-   "tema": "política",
-   "titulo": "El canciller Quirno impidió el acceso de Clarín a la conferencia de prensa con los funcionarios de EE.UU",
-   "bajada": "El ministro dio la orden de no permitir la entrada al Palacio San Martín de una periodista del diario que cubre desde hace tres décadas la Política Exterior argentina.",
-   "fuente": "clarin.com",
-   "t": 1792705537000
+   "tema": "música",
+   "titulo": "Paisajes fueguinos entre folklore y rock nacional",
+   "bajada": "",
+   "fuente": "Radionacional.com.ar",
+   "t": 1792705020000
   },
   {
    "tema": "fútbol",
@@ -156,13 +240,6 @@
    "t": 1792704610000
   },
   {
-   "tema": "deportes",
-   "titulo": "F1 GP de Estados Unidos: horarios del entrenamiento y clasificación, cómo y dónde ver la Fórmula 1",
-   "bajada": "Franco Colapinto afrontará con Alpine una nueva fecha del campeonato en el Circuito de las Américas, uno de los trazados más completos del calendario. El fin de semana tendrá tres sesiones de prácticas libres antes de la clasificación que definirá la grilla de largada en Austin.",
-   "fuente": "clarin.com",
-   "t": 1792704532000
-  },
-  {
    "tema": "fútbol",
    "titulo": "San Lorenzo se entrenó esperando por un titular",
    "bajada": "",
@@ -177,27 +254,6 @@
    "t": 1792701739000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Jadson Viera podría cambiar de esquema en Independiente para el clásico con Boca",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792701458000
-  },
-  {
-   "tema": "política",
-   "titulo": "El gobierno de Estados Unidos confirmó la preocupación de las empresas de su país por la Ley Malvinas de Javier Milei",
-   "bajada": "Landau, número dos del Departamento de Estado, confirmó la información publicada por Clarín el domingo. Fue en una conferencia de prensa con Quirno en el Palacio San Martín. También confirmó avances en las negociaciones para eliminar las visas y la próxima visita del vicepresidente estadounidense, JD Vance.",
-   "fuente": "clarin.com",
-   "t": 1792701226000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Brasil: Datafolha, uno de las mayores encuestadoras del país publica hoy un sondeo clave sobre el balotaje",
-   "bajada": "Los datos se difundirán a partir de las 19 horas local, la misma que en Argentina. Con el balotaje inminente se espera que indique se amplía o reduce la diferencia entre Lula da Silva y Flávio Bolsonaro. La empresa Quaest, un día antes, la redujo a un escaso punto.",
-   "fuente": "clarin.com",
-   "t": 1792700975000
-  },
-  {
    "tema": "economía",
    "titulo": "Industriales cordobeses: \"Cuesta vender, cuesta sostener la actividad, pero hay que mejorar y no retroceder\"",
    "bajada": "Lo dijo el titular de la Unión Industrial de Córdoba, José Manuali, durante el coloquio anual de la entidad. El jefe de Gabinete, Diego Santilli, dijo por video conferencia que están preparando medidas desde Economía para las pequeñas y medianas empresas.",
@@ -205,32 +261,11 @@
    "t": 1792700853000
   },
   {
-   "tema": "economía",
-   "titulo": "Aluar inauguró el mayor parque eólico del país y analiza invertir en data centers",
-   "bajada": "El gigante del aluminio es el mayor consumidor de energía eléctrica del país, más grande que 20 provincias. La empresa de los Madanes Quintanilla diversifica sus fuentes propias y participará por la nueva privatización de Futaleufú.",
-   "fuente": "clarin.com",
-   "t": 1792700610000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "La impactante transformación del actor John Goodman: cómo logró bajar más de 100 kilos",
    "bajada": "El actor de \"Los Picapiedras\", \"El gran Lebowski\" y \"Digger\" recordó el proceso personal que lo llevó a cambiar su vida. Reveló cómo el alcoholismo y sus hábitos alimenticios lo llevaron al límite de una internación.",
    "fuente": "clarin.com",
    "t": 1792700136000
-  },
-  {
-   "tema": "música",
-   "titulo": "El CC25 recibe un homenaje sinfónico al rock nacional con entrada gratuita",
-   "bajada": "",
-   "fuente": "Fm La Boca",
-   "t": 1792699828000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Fenómeno El Niño: la crecida del río Paraná destrozó un terraplén para contener el agua en Paso de la Patria y se inundaron tres barrios",
-   "bajada": "En zonas vulnerables como Los Pescadores, varios vecinos abandonaron sus viviendas mientras otros intentan proteger sus casas con bolsas de arena. El nivel superó las marcas previstas y las intensas lluvias complicaron la situación en los sectores cercanos a la costa.",
-   "fuente": "clarin.com",
-   "t": 1792699637000
   },
   {
    "tema": "espectáculos",
@@ -247,13 +282,6 @@
    "t": 1792698764000
   },
   {
-   "tema": "economía",
-   "titulo": "Las ventas en supermercados cayeron por tercer mes consecutivo en agosto",
-   "bajada": "Este INDEC informó que las ventas tuvieron un a merma del 0,8% contra julio. También hubo una baja en autoservicios mayoristas, aunque en shoppings se observó un repunte.",
-   "fuente": "ambito.com",
-   "t": 1792697640000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Atlético de Madrid sigue a una joya de Racing",
    "bajada": "",
@@ -268,20 +296,6 @@
    "t": 1792696598000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Locura total. U2 en Argentina: agotó dos Estadios River Plate en tiempo récord",
-   "bajada": "",
-   "fuente": "La Voz del Interior",
-   "t": 1792696397000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "\"Tengo la esperanza de volver a abrazarlo\": buscan a un senderista desaparecido hace 10 días en Tucumán",
-   "bajada": "Raúl Moyano, de 59 años, desapareció cuando ascendía al cerro Ñuñorco Grande. Las principales hipótesis señalan que pudo haber sufrido una desorientación o una caída al vacío.",
-   "fuente": "clarin.com",
-   "t": 1792694729000
-  },
-  {
    "tema": "tecnología",
    "titulo": "Alerta en bancos de Estados Unidos: detectan agentes de IA intentando operar sin permiso en cuentas de clientes",
    "bajada": "Grandes entidades restringen el acceso de asistentes digitales ante posibles acciones que exceden las órdenes de sus usuarios. La dificultad para distinguir personas de programas complica los controles.",
@@ -294,13 +308,6 @@
    "bajada": "",
    "fuente": "Infobae",
    "t": 1792690980000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River Plate de Chacabuco: más de un siglo de vida deportiva y familiar",
-   "bajada": "",
-   "fuente": "Diario Democracia",
-   "t": 1792686769000
   },
   {
    "tema": "clima",
@@ -322,20 +329,6 @@
    "bajada": "",
    "fuente": "ESPN Argentina",
    "t": 1792673580000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El plan de Arruabarrena para el clásico con Independiente",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792669547000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "WhatsApp: cómo saber si alguien abrió tu cuenta en otro dispositivo y qué hacer para recuperar el control",
-   "bajada": "Las sesiones vinculadas pueden dejar tus chats al alcance de terceros. La aplicación permite revisarlas y cerrarlas desde el celular, sin instalar herramientas adicionales. Qué señales conviene atender y cuáles son los límites de esta función.",
-   "fuente": "clarin.com",
-   "t": 1792658704000
   }
  ]
 }
