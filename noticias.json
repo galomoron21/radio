@@ -1,64 +1,162 @@
 {
- "t": 1792793675807,
+ "t": 1792802744298,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Con mejoras en su Alpine, Franco Colapinto tuvo un viernes de pruebas, pero volverá a largar desde muy atrás el domingo",
-   "bajada": "El argentino terminó 15º en la segunda práctica de Austin, a 361 milésimas de Pierre Gasly, en una jornada dominada por Charles Leclerc.",
+   "titulo": "Lula y Bolsonaro se enfrentan en su último cara a cara antes del balotaje en Brasil",
+   "bajada": "A menos de 48 de la elección, el presidente y el senador opositor buscan convencer a los indecisos.",
    "fuente": "lanacion.com.ar",
-   "t": 1792793466000
+   "t": 1792802493000
   },
   {
    "tema": "actualidad",
-   "titulo": "La reacción de Juan Alberto Mateyko a las declaraciones de Julieta Prandi",
-   "bajada": "Tras las contundentes declaraciones de la modelo en LAM, el histórico conductor no se quedó callado; a través de un sugestivo video dejó en claro su apoyo incondicional a la familia Ortega.",
+   "titulo": "Elecciones Brasil 2026: encuestas del balotaje Lula vs. Flavio Bolsonaro y últimas noticias, hoy viernes 23 de octubre",
+   "bajada": "Lula da Silva y Flavio Bolsonaro, se enfrentan en las urnas este domingo 25 de octubre; qué dicen las encuestas.",
    "fuente": "lanacion.com.ar",
-   "t": 1792793338000
+   "t": 1792802487000
   },
   {
    "tema": "actualidad",
-   "titulo": "La ópera Hänsel y Gretel llega al Teatro Cassia de Bogotá en una íntima versión de cámara para toda la familia",
-   "bajada": "La Fundación Orquesta Sinfónica de Bogotá presenta en el Teatro Cassia una versión de cámara en español de la obra de Humperdinck, pensada para acercar la lírica a nuevos públicos.",
-   "fuente": "infobae.com",
-   "t": 1792793292000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Gino Vegas respalda la labor de Antonio Rizola y señala el motivo de los malos resultados de Perú: “Afecta no contar con el plantel ideal”",
-   "bajada": "El presidente de la FPV habló sobre el trabajo del técnico brasileño, que no logró clasificar al último Mundial de voleibol.",
-   "fuente": "infobae.com",
-   "t": 1792793284000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El trabajo especial que realizó Franco Colapinto en las primeras dos prácticas del GP de Estados Unidos tras confirmarse la penalización que recibirá",
-   "bajada": "El piloto argentino, que deberá afrontar un castigo de 10 lugares en la grilla del domingo, enfocó sus entrenamientos en encontrar el rendimiento con tanque lleno para la carrera.",
-   "fuente": "infobae.com",
-   "t": 1792793266000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Soja Visec: habilitan una modalidad para negociar el “premio” sobre la soja tradicional",
-   "bajada": "Desde el lunes, A3 Mercados contará con una nueva condición de entrega del contrato de futuros de soja en dólares, que se llamará Soja Visec.",
+   "titulo": "De acuerdo con la OMS: 1.60, 1.70 y 1.80. ¿cuál es el peso ideal para cada altura?",
+   "bajada": "El índice de masa corporal permite establecer un rango de referencia para adultos y calcular los límites según la estatura.",
    "fuente": "lanacion.com.ar",
-   "t": 1792793147000
+   "t": 1792802400000
   },
   {
    "tema": "actualidad",
-   "titulo": "Crecen en maceta y producen frutos: los 4 árboles frutales ideales para el verano",
-   "bajada": "Algunas variedades pueden cultivarse en balcones, patios y terrazas sin necesidad de tener jardín. La elección de la maceta, la luz solar y el riego son claves para conseguir una buena cosecha.",
+   "titulo": "Abelardo de la Espriella se refirió a la extradición de siete señalados criminales a EE. UU.: “Los vamos a perseguir sin descanso”",
+   "bajada": "Entre los extraditados está Willinton Henao Gutiérrez, alias Mocho Olmedo, señalado cabecilla del frente 33 de las disidencias de las Farc.",
+   "fuente": "infobae.com",
+   "t": 1792802382000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Charly García cumple 75 años, en vivo: los saludos de Sting, David Lebón y Nito Mestre",
+   "bajada": "Desde la esquina de Palermo que lleva su nombre a las redes y los escenarios, el país celebra a uno de los artistas más importantes de la música popular.",
+   "fuente": "infobae.com",
+   "t": 1792802308000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Afidro advirtió sobre la continuidad de medicamentos y tratamientos tras plan de choque del Gobierno: pidió recuperar $3 billones para la salud en 2027",
+   "bajada": "La asociación se pronunció luego del más reciente balance del Ministerio de Salud, que reportó un avance del 42,89% en la entrega de medicamentos pendientes y 434.828 procedimientos resueltos, con corte al 14 de octubre de 2026.",
+   "fuente": "infobae.com",
+   "t": 1792802282000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Quiniela de la Provincia: resultado del sorteo de la Nocturna de hoy, viernes 23 de octubre",
+   "bajada": "Conocé qué números salieron hoy a la cabeza y todo lo que necesitás saber. A cruzar los dedos.",
    "fuente": "clarin.com",
-   "t": 1792792889000
+   "t": 1792801291000
   },
   {
    "tema": "actualidad",
-   "titulo": "Trump revive la idea de intervención militar en Cuba durante mitin en Florida",
-   "bajada": "Trump sugiere que barcos de EE.UU. hagan escala en Cuba tras regresar de Oriente Medio, insinuando un enfoque más intervencionista hacia la isla. Rubio apoya la idea, destacando a Cuba como amenaza para la seguridad nacional. Ambos buscan resolver diferencias, pero sin descartar acciones militares.",
+   "titulo": "Quiniela de Córdoba: resultado del sorteo de la Nocturna de hoy, viernes 23 de octubre",
+   "bajada": "Conocé los números ganadores, cuáles salieron hoy a la cabeza y todo lo que necesitás saber.",
    "fuente": "clarin.com",
-   "t": 1792792806000
+   "t": 1792801291000
   },
   {
    "tema": "actualidad",
+   "titulo": "La nueva etapa de Milei en el mundo: el pariente que todos prefieren ver poco",
+   "bajada": "El único político que sacó ventaja con el viaje de Milei a España fue Sánchez. Los salarios comenzaron a ganarle a los precios, aunque siguen abajo en el año.",
+   "fuente": "clarin.com",
+   "t": 1792801176000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El amistoso fue con victoria",
+   "bajada": "",
+   "fuente": "Racing Club - Sitio Oficial",
+   "t": 1792800649000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El inesperado goleador del Torneo Clausura",
+   "bajada": "A pocas fechas del cierre de la fase regular, hay un futbolista que sacó ventaja entre los que más festejos acumulan en el campeonato. De quién se trata.",
+   "fuente": "ole.com.ar",
+   "t": 1792800053000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Messi y su felicidad tras recibir el Premio Princesa de Asturias: su emotivo mensaje, el recuerdo de España y la reacción de sus excompañeros",
+   "bajada": "El rosarino compartió 12 fotos de su paso por Oviedo y agradeció el cariño recibido. Ángel Di María y Ezequiel Lavezzi reaccionaron a la publicación.",
+   "fuente": "clarin.com",
+   "t": 1792799574000
+  },
+  {
+   "tema": "economía",
+   "titulo": "¿Más presión para el dólar?: Caen los precios internacionales del agro y la colocación de deuda privada",
+   "bajada": "Dos variables que venían siendo clave para generar un excedente de dólares en las arcas del BCRA sufrieron un deterioro.",
+   "fuente": "ambito.com",
+   "t": 1792799040000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las cuentas de River antes del clásico con Racing y con un ojo en otro derbi",
+   "bajada": "El Millonario busca meterse en zona de playoffs y recortar distancia en la tabla anual, pendiente de varios marcadores que pueden acomodarlo en el torneo.",
+   "fuente": "ole.com.ar",
+   "t": 1792798931000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Sin Racing ni San Lorenzo y con un clasificado: así serían hoy los cruces de octavos del Clausura",
+   "bajada": "Con la fecha 13 finalizada, en Olé te contamos cómo serían los emparejamientos si hoy terminara la fase regular del torneo.",
+   "fuente": "ole.com.ar",
+   "t": 1792797820000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Pibas históricas: Argentina goleó a Marruecos y se metió en los octavos de final del Mundial Sub-17 femenino",
+   "bajada": "La Selección se impuso 5-1 ante las anfitrionas y avanzó por primera vez a la fase eliminatoria. Terminó segunda en el Grupo A. Mercedes Diz fue la gran figura con tres goles y llegó a seis en el torneo. Josefina Galarza y Julieta Aguilar completaron la goleada.",
+   "fuente": "clarin.com",
+   "t": 1792797514000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Endeudamiento: 8 de cada 10 argentinos llegan sin margen a fin de mes y usan la tarjeta de crédito para financiarse",
+   "bajada": "La caída del poder adquisitivo y la pérdida de empleo de calidad asfixian a muchos hogares. El 82% no tiene dinero sobrante a fin de mes, pese a los dichos de Javier Milei: “¿Cómo viven 10 días sin comer ni beber?”. Entre quienes tuvieron dificultades de pago, el 40% cubre faltantes con la tarjeta de crédito.",
+   "fuente": "ambito.com",
+   "t": 1792796640000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Colapinto arrancó cuesta arriba en el GP de Austin de Fórmula 1: Alpine volvió a complicarlo, sufrió con los baches y tendrá una dura penalización",
+   "bajada": "El argentino perderá diez posiciones en la largada del domingo por un cambio en su Alpine. Terminó 17° en la primera práctica y admitió que el auto está demasiado rígido para el circuito estadounidense.",
+   "fuente": "clarin.com",
+   "t": 1792796114000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Gobierno insiste en que la Ley Malvinas no está congelada: Milei desmintió que quieran frenar el proyecto",
+   "bajada": "El Presidente compartió un mensaje de Santiago Caputo, quien citó a Clarín y aseguró que la iniciativa sigue siendo una prioridad del oficialismo.",
+   "fuente": "clarin.com",
+   "t": 1792795632000
+  },
+  {
+   "tema": "música",
+   "titulo": "La historia de Serú Girán, la banda que cambió el rock argentino: innovación, masividad y censura en plena dictadura",
+   "bajada": "",
+   "fuente": "Infobae",
+   "t": 1792794900000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River Plate vs. Racing Club en vivo: cómo llegan al partido",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792793710000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Netflix anunció un documental sobre Charly García en su cumpleaños número 75",
+   "bajada": "",
+   "fuente": "Perfil",
+   "t": 1792792905000
+  },
+  {
+   "tema": "el mundo",
    "titulo": "Marco Rubio le ofrece una \"discreta asociación con la CIA\" a los cubanos y Trump anunció una \"pequeña escala\" de los barcos estadounidenses en la isla",
    "bajada": "El secretario de Estado norteamericano dijo que \"este es el momento\" para los que quieren crear \"un cambio positivo en Cuba\". Donald Trump dijo que los buques estadounidenses \"pasarán\" por la isla a su regreso de Irán.",
    "fuente": "clarin.com",
@@ -66,38 +164,52 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "La grave amenaza al plantel de Nueva Chicago en plena pelea por no descender: \"Hay balas para todos\"",
-   "bajada": "Apareció una pintada con un mensaje intimidatorio para el plantel en el estadio. En zona de descenso y con tres caídas al hilo, el Torito afronta dos fechas a pura tensión.",
-   "fuente": "ole.com.ar",
-   "t": 1792792547000
+   "titulo": "Independiente vs. Boca, por el Torneo Clausura: hora, TV, formaciones y más",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792791738000
+  },
+  {
+   "tema": "política",
+   "titulo": "Villarruel reavivó la interna por la Ley Malvinas: \"Los verdaderamente patriotas hicimos silencio\"",
+   "bajada": "El proyecto prevé severas penalidades financieras para compañías norteamericanas con filiales activas en el archipiélago. Luego de conocerse la decisión de pausar su tratamiento, Victoria Villarruel recriminó públicamente la falta de concreción por parte del entorno del Presidente.",
+   "fuente": "clarin.com",
+   "t": 1792791407000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Tesis de Ingeniería: se entregaron los Premios Invap con una participación récord",
+   "bajada": "Se presentaron 184 tesis provenientes de universidades públicas y privadas. Los desarrollos premiados mejoran las cirugías oncológicas y reducen los costos de los sistemas de medición de radiación y radiografías con cámaras digitales. La Fundación INVAP entrega 10 millones de pesos en premios.",
+   "fuente": "clarin.com",
+   "t": 1792791363000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La renuncia de Daniel González: regulación a las empresas, el RIGI, privatizaciones y Malvinas, los desafíos pendientes",
+   "bajada": "La salida de la mano derecha de Luis Caputo para energía y minería deja a estos sectores con temas a definir pronto. Se espera la definición del nuevo presidente del ente regulador, que controlará a las eléctricas y gasíferas, donde crecieron Manzano y los Neuss.",
+   "fuente": "clarin.com",
+   "t": 1792791265000
+  },
+  {
+   "tema": "política",
+   "titulo": "El círculo rojo del poder K en el banquillo de los acusados: los Báez, Cristóbal López, Manzanares y Romina Mercado",
+   "bajada": "Aunque no tuvieron que verse personalmente, los más estrechos colaboradores y socios de Cristina y Máximo Kirchner se reunieron vía Zoom en la primera jornada del juicio por Hotesur-Los Sauces.",
+   "fuente": "clarin.com",
+   "t": 1792791112000
   },
   {
    "tema": "fútbol",
-   "titulo": "El buen momento de un refuerzo de River que planta una duda de cara a Racing",
-   "bajada": "El presente de uno de los puntas del equipo genera una incógnita que Ponzio debe resolver para el clásico previo a la visita a la Bombonera.",
-   "fuente": "ole.com.ar",
-   "t": 1792791902000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Video: el insólito gol de Nacho Fernández contra Sarmiento",
-   "bajada": "El cuadro de Junín quiso salir jugando, pero el Lobo presionó, dejó sin espacios a su rival y el ex River la mandó a guardar tras bloquear la salida del arquero con la panza.",
-   "fuente": "ole.com.ar",
-   "t": 1792791660000
+   "titulo": "San Lorenzo vs. Newell's, por el Torneo Clausura: dónde ver en vivo, formaciones y horario",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792790781000
   },
   {
    "tema": "sociedad",
    "titulo": "Todo el día encerrados, ventanas tapadas y gritos en la noche: el horror de la casa del bioquímico en Esquel",
-   "bajada": "Este viernes por la tarde se dictó la prisión preventiva por 10 días del acusado Miguel Eduardo Battista (71). \"naturalizó la situación\", señaló la procuradora Cecilia Bagnato. La fiscalía y la policía investigan cuánto tiempo estuvieron en esa situación, a la que los vecinos describieron como estremecedora.",
+   "bajada": "Este viernes por la tarde se dictó la prisión preventiva por 10 días del acusado Miguel Eduardo Battista (71). \"Naturalizó la situación\", señaló la procuradora Cecilia Bagnato. La fiscalía y la policía investigan cuánto tiempo estuvieron en esa situación, a la que los vecinos describieron como estremecedora.",
    "fuente": "clarin.com",
    "t": 1792790526000
-  },
-  {
-   "tema": "política",
-   "titulo": "La Justicia pide que la Ciudad y la Provincia eviten hacer dos elecciones a la vez, con sistemas de votación distintos, en 2027",
-   "bajada": "La Cámara Nacional Electoral recuerda los inconvenientes de los comicios concurrentes en CABA en 2023. Y preferiría evitarlos el año próximo. Es porque deberían convivir elecciones nacionales con boleta única y locales con electrónica o sábana.",
-   "fuente": "clarin.com",
-   "t": 1792789829000
   },
   {
    "tema": "economía",
@@ -107,25 +219,11 @@
    "t": 1792789826000
   },
   {
-   "tema": "política",
-   "titulo": "Ariel Vallejo, de una panadería barrial a una fortuna sospechosa bajo la sombra de Chiqui Tapia",
-   "bajada": "Nació en Banfield. También tuvo un corralón de materiales y una agencia de remises, antes de dedicarse al negocio financiero. En pocos años, por su relación con el titular de la AFA, su empresa llegó a ser sponsor de la Selección y varios clubes. Ahora está detenido por lavado de dinero y evasión fiscal.",
-   "fuente": "clarin.com",
-   "t": 1792788816000
-  },
-  {
-   "tema": "política",
-   "titulo": "Milei recibió a un funcionario de Trump y hubo nuevo apoyo: \"Argentina apuesta por las reformas y Estados Unidos acompaña con inversión\"",
-   "bajada": "El Presidente se juntó con subsecretario de Estado de los Estados Unidos, Christopher Landau, en la Casa Rosada.",
-   "fuente": "clarin.com",
-   "t": 1792788196000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Gaël Monfils rompió el silencio tras su separación de Elina Svitolina: “Me duele el corazón”",
-   "bajada": "El francés publicó una emotiva carta después de que la ucraniana anunciara el final de su matrimonio y revelara cómo la afectó la guerra en su país. Cuestionó las críticas contra su ex pareja y aseguró que seguirán unidos por su hija Skai.",
-   "fuente": "clarin.com",
-   "t": 1792788031000
+   "tema": "fútbol",
+   "titulo": "Cuándo juega y cómo ver a River: Día, hora, canal de TV y streaming online del partido vs. Racing por el Clausura 2026",
+   "bajada": "",
+   "fuente": "Yahoo",
+   "t": 1792789478000
   },
   {
    "tema": "el mundo",
@@ -135,13 +233,6 @@
    "t": 1792787584000
   },
   {
-   "tema": "deportes",
-   "titulo": "Uruguay ya tiene su lista para enfrentar a Argentina en la Bombonera: Forlán convocó a tres jugadores de la Liga Profesional",
-   "bajada": "El entrenador anunció con anticipación los citados para la fecha FIFA de noviembre, que incluye un amistoso ante la Scaloneta el viernes 13. Los arqueros Thiago Cardozo y Santiago Mele y el delantero Miguel Merentiel son los representantes de la Liga Profesional.",
-   "fuente": "clarin.com",
-   "t": 1792787305000
-  },
-  {
    "tema": "recitales",
    "titulo": "Netflix anunció un documental sobre Charly García el día de su cumpleaños 75",
    "bajada": "",
@@ -149,32 +240,18 @@
    "t": 1792786753000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Crecen las sospechas de una nueva ola de ataques de Estados Unidos contra Irán en los próximos días",
-   "bajada": "Un diplomático estadounidense dijo que podría ser este mismo fin de semana. Algunos expertos señalan sin embargo que Washington esperará hasta las elecciones legislativas del 3 de noviembre. La guerra golpeó la imagen de Donald Trump.",
-   "fuente": "clarin.com",
-   "t": 1792786011000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Tigre vs. Atlético Tucumán, EN VIVO, por el Torneo Clausura: a qué hora juegan, formaciones y cómo ver el partido",
-   "bajada": "El Matador recibe al Decano este viernes por la decimocuarta fecha de la Zona B en el Estadio José Dellagiovanna.",
-   "fuente": "clarin.com",
-   "t": 1792785942000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Acreditaciones para el partido ante Aldosivi",
+   "titulo": "Arruabarrena decide en Boca: ¿Juega Paredes vs. Independiente o lo guarda para el Superclásico?",
    "bajada": "",
-   "fuente": "Racing Club - Sitio Oficial",
-   "t": 1792785639000
+   "fuente": "ESPN Argentina",
+   "t": 1792785744000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Independiente vs. Boca Juniors en vivo: cómo llegan al partido",
+   "tema": "música",
+   "titulo": "Netflix presentó \"Charly por Charly\", el documental sobre el ícono del rock nacional",
    "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792785615000
+   "fuente": "Somos Jujuy",
+   "t": 1792785000000
   },
   {
    "tema": "fútbol",
@@ -184,39 +261,18 @@
    "t": 1792784916000
   },
   {
-   "tema": "música",
-   "titulo": "Netflix anunció un documental sobre Charly García en el día de su cumpleaños 75",
-   "bajada": "",
-   "fuente": "ANDigital",
-   "t": 1792784150000
-  },
-  {
-   "tema": "economía",
-   "titulo": "China alerta a organismos gubernamentales por el impacto de la inteligencia artificial en el empleo",
-   "bajada": "El máximo órgano ejecutivo de Beijing publicó nuevas directrices para mitigar el desempleo por la tecnología y garantizar la reconversión profesional de los trabajadores. Además, plantea regular el uso de algoritmos en recursos humanos.",
-   "fuente": "ambito.com",
-   "t": 1792783740000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "San Lorenzo busca su tercer triunfo consecutivo ante Newell’s",
+   "titulo": "Mundial de Clubes 2029: comó está Boca en la clasificación, con Estudiantes por encima",
    "bajada": "",
-   "fuente": "San Lorenzo Website",
-   "t": 1792781257000
+   "fuente": "Planeta Boca Juniors",
+   "t": 1792784545000
   },
   {
-   "tema": "sociedad",
-   "titulo": "\"Yo lo disfrutaba\": el aberrante relato de una estudiante que le provocó un brote psicótico a una compañera",
-   "bajada": "Una adolescente de 17 años sufrió un caso grave de acoso y humillaciones por parte de sus compañeros durante el viaje de egresados en Bariloche. Hay tres adolescentes imputados y dos causas judiciales en curso: una por hostigamiento y otra por la producción y difusión de imágenes íntimas.",
-   "fuente": "clarin.com",
-   "t": 1792780310000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Arruabarrena decide en Boca: ¿Juega Paredes vs. Independiente o lo guarda para el Superclásico?",
+   "tema": "clima",
+   "titulo": "Fin de semana \"pasado por agua\": se esperan lluvias en al menos 15 provincias",
    "bajada": "",
-   "fuente": "ESPN Argentina",
-   "t": 1792780020000
+   "fuente": "Crónica",
+   "t": 1792782900000
   },
   {
    "tema": "economía",
@@ -234,24 +290,10 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "River Plate vs Racing Club: estadísticas previas y datos en directo | Liga Profesional Argentina 2026",
-   "bajada": "",
-   "fuente": "Diario AS",
-   "t": 1792779611000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "¡TODOS JUNTOS POR OTRA VICTORIA!",
    "bajada": "",
    "fuente": "San Lorenzo",
    "t": 1792779572000
-  },
-  {
-   "tema": "economía",
-   "titulo": "¿Gastás de más sin darte cuenta? Los costos ocultos que arruinan el presupuesto de tu viaje",
-   "bajada": "Escalas, trámites migratorios y coberturas médicas pueden modificar el cálculo inicial; revisar cada condición ayuda a evitar desembolsos imprevistos.",
-   "fuente": "ambito.com",
-   "t": 1792778400000
   },
   {
    "tema": "tecnología",
@@ -259,34 +301,6 @@
    "bajada": "Veritran llevó su experiencia en banca digital al fútbol europeo. Una de las novedades permite transferir la ubicación para un partido cuando el titular no puede asistir. La compañía también trabaja con Manchester City.",
    "fuente": "clarin.com",
    "t": 1792775982000
-  },
-  {
-   "tema": "economía",
-   "titulo": "\"Es ahora o nunca\": Brasil necesitará importar un volumen récord de trigo y se abre una gran oportunidad para la Argentina",
-   "bajada": "La producción sufrió una caída significativa por factores climáticos. El país vecino proyecta comprar más de 9 millones de toneladas en el exterior, la mayor cantidad en 30 años. Habrá puja por los lotes de calidad del grano argentino.",
-   "fuente": "clarin.com",
-   "t": 1792774283000
-  },
-  {
-   "tema": "clima",
-   "titulo": "El SMN amplió el alerta amarilla por tormentas en el AMBA y mantiene advertencias en 14 provincias",
-   "bajada": "",
-   "fuente": "Cadena 3 Argentina",
-   "t": 1792773829000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Estudiantes de La Plata y Boca Juniors, protagonistas argentinos en las finales continentales",
-   "bajada": "",
-   "fuente": "AFA",
-   "t": 1792772980000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River defenderá un invicto de casi una década ante Racing",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792770862000
   },
   {
    "tema": "espectáculos",
@@ -303,25 +317,11 @@
    "t": 1792767784000
   },
   {
-   "tema": "música",
-   "titulo": "Un grande del rock nacional cumple 75 pirulos: No viaja en tren y reza por vos",
-   "bajada": "",
-   "fuente": "UNJu Diario",
-   "t": 1792767340000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Charly García cumple 75 años y tendrá su documental en Netflix",
    "bajada": "Lo dirige Alejandro Hartmann. Las palabras con las que el propio Charly lo anunció.",
    "fuente": "clarin.com",
    "t": 1792765556000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Gang of Four en Argentina",
-   "bajada": "",
-   "fuente": "Indie Hoy",
-   "t": 1792757279000
   },
   {
    "tema": "clima",
