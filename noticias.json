@@ -1,117 +1,257 @@
 {
- "t": 1792852461280,
+ "t": 1792865438158,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "EN VIVO | Miles de personas vuelven a marchar en París y otras ciudades de Francia en medio de un fuerte operativo de seguridad",
-   "bajada": "En las primeras horas de movilizaciones la Policía detuvo a 135 personas e incautó una gran cantidad de objetos que iban a ser utilizados como armas, aunque hasta el momento la jornada transcurre “sin incidentes graves”. También se registran protestas en España y Albania.",
+   "titulo": "Antes de la clasificación, Franco Colapinto afronta la última práctica libre en el Gran Premio de Estados Unidos",
+   "bajada": "El piloto argentino de Alpine busca llegar en óptimas condiciones a la carrera del domingo en Austin.",
    "fuente": "infobae.com",
-   "t": 1792852188000
+   "t": 1792865109000
   },
   {
    "tema": "actualidad",
-   "titulo": "Tras derrame de residuos minerales en Zacatecas, exigen investigación y cuestionan atribución de Profepa a las lluvias: “No es un caso aislado”",
-   "bajada": "Organizaciones exigieron que se investigue a fondo a empresa minera.",
+   "titulo": "Banfield vence a Lanús en una nueva edición del Clásico del Sur",
+   "bajada": "El Taladro se juega su última chance de ingresar a los playoffs ante el Granate. Televisa TNT Sports.",
    "fuente": "infobae.com",
-   "t": 1792852188000
+   "t": 1792865053000
   },
   {
    "tema": "actualidad",
-   "titulo": "Juan Carlos Orderique habló tras salir de América Televisión después de 22 años: “Era momento de cerrar un ciclo”",
-   "bajada": "El conductor explicó que su desvinculación de América Televisión fue por mutuo acuerdo, luego de más de dos décadas en la señal.",
+   "titulo": "Corte Suprema de Justicia rechazó recurso de casación presentado por el abogado Diego Cadena, condenado a ocho años de prisión por soborno y fraude procesal",
+   "bajada": "La Sala Penal del Tribunal Superior de Bogotá concluyó que el señalado buscó modificar testimonios para favorecer al expresidente de Álvaro Uribe Vélez y a su hermano Santiago Uribe Vélez.",
    "fuente": "infobae.com",
-   "t": 1792852032000
+   "t": 1792865050000
   },
   {
    "tema": "actualidad",
-   "titulo": "Por qué algunas personas pueden pasar años sin tener un amigo íntimo",
-   "bajada": "La cantidad de contactos no revela si alguien se siente solo; la psicología distingue el aislamiento, la soledad no deseada y la preferencia saludable por momentos de autonomía.",
+   "titulo": "Franco Colapinto, en vivo: la última práctica del Gran Premio de Estados Unidos de Fórmula 1, minuto a minuto",
+   "bajada": "El piloto argentino afronta en Austin el último entrenamiento antes de la qualy de esta tarde.",
    "fuente": "lanacion.com.ar",
-   "t": 1792851946000
+   "t": 1792864989000
   },
   {
    "tema": "actualidad",
-   "titulo": "Hutíes afirman que bombardeos sauditas en capital de Yemen dejaron 11 muertos",
-   "bajada": "Bombardeos sauditas en Saná dejan 11 fallecidos tras interceptar misiles hutíes. La violencia resurge tras la tregua de 2022. La coalición saudita interceptó misiles dirigidos a Riad y otras ciudades, elevando las tensiones en Yemen y la región.",
-   "fuente": "clarin.com",
-   "t": 1792851614000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La visita del papa León XIV: la producción general de la misa y la vigilia de jóvenes quedó en manos de la empresa que organiza el Lollapalooza",
-   "bajada": "La llegada del Sumo Pontífice está prevista para el próximo 8 de noviembre. Ambos eventos se realizarán en las inmediaciones del Monumento a los Españoles, en Palermo.",
-   "fuente": "clarin.com",
-   "t": 1792851593000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El lamento de Mauro Icardi tras su viaje con la China Suárez: “Hay dos lugares a mi lado que quedaron vacíos”",
-   "bajada": "El futbolista, que estuvo con su novia, los hijos y la madre de ella en México, compartió un posteo en Instagram en el que expresó su tristeza por no haber podido vacacionar con sus hijas Francesca e Isabella.",
+   "titulo": "La primera formación está lista en China: estos son los nuevos coches para las líneas A y C de subte",
+   "bajada": "La Ciudad recibió el tren pionero de los que se sumarán a esas trazas para mejorar la frecuencia y el confort; en total, adquirió 224 coches, que también irán al ramal B.",
    "fuente": "lanacion.com.ar",
-   "t": 1792851528000
+   "t": 1792864858000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El desafío defensivo que tendrá River en la recta final del Clausura",
+   "bajada": "El equipo de Ponzio recuperó confianza con dos vallas invictas en sus últimos tres partidos, pero los números de 2026 muestran un retroceso en el fondo.",
+   "fuente": "ole.com.ar",
+   "t": 1792864200000
   },
   {
    "tema": "actualidad",
+   "titulo": "Ocasio-Cortez atrae multitudes en estados clave de EEUU mientras prueba el alcance del progresismo",
+   "bajada": "La congresista de Nueva York recorre el país apoyando a candidatos progresistas, demostrando su influencia más allá de su distrito local. Con un fuerte respaldo en redes y entre jóvenes, su posible candidatura presidencial plantea un reto al buscar ampliar su base electoral.",
+   "fuente": "clarin.com",
+   "t": 1792863604000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso",
+   "bajada": "El Vasco definió quiénes irán a Avellaneda para afrontar el clásico de este domingo. Las decisiones del DT, entre el presente del club y todo lo que viene en su calendario.",
+   "fuente": "ole.com.ar",
+   "t": 1792863253000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La llave del Mundial Femenino Sub 17: ¿contra quién se enfrenta Argentina en octavos de final?",
+   "bajada": "Tras la goleada a Marruecos, la Selección ya conoce a su rival en la siguiente ronda del torneo de la FIFA.",
+   "fuente": "ole.com.ar",
+   "t": 1792863193000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Tras su fractura, Dibu Martínez reapareció para alentar a sus compañeros de Chelsea en el clásico de Londres",
+   "bajada": "El arquero argentino se presentó en el partido ante Totthenham; se recupera de su lesión, por la que fue operado hace una semana.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792863153000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Quiniela de Córdoba: resultado del sorteo de la Vespertina de hoy, sábado 24 de octubre",
+   "bajada": "Conocé los números ganadores, cuáles salieron hoy a la cabeza y todo lo que necesitás saber.",
+   "fuente": "clarin.com",
+   "t": 1792863120000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Pese a las presiones de Trump, el Gobierno aceptaría las exigencias de los aliados para revivir la Ley Malvinas",
+   "bajada": "Fuentes legislativas aseguraron que se incorpora Seguridad al Consejo de Seguridad. Se va a crear una comisión bicameral para controlar el organismo integrado por el Ejecutivo. Se modifica el artículo cuestionado por ADEPA.",
+   "fuente": "clarin.com",
+   "t": 1792863102000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente, con todo listo para recibir a Boca y un ojo puesto en el partido de San Lorenzo",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792861554000
+  },
+  {
+   "tema": "música",
+   "titulo": "Charly García celebró sus 75 años rodeado de estrellas del rock: las fotos de una noche especial",
+   "bajada": "",
+   "fuente": "Noticias de Necochea",
+   "t": 1792861109000
+  },
+  {
+   "tema": "música",
+   "titulo": "Conmoción en la música argentina: murió a los 75 años un histórico del rock nacional",
+   "bajada": "",
+   "fuente": "Revista GENTE",
+   "t": 1792860866000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Rosario Central vs. Huracán, por el torneo Clausura, EN VIVO: hora, formaciones y cómo ver",
+   "bajada": "El Canalla defiende la cima de su grupo y va por la tabla anual. Desde las 21.30, por ESPN Premium.",
+   "fuente": "clarin.com",
+   "t": 1792860745000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "San Lorenzo vs. Newell's, por el Torneo Clausura, EN VIVO: hora, formaciones y cómo ver",
+   "bajada": "El Ciclón necesita ganar para conseguir un lugar en el playoff. Desde las 19.15 horas, transmite TNT Sports.",
+   "fuente": "clarin.com",
+   "t": 1792860134000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Talleres de Córdoba vs. Defensa y Justicia, EN VIVO: hora, formaciones y cómo ver",
+   "bajada": "El equipo cordobés busca salir del fondo ante un Halcón que pelea arriba en la Zona A. Desde las 17 horas, por ESPN Premium.",
+   "fuente": "clarin.com",
+   "t": 1792859656000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Tras la fecha de los clásicos, vuelve Estudio Fútbol, un clásico de la pantalla de TyC Sports",
+   "bajada": "Debutó en 2002 como un resumen diario de la actualidad de los equipos de Primera División, pasó a ser semanal y ahora retoma su formato original. Desde este lunes irá de 11 a 13.",
+   "fuente": "clarin.com",
+   "t": 1792859458000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "El Ballet Contemporáneo del San Martín brilla en Paraíso perdido, una obra de danza contemporánea y poesía",
+   "bajada": "La compañía que codirigen Andrea Chinetti y Diego Poblete estrenó una creación de Iratxe Ansa e Igor Bacovich que explora los vínculos amorosos a través del movimiento. El programa se completa con La consagración del tango, de Ana María Stekelman.",
+   "fuente": "clarin.com",
+   "t": 1792859113000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Vuelven las lluvias hoy al AMBA: a qué hora serán y qué dice el pronóstico para el resto del fin de semana",
+   "bajada": "Si bien este sábado amaneció fresco sobre la Ciudad de Buenos Aires y el Conurbano, con el correr de las horas fue subiendo la temperatura. ¿Qué dice el pronóstico del Servicio Meteorológico para las próximas horas?",
+   "fuente": "clarin.com",
+   "t": 1792858900000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca Juniors sos el beso de mamá",
+   "bajada": "",
+   "fuente": "La Número 12",
+   "t": 1792858803000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Fito Páez criticó a Milei en España: \"Hoy reinan las finanzas y los políticos son monigotes de turno\"",
+   "bajada": "El artista cuestionó al Presidente durante una entrevista con el canal La Sexta, en medio de su gira por ese país. \"Hay una parodia de la democracia, sí\", dijo.",
+   "fuente": "clarin.com",
+   "t": 1792857941000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Ciro y Los Persas en vivo hoy en Argentinos Juniors: cómo ver gratis en streaming",
+   "bajada": "",
+   "fuente": "Minutouno",
+   "t": 1792857660000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Moirú, la asociación civil que acompaña a más de 100 familias de Neuquén",
+   "bajada": "En Neuquén, la asociación impulsa el desarrollo comunitario a través de la educación, la alimentación y el acceso a la justicia. Evelin Saavedra fundó la asociación en 2013 y hoy es una de las ocho Abanderadas 2026.",
+   "fuente": "clarin.com",
+   "t": 1792857174000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Protestas en Francia: más de 100.000 personas marcharon en París contra Macron y hubo 135 detenidos por disturbios en el interior",
+   "bajada": "Estudiantes, la CGT y los Chalecos Amarillos se movilizaron “contra la vida cara”. En la capital francesa se modificó el recorrido original por el atentado terrorista del viernes. Unos 70.000 policías y gendarmes fueron desplegados para esta nueva jornada de manifestaciones en todo el país.",
+   "fuente": "clarin.com",
+   "t": 1792856840000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con algunos cambios: Chirola Romero definió el once de Racing para visitar a River",
+   "bajada": "",
+   "fuente": "El Intransigente",
+   "t": 1792856650000
+  },
+  {
+   "tema": "política",
+   "titulo": "Caso $LIBRA: las dudas que quedaron sin responder tras el sobreseimiento de todos los implicados",
+   "bajada": "La causa judicial finalizó con el sobreseimiento de Javier y Karina Milei y otras nueve personas, tras el aval del juez Marcelo Martínez de Giorgi al dictamen del fiscal. El expediente se cerró luego de un año y medio sin tomarle declaración a ninguna de las partes involucradas ni a funcionarios.",
+   "fuente": "clarin.com",
+   "t": 1792856626000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River vs. Racing, por el Torneo Clausura: hora, TV, formaciones y más",
+   "bajada": "",
+   "fuente": "TyC Sports",
+   "t": 1792856334000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La velada de un banco, secreta y muy exclusiva en el Cabildo",
+   "bajada": "Para lanzar la “banca privada”, el Macro reunió a 150 de sus clientes con grandes patrimonios. Eso si, se reservó la lista de invitados. ¿Cómo fue el evento?, entre otros de los secretos empresarios.",
+   "fuente": "clarin.com",
+   "t": 1792853845000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Balotaje en Brasil: ¿Por qué es clave desde Arcor a Despegar y de Mercado Libre a Techint?",
+   "bajada": "Brasil es central en la estrategia de negocios de las empresas argentinas. Los otros casos como el de Grupo Don Mario y Adecoagro en agroindustria y Sinteplast en pintura por citar algunos. El tamaño del comercio y la diplomacia del ajedrez que inauguró Scioli.",
+   "fuente": "clarin.com",
+   "t": 1792852185000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Facundo Farías con Olé: el fútbol como \"salvación\" y su ambicioso sueño en San Lorenzo",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792851679000
+  },
+  {
+   "tema": "política",
    "titulo": "\"Ladrón y mentiroso\": Milei redobló sus críticas contra Lula tras la polémica frase sobre el consumo de carne de burro en Argentina",
-   "bajada": "El mandatario argentino volvió a descalificar a su par brasileño tras las críticas que Lula da Silva le hizo durante el segundo debate previo al balotaje contra Flávio Bolsonaro que se realizó el viernes por la noche.",
+   "bajada": "El mandatario argentino volvió a descalificar a su par brasileño tras las críticas que Lula da Silva le hizo durante el segundo debate previo al balotaje contra Flavio Bolsonaro que se realizó el viernes por la noche.",
    "fuente": "clarin.com",
    "t": 1792851486000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Francia y una nueva protesta contra el gobierno: calles tomadas, locales cerrados y 70.000 policías desplegados",
-   "bajada": "Las autoridades intentan evitar que la tensión suba como en la marcha anterior; temen que se repitan saqueos y disturbios.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792851247000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El gol de un ex Argentinos para Elche",
-   "bajada": "Fede Redondo abrió la cuenta en el triunfo por 3-0 ante Rayo Vallecano.",
-   "fuente": "ole.com.ar",
-   "t": 1792850991000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River vs. Racing, por el Torneo Clausura 2026: día, horario y por dónde ver",
-   "bajada": "Un clásico con mucho en juego: el Millonario, que viene de golear a Belgrano, se enfrenta a la Academia, que empató con Independiente. Todo lo que tenés que saber del partido.",
-   "fuente": "ole.com.ar",
-   "t": 1792850823000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente vs. Boca, por el Torneo Clausura 2026: día, horario y por dónde ver",
-   "bajada": "Partidazo en el Libertadores de América. El Rojo y el Xeneize se enfrentan en un duelo clave para sus aspiraciones en el Clausura. Todos los detalles del encuentro.",
-   "fuente": "ole.com.ar",
-   "t": 1792849935000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Las 72 horas frenéticas de Lionel Messi: tras revolucionar Oviedo y recibir el Princesa de Asturias, voló a los Estados Unidos y hoy juega por la MLS",
-   "bajada": "El capitán argentino regresa a Estados Unidos para visitar este sábado a New York Red Bulls, tras ser distinguido en España con el Premio Princesa de Asturias de los Deportes 2026.",
+   "tema": "política",
+   "titulo": "El Gobierno, cada vez más complicado con la suspensión de las PASO: los aliados desafían a Santilli y postergarían el debate para 2027",
+   "bajada": "Hay diferencias entre el jefe de Gabinete y Patricia Bullrich por los votos en el Senado. Advierten que también habrá polémica por el artículo vinculado con el debate presidencial. El peronismo confía en que podrá mantener la unidad para defender las primarias.",
    "fuente": "clarin.com",
-   "t": 1792848602000
+   "t": 1792850065000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El clásico ante Independiente, una prueba clave para Boca en la pelea por la tabla anual",
-   "bajada": "",
-   "fuente": "yoxeneize.com",
-   "t": 1792845429000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Jon Bon Jovi reveló que sus problemas vocales eran tan graves que no podía cantar ni el “Feliz cumpleaños”",
-   "bajada": "El líder de Bon Jovi recordó el difícil proceso que atravesó tras someterse a una cirugía de cuerdas vocales en 2022. Tras cuatro años de rehabilitación, asegura que recuperó completamente su voz y se prepara para volver a los escenarios con la gira \"Forever Tour\".",
+   "tema": "economía",
+   "titulo": "\"¡A chapotear en el barro!\": la respuesta que recibió un ministro de Economía tras las subas de tasas de EE.UU",
+   "bajada": "Economía de No Ficción. La Reserva Federal subió las tasas a fines de 1986 y complicó, aún más, una economía argentina ya empantanada en el barro y que enfrentaba complicaciones para bajar la inflación.",
    "fuente": "clarin.com",
-   "t": 1792845079000
+   "t": 1792849204000
   },
   {
-   "tema": "música",
-   "titulo": "La banda de Charly García celebró su cumpleaños tocando en una escuela pública",
-   "bajada": "",
-   "fuente": "ANDigital",
-   "t": 1792844728000
+   "tema": "el mundo",
+   "titulo": "Elecciones en Brasil, EN VIVO: tras el debate, Lula y Flávio Bolsonaro cierran sus campañas en busca de los indecisos",
+   "bajada": "Ambos candidatos sacan este sábado a decenas de miles de simpatizantes a las calles de Río de Janeiro y San Pablo en un último esfuerzo antes del balotaje presidencial.",
+   "fuente": "clarin.com",
+   "t": 1792844690000
   },
   {
    "tema": "fútbol",
@@ -121,11 +261,11 @@
    "t": 1792844250000
   },
   {
-   "tema": "política",
-   "titulo": "Javier Milei y sus medidas, EN VIVO: Santiago Caputo cruzó a Villarruel por Malvinas y tensó más la interna del Gobierno",
-   "bajada": "\"Los políticos sufren de eyaculación precoz por su deseo de ser queridos\", lanzó el asesor presidencial contra la vice antes de dejar como advertencia que \"la paciencia es una virtud\".",
-   "fuente": "clarin.com",
-   "t": 1792842786000
+   "tema": "fútbol",
+   "titulo": "Boca visita a Independiente por un triunfo clave en Avellaneda",
+   "bajada": "",
+   "fuente": "Diario El Norte - San Nicolás",
+   "t": 1792843476000
   },
   {
    "tema": "fútbol",
@@ -135,74 +275,11 @@
    "t": 1792842299000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Brasil: Lula no ganó el debate pero los errores de Flavio lo beneficiaron, afirman los medios brasileños",
-   "bajada": "En el balance ninguno elige un ganador, pero sí remarcan que el senador conservador cometió errores sensibles, entre ellos burlarse de la discapacidad de Lula a quien le falta un dedo. También el manejo de datos falsos o un fallido grave con relación a una niña que fue asesinada por un policía que Bolsonaro defendió.",
-   "fuente": "clarin.com",
-   "t": 1792842275000
-  },
-  {
    "tema": "clima",
    "titulo": "Vuelven las lluvias al AMBA, mientras crece la preocupación por las alertas por tormentas en el Litoral",
    "bajada": "",
    "fuente": "Infobae",
    "t": 1792841220000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo será el pico de las lluvias y las provincias más afectadas",
-   "bajada": "El Servicio Meteorológico Nacional anticipó que el fenómeno climático alcanzará en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
-   "fuente": "clarin.com",
-   "t": 1792841033000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "En un debate más ordenado, Lula y Flávio Bolsonaro midieron fuerzas, pero no quedó claro un ganador",
-   "bajada": "Ambos apuntaron a seducir a quienes no votaron en la primera vuelta. Hubo cruces muy duros y buena reacción de ambos. El tema de la economía familiar y general, ocupó un gran espacio.",
-   "fuente": "clarin.com",
-   "t": 1792840183000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Euro hoy en Venezuela: precio y cotización de la divisa este sábado 24 de octubre de 2026",
-   "bajada": "Mirá la cotización del euro en Venezuela, su variación y los valores de referencia. Cómo es la tendencia de la moneda europea en lo que va del año.",
-   "fuente": "clarin.com",
-   "t": 1792838713000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Euro hoy en Paraguay: precio y cotización de la divisa este sábado 24 de octubre de 2026",
-   "bajada": "Mirá la cotización del euro en Paraguay, su variación y los valores de referencia. Cómo es la tendencia de la moneda europea en lo que va del año.",
-   "fuente": "clarin.com",
-   "t": 1792838712000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Euro hoy en Uruguay: precio y cotización de la divisa este sábado 24 de octubre de 2026",
-   "bajada": "Mirá la cotización del euro en Uruguay, su variación y los valores de referencia. Cómo es la tendencia de la moneda europea en lo que va del año.",
-   "fuente": "clarin.com",
-   "t": 1792838712000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este sábado 24 de octubre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1792836902000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "James Bond: este fin de semana se define quién tendrá el papel protagonista masculino más codiciado de la historia del cine",
-   "bajada": "Josh O'Connor, Callum Turner y Jack Lowden están haciendo pruebas de cámara en los Pinewood Studios. Quiénes son, y qué les están pidiendo.",
-   "fuente": "clarin.com",
-   "t": 1792836099000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La alternativa inesperada a Paredes que Arruabarrena probará ante Talleres",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792835852000
   },
   {
    "tema": "fútbol",
@@ -212,67 +289,11 @@
    "t": 1792834930000
   },
   {
-   "tema": "sociedad",
-   "titulo": "El regreso menos pensado: la máquina de coser conquista a una nueva generación",
-   "bajada": "Cada vez son más las mujeres de más de 55 años que se acercan a los talleres. Lo ven como un espacio social o un refugio para olvidarse de todo, y un campo para crear. La ciencia avala: estudios indican que coser ayuda con la autoestima, la paciencia y otras claves del bienestar. La increíble historia de la Singer.",
-   "fuente": "clarin.com",
-   "t": 1792832618000
-  },
-  {
-   "tema": "política",
-   "titulo": "Elecciones en Brasil: qué se juegan Milei y la oposición argentina en el duelo entre Lula y Bolsonaro",
-   "bajada": "El Presidente apuesta por un triunfo de Flávio Bolsonaro, que podría darle un aliado clave en la región. El peronismo mira con expectativa una posible reelección de Lula da Silva.",
-   "fuente": "clarin.com",
-   "t": 1792832499000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Verón desafía a Tapia y va por la quinta Libertadores con Estudiantes: una final con el peso de la historia y una pelea que no termina",
-   "bajada": "El Pincha volverá a enfrentar a Palmeiras en el Centenario, como en 1968. La Brujita busca su primera Copa como presidente, mientras profundiza su enfrentamiento con la conducción de la AFA.",
-   "fuente": "clarin.com",
-   "t": 1792832499000
-  },
-  {
-   "tema": "política",
-   "titulo": "\"Es todo una mentira, es un chanta total\": los reveladores audios que complicaron a José Luis Espert por lavado de dinero",
-   "bajada": "Fueron encontrados en el celular de su contador y son sobre el contrato que el economista firmó con \"Fred\" Machado por un millón de dólares. El ex diputado primero dijo que era con el estado de Guatemala. \"Evidentemente nos engañó de acá a la China\". El ex diputado fue procesado.",
-   "fuente": "clarin.com",
-   "t": 1792832498000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "F1 GP de Estados Unidos con Colapinto, EN VIVO: horarios de la FP3, clasificación y dónde ver la Fórmula 1",
-   "bajada": "El piloto argentino penaliza 10 puestos en la grilla del domingo. El viernes fue 17° y 15° en la FP1 y FP2, respectivamente. Leclerc fue el más rápido y quiere la pole.",
-   "fuente": "clarin.com",
-   "t": 1792832498000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo y las deudas: se le pagaron los sueldos a los empleados y la CD prometió saldar el sueldo del plantel",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792832299000
-  },
-  {
    "tema": "tecnología",
    "titulo": "“Hola ma, cambié el número”: cómo detectar las estafas que apuntan a la gente mayor",
    "bajada": "Falsos familiares, robo de cuentas de WhatsApp, llamados bancarios y engaños con datos personales están entre las principales maniobras. La inteligencia artificial suma nuevas dificultades, desde mensajes más convincentes hasta audios capaces de imitar voces.",
    "fuente": "clarin.com",
    "t": 1792831536000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River Plate vs. Racing Club, por el Torneo Clausura 2026: día, hora y cómo ver online",
-   "bajada": "",
-   "fuente": "La Nación",
-   "t": 1792818360000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Maxi Meza: del cambio de posición clave a su buen momento en Independiente",
-   "bajada": "",
-   "fuente": "Olé",
-   "t": 1792816325000
   },
   {
    "tema": "clima",
@@ -282,53 +303,18 @@
    "t": 1792813213000
   },
   {
+   "tema": "recitales",
+   "titulo": "La Trampa anunció su regreso tras ocho años: fecha y lugar de su show, y cuándo saldrán a la venta las entradas",
+   "bajada": "",
+   "fuente": "EL PAÍS Uruguay",
+   "t": 1792809886000
+  },
+  {
    "tema": "fútbol",
    "titulo": "El amistoso fue con victoria",
    "bajada": "",
    "fuente": "Racing Club - Sitio Oficial",
    "t": 1792800640000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River vs. Racing, por el Torneo Clausura: hora, TV, formaciones y más",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792799729000
-  },
-  {
-   "tema": "economía",
-   "titulo": "¿Más presión para el dólar?: Caen los precios internacionales del agro y la colocación de deuda privada",
-   "bajada": "Dos variables que venían siendo clave para generar un excedente de dólares en las arcas del BCRA sufrieron un deterioro.",
-   "fuente": "ambito.com",
-   "t": 1792799040000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Endeudamiento: 8 de cada 10 argentinos llegan sin margen a fin de mes y usan la tarjeta de crédito para financiarse",
-   "bajada": "La caída del poder adquisitivo y la pérdida de empleo de calidad asfixian a muchos hogares. El 82% no tiene dinero sobrante a fin de mes, pese a los dichos de Javier Milei: “¿Cómo viven 10 días sin comer ni beber?”. Entre quienes tuvieron dificultades de pago, el 40% cubre faltantes con la tarjeta de crédito.",
-   "fuente": "ambito.com",
-   "t": 1792796640000
-  },
-  {
-   "tema": "música",
-   "titulo": "La historia de Serú Girán, la banda que cambió el rock argentino: innovación, masividad y censura en plena dictadura",
-   "bajada": "",
-   "fuente": "Infobae",
-   "t": 1792794900000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Netflix anunció un documental sobre Charly García en su cumpleaños número 75",
-   "bajada": "",
-   "fuente": "Perfil",
-   "t": 1792792905000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Gang of Four en Argentina",
-   "bajada": "",
-   "fuente": "Indie Hoy",
-   "t": 1792791183000
   }
  ]
 }
