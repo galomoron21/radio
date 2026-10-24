@@ -1,26 +1,131 @@
 {
- "t": 1792875055524,
+ "t": 1792883751075,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Suben a 2.200 los palestinos de Hebrón expulsados de sus casas por Israel",
-   "bajada": "Jerusalén, 24 oct (EFE).- Los palestinos de la ciudad de Hebrón, sur de Cisjordania, expulsados por las fuerzas israelíes de sus casas desde que el viernes noche Israel iniciara una operación militar aumentaron a casi 2.200 personas, según los últimos datos recabados por el consistorio de la urbe y facilitados a EFE.",
+   "titulo": "América vs. Cúcuta - en vivo Liga BetPlay: minuto a minuto del partido en el Pascual Guerrero",
+   "bajada": "Los \"Diablos Rojos\" buscarán retornar al liderato del fútbol colombiano ante el cuadro \"Motilón\" que viene con confianza tras su triunfo ante Atlético Nacional.",
    "fuente": "infobae.com",
-   "t": 1792874791000
+   "t": 1792883607000
   },
   {
    "tema": "actualidad",
-   "titulo": "No eran suplementos alimenticios: transportaban hidrocodona clandestinamente en el aeropuerto de CDMX desde Colombia",
-   "bajada": "En los análisis químicos también se identificó otra sustancia, acetaminofén (paracetamol).",
+   "titulo": "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 24 de octubre: Se normaliza la circulación en la México-Cuernavaca",
+   "bajada": "Mantente informado en tiempo real sobre el acontecer en el Valle de México.",
    "fuente": "infobae.com",
-   "t": 1792874786000
+   "t": 1792883548000
   },
   {
    "tema": "actualidad",
-   "titulo": "Cuba mantendrá vigente el \"horario de verano\" un año más por la crisis energética",
-   "bajada": "La Habana, 24 oct (EFE).- El Gobierno de Cuba decidió este sábado mantener el \"horario de verano\" hasta el 7 de noviembre de 2027, una medida relacionada directamente con la crisis energética que vive el país desde hace dos años y derivada en apagones diarios de más de 20 horas.",
+   "titulo": "Lionel Messi en Inter Miami vs. New York Red Bull, en vivo por la MLS",
+   "bajada": "El crack vuelve a la acción, luego de una semana inolvidable en España, en donde fue condecorado.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792883544000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Alianza Lima vs Sporting Cristal: día, hora y canal TV del clásico por la fecha 14 del Torneo Clausura 2026",
+   "bajada": "Los ‘blanquiazules’ y ‘celestes’ chocarán en el estadio Alberto Gallardo en la siguiente jornada. Conoce todos los detalles de este gran partido.",
    "fuente": "infobae.com",
-   "t": 1792874774000
+   "t": 1792883544000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Abierto de Tortugas: La Natividad-La Dolfina goleó a La Ensenada pero sabe que debe mejorar los inicios",
+   "bajada": "Sin rivales que hasta el momento hayan puesto en riesgo su invicto en la temporada, no se fía de sus irregulares comienzos de partidos.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792883495000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Natalia Lobo, actriz: “No importa si mientras meditas la mente se dispersa o aparece la incomodidad”",
+   "bajada": "La actriz y coach guio una meditación para ayudar a los asistentes a conectar con el cuerpo y observar tensiones, emociones y pensamientos sin juzgarlos.",
+   "fuente": "lanacion.com.ar",
+   "t": 1792883418000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Premios al cretinismo",
+   "bajada": "Increíble e hipócrita lo de Steve Witkoff ante Putin: “El presidente Trump es un humanitario. Usted también”.",
+   "fuente": "clarin.com",
+   "t": 1792882905000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Hoy es la Luna llena en Tauro 2026: qué energía trae y cuáles son los signos que la sentirán con más fuerza",
+   "bajada": "El plenilunio pone el foco en la estabilidad, los vínculos y los recursos económicos. Predicciones para los doce signos del zodiaco, según la astróloga Giuliana Piloni.",
+   "fuente": "clarin.com",
+   "t": 1792882905000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Un viaje, casi un milagro",
+   "bajada": "De una forma casi imperceptible, se va tejiendo un sutil entramado de afecto y complicidades que pone en evidencia no lo que nos separa sino aquello que nos hermana.",
+   "fuente": "clarin.com",
+   "t": 1792882904000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Kimi Antonelli hizo la pole position y se acercó al título: ¿qué necesita para ser campeón de F1 en Austin?",
+   "bajada": "El piloto de Mercedes dio el batacazo en COTA y se quedó con un primer puesto inesperado. Partiendo de su resultado, el de George Russell y el de Lewis Hamilton, se puede ilusionar con levantar la copa el domingo.",
+   "fuente": "ole.com.ar",
+   "t": 1792882514000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Colapinto, de sufrir en la qualy de Austin a soñar con remontar: “Ojalá degrademos menos”",
+   "bajada": "El argentino se volvió a mostrar disconforme con el balance del Alpine en los sectores bacheados y ya piensa en remontar desde el fondo este domingo en Estados Unidos.",
+   "fuente": "ole.com.ar",
+   "t": 1792882089000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Súper domingo: dos clásicos de Argentina, Colapinto, Barsa-Madrid y más",
+   "bajada": "Se viene un día que será a multipantalla con acción para todos los gustos. Mirá.",
+   "fuente": "ole.com.ar",
+   "t": 1792882054000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Tita ya está en casa",
+   "bajada": "",
+   "fuente": "Racing Club - Sitio Oficial",
+   "t": 1792879715000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River Plate vs. Racing Club: día, horario, canal de TV y cómo ver el partido del Torneo Clausura 2026",
+   "bajada": "",
+   "fuente": "Canal26",
+   "t": 1792879211000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca y un duro examen ante Independiente de Avellaneda: hora, formaciones y por dónde seguir en vivo",
+   "bajada": "",
+   "fuente": "Los Andes",
+   "t": 1792878900000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Ferro sufrió un gol a los 13 segundos, terminó goleado por Chaco For Ever y complicó su regreso a Primera tras 26 años",
+   "bajada": "El Verde recibió a los chaqueños sabiendo que una victoria le aseguraba jugar la final por el primer ascenso. Sin embargo, entró dormido al partido y lo que pintaba para fiesta se convirtió en una definición que puede ser dramática.",
+   "fuente": "clarin.com",
+   "t": 1792877323000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Julián Alvarez se reconcilia con Atlético de Madrid: marcó el gol de la victoria, lo ovacionaron y le pidió perdón a la gente",
+   "bajada": "El delantero argentino empieza a cambiar insultos por aplausos en el Metropolitano. \"Fue una equivocación de mi parte\", dijo sobre sus ganas de ser transferido al Barcelona. El equipo del Cholo Simeone ganó y da pelea en lo más alto de LaLiga de España.",
+   "fuente": "clarin.com",
+   "t": 1792877007000
+  },
+  {
+   "tema": "política",
+   "titulo": "Del Plan V al Plan B: Bullrich desafía el liderazgo de Milei en crisis por el riesgo de un balotaje",
+   "bajada": "La ex ministra consolida su juego propio mientras el Gobierno enfrenta la caída en las encuestas y la oposición busca blindar las PASO.",
+   "fuente": "clarin.com",
+   "t": 1792875617000
   },
   {
    "tema": "fútbol",
@@ -30,46 +135,25 @@
    "t": 1792874713000
   },
   {
-   "tema": "actualidad",
-   "titulo": "El sindicalista absuelto tras el bloqueo en San Nicolás prepara un contragolpe y los empresarios buscan revertir el fallo",
-   "bajada": "Los abogados de Cabaleyro y de seis antiguos empleados preparan una demanda contra los dueños de la firma y reclaman explicaciones por el tiempo que el gremialista estuvo preso; los propietarios de la distribuidora confían en la apelación.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792874620000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Hadjar se enojó con Albon y le tiró el auto encima en el final de la última práctica del GP de Estados Unidos",
-   "bajada": "El piloto de Red Bull se molestó al encontrar al Williams del tailandés en el radio de giro de una curva en Austin.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792874533000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Israel sube la presión sobre Cisjordania tras el asesinato de dos soldados: 2000 desplazados y una amenaza de Netanyahu",
-   "bajada": "El Ejército cerró los accesos a la mayor ciudad del territorio y el primer ministro afirmó que prepara una operación de mayor envergadura, “como no se ha visto desde la Guerra de los Seis Días” de 1967.",
-   "fuente": "lanacion.com.ar",
-   "t": 1792874110000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Moto3 en Australia: a qué hora corren Valentín Perrone y Marco Morelli y dónde se podrá ver la carrera",
-   "bajada": "El Coyote y el Gladiador no consiguieron meterse en el Top 10 de la qualy, así que deberán remontar para conseguir un buen resultado en Phillip Island.",
-   "fuente": "ole.com.ar",
-   "t": 1792873966000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Balón de Oro 2026: quiénes son los favoritos a ganar el premio",
-   "bajada": "Lionel Messi, Harry Kane, Lamine Yamal, Kylian Mbappé y Rodri aparecen entre los principales candidatos al Balón de Oro 2026. Los goles, las asistencias, los títulos y el rendimiento en el Mundial, entre los argumentos que alimentan la discusión antes de la gala.",
-   "fuente": "ole.com.ar",
-   "t": 1792873903000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Trump y la primera dama votan de manera anticipada en Palm Beach para las elecciones",
-   "bajada": "El mandatario estadounidense y su esposa emitieron su voto anticipado en Palm Beach, instando a la participación electoral en Florida. Trump llamó a los ciudadanos de Florida y Michigan a votar temprano, subrayando la importancia de entregar las papeletas a tiempo.",
+   "tema": "política",
+   "titulo": "Libres por $LIBRA: los tuits de Milei no son del Presidente y aquí no ha pasado nada",
+   "bajada": "El fallo que sobreseyó al Presidente considera que el tuit que originó todo fue escrito en su condición de economista.",
    "fuente": "clarin.com",
-   "t": 1792873213000
+   "t": 1792874559000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Marchas en Roma y Milán: el Gobierno italiano desplegó al Ejército para evitar incidentes",
+   "bajada": "Tras los violentos enfrentamientos del fin de semana anterior, un masivo dispositivo de las fuerzas de seguridad vigiló las manifestaciones que resultaron ser acotadas y pacíficas.",
+   "fuente": "clarin.com",
+   "t": 1792874106000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "La confesión más íntima de Chano: qué hizo después de anunciar la vuelta de Tan Biónica",
+   "bajada": "A corazón abierto, Chano repasó el camino que lo llevó de la internación a volver a los escenarios y contó qué significó para él anunciar el regreso de la banda.",
+   "fuente": "clarin.com",
+   "t": 1792873903000
   },
   {
    "tema": "fútbol",
@@ -79,28 +163,14 @@
    "t": 1792872900000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El desarrrollo de la 30ª fecha",
-   "bajada": "",
-   "fuente": "Racing Club - Sitio Oficial",
-   "t": 1792872621000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "TC en Rosario: Lambiris le sacó la pole a Rossi y cortó cuatro años de sequía",
-   "bajada": "Por la tercera fecha de la Copa de Oro en Rosario, el uruguayo, con el Ford, superó por 0,139 al Misil en su último intento y logró su cuarta pole en la categoría, la primera desde Viedma 2022.",
-   "fuente": "ole.com.ar",
-   "t": 1792872349000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "deportes",
    "titulo": "Excursionistas, campeón de la Primera B: goleó a Italiano y jugará en la Primera Nacional por primera vez en su rica historia",
    "bajada": "El club fundado en febrero de 1910 desató la fiesta de una multitud en el Bajo Belgrano. Resolvió el partido rápido y el triunfo lo hizo inalcanzable para Arsenal, que quedó segundo. La historia de una institución famosa por René Houseman y una serie protagonizada por Carlos Calvo.",
    "fuente": "clarin.com",
    "t": 1792871569000
   },
   {
-   "tema": "actualidad",
+   "tema": "espectáculos",
    "titulo": "Murió Carlos Riganti, el histórico baterista de Alas, a los 75 años",
    "bajada": "El músico fue una de los referentes y pioneros del rock progresivo argentino en la década del 70. Su esposa, Viviana, confirmó la noticia a través de un comunicado en redes sociales. Las emotivas despedidas de Charly Alberti, Oscar Giunta y Pedro Aznar.",
    "fuente": "clarin.com",
@@ -108,8 +178,8 @@
   },
   {
    "tema": "política",
-   "titulo": "Caso $LIBRA: Milei amenazó con iniciar acciones legales contra la prensa y denunció una operación",
-   "bajada": "El presidente volvió a cargar contra la prensa tras la decisión del juez federal Martínez de Giorgi de cerrar la causa del criptoescándalo.",
+   "titulo": "Tras el sobreseimiento en la causa $LIBRA: el Presidente volvió a cruzar a la prensa y evalúa iniciar acciones legales",
+   "bajada": "\"Me estuvieron ensuciando\", se quejó Milei. Tras la decisión del juez federal Marcelo Martínez de Giorgi de cerrar la causa del criptoescándalo, el mandatario acusó a la oposición y a un sector del periodismo de buscar generar caos Asimismo, celebró el funcionamiento de la Justicia.",
    "fuente": "clarin.com",
    "t": 1792870777000
   },
@@ -121,11 +191,11 @@
    "t": 1792870672000
   },
   {
-   "tema": "fútbol",
-   "titulo": "River Plate y la Liga del Sur, palo a palo",
-   "bajada": "",
-   "fuente": "La Nueva Provincia",
-   "t": 1792869525000
+   "tema": "el mundo",
+   "titulo": "Elecciones en Brasil: Lula da Silva y Flávio Bolsonaro pelean voto a voto en un país partido en dos",
+   "bajada": "Las encuestas prevén un empate en el balotaje de este domingo. El debate del viernes puede haber influido en los indecisos, aunque no hubo un ganador claro.",
+   "fuente": "clarin.com",
+   "t": 1792870512000
   },
   {
    "tema": "sociedad",
@@ -135,25 +205,11 @@
    "t": 1792869123000
   },
   {
-   "tema": "política",
-   "titulo": "El fracaso opositor en Diputados reaviva la crisis en un bloque clave: cruces, sospechas y ¿ruptura?",
-   "bajada": "Provincias Unidas tiene 18 miembros: conviven legisladores que responden a mandatarios con dirigentes sin un jefe claro. Quedaron en la mira en las dos últimas sesiones y se agitaron fantasmas de ruptura.",
-   "fuente": "clarin.com",
-   "t": 1792868344000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Heroica actuación argentina en Italia: doblete de Balerdi y gol de Soulé en el 3-3 ante el Napoli",
-   "bajada": "El ex futbolista de Boca convirtió dos tantos agónicos para el conjunto romano, mientras que Matías Soulé marcó el descuento inicial. Con este resultado en un cruce repleto de emoción, la visita salvó un punto y se ubicó en el tercer puesto de la Serie A.",
-   "fuente": "clarin.com",
-   "t": 1792868274000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Se incendió el Nido del Águila, el histórico refugio de Hitler en los Alpes bávaros: hay un detenido",
-   "bajada": "Una combinación de vientos, lluvias y nevadas obligó al personal de rescate a interrumpir el combate contra el fuego en varios tramos durante la noche. Pese a la severidad de los destrozos, el ministro del Interior de Baviera ratificó que la estructura no quedará reducida a ruinas.",
-   "fuente": "clarin.com",
-   "t": 1792867611000
+   "tema": "fútbol",
+   "titulo": "Video: la sorpresa que recibió el plantel de River en la previa al clásico",
+   "bajada": "",
+   "fuente": "Olé",
+   "t": 1792868645000
   },
   {
    "tema": "economía",
@@ -163,13 +219,6 @@
    "t": 1792867440000
   },
   {
-   "tema": "música",
-   "titulo": "Del rock al cuarteto: la FNS 2026 tendrá tres noches con grandes artistas",
-   "bajada": "",
-   "fuente": "SI SAN JUAN",
-   "t": 1792867320000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Caleta Olivia vivió una gran noche de vóley con Boca Juniors y Waiwen",
    "bajada": "",
@@ -177,18 +226,11 @@
    "t": 1792866919000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Protestas en Francia: los temibles \"Black Blocs\" reaparecieron con su marca de destrucción y violencia",
-   "bajada": "El grupo de encapuchados anarquistas se infiltró en la marcha pacífica y lanzó botellas y piedras contra la policía. La marcha terminó con gases lacrimógenos, corridas y algunos heridos.",
-   "fuente": "clarin.com",
-   "t": 1792866306000
-  },
-  {
-   "tema": "política",
-   "titulo": "Pese a las presiones de Trump, el Gobierno aceptaría las exigencias de los aliados para revivir la Ley Malvinas",
-   "bajada": "Fuentes legislativas aseguraron que se incorpora Seguridad al Consejo de Seguridad. Se va a crear una comisión bicameral para controlar el organismo integrado por el Ejecutivo. Se modifica el artículo cuestionado por ADEPA.",
-   "fuente": "clarin.com",
-   "t": 1792863102000
+   "tema": "fútbol",
+   "titulo": "Boca vs. Independiente por el Torneo Clausura 2026: hora, formaciones y cómo ver por TV",
+   "bajada": "",
+   "fuente": "Planeta Boca Juniors",
+   "t": 1792863485000
   },
   {
    "tema": "fútbol",
@@ -205,32 +247,11 @@
    "t": 1792861109000
   },
   {
-   "tema": "deportes",
-   "titulo": "Rosario Central vs. Huracán, por el torneo Clausura, EN VIVO: hora, formaciones y cómo ver",
-   "bajada": "El Canalla defiende la cima de su grupo y va por la tabla anual. Desde las 21.30, por ESPN Premium.",
+   "tema": "espectáculos",
+   "titulo": "Tras la fecha de los clásicos, vuelve Estudio Fútbol, un clásico de la pantalla de TyC Sports",
+   "bajada": "Debutó en 2002 como un resumen diario de la actualidad de los equipos de Primera División, pasó a ser semanal y ahora retoma su formato original. Desde este lunes irá de 11 a 13.",
    "fuente": "clarin.com",
-   "t": 1792860745000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "San Lorenzo vs. Newell's, por el Torneo Clausura, EN VIVO: hora, formaciones y cómo ver",
-   "bajada": "El Ciclón necesita ganar para conseguir un lugar en el playoff. Desde las 19.15 horas, transmite TNT Sports.",
-   "fuente": "clarin.com",
-   "t": 1792860134000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Ciro y Los Persas en vivo hoy en Argentinos Juniors: cómo ver gratis en streaming",
-   "bajada": "",
-   "fuente": "Minutouno",
-   "t": 1792857660000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Con algunos cambios: Chirola Romero definió el once de Racing para visitar a River",
-   "bajada": "",
-   "fuente": "El Intransigente",
-   "t": 1792856650000
+   "t": 1792859458000
   },
   {
    "tema": "fútbol",
@@ -238,6 +259,13 @@
    "bajada": "",
    "fuente": "TyC Sports",
    "t": 1792856334000
+  },
+  {
+   "tema": "música",
+   "titulo": "Del rock al cuarteto: la FNS 2026 tendrá tres noches con grandes artistas",
+   "bajada": "",
+   "fuente": "SI SAN JUAN",
+   "t": 1792854600000
   },
   {
    "tema": "economía",
@@ -268,18 +296,11 @@
    "t": 1792849204000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El historial entre Boca e Independiente: todos los enfrentamientos y quién ganó más",
+   "tema": "clima",
+   "titulo": "Fin de semana nublado y con chaparrones en Buenos Aires: se viene un brusco descenso de las temperaturas",
    "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792842312000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La formación de Boca vs. Independiente, por el Torneo Clausura",
-   "bajada": "",
-   "fuente": "TyC Sports",
-   "t": 1792842299000
+   "fuente": "C5N",
+   "t": 1792841580000
   },
   {
    "tema": "clima",
@@ -289,39 +310,11 @@
    "t": 1792841220000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este sábado 24 de octubre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1792836902000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "James Bond: este fin de semana se define quién tendrá el papel protagonista masculino más codiciado de la historia del cine",
-   "bajada": "Josh O'Connor, Callum Turner y Jack Lowden están haciendo pruebas de cámara en los Pinewood Studios. Quiénes son, y qué les están pidiendo.",
-   "fuente": "clarin.com",
-   "t": 1792836099000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "El Papa Francisco, protagonista de una comedia que es más papista que el Papa",
-   "bajada": "\"...que Dios perdona a todos\" tiene a Francisco como un consejero espiritual del protagonista. Y no faltan los argentinismos. La película plantea qué sucedería si se siguieran los mandamientos católicos a rajatabla, al pie de la letra. Y ahí surge la comicidad.",
-   "fuente": "clarin.com",
-   "t": 1792832617000
-  },
-  {
    "tema": "tecnología",
    "titulo": "“Hola ma, cambié el número”: cómo detectar las estafas que apuntan a la gente mayor",
    "bajada": "Falsos familiares, robo de cuentas de WhatsApp, llamados bancarios y engaños con datos personales están entre las principales maniobras. La inteligencia artificial suma nuevas dificultades, desde mensajes más convincentes hasta audios capaces de imitar voces.",
    "fuente": "clarin.com",
    "t": 1792831536000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este sábado 24 octubre de 2026",
-   "bajada": "",
-   "fuente": "Clarin.com",
-   "t": 1792813213000
   }
  ]
 }
