@@ -119,7 +119,7 @@ try:
     for n in json.load(open("noticias.json", encoding="utf-8"))["items"]:
         k = hashlib.sha1(n["titulo"].encode()).hexdigest()[:12]
         intro = random.Random(k).choice([f"Noticias de {n['tema']}:", f"Pasamos a {n['tema']}:", f"En {n['tema']}:", f"Un repaso de {n['tema']}:", f"Les cuento algo de {n['tema']}:"])
-        frases["noti-" + k] = f"{intro} {n['titulo']}. {n.get('bajada') or ''}".strip()
+        frases["noti-" + k] = f"{intro} {n.get('leer') or n['titulo'] + '.'}".strip()
 except Exception as e:
     print("Sin noticias", e)
 

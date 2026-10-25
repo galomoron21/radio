@@ -62,13 +62,32 @@ def fecha(it):
             except Exception: pass
     return time.time()
 
+# Notas "de servicio" que no cuentan nada al leerlas en voz alta: horarios, dónde verlo, cotizaciones, minuto a minuto.
+SERVICIO = re.compile(r"a qu[ée] hora|d[óo]nde ver|por d[óo]nde|c[óo]mo ver|se puede ver|horario|formaciones|minuto a minuto|"
+                      r"cotiza|cotizaci[óo]n|precio del|a cu[áa]nto|hoy en (uruguay|venezuela|per[úu]|chile|m[ée]xico|colombia|espa[ñn]a|ecuador)|"
+                      r"hor[óo]scopo|quiniela|resultados del sorteo|qu[ée] se celebra|efem[ée]rides", re.I)
+EN_VIVO = re.compile(r"\b(en vivo|en directo|live)\b", re.I)
+
+def para_leer(titulo, cuerpo):
+    """Lo que dice el locutor, o None si la nota no sirve para la radio."""
+    if SERVICIO.search(titulo):
+        return None
+    pregunta = "?" in titulo or "¿" in titulo
+    if pregunta or EN_VIVO.search(titulo):
+        # El titular es una pregunta o un "en vivo": no es la noticia. Se lee solo la bajada, si hay.
+        return cuerpo if cuerpo and not SERVICIO.search(cuerpo) else None
+    return f"{titulo}. {cuerpo}".strip()
+
 items, vistos = [], set()
 def sumar(tema, titulo, cuerpo, fuente, t):
     clave = re.sub(r"\W+", "", titulo.lower())[:50]
     if not titulo or clave in vistos or time.time() - t > HORAS * 3600 or len(titulo) > 200:
         return False
+    leer = para_leer(titulo, cuerpo)
+    if not leer or len(leer) < 40:
+        return False
     vistos.add(clave)
-    items.append({"tema": tema, "titulo": titulo, "bajada": cuerpo, "fuente": fuente, "t": int(t * 1000)})
+    items.append({"tema": tema, "titulo": titulo, "bajada": cuerpo, "leer": leer, "fuente": fuente, "t": int(t * 1000)})
     return True
 
 for tema, url, cuantas in DIARIOS:
