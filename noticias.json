@@ -1,125 +1,373 @@
 {
- "t": 1793020382915,
+ "t": 1793042481868,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Rodrigo Paz felicita a Lula por el triunfo en Brasil: “Seguiremos trabajando juntos”",
-   "bajada": "El presidente boliviano fue uno de los primeros en reaccionar a la victoria de Lula. También lo hizo el vicepresidente Edmand Lara.",
-   "leer": "Rodrigo Paz felicita a Lula por el triunfo en Brasil: “Seguiremos trabajando juntos”. El presidente boliviano fue uno de los primeros en reaccionar a la victoria de Lula. También lo hizo el vicepresidente Edmand Lara.",
+   "titulo": "Demuestran que las arañas saltarinas tienen dos etapas de sueño, una muy similar a la REM",
+   "bajada": "Redacción Ciencia, 26 oct (EFE).- En los humanos y los vertebrados el sueño atraviesa una fase de intensa actividad cerebral, movimientos acelerados y pequeñas sacudidas oculares conocida como REM, y ahora un estudio con arañas saltarinas ha demostrado que en animales con sistemas nerviosos más.",
+   "leer": "Demuestran que las arañas saltarinas tienen dos etapas de sueño, una muy similar a la REM. Redacción Ciencia, 26 oct (EFE).- En los humanos y los vertebrados el sueño atraviesa una fase de intensa actividad cerebral, movimientos acelerados y pequeñas sacudidas oculares conocida como REM, y ahora un estudio con arañas saltarinas ha demostrado que en animales con sistemas nerviosos más.",
    "fuente": "infobae.com",
-   "t": 1793020172000
+   "t": 1793042272000
   },
   {
    "tema": "actualidad",
-   "titulo": "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 26 de octubre",
-   "bajada": "Mantente informado en tiempo real sobre el acontecer en el Valle de México.",
-   "leer": "Mantente informado en tiempo real sobre el acontecer en el Valle de México.",
+   "titulo": "Gaza, olvidada y a la espera, en vísperas de las elecciones israelíes",
+   "bajada": "Ahmad Awad Deir al Balah (Gaza), 26 oct (EFE).- Tras tres años de desplazamiento, familiares muertos y destrucción, algunos gazatíes aguardan con esperanza las elecciones que se celebrarán mañana martes en Israel, pero muchos otros creen que, con independencia de quien gobierne, nada cambiará para los palestinos.",
+   "leer": "Gaza, olvidada y a la espera, en vísperas de las elecciones israelíes. Ahmad Awad Deir al Balah (Gaza), 26 oct (EFE).- Tras tres años de desplazamiento, familiares muertos y destrucción, algunos gazatíes aguardan con esperanza las elecciones que se celebrarán mañana martes en Israel, pero muchos otros creen que, con independencia de quien gobierne, nada cambiará para los palestinos.",
    "fuente": "infobae.com",
-   "t": 1793020132000
+   "t": 1793042256000
   },
   {
    "tema": "actualidad",
-   "titulo": "El PP convence a Vox para que no se presente en 6 circunscripciones para contrarrestar el pacto entre PSOE y Frente Amplio en el Senado: presentará un candidato en 14 provincias",
-   "bajada": "En los territorios donde no se presente la extrema derecha, el PP incorporará a un candidato independiente a elección de Vox. Los populares se retiran de tres territorios.",
-   "leer": "El PP convence a Vox para que no se presente en 6 circunscripciones para contrarrestar el pacto entre PSOE y Frente Amplio en el Senado: presentará un candidato en 14 provincias. En los territorios donde no se presente la extrema derecha, el PP incorporará a un candidato independiente a elección de Vox. Los populares se retiran de tres territorios.",
+   "titulo": "Descubren en Rumanía una red de sabotaje coordinada por Rusia",
+   "bajada": "Bucarest, 26 oct (EFE).- Las autoridades rumanas han identificado una red de sabotaje coordinada por Rusia y centrada en objetivos militares e industriales, tanto de Rumanía como de otros países de la región, con dos detenidos en Alemania.",
+   "leer": "Descubren en Rumanía una red de sabotaje coordinada por Rusia. Bucarest, 26 oct (EFE).- Las autoridades rumanas han identificado una red de sabotaje coordinada por Rusia y centrada en objetivos militares e industriales, tanto de Rumanía como de otros países de la región, con dos detenidos en Alemania.",
    "fuente": "infobae.com",
-   "t": 1793020123000
+   "t": 1793042239000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "La reacción de Yuyito González a la “amante” de Coppola en la segunda temporada de la serie: “Con esa crudeza no me lo contó”",
+   "bajada": "La conductora reveló cómo fue la conversación que mantuvo con el padre de su hija de cara a las posibles controversias de la ficción.",
+   "leer": "La reacción de Yuyito González a la “amante” de Coppola en la segunda temporada de la serie: “Con esa crudeza no me lo contó”. La conductora reveló cómo fue la conversación que mantuvo con el padre de su hija de cara a las posibles controversias de la ficción.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793041981000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Golpe en Chicago: la soja retrocedió a su valor más bajo en dos meses tras las elecciones en Brasil y un dato de Estados Unidos",
+   "bajada": "La oleaginosa, que esta mañana llegó a perder alrededor de US$9, retrocedió 5,24 dólares por tonelada en el inicio de la semana en ese mercado de referencia global; el avance de la cosecha estadounidense y la depreciación del real brasileño tras el triunfo de Lula Da Silva presionaron los precios internacionales.",
+   "leer": "Golpe en Chicago: la soja retrocedió a su valor más bajo en dos meses tras las elecciones en Brasil y un dato de Estados Unidos. La oleaginosa, que esta mañana llegó a perder alrededor de US$9, retrocedió 5,24 dólares por tonelada en el inicio de la semana en ese mercado de referencia global; el avance de la cosecha estadounidense y la depreciación del real brasileño tras el triunfo de Lula Da Silva presionaron los precios internacionales.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793041957000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "¿Por qué a Lula da Silva le falta un dedo? La historia del accidente que marcó su vida y su carrera política",
+   "bajada": "Cuando era adolescente, una maniobra equivocada por parte de un compañero de trabajo lo dejó con nueve dedos; cómo encontró la resiliencia para continuar en su vida personal y laboral; los detalles en la nota.",
+   "leer": "Cuando era adolescente, una maniobra equivocada por parte de un compañero de trabajo lo dejó con nueve dedos; cómo encontró la resiliencia para continuar en su vida personal y laboral; los detalles en la nota.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793041822000
   },
   {
    "tema": "fútbol",
-   "titulo": "El resultado ajeno que le da vida a San Lorenzo pensando en los playoffs",
-   "bajada": "",
-   "leer": "El resultado ajeno que le da vida a San Lorenzo pensando en los playoffs.",
-   "fuente": "San Lorenzo Primero",
-   "t": 1793020099000
+   "titulo": "\"Kimi se pierde el GP de San Pablo\": Verstappen y Leclerc ya lo dieron por campeón a Antonelli",
+   "bajada": "Después del triunfazo del italiano en Austin, sus compañeros de podio se pusieron a hacerle bromas con el título que está por ganar. El puntero, sin querer mufarse, se quedó callado. Mirá el video.",
+   "leer": "\"Kimi se pierde el GP de San Pablo\": Verstappen y Leclerc ya lo dieron por campeón a Antonelli. Después del triunfazo del italiano en Austin, sus compañeros de podio se pusieron a hacerle bromas con el título que está por ganar. El puntero, sin querer mufarse, se quedó callado. Mirá el video.",
+   "fuente": "ole.com.ar",
+   "t": 1793041546000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Es oficial: Jannik Sinner vuelve a jugar al tenis en diciembre",
+   "bajada": "El tenista italiano, que tuvo que bajarse de la temporada 2026 por una lesión en su rodilla, anunció su regreso para el Six Kings Slam en Arabia Saudita.",
+   "leer": "Es oficial: Jannik Sinner vuelve a jugar al tenis en diciembre. El tenista italiano, que tuvo que bajarse de la temporada 2026 por una lesión en su rodilla, anunció su regreso para el Six Kings Slam en Arabia Saudita.",
+   "fuente": "ole.com.ar",
+   "t": 1793041376000
   },
   {
    "tema": "actualidad",
-   "titulo": "Detuvieron al sospechoso del crimen de Daniela Villalba: también lo investigan por la muerte de una trabajadora sexual en Retiro",
-   "bajada": "El sospechoso, identificado como Renato Iván Tavella, fue arrestado en un hotel del centro porteño por detectives de la División Homicidios de la Policía de la Ciudad.",
-   "leer": "Detuvieron al sospechoso del crimen de Daniela Villalba: también lo investigan por la muerte de una trabajadora sexual en Retiro. El sospechoso, identificado como Renato Iván Tavella, fue arrestado en un hotel del centro porteño por detectives de la División Homicidios de la Policía de la Ciudad.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793020042000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026",
-   "bajada": "Las prestaciones tienen un incremento del 1,93%; cuál es la cifra que se acredita en el penúltimo mes del año.",
-   "leer": "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026. Las prestaciones tienen un incremento del 1,93%; cuál es la cifra que se acredita en el penúltimo mes del año.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793019842000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de 2026",
-   "bajada": "Las pensiones se ajustan según el último índice inflacionario, pero el bono se mantiene sin cambios; cuáles son las cifras del penúltimo mes del año.",
-   "leer": "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de 2026. Las pensiones se ajustan según el último índice inflacionario, pero el bono se mantiene sin cambios; cuáles son las cifras del penúltimo mes del año.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793019838000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La psicología lo confirma: los nacidos entre 1945 y 1965 desarrollaron una ventaja única a la hora de gestionar las emociones, debido a que vivieron largos períodos de incertidumbre",
-   "bajada": "Los adultos mayores muestran algunas ventajas emocionales frente a los jóvenes. La ciencia las relaciona con la edad y las prioridades.",
-   "leer": "La psicología lo confirma: los nacidos entre 1945 y 1965 desarrollaron una ventaja única a la hora de gestionar las emociones, debido a que vivieron largos períodos de incertidumbre. Los adultos mayores muestran algunas ventajas emocionales frente a los jóvenes. La ciencia las relaciona con la edad y las prioridades.",
+   "titulo": "Microsoft ofreció retiros voluntarios a 60.000 empleados: sigue el camino de Meta, Netflix, Uber, eBay y Amazon",
+   "bajada": "La propuesta alcanza a trabajadores de Estados Unidos, Canadá, India y el Reino Unido desde vicepresidencias hacia abajo. Busca recortar costos mientras invierte 41.000 millones de dólares para los centros de datos necesarios para la IA.",
+   "leer": "Microsoft ofreció retiros voluntarios a 60.000 empleados: sigue el camino de Meta, Netflix, Uber, eBay y Amazon. La propuesta alcanza a trabajadores de Estados Unidos, Canadá, India y el Reino Unido desde vicepresidencias hacia abajo. Busca recortar costos mientras invierte 41.000 millones de dólares para los centros de datos necesarios para la IA.",
    "fuente": "clarin.com",
-   "t": 1793019608000
+   "t": 1793040692000
   },
   {
    "tema": "actualidad",
+   "titulo": "El CEO de Audi desata la polémica en Alemania tras intervenir en la campaña de Trump",
+   "bajada": "El directivo de un fabricante alemán enfrenta críticas por su aparición en un acto electoral en EE.UU., desatando reacciones de sindicatos y políticos. La empresa alemana planea abrir una fábrica en Georgia, EE.UU., con una inversión millonaria, generando miles de empleos y producción local.",
+   "leer": "El CEO de Audi desata la polémica en Alemania tras intervenir en la campaña de Trump. El directivo de un fabricante alemán enfrenta críticas por su aparición en un acto electoral en EE.UU., desatando reacciones de sindicatos y políticos. La empresa alemana planea abrir una fábrica en Georgia, EE.UU., con una inversión millonaria, generando miles de empleos y producción local.",
+   "fuente": "clarin.com",
+   "t": 1793040613000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Cómo hacen los tambos estadounidenses para obtener 50 litros de leche diarios por vaca",
+   "bajada": "Productores argentinos viajaron a Wisconsin para conocer las variables que condicionan a la actividad en condiciones climáticas rigurosas. Factores macroeconómicos y de tranqueras adentro explican las diferencias con lo que sucede en nuestro país.",
+   "leer": "Cómo hacen los tambos estadounidenses para obtener 50 litros de leche diarios por vaca. Productores argentinos viajaron a Wisconsin para conocer las variables que condicionan a la actividad en condiciones climáticas rigurosas. Factores macroeconómicos y de tranqueras adentro explican las diferencias con lo que sucede en nuestro país.",
+   "fuente": "clarin.com",
+   "t": 1793040585000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los Pumas, con cambios obligados por lesiones para la gira europea",
+   "bajada": "Felipe Contepomi debió modificar la lista de convocados para la concentración en Londres y los partidos del Nations Championship. Santiago Carreras y Thomas Gallo son las bajas más sensibles.",
+   "leer": "Los Pumas, con cambios obligados por lesiones para la gira europea. Felipe Contepomi debió modificar la lista de convocados para la concentración en Londres y los partidos del Nations Championship. Santiago Carreras y Thomas Gallo son las bajas más sensibles.",
+   "fuente": "ole.com.ar",
+   "t": 1793040223000
+  },
+  {
+   "tema": "economía",
+   "titulo": "“Estamos a la deriva de lo que llueva”: ya hay excesos hídricos en campos y caminos anegados por el Niño en Buenos Aires y los productores temen que se repitan las inundaciones del año pasado",
+   "bajada": "Durante parte de septiembre y principios de octubre, fuertes lluvias afectaron a los partidos de 9 de Julio, Carlos Casares y Bragado, afectando parte de la red vial y campos. En 9 de Julio afirman que el 50% de los caminos están intransitables tras que se registraran más de 320 milímetros en zonas del distrito.",
+   "leer": "“Estamos a la deriva de lo que llueva”: ya hay excesos hídricos en campos y caminos anegados por el Niño en Buenos Aires y los productores temen que se repitan las inundaciones del año pasado. Durante parte de septiembre y principios de octubre, fuertes lluvias afectaron a los partidos de 9 de Julio, Carlos Casares y Bragado, afectando parte de la red vial y campos. En 9 de Julio afirman que el 50% de los caminos están intransitables tras que se registraran más de 320 milímetros en zonas del distrito.",
+   "fuente": "clarin.com",
+   "t": 1793039585000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cuándo salen a la venta las entradas para la final de la Copa Sudamericana entre Boca y Atlético Mineiro",
+   "bajada": "",
+   "leer": "Cuándo salen a la venta las entradas para la final de la Copa Sudamericana entre Boca y Atlético Mineiro.",
+   "fuente": "TyC Sports",
+   "t": 1793039129000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "La pesadilla de Meghan Markle: la carta en la que tildó de \"abusador\" a su padre y le prohibió ver a sus nietos",
+   "bajada": "Thomas Markle Jr. denunció a su padre ante el FBI y entregó material informático y fotográfico hallado en Filipinas a las autoridades locales. El progenitor de la duquesa de Sussex negó rotundamente las acusaciones de abuso sexual infantil y las calificó como falsedades enfermizas.",
+   "leer": "La pesadilla de Meghan Markle: la carta en la que tildó de \"abusador\" a su padre y le prohibió ver a sus nietos. Thomas Markle Jr. denunció a su padre ante el FBI y entregó material informático y fotográfico hallado en Filipinas a las autoridades locales. El progenitor de la duquesa de Sussex negó rotundamente las acusaciones de abuso sexual infantil y las calificó como falsedades enfermizas.",
+   "fuente": "clarin.com",
+   "t": 1793037610000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Tragedia en Chaco: encontraron a tres niños muertos en una represa",
+   "bajada": "Se trata de dos hermanos, de 5 y 4 años, y un primo de ambos, también de 4. Los chicos habían salido de su casa en un momento en que quedaron al cuidado de su abuela.",
+   "leer": "Tragedia en Chaco: encontraron a tres niños muertos en una represa. Se trata de dos hermanos, de 5 y 4 años, y un primo de ambos, también de 4. Los chicos habían salido de su casa en un momento en que quedaron al cuidado de su abuela.",
+   "fuente": "clarin.com",
+   "t": 1793037295000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Semana clave para los bancos centrales: la Fed, el BCE y el BoJ deciden sobre sus tasas",
+   "bajada": "Los bancos centrales más importantes a nivel global se reunirán esta semana, en un contexto en que los precios del petróleo siguen siendo el principal factor detrás del incremento de la inflación global.",
+   "leer": "Semana clave para los bancos centrales: la Fed, el BCE y el BoJ deciden sobre sus tasas. Los bancos centrales más importantes a nivel global se reunirán esta semana, en un contexto en que los precios del petróleo siguen siendo el principal factor detrás del incremento de la inflación global.",
+   "fuente": "ambito.com",
+   "t": 1793037060000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El Gobierno firmó acuerdo inédito con Mercado Libre, Meta y la UIA para controlar el contrabando en publicaciones online",
+   "bajada": "El secretario coordinador de Industria, Pablo Lavigne, encabezó la reunión con la UIA y empresas de comercio electrónico. Comenzarán con celulares, juguetes, cosméticos, neumáticos y notebooks. Se estima que la mitad de los teléfonos son contrabandeados.",
+   "leer": "El Gobierno firmó acuerdo inédito con Mercado Libre, Meta y la UIA para controlar el contrabando en publicaciones online. El secretario coordinador de Industria, Pablo Lavigne, encabezó la reunión con la UIA y empresas de comercio electrónico. Comenzarán con celulares, juguetes, cosméticos, neumáticos y notebooks. Se estima que la mitad de los teléfonos son contrabandeados.",
+   "fuente": "clarin.com",
+   "t": 1793036994000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "SAN LORENZO YA SE ENTRENA ENFOCADO EN VELEZ",
+   "bajada": "",
+   "leer": "SAN LORENZO YA SE ENTRENA ENFOCADO EN VELEZ.",
+   "fuente": "San Lorenzo",
+   "t": 1793036386000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Sylvester Stallone defendió la contratación de su hija en su serie y sorprendió con una confesión: \"Por supuesto que es nepotismo\"",
+   "bajada": "El actor de 80 años reconoció que utilizó sus contactos para favorecer la carrera de Scarlet Rose, de 24 años. La joven trabaja junto a él en \"Tulsa King\".",
+   "leer": "Sylvester Stallone defendió la contratación de su hija en su serie y sorprendió con una confesión: \"Por supuesto que es nepotismo\". El actor de 80 años reconoció que utilizó sus contactos para favorecer la carrera de Scarlet Rose, de 24 años. La joven trabaja junto a él en \"Tulsa King\".",
+   "fuente": "clarin.com",
+   "t": 1793036095000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Boca pone la mira en River: el plan de Arruabarrena, la situación de Paredes y las dudas para el Superclásico",
+   "bajada": "Luego del triunfo ante Independiente, el Vasco prepara una semana clave con el capitán entre algodones y algunas decisiones por tomar. El duelo en la Bombonera puede dejar al Xeneize a un paso de ganar la Tabla Anual.",
+   "leer": "Boca pone la mira en River: el plan de Arruabarrena, la situación de Paredes y las dudas para el Superclásico. Luego del triunfo ante Independiente, el Vasco prepara una semana clave con el capitán entre algodones y algunas decisiones por tomar. El duelo en la Bombonera puede dejar al Xeneize a un paso de ganar la Tabla Anual.",
+   "fuente": "clarin.com",
+   "t": 1793035790000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Lionel Messi, ausente en la gala del Balón de Oro: por qué no viajó a Londres ante la chance de ganarlo por novena vez",
+   "bajada": "El rosarino de 39 años seguirá la ceremonia en la capital inglesa por televisión. Puso un freno a una agenda plagada de viajes en los últimos diez días.",
+   "leer": "Lionel Messi, ausente en la gala del Balón de Oro: por qué no viajó a Londres ante la chance de ganarlo por novena vez. El rosarino de 39 años seguirá la ceremonia en la capital inglesa por televisión. Puso un freno a una agenda plagada de viajes en los últimos diez días.",
+   "fuente": "clarin.com",
+   "t": 1793035605000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cómo quedó Boca en la tabla anual y en el Torneo Clausura tras el partido ante Independiente",
+   "bajada": "",
+   "leer": "Cómo quedó Boca en la tabla anual y en el Torneo Clausura tras el partido ante Independiente.",
+   "fuente": "Planeta Boca Juniors",
+   "t": 1793034483000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "De Abel Pintos a Luciano Pereyra y Jorge Rojas: todos los artistas que acompañarán al Papa León XIV en su visita a la Argentina",
+   "bajada": "La organización del encuentro dio a conocer los nombres de los músicos argentinos que participarán de las celebraciones en Buenos Aires, Córdoba y Luján. Serán más de 600 coristas y 200 músicos, además de las figuras invitadas.",
+   "leer": "De Abel Pintos a Luciano Pereyra y Jorge Rojas: todos los artistas que acompañarán al Papa León XIV en su visita a la Argentina. La organización del encuentro dio a conocer los nombres de los músicos argentinos que participarán de las celebraciones en Buenos Aires, Córdoba y Luján. Serán más de 600 coristas y 200 músicos, además de las figuras invitadas.",
+   "fuente": "clarin.com",
+   "t": 1793033859000
+  },
+  {
+   "tema": "política",
+   "titulo": "\"Alegría enorme\", festejó Javier Milei tras la confirmación de la visita del Papa León XIV a la Argentina",
+   "bajada": "El Presidente replicó el mensaje del Sumo Pontífice en redes sociales.",
+   "leer": "\"Alegría enorme\", festejó Javier Milei tras la confirmación de la visita del Papa León XIV a la Argentina. El Presidente replicó el mensaje del Sumo Pontífice en redes sociales.",
+   "fuente": "clarin.com",
+   "t": 1793033420000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "¿Quién es el general André Janones? El mago digital de Lula que se convirtió en un exitoso recaudador de votos en las redes brasileñas",
+   "bajada": "El diputado creó un canal de WhatsApp que pasó de 60 mil a 11 millones de usuarios en pocos días tras la primera vuelta. Su herramienta digital ayudó a movilizar a tres millones de abstencionistas y resultó determinante para el triunfo del presidente.",
+   "leer": "El diputado creó un canal de WhatsApp que pasó de 60 mil a 11 millones de usuarios en pocos días tras la primera vuelta. Su herramienta digital ayudó a movilizar a tres millones de abstencionistas y resultó determinante para el triunfo del presidente.",
+   "fuente": "clarin.com",
+   "t": 1793033360000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Ya está disponible el plan de pagos de ARBA para cancelar deudas: cómo acceder al 40% de descuento",
+   "bajada": "ARBA habilitó un plan de pagos para regularizar deudas impositivas con descuentos. Qué impuestos incluye, cuáles son los vencimientos y cómo acceder al beneficio.",
+   "leer": "Ya está disponible el plan de pagos de ARBA para cancelar deudas: cómo acceder al 40% de descuento. ARBA habilitó un plan de pagos para regularizar deudas impositivas con descuentos. Qué impuestos incluye, cuáles son los vencimientos y cómo acceder al beneficio.",
+   "fuente": "ambito.com",
+   "t": 1793032800000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Paredes gurú: la predicción del capitán de Boca segundos antes del gol a Independiente",
+   "bajada": "",
+   "leer": "Paredes gurú: la predicción del capitán de Boca segundos antes del gol a Independiente.",
+   "fuente": "Olé",
+   "t": 1793032533000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Lo que viene: el último episodio de \"American Horror Story\" encabeza los estrenos de la semana en el streaming",
+   "bajada": "Este viernes llega el capítulo final (número 13) de la decimotercera temporada de esta serie de terror, ambientada principalmente en Nueva York. Y todo lo que se suma a las plataformas entre el lunes 26 de octubre y el domingo 1° de noviembre.",
+   "leer": "Lo que viene: el último episodio de \"American Horror Story\" encabeza los estrenos de la semana en el streaming. Este viernes llega el capítulo final (número 13) de la decimotercera temporada de esta serie de terror, ambientada principalmente en Nueva York. Y todo lo que se suma a las plataformas entre el lunes 26 de octubre y el domingo 1° de noviembre.",
+   "fuente": "clarin.com",
+   "t": 1793032494000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Qué dijo Guillermo Barros Schelotto cuando le preguntaron sobre la posibilidad de dirigir a Racing en 2027",
+   "bajada": "",
+   "leer": "Qué dijo Guillermo Barros Schelotto cuando le preguntaron sobre la posibilidad de dirigir a Racing en 2027.",
+   "fuente": "TN",
+   "t": 1793032200000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Juan Martín Del Potro ganó la votación del público y dio el primer paso para ingresar al Salón de la Fama del Tenis",
+   "bajada": "El año pasado estuvo dentro de la categoría de \"jugadores\", pero solo entró el suizo Roger Federer. Ya hay dos argentinos: Guillermo Vilas y Gabriela Sabatini. ¿Qué necesita el tandilense y contra quiénes compite?",
+   "leer": "Juan Martín Del Potro ganó la votación del público y dio el primer paso para ingresar al Salón de la Fama del Tenis. El año pasado estuvo dentro de la categoría de \"jugadores\", pero solo entró el suizo Roger Federer. Ya hay dos argentinos: Guillermo Vilas y Gabriela Sabatini. ¿Qué necesita el tandilense y contra quiénes compite?",
+   "fuente": "clarin.com",
+   "t": 1793032066000
+  },
+  {
+   "tema": "política",
+   "titulo": "Rechazaron liberar a Ariel Vallejo, el dueño de Sur Finanzas, y seguirá detenido por riesgo a que se fugue",
+   "bajada": "Así lo resolvió el juez federal que el viernes pasado ordenó su aprehensión. Ratificó que el financista incumplió medidas que le impuso la justicia y que de seguir en libertad puede eludir la causa.",
+   "leer": "Rechazaron liberar a Ariel Vallejo, el dueño de Sur Finanzas, y seguirá detenido por riesgo a que se fugue. Así lo resolvió el juez federal que el viernes pasado ordenó su aprehensión. Ratificó que el financista incumplió medidas que le impuso la justicia y que de seguir en libertad puede eludir la causa.",
+   "fuente": "clarin.com",
+   "t": 1793031847000
+  },
+  {
+   "tema": "política",
+   "titulo": "Patricia Bullrich se bajó de la reunión de gabinete por sus diferencias con Milei y no por motivos personales como dijo el Gobierno",
+   "bajada": "Desde el Gobierno plantearon que la senadora no fue por \"razones personales\". No fue así. Tuvo agenda en el Senado y decidió no ir para no quedar expuesta después de las críticas al Presidente por su trato a la prensa y luego de la victoria de Lula en Brasil.",
+   "leer": "Patricia Bullrich se bajó de la reunión de gabinete por sus diferencias con Milei y no por motivos personales como dijo el Gobierno. Desde el Gobierno plantearon que la senadora no fue por \"razones personales\". No fue así. Tuvo agenda en el Senado y decidió no ir para no quedar expuesta después de las críticas al Presidente por su trato a la prensa y luego de la victoria de Lula en Brasil.",
+   "fuente": "clarin.com",
+   "t": 1793031743000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La minería argentina busca más capitales desde Canadá: qué miran los inversores para financiar proyectos",
+   "bajada": "En la Bolsa de Toronto cotizan 52 compañías con 153 propiedades mineras en el país. Según la Bolsa de Toronto, los inversores evalúan la viabilidad de los proyectos, la capacidad de sus equipos y las condiciones para invertir en cada provincia.",
+   "leer": "La minería argentina busca más capitales desde Canadá: qué miran los inversores para financiar proyectos. En la Bolsa de Toronto cotizan 52 compañías con 153 propiedades mineras en el país. Según la Bolsa de Toronto, los inversores evalúan la viabilidad de los proyectos, la capacidad de sus equipos y las condiciones para invertir en cada provincia.",
+   "fuente": "clarin.com",
+   "t": 1793030535000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La Liga Argentina de Básquetbol | Noticia | Rocamora enfrenta al entonado River Plate",
+   "bajada": "",
+   "leer": "La Liga Argentina de Básquetbol | Noticia | Rocamora enfrenta al entonado River Plate.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1793027786000
+  },
+  {
+   "tema": "música",
+   "titulo": "El legado de Ricardo Iorio sigue vivo. Coronel Suárez lo homenajeó con una gran noche de rock",
+   "bajada": "",
+   "leer": "El legado de Ricardo Iorio sigue vivo. Coronel Suárez lo homenajeó con una gran noche de rock.",
+   "fuente": "Municipalidad de Coronel Suárez",
+   "t": 1793027349000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Luciano Pereyra se quebró en pleno recital al anunciar que cantará para el papa León XIV en Luján",
+   "bajada": "",
+   "leer": "Luciano Pereyra se quebró en pleno recital al anunciar que cantará para el papa León XIV en Luján.",
+   "fuente": "La Plata 1",
+   "t": 1793026440000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Luciano Pereyra se quebró en pleno show al anunciar que le cantará al papa León XIV: “En mi ciudad de Luján”",
+   "bajada": "",
+   "leer": "Luciano Pereyra se quebró en pleno show al anunciar que le cantará al papa León XIV: “En mi ciudad de Luján”.",
+   "fuente": "Guau Formosa",
+   "t": 1793025760000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Facundo Farías con Olé: el fútbol como \"salvación\" y su ambicioso sueño en San Lorenzo",
+   "bajada": "",
+   "leer": "Facundo Farías con Olé: el fútbol como \"salvación\" y su ambicioso sueño en San Lorenzo.",
+   "fuente": "Olé",
+   "t": 1793024135000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Noticia | Triple tanda con acción para el puntero de la Sur",
+   "bajada": "",
+   "leer": "Noticia | Triple tanda con acción para el puntero de la Sur.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1793021709000
+  },
+  {
+   "tema": "clima",
+   "titulo": "SMN activa alerta por tormenta y nevada: Qué provincias deben estar atentas",
+   "bajada": "",
+   "leer": "SMN activa alerta por tormenta y nevada: Qué provincias deben estar atentas.",
+   "fuente": "Urgente24",
+   "t": 1793021700000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cómo quedó River en la tabla anual y cuántos puntos necesita para entrar a la Copa Libertadores 2027",
+   "bajada": "",
+   "leer": "Cómo quedó River en la tabla anual y cuántos puntos necesita para entrar a la Copa Libertadores 2027.",
+   "fuente": "TyC Sports",
+   "t": 1793021593000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los puntajes de Boca vs. Independiente, por el Torneo Clausura",
+   "bajada": "",
+   "leer": "Los puntajes de Boca vs. Independiente, por el Torneo Clausura.",
+   "fuente": "TyC Sports",
+   "t": 1793021529000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Comienza una semana con suba de temperatura y alerta meteorológica en cinco provincias",
+   "bajada": "",
+   "leer": "Comienza una semana con suba de temperatura y alerta meteorológica en cinco provincias.",
+   "fuente": "C5N",
+   "t": 1793020920000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Efecto de El Niño en las cataratas: caudal récord en 2026 y una de las pasarelas permanece cerrada",
+   "bajada": "El río Iguazú duplicó su promedio en metros cúbicos. Qué dice el pronóstico meteorológico para los próximos días.",
+   "leer": "Efecto de El Niño en las cataratas: caudal récord en 2026 y una de las pasarelas permanece cerrada. El río Iguazú duplicó su promedio en metros cúbicos. Qué dice el pronóstico meteorológico para los próximos días.",
+   "fuente": "clarin.com",
+   "t": 1793020165000
+  },
+  {
+   "tema": "tecnología",
    "titulo": "Red Hat Summit 2026: el emblemático encuentro anual del código abierto, a sala llena",
    "bajada": "Especialistas técnicos y líderes de negocios se reunieron en Puerto Madero. En las empresas, la IA está comenzando a pasar de la etapa exploratoria a tener impacto real. Nube, seguridad, agentes de IA y el concepto de “compañías adaptables”.",
    "leer": "Red Hat Summit 2026: el emblemático encuentro anual del código abierto, a sala llena. Especialistas técnicos y líderes de negocios se reunieron en Puerto Madero. En las empresas, la IA está comenzando a pasar de la etapa exploratoria a tener impacto real. Nube, seguridad, agentes de IA y el concepto de “compañías adaptables”.",
    "fuente": "clarin.com",
    "t": 1793019608000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Brasil: Lula da Silva profesionalizará su gabinete para el cuarto mandato, fortalecerá el ala liberal y se disuelve la protesta de Flávio Bolsonaro",
-   "bajada": "El amplio triunfo en el balotaje impulsará cambios ministeriales y redefinirá la interna entre los sectores del gobierno. Para encabezar el área de Hacienda suenan los nombres de Luiz Carlos Trabuco Cappi y del vicepresidente Geraldo Alckmin.",
-   "leer": "Brasil: Lula da Silva profesionalizará su gabinete para el cuarto mandato, fortalecerá el ala liberal y se disuelve la protesta de Flávio Bolsonaro. El amplio triunfo en el balotaje impulsará cambios ministeriales y redefinirá la interna entre los sectores del gobierno. Para encabezar el área de Hacienda suenan los nombres de Luiz Carlos Trabuco Cappi y del vicepresidente Geraldo Alckmin.",
-   "fuente": "clarin.com",
-   "t": 1793019238000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El empleo privado acumula 14 meses consecutivos de caída y ya se perdieron 266.000 puestos desde noviembre de 2023",
-   "bajada": "Un informe de la UBA reveló que en julio se destruyeron otros 13.000 empleos formales en el sector privado, mientras que el salario mínimo acumula una pérdida del 40,8% de su poder adquisitivo desde noviembre de 2023.",
-   "leer": "El empleo privado acumula 14 meses consecutivos de caída y ya se perdieron 266.000 puestos desde noviembre de 2023. Un informe de la UBA reveló que en julio se destruyeron otros 13.000 empleos formales en el sector privado, mientras que el salario mínimo acumula una pérdida del 40,8% de su poder adquisitivo desde noviembre de 2023.",
-   "fuente": "ambito.com",
-   "t": 1793019060000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Los escollos económicos que tendrá Lula en 2027: menor actividad, elevado déficit fiscal y un Congreso opositor",
-   "bajada": "Lula deberá afrontar una enorme carga fiscal, en un contexto de ajuste monetario elevado y una actividad económica desacelerándose. Además, deberá lidiar con una mayoría opositora en el Congreso.",
-   "leer": "Los escollos económicos que tendrá Lula en 2027: menor actividad, elevado déficit fiscal y un Congreso opositor. Lula deberá afrontar una enorme carga fiscal, en un contexto de ajuste monetario elevado y una actividad económica desacelerándose. Además, deberá lidiar con una mayoría opositora en el Congreso.",
-   "fuente": "ambito.com",
-   "t": 1793018760000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La bomba de Cascini contra Ponzio que calentó el superclásico",
-   "bajada": "Una charla de madrugada sumó otro frente en la previa de Boca y River. El ex integrante del CdF dejó un mensaje que remite a su pasado y al presente del entrenador rival.",
-   "leer": "La bomba de Cascini contra Ponzio que calentó el superclásico. Una charla de madrugada sumó otro frente en la previa de Boca y River. El ex integrante del CdF dejó un mensaje que remite a su pasado y al presente del entrenador rival.",
-   "fuente": "ole.com.ar",
-   "t": 1793018440000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El presidente de Central descartó ser candidato en las elecciones de Santa Fe",
-   "bajada": "A pesar de haber sido postulado por Roly Santacroce para la intendencia de Rosario, Gonzalo Belloso negó tener aspiraciones políticas. \"No quiero entrar en ninguna conversación sobre otra cosa que no sea el club\", aseguró.",
-   "leer": "El presidente de Central descartó ser candidato en las elecciones de Santa Fe. A pesar de haber sido postulado por Roly Santacroce para la intendencia de Rosario, Gonzalo Belloso negó tener aspiraciones políticas. \"No quiero entrar en ninguna conversación sobre otra cosa que no sea el club\", aseguró.",
-   "fuente": "ole.com.ar",
-   "t": 1793018090000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Polémica en Barracas: la pelota que no devolvieron y terminó en gol y una mano que generó reclamos",
-   "bajada": "El Guapo dio vuelta el partido ante Estudiantes de Río Cuarto, pero las jugadas que terminaron en sus dos goles provocaron enojo por parte del equipo visitante.",
-   "leer": "Polémica en Barracas: la pelota que no devolvieron y terminó en gol y una mano que generó reclamos. El Guapo dio vuelta el partido ante Estudiantes de Río Cuarto, pero las jugadas que terminaron en sus dos goles provocaron enojo por parte del equipo visitante.",
-   "fuente": "ole.com.ar",
-   "t": 1793017660000
   },
   {
    "tema": "música",
@@ -130,228 +378,12 @@
    "t": 1793016303000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Liga Profesional: Boca venció a Independiente en Avellaneda y sigue firme en la pelea por la punta",
-   "bajada": "",
-   "leer": "Liga Profesional: Boca venció a Independiente en Avellaneda y sigue firme en la pelea por la punta.",
-   "fuente": "Plaza Web",
-   "t": 1793016205000
-  },
-  {
-   "tema": "música",
-   "titulo": "Murió Roxana Amed, la cantante que llevó el jazz argentino a escenarios internacionales",
-   "bajada": "",
-   "leer": "Murió Roxana Amed, la cantante que llevó el jazz argentino a escenarios internacionales.",
-   "fuente": "El Litoral",
-   "t": 1793015029000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo será el pico de las lluvias y las provincias más afectadas",
-   "bajada": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
-   "leer": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
-   "fuente": "clarin.com",
-   "t": 1793014889000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Buenos Aires enfrenta el día más frío de la semana: Sorpresa por lo que sigue después",
-   "bajada": "",
-   "leer": "Buenos Aires enfrenta el día más frío de la semana: Sorpresa por lo que sigue después.",
-   "fuente": "Urgente24",
-   "t": 1793014800000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Balón de Oro 2026: Londres recibe una gala sin favorito y con Messi otra vez en carrera",
-   "bajada": "La premiación se muda por primera vez a la capital inglesa, en el 70° aniversario del galardón que distingue al mejor futbolista del mundo. Lamine Yamal, Mbappé, Kane, Dembélé y la leyenda argentina, que va por el noveno, encabezan una de las votaciones más abiertas de los últimos años.",
-   "leer": "Balón de Oro 2026: Londres recibe una gala sin favorito y con Messi otra vez en carrera. La premiación se muda por primera vez a la capital inglesa, en el 70° aniversario del galardón que distingue al mejor futbolista del mundo. Lamine Yamal, Mbappé, Kane, Dembélé y la leyenda argentina, que va por el noveno, encabezan una de las votaciones más abiertas de los últimos años.",
-   "fuente": "clarin.com",
-   "t": 1793014756000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Riquelme y Cascini llamaron a Azzaro, y hablaron de Boca sin saber que estaban al aire: \"Sabés qué asado nos comimos, estamos hechos mierda...\"",
-   "bajada": "El presidente del club de La Ribera y uno de sus hombres de máxima confianza protagonizaron una desopilante situación en No podemos perder. Entre bromas, chicanas y confesiones pospartido, dejaron una frase que se volvió viral.",
-   "leer": "Riquelme y Cascini llamaron a Azzaro, y hablaron de Boca sin saber que estaban al aire: \"Sabés qué asado nos comimos, estamos hechos mierda...\". El presidente del club de La Ribera y uno de sus hombres de máxima confianza protagonizaron una desopilante situación en No podemos perder. Entre bromas, chicanas y confesiones pospartido, dejaron una frase que se volvió viral.",
-   "fuente": "clarin.com",
-   "t": 1793014184000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La cruda crítica de Facundo Cambeses a la dirigencia de Racing tras una temporada para el olvido",
-   "bajada": "",
-   "leer": "La cruda crítica de Facundo Cambeses a la dirigencia de Racing tras una temporada para el olvido.",
-   "fuente": "TN",
-   "t": 1793010947000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 26 de octubre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 26 de octubre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1793009703000
-  },
-  {
-   "tema": "política",
-   "titulo": "Javier Milei, EN VIVO: el Presidente no saludó a Lula por su triunfo en Brasil y hoy encabeza la reunión de Gabinete",
-   "bajada": "Tras la derrota de Flávio Bolsonaro, a quien el mandatario apoyó fuertemente, no hubo ninguna comunicación oficial por parte del Ejecutivo. Este lunes se reúnen los principales referentes del Gobierno en la Casa Rosada.",
-   "leer": "Tras la derrota de Flávio Bolsonaro, a quien el mandatario apoyó fuertemente, no hubo ninguna comunicación oficial por parte del Ejecutivo. Este lunes se reúnen los principales referentes del Gobierno en la Casa Rosada.",
-   "fuente": "clarin.com",
-   "t": 1793009696000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Racing recibió el golpe final a un pésimo año en el Monumental: las críticas para Diego Milito y el futuro de Saja están sobre la mesa",
-   "bajada": "Con el 0-1, la Academia se quedó sin chances de meterse en los playoffs del Torneo Clausura y de clasificarse a la Copa Sudamericana. Los números que exponen la dimensión del fracaso deportivo del conjunto de Avellaneda.",
-   "leer": "Racing recibió el golpe final a un pésimo año en el Monumental: las críticas para Diego Milito y el futuro de Saja están sobre la mesa. Con el 0-1, la Academia se quedó sin chances de meterse en los playoffs del Torneo Clausura y de clasificarse a la Copa Sudamericana. Los números que exponen la dimensión del fracaso deportivo del conjunto de Avellaneda.",
-   "fuente": "clarin.com",
-   "t": 1793008806000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los puntajes de Boca vs. Independiente por el Torneo Clausura 2026: jugador x jugador",
-   "bajada": "",
-   "leer": "Los puntajes de Boca vs. Independiente por el Torneo Clausura 2026: jugador x jugador.",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1793007157000
-  },
-  {
-   "tema": "política",
-   "titulo": "Tras los retiros voluntarios, la SIDE lanza una convocatoria pública para capacitar nuevos agentes",
-   "bajada": "El organismo prevé la salida de alrededor de 400 agentes mediante el plan de retiros voluntarios impulsado por el Gobierno. En su lugar, lanzarán una inscripción abierta en redes sociales y radios para formar a medio centenar de nuevos cadetes a partir de 2027.",
-   "leer": "Tras los retiros voluntarios, la SIDE lanza una convocatoria pública para capacitar nuevos agentes. El organismo prevé la salida de alrededor de 400 agentes mediante el plan de retiros voluntarios impulsado por el Gobierno. En su lugar, lanzarán una inscripción abierta en redes sociales y radios para formar a medio centenar de nuevos cadetes a partir de 2027.",
-   "fuente": "clarin.com",
-   "t": 1793005206000
-  },
-  {
-   "tema": "política",
-   "titulo": "¿Se acabó el sueño del outsider para 2027? Las últimas encuestas les dan mal a los tres más famosos",
-   "bajada": "Aunque la gente sigue pidiendo caras nuevas como variante de Milei, por ahora las figuras que coquetean con una candidatura no prenden. Qué dicen cuatro sondeos sobre Dante Gebel, Jorge Brito y Daniel Hadad.",
-   "leer": "Aunque la gente sigue pidiendo caras nuevas como variante de Milei, por ahora las figuras que coquetean con una candidatura no prenden. Qué dicen cuatro sondeos sobre Dante Gebel, Jorge Brito y Daniel Hadad.",
-   "fuente": "clarin.com",
-   "t": 1793005206000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Volvió la serie La diplomática: ¿por qué no hay que perderse la cuarta temporada, entre delicados asuntos internacionales y delicias de la vida conyugal?",
-   "bajada": "Entre conflictos de alcoba y otros de política exterior, la ficción de Netflix con Keri Russell (como la embajadora estadounidense en el Reino Unido) cruza permanentemente las estrategias oficiales de altas esferas con los problemas de pareja: ambos se retroalimentan con soltura.",
-   "leer": "Entre conflictos de alcoba y otros de política exterior, la ficción de Netflix con Keri Russell (como la embajadora estadounidense en el Reino Unido) cruza permanentemente las estrategias oficiales de altas esferas con los problemas de pareja: ambos se retroalimentan con soltura.",
-   "fuente": "clarin.com",
-   "t": 1793005206000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "La incansable Ceci: tiene un comedor comunitario y ahora también prepara viandas para los evacuados por las inundaciones en Corrientes",
-   "bajada": "Cecilia Bernié es la encargada del \"Comedor Paranacito\", donde comen entre 200 y 240 personas por día. Ahora aumentó su producción para preparar 100 platos más de comida al día y ayudar a las personas que tuvieron que dejar su hogar por la crecida del río Paraná.",
-   "leer": "La incansable Ceci: tiene un comedor comunitario y ahora también prepara viandas para los evacuados por las inundaciones en Corrientes. Cecilia Bernié es la encargada del \"Comedor Paranacito\", donde comen entre 200 y 240 personas por día. Ahora aumentó su producción para preparar 100 platos más de comida al día y ayudar a las personas que tuvieron que dejar su hogar por la crecida del río Paraná.",
-   "fuente": "clarin.com",
-   "t": 1793005206000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Los estrenos de Netflix Argentina esta semana: qué series y películas ver del 26 de octubre al 1 de noviembre",
-   "bajada": "La plataforma dio a conocer las fechas de todas las producciones que se lanzarán en los próximos días. Thrillers, comedias, documentales y grandes regresos que pueden dominar el ranking de Netflix.",
-   "leer": "Los estrenos de Netflix Argentina esta semana: qué series y películas ver del 26 de octubre al 1 de noviembre. La plataforma dio a conocer las fechas de todas las producciones que se lanzarán en los próximos días. Thrillers, comedias, documentales y grandes regresos que pueden dominar el ranking de Netflix.",
-   "fuente": "clarin.com",
-   "t": 1793005202000
-  },
-  {
    "tema": "tecnología",
    "titulo": "El iPhone Duo salió a la venta entre críticas: por qué el plegable de US$ 2.000 no convence a los expertos",
    "bajada": "Las primeras reseñas destacan la pantalla, pero advierten problemas con las aplicaciones y funciones ausentes. El peso y las cámaras también generan cuestionamientos. En Argentina, podría costar más de $4,5 millones.",
    "leer": "El iPhone Duo salió a la venta entre críticas: por qué el plegable de US$ 2.000 no convence a los expertos. Las primeras reseñas destacan la pantalla, pero advierten problemas con las aplicaciones y funciones ausentes. El peso y las cámaras también generan cuestionamientos. En Argentina, podría costar más de $4,5 millones.",
    "fuente": "clarin.com",
    "t": 1793004364000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River sumó otro amistoso: el 11, cómo salió y la gran noticia que recibió Ponzio",
-   "bajada": "",
-   "leer": "River sumó otro amistoso: el 11, cómo salió y la gran noticia que recibió Ponzio.",
-   "fuente": "Olé",
-   "t": 1792987959000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La drástica decisión de Insua en San Lorenzo para recibir a Riestra: cambios en la defensa y el mediocampo",
-   "bajada": "",
-   "leer": "La drástica decisión de Insua en San Lorenzo para recibir a Riestra: cambios en la defensa y el mediocampo.",
-   "fuente": "Olé",
-   "t": 1792987606000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "\"Sorpresa electoral\" y \"Remontada histórica\": así reaccionaron los medios del mundo ante la victoria de Lula da Silva en el balotaje en Brasil",
-   "bajada": "Periódicos europeos y americanos destacaron que el presidente brasileño revirtió el resultado de la primera vuelta y obtuvo un cuarto mandato. La cobertura mediática internacional también puso el foco en el impacto del resultado en la región y en el traspié sufrido por el bolsonarismo.",
-   "leer": "\"Sorpresa electoral\" y \"Remontada histórica\": así reaccionaron los medios del mundo ante la victoria de Lula da Silva en el balotaje en Brasil. Periódicos europeos y americanos destacaron que el presidente brasileño revirtió el resultado de la primera vuelta y obtuvo un cuarto mandato. La cobertura mediática internacional también puso el foco en el impacto del resultado en la región y en el traspié sufrido por el bolsonarismo.",
-   "fuente": "clarin.com",
-   "t": 1792987000000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este lunes 26 octubre de 2026",
-   "bajada": "",
-   "leer": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este lunes 26 octubre de 2026.",
-   "fuente": "Clarin.com",
-   "t": 1792986330000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Balotaje en Brasil: Flavio Bolsonaro advirtió que pedirá \"la anulación de las elecciones\" y dijo que lo que pasó \"no fue normal\"",
-   "bajada": "El candidato opositor dijo que \"las reglas de juego fueron cambiadas a mitad de la jornada\". Además, culpó por esas modificaciones sobre el cierre de la segunda vuelta electoral a \"los amigos de Lula\".",
-   "leer": "Balotaje en Brasil: Flavio Bolsonaro advirtió que pedirá \"la anulación de las elecciones\" y dijo que lo que pasó \"no fue normal\". El candidato opositor dijo que \"las reglas de juego fueron cambiadas a mitad de la jornada\". Además, culpó por esas modificaciones sobre el cierre de la segunda vuelta electoral a \"los amigos de Lula\".",
-   "fuente": "clarin.com",
-   "t": 1792979551000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Copa Libertadores: tras la victoria contra Racing, así quedó River en la Tabla Anual",
-   "bajada": "",
-   "leer": "Copa Libertadores: tras la victoria contra Racing, así quedó River en la Tabla Anual.",
-   "fuente": "El Intransigente",
-   "t": 1792975211000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Cómo quedó River en la tabla anual y la tabla de la Zona B del Torneo Clausura tras el partido con Racing",
-   "bajada": "",
-   "leer": "Cómo quedó River en la tabla anual y la tabla de la Zona B del Torneo Clausura tras el partido con Racing.",
-   "fuente": "La Página Millonaria",
-   "t": 1792973804000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Tres jugadas que reclama Independiente pero que no estuvieron mal sancionadas",
-   "bajada": "",
-   "leer": "Tres jugadas que reclama Independiente pero que no estuvieron mal sancionadas.",
-   "fuente": "Olé",
-   "t": 1792969976000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "VIDEO: resumen de Independiente vs. Boca por el Torneo Clausura 2026",
-   "bajada": "",
-   "leer": "VIDEO: resumen de Independiente vs. Boca por el Torneo Clausura 2026.",
-   "fuente": "ESPN Deportes",
-   "t": 1792969320000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Luciano Pereyra se emocionó hasta las lágrimas al confirmar que le cantará al papa León XIV en Luján",
-   "bajada": "",
-   "leer": "Luciano Pereyra se emocionó hasta las lágrimas al confirmar que le cantará al papa León XIV en Luján.",
-   "fuente": "Nexofin",
-   "t": 1792958727000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "La tremenda noticia que dio Luciano Pereyra en su recital: le cantará al Papa",
-   "bajada": "",
-   "leer": "La tremenda noticia que dio Luciano Pereyra en su recital: le cantará al Papa.",
-   "fuente": "Ciudadano News",
-   "t": 1792956514000
   }
  ]
 }
