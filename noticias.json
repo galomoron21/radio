@@ -1,53 +1,277 @@
 {
- "t": 1793136062634,
+ "t": 1793150625714,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "“Tenemos un historial de pérdidas netas”: la frase de Anthropic que pone en alerta a Wall Street",
-   "bajada": "El S-1 de la compañía dedica 94 páginas a riesgos asociados a la compra de sus acciones, el doble de lo habitual en documentos similares de otras empresas tecnológicas.",
-   "leer": "“Tenemos un historial de pérdidas netas”: la frase de Anthropic que pone en alerta a Wall Street. El S-1 de la compañía dedica 94 páginas a riesgos asociados a la compra de sus acciones, el doble de lo habitual en documentos similares de otras empresas tecnológicas.",
+   "titulo": "Barranquilla reunirá a 44 emprendedores de las Américas en una agenda empresarial impulsada por Estados Unidos",
+   "bajada": "El encuentro busca acercar a jóvenes líderes al ecosistema productivo del Caribe colombiano, facilitar el intercambio de conocimientos y abrir espacios para futuras alianzas entre empresas de Colombia y otros países.",
+   "leer": "Barranquilla reunirá a 44 emprendedores de las Américas en una agenda empresarial impulsada por Estados Unidos. El encuentro busca acercar a jóvenes líderes al ecosistema productivo del Caribe colombiano, facilitar el intercambio de conocimientos y abrir espacios para futuras alianzas entre empresas de Colombia y otros países.",
    "fuente": "infobae.com",
-   "t": 1793135991000
+   "t": 1793150295000
   },
   {
    "tema": "actualidad",
-   "titulo": "Flavio Bolsonaro abandonó Brasil EN VIVO: Estados Unidos le otorgará una visa a Flávio Bolsonaro y a su familia",
-   "bajada": "Un funcionario del Departamento de Estado concederá visas estadounidenses al candidato presidencial brasileño derrotado Flávio Bolsonaro y a su familia.",
-   "leer": "Un funcionario del Departamento de Estado concederá visas estadounidenses al candidato presidencial brasileño derrotado Flávio Bolsonaro y a su familia.",
+   "titulo": "Armada incautó 303 kilos de marihuana y cocaína ocultos entre colchones y costales de arroz en Bahía Solano",
+   "bajada": "Ocho tripulantes fueron detenidos luego de que guardacostas hallaran 627 paquetes con droga dentro de una nave de cabotaje que navegaba por el Pacífico norte colombiano.",
+   "leer": "Armada incautó 303 kilos de marihuana y cocaína ocultos entre colchones y costales de arroz en Bahía Solano. Ocho tripulantes fueron detenidos luego de que guardacostas hallaran 627 paquetes con droga dentro de una nave de cabotaje que navegaba por el Pacífico norte colombiano.",
    "fuente": "infobae.com",
-   "t": 1793135981000
+   "t": 1793150238000
   },
   {
    "tema": "actualidad",
-   "titulo": "De 40 plantas a un campo de flores: la historia de Los Tachos en Catarina, Nicaragua",
-   "bajada": "La familia García Ruiz convirtió el cultivo de flores en un trabajo compartido que hoy reúne producción, venta directa y turismo rural en Catarina.",
-   "leer": "De 40 plantas a un campo de flores: la historia de Los Tachos en Catarina, Nicaragua. La familia García Ruiz convirtió el cultivo de flores en un trabajo compartido que hoy reúne producción, venta directa y turismo rural en Catarina.",
+   "titulo": "Desalojados policías y guardias civiles encerrados en Interior para pedir mejor jubilación",
+   "bajada": "Madrid, 28 oct (EFE).- Los representantes de los principales sindicatos de la Policía Nacional y las asociaciones profesionales de la Guardia Civil han sido desalojados este jueves de madrugada de la sede de la Secretaría de Estado de Seguridad, donde se habían encerrado este miércoles por la tarde.",
+   "leer": "Desalojados policías y guardias civiles encerrados en Interior para pedir mejor jubilación. Madrid, 28 oct (EFE).- Los representantes de los principales sindicatos de la Policía Nacional y las asociaciones profesionales de la Guardia Civil han sido desalojados este jueves de madrugada de la sede de la Secretaría de Estado de Seguridad, donde se habían encerrado este miércoles por la tarde.",
    "fuente": "infobae.com",
-   "t": 1793135977000
+   "t": 1793150191000
   },
   {
    "tema": "actualidad",
-   "titulo": "Qué significan los colores de las bandejas de carne en los supermercados: negras, amarillas, rojas y blancas",
-   "bajada": "El uso de envases de distintos tonos responde a una estrategia comercial propia de cada establecimiento; expertos señalan que el color no determina la calidad del producto.",
-   "leer": "Qué significan los colores de las bandejas de carne en los supermercados: negras, amarillas, rojas y blancas. El uso de envases de distintos tonos responde a una estrategia comercial propia de cada establecimiento; expertos señalan que el color no determina la calidad del producto.",
+   "titulo": "Un exinvestigador de Google DeepMind aseguró: “Hay probabilidad de que una de cada tres IA acabe con la humanidad en diez años”",
+   "bajada": "Los sistemas tecnológicos realizan tareas cada vez más complejas y ejecutan instrucciones sin necesidad de ayuda humana.",
+   "leer": "Un exinvestigador de Google DeepMind aseguró: “Hay probabilidad de que una de cada tres IA acabe con la humanidad en diez años”. Los sistemas tecnológicos realizan tareas cada vez más complejas y ejecutan instrucciones sin necesidad de ayuda humana.",
    "fuente": "lanacion.com.ar",
-   "t": 1793135400000
+   "t": 1793150185000
   },
   {
    "tema": "actualidad",
-   "titulo": "Qué es la caminata del gorila: el ejercicio que arrasa en el mundo, mejora el equilibrio, la coordinación y la fuerza",
-   "bajada": "Este tipo de marcha no se recomienda para personas con lesiones en los tobillos, las rodillas o la cadera.",
-   "leer": "Qué es la caminata del gorila: el ejercicio que arrasa en el mundo, mejora el equilibrio, la coordinación y la fuerza. Este tipo de marcha no se recomienda para personas con lesiones en los tobillos, las rodillas o la cadera.",
+   "titulo": "En el homenaje a Néstor Kirchner, Máximo llamó a “hacer presidenta” a Cristina Fernández",
+   "bajada": "“¿Vamos a trabajar para que un argentino o una argentina llegue a la Casa Rosada para defender a su pueblo? ¿Vamos a dejarnos el cuerpo y la piel para cambiar este destino? ¿La vamos a liberar a Cristina?“, expresó el jefe de La Cámpora; la publicación de Kicillof.",
+   "leer": "En el homenaje a Néstor Kirchner, Máximo llamó a “hacer presidenta” a Cristina Fernández. “¿Vamos a trabajar para que un argentino o una argentina llegue a la Casa Rosada para defender a su pueblo? ¿Vamos a dejarnos el cuerpo y la piel para cambiar este destino? ¿La vamos a liberar a Cristina?“, expresó el jefe de La Cámpora; la publicación de Kicillof.",
    "fuente": "lanacion.com.ar",
-   "t": 1793135372000
+   "t": 1793149902000
   },
   {
    "tema": "actualidad",
-   "titulo": "Las ruinas en el CETC: de referencias a Antonia Marcé y a Kazuo Ohno a una reflexión sobre la Argentina",
-   "bajada": "El coreógrafo Juan Onofri Barbato y la dramaturga Lausa Sbdar proponen una travesía escénica en tres actos por el sótano del Colón.",
-   "leer": "Las ruinas en el CETC: de referencias a Antonia Marcé y a Kazuo Ohno a una reflexión sobre la Argentina. El coreógrafo Juan Onofri Barbato y la dramaturga Lausa Sbdar proponen una travesía escénica en tres actos por el sótano del Colón.",
+   "titulo": "Arsenal, campeón de la Premier League, quedó eliminado por un equipo de cuarta división en la Carabao Cup",
+   "bajada": "Fleetwood Town dio el golpe y sus hinchas celebraron con los jugadores dentro del campo de juego.",
+   "leer": "Arsenal, campeón de la Premier League, quedó eliminado por un equipo de cuarta división en la Carabao Cup. Fleetwood Town dio el golpe y sus hinchas celebraron con los jugadores dentro del campo de juego.",
    "fuente": "lanacion.com.ar",
-   "t": 1793135350000
+   "t": 1793149835000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "\"Tuve más afecto en prisión que por parte de mis vecinos\": habló el bioquímico de Esquel detenido por mantener encerrada a su familia",
+   "bajada": "Miguel Battista (71) fue indagado este martes en Esquel y luego trasladado nuevamente a una comisaría de Trevelin. Está acusado de privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos.",
+   "leer": "\"Tuve más afecto en prisión que por parte de mis vecinos\": habló el bioquímico de Esquel detenido por mantener encerrada a su familia. Miguel Battista (71) fue indagado este martes en Esquel y luego trasladado nuevamente a una comisaría de Trevelin. Está acusado de privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos.",
+   "fuente": "clarin.com",
+   "t": 1793149394000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Videos de desinformación explotan a personas reales para difamar a candidatos demócratas al Senado",
+   "bajada": "Videos manipulados con tecnología avanzada atacan a candidatos demócratas, utilizando imágenes y nombres reales para difundir falsedades. Las plataformas intentan frenar la desinformación, pero el contenido sigue circulando, mostrando la complejidad de controlar estas amenazas.",
+   "leer": "Videos de desinformación explotan a personas reales para difamar a candidatos demócratas al Senado. Videos manipulados con tecnología avanzada atacan a candidatos demócratas, utilizando imágenes y nombres reales para difundir falsedades. Las plataformas intentan frenar la desinformación, pero el contenido sigue circulando, mostrando la complejidad de controlar estas amenazas.",
+   "fuente": "clarin.com",
+   "t": 1793149209000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Verón dio tranquilidad con la final: \"No corremos riesgos\"",
+   "bajada": "El presidente de Estudiantes aseguró que el Pincha tiene segura su participación en la final de la Libertadores. Y dio una revelación: \"Yo no llamé a Marcos para volver\".",
+   "leer": "Verón dio tranquilidad con la final: \"No corremos riesgos\". El presidente de Estudiantes aseguró que el Pincha tiene segura su participación en la final de la Libertadores. Y dio una revelación: \"Yo no llamé a Marcos para volver\".",
+   "fuente": "ole.com.ar",
+   "t": 1793148544000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Un piloto de F1 jugó al fútbol y le metió un pelotazo en la cara a un arquero mundialista",
+   "bajada": "De cara al GP de México, Checo Pérez jugó un picadito con figuras locales y convirtió un gol con blooper incluido frente al Conejo Pérez. En un Mundial no tan lejano, este arquero enfrentó a Argentina y se fue vapuleado...",
+   "leer": "Un piloto de F1 jugó al fútbol y le metió un pelotazo en la cara a un arquero mundialista. De cara al GP de México, Checo Pérez jugó un picadito con figuras locales y convirtió un gol con blooper incluido frente al Conejo Pérez. En un Mundial no tan lejano, este arquero enfrentó a Argentina y se fue vapuleado...",
+   "fuente": "ole.com.ar",
+   "t": 1793148397000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Árbitro designado para Vélez - San Lorenzo",
+   "bajada": "",
+   "leer": "Árbitro designado para Vélez - San Lorenzo.",
+   "fuente": "San Lorenzo Primero",
+   "t": 1793148357000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¿Cómo cayó en Boca la designación de Nicolás Ramírez como árbitro del Súper?",
+   "bajada": "En el Xeneize enseguida marcaron un antecedente polémico del juez que volverá a dirigir el domingo en la Bombonera.",
+   "leer": "En el Xeneize enseguida marcaron un antecedente polémico del juez que volverá a dirigir el domingo en la Bombonera.",
+   "fuente": "ole.com.ar",
+   "t": 1793147756000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La fiesta que no fue: San Miguel pasó de la revolución por un Dream Team al descenso en la Primera Nacional",
+   "bajada": "Federico Almada, su presidente, hizo un contrato de patrocinio en 2025 con Jano’s, una empresa con casi 100 salones en todo el país y que facturaba unos 3.000 millones de pesos por mes. Pero las cosas no salieron como se esperaba.",
+   "leer": "La fiesta que no fue: San Miguel pasó de la revolución por un Dream Team al descenso en la Primera Nacional. Federico Almada, su presidente, hizo un contrato de patrocinio en 2025 con Jano’s, una empresa con casi 100 salones en todo el país y que facturaba unos 3.000 millones de pesos por mes. Pero las cosas no salieron como se esperaba.",
+   "fuente": "clarin.com",
+   "t": 1793147019000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La morosidad en microempresas es de casi 18% y quintuplica a la de las grandes compañías",
+   "bajada": "Pese a su baja incidencia en el monto total de deuda corporativa, las firmas más pequeñas enfrentan una situación crediticia preocupante. La mayoría de las empresas que refinanciaron sus compromisos no logra una mejora sostenida.",
+   "leer": "La morosidad en microempresas es de casi 18% y quintuplica a la de las grandes compañías. Pese a su baja incidencia en el monto total de deuda corporativa, las firmas más pequeñas enfrentan una situación crediticia preocupante. La mayoría de las empresas que refinanciaron sus compromisos no logra una mejora sostenida.",
+   "fuente": "ambito.com",
+   "t": 1793146680000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con Boca líder y varios contendientes, así marcha la Tabla Anual",
+   "bajada": "",
+   "leer": "Con Boca líder y varios contendientes, así marcha la Tabla Anual.",
+   "fuente": "ESPN Argentina",
+   "t": 1793146680000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Federación de Fútbol. Sub 15: Racing de Carhué perdió en su visita al líder",
+   "bajada": "",
+   "leer": "Federación de Fútbol. Sub 15: Racing de Carhué perdió en su visita al líder.",
+   "fuente": "La Nueva Radio Suárez",
+   "t": 1793146606000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Así quedó la tabla anual de la Liga Profesional: Argentinos ganó una \"final\" contra Ind. Rivadavia para complicar a Boca, Central y Vélez",
+   "bajada": "El título como el mejor de la temporada 2026 está al rojo vivo, al igual que la clasificación a la Copa Libertadores. Defensa y Justicia se clasificó a los playoffs este fin de semana, San Lorenzo se complicó y Racing quedó afuera. Cómo sigue el descenso y las posiciones de las Zonas rumbo a los octavos de final.",
+   "leer": "Así quedó la tabla anual de la Liga Profesional: Argentinos ganó una \"final\" contra Ind. Rivadavia para complicar a Boca, Central y Vélez. El título como el mejor de la temporada 2026 está al rojo vivo, al igual que la clasificación a la Copa Libertadores. Defensa y Justicia se clasificó a los playoffs este fin de semana, San Lorenzo se complicó y Racing quedó afuera. Cómo sigue el descenso y las posiciones de las Zonas rumbo a los octavos de final.",
+   "fuente": "clarin.com",
+   "t": 1793146494000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Es hijo de un ex campeón con River Plate, deslumbra en el Atlético de Madrid y marcó un golazo en la Messi Cup",
+   "bajada": "",
+   "leer": "Es hijo de un ex campeón con River Plate, deslumbra en el Atlético de Madrid y marcó un golazo en la Messi Cup.",
+   "fuente": "Infobae",
+   "t": 1793145957000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cómo quedó River en la tabla anual y cuántos puntos necesita para entrar a la Copa Libertadores 2027",
+   "bajada": "",
+   "leer": "Cómo quedó River en la tabla anual y cuántos puntos necesita para entrar a la Copa Libertadores 2027.",
+   "fuente": "TyC Sports",
+   "t": 1793145672000
+  },
+  {
+   "tema": "política",
+   "titulo": "Con la presencia de Martín Menem, Negri y Camaño, presentaron un libro sobre el rol del Congreso tras la reforma de 1994",
+   "bajada": "La publicación de más de 300 páginas examina la evolución y el funcionamiento del Poder Legislativo argentino a partir del retorno democrático de 1983.",
+   "leer": "Con la presencia de Martín Menem, Negri y Camaño, presentaron un libro sobre el rol del Congreso tras la reforma de 1994. La publicación de más de 300 páginas examina la evolución y el funcionamiento del Poder Legislativo argentino a partir del retorno democrático de 1983.",
+   "fuente": "clarin.com",
+   "t": 1793145520000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Platense, histórico primer campeón del torneo femenino de fútbol Sub 12: la goleada contra Vélez en una triple definición simultánea",
+   "bajada": "El Calamar goleó 4-1 a Vélez en la última fecha, que tuvo tres partidos al mismo tiempo en el predio Lionel Andrés Messi. La jornada contó con la presencia de Claudio Tapia y Germán Portanova, el entrenador de la Selección masculina.",
+   "leer": "Platense, histórico primer campeón del torneo femenino de fútbol Sub 12: la goleada contra Vélez en una triple definición simultánea. El Calamar goleó 4-1 a Vélez en la última fecha, que tuvo tres partidos al mismo tiempo en el predio Lionel Andrés Messi. La jornada contó con la presencia de Claudio Tapia y Germán Portanova, el entrenador de la Selección masculina.",
+   "fuente": "clarin.com",
+   "t": 1793145237000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Domingo Cavallo criticó a Javier Milei y pidió liberar la compra y venta de dólares",
+   "bajada": "El exministro comparó la intervención oficial con los controles de Guillermo Moreno y cuestionó las restricciones para las empresas. También reclamó extender los beneficios del RIGI a toda la economía.",
+   "leer": "Domingo Cavallo criticó a Javier Milei y pidió liberar la compra y venta de dólares. El exministro comparó la intervención oficial con los controles de Guillermo Moreno y cuestionó las restricciones para las empresas. También reclamó extender los beneficios del RIGI a toda la economía.",
+   "fuente": "ambito.com",
+   "t": 1793145000000
+  },
+  {
+   "tema": "política",
+   "titulo": "Paritaria de Comercio: el sindicato y las cámaras empresarias acordaron un aumento del 5,7% y un bono de $50.000",
+   "bajada": "La suba se aplicará en tres veces: octubre, noviembre y diciembre. En tanto, el pago de la suma adicional se dividirá en dos partes iguales.",
+   "leer": "Paritaria de Comercio: el sindicato y las cámaras empresarias acordaron un aumento del 5,7% y un bono de $50.000. La suba se aplicará en tres veces: octubre, noviembre y diciembre. En tanto, el pago de la suma adicional se dividirá en dos partes iguales.",
+   "fuente": "clarin.com",
+   "t": 1793144105000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "El misionero que ayuda a emprendedores con microcréditos basados en la confianza",
+   "bajada": "Cristian Manzur fundó Fortalecer Misiones en 2008, una asociación civil que brinda microcréditos, capacitaciones y acompañamiento a emprendedores y artesanos locales. La organización ya ayudó a más de 600 emprendedores y actualmente acompaña a 40.",
+   "leer": "El misionero que ayuda a emprendedores con microcréditos basados en la confianza. Cristian Manzur fundó Fortalecer Misiones en 2008, una asociación civil que brinda microcréditos, capacitaciones y acompañamiento a emprendedores y artesanos locales. La organización ya ayudó a más de 600 emprendedores y actualmente acompaña a 40.",
+   "fuente": "clarin.com",
+   "t": 1793142482000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Ataque a una docente en San Nicolás: la agredieron en el aula tras pedirle a una alumna que guarde el celular",
+   "bajada": "Ocurrió en un secundario cuando una estudiante desobedeció la orden de no utilizar su smartphone durante la clase. A raíz de la violencia, la profesora debió ser hospitalizada. Sindicatos y agrupaciones de docentes rechazaron la golpiza y pidieron \"respeto y cuidado\" para los educadores.",
+   "leer": "Ataque a una docente en San Nicolás: la agredieron en el aula tras pedirle a una alumna que guarde el celular. Ocurrió en un secundario cuando una estudiante desobedeció la orden de no utilizar su smartphone durante la clase. A raíz de la violencia, la profesora debió ser hospitalizada. Sindicatos y agrupaciones de docentes rechazaron la golpiza y pidieron \"respeto y cuidado\" para los educadores.",
+   "fuente": "clarin.com",
+   "t": 1793142444000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Javier Milei tiene que darse un permitido: un \"Plan Platita\" de derecha",
+   "bajada": "La pregunta es cómo responderá el Gobierno a las mayores presiones inflacionarias por el petróleo más caro y las tasas más altas: ¿con más ajuste fiscal y apretón monetario? Para muchos en cambio la opción pasa por relajar los encajes y que haya más crédito.",
+   "leer": "Javier Milei tiene que darse un permitido: un \"Plan Platita\" de derecha. La pregunta es cómo responderá el Gobierno a las mayores presiones inflacionarias por el petróleo más caro y las tasas más altas: ¿con más ajuste fiscal y apretón monetario? Para muchos en cambio la opción pasa por relajar los encajes y que haya más crédito.",
+   "fuente": "clarin.com",
+   "t": 1793142339000
+  },
+  {
+   "tema": "política",
+   "titulo": "La industria TIC se consolida para potenciar las inversiones",
+   "bajada": "Los directivos plantearon la necesidad de equilibrar las reglas de competencia con operadores satelitales y grandes plataformas tecnológicas.",
+   "leer": "La industria TIC se consolida para potenciar las inversiones. Los directivos plantearon la necesidad de equilibrar las reglas de competencia con operadores satelitales y grandes plataformas tecnológicas.",
+   "fuente": "clarin.com",
+   "t": 1793141718000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La Reserva de Independiente sigue imparable: goleada, racha y líder absoluto",
+   "bajada": "",
+   "leer": "La Reserva de Independiente sigue imparable: goleada, racha y líder absoluto.",
+   "fuente": "Olé",
+   "t": 1793141709000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Confirmado: sin Paredes en el 11, así va Boca por la épica en el Maracaná",
+   "bajada": "",
+   "leer": "Confirmado: sin Paredes en el 11, así va Boca por la épica en el Maracaná.",
+   "fuente": "Olé",
+   "t": 1793141538000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Flavio Bolsonaro y su familia llegaron a Estados Unidos y el gobierno ya les concedió la visa",
+   "bajada": "El candidato derrotado abandonó Brasil pese a la prohibición de salir del país y a la orden de entregar su pasaporte dispuestas por el juez Alexandre de Moraes. La administración de Donald Trump le concedió visados a él, a su esposa y a sus dos hijas para autorizar su ingreso.",
+   "leer": "Flavio Bolsonaro y su familia llegaron a Estados Unidos y el gobierno ya les concedió la visa. El candidato derrotado abandonó Brasil pese a la prohibición de salir del país y a la orden de entregar su pasaporte dispuestas por el juez Alexandre de Moraes. La administración de Donald Trump le concedió visados a él, a su esposa y a sus dos hijas para autorizar su ingreso.",
+   "fuente": "clarin.com",
+   "t": 1793139175000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Flávio Bolsonaro amplía la lista de los que huyeron de Brasil junto a su hermano y dos golpistas",
+   "bajada": "El senador del Partido Liberal viajó a Estados Unidos tras la orden judicial para requisar sus pasaportes en un expediente sobre presunto lavado de dinero. Su salida del país amplía la nómina de aliados del espacio que residen en el extranjero para eludir condenas de la justicia brasileña.",
+   "leer": "Flávio Bolsonaro amplía la lista de los que huyeron de Brasil junto a su hermano y dos golpistas. El senador del Partido Liberal viajó a Estados Unidos tras la orden judicial para requisar sus pasaportes en un expediente sobre presunto lavado de dinero. Su salida del país amplía la nómina de aliados del espacio que residen en el extranjero para eludir condenas de la justicia brasileña.",
+   "fuente": "clarin.com",
+   "t": 1793138495000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "SAN LORENZO SIGUE ASEGURANDO EL FUTURO DE SUS JUVENILES",
+   "bajada": "",
+   "leer": "SAN LORENZO SIGUE ASEGURANDO EL FUTURO DE SUS JUVENILES.",
+   "fuente": "San Lorenzo",
+   "t": 1793138390000
+  },
+  {
+   "tema": "música",
+   "titulo": "Merlo: una muestra recorre 50 años de historia del rock nacional",
+   "bajada": "",
+   "leer": "Merlo: una muestra recorre 50 años de historia del rock nacional.",
+   "fuente": "Aquí La Noticia",
+   "t": 1793136818000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El FMI llegó a un acuerdo técnico con Argentina para avanzar en un desembolso de US$ 900 millones",
+   "bajada": "El organismo dijo que se cumplió la meta de reservas, pero no informó si se alcanzó el objetivo fiscal. Ahora debe aprobar el acuerdo el directorio, que lo tratará a principios de diciembre. El FMI habló de resultados \"impresionantes\", pidió un tipo de cambio flexible y una expansión \"prudente\" del crédito.",
+   "leer": "El FMI llegó a un acuerdo técnico con Argentina para avanzar en un desembolso de US$ 900 millones. El organismo dijo que se cumplió la meta de reservas, pero no informó si se alcanzó el objetivo fiscal. Ahora debe aprobar el acuerdo el directorio, que lo tratará a principios de diciembre. El FMI habló de resultados \"impresionantes\", pidió un tipo de cambio flexible y una expansión \"prudente\" del crédito.",
+   "fuente": "clarin.com",
+   "t": 1793135853000
   },
   {
    "tema": "clima",
@@ -58,100 +282,12 @@
    "t": 1793135104000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Qué es el Premio Sócrates, ganado por Bukayo Saka en plena gala del Balón de Oro",
-   "bajada": "El jugador del Arsenal se quedó con esta distinción extrafutbolística que otorga France Football. Acá, los detalles.",
-   "leer": "Qué es el Premio Sócrates, ganado por Bukayo Saka en plena gala del Balón de Oro. El jugador del Arsenal se quedó con esta distinción extrafutbolística que otorga France Football. Acá, los detalles.",
-   "fuente": "ole.com.ar",
-   "t": 1793134861000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La movida de Flamengo contra Estudiantes: Palmeiras es parte del proceso",
-   "bajada": "El Verdao fue incluido en el proceso que inició la Conmebol tras el reclamo de los cariocas por desplazar al Pincha de la final de la Copa Libertadores. Además, se difundió el documento del TAS.",
-   "leer": "La movida de Flamengo contra Estudiantes: Palmeiras es parte del proceso. El Verdao fue incluido en el proceso que inició la Conmebol tras el reclamo de los cariocas por desplazar al Pincha de la final de la Copa Libertadores. Además, se difundió el documento del TAS.",
-   "fuente": "ole.com.ar",
-   "t": 1793134661000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Lanús le ganó a Regatas Corrientes ante su gente y cortó con la racha de derrotas en Liga Nacional",
-   "bajada": "El Granate se quedó con la victoria de local por 72 a 63 con una actuación estelar del pívot cubano Pedro Bombino Parada.",
-   "leer": "Lanús le ganó a Regatas Corrientes ante su gente y cortó con la racha de derrotas en Liga Nacional. El Granate se quedó con la victoria de local por 72 a 63 con una actuación estelar del pívot cubano Pedro Bombino Parada.",
-   "fuente": "ole.com.ar",
-   "t": 1793134547000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "economía",
    "titulo": "El vice del Banco Central rindió examen sobre el crédito y las soluciones a la mora ante estudiantes",
    "bajada": "Vladimir Werning participó de una clase en la UTDT junto a representantes de bancos y economistas. Contrapunto por las tasas, el salario real y el riesgo electoral.",
    "leer": "El vice del Banco Central rindió examen sobre el crédito y las soluciones a la mora ante estudiantes. Vladimir Werning participó de una clase en la UTDT junto a representantes de bancos y economistas. Contrapunto por las tasas, el salario real y el riesgo electoral.",
    "fuente": "clarin.com",
    "t": 1793134027000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Cuánto cobrarán los empleados de la construcción en noviembre de 2026",
-   "bajada": "Los trabajadores del sector recibirán una suba del 1,7% sobre los básicos de octubre. Cómo quedan los valores por categoría y qué establece la paritaria de UOCRA.",
-   "leer": "Cuánto cobrarán los empleados de la construcción en noviembre de 2026. Los trabajadores del sector recibirán una suba del 1,7% sobre los básicos de octubre. Cómo quedan los valores por categoría y qué establece la paritaria de UOCRA.",
-   "fuente": "ambito.com",
-   "t": 1793133960000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El BCRA no compró dólares por segunda rueda consecutiva, aunque las reservas volvieron a subir",
-   "bajada": "Sucedió en una rueda en la que el tipo de cambio mayorista retrocedió después de siete subas consecutivas y los futuros acompañaron la baja, en medio de las expectativas por los vencimientos de fin de mes y el impacto de Brasil.",
-   "leer": "El BCRA no compró dólares por segunda rueda consecutiva, aunque las reservas volvieron a subir. Sucedió en una rueda en la que el tipo de cambio mayorista retrocedió después de siete subas consecutivas y los futuros acompañaron la baja, en medio de las expectativas por los vencimientos de fin de mes y el impacto de Brasil.",
-   "fuente": "ambito.com",
-   "t": 1793133840000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Una cuidadora murió tres días después de ser atacada por un leopardo en el recinto de un zoológico",
-   "bajada": "La mujer sufrió heridas graves en la cabeza y el cuello y murió tras permanecer tres días internada. Las autoridades investigan cómo ocurrió el ataque y si se incumplieron los protocolos de seguridad del zoológico.",
-   "leer": "Una cuidadora murió tres días después de ser atacada por un leopardo en el recinto de un zoológico. La mujer sufrió heridas graves en la cabeza y el cuello y murió tras permanecer tres días internada. Las autoridades investigan cómo ocurrió el ataque y si se incumplieron los protocolos de seguridad del zoológico.",
-   "fuente": "clarin.com",
-   "t": 1793133815000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Domingo Cavallo volvió a criticar al Gobierno: \"El problema para Caputo es que el ministro es Milei\"",
-   "bajada": "El exministro del menemismo consideró que el Presidente tiene \"una confusión conceptual muy grande\". Sostuvo que el cepo es uno de los factores que no permiten el despegue de la economía.",
-   "leer": "Domingo Cavallo volvió a criticar al Gobierno: \"El problema para Caputo es que el ministro es Milei\". El exministro del menemismo consideró que el Presidente tiene \"una confusión conceptual muy grande\". Sostuvo que el cepo es uno de los factores que no permiten el despegue de la economía.",
-   "fuente": "clarin.com",
-   "t": 1793133787000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El relato de Agustín Giay y su encuentro con el Papa Francisco",
-   "bajada": "",
-   "leer": "El relato de Agustín Giay y su encuentro con el Papa Francisco.",
-   "fuente": "San Lorenzo Primero",
-   "t": 1793133756000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Corría una picada con la camioneta de la mujer del Rey de la Salada y atropelló a un monaguillo de 14 años: el chico pelea por su vida",
-   "bajada": "Miguel Angel Monteferrante (68) conducía a alta velocidad la Audi Q7 de Natalia Paola Luengo (44), esposa del polémico empresario Jorge Omar Castillo (69). Iba haciendo una carrera ilegal en Guernica con un Peugeot 308.",
-   "leer": "Corría una picada con la camioneta de la mujer del Rey de la Salada y atropelló a un monaguillo de 14 años: el chico pelea por su vida. Miguel Angel Monteferrante (68) conducía a alta velocidad la Audi Q7 de Natalia Paola Luengo (44), esposa del polémico empresario Jorge Omar Castillo (69). Iba haciendo una carrera ilegal en Guernica con un Peugeot 308.",
-   "fuente": "clarin.com",
-   "t": 1793133100000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El dólar mayorista bajó, pero el Banco Central no compró dólares en el mercado de cambios por segundo día consecutivo",
-   "bajada": "Es la primera vez que el organismo se toma una doble pausa en su ritmo de compra de divisas para las reservas. Acumulaba hasta el viernes US$ 1.252 millones comprados este mes.",
-   "leer": "El dólar mayorista bajó, pero el Banco Central no compró dólares en el mercado de cambios por segundo día consecutivo. Es la primera vez que el organismo se toma una doble pausa en su ritmo de compra de divisas para las reservas. Acumulaba hasta el viernes US$ 1.252 millones comprados este mes.",
-   "fuente": "clarin.com",
-   "t": 1793132988000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Tobías Sebastián Moreno Pérez, el joven campeón invicto de la Copa Clarín de ajedrez",
-   "bajada": "Ganó el tradicional torneo con 7,5 puntos en 9 rondas. El chubutense no tiene entrenador y se prepara solo para las partidas. Es otra muestra del talento juvenil que tiene el ajedrez argentino.",
-   "leer": "Tobías Sebastián Moreno Pérez, el joven campeón invicto de la Copa Clarín de ajedrez. Ganó el tradicional torneo con 7,5 puntos en 9 rondas. El chubutense no tiene entrenador y se prepara solo para las partidas. Es otra muestra del talento juvenil que tiene el ajedrez argentino.",
-   "fuente": "clarin.com",
-   "t": 1793132826000
   },
   {
    "tema": "recitales",
@@ -162,100 +298,12 @@
    "t": 1793132640000
   },
   {
-   "tema": "economía",
-   "titulo": "Vaca Muerta: La Pampa busca atraer inversiones y convertirse en un polo de proveedores",
-   "bajada": "Se apunta a captar compañías vinculadas con la actividad petrolera y gasífera de Neuquén, con foco en la industria y la logística. La estrategia incluye incentivos fiscales y financiamiento. También contempla inversiones por más de US$ 43 millones en parques solares.",
-   "leer": "Vaca Muerta: La Pampa busca atraer inversiones y convertirse en un polo de proveedores. Se apunta a captar compañías vinculadas con la actividad petrolera y gasífera de Neuquén, con foco en la industria y la logística. La estrategia incluye incentivos fiscales y financiamiento. También contempla inversiones por más de US$ 43 millones en parques solares.",
-   "fuente": "clarin.com",
-   "t": 1793132633000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Elecciones en Israel: el bloque opositor lidera las legislativas por estrecho margen frente al premier Netanyahu y sus aliados",
-   "bajada": "Las proyecciones de las cadenas de televisión 11, 12 y 13 otorgan entre 52 y 53 bancas al \"bloque del cambio\" liderado por el centrista Gadi Eisenkot. Por su parte, la coalición del premier obtendría 50 lugares en el Parlamento.",
-   "leer": "Elecciones en Israel: el bloque opositor lidera las legislativas por estrecho margen frente al premier Netanyahu y sus aliados. Las proyecciones de las cadenas de televisión 11, 12 y 13 otorgan entre 52 y 53 bancas al \"bloque del cambio\" liderado por el centrista Gadi Eisenkot. Por su parte, la coalición del premier obtendría 50 lugares en el Parlamento.",
-   "fuente": "clarin.com",
-   "t": 1793132513000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Franco Colapinto no correrá la primera práctica de la Fórmula 1 en el GP de México: quién es Gabriele Mini, el elegido por Alpine",
-   "bajada": "El 43 del piloto argentino estará al mando del joven talento italiano durante la FP1 del viernes. Es la última vez en la temporada que cumple con este requisito reglamentario de la Máxima. Después de dos abandonos consecutivos, Franco busca recuperarse en el Hermanos Rodríguez.",
-   "leer": "Franco Colapinto no correrá la primera práctica de la Fórmula 1 en el GP de México: quién es Gabriele Mini, el elegido por Alpine. El 43 del piloto argentino estará al mando del joven talento italiano durante la FP1 del viernes. Es la última vez en la temporada que cumple con este requisito reglamentario de la Máxima. Después de dos abandonos consecutivos, Franco busca recuperarse en el Hermanos Rodríguez.",
-   "fuente": "clarin.com",
-   "t": 1793132370000
-  },
-  {
    "tema": "recitales",
    "titulo": "Tras agotar dos shows en pocas horas, U2 anunció una tercera fecha en Argentina: cuándo comprar las entradas",
    "bajada": "",
    "leer": "Tras agotar dos shows en pocas horas, U2 anunció una tercera fecha en Argentina: cuándo comprar las entradas.",
    "fuente": "La Gaceta",
    "t": 1793132301000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Efecto \"Lula 4\": el Gobierno reaccionó a la devaluación del real y la city espera definiciones",
-   "bajada": "El equipo económico tomó las primeras medidas para contener el cimbronazo. El dólar tuvo el lunes su mayor suba en cinco meses y los bonos acusaron el golpe.",
-   "leer": "Efecto \"Lula 4\": el Gobierno reaccionó a la devaluación del real y la city espera definiciones. El equipo económico tomó las primeras medidas para contener el cimbronazo. El dólar tuvo el lunes su mayor suba en cinco meses y los bonos acusaron el golpe.",
-   "fuente": "clarin.com",
-   "t": 1793131550000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Cuti Romero habló de todo: eligió al próximo 10 de la Selección, reveló que jugó infiltrado la final del Mundial y cuestionó el Balón de Oro",
-   "bajada": "El defensor cordobés postuló a Julián Álvarez para heredar el histórico número de Lionel Messi. Además, contó los problemas físicos que atravesó durante la Copa del Mundo en Norteamérica. “Es puro marketing”, dijo sobre el premio que se llevó Harry Kane al mejor futbolista del año.",
-   "leer": "Cuti Romero habló de todo: eligió al próximo 10 de la Selección, reveló que jugó infiltrado la final del Mundial y cuestionó el Balón de Oro. El defensor cordobés postuló a Julián Álvarez para heredar el histórico número de Lionel Messi. Además, contó los problemas físicos que atravesó durante la Copa del Mundo en Norteamérica. “Es puro marketing”, dijo sobre el premio que se llevó Harry Kane al mejor futbolista del año.",
-   "fuente": "clarin.com",
-   "t": 1793130195000
-  },
-  {
-   "tema": "política",
-   "titulo": "\"Me procesan por una prueba que todavía esperan\", la defensa de Espert tras ser imputado por lavado de dinero",
-   "bajada": "Un juez federal de San Isidro lo investiga por una transferencia de 200 mil dólares que recibió del empresario Federico \"Fred\" Machado. El exdiputado apuntó contra el magistrado y señaló que su defensa pidió que la Cámara Federal de San Martín revoque la medida.",
-   "leer": "\"Me procesan por una prueba que todavía esperan\", la defensa de Espert tras ser imputado por lavado de dinero. Un juez federal de San Isidro lo investiga por una transferencia de 200 mil dólares que recibió del empresario Federico \"Fred\" Machado. El exdiputado apuntó contra el magistrado y señaló que su defensa pidió que la Cámara Federal de San Martín revoque la medida.",
-   "fuente": "clarin.com",
-   "t": 1793130184000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Cercado por la Justicia: las cinco causas que acorralan a Flávio Bolsonaro tras la segunda vuelta presidencial en Brasil",
-   "bajada": "Tras ser derrotado en el balotaje por Luiz Inácio Lula da Silva, el senador Flávio Bolsonaro viajó a Estados Unidos ante el avance de complejas causas en su contra. La Justicia brasileña aceleró medidas cautelares y peritajes que abarcan desde el presunto blanqueo de capitales hasta maniobras de evasión en el exterior.",
-   "leer": "Cercado por la Justicia: las cinco causas que acorralan a Flávio Bolsonaro tras la segunda vuelta presidencial en Brasil. Tras ser derrotado en el balotaje por Luiz Inácio Lula da Silva, el senador Flávio Bolsonaro viajó a Estados Unidos ante el avance de complejas causas en su contra. La Justicia brasileña aceleró medidas cautelares y peritajes que abarcan desde el presunto blanqueo de capitales hasta maniobras de evasión en el exterior.",
-   "fuente": "clarin.com",
-   "t": 1793128826000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca sufrió un gol sobre la hora y empató con Flamengo en la Messi Cup 2026",
-   "bajada": "",
-   "leer": "Boca sufrió un gol sobre la hora y empató con Flamengo en la Messi Cup 2026.",
-   "fuente": "ESPN Argentina",
-   "t": 1793128080000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Abren un nuevo centro de investigación que va a hacer estudios en longevidad saludable y cáncer: cómo participar",
-   "bajada": "Queda en Belgrano y tiene hasta quirófano y gimnasio. Y permitirá ampliar en un 10% la capacidad de investigar terapias en el país. Cómo pueden anotarse los pacientes que quiera ser voluntarios.",
-   "leer": "Abren un nuevo centro de investigación que va a hacer estudios en longevidad saludable y cáncer: cómo participar. Queda en Belgrano y tiene hasta quirófano y gimnasio. Y permitirá ampliar en un 10% la capacidad de investigar terapias en el país. Cómo pueden anotarse los pacientes que quiera ser voluntarios.",
-   "fuente": "clarin.com",
-   "t": 1793127625000
-  },
-  {
-   "tema": "política",
-   "titulo": "El Gobierno ajusta su relato sobre la victoria de Lula: Milei sigue en silencio, Santiago Caputo ataca a la prensa y casi todos hablan de \"persecución\" a Bolsonaro",
-   "bajada": "En medio de las versiones de una fuga del candidato brasileño a Estados Unidos, funcionarios de segunda línea avalan las dudas sobre el proceso electoral.",
-   "leer": "El Gobierno ajusta su relato sobre la victoria de Lula: Milei sigue en silencio, Santiago Caputo ataca a la prensa y casi todos hablan de \"persecución\" a Bolsonaro. En medio de las versiones de una fuga del candidato brasileño a Estados Unidos, funcionarios de segunda línea avalan las dudas sobre el proceso electoral.",
-   "fuente": "clarin.com",
-   "t": 1793126357000
-  },
-  {
-   "tema": "música",
-   "titulo": "Turf vuelve a Catamarca para celebrar 30 años de rock",
-   "bajada": "",
-   "leer": "Turf vuelve a Catamarca para celebrar 30 años de rock.",
-   "fuente": "El Ancasti",
-   "t": 1793125456000
   },
   {
    "tema": "música",
@@ -266,36 +314,12 @@
    "t": 1793125380000
   },
   {
-   "tema": "política",
-   "titulo": "Este jueves se conoce si destituyen al juez federal acusado de pedir una coima para dictar un fallo",
-   "bajada": "El Jurado de Enjuiciamiento fijó el veredicto para ese día a las 9:30 horas. Si Gastón Salmain es destituido quedará detenido en prisión domiciliaria.",
-   "leer": "Este jueves se conoce si destituyen al juez federal acusado de pedir una coima para dictar un fallo. El Jurado de Enjuiciamiento fijó el veredicto para ese día a las 9:30 horas. Si Gastón Salmain es destituido quedará detenido en prisión domiciliaria.",
-   "fuente": "clarin.com",
-   "t": 1793124499000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El partido al que River estará muy atento en la previa del superclásico",
-   "bajada": "",
-   "leer": "El partido al que River estará muy atento en la previa del superclásico.",
-   "fuente": "Olé",
-   "t": 1793123706000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Noah Wyle, el doctor Robby de la multipremiada \"The Pitt\", fue elegido como el hombre más sexy del mundo en 2026",
    "bajada": "La revista People distinguió al actor de 55 años que atraviesa uno de los mejores momentos de su carrera tras ganar dos premios Emmy consecutivos por su papel protagónico en la serie médica.",
    "leer": "Noah Wyle, el doctor Robby de la multipremiada \"The Pitt\", fue elegido como el hombre más sexy del mundo en 2026. La revista People distinguió al actor de 55 años que atraviesa uno de los mejores momentos de su carrera tras ganar dos premios Emmy consecutivos por su papel protagónico en la serie médica.",
    "fuente": "clarin.com",
    "t": 1793121884000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Alineaciones de Argentinos Juniors e Independiente Rivadavia para el duelo de la fecha 14 del Torneo Clausura",
-   "bajada": "",
-   "leer": "Alineaciones de Argentinos Juniors e Independiente Rivadavia para el duelo de la fecha 14 del Torneo Clausura.",
-   "fuente": "Bolavip Argentina",
-   "t": 1793120438000
   },
   {
    "tema": "tecnología",
@@ -322,22 +346,6 @@
    "t": 1793118497000
   },
   {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo se juega todo ante Vélez: qué necesita para clasificar a los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "San Lorenzo se juega todo ante Vélez: qué necesita para clasificar a los playoffs del Torneo Clausura.",
-   "fuente": "Crónica",
-   "t": 1793118440000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Es una vergüenza la campaña de River para condicionar a los árbitros (por Horacio Pagani)",
-   "bajada": "",
-   "leer": "Es una vergüenza la campaña de River para condicionar a los árbitros (por Horacio Pagani).",
-   "fuente": "TyC Sports",
-   "t": 1793118050000
-  },
-  {
    "tema": "clima",
    "titulo": "Alerta amarilla por fuertes tormentas con granizo en Buenos Aires y otras dos provincias",
    "bajada": "",
@@ -346,28 +354,12 @@
    "t": 1793116380000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Quién es “Tarzán”, la joya de Boca que juega de 10 y se destaca en la Messi Cup",
-   "bajada": "",
-   "leer": "Quién es “Tarzán”, la joya de Boca que juega de 10 y se destaca en la Messi Cup.",
-   "fuente": "TyC Sports",
-   "t": 1793115633000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Murió Alan Dysert, el actor que interpretó a Sean Cudahy en All My Children",
    "bajada": "Tenía 75 años y padecía cáncer desde hacía una década. También trabajó como profesor, productor, guionista y director. Había escrito un libro sobre su enfermedad y su trayectoria: \"Luces, cámara, cáncer\".",
    "leer": "Murió Alan Dysert, el actor que interpretó a Sean Cudahy en All My Children. Tenía 75 años y padecía cáncer desde hacía una década. También trabajó como profesor, productor, guionista y director. Había escrito un libro sobre su enfermedad y su trayectoria: \"Luces, cámara, cáncer\".",
    "fuente": "clarin.com",
    "t": 1793113928000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La Liga Municipal de Ajedrez llega a su última ronda con una ajustada disputa por el título",
-   "bajada": "",
-   "leer": "La Liga Municipal de Ajedrez llega a su última ronda con una ajustada disputa por el título.",
-   "fuente": "gualeguaychu.gov.ar",
-   "t": 1793112762000
   },
   {
    "tema": "fútbol",
