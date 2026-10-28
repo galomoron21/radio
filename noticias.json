@@ -1,77 +1,357 @@
 {
- "t": 1793176451716,
+ "t": 1793203454982,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Kábala del martes 27 de octubre: Revisa aquí la jugada ganadora del sorteo y Chau Chamba",
-   "bajada": "Sigue en vivo el reporte del sorteo de Kábala. Conoce los números que salieron de la urna electrónica este martes 27 de octubre.",
-   "leer": "Kábala del martes 27 de octubre: Revisa aquí la jugada ganadora del sorteo y Chau Chamba. Sigue en vivo el reporte del sorteo de Kábala. Conoce los números que salieron de la urna electrónica este martes 27 de octubre.",
-   "fuente": "infobae.com",
-   "t": 1793176207000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Un alcance entre dos trenes obliga a interrumpir la línea de alta velocidad Madrid-Andalucía",
-   "bajada": "Adif ha confirmado la noticia en su perfil de X sin dar más detalles de lo sucedido.",
-   "leer": "Un alcance entre dos trenes obliga a interrumpir la línea de alta velocidad Madrid-Andalucía. Adif ha confirmado la noticia en su perfil de X sin dar más detalles de lo sucedido.",
-   "fuente": "infobae.com",
-   "t": 1793175947000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "EN VIVO: Con el 72% de las urnas escrutadas, el bloque de Netanyahu suma 54 escaños frente a los 48 de Eisenkot",
-   "bajada": "Los datos provisionales de la Comisión Electoral Central de Israel, divulgados a las 09:20 (hora local), sitúan a la alianza del primer ministro a cinco diputados del umbral para formar gobierno en la Knesset.",
-   "leer": "Los datos provisionales de la Comisión Electoral Central de Israel, divulgados a las 09:20 (hora local), sitúan a la alianza del primer ministro a cinco diputados del umbral para formar gobierno en la Knesset.",
-   "fuente": "infobae.com",
-   "t": 1793175880000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Talarico vs. Paxton y encuestas recientes para las midterms en Texas 2026",
-   "bajada": "Conoce qué dicen las encuestas sobre Talarico y Paxton en Texas, cuántos votantes participaron en los sondeos y cómo avanza la votación anticipada.",
-   "leer": "Talarico vs. Paxton y encuestas recientes para las midterms en Texas 2026. Conoce qué dicen las encuestas sobre Talarico y Paxton en Texas, cuántos votantes participaron en los sondeos y cómo avanza la votación anticipada.",
+   "titulo": "La guerra del salame más largo del mundo: una ciudad argentina prepara la contraofensiva para recuperar la corona ante el gigante de 501 metros",
+   "bajada": "Del 7 al 9 de noviembre, la Fiesta del Salame y del Cerdo vivirá una nueva edición de su desafío más emblemático: superar los 501,66 metros logrados por San Andrés de Giles y traer el récord nacional de vuelta a las sierras.",
+   "leer": "La guerra del salame más largo del mundo: una ciudad argentina prepara la contraofensiva para recuperar la corona ante el gigante de 501 metros. Del 7 al 9 de noviembre, la Fiesta del Salame y del Cerdo vivirá una nueva edición de su desafío más emblemático: superar los 501,66 metros logrados por San Andrés de Giles y traer el récord nacional de vuelta a las sierras.",
    "fuente": "lanacion.com.ar",
-   "t": 1793175480000
+   "t": 1793203357000
   },
   {
    "tema": "actualidad",
-   "titulo": "El gobierno de Milei confirmó que Flavio Bolsonaro despegó a la madrugada desde Puerto Iguazú",
-   "bajada": "El excandidato brasileño ingresó por tierra a la Argentina el martes a las 22.50; el asesor Caputo estuvo presente para el despegue de la aeronave privada; crece la sospecha sobre la participación de la Casa Rosada en la maniobra de huida.",
-   "leer": "El gobierno de Milei confirmó que Flavio Bolsonaro despegó a la madrugada desde Puerto Iguazú. El excandidato brasileño ingresó por tierra a la Argentina el martes a las 22.50; el asesor Caputo estuvo presente para el despegue de la aeronave privada; crece la sospecha sobre la participación de la Casa Rosada en la maniobra de huida.",
+   "titulo": "Dos partidos de suspensión a Neymar por infringir la 'Ley Vinícius'",
+   "bajada": "São Paulo (Brasil), 28 oct (EFE).- La Justicia Deportiva de Brasil sancionó este miércoles a Neymar, delantero del Santos, con dos partidos de suspensión por taparse la boca mientras discutía con un rival durante un encuentro del Campeonato Brasileño.",
+   "leer": "Dos partidos de suspensión a Neymar por infringir la 'Ley Vinícius'. São Paulo (Brasil), 28 oct (EFE).- La Justicia Deportiva de Brasil sancionó este miércoles a Neymar, delantero del Santos, con dos partidos de suspensión por taparse la boca mientras discutía con un rival durante un encuentro del Campeonato Brasileño.",
+   "fuente": "infobae.com",
+   "t": 1793203351000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "EN VIVO | Clima CDMX y resto de México hoy miércoles 28 de octubre: Vance amenaza con lluvias intensas",
+   "bajada": "Consulta en tiempo real actualizaciones, alertas, noticias y reportes sobre las condiciones meteorológicas en el país.",
+   "leer": "Consulta en tiempo real actualizaciones, alertas, noticias y reportes sobre las condiciones meteorológicas en el país.",
+   "fuente": "infobae.com",
+   "t": 1793203343000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Cuba dice que los daños del bloqueo de EEUU superan los 22,9 millones de dólares al día",
+   "bajada": "Naciones Unidas, 28 oct (EFE).- El canciller de Cuba, Bruno Rodríguez Padilla, rebatió este miércoles en la ONU a Estados Unidos, que niega que exista un bloqueo contra la isla, y aseguró que el embargo estadounidense provoca daños económicos superiores a los 22,9 millones de dólares en un solo día.",
+   "leer": "Cuba dice que los daños del bloqueo de EEUU superan los 22,9 millones de dólares al día. Naciones Unidas, 28 oct (EFE).- El canciller de Cuba, Bruno Rodríguez Padilla, rebatió este miércoles en la ONU a Estados Unidos, que niega que exista un bloqueo contra la isla, y aseguró que el embargo estadounidense provoca daños económicos superiores a los 22,9 millones de dólares en un solo día.",
+   "fuente": "infobae.com",
+   "t": 1793203331000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Flavio Bolsonaro llegó a EE.UU. desde la Argentina, EN VIVO: el excandidato escapó de las autoridades y salió desde Iguazú",
+   "bajada": "Qué se sabe hasta el momento y las repercusiones que hubo a nivel mundial cuando se conoció la noticia.",
+   "leer": "Qué se sabe hasta el momento y las repercusiones que hubo a nivel mundial cuando se conoció la noticia.",
    "fuente": "lanacion.com.ar",
-   "t": 1793175202000
+   "t": 1793203277000
   },
   {
    "tema": "actualidad",
-   "titulo": "MasterChef Celebrity: del sorpresivo “baño polaco” de Juli Poggio a la salida de uno de los participantes más populares",
-   "bajada": "En una nueva noche de eliminación, los concursantes debieron realizar una de las pruebas más complicadas del certamen y tres de ellos quedaron en la cuerda floja.",
-   "leer": "MasterChef Celebrity: del sorpresivo “baño polaco” de Juli Poggio a la salida de uno de los participantes más populares. En una nueva noche de eliminación, los concursantes debieron realizar una de las pruebas más complicadas del certamen y tres de ellos quedaron en la cuerda floja.",
+   "titulo": "Dos trenes de alta velocidad chocaron en Toledo: 68 muertos y 15 heridos graves",
+   "bajada": "El servicio está suspendido entre Madrid, Ciudad Real y Andalucía; el ministro de Transporte español dijo que hubo “un problema de comunicación informática”; Pedro Sánchez se acercó al lugar; el Gobierno intenta corroborar si hay argentinos entre las víctimas.",
+   "leer": "Dos trenes de alta velocidad chocaron en Toledo: 68 muertos y 15 heridos graves. El servicio está suspendido entre Madrid, Ciudad Real y Andalucía; el ministro de Transporte español dijo que hubo “un problema de comunicación informática”; Pedro Sánchez se acercó al lugar; el Gobierno intenta corroborar si hay argentinos entre las víctimas.",
    "fuente": "lanacion.com.ar",
-   "t": 1793174723000
+   "t": 1793203175000
   },
   {
    "tema": "actualidad",
-   "titulo": "Baja del deseo sexual: por qué cuesta hablar de lo que pasa en la intimidad",
-   "bajada": "Es uno de los temas que más cuesta poner en palabras, según un relevamiento. Cómo influyen el cansancio, las exigencias cotidianas y los desencuentros en la pareja. Por qué tener menos ganas no siempre significa lo mismo.",
-   "leer": "Baja del deseo sexual: por qué cuesta hablar de lo que pasa en la intimidad. Es uno de los temas que más cuesta poner en palabras, según un relevamiento. Cómo influyen el cansancio, las exigencias cotidianas y los desencuentros en la pareja. Por qué tener menos ganas no siempre significa lo mismo.",
+   "titulo": "Los Bolsonaro, una historia de poder, prisión y exilio",
+   "bajada": "El ex presidente Jair Bolsonaro está preso por intento de golpe de Estado. Su hijo acaba de huir de Brasil tras perder las elecciones presidenciales. Un clan político de peso en el país, con varios nombres en cargos electivos repartidos por el país.",
+   "leer": "Los Bolsonaro, una historia de poder, prisión y exilio. El ex presidente Jair Bolsonaro está preso por intento de golpe de Estado. Su hijo acaba de huir de Brasil tras perder las elecciones presidenciales. Un clan político de peso en el país, con varios nombres en cargos electivos repartidos por el país.",
    "fuente": "clarin.com",
-   "t": 1793174433000
+   "t": 1793202254000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Argentina le ganó a Bolivia en el Grupo B del Mundial Sub 15 y ya juega contra Costa de Marfil",
+   "bajada": "La Selección venció 4-2 a su par sudamericano. Si bien ya no puede aspirar al título, continúa con partidos hasta el último día.",
+   "leer": "Argentina le ganó a Bolivia en el Grupo B del Mundial Sub 15 y ya juega contra Costa de Marfil. La Selección venció 4-2 a su par sudamericano. Si bien ya no puede aspirar al título, continúa con partidos hasta el último día.",
+   "fuente": "ole.com.ar",
+   "t": 1793202224000
   },
   {
    "tema": "actualidad",
-   "titulo": "Salud mental: por qué estar bien no significa sentirse bien todo el tiempo",
-   "bajada": "Sentirse mal no implica necesariamente que algo funcione mal. Una psiquiatra explica por qué es clave observar qué lugar ocupa el malestar y qué podemos hacer con él.",
-   "leer": "Salud mental: por qué estar bien no significa sentirse bien todo el tiempo. Sentirse mal no implica necesariamente que algo funcione mal. Una psiquiatra explica por qué es clave observar qué lugar ocupa el malestar y qué podemos hacer con él.",
+   "titulo": "Segundo día consecutivo de tregua humanitaria en la ciudad ucraniana de Oleshky",
+   "bajada": "En Oleshky, una tregua temporal permite la entrega de ayuda a sus 2.000 habitantes, asediados por la falta de recursos y el fuego cruzado. En Jersón, el alto el fuego devuelve la vida a la ciudad, con sus calles llenas de actividad tras meses de intensos combates y ataques.",
+   "leer": "Segundo día consecutivo de tregua humanitaria en la ciudad ucraniana de Oleshky. En Oleshky, una tregua temporal permite la entrega de ayuda a sus 2.000 habitantes, asediados por la falta de recursos y el fuego cruzado. En Jersón, el alto el fuego devuelve la vida a la ciudad, con sus calles llenas de actividad tras meses de intensos combates y ataques.",
    "fuente": "clarin.com",
-   "t": 1793174432000
+   "t": 1793202021000
   },
   {
    "tema": "actualidad",
-   "titulo": "Un granjero de Illinois empezó su negocio agrícola en 1972 con 80 acres; hoy cultiva 9.200, con 53 años produciendo semilla de maíz y fue reconocido como \"Master Farmer\" en 2026",
-   "bajada": "Mike Pratt arrancó con una porción pequeña de tierra alquilada y una idea fija. Más de medio siglo después, su granja en Illinois combina maíz, soja, semilla y una mirada puesta en la próxima generación.",
-   "leer": "Un granjero de Illinois empezó su negocio agrícola en 1972 con 80 acres; hoy cultiva 9.200, con 53 años produciendo semilla de maíz y fue reconocido como \"Master Farmer\" en 2026. Mike Pratt arrancó con una porción pequeña de tierra alquilada y una idea fija. Más de medio siglo después, su granja en Illinois combina maíz, soja, semilla y una mirada puesta en la próxima generación.",
+   "titulo": "La ONU renueva la resolución contra el embargo de EE.UU. a Cuba con 130 votos a favor",
+   "bajada": "La ONU respaldó la propuesta cubana contra el bloqueo estadounidense, con un amplio apoyo de delegaciones internacionales. La votación reflejó divisiones, con 17 países en contra y 25 que se abstuvieron del sufragio.",
+   "leer": "La ONU renueva la resolución contra el embargo de EE.UU. a Cuba con 130 votos a favor. La ONU respaldó la propuesta cubana contra el bloqueo estadounidense, con un amplio apoyo de delegaciones internacionales. La votación reflejó divisiones, con 17 países en contra y 25 que se abstuvieron del sufragio.",
    "fuente": "clarin.com",
-   "t": 1793174432000
+   "t": 1793202018000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Dura advertencia de Alfonso Prat-Gay: Vaca Muerta es un \"boom que no arrastra\" al resto de la economía",
+   "bajada": "El exministro de Hacienda señaló que, mientras la minería y el petróleo crecen al 9% anual, la economía no extractiva acumula años de estancamiento. Dardos a la provincia, y advertencias de que el RIGI aún no muestra un impacto significativo.",
+   "leer": "Dura advertencia de Alfonso Prat-Gay: Vaca Muerta es un \"boom que no arrastra\" al resto de la economía. El exministro de Hacienda señaló que, mientras la minería y el petróleo crecen al 9% anual, la economía no extractiva acumula años de estancamiento. Dardos a la provincia, y advertencias de que el RIGI aún no muestra un impacto significativo.",
+   "fuente": "ambito.com",
+   "t": 1793201580000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "¿Por qué la cancha de Argentinos Juniors se llama Diego Armando Maradona?",
+   "bajada": "La casa del Bicho de La Paternal adoptó el nombre del ídolo del Semillero tras su reinauguración en 2003. Su huella sigue presente en cada rincón del estadio.",
+   "leer": "La casa del Bicho de La Paternal adoptó el nombre del ídolo del Semillero tras su reinauguración en 2003. Su huella sigue presente en cada rincón del estadio.",
+   "fuente": "ole.com.ar",
+   "t": 1793201245000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Tras la designación de Ramírez para el Súper, salió el audio del VAR del gol anulado a River contra Racing",
+   "bajada": "La Liga Profesional dio a conocer qué dijeron desde la cabina, la reacción del árbitro cuando fue al monitor y la explicación reglamentaria del tanto invalidado.",
+   "leer": "Tras la designación de Ramírez para el Súper, salió el audio del VAR del gol anulado a River contra Racing. La Liga Profesional dio a conocer qué dijeron desde la cabina, la reacción del árbitro cuando fue al monitor y la explicación reglamentaria del tanto invalidado.",
+   "fuente": "ole.com.ar",
+   "t": 1793200800000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El FMI mantiene la meta fiscal de 1,4% del PBI para 2026 a pesar de la caída de los ingresos",
+   "bajada": "El organismo sostiene que el ancla fiscal es la piedra angular del programa de Argentina. El último comunicado no informa de las metas de junio que quedaron por debajo de lo previsto.",
+   "leer": "El FMI mantiene la meta fiscal de 1,4% del PBI para 2026 a pesar de la caída de los ingresos. El organismo sostiene que el ancla fiscal es la piedra angular del programa de Argentina. El último comunicado no informa de las metas de junio que quedaron por debajo de lo previsto.",
+   "fuente": "ambito.com",
+   "t": 1793200800000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La visita del papa León XIV a la Argentina obliga a cambiar el calendario del fútbol: adelantan el cierre del Clausura y postergan las finales del ascenso",
+   "bajada": "La última fecha de la fase regular de la Liga Profesional se disputará entre el miércoles 4 y el viernes 6 de noviembre. La Primera Nacional también modifica su programación: la definición del primer ascenso se traslada al 14 o 15 de noviembre y la del segundo será el 19 de diciembre.",
+   "leer": "La visita del papa León XIV a la Argentina obliga a cambiar el calendario del fútbol: adelantan el cierre del Clausura y postergan las finales del ascenso. La última fecha de la fase regular de la Liga Profesional se disputará entre el miércoles 4 y el viernes 6 de noviembre. La Primera Nacional también modifica su programación: la definición del primer ascenso se traslada al 14 o 15 de noviembre y la del segundo será el 19 de diciembre.",
+   "fuente": "clarin.com",
+   "t": 1793199780000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El Gobierno consiguió US$ 1.150 millones del BID para seguridad y para mejorar la recaudación de las provincias",
+   "bajada": "Un crédito será por US$ 400 millones para fortalecer las fuerzas federales y combatir el crimen organizado. Otro por US$ 750 millones para mejorar la gestión fiscal de las provincias.",
+   "leer": "El Gobierno consiguió US$ 1.150 millones del BID para seguridad y para mejorar la recaudación de las provincias. Un crédito será por US$ 400 millones para fortalecer las fuerzas federales y combatir el crimen organizado. Otro por US$ 750 millones para mejorar la gestión fiscal de las provincias.",
+   "fuente": "clarin.com",
+   "t": 1793199697000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La prensa en China no perdona a Mbappé: lo tratan de \"lastre\" y aseguran que \"se metió un gol en contra\" por sus dichos",
+   "bajada": "El astro francés hizo una broma vinculada a un meme que le dedican en las redes. El comentario ofendió al gigante asiático, que tomó medidas comerciales de alto impacto. LaLiga de España y el Real Madrid, víctimas inesperadas de una polémica que no afloja.",
+   "leer": "La prensa en China no perdona a Mbappé: lo tratan de \"lastre\" y aseguran que \"se metió un gol en contra\" por sus dichos. El astro francés hizo una broma vinculada a un meme que le dedican en las redes. El comentario ofendió al gigante asiático, que tomó medidas comerciales de alto impacto. LaLiga de España y el Real Madrid, víctimas inesperadas de una polémica que no afloja.",
+   "fuente": "clarin.com",
+   "t": 1793199678000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cambios en el fútbol argentino por la llegada de León XIV",
+   "bajada": "",
+   "leer": "Cambios en el fútbol argentino por la llegada de León XIV.",
+   "fuente": "San Lorenzo Primero",
+   "t": 1793199522000
+  },
+  {
+   "tema": "política",
+   "titulo": "Reforma del Central: el oficialismo aceptó los cambios del Senado y buscará convertirlo en ley el 12 de noviembre",
+   "bajada": "De esta manera renunció a la exigencia de los dos tercios de ambas cámaras para la remoción de las autoridades. Diputados necesitaba dos tercios para revertir lo aprobado por la Cámara alta.",
+   "leer": "Reforma del Central: el oficialismo aceptó los cambios del Senado y buscará convertirlo en ley el 12 de noviembre. De esta manera renunció a la exigencia de los dos tercios de ambas cámaras para la remoción de las autoridades. Diputados necesitaba dos tercios para revertir lo aprobado por la Cámara alta.",
+   "fuente": "clarin.com",
+   "t": 1793199041000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Aldosivi y River jugarían el jueves 6 de noviembre con público visitante",
+   "bajada": "",
+   "leer": "Aldosivi y River jugarían el jueves 6 de noviembre con público visitante.",
+   "fuente": "TyC Sports",
+   "t": 1793198795000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Rating del martes: Alejandro Lerner volverá a empezar... afuera de MasterChef Celebrity",
+   "bajada": "El cantante quedó eliminado en la gala en la que el desafío era preparar un lemon pie. Y él presentó algo impresentable. ¿Cómo sigue el duelo directo entre Guido Kaczka y Nico Vázquez, que el lunes tuvo una brecha de sólo 4 décimas? Los más vistos de cada canal.",
+   "leer": "Rating del martes: Alejandro Lerner volverá a empezar... afuera de MasterChef Celebrity. El cantante quedó eliminado en la gala en la que el desafío era preparar un lemon pie. Y él presentó algo impresentable. ¿Cómo sigue el duelo directo entre Guido Kaczka y Nico Vázquez, que el lunes tuvo una brecha de sólo 4 décimas? Los más vistos de cada canal.",
+   "fuente": "clarin.com",
+   "t": 1793198602000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Richarlison y Lula vs. Neymar y Bolsonaro: la pelea menos pensada por quedarse con una isla en Brasil",
+   "bajada": "El delantero del Tottenham denunció al político recientemente prófugo de quedarse con una isla de su propiedad. Tras los resultados de las elecciones publicó una chicana en redes que provocó la reacción de Neymar y del propio Lula.",
+   "leer": "Richarlison y Lula vs. Neymar y Bolsonaro: la pelea menos pensada por quedarse con una isla en Brasil. El delantero del Tottenham denunció al político recientemente prófugo de quedarse con una isla de su propiedad. Tras los resultados de las elecciones publicó una chicana en redes que provocó la reacción de Neymar y del propio Lula.",
+   "fuente": "clarin.com",
+   "t": 1793198187000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Elecciones en Israel: ¿Qué pasa si nadie obtiene la mayoría?",
+   "bajada": "Los bandos legislativos están cabeza a cabeza. Pese a la leve ventaja del partido de Benjamin Netanyahu sobre el de Gadi Eisenkot, ninguno alcanza las 61 bancas necesarias para la mayoría absoluta en el Parlamento. Cuatro escenarios posibles.",
+   "leer": "Los bandos legislativos están cabeza a cabeza. Pese a la leve ventaja del partido de Benjamin Netanyahu sobre el de Gadi Eisenkot, ninguno alcanza las 61 bancas necesarias para la mayoría absoluta en el Parlamento. Cuatro escenarios posibles.",
+   "fuente": "clarin.com",
+   "t": 1793197838000
+  },
+  {
+   "tema": "música",
+   "titulo": "La Banda Sinfónica presentará “Rock” en su Gala de octubre",
+   "bajada": "",
+   "leer": "La Banda Sinfónica presentará “Rock” en su Gala de octubre.",
+   "fuente": "Plan B Noticias",
+   "t": 1793197594000
+  },
+  {
+   "tema": "música",
+   "titulo": "Llega “Argentina Stone”, un documental sobre la pasión rolinga argentina",
+   "bajada": "",
+   "leer": "Llega “Argentina Stone”, un documental sobre la pasión rolinga argentina.",
+   "fuente": "TV Pública",
+   "t": 1793197492000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate",
+   "bajada": "",
+   "leer": "La buena noticia que recibió el Vasco Arruabarrena en Boca Juniors antes del Superclásico contra River Plate.",
+   "fuente": "Infobae",
+   "t": 1793197375000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Torneo Clausura: Independiente y Boca juegan un partido clave en Avellaneda",
+   "bajada": "",
+   "leer": "Torneo Clausura: Independiente y Boca juegan un partido clave en Avellaneda.",
+   "fuente": "BHInfo",
+   "t": 1793196261000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Manzano se acerca a Shell y cambia el nombre de su empresa controlante: nace Signar Energy",
+   "bajada": "La refinería y surtidores de esa marca fueron compradas por US$ 1.420 millones. En los próximos días entrarán como accionistas José Luis Manzano, Daniel Vila y Mauricio Filiberti. El empresario mendocino analiza adquirir el negocio de Burger King para vender hamburguesas en las estaciones de servicio de Shell.",
+   "leer": "Manzano se acerca a Shell y cambia el nombre de su empresa controlante: nace Signar Energy. La refinería y surtidores de esa marca fueron compradas por US$ 1.420 millones. En los próximos días entrarán como accionistas José Luis Manzano, Daniel Vila y Mauricio Filiberti. El empresario mendocino analiza adquirir el negocio de Burger King para vender hamburguesas en las estaciones de servicio de Shell.",
+   "fuente": "clarin.com",
+   "t": 1793195615000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La compra de un campo de 8.600 hectáreas revoluciona el negocio ganadero",
+   "bajada": "Se trata de un establecimiento ganadero en La Pampa que pertenecía a una sociedad francesa. Los nuevos dueños son los financistas del grupo ST que también adquirió el negocio de utilitarios de Mercedes Benz. Los motivos.",
+   "leer": "La compra de un campo de 8.600 hectáreas revoluciona el negocio ganadero. Se trata de un establecimiento ganadero en La Pampa que pertenecía a una sociedad francesa. Los nuevos dueños son los financistas del grupo ST que también adquirió el negocio de utilitarios de Mercedes Benz. Los motivos.",
+   "fuente": "clarin.com",
+   "t": 1793195028000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Israel espera el resultado de las elecciones en un clima tenso y Benjamin Netanyahu se muestra desafiante",
+   "bajada": "Tras unos comicios con participación histórica, ningún partido tiene mayoría. El primer ministro busca mantenerse en el poder con su coalición de ultraderecha. Y rechaza formar gobierno con los partidos árabes, que lograron un resultado inédito.",
+   "leer": "Israel espera el resultado de las elecciones en un clima tenso y Benjamin Netanyahu se muestra desafiante. Tras unos comicios con participación histórica, ningún partido tiene mayoría. El primer ministro busca mantenerse en el poder con su coalición de ultraderecha. Y rechaza formar gobierno con los partidos árabes, que lograron un resultado inédito.",
+   "fuente": "clarin.com",
+   "t": 1793194766000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Se acerca la vuelta de Carboni: el plan de Racing para recuperarlo cuanto antes",
+   "bajada": "",
+   "leer": "Se acerca la vuelta de Carboni: el plan de Racing para recuperarlo cuanto antes.",
+   "fuente": "TyC Sports",
+   "t": 1793194242000
+  },
+  {
+   "tema": "política",
+   "titulo": "Santiago Caputo viajó a Puerto Iguazú para mostrar que el Gobierno estaba detrás del operativo de salida de Bolsonaro",
+   "bajada": "El asesor de Milei siguió el tema desde el martes y se comunicó con la empresa dueña del avión. Participó de la organización del viaje.",
+   "leer": "Santiago Caputo viajó a Puerto Iguazú para mostrar que el Gobierno estaba detrás del operativo de salida de Bolsonaro. El asesor de Milei siguió el tema desde el martes y se comunicó con la empresa dueña del avión. Participó de la organización del viaje.",
+   "fuente": "clarin.com",
+   "t": 1793193691000
+  },
+  {
+   "tema": "política",
+   "titulo": "Paso a paso, cómo fue el operativo secreto en Puerto Iguazú para sacar a Flávio Bolsonaro del país",
+   "bajada": "Clarín pudo reconstruir la secuencia. Un avión privado estuvo parado 24 horas en Misiones a la espera de órdenes. La protección de la PSA y quiénes viajaron en la nave.",
+   "leer": "Paso a paso, cómo fue el operativo secreto en Puerto Iguazú para sacar a Flávio Bolsonaro del país. Clarín pudo reconstruir la secuencia. Un avión privado estuvo parado 24 horas en Misiones a la espera de órdenes. La protección de la PSA y quiénes viajaron en la nave.",
+   "fuente": "clarin.com",
+   "t": 1793192705000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Juveniles de Club del Este en Independiente de Avellaneda",
+   "bajada": "",
+   "leer": "Juveniles de Club del Este en Independiente de Avellaneda.",
+   "fuente": "La Arena",
+   "t": 1793192098000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Del escándalo de su llegada al adiós prematuro: Matías Reali deja San Lorenzo y regresa a Independiente Rivadavia",
+   "bajada": "",
+   "leer": "Del escándalo de su llegada al adiós prematuro: Matías Reali deja San Lorenzo y regresa a Independiente Rivadavia.",
+   "fuente": "Olé",
+   "t": 1793191293000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Alerta amarilla por tormentas en Buenos Aires durante todo el día: esperan lluvias intensas de hasta 40 mm en estas zonas",
+   "bajada": "",
+   "leer": "Alerta amarilla por tormentas en Buenos Aires durante todo el día: esperan lluvias intensas de hasta 40 mm en estas zonas.",
+   "fuente": "El Cronista",
+   "t": 1793189492000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo será el pico de las lluvias y las provincias más afectadas",
+   "bajada": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
+   "leer": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
+   "fuente": "clarin.com",
+   "t": 1793188891000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Diego Milito recibió un llamado y un DT polémico se ofreció a dirigir Racing",
+   "bajada": "",
+   "leer": "Diego Milito recibió un llamado y un DT polémico se ofreció a dirigir Racing.",
+   "fuente": "El Intransigente",
+   "t": 1793188457000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este miércoles 28 de octubre de 2026 en Argentina",
+   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este miércoles 28 de octubre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "fuente": "clarin.com",
+   "t": 1793182505000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Desde el hospital: la alegría de Daniel Osvaldo por la clasificación de Boca a la final de la Copa Sudamericana",
+   "bajada": "",
+   "leer": "Desde el hospital: la alegría de Daniel Osvaldo por la clasificación de Boca a la final de la Copa Sudamericana.",
+   "fuente": "Olé",
+   "t": 1793181997000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Lali y Miranda! Tres potencias se saludan con una sola consigna: Bailar o morir",
+   "bajada": "Ale Sergi, Juliana Gattas y Lali Espósito se unieron para un disco bailable que se editará el 3 de noviembre. El proyecto se llama \"B.O.M.\" y ya salió el primer single. Cómo fue la curiosa presentación.",
+   "leer": "Lali y Miranda! Tres potencias se saludan con una sola consigna: Bailar o morir. Ale Sergi, Juliana Gattas y Lali Espósito se unieron para un disco bailable que se editará el 3 de noviembre. El proyecto se llama \"B.O.M.\" y ya salió el primer single. Cómo fue la curiosa presentación.",
+   "fuente": "clarin.com",
+   "t": 1793178039000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Cuáles son las profesiones más y menos sospechadas por los argentinos: lo que reveló un ranking global",
+   "bajada": "El Indice de Confiabilidad Global 2026 de Ipsos refleja la percepción en 31 países. En Argentina, los médicos son los que generan menor desconfianza en la gente. Los políticos y funcionarios de Gobierno son los más cuestionados por la sociedad.",
+   "leer": "Cuáles son las profesiones más y menos sospechadas por los argentinos: lo que reveló un ranking global. El Indice de Confiabilidad Global 2026 de Ipsos refleja la percepción en 31 países. En Argentina, los médicos son los que generan menor desconfianza en la gente. Los políticos y funcionarios de Gobierno son los más cuestionados por la sociedad.",
+   "fuente": "clarin.com",
+   "t": 1793178038000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Urgente: hay alerta amarilla por tormentas fuertes en Buenos Aires y otras cuatro provincias",
+   "bajada": "",
+   "leer": "Urgente: hay alerta amarilla por tormentas fuertes en Buenos Aires y otras cuatro provincias.",
+   "fuente": "Crónica",
+   "t": 1793177640000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "Los 5 celulares más buscados de 2026 y por qué fueron protagonistas del año",
+   "bajada": "Entre filtraciones y fechas de lanzamiento, la expectativa marca el pulso del mercado. Pantallas, procesadores, baterías y cámaras que explican por qué todos quieren conocerlos.",
+   "leer": "Los 5 celulares más buscados de 2026 y por qué fueron protagonistas del año. Entre filtraciones y fechas de lanzamiento, la expectativa marca el pulso del mercado. Pantallas, procesadores, baterías y cámaras que explican por qué todos quieren conocerlos.",
+   "fuente": "clarin.com",
+   "t": 1793177193000
   },
   {
    "tema": "fútbol",
@@ -80,302 +360,6 @@
    "leer": "River sumó otro amistoso: el 11, cómo salió y la gran noticia que recibió Ponzio.",
    "fuente": "Olé",
    "t": 1793168009000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Elecciones legislativas en Israel: Netanyahu y la oposición no alcanzan los números para gobernar y los partidos árabes se perfilan como decisivos",
-   "bajada": "Con el 53.7% de las urnas escrutadas, el oficialismo de Likud cuenta con 55 lugares en el Parlamento, mientras que los partidarios de Gadi Eisenkot tienen 50. Los 15 de los partidos árabes serían decisivos para formar gobierno.",
-   "leer": "Elecciones legislativas en Israel: Netanyahu y la oposición no alcanzan los números para gobernar y los partidos árabes se perfilan como decisivos. Con el 53.7% de las urnas escrutadas, el oficialismo de Likud cuenta con 55 lugares en el Parlamento, mientras que los partidarios de Gadi Eisenkot tienen 50. Los 15 de los partidos árabes serían decisivos para formar gobierno.",
-   "fuente": "clarin.com",
-   "t": 1793165720000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso",
-   "bajada": "",
-   "leer": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso.",
-   "fuente": "Olé",
-   "t": 1793161867000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El avión privado que esperó todo un día finalmente despegó con Bolsonaro y su familia desde Iguazú pasada la medianoche",
-   "bajada": "En medio de un sinfín de rumores, el candidato derrotado abandonó Brasil pese a la prohibición de salir del país. Dos combis misteriosas atravesaron la frontera brasileña, pasadas las 23, y fue escoltado por un patrullero de la PSA hasta el aeropuerto misionero.",
-   "leer": "El avión privado que esperó todo un día finalmente despegó con Bolsonaro y su familia desde Iguazú pasada la medianoche. En medio de un sinfín de rumores, el candidato derrotado abandonó Brasil pese a la prohibición de salir del país. Dos combis misteriosas atravesaron la frontera brasileña, pasadas las 23, y fue escoltado por un patrullero de la PSA hasta el aeropuerto misionero.",
-   "fuente": "clarin.com",
-   "t": 1793161388000
-  },
-  {
-   "tema": "política",
-   "titulo": "Máximo Kirchner recordó a Néstor y pidió por la liberación de Cristina: \"¿La vamos a hacer presidenta?\"",
-   "bajada": "El diputado encabezó un acto a 16 años de la muerte de su padre. Cuestionó a Javier Milei y le agradeció al Frente Renovador de Sergio Massa, ausente en el evento.",
-   "leer": "El diputado encabezó un acto a 16 años de la muerte de su padre. Cuestionó a Javier Milei y le agradeció al Frente Renovador de Sergio Massa, ausente en el evento.",
-   "fuente": "clarin.com",
-   "t": 1793160396000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este miércoles 28 octubre de 2026",
-   "bajada": "",
-   "leer": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este miércoles 28 octubre de 2026.",
-   "fuente": "Clarin.com",
-   "t": 1793156585000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Tragedia en pleno centro de Mendoza: una nena de casi dos años murió, tras ser atropellada por un bus turístico",
-   "bajada": "La menor fue embestida por el micro cuando cruzaba la calle con su mamá y su abuela. El comunicado de la empresa de transporte.",
-   "leer": "Tragedia en pleno centro de Mendoza: una nena de casi dos años murió, tras ser atropellada por un bus turístico. La menor fue embestida por el micro cuando cruzaba la calle con su mamá y su abuela. El comunicado de la empresa de transporte.",
-   "fuente": "clarin.com",
-   "t": 1793153991000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "INDEPENDIENTE (SDE) vs SANTA PAULA (G) | La Liga Argentina de Básquetbol",
-   "bajada": "",
-   "leer": "INDEPENDIENTE (SDE) vs SANTA PAULA (G) | La Liga Argentina de Básquetbol.",
-   "fuente": "Liga Nacional de Básquet",
-   "t": 1793153259000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River, complicado con el triunfo de Argentinos",
-   "bajada": "El resultado en La Paternal dejó al equipo de Ponzio obligado a sumar en La Bombonera para no alejarse de los puestos de clasificación al certamen continental.",
-   "leer": "River, complicado con el triunfo de Argentinos. El resultado en La Paternal dejó al equipo de Ponzio obligado a sumar en La Bombonera para no alejarse de los puestos de clasificación al certamen continental.",
-   "fuente": "ole.com.ar",
-   "t": 1793151597000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "U2, nueva fecha: 27 de marzo de 2027 en el Monumental - PREVENTA EXCLUSIVA para SOCIOS del Club",
-   "bajada": "",
-   "leer": "U2, nueva fecha: 27 de marzo de 2027 en el Monumental - PREVENTA EXCLUSIVA para SOCIOS del Club.",
-   "fuente": "www.riverplate.com",
-   "t": 1793151508000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Verón a fondo: \"¿Quién cree en el arbitraje?\" y ¿un café con Chiqui Tapia?",
-   "bajada": "El presidente de Estudiantes habló de todo y tocó temas sensibles en el fútbol argentino: las SAD, los jueces, su relación con el titular de la AFA...",
-   "leer": "El presidente de Estudiantes habló de todo y tocó temas sensibles en el fútbol argentino: las SAD, los jueces, su relación con el titular de la AFA...",
-   "fuente": "ole.com.ar",
-   "t": 1793151488000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "A casi dos meses de su salida de Independiente, Lomónaco debutó en Elche",
-   "bajada": "El central fue titular en el triunfo del equipo de Martín Anselmi ante Pinatar CF, por la Primera Ronda de la Copa del Rey: sumó sus primeros minutos oficiales en el club.",
-   "leer": "A casi dos meses de su salida de Independiente, Lomónaco debutó en Elche. El central fue titular en el triunfo del equipo de Martín Anselmi ante Pinatar CF, por la Primera Ronda de la Copa del Rey: sumó sus primeros minutos oficiales en el club.",
-   "fuente": "ole.com.ar",
-   "t": 1793151106000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Juan Sebastián Verón, a agenda abierta: su relación con Chiqui Tapia, el reclamo de Flamengo por Rojo y por qué el modelo SAD \"es necesario\"",
-   "bajada": "El presidente de Estudiantes de La Plata también se metió en el debate por los cinco grandes, aunque separó al \"Pincha\". Su relación con River para cambiar el fútbol argentino y los arbitrajes polémicos que rodean el desenlace de la temporada.",
-   "leer": "Juan Sebastián Verón, a agenda abierta: su relación con Chiqui Tapia, el reclamo de Flamengo por Rojo y por qué el modelo SAD \"es necesario\". El presidente de Estudiantes de La Plata también se metió en el debate por los cinco grandes, aunque separó al \"Pincha\". Su relación con River para cambiar el fútbol argentino y los arbitrajes polémicos que rodean el desenlace de la temporada.",
-   "fuente": "clarin.com",
-   "t": 1793150234000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "\"Tuve más afecto en prisión que por parte de mis vecinos\": habló el bioquímico de Esquel detenido por mantener encerrada a su familia",
-   "bajada": "A Miguel Battista (71) lo imputaron este martes en Esquel y luego fue trasladado nuevamente a una comisaría de Trevelin. Está acusado de privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos.",
-   "leer": "\"Tuve más afecto en prisión que por parte de mis vecinos\": habló el bioquímico de Esquel detenido por mantener encerrada a su familia. A Miguel Battista (71) lo imputaron este martes en Esquel y luego fue trasladado nuevamente a una comisaría de Trevelin. Está acusado de privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos.",
-   "fuente": "clarin.com",
-   "t": 1793149394000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La emotiva despedida de Stan Wawrinka del tenis: perdió en Basilea el estético revés a una mano que fue un rayo de luz entre los gigantes",
-   "bajada": "El suizo, de 41 años, perdió ante el checo Jiri Lehecka en la primera ronda y cerró una carrera que empezó en 2002. Ganó tres torneos de Grand Slam, en una época donde Roger Federer, Rafael Nadal y Novak Djokovic dominaron.",
-   "leer": "La emotiva despedida de Stan Wawrinka del tenis: perdió en Basilea el estético revés a una mano que fue un rayo de luz entre los gigantes. El suizo, de 41 años, perdió ante el checo Jiri Lehecka en la primera ronda y cerró una carrera que empezó en 2002. Ganó tres torneos de Grand Slam, en una época donde Roger Federer, Rafael Nadal y Novak Djokovic dominaron.",
-   "fuente": "clarin.com",
-   "t": 1793148939000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Árbitro designado para Vélez - San Lorenzo",
-   "bajada": "",
-   "leer": "Árbitro designado para Vélez - San Lorenzo.",
-   "fuente": "San Lorenzo Primero",
-   "t": 1793148357000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La fiesta que no fue: San Miguel pasó de la revolución por un Dream Team al descenso en la Primera Nacional",
-   "bajada": "Federico Almada, su presidente, hizo un contrato de patrocinio en 2025 con Jano’s, una empresa con casi 100 salones en todo el país y que facturaba unos 3.000 millones de pesos por mes. Pero las cosas no salieron como se esperaba.",
-   "leer": "La fiesta que no fue: San Miguel pasó de la revolución por un Dream Team al descenso en la Primera Nacional. Federico Almada, su presidente, hizo un contrato de patrocinio en 2025 con Jano’s, una empresa con casi 100 salones en todo el país y que facturaba unos 3.000 millones de pesos por mes. Pero las cosas no salieron como se esperaba.",
-   "fuente": "clarin.com",
-   "t": 1793147019000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La morosidad en microempresas es de casi 18% y quintuplica a la de las grandes compañías",
-   "bajada": "Pese a su baja incidencia en el monto total de deuda corporativa, las firmas más pequeñas enfrentan una situación crediticia preocupante. La mayoría de las empresas que refinanciaron sus compromisos no logra una mejora sostenida.",
-   "leer": "La morosidad en microempresas es de casi 18% y quintuplica a la de las grandes compañías. Pese a su baja incidencia en el monto total de deuda corporativa, las firmas más pequeñas enfrentan una situación crediticia preocupante. La mayoría de las empresas que refinanciaron sus compromisos no logra una mejora sostenida.",
-   "fuente": "ambito.com",
-   "t": 1793146680000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Federación de Fútbol. Sub 15: Racing de Carhué perdió en su visita al líder",
-   "bajada": "",
-   "leer": "Federación de Fútbol. Sub 15: Racing de Carhué perdió en su visita al líder.",
-   "fuente": "La Nueva Radio Suárez",
-   "t": 1793146606000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Cómo quedó Boca en la tabla anual para clasificar a la Copa Libertadores 2027",
-   "bajada": "",
-   "leer": "Cómo quedó Boca en la tabla anual para clasificar a la Copa Libertadores 2027.",
-   "fuente": "TyC Sports",
-   "t": 1793145669000
-  },
-  {
-   "tema": "política",
-   "titulo": "Con la presencia de Martín Menem, Negri y Camaño, presentaron un libro sobre el rol del Congreso tras la reforma de 1994",
-   "bajada": "La publicación de más de 300 páginas examina la evolución y el funcionamiento del Poder Legislativo argentino a partir del retorno democrático de 1983.",
-   "leer": "Con la presencia de Martín Menem, Negri y Camaño, presentaron un libro sobre el rol del Congreso tras la reforma de 1994. La publicación de más de 300 páginas examina la evolución y el funcionamiento del Poder Legislativo argentino a partir del retorno democrático de 1983.",
-   "fuente": "clarin.com",
-   "t": 1793145520000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Domingo Cavallo criticó a Javier Milei y pidió liberar la compra y venta de dólares",
-   "bajada": "El exministro comparó la intervención oficial con los controles de Guillermo Moreno y cuestionó las restricciones para las empresas. También reclamó extender los beneficios del RIGI a toda la economía.",
-   "leer": "Domingo Cavallo criticó a Javier Milei y pidió liberar la compra y venta de dólares. El exministro comparó la intervención oficial con los controles de Guillermo Moreno y cuestionó las restricciones para las empresas. También reclamó extender los beneficios del RIGI a toda la economía.",
-   "fuente": "ambito.com",
-   "t": 1793145000000
-  },
-  {
-   "tema": "política",
-   "titulo": "Paritaria de Comercio: el sindicato y las cámaras empresarias acordaron un aumento del 5,7% y un bono de $50.000",
-   "bajada": "La suba se aplicará en tres veces: octubre, noviembre y diciembre. En tanto, el pago de la suma adicional se dividirá en dos partes iguales.",
-   "leer": "Paritaria de Comercio: el sindicato y las cámaras empresarias acordaron un aumento del 5,7% y un bono de $50.000. La suba se aplicará en tres veces: octubre, noviembre y diciembre. En tanto, el pago de la suma adicional se dividirá en dos partes iguales.",
-   "fuente": "clarin.com",
-   "t": 1793144105000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Javier Milei tiene que darse un permitido: un \"Plan Platita\" de derecha",
-   "bajada": "La pregunta es cómo responderá el Gobierno a las mayores presiones inflacionarias por el petróleo más caro y las tasas más altas: ¿con más ajuste fiscal y apretón monetario? Para muchos en cambio la opción pasa por relajar los encajes y que haya más crédito.",
-   "leer": "Javier Milei tiene que darse un permitido: un \"Plan Platita\" de derecha. La pregunta es cómo responderá el Gobierno a las mayores presiones inflacionarias por el petróleo más caro y las tasas más altas: ¿con más ajuste fiscal y apretón monetario? Para muchos en cambio la opción pasa por relajar los encajes y que haya más crédito.",
-   "fuente": "clarin.com",
-   "t": 1793142339000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Confirmado: sin Paredes en el 11, así va Boca por la épica en el Maracaná",
-   "bajada": "",
-   "leer": "Confirmado: sin Paredes en el 11, así va Boca por la épica en el Maracaná.",
-   "fuente": "Olé",
-   "t": 1793141538000
-  },
-  {
-   "tema": "música",
-   "titulo": "Merlo: una muestra recorre 50 años de historia del rock nacional",
-   "bajada": "",
-   "leer": "Merlo: una muestra recorre 50 años de historia del rock nacional.",
-   "fuente": "Aquí La Noticia",
-   "t": 1793136818000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El FMI llegó a un acuerdo técnico con Argentina para avanzar en un desembolso de US$ 900 millones",
-   "bajada": "El organismo dijo que se cumplió la meta de reservas, pero no informó si se alcanzó el objetivo fiscal. Ahora debe aprobar el acuerdo el directorio, que lo tratará a principios de diciembre. El FMI habló de resultados \"impresionantes\", pidió un tipo de cambio flexible y una expansión \"prudente\" del crédito.",
-   "leer": "El FMI llegó a un acuerdo técnico con Argentina para avanzar en un desembolso de US$ 900 millones. El organismo dijo que se cumplió la meta de reservas, pero no informó si se alcanzó el objetivo fiscal. Ahora debe aprobar el acuerdo el directorio, que lo tratará a principios de diciembre. El FMI habló de resultados \"impresionantes\", pidió un tipo de cambio flexible y una expansión \"prudente\" del crédito.",
-   "fuente": "clarin.com",
-   "t": 1793135853000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El vice del Banco Central rindió examen sobre el crédito y las soluciones a la mora ante estudiantes",
-   "bajada": "Vladimir Werning participó de una clase en la UTDT junto a representantes de bancos y economistas. Contrapunto por las tasas, el salario real y el riesgo electoral.",
-   "leer": "El vice del Banco Central rindió examen sobre el crédito y las soluciones a la mora ante estudiantes. Vladimir Werning participó de una clase en la UTDT junto a representantes de bancos y economistas. Contrapunto por las tasas, el salario real y el riesgo electoral.",
-   "fuente": "clarin.com",
-   "t": 1793134027000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "U2 anunció un tercer show en Argentina: cuándo y dónde",
-   "bajada": "",
-   "leer": "U2 anunció un tercer show en Argentina: cuándo y dónde.",
-   "fuente": "Rosario3",
-   "t": 1793132640000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Tras agotar dos shows en pocas horas, U2 anunció una tercera fecha en Argentina: cuándo comprar las entradas",
-   "bajada": "",
-   "leer": "Tras agotar dos shows en pocas horas, U2 anunció una tercera fecha en Argentina: cuándo comprar las entradas.",
-   "fuente": "La Gaceta",
-   "t": 1793132301000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La charla de Insúa con el plantel de San Lorenzo y cómo quedó la relación con Cuello",
-   "bajada": "",
-   "leer": "La charla de Insúa con el plantel de San Lorenzo y cómo quedó la relación con Cuello.",
-   "fuente": "TyC Sports",
-   "t": 1793131916000
-  },
-  {
-   "tema": "música",
-   "titulo": "Calle Angosta Rock 2026: Villa Mercedes tendrá tres jornadas de música en diciembre",
-   "bajada": "",
-   "leer": "Calle Angosta Rock 2026: Villa Mercedes tendrá tres jornadas de música en diciembre.",
-   "fuente": "Agencia de Noticias San Luis",
-   "t": 1793125380000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Noah Wyle, el doctor Robby de la multipremiada \"The Pitt\", fue elegido como el hombre más sexy del mundo en 2026",
-   "bajada": "La revista People distinguió al actor de 55 años que atraviesa uno de los mejores momentos de su carrera tras ganar dos premios Emmy consecutivos por su papel protagónico en la serie médica.",
-   "leer": "Noah Wyle, el doctor Robby de la multipremiada \"The Pitt\", fue elegido como el hombre más sexy del mundo en 2026. La revista People distinguió al actor de 55 años que atraviesa uno de los mejores momentos de su carrera tras ganar dos premios Emmy consecutivos por su papel protagónico en la serie médica.",
-   "fuente": "clarin.com",
-   "t": 1793121884000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Probamos Elegoo Canvas: el esperado accesorio que transforma una impresora 3D común en una máquina multicolor",
-   "bajada": "Permite crear figuras, objetos decorativos y piezas personalizadas sin cambiar manualmente los materiales durante el trabajo. Pero no todo es sencillo: la instalación requiere modificar varios componentes y dedicarle varias horas al montaje.",
-   "leer": "Probamos Elegoo Canvas: el esperado accesorio que transforma una impresora 3D común en una máquina multicolor. Permite crear figuras, objetos decorativos y piezas personalizadas sin cambiar manualmente los materiales durante el trabajo. Pero no todo es sencillo: la instalación requiere modificar varios componentes y dedicarle varias horas al montaje.",
-   "fuente": "clarin.com",
-   "t": 1793120077000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Cómo tomaron en Racing las declaraciones de Guillermo Barros Schelotto",
-   "bajada": "",
-   "leer": "Cómo tomaron en Racing las declaraciones de Guillermo Barros Schelotto.",
-   "fuente": "TyC Sports",
-   "t": 1793119189000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Cómo fue el debut del joven tenor Freddie De Tomaso en Teatro Colón, en una noche en la que la soprano Nadine Sierra se metió al público en el bolsillo",
-   "bajada": "El artista británico-italiano, de 33 años, se presentó en la última fecha del Ciclo Aura, con la carismática estadounidense como invitada de lujo. Dueño de una voz prodigiosa y de gran caudal, el tenor tuvo varios momentos de lucimiento lírico, pero su desempeño en general fue algo desparejo.",
-   "leer": "Cómo fue el debut del joven tenor Freddie De Tomaso en Teatro Colón, en una noche en la que la soprano Nadine Sierra se metió al público en el bolsillo. El artista británico-italiano, de 33 años, se presentó en la última fecha del Ciclo Aura, con la carismática estadounidense como invitada de lujo. Dueño de una voz prodigiosa y de gran caudal, el tenor tuvo varios momentos de lucimiento lírico, pero su desempeño en general fue algo desparejo.",
-   "fuente": "clarin.com",
-   "t": 1793118497000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Alerta amarilla por fuertes tormentas con granizo en Buenos Aires y otras dos provincias",
-   "bajada": "",
-   "leer": "Alerta amarilla por fuertes tormentas con granizo en Buenos Aires y otras dos provincias.",
-   "fuente": "Crónica",
-   "t": 1793116380000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Murió Alan Dysert, el actor que interpretó a Sean Cudahy en All My Children",
-   "bajada": "Tenía 75 años y padecía cáncer desde hacía una década. También trabajó como profesor, productor, guionista y director. Había escrito un libro sobre su enfermedad y su trayectoria: \"Luces, cámara, cáncer\".",
-   "leer": "Murió Alan Dysert, el actor que interpretó a Sean Cudahy en All My Children. Tenía 75 años y padecía cáncer desde hacía una década. También trabajó como profesor, productor, guionista y director. Había escrito un libro sobre su enfermedad y su trayectoria: \"Luces, cámara, cáncer\".",
-   "fuente": "clarin.com",
-   "t": 1793113928000
   }
  ]
 }
