@@ -1,117 +1,205 @@
 {
- "t": 1793322054052,
+ "t": 1793344067243,
  "items": [
   {
+   "tema": "actualidad",
+   "titulo": "Última hora del accidente de trenes en Toledo, en directo | Continúan las labores de búsqueda en Urda y Óscar Puente ofrecerá una rueda de prensa este viernes",
+   "bajada": "El choque entre dos trenes de alta velocidad el pasado miércoles ha dejado al menos 69 víctimas mortales.",
+   "leer": "El choque entre dos trenes de alta velocidad el pasado miércoles ha dejado al menos 69 víctimas mortales.",
+   "fuente": "infobae.com",
+   "t": 1793343820000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Docuserie de Netflix revela cómo un secuestro llevó a los gemelos Flores a ser socios de El Chapo y El Mayo, a quienes después traicionaron",
+   "bajada": "El primer episodio de La caída de El Mayo reconstruye el encuentro de los hermanos Flores con la cúpula del Cártel de Sinaloa y la decisión que los llevó a cooperar con Estados Unidos.",
+   "leer": "Docuserie de Netflix revela cómo un secuestro llevó a los gemelos Flores a ser socios de El Chapo y El Mayo, a quienes después traicionaron. El primer episodio de La caída de El Mayo reconstruye el encuentro de los hermanos Flores con la cúpula del Cártel de Sinaloa y la decisión que los llevó a cooperar con Estados Unidos.",
+   "fuente": "infobae.com",
+   "t": 1793343705000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Un gato y un cruel letrero desatan críticas contra farmacia: usuarios llaman a boicotear la cadena",
+   "bajada": "Farmacias Guadalajara enfrenta la cancelación digital por restringir a sus clientes alimentar un minino que deambula en el lugar.",
+   "leer": "Un gato y un cruel letrero desatan críticas contra farmacia: usuarios llaman a boicotear la cadena. Farmacias Guadalajara enfrenta la cancelación digital por restringir a sus clientes alimentar un minino que deambula en el lugar.",
+   "fuente": "infobae.com",
+   "t": 1793343656000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El ICE estudia un contrato tecnológico para analizar miles de millones de registros telefónicos con inteligencia artificial",
+   "bajada": "Analiza el contrato tecnológico que estudia el ICE para procesar miles de millones de registros telefónicos con inteligencia artificial y sus alcances.",
+   "leer": "El ICE estudia un contrato tecnológico para analizar miles de millones de registros telefónicos con inteligencia artificial. Analiza el contrato tecnológico que estudia el ICE para procesar miles de millones de registros telefónicos con inteligencia artificial y sus alcances.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793343600000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El conteo anticipado de las elecciones de medio término en EE.UU. ya superó la de 2022 y se acerca a 40 millones",
+   "bajada": "Consulta cómo avanza la votación anticipada en EE.UU.: casi 40 millones de votos, diferencias entre estados y comparación con las elecciones de 2022.",
+   "leer": "El conteo anticipado de las elecciones de medio término en EE.UU. ya superó la de 2022 y se acerca a 40 millones. Consulta cómo avanza la votación anticipada en EE.UU.: casi 40 millones de votos, diferencias entre estados y comparación con las elecciones de 2022.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793343360000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Últimas encuestas de las elecciones en Texas y quién gana la gobernación entre Abbott e Hinojosa",
+   "bajada": "Compara las encuestas de Texas: Abbott aventaja a Hinojosa y Talarico lidera frente a Paxton, con márgenes estrechos antes de las elecciones.",
+   "leer": "Últimas encuestas de las elecciones en Texas y quién gana la gobernación entre Abbott e Hinojosa. Compara las encuestas de Texas: Abbott aventaja a Hinojosa y Talarico lidera frente a Paxton, con márgenes estrechos antes de las elecciones.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793342880000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El SR-71 Blackbird de la Fuerza Aérea, capaz de alcanzar Mach 3, funcionaba con un combustible tan estable que se podía apagar una cerilla en él. Entonces tuvieron que inventar una forma de encenderlo",
+   "bajada": "El llamado JP-7 hizo posible que surja el avión tripulado con motor más rápido del mundo. Fue todo un desafío que el combustible aguante el calor y la fricción de la velocidad.",
+   "leer": "El SR-71 Blackbird de la Fuerza Aérea, capaz de alcanzar Mach 3, funcionaba con un combustible tan estable que se podía apagar una cerilla en él. Entonces tuvieron que inventar una forma de encenderlo. El llamado JP-7 hizo posible que surja el avión tripulado con motor más rápido del mundo. Fue todo un desafío que el combustible aguante el calor y la fricción de la velocidad.",
+   "fuente": "clarin.com",
+   "t": 1793342823000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Alerta amarilla por tormentas para el AMBA y otras zonas de las provincias de Buenos Aires, Santa Fe y Entre Ríos",
+   "bajada": "El Servicio Meteorológico Nacional lanzó una advertencia por lluvias localmente fuertes para este viernes y anticipó que puede caer granizo en esa región. En qué momentos de la jornada se espera la mayor intensidad.",
+   "leer": "Alerta amarilla por tormentas para el AMBA y otras zonas de las provincias de Buenos Aires, Santa Fe y Entre Ríos. El Servicio Meteorológico Nacional lanzó una advertencia por lluvias localmente fuertes para este viernes y anticipó que puede caer granizo en esa región. En qué momentos de la jornada se espera la mayor intensidad.",
+   "fuente": "clarin.com",
+   "t": 1793342209000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Salvador Sobral sorprendió en La Revuelta con su crítica a Cristiano Ronaldo: \"Tiene el síndrome del semidiós\"",
+   "bajada": "El cantante portugués visitó el programa español y expresó fuertes reproches al delantero. Fue cuando le consultaron su opinión sobre el escándalo desatado luego de que el futbolista abandonara la concentración de la selección de Portugal.",
+   "leer": "Salvador Sobral sorprendió en La Revuelta con su crítica a Cristiano Ronaldo: \"Tiene el síndrome del semidiós\". El cantante portugués visitó el programa español y expresó fuertes reproches al delantero. Fue cuando le consultaron su opinión sobre el escándalo desatado luego de que el futbolista abandonara la concentración de la selección de Portugal.",
+   "fuente": "clarin.com",
+   "t": 1793340062000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Senado aprobó la reforma de la Ley Nacional de Salud Mental impulsada por el Gobierno",
+   "bajada": "La iniciativa obtuvo 42 votos afirmativos, 21 negativos y ninguna abstención en la Cámara alta, y fue girada a Diputados. La propuesta generó debate por los cambios planteados en el sistema de atención de salud mental y por las diferencias sobre el financiamiento de su implementación en las provincias.",
+   "leer": "El Senado aprobó la reforma de la Ley Nacional de Salud Mental impulsada por el Gobierno. La iniciativa obtuvo 42 votos afirmativos, 21 negativos y ninguna abstención en la Cámara alta, y fue girada a Diputados. La propuesta generó debate por los cambios planteados en el sistema de atención de salud mental y por las diferencias sobre el financiamiento de su implementación en las provincias.",
+   "fuente": "clarin.com",
+   "t": 1793334506000
+  },
+  {
    "tema": "fútbol",
-   "titulo": "La sorpresiva decisión de Arruabarrena con el equipo de Boca Juniors a menos de 72 horas para el Superclásico ante River Plate",
+   "titulo": "Racing y una buena noticia con Leandro Córdoba: volvió a pisar el campo tras su lesión de tobillo",
    "bajada": "",
-   "leer": "La sorpresiva decisión de Arruabarrena con el equipo de Boca Juniors a menos de 72 horas para el Superclásico ante River Plate.",
+   "leer": "Racing y una buena noticia con Leandro Córdoba: volvió a pisar el campo tras su lesión de tobillo.",
+   "fuente": "Olé",
+   "t": 1793333764000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Atento Boca Juniors: las dos bajas por lesión que sufrió el Atlético Mineiro, rival en la final de la Copa Sudamericana",
+   "bajada": "",
+   "leer": "Atento Boca Juniors: las dos bajas por lesión que sufrió el Atlético Mineiro, rival en la final de la Copa Sudamericana.",
    "fuente": "Infobae",
-   "t": 1793321977000
+   "t": 1793333160000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Entre respaldos y advertencias, la clase política reacciona a la Ley de Rescate Económico emitida por el Gobierno De La Espriella",
-   "bajada": "La iniciativa de 123 páginas constituye la segunda fase del ajuste del Ejecutivo ante un déficit fiscal que sus proyecciones sitúan en 144 billones de pesos al cierre de 2026.",
-   "leer": "Entre respaldos y advertencias, la clase política reacciona a la Ley de Rescate Económico emitida por el Gobierno De La Espriella. La iniciativa de 123 páginas constituye la segunda fase del ajuste del Ejecutivo ante un déficit fiscal que sus proyecciones sitúan en 144 billones de pesos al cierre de 2026.",
-   "fuente": "infobae.com",
-   "t": 1793321913000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Cómo ahorrar en combustible en Lima: estos son los grifos con los precios más bajos de gasolina y diésel",
-   "bajada": "Así están los precios de los carburantes en la capital peruana.",
-   "leer": "Cómo ahorrar en combustible en Lima: estos son los grifos con los precios más bajos de gasolina y diésel. Así están los precios de los carburantes en la capital peruana.",
-   "fuente": "infobae.com",
-   "t": 1793321810000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Bukele y Keiko Fujimori se reúnen en Casa Presidencial para discutir los retos de seguridad que comparten El Salvador y Perú",
-   "bajada": "Criminalidad organizada, salud, educación y turismo estuvieron sobre la mesa en el encuentro bilateral. Ambos gobiernos buscan construir una agenda conjunta frente a desafíos compartidos en la región.",
-   "leer": "Bukele y Keiko Fujimori se reúnen en Casa Presidencial para discutir los retos de seguridad que comparten El Salvador y Perú. Criminalidad organizada, salud, educación y turismo estuvieron sobre la mesa en el encuentro bilateral. Ambos gobiernos buscan construir una agenda conjunta frente a desafíos compartidos en la región.",
-   "fuente": "infobae.com",
-   "t": 1793321743000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "A días de la visita del Papa y tras un embargo judicial, el Gobierno dice haber regularizado una deuda con el Cottolengo Don Orione",
-   "bajada": "Esta semana, el juez federal Juan Pablo Auge había embargado por $828 millones las cuentas del ministerio que encabeza Mario Lugones.",
-   "leer": "A días de la visita del Papa y tras un embargo judicial, el Gobierno dice haber regularizado una deuda con el Cottolengo Don Orione. Esta semana, el juez federal Juan Pablo Auge había embargado por $828 millones las cuentas del ministerio que encabeza Mario Lugones.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793321655000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Binance investiga un posible hackeo tras la salida de miles de millones de dólares: “Problema de seguridad”",
-   "bajada": "La empresa que opera criptomonedas confirmó que inició una investigación y aseguró a los usuarios que sus fondos “están a salvo” ; también aclaró que cubrirá todas las pérdidas.",
-   "leer": "Binance investiga un posible hackeo tras la salida de miles de millones de dólares: “Problema de seguridad”. La empresa que opera criptomonedas confirmó que inició una investigación y aseguró a los usuarios que sus fondos “están a salvo” ; también aclaró que cubrirá todas las pérdidas.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793321652000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El Senado aprobó un nuevo régimen de inversiones y se apresta a discutir la reforma a la ley de salud mental",
-   "bajada": "La reunión arrancó con la jura de la libertaria Claudia López, reemplazante del fallecido Pagotto; la Cámara alta aprobó una resolución que invita al Papa León XIV a hablar en el Congreso.",
-   "leer": "El Senado aprobó un nuevo régimen de inversiones y se apresta a discutir la reforma a la ley de salud mental. La reunión arrancó con la jura de la libertaria Claudia López, reemplazante del fallecido Pagotto; la Cámara alta aprobó una resolución que invita al Papa León XIV a hablar en el Congreso.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793321639000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Gimnasia y Esgrima e Independiente Rivadavia, ante dos partidos decisivos y con el clásico mendocino en el horizonte",
+   "tema": "clima",
+   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este viernes 30 octubre de 2026",
    "bajada": "",
-   "leer": "Gimnasia y Esgrima e Independiente Rivadavia, ante dos partidos decisivos y con el clásico mendocino en el horizonte.",
-   "fuente": "Los Andes",
-   "t": 1793321580000
+   "leer": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este viernes 30 octubre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1793329844000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El cumpleaños de un inmortal: Diego Maradona cumpliría 66 años y todavía anda entre nosotros",
+   "bajada": "Pasaron seis años desde su muerte, pero su figura continúa atravesando generaciones, homenajes y recuerdos. Del pibe de Fiorito al héroe eterno del fútbol argentino, Diego permanece donde habitan las leyendas: lejos del olvido.",
+   "leer": "El cumpleaños de un inmortal: Diego Maradona cumpliría 66 años y todavía anda entre nosotros. Pasaron seis años desde su muerte, pero su figura continúa atravesando generaciones, homenajes y recuerdos. Del pibe de Fiorito al héroe eterno del fútbol argentino, Diego permanece donde habitan las leyendas: lejos del olvido.",
+   "fuente": "clarin.com",
+   "t": 1793329380000
   },
   {
    "tema": "fútbol",
-   "titulo": "Atento Boca: un jugador de Atlético Mineiro al hospital y otro con posible desgarro en la derrota del clásico",
-   "bajada": "El equipo de Eduardo Domínguez, rival del Xeneize en la final de la Sudamericana, sufrió dos bajas por lesiones que parecen complejas además de sufrir la caída contra Cruzeiro como local.",
-   "leer": "Atento Boca: un jugador de Atlético Mineiro al hospital y otro con posible desgarro en la derrota del clásico. El equipo de Eduardo Domínguez, rival del Xeneize en la final de la Sudamericana, sufrió dos bajas por lesiones que parecen complejas además de sufrir la caída contra Cruzeiro como local.",
+   "titulo": "Bajo cero y con los puños en alto: la foto de Diego Maradona en la Muralla China que nació de una promesa a sus hijas",
+   "bajada": "Con 43 años recién cumplidos y las duras temperaturas de Pekín, el Diez dejó una postal eterna. La trastienda de una imagen icónica, la chicana a Pelé y el juramento a Dalma y Gianinna que rescató Olé.",
+   "leer": "Bajo cero y con los puños en alto: la foto de Diego Maradona en la Muralla China que nació de una promesa a sus hijas. Con 43 años recién cumplidos y las duras temperaturas de Pekín, el Diez dejó una postal eterna. La trastienda de una imagen icónica, la chicana a Pelé y el juramento a Dalma y Gianinna que rescató Olé.",
    "fuente": "ole.com.ar",
-   "t": 1793320826000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Trump cancela dos mítines el fin de semana antes de las legislativas en EEUU",
-   "bajada": "El líder estadounidense cambia eventos presenciales por \"mítines virtuales\" a días de cruciales elecciones. La estrategia busca reforzar el apoyo. Con un calendario exigente, el mandatario se enfoca en asegurar el control del Congreso, mientras enfrenta críticas por su nivel de aprobación.",
-   "leer": "Trump cancela dos mítines el fin de semana antes de las legislativas en EEUU. El líder estadounidense cambia eventos presenciales por \"mítines virtuales\" a días de cruciales elecciones. La estrategia busca reforzar el apoyo. Con un calendario exigente, el mandatario se enfoca en asegurar el control del Congreso, mientras enfrenta críticas por su nivel de aprobación.",
-   "fuente": "clarin.com",
-   "t": 1793320814000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Rays demostraron que su béisbol puede sobreponerse a una nómina baja",
-   "bajada": "Los Rays de Tampa Bay, tras un recorrido desafiante, cayeron ante Milwaukee en la Serie Mundial. A pesar de la derrota, el futuro es prometedor con un nuevo estadio en camino y un equipo joven y talentoso.",
-   "leer": "Rays demostraron que su béisbol puede sobreponerse a una nómina baja. Los Rays de Tampa Bay, tras un recorrido desafiante, cayeron ante Milwaukee en la Serie Mundial. A pesar de la derrota, el futuro es prometedor con un nuevo estadio en camino y un equipo joven y talentoso.",
-   "fuente": "clarin.com",
-   "t": 1793320805000
+   "t": 1793329380000
   },
   {
    "tema": "fútbol",
-   "titulo": "Una leve mejoría para la Liga Profesional",
-   "bajada": "Falta una modificación de fondo y una restructuración general, pero es saludable el pequeño cambio para el 2027: el campeón de la anual jugará contra todos.",
-   "leer": "Una leve mejoría para la Liga Profesional. Falta una modificación de fondo y una restructuración general, pero es saludable el pequeño cambio para el 2027: el campeón de la anual jugará contra todos.",
+   "titulo": "Maradona cumple 66: perdón, Diego, todavía no aprendimos a hablar de vos en pasado",
+   "bajada": "Otro 30 de octubre. El recuerdo de Diego emociona, une y mantiene vivo un reclamo: que haya justicia. Su ausencia sigue doliendo. Su legado sigue creciendo. Y el amor del pueblo sigue intacto.",
+   "leer": "Maradona cumple 66: perdón, Diego, todavía no aprendimos a hablar de vos en pasado. Otro 30 de octubre. El recuerdo de Diego emociona, une y mantiene vivo un reclamo: que haya justicia. Su ausencia sigue doliendo. Su legado sigue creciendo. Y el amor del pueblo sigue intacto.",
    "fuente": "ole.com.ar",
-   "t": 1793320631000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Shelby Harris: \"Aunque puedas conciliar el sueño después de un café por la tarde, la cafeína puede reducir la calidad del sueño\"",
-   "bajada": "La especialista advierte que quedarse dormido no significa que la cafeína haya dejado de actuar. Puede favorecer un sueño más ligero y aumentar los despertares durante la noche.",
-   "leer": "Shelby Harris: \"Aunque puedas conciliar el sueño después de un café por la tarde, la cafeína puede reducir la calidad del sueño\". La especialista advierte que quedarse dormido no significa que la cafeína haya dejado de actuar. Puede favorecer un sueño más ligero y aumentar los despertares durante la noche.",
-   "fuente": "clarin.com",
-   "t": 1793320378000
+   "t": 1793329259000
   },
   {
    "tema": "fútbol",
-   "titulo": "La Vieja Guardia de Platense: los siete referentes que van por otra conquista",
-   "bajada": "De la capitanía de Nacho Vázquez a la contundencia de Mainero y la seguridad de Cozzani bajo los tres palos, los talismanes del Calamar alimentan la ilusión de todo Vicente López y van por otra página dorada. “Estos no te dejan tirado”, posteó el club.",
-   "leer": "La Vieja Guardia de Platense: los siete referentes que van por otra conquista. De la capitanía de Nacho Vázquez a la contundencia de Mainero y la seguridad de Cozzani bajo los tres palos, los talismanes del Calamar alimentan la ilusión de todo Vicente López y van por otra página dorada. “Estos no te dejan tirado”, posteó el club.",
+   "titulo": "La Liga Argentina de Básquetbol | Noticia | Debut en casa con victoria para Racing Club",
+   "bajada": "",
+   "leer": "La Liga Argentina de Básquetbol | Noticia | Debut en casa con victoria para Racing Club.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1793328913000
+  },
+  {
+   "tema": "política",
+   "titulo": "Mauricio Macri dijo que \"no se avanzó nada\" en las negociaciones con La Libertad Avanza para lograr un acuerdo electoral",
+   "bajada": "El expresidente dio un discurso en el evento solidario anual de Hacemos!, organizado por María Eugenia Vidal. Evitó hablar sobre la abrupta salida de Flávio Bolsonaro de Brasil argumentando que \"no está en el tema\".",
+   "leer": "Mauricio Macri dijo que \"no se avanzó nada\" en las negociaciones con La Libertad Avanza para lograr un acuerdo electoral. El expresidente dio un discurso en el evento solidario anual de Hacemos!, organizado por María Eugenia Vidal. Evitó hablar sobre la abrupta salida de Flávio Bolsonaro de Brasil argumentando que \"no está en el tema\".",
+   "fuente": "clarin.com",
+   "t": 1793327760000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente se juega todo ante Boca: el volantazo táctico de Viera con Meza y un sorpresivo doble tres",
+   "bajada": "",
+   "leer": "Independiente se juega todo ante Boca: el volantazo táctico de Viera con Meza y un sorpresivo doble tres.",
+   "fuente": "Olé",
+   "t": 1793326531000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Alexander Zverev volvió a ganar en Viena y ya sabe a partir de cuándo será el nuevo número 1 del ranking ATP",
+   "bajada": "El alemán ya se había asegurado finalizar la temporada en lo más alto del escalafón. Derrotó a Griekspoor y superará al italiano Jannik Sinner, que sigue sin jugar.",
+   "leer": "Alexander Zverev volvió a ganar en Viena y ya sabe a partir de cuándo será el nuevo número 1 del ranking ATP. El alemán ya se había asegurado finalizar la temporada en lo más alto del escalafón. Derrotó a Griekspoor y superará al italiano Jannik Sinner, que sigue sin jugar.",
+   "fuente": "clarin.com",
+   "t": 1793326171000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La IA se la jugó fuerte con Boca-River: ¿quién acertará el resultado?",
+   "bajada": "Tres modelos virtuales analizaron el superclásico en la Bombonera: dos eligieron al Xeneize por mínima ventaja y el restante se inclinó por el Millonario. ¿Cuáles fueron los argumentos que utilizaron? ¿Por qué votaron por uno u otro?",
+   "leer": "Tres modelos virtuales analizaron el superclásico en la Bombonera: dos eligieron al Xeneize por mínima ventaja y el restante se inclinó por el Millonario. ¿Cuáles fueron los argumentos que utilizaron? ¿Por qué votaron por uno u otro?",
    "fuente": "ole.com.ar",
-   "t": 1793320132000
+   "t": 1793324315000
+  },
+  {
+   "tema": "política",
+   "titulo": "Los estrategas de la campaña de Lula revelan cómo dieron vuelta la elección y qué opinan sobre Milei",
+   "bajada": "Los responsables de la campaña que derrotó a Flávio Bolsonaro explicaron las siete decisiones que impulsaron la remontada. El rol de WhatsApp, los jóvenes y las propuestas concretas. Qué respondieron sobre la Argentina y el desafío del peronismo para 2027.",
+   "leer": "Los estrategas de la campaña de Lula revelan cómo dieron vuelta la elección y qué opinan sobre Milei. Los responsables de la campaña que derrotó a Flávio Bolsonaro explicaron las siete decisiones que impulsaron la remontada. El rol de WhatsApp, los jóvenes y las propuestas concretas. Qué respondieron sobre la Argentina y el desafío del peronismo para 2027.",
+   "fuente": "clarin.com",
+   "t": 1793323859000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Sillazos y muebles rotos: dos legisladores discutieron y se agarraron a piñas en plena sesión del Parlamento de Armenia",
+   "bajada": "Ocurrió durante un debate por la Cámara de Cuentas que terminó en batalla campal entre políticos. La magnitud de la pelea llevó a que varios efectivos de la policía deban intervenir para controlar la situación.",
+   "leer": "Sillazos y muebles rotos: dos legisladores discutieron y se agarraron a piñas en plena sesión del Parlamento de Armenia. Ocurrió durante un debate por la Cámara de Cuentas que terminó en batalla campal entre políticos. La magnitud de la pelea llevó a que varios efectivos de la policía deban intervenir para controlar la situación.",
+   "fuente": "clarin.com",
+   "t": 1793322399000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Una caniche cayó desde el 5° piso de un edificio y sobrevivió: los vecinos acusan a los dueños de maltrato animal y descontrol",
+   "bajada": "Los vecinos sostienen que no es la primera vez que arrojan cosas desde su balcón El dueño de la perrita aseguró que se trató de un descuido. \"Gracias a Dios está viva\", dijo. Sucedió en el centro de Mar del Plata.",
+   "leer": "Una caniche cayó desde el 5° piso de un edificio y sobrevivió: los vecinos acusan a los dueños de maltrato animal y descontrol. Los vecinos sostienen que no es la primera vez que arrojan cosas desde su balcón El dueño de la perrita aseguró que se trató de un descuido. \"Gracias a Dios está viva\", dijo. Sucedió en el centro de Mar del Plata.",
+   "fuente": "clarin.com",
+   "t": 1793321963000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "\"Descansa en paz mi amor\": la despedida de la pareja del argentino que murió en el choque de trenes de España",
+   "bajada": "Este jueves se confirmó la muerte de Agustín Randazzo, un argentino de 51 años que vivía en España desde 2002. Su muerte se suma a la de Ana Martina Conte Grand, otra argentina que falleció en el accidente.",
+   "leer": "\"Descansa en paz mi amor\": la despedida de la pareja del argentino que murió en el choque de trenes de España. Este jueves se confirmó la muerte de Agustín Randazzo, un argentino de 51 años que vivía en España desde 2002. Su muerte se suma a la de Ana Martina Conte Grand, otra argentina que falleció en el accidente.",
+   "fuente": "clarin.com",
+   "t": 1793319442000
   },
   {
    "tema": "deportes",
@@ -122,12 +210,12 @@
    "t": 1793319426000
   },
   {
-   "tema": "política",
-   "titulo": "Kicillof reunió a sus intendentes y tensiona la interna con La Cámpora y el massismo por las reelecciones municipales",
-   "bajada": "El gobernador reunió a más de 20 jefes comunales del Movimiento Derecho al Futuro en La Plata. Buscan presionar para destrabar la discusión legislativa. El encuentro se produjo 48 horas después del acto de Máximo Kirchner, que volvió a impulsar a Cristina como candidata presidencial.",
-   "leer": "Kicillof reunió a sus intendentes y tensiona la interna con La Cámpora y el massismo por las reelecciones municipales. El gobernador reunió a más de 20 jefes comunales del Movimiento Derecho al Futuro en La Plata. Buscan presionar para destrabar la discusión legislativa. El encuentro se produjo 48 horas después del acto de Máximo Kirchner, que volvió a impulsar a Cristina como candidata presidencial.",
-   "fuente": "clarin.com",
-   "t": 1793318463000
+   "tema": "fútbol",
+   "titulo": "River Plate no irá a la conferencia previa al Superclásico y suma tensión al vínculo con la AFA",
+   "bajada": "",
+   "leer": "River Plate no irá a la conferencia previa al Superclásico y suma tensión al vínculo con la AFA.",
+   "fuente": "Infobae",
+   "t": 1793317860000
   },
   {
    "tema": "economía",
@@ -138,28 +226,12 @@
    "t": 1793317579000
   },
   {
-   "tema": "deportes",
-   "titulo": "Boca, con todo casi listo para el Superclásico: Villa o Velasco, la única duda que mantendría el Vasco Arruabarrena",
-   "bajada": "Con un equipo que sale casi de memoria, el último componente de ataque no está definido. El colombiano busca un impacto que lo reconcilie con el hincha tras su polémico coqueteo con el rival. El ex Independiente necesita su primer gol de local para lograr el desahogo definitivo.",
-   "leer": "Boca, con todo casi listo para el Superclásico: Villa o Velasco, la única duda que mantendría el Vasco Arruabarrena. Con un equipo que sale casi de memoria, el último componente de ataque no está definido. El colombiano busca un impacto que lo reconcilie con el hincha tras su polémico coqueteo con el rival. El ex Independiente necesita su primer gol de local para lograr el desahogo definitivo.",
-   "fuente": "clarin.com",
-   "t": 1793316959000
-  },
-  {
-   "tema": "política",
-   "titulo": "Cristina, Macri, Milei y Cuba: todo está y todo vuelve en el avión en el que huyó Bolsonaro",
-   "bajada": "La empresa Baires Fly está señalada por el fiscal Picardi por blanquear dinero de presuntas coimas de la Agencia Nacional de Discapacidad.",
-   "leer": "Cristina, Macri, Milei y Cuba: todo está y todo vuelve en el avión en el que huyó Bolsonaro. La empresa Baires Fly está señalada por el fiscal Picardi por blanquear dinero de presuntas coimas de la Agencia Nacional de Discapacidad.",
-   "fuente": "clarin.com",
-   "t": 1793316379000
-  },
-  {
-   "tema": "política",
-   "titulo": "Senado: el oficialismo aprobó un régimen de incentivo para inversiones desde los 12 millones de dólares",
-   "bajada": "La iniciativa impulsada por el radicalismo obtuvo 60 votos y ahora deberá ser tratada en Diputados para convertirse en ley. El proyecto contempla incentivos fiscales por un plazo de 30 años para emprendimientos productivos de al menos 12 millones de dólares.",
-   "leer": "Senado: el oficialismo aprobó un régimen de incentivo para inversiones desde los 12 millones de dólares. La iniciativa impulsada por el radicalismo obtuvo 60 votos y ahora deberá ser tratada en Diputados para convertirse en ley. El proyecto contempla incentivos fiscales por un plazo de 30 años para emprendimientos productivos de al menos 12 millones de dólares.",
-   "fuente": "clarin.com",
-   "t": 1793316086000
+   "tema": "fútbol",
+   "titulo": "Ya está disponible el Padrón Electoral provisorio para las elecciones – Todas las Ultimas Noticias de Independiente",
+   "bajada": "",
+   "leer": "Ya está disponible el Padrón Electoral provisorio para las elecciones – Todas las Ultimas Noticias de Independiente.",
+   "fuente": "InfiernoRojo.com",
+   "t": 1793317195000
   },
   {
    "tema": "música",
@@ -167,7 +239,7 @@
    "bajada": "",
    "leer": "Litto Nebbia: de “La balsa” y la polémica al “halago” que lo llamen “padre del rock nacional”.",
    "fuente": "Marcela Fittipaldi Magazine",
-   "t": 1793315834000
+   "t": 1793316079000
   },
   {
    "tema": "economía",
@@ -179,19 +251,11 @@
   },
   {
    "tema": "tecnología",
-   "titulo": "Binance investiga un posible hackeo de más de 5.000 millones de dólares",
+   "titulo": "Binance confirmó el hackeo y congeló preventivamente fondos por US$3.000 millones",
    "bajada": "Detectaron transferencias multimillonarias desde billeteras vinculadas a la plataforma. La compañía asegura que los fondos de los usuarios están a salvo. Tether y Circle bloquearon parte de los activos; el monto total sigue bajo investigación.",
-   "leer": "Binance investiga un posible hackeo de más de 5.000 millones de dólares. Detectaron transferencias multimillonarias desde billeteras vinculadas a la plataforma. La compañía asegura que los fondos de los usuarios están a salvo. Tether y Circle bloquearon parte de los activos; el monto total sigue bajo investigación.",
+   "leer": "Binance confirmó el hackeo y congeló preventivamente fondos por US$3.000 millones. Detectaron transferencias multimillonarias desde billeteras vinculadas a la plataforma. La compañía asegura que los fondos de los usuarios están a salvo. Tether y Circle bloquearon parte de los activos; el monto total sigue bajo investigación.",
    "fuente": "clarin.com",
    "t": 1793314240000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "El detrás de escena de la reunión de AFA en la que se volvió a cambiar el formato del fútbol argentino: el momento más tenso de Chiqui Tapia con River y Estudiantes",
-   "bajada": "Los dos clubes enfrentados a la conducción del fútbol argentino se mostraron en contra del séptimo cambio reglamentario. Las otras dos modificaciones que se llevaron para evaluar los dirigentes.",
-   "leer": "El detrás de escena de la reunión de AFA en la que se volvió a cambiar el formato del fútbol argentino: el momento más tenso de Chiqui Tapia con River y Estudiantes. Los dos clubes enfrentados a la conducción del fútbol argentino se mostraron en contra del séptimo cambio reglamentario. Las otras dos modificaciones que se llevaron para evaluar los dirigentes.",
-   "fuente": "clarin.com",
-   "t": 1793313339000
   },
   {
    "tema": "fútbol",
@@ -202,36 +266,12 @@
    "t": 1793312888000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Racing Club prepara una gira por la patagonia en noviembre de la mano del Boxing Club",
-   "bajada": "",
-   "leer": "Racing Club prepara una gira por la patagonia en noviembre de la mano del Boxing Club.",
-   "fuente": "La Opinión Austral",
-   "t": 1793312411000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Quién era Agustín Randazzo, el segundo argentino que murió en el choque de trenes en España",
-   "bajada": "Tenía 51 años y vivía en Madrid desde 2002. Recibió atención primaria, lo trasladaron pero no tenían más noticias de él. El recuerdo de su amigo, Walter Vázquez, pareja de Roberto Piazza.",
-   "leer": "Quién era Agustín Randazzo, el segundo argentino que murió en el choque de trenes en España. Tenía 51 años y vivía en Madrid desde 2002. Recibió atención primaria, lo trasladaron pero no tenían más noticias de él. El recuerdo de su amigo, Walter Vázquez, pareja de Roberto Piazza.",
-   "fuente": "clarin.com",
-   "t": 1793312201000
-  },
-  {
    "tema": "el mundo",
    "titulo": "El numeroso clan Bolsonaro, una familia que oscila entre la política y los expedientes judiciales",
    "bajada": "Pese a las variadas causas penales que salpican al entorno familiar, el espacio político logró posicionar a cuatro de sus integrantes en el Congreso. Entre los procesados figura Eduardo, quien reside autoexiliado en suelo norteamericano con sentencias pendientes por difamación y coacciones a la justicia.",
    "leer": "El numeroso clan Bolsonaro, una familia que oscila entre la política y los expedientes judiciales. Pese a las variadas causas penales que salpican al entorno familiar, el espacio político logró posicionar a cuatro de sus integrantes en el Congreso. Entre los procesados figura Eduardo, quien reside autoexiliado en suelo norteamericano con sentencias pendientes por difamación y coacciones a la justicia.",
    "fuente": "clarin.com",
    "t": 1793312084000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente suma un refuerzo: Machuca cumplió la sanción de la FIFA y pelea por un lugar",
-   "bajada": "",
-   "leer": "Independiente suma un refuerzo: Machuca cumplió la sanción de la FIFA y pelea por un lugar.",
-   "fuente": "Olé",
-   "t": 1793311990000
   },
   {
    "tema": "recitales",
@@ -250,22 +290,6 @@
    "t": 1793309760000
   },
   {
-   "tema": "fútbol",
-   "titulo": "River se bajó de la conferencia del Súper: el motivo y el duro comunicado de Liga",
-   "bajada": "",
-   "leer": "River se bajó de la conferencia del Súper: el motivo y el duro comunicado de Liga.",
-   "fuente": "Olé",
-   "t": 1793309659000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Apenas a horas de la huida de Flávio Bolsonaro, la derecha de Brasil ya tiene un candidato y rechaza las denuncias de fraude",
-   "bajada": "El gobernador de San Pablo, Tarcisio de Freitas, reveló por primera vez que buscará la presidencia. La esposa de Jair Bolsonaro, senadora, crece en poder dentro del espacio.",
-   "leer": "Apenas a horas de la huida de Flávio Bolsonaro, la derecha de Brasil ya tiene un candidato y rechaza las denuncias de fraude. El gobernador de San Pablo, Tarcisio de Freitas, reveló por primera vez que buscará la presidencia. La esposa de Jair Bolsonaro, senadora, crece en poder dentro del espacio.",
-   "fuente": "clarin.com",
-   "t": 1793309649000
-  },
-  {
    "tema": "economía",
    "titulo": "La mora de las familias bajó en septiembre por segundo mes consecutivo, mientras crecen las refinanciaciones",
    "bajada": "La irregularidad de la deuda en las empresas subió a 3,82%, aunque la de las familias bajó 4,1% frente al mes previo. Además, la refinanciación en los hogares crece y ya alcanza los $2,9 billones.",
@@ -274,28 +298,12 @@
    "t": 1793309520000
   },
   {
-   "tema": "sociedad",
-   "titulo": "Confirman la muerte del argentino de 51 años que había desaparecido en el choque de trenes en España",
-   "bajada": "Agustín Randazzo era buscado desde el miércoles. Viajaba en el tren AVE que realizaba la ruta Madrid-Sevilla. Ya son dos los ciudadanos argentinos muertos en la tragedia ferroviaria.",
-   "leer": "Confirman la muerte del argentino de 51 años que había desaparecido en el choque de trenes en España. Agustín Randazzo era buscado desde el miércoles. Viajaba en el tren AVE que realizaba la ruta Madrid-Sevilla. Ya son dos los ciudadanos argentinos muertos en la tragedia ferroviaria.",
-   "fuente": "clarin.com",
-   "t": 1793307785000
-  },
-  {
    "tema": "música",
-   "titulo": "El ciclo Z Rock reúne a tres jóvenes bandas de rock de Mar del Plata",
+   "titulo": "Del jazz al cuarteto y el rock: el escenario artístico de la Feria del Libro reúne múltiples expresiones culturales",
    "bajada": "",
-   "leer": "El ciclo Z Rock reúne a tres jóvenes bandas de rock de Mar del Plata.",
-   "fuente": "Diario La Capital de Mar del Plata",
-   "t": 1793307634000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "RACING (A) vs LA UNIÓN (C) | La Liga Argentina de Básquetbol",
-   "bajada": "",
-   "leer": "RACING (A) vs LA UNIÓN (C) | La Liga Argentina de Básquetbol.",
-   "fuente": "Liga Nacional de Básquet",
-   "t": 1793307197000
+   "leer": "Del jazz al cuarteto y el rock: el escenario artístico de la Feria del Libro reúne múltiples expresiones culturales.",
+   "fuente": "Municipalidad de Córdoba.",
+   "t": 1793309103000
   },
   {
    "tema": "espectáculos",
@@ -376,14 +384,6 @@
    "leer": "Enrique Bunbury en Argentina: últimas entradas para su show en el Movistar Arena.",
    "fuente": "EscribiendoCine",
    "t": 1793282403000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Vuelven las tormentas al AMBA este jueves: qué sucederá el fin de semana",
-   "bajada": "",
-   "leer": "Vuelven las tormentas al AMBA este jueves: qué sucederá el fin de semana.",
-   "fuente": "Infobae",
-   "t": 1793273040000
   }
  ]
 }
