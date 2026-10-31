@@ -1,61 +1,245 @@
 {
- "t": 1793425376305,
+ "t": 1793449880096,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Exigen justicia por asesinato de operador de grúa en Naucalpan que se negó a pagar extorsión: colocan féretro en Periférico Norte",
-   "bajada": "Familiares, amigos y cerca de 200 transportistas se concentraron a la altura del Parque Naucalli para exigir a la FGJEM que detenga a los responsables del ataque armado.",
-   "leer": "Exigen justicia por asesinato de operador de grúa en Naucalpan que se negó a pagar extorsión: colocan féretro en Periférico Norte. Familiares, amigos y cerca de 200 transportistas se concentraron a la altura del Parque Naucalli para exigir a la FGJEM que detenga a los responsables del ataque armado.",
+   "titulo": "Última hora del accidente de trenes en Toledo, en directo | Las unidades caninas trabajan “palmo a palmo” mientras empieza el levantamiento de los vagones",
+   "bajada": "PP y Vox piden la dimisión de Óscar Puente, pero también el Frente Amplio, principal aliado del PSOE en las elecciones generales.",
+   "leer": "PP y Vox piden la dimisión de Óscar Puente, pero también el Frente Amplio, principal aliado del PSOE en las elecciones generales.",
    "fuente": "infobae.com",
-   "t": 1793424833000
+   "t": 1793449440000
   },
   {
    "tema": "actualidad",
-   "titulo": "Impuesto a los ricos en California y la escala de ingresos que determina a quiénes afecta la Proposición 3 de las midterms",
-   "bajada": "Conoce la escala de ingresos de la Proposición 3 en California y los umbrales que determinan quiénes pagan el impuesto que se votará el 3 de noviembre.",
-   "leer": "Impuesto a los ricos en California y la escala de ingresos que determina a quiénes afecta la Proposición 3 de las midterms. Conoce la escala de ingresos de la Proposición 3 en California y los umbrales que determinan quiénes pagan el impuesto que se votará el 3 de noviembre.",
+   "titulo": "Universidad de Costa Rica rechaza recorte de USD 17.7 millones a universidades públicas y advierte posible acción ante la Sala IV",
+   "bajada": "El Consejo Universitario pidió a los diputados detener la reducción presupuestaria y advirtió que podría afectar becas, sedes regionales, investigación y otros proyectos de educación superior.",
+   "leer": "Universidad de Costa Rica rechaza recorte de USD 17.7 millones a universidades públicas y advierte posible acción ante la Sala IV. El Consejo Universitario pidió a los diputados detener la reducción presupuestaria y advirtió que podría afectar becas, sedes regionales, investigación y otros proyectos de educación superior.",
+   "fuente": "infobae.com",
+   "t": 1793449435000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Denuncian despido de más de 50 trabajadores de Radio y Televisión Mexiquense: acusan nepotismo y acoso laboral",
+   "bajada": "Excolaboradores del Sistema Mexiquense de Medios Públicos señalaron presuntas irregularidades durante la actual administración de Carlos Brito.",
+   "leer": "Denuncian despido de más de 50 trabajadores de Radio y Televisión Mexiquense: acusan nepotismo y acoso laboral. Excolaboradores del Sistema Mexiquense de Medios Públicos señalaron presuntas irregularidades durante la actual administración de Carlos Brito.",
+   "fuente": "infobae.com",
+   "t": 1793449342000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El video inédito del rescate de una de las víctimas del choque de trenes en España",
+   "bajada": "Las imágenes muestran a un hombre herido en medio de los escombros y la ayuda que recibe de otro de los pasajeros.",
+   "leer": "El video inédito del rescate de una de las víctimas del choque de trenes en España. Las imágenes muestran a un hombre herido en medio de los escombros y la ayuda que recibe de otro de los pasajeros.",
    "fuente": "lanacion.com.ar",
-   "t": 1793424660000
+   "t": 1793449135000
   },
   {
    "tema": "actualidad",
-   "titulo": "El presidente ordena a la Policía retirar el bloqueo y convoca al Parlamento para \"restablecer el orden\"",
-   "bajada": "El presidente de Polonia, Karol Narowcki, ha hecho un llamamiento este sábado a \"restablecer el orden jurídico\" y ha ordenado a la Policía a retirar el bloqueo encomendado por el Gobierno del primer ministro, Donald Tusk, en el estallido definitivo de la crisis sobre la composición del Tribunal Constitucional.",
-   "leer": "El presidente ordena a la Policía retirar el bloqueo y convoca al Parlamento para \"restablecer el orden\". El presidente de Polonia, Karol Narowcki, ha hecho un llamamiento este sábado a \"restablecer el orden jurídico\" y ha ordenado a la Policía a retirar el bloqueo encomendado por el Gobierno del primer ministro, Donald Tusk, en el estallido definitivo de la crisis sobre la composición del Tribunal Constitucional.",
-   "fuente": "infobae.com",
-   "t": 1793424649000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Colombiano Angulo le da triunfo a los Pumas UNAM, que se acercan a zona de clasificación",
-   "bajada": "Puebla (México), 30 oct (EFE).- El colombiano Álvaro Angulo convirtió un gol en el minuto 90 para darle este viernes a los Pumas una victoria por 1-2 sobre el Puebla en la decimoquinta jornada del Apertura del fútbol mexicano.",
-   "leer": "Colombiano Angulo le da triunfo a los Pumas UNAM, que se acercan a zona de clasificación. Puebla (México), 30 oct (EFE).- El colombiano Álvaro Angulo convirtió un gol en el minuto 90 para darle este viernes a los Pumas una victoria por 1-2 sobre el Puebla en la decimoquinta jornada del Apertura del fútbol mexicano.",
-   "fuente": "infobae.com",
-   "t": 1793424644000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Stephen Curry anota 31 puntos y supera a Luka Doncic. Warriors remontan y vencen 112-95 a Lakers",
-   "bajada": "Golden State remontó 25 puntos, liderados por Curry con 31 unidades, superando a los Lakers 112-95 en la Copa NBA. Doncic destacó para los visitantes con 37 puntos, pero no evitó la derrota. Curry avanzó al puesto 18 en anotadores históricos.",
-   "leer": "Stephen Curry anota 31 puntos y supera a Luka Doncic. Warriors remontan y vencen 112-95 a Lakers. Golden State remontó 25 puntos, liderados por Curry con 31 unidades, superando a los Lakers 112-95 en la Copa NBA. Doncic destacó para los visitantes con 37 puntos, pero no evitó la derrota. Curry avanzó al puesto 18 en anotadores históricos.",
-   "fuente": "clarin.com",
-   "t": 1793424604000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Un violento intento de usurpación de viviendas en la Villa Olímpica de Santa Fe terminó con un enfrentamiento con la Policía",
-   "bajada": "Ocurrió durante este viernes por la noche cuando varias familias con menores irrumpieron en el lugar con intención de quedarse dentro de las casas. Hay al menos ocho detenidos e investigan si hay organizaciones políticas detrás de la frustrada toma.",
-   "leer": "Un violento intento de usurpación de viviendas en la Villa Olímpica de Santa Fe terminó con un enfrentamiento con la Policía. Ocurrió durante este viernes por la noche cuando varias familias con menores irrumpieron en el lugar con intención de quedarse dentro de las casas. Hay al menos ocho detenidos e investigan si hay organizaciones políticas detrás de la frustrada toma.",
-   "fuente": "clarin.com",
-   "t": 1793423754000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Elecciones en Florida 2026: quiénes son los candidatos a la gobernación y qué se vota este 3 de noviembre",
-   "bajada": "Quiénes los candidatos a la gobernación de Florida para este 3 de noviembre y qué otros cargos públicos y enmiendas constitucionales se definen.",
-   "leer": "Elecciones en Florida 2026: quiénes son los candidatos a la gobernación y qué se vota este 3 de noviembre. Quiénes los candidatos a la gobernación de Florida para este 3 de noviembre y qué otros cargos públicos y enmiendas constitucionales se definen.",
+   "titulo": "Tratamientos y cirugías: ¿qué se hacen los argentinos?",
+   "bajada": "El último informe de la Sociedad Internacional de Cirugía Plástica Estética (Isaps) precisa cuáles son los procedimientos más realizados en varones y mujeres.",
+   "leer": "El último informe de la Sociedad Internacional de Cirugía Plástica Estética (Isaps) precisa cuáles son los procedimientos más realizados en varones y mujeres.",
    "fuente": "lanacion.com.ar",
-   "t": 1793423700000
+   "t": 1793448928000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Crónica de un final anunciado: el dolor de Aldosivi por su tercer descenso en nueve años",
+   "bajada": "El Tiburón bajó a la Primera Nacional tras una temporada muy floja en la que ni siquiera se permitió soñar con la permanencia hasta la última fecha.",
+   "leer": "Crónica de un final anunciado: el dolor de Aldosivi por su tercer descenso en nueve años. El Tiburón bajó a la Primera Nacional tras una temporada muy floja en la que ni siquiera se permitió soñar con la permanencia hasta la última fecha.",
+   "fuente": "ole.com.ar",
+   "t": 1793448890000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "La Corte Suprema mantiene bloqueada una vía para pausar deportaciones y complica a inmigrantes que esperan la green card",
+   "bajada": "Consulta qué decidió la Corte Suprema sobre la pausa de ciertos procesos de deportación y cómo sigue el bloqueo nacional de esta herramienta migratoria.",
+   "leer": "La Corte Suprema mantiene bloqueada una vía para pausar deportaciones y complica a inmigrantes que esperan la green card. Consulta qué decidió la Corte Suprema sobre la pausa de ciertos procesos de deportación y cómo sigue el bloqueo nacional de esta herramienta migratoria.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793448660000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Trump se juega el control del Congreso y su poder en los últimos años en la Casa Blanca",
+   "bajada": "Trump enfrenta elecciones cruciales que podrían cambiar el control del Congreso, con encuestas favoreciendo a sus opositores. La baja popularidad del presidente y problemas económicos amenazan a su partido. Una victoria demócrata podría limitar la agenda presidencial y aumentar investigaciones.",
+   "leer": "Trump se juega el control del Congreso y su poder en los últimos años en la Casa Blanca. Trump enfrenta elecciones cruciales que podrían cambiar el control del Congreso, con encuestas favoreciendo a sus opositores. La baja popularidad del presidente y problemas económicos amenazan a su partido. Una victoria demócrata podría limitar la agenda presidencial y aumentar investigaciones.",
+   "fuente": "clarin.com",
+   "t": 1793448614000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Candidatos socialistas para ganar el Congreso, una apuesta que suma y divide a demócratas",
+   "bajada": "Los demócratas buscan controlar el Congreso apostando por candidatos progresistas, aunque su enfoque genera divisiones internas. El respaldo a socialistas despierta debate sobre el rumbo del partido y su impacto en figuras prominentes como Ocasio-Cortez.",
+   "leer": "Candidatos socialistas para ganar el Congreso, una apuesta que suma y divide a demócratas. Los demócratas buscan controlar el Congreso apostando por candidatos progresistas, aunque su enfoque genera divisiones internas. El respaldo a socialistas despierta debate sobre el rumbo del partido y su impacto en figuras prominentes como Ocasio-Cortez.",
+   "fuente": "clarin.com",
+   "t": 1793448612000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Sebastián Beccacece mano a mano con Olé: “Bielsa es el Che Guevara del fútbol” y por qué se define sereno y salvaje",
+   "bajada": "El ex entrenador de la selección de Ecuador repasó su carrera, abordó el vínculo roto con Jorge Sampaoli, su personalidad y enalteció la figura de Marcelo.",
+   "leer": "Sebastián Beccacece mano a mano con Olé: “Bielsa es el Che Guevara del fútbol” y por qué se define sereno y salvaje. El ex entrenador de la selección de Ecuador repasó su carrera, abordó el vínculo roto con Jorge Sampaoli, su personalidad y enalteció la figura de Marcelo.",
+   "fuente": "ole.com.ar",
+   "t": 1793448554000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Qué dijo Ángel Di María sobre su lesión mientras pelea en dos frentes con Central",
+   "bajada": "El referente del Canalla celebró la victoria por 2-1 que consiguieron ante Sarmiento, rival contra el que sufrió una molestia en el pubis y fue reemplazado a los 13 minutos del segundo tiempo.",
+   "leer": "Qué dijo Ángel Di María sobre su lesión mientras pelea en dos frentes con Central. El referente del Canalla celebró la victoria por 2-1 que consiguieron ante Sarmiento, rival contra el que sufrió una molestia en el pubis y fue reemplazado a los 13 minutos del segundo tiempo.",
+   "fuente": "ole.com.ar",
+   "t": 1793448490000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Flávio Bolsonaro y su huida de Brasil, EN VIVO: tras su reaparición en redes, la mayoría de sus legisladores ya lo rechaza",
+   "bajada": "Así lo advierte una encuesta realizada por el influyente canal brasileño O Globo. \"La lucha continúa, y tengo un proyecto mejor para Brasil\", aseguró Bolsonaro desde Miami adonde se fugó vía Argentina.",
+   "leer": "Así lo advierte una encuesta realizada por el influyente canal brasileño O Globo. \"La lucha continúa, y tengo un proyecto mejor para Brasil\", aseguró Bolsonaro desde Miami adonde se fugó vía Argentina.",
+   "fuente": "clarin.com",
+   "t": 1793448143000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "¡Se define todo! Popstars anunció la fecha de su gran final y cuándo se conocerán las integrantes de Chapeaux",
+   "bajada": "",
+   "leer": "¡Se define todo! Popstars anunció la fecha de su gran final y cuándo se conocerán las integrantes de Chapeaux.",
+   "fuente": "Lmneuquen.com",
+   "t": 1793448000000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Salió el sol y apareció la primavera, pero no por mucho: cuándo regresan las tormentas a Buenos Aires",
+   "bajada": "",
+   "leer": "Salió el sol y apareció la primavera, pero no por mucho: cuándo regresan las tormentas a Buenos Aires.",
+   "fuente": "C5N",
+   "t": 1793446260000
+  },
+  {
+   "tema": "política",
+   "titulo": "Javier Milei, EN VIVO: el Presidente inaugura hoy un templo evangélico en Neuquén y prepara su nuevo viaje a España",
+   "bajada": "En la provincia patagónica el mandatario estrenará el nuevo auditorio de la iglesia Jesús es Rey. Mientras tanto, se ultiman detalles de la participación del jefe de Estado en la Cumbre Iberoamericana de la próxima semana.",
+   "leer": "En la provincia patagónica el mandatario estrenará el nuevo auditorio de la iglesia Jesús es Rey. Mientras tanto, se ultiman detalles de la participación del jefe de Estado en la Cumbre Iberoamericana de la próxima semana.",
+   "fuente": "clarin.com",
+   "t": 1793446066000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Se espera otro fin de semana inestable en el AMBA mientras el centro del país estará bajo alerta por tormentas",
+   "bajada": "",
+   "leer": "Se espera otro fin de semana inestable en el AMBA mientras el centro del país estará bajo alerta por tormentas.",
+   "fuente": "Infobae",
+   "t": 1793445300000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "El Indio Solari será distinguido por la Universidad Nacional de La Plata con un Doctorado Honoris Causa post mortem",
+   "bajada": "La Facultad de Periodismo aprobó por unanimidad la postulación. La familia del músico compartió la noticia y destacó un párrafo dedicado a los ricoteros.",
+   "leer": "El Indio Solari será distinguido por la Universidad Nacional de La Plata con un Doctorado Honoris Causa post mortem. La Facultad de Periodismo aprobó por unanimidad la postulación. La familia del músico compartió la noticia y destacó un párrafo dedicado a los ricoteros.",
+   "fuente": "clarin.com",
+   "t": 1793444486000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: cuándo llegará el pico de lluvias y cuáles serán las provincias más afectadas",
+   "bajada": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
+   "leer": "El Servicio Meteorológico Nacional anticipó que el fenómeno tendrá en el centro-este argentino una intensidad \"fuerte o muy fuerte\".",
+   "fuente": "clarin.com",
+   "t": 1793444225000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente 0-1 Boca | Resumen del partido",
+   "bajada": "",
+   "leer": "Independiente 0-1 Boca | Resumen del partido.",
+   "fuente": "TyC Sports",
+   "t": 1793443772000
+  },
+  {
+   "tema": "música",
+   "titulo": "Murió Ricardo Soulé, fundador de Vox Dei y una de las figura fundamental del rock argentino",
+   "bajada": "",
+   "leer": "Murió Ricardo Soulé, fundador de Vox Dei y una de las figura fundamental del rock argentino.",
+   "fuente": "https://www.lafolkargentina.com.ar/",
+   "t": 1793441727000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este sábado 31 de octubre de 2026 en Argentina",
+   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este sábado 31 de octubre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "fuente": "clarin.com",
+   "t": 1793441702000
+  },
+  {
+   "tema": "política",
+   "titulo": "El factor PASO y las tensiones internas: por qué Macri dijo que \"no se avanzó nada\" en un acuerdo con el Gobierno",
+   "bajada": "Los desmarques con Javier Milei y las diferencias con su primo por la Ciudad El gobierno todavía no consiguió que el Senado apruebe la suspensión de las Primarias.",
+   "leer": "El factor PASO y las tensiones internas: por qué Macri dijo que \"no se avanzó nada\" en un acuerdo con el Gobierno. Los desmarques con Javier Milei y las diferencias con su primo por la Ciudad El gobierno todavía no consiguió que el Senado apruebe la suspensión de las Primarias.",
+   "fuente": "clarin.com",
+   "t": 1793440885000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Darín, Peretti, Ben Affleck y las películas con finales inesperados",
+   "bajada": "Más por casualidad que por causalidad, dos películas que son éxito en Netflix comparten el dejar a parte del público con la boca abierta. Vuelta de tuerca, giro inesperado o culpa del algoritmo.",
+   "leer": "Darín, Peretti, Ben Affleck y las películas con finales inesperados. Más por casualidad que por causalidad, dos películas que son éxito en Netflix comparten el dejar a parte del público con la boca abierta. Vuelta de tuerca, giro inesperado o culpa del algoritmo.",
+   "fuente": "clarin.com",
+   "t": 1793440885000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Un nuevo informe indica cómo estará el clima en la Costa Atlántica durante enero en el marco del Super Niño",
+   "bajada": "La tendencia de días más fríos y lluviosos de lo habitual continuará entrado el verano, según el Servicio Meteorológico Nacional. En lo inmediato, para este fin de semana se espera otra vez lluvias y para los días siguientes una suba gradual del termómetro.",
+   "leer": "Un nuevo informe indica cómo estará el clima en la Costa Atlántica durante enero en el marco del Super Niño. La tendencia de días más fríos y lluviosos de lo habitual continuará entrado el verano, según el Servicio Meteorológico Nacional. En lo inmediato, para este fin de semana se espera otra vez lluvias y para los días siguientes una suba gradual del termómetro.",
+   "fuente": "clarin.com",
+   "t": 1793437286000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Boca vs River y las historias mínimas detrás del Superclásico: los debutantes, los goleadores y los que ya saben cómo ganarlo",
+   "bajada": "Al menos ocho futbolistas jugarán su primer Superclásico, aunque podrían ser diez. Varios ya enfrentaron al rival con otras camisetas y tienen antecedentes particulares. Dos de los tres jugadores con más clásicos podrían comenzar en el banco.",
+   "leer": "Boca vs River y las historias mínimas detrás del Superclásico: los debutantes, los goleadores y los que ya saben cómo ganarlo. Al menos ocho futbolistas jugarán su primer Superclásico, aunque podrían ser diez. Varios ya enfrentaron al rival con otras camisetas y tienen antecedentes particulares. Dos de los tres jugadores con más clásicos podrían comenzar en el banco.",
+   "fuente": "clarin.com",
+   "t": 1793437285000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "De una fractura a ser abanderado argentino en Dakar 2026: la historia de Benjamín Fernández de Landa, el gimnasta que sueña con los Juegos Olímpicos",
+   "bajada": "Tiene 16 años, fue campeón panamericano juvenil y llevará la bandera argentina junto a la nadadora Cecilia Dieleke en la ceremonia inaugural. Una lesión en la mano complicó el comienzo de su temporada, pero se recuperó para ganar medallas y cumplir un sueño que nació cuando tenía cuatro años.",
+   "leer": "De una fractura a ser abanderado argentino en Dakar 2026: la historia de Benjamín Fernández de Landa, el gimnasta que sueña con los Juegos Olímpicos. Tiene 16 años, fue campeón panamericano juvenil y llevará la bandera argentina junto a la nadadora Cecilia Dieleke en la ceremonia inaugural. Una lesión en la mano complicó el comienzo de su temporada, pero se recuperó para ganar medallas y cumplir un sueño que nació cuando tenía cuatro años.",
+   "fuente": "clarin.com",
+   "t": 1793437285000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "Un escudo en el bolsillo: cómo funcionan las billeteras \"blindadas\" que bloquean la lectura de tarjetas",
+   "bajada": "Hay modelos rígidos, formatos tradicionales y fundas individuales. Qué mirar antes de comprar y para quiénes pueden resultar útiles. Los cuidados que siguen siendo necesarios al pagar.",
+   "leer": "Un escudo en el bolsillo: cómo funcionan las billeteras \"blindadas\" que bloquean la lectura de tarjetas. Hay modelos rígidos, formatos tradicionales y fundas individuales. Qué mirar antes de comprar y para quiénes pueden resultar útiles. Los cuidados que siguen siendo necesarios al pagar.",
+   "fuente": "clarin.com",
+   "t": 1793437285000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "A un año del inicio de la obra, así avanza el estadio más grande del mundo con el que Marruecos quiere la final del Mundial 2030",
+   "bajada": "El Gran Estadio Hassan II comienza a tomar forma en Benslimane, cerca de Casablanca. Tendrá capacidad para 115.000 espectadores y estará integrado a un proyecto urbano. En noviembre, la FIFA inicie sus inspecciones para definir las sedes y la distribución de los partidos.",
+   "leer": "A un año del inicio de la obra, así avanza el estadio más grande del mundo con el que Marruecos quiere la final del Mundial 2030. El Gran Estadio Hassan II comienza a tomar forma en Benslimane, cerca de Casablanca. Tendrá capacidad para 115.000 espectadores y estará integrado a un proyecto urbano. En noviembre, la FIFA inicie sus inspecciones para definir las sedes y la distribución de los partidos.",
+   "fuente": "clarin.com",
+   "t": 1793437284000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Elecciones en EE.UU.: los arrestos masivos y la inflación alimentan la furia de los votantes hispanos contra Donald Trump",
+   "bajada": "Los hispanos se sienten frustrados por la agresiva política migratoria y por la economía. Y aunque muchos votaron por el magnate en las últimas elecciones, podrían castigarlo en las legislativas del martes.",
+   "leer": "Elecciones en EE.UU.: los arrestos masivos y la inflación alimentan la furia de los votantes hispanos contra Donald Trump. Los hispanos se sienten frustrados por la agresiva política migratoria y por la economía. Y aunque muchos votaron por el magnate en las últimas elecciones, podrían castigarlo en las legislativas del martes.",
+   "fuente": "clarin.com",
+   "t": 1793437284000
+  },
+  {
+   "tema": "política",
+   "titulo": "Una nueva encuesta midió balotajes para 2027 y dejó sorpresas: Milei y Bullrich vs. Kicillof y Massa",
+   "bajada": "Es el último estudio nacional de la consultora Synopsis. Evaluó tres hipótesis de segunda vuelta, con indecisos y proyectando esta variable. También publicó cifras de intención de voto por espacio.",
+   "leer": "Una nueva encuesta midió balotajes para 2027 y dejó sorpresas: Milei y Bullrich vs. Kicillof y Massa. Es el último estudio nacional de la consultora Synopsis. Evaluó tres hipótesis de segunda vuelta, con indecisos y proyectando esta variable. También publicó cifras de intención de voto por espacio.",
+   "fuente": "clarin.com",
+   "t": 1793437282000
   },
   {
    "tema": "música",
@@ -63,55 +247,15 @@
    "bajada": "",
    "leer": "Kapanga cumple 30 años: “La banda ayudó a ampliar las fronteras del rock nacional”.",
    "fuente": "Infobae",
-   "t": 1793423687000
+   "t": 1793426400000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Murray anota 39 y los Nuggets vencen 127-120 a los Suns en la Copa NBA",
-   "bajada": "El conjunto de Denver, liderado por una destacada actuación de su base, superó a su rival con un impresionante acierto desde el perímetro. El equipo visitante mantuvo el control en el último tramo, asegurando su sexta victoria al hilo en la serie ante el equipo local.",
-   "leer": "Murray anota 39 y los Nuggets vencen 127-120 a los Suns en la Copa NBA. El conjunto de Denver, liderado por una destacada actuación de su base, superó a su rival con un impresionante acierto desde el perímetro. El equipo visitante mantuvo el control en el último tramo, asegurando su sexta victoria al hilo en la serie ante el equipo local.",
-   "fuente": "clarin.com",
-   "t": 1793423404000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Arnold Schwarzenegger compró un edificio de seis departamentos por US$240 mil y lo vendió por US$400 mil dos años después",
-   "bajada": "Descubre cómo Arnold Schwarzenegger compró un edificio de seis departamentos por US$240.000 y lo vendió dos años después por US$400.000.",
-   "leer": "Arnold Schwarzenegger compró un edificio de seis departamentos por US$240 mil y lo vendió por US$400 mil dos años después. Descubre cómo Arnold Schwarzenegger compró un edificio de seis departamentos por US$240.000 y lo vendió dos años después por US$400.000.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793423160000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Nuevo requisito obligatorio para poder ingresar por vía aérea a Estados Unidos a partir del martes",
-   "bajada": "Regirá para todos los pasajeros que viajen en avión hacia territorio norteamericano a partir del martes a las 23.59. Se trata de una nueva disposición sanitaria.",
-   "leer": "Nuevo requisito obligatorio para poder ingresar por vía aérea a Estados Unidos a partir del martes. Regirá para todos los pasajeros que viajen en avión hacia territorio norteamericano a partir del martes a las 23.59. Se trata de una nueva disposición sanitaria.",
-   "fuente": "clarin.com",
-   "t": 1793418143000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La lucidez de Claudia Sheinbaum profundiza la integración de México con EE.UU",
-   "bajada": "Su objetivo no es antagonizar a China, sino lograr que la industria automotriz de la República Popular invierta en México, produzca desde allí, y con el valor agregado por las factorías mexicanas coloque sus productos en el mercado estadounidense.",
-   "leer": "La lucidez de Claudia Sheinbaum profundiza la integración de México con EE.UU. Su objetivo no es antagonizar a China, sino lograr que la industria automotriz de la República Popular invierta en México, produzca desde allí, y con el valor agregado por las factorías mexicanas coloque sus productos en el mercado estadounidense.",
-   "fuente": "clarin.com",
-   "t": 1793417838000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El Presupuesto en zona de incertidumbre a cambio del fin de las PASO",
-   "bajada": "El proyecto de gastos y recursos para 2027 quedó descompaginado tras los acuerdos con la oposición sobre discapacidad y otros proyectos. El error Bolsonaro.",
-   "leer": "El Presupuesto en zona de incertidumbre a cambio del fin de las PASO. El proyecto de gastos y recursos para 2027 quedó descompaginado tras los acuerdos con la oposición sobre discapacidad y otros proyectos. El error Bolsonaro.",
-   "fuente": "clarin.com",
-   "t": 1793416398000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este sábado 31 octubre de 2026",
+   "tema": "fútbol",
+   "titulo": "San Lorenzo en crisis: Marcelo Culotta desmintió una posible renuncia y admitió que evalúan la convocatoria de acreedores",
    "bajada": "",
-   "leer": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este sábado 31 octubre de 2026.",
-   "fuente": "Clarin.com",
-   "t": 1793416244000
+   "leer": "San Lorenzo en crisis: Marcelo Culotta desmintió una posible renuncia y admitió que evalúan la convocatoria de acreedores.",
+   "fuente": "Olé",
+   "t": 1793418903000
   },
   {
    "tema": "fútbol",
@@ -123,35 +267,11 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Se definieron los descensos: Aldosivi acompañará a Estudiantes RC en la Primera Nacional",
-   "bajada": "El Tiburón consumó su descenso por la tabla anual al caer frente a Racing. El León del Imperio ya había bajado por los promedios.",
-   "leer": "Se definieron los descensos: Aldosivi acompañará a Estudiantes RC en la Primera Nacional. El Tiburón consumó su descenso por la tabla anual al caer frente a Racing. El León del Imperio ya había bajado por los promedios.",
-   "fuente": "ole.com.ar",
-   "t": 1793414817000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing ganó entre silbidos y Nacho Rodríguez dejó un mensaje: \"Perdón a la gente\"",
-   "bajada": "El lateral izquierdo, que quedó como capitán en el segundo tiempo y convirtió el 2-1 de la Academia de penal, se disculpó por la mala campaña: \"No merecíamos esto y los hinchas tampoco\".",
-   "leer": "Racing ganó entre silbidos y Nacho Rodríguez dejó un mensaje: \"Perdón a la gente\". El lateral izquierdo, que quedó como capitán en el segundo tiempo y convirtió el 2-1 de la Academia de penal, se disculpó por la mala campaña: \"No merecíamos esto y los hinchas tampoco\".",
-   "fuente": "ole.com.ar",
-   "t": 1793414815000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Video: la polémica expulsión que puede determinar un campeonato",
-   "bajada": "Andrés Merlos, tras llamado del VAR, expulsó a Salle, de Sarmiento. El equipo de Junín se quedó con nueve y no pudo aguantar el empate. La victoria puede darle a Rosario Central el título de la Tabla Anual.",
-   "leer": "Video: la polémica expulsión que puede determinar un campeonato. Andrés Merlos, tras llamado del VAR, expulsó a Salle, de Sarmiento. El equipo de Junín se quedó con nueve y no pudo aguantar el empate. La victoria puede darle a Rosario Central el título de la Tabla Anual.",
-   "fuente": "ole.com.ar",
-   "t": 1793414752000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Así quedó la tabla anual de la Liga Profesional y cómo está la clasificación a los playoffs: Central ganó, es líder y le metió presión a Boca antes del Superclásico",
-   "bajada": "El Canalla venció 2-1 a Sarmiento y superó por dos puntos al Xeneize y a Argentinos en la pelea por el título de campeón anual. Gimnasia se afianzó entre los ocho mejores, Racing volvió al triunfo y Aldosivi descendió. Cómo están las dos zonas del Clausura y la lucha por las copas.",
-   "leer": "Así quedó la tabla anual de la Liga Profesional y cómo está la clasificación a los playoffs: Central ganó, es líder y le metió presión a Boca antes del Superclásico. El Canalla venció 2-1 a Sarmiento y superó por dos puntos al Xeneize y a Argentinos en la pelea por el título de campeón anual. Gimnasia se afianzó entre los ocho mejores, Racing volvió al triunfo y Aldosivi descendió. Cómo están las dos zonas del Clausura y la lucha por las copas.",
-   "fuente": "clarin.com",
-   "t": 1793413495000
+   "titulo": "Cómo quedó Boca en la tabla anual para clasificar a la Copa Libertadores 2027",
+   "bajada": "",
+   "leer": "Cómo quedó Boca en la tabla anual para clasificar a la Copa Libertadores 2027.",
+   "fuente": "TyC Sports",
+   "t": 1793413749000
   },
   {
    "tema": "fútbol",
@@ -170,38 +290,6 @@
    "t": 1793412600000
   },
   {
-   "tema": "política",
-   "titulo": "A 43 años del retorno democrático: \"LLEGAMOS\", un título histórico y todo lo que pasaba en la Argentina cuando ganó Raúl Alfonsín",
-   "bajada": "El 30 de octubre de 1983, los argentinos volvieron a las urnas después de siete años de una dictadura sangrienta.",
-   "leer": "A 43 años del retorno democrático: \"LLEGAMOS\", un título histórico y todo lo que pasaba en la Argentina cuando ganó Raúl Alfonsín. El 30 de octubre de 1983, los argentinos volvieron a las urnas después de siete años de una dictadura sangrienta.",
-   "fuente": "clarin.com",
-   "t": 1793410795000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Newman dio vuelta una semifinal dramática ante Alumni, estiró su invicto a 24 partidos y quedó a un paso del bicampeonato en la URBA",
-   "bajada": "El Cardenal se impuso en un partido que llegó a perder por diez puntos y definió con un try de Fermín Perkins a cinco minutos del final. El equipo de Tortuguitas lo complicó hasta el último minuto, pero el campeón reaccionó y jugará la final ante el ganador de Hindú-CASI.",
-   "leer": "Newman dio vuelta una semifinal dramática ante Alumni, estiró su invicto a 24 partidos y quedó a un paso del bicampeonato en la URBA. El Cardenal se impuso en un partido que llegó a perder por diez puntos y definió con un try de Fermín Perkins a cinco minutos del final. El equipo de Tortuguitas lo complicó hasta el último minuto, pero el campeón reaccionó y jugará la final ante el ganador de Hindú-CASI.",
-   "fuente": "clarin.com",
-   "t": 1793410760000
-  },
-  {
-   "tema": "política",
-   "titulo": "Victoria Villarruel se despega otra vez de Milei: otorgó un programa de créditos a tasa cero para empleados del Senado",
-   "bajada": "Lo confirmó la propia vicepresidenta a través de su cuenta en X. \"Es un alivio financiero\", resaltó. La iniciativa, que favorece nuevamente a los trabajadores de la Cámara Alta, va a contramano de las decisiones del Presidente.",
-   "leer": "Victoria Villarruel se despega otra vez de Milei: otorgó un programa de créditos a tasa cero para empleados del Senado. Lo confirmó la propia vicepresidenta a través de su cuenta en X. \"Es un alivio financiero\", resaltó. La iniciativa, que favorece nuevamente a los trabajadores de la Cámara Alta, va a contramano de las decisiones del Presidente.",
-   "fuente": "clarin.com",
-   "t": 1793410691000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Agarró el bolso y se fue: Camilo Ugo Carabelli se enojó por el estado de la cancha en Guayaquil y abandonó en pleno partido",
-   "bajada": "El argentino, primer preclasificado del Challenger ecuatoriano, dejó la cancha cuando disputaba los cuartos de final frente al brasileño Joao Lucas Reis da Silva. El árbitro lo descalificó por negarse a continuar y perdió los puntos y el dinero que había ganado en el torneo.",
-   "leer": "Agarró el bolso y se fue: Camilo Ugo Carabelli se enojó por el estado de la cancha en Guayaquil y abandonó en pleno partido. El argentino, primer preclasificado del Challenger ecuatoriano, dejó la cancha cuando disputaba los cuartos de final frente al brasileño Joao Lucas Reis da Silva. El árbitro lo descalificó por negarse a continuar y perdió los puntos y el dinero que había ganado en el torneo.",
-   "fuente": "clarin.com",
-   "t": 1793410145000
-  },
-  {
    "tema": "economía",
    "titulo": "Los 4 ejes de la Ley Integral Pyme: la propuesta para frenar el cierre de empresas que no encuentra interlocutor oficial",
    "bajada": "Mientras en Rosario funcionarios y representantes de grandes empresas celebraban las bondades del RIGI, a pocas cuadras las pymes se juntaron para planificar una salida al abandono por parte del Estado Nacional.",
@@ -216,22 +304,6 @@
    "leer": "River Training Program | Entrenamiento formativo con Adelaide FC.",
    "fuente": "www.riverplate.com",
    "t": 1793408169000
-  },
-  {
-   "tema": "política",
-   "titulo": "La tentación de Santiago Caputo y el límite del ilusionismo",
-   "bajada": "El asesor convirtió en espectáculo la operación de salida de Bolsonaro de Brasil. El ansia de protagonismo choca con su rol de operador detrás de escena. La agenda internacional como combustión para su tropa. El impacto en redes.",
-   "leer": "La tentación de Santiago Caputo y el límite del ilusionismo. El asesor convirtió en espectáculo la operación de salida de Bolsonaro de Brasil. El ansia de protagonismo choca con su rol de operador detrás de escena. La agenda internacional como combustión para su tropa. El impacto en redes.",
-   "fuente": "clarin.com",
-   "t": 1793407755000
-  },
-  {
-   "tema": "economía",
-   "titulo": "\"Hace 723 días que no imprimo pesos\": Bausili proyectó otro trimestre con más actividad y un BCRA con \"más munición\" para las elecciones",
-   "bajada": "El presidente del BCRA se presentó en la Bolsa de Comercio de Córdoba. Destacó que la economía sigue en proceso de desinflación y defendió la reforma de la Carta Orgánica en el Congreso.",
-   "leer": "\"Hace 723 días que no imprimo pesos\": Bausili proyectó otro trimestre con más actividad y un BCRA con \"más munición\" para las elecciones. El presidente del BCRA se presentó en la Bolsa de Comercio de Córdoba. Destacó que la economía sigue en proceso de desinflación y defendió la reforma de la Carta Orgánica en el Congreso.",
-   "fuente": "clarin.com",
-   "t": 1793407563000
   },
   {
    "tema": "fútbol",
@@ -258,44 +330,12 @@
    "t": 1793403747000
   },
   {
-   "tema": "clima",
-   "titulo": "Alerta amarilla por tormentas y pronóstico de lluvias en Buenos Aires para esta noche",
-   "bajada": "",
-   "leer": "Alerta amarilla por tormentas y pronóstico de lluvias en Buenos Aires para esta noche.",
-   "fuente": "Cadena 3 Argentina",
-   "t": 1793403428000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Qué necesita Independiente para meterse en playoffs",
-   "bajada": "",
-   "leer": "Qué necesita Independiente para meterse en playoffs.",
-   "fuente": "TyC Sports",
-   "t": 1793400004000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso",
    "bajada": "",
    "leer": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso.",
    "fuente": "Olé",
    "t": 1793399528000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El choque de trenes en España se mete en la campaña para las elecciones y complica los planes de Pedro Sánchez",
-   "bajada": "La tragedia de este miércoles, que dejó 69 muertos, golpe al líder del PSOE, que busca mantener el poder tras los comicios del 29 de noviembre. La oposición lanzó duras acusaciones contra el gobierno por la supuesta falta de controles tras el segundo gran accidente de trenes este año.",
-   "leer": "El choque de trenes en España se mete en la campaña para las elecciones y complica los planes de Pedro Sánchez. La tragedia de este miércoles, que dejó 69 muertos, golpe al líder del PSOE, que busca mantener el poder tras los comicios del 29 de noviembre. La oposición lanzó duras acusaciones contra el gobierno por la supuesta falta de controles tras el segundo gran accidente de trenes este año.",
-   "fuente": "clarin.com",
-   "t": 1793397477000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Vuelve a su casa: le dieron prisión domiciliaria al bioquímico de Esquel acusado de mantener cautiva a su familia en la vivienda",
-   "bajada": "A Miguel Battista (71) lo imputaron por privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos. La resolución desestimó el pedido de la Fiscalía de mantener al sospechoso en una cárcel.",
-   "leer": "Vuelve a su casa: le dieron prisión domiciliaria al bioquímico de Esquel acusado de mantener cautiva a su familia en la vivienda. A Miguel Battista (71) lo imputaron por privación ilegítima de la libertad y abandono de persona por tener en cautiverio a su esposa e hijos. La resolución desestimó el pedido de la Fiscalía de mantener al sospechoso en una cárcel.",
-   "fuente": "clarin.com",
-   "t": 1793395630000
   },
   {
    "tema": "fútbol",
@@ -306,84 +346,12 @@
    "t": 1793387156000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "Julio Bocca suma un nuevo reconocimiento internacional y el Ballet Estable del Colón ganó un Premio María Guerrero",
-   "bajada": "El máximo bailarín argentino recibió una distinción por su trayectoria y su aporte a nuevas generaciones de artistas. La celebración también alcanzó a la compañía del Colón, que celebra este año un siglo de historia.",
-   "leer": "Julio Bocca suma un nuevo reconocimiento internacional y el Ballet Estable del Colón ganó un Premio María Guerrero. El máximo bailarín argentino recibió una distinción por su trayectoria y su aporte a nuevas generaciones de artistas. La celebración también alcanzó a la compañía del Colón, que celebra este año un siglo de historia.",
-   "fuente": "clarin.com",
-   "t": 1793386312000
-  },
-  {
    "tema": "recitales",
-   "titulo": "Luciano Pereyra anunció 10 shows en el Gran Rex: ya venden entradas",
+   "titulo": "Así fue el regreso de Aerosmith a los escenarios después de 3 años: Dave Grohl, Johnny Depp, Guns N’ Roses y más sorpresas",
    "bajada": "",
-   "leer": "Luciano Pereyra anunció 10 shows en el Gran Rex: ya venden entradas.",
-   "fuente": "LA COOPE 102.7",
-   "t": 1793382960000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "SAN LORENZO BUSCA DAR UN PASO CLAVE HACIA LOS PLAYOFFS",
-   "bajada": "",
-   "leer": "SAN LORENZO BUSCA DAR UN PASO CLAVE HACIA LOS PLAYOFFS.",
-   "fuente": "San Lorenzo",
-   "t": 1793382373000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Imelda May, la cantante que Ron Wood traerá en su gira en noviembre",
-   "bajada": "Será la invitada central y es una de las mejores vocalistas que ha dado Irlanda en lo que va del siglo. Y le contó a \"Clarín\" cómo el guitarrista de los Rolling Stones la descubrió en un sótano en Dublín.",
-   "leer": "Imelda May, la cantante que Ron Wood traerá en su gira en noviembre. Será la invitada central y es una de las mejores vocalistas que ha dado Irlanda en lo que va del siglo. Y le contó a \"Clarín\" cómo el guitarrista de los Rolling Stones la descubrió en un sótano en Dublín.",
-   "fuente": "clarin.com",
-   "t": 1793381840000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Motionless in White vuelve a la Argentina después de más de 10 años: cuándo y dónde será el show",
-   "bajada": "",
-   "leer": "Motionless in White vuelve a la Argentina después de más de 10 años: cuándo y dónde será el show.",
-   "fuente": "Ciudad Magazine",
-   "t": 1793380990000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Intel se desploma hasta 30%: qué le pasa al gigante de los chips que marcó la era de las PC en los 90",
-   "bajada": "La caída de las PC y los problemas de abastecimiento golpean a la compañía. El auge de la IA impulsa los servidores y encarece componentes de las notebooks. El costo de fabricar chips y la Ley de Moore ayudan a entender el cambio en la industria del histórico \"Intel Inside\".",
-   "leer": "Intel se desploma hasta 30%: qué le pasa al gigante de los chips que marcó la era de las PC en los 90. La caída de las PC y los problemas de abastecimiento golpean a la compañía. El auge de la IA impulsa los servidores y encarece componentes de las notebooks. El costo de fabricar chips y la Ley de Moore ayudan a entender el cambio en la industria del histórico \"Intel Inside\".",
-   "fuente": "clarin.com",
-   "t": 1793380457000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Murió Stephen Kovacevich, el exmarido de Martha Argerich que revolucionó a Beethoven",
-   "bajada": "El pianista estadounidense de origen croata murió en Londres a los 86 años, mientras se recuperaba de una operación de cadera. Fue reconocido por sus interpretaciones de Beethoven, Schubert y Brahms. Su relación artística y sentimental con Martha Argerich fue otro de los capítulos de su vida.",
-   "leer": "Murió Stephen Kovacevich, el exmarido de Martha Argerich que revolucionó a Beethoven. El pianista estadounidense de origen croata murió en Londres a los 86 años, mientras se recuperaba de una operación de cadera. Fue reconocido por sus interpretaciones de Beethoven, Schubert y Brahms. Su relación artística y sentimental con Martha Argerich fue otro de los capítulos de su vida.",
-   "fuente": "clarin.com",
-   "t": 1793380306000
-  },
-  {
-   "tema": "música",
-   "titulo": "Plataforma Lavardén celebró los 40 años de «Oktubre» con música, arte y memoria",
-   "bajada": "",
-   "leer": "Plataforma Lavardén celebró los 40 años de «Oktubre» con música, arte y memoria.",
-   "fuente": "Santa Fe Cultura",
-   "t": 1793377381000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "La falla global de PHP que amenaza a gran parte de la web: cómo reaccionó Argentina y cuál es el estado de los sitios oficiales",
-   "bajada": "PHP es un lenguaje que usan muchas páginas web: dos fallas críticas pueden permitir que atacantes tomen el control de los servidores. Según el excoordinador del CERT, argentina.gob.ar, Salud y Economía aplicaron las medidas recomendadas para reducir el riesgo.",
-   "leer": "La falla global de PHP que amenaza a gran parte de la web: cómo reaccionó Argentina y cuál es el estado de los sitios oficiales. PHP es un lenguaje que usan muchas páginas web: dos fallas críticas pueden permitir que atacantes tomen el control de los servidores. Según el excoordinador del CERT, argentina.gob.ar, Salud y Economía aplicaron las medidas recomendadas para reducir el riesgo.",
-   "fuente": "clarin.com",
-   "t": 1793373631000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Atento, Boca: se lesionaron dos jugadores de Atlético Mineiro y uno de ellos terminó en el hospital",
-   "bajada": "",
-   "leer": "Atento, Boca: se lesionaron dos jugadores de Atlético Mineiro y uno de ellos terminó en el hospital.",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1793370357000
+   "leer": "Así fue el regreso de Aerosmith a los escenarios después de 3 años: Dave Grohl, Johnny Depp, Guns N’ Roses y más sorpresas.",
+   "fuente": "Infobae",
+   "t": 1793385600000
   }
  ]
 }
