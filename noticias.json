@@ -1,69 +1,221 @@
 {
- "t": 1793576244554,
+ "t": 1793599505601,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Ecuador envía otras 7,6 toneladas de ayuda a Galápagos tras las afectaciones por El Niño",
-   "bajada": "Quito, 1 nov (EFE).- La Secretaría Nacional de Gestión de Riesgos (SNGR) de Ecuador coordinó este domingo el envío de otras 7,6 toneladas de ayuda humanitaria a las islas Galápagos, donde las fuertes lluvias asociadas al fenómeno de El Niño han dejado una persona fallecida y unas 2.000 afectadas.",
-   "leer": "Ecuador envía otras 7,6 toneladas de ayuda a Galápagos tras las afectaciones por El Niño. Quito, 1 nov (EFE).- La Secretaría Nacional de Gestión de Riesgos (SNGR) de Ecuador coordinó este domingo el envío de otras 7,6 toneladas de ayuda humanitaria a las islas Galápagos, donde las fuertes lluvias asociadas al fenómeno de El Niño han dejado una persona fallecida y unas 2.000 afectadas.",
-   "fuente": "infobae.com",
-   "t": 1793575875000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Las fotos oficiales del casamiento de Lali Espósito y Pedro Rosemblat: “Fuimos inmensamente felices”",
-   "bajada": "La cantante compartió las primeras postales oficiales de la ceremonia celebrada en San Telmo, con registros de la fiesta, la firma del acta y el festejo posterior junto a su marido.",
-   "leer": "Las fotos oficiales del casamiento de Lali Espósito y Pedro Rosemblat: “Fuimos inmensamente felices”. La cantante compartió las primeras postales oficiales de la ceremonia celebrada en San Telmo, con registros de la fiesta, la firma del acta y el festejo posterior junto a su marido.",
-   "fuente": "infobae.com",
-   "t": 1793575860000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Flávio Bolsonaro anuncia entrevistas para decir lo que \"ya nadie puede decir\" en Brasil",
-   "bajada": "Río de Janeiro, 1 nov (EFE).- El senador Flávio Bolsonaro, derrotado en la segunda vuelta de las elecciones presidenciales de Brasil, anunció este domingo que concederá en los próximos días entrevistas a grandes medios de comunicación brasileños e internacionales para decir \"lo que ya nadie puede.",
-   "leer": "Flávio Bolsonaro anuncia entrevistas para decir lo que \"ya nadie puede decir\" en Brasil. Río de Janeiro, 1 nov (EFE).- El senador Flávio Bolsonaro, derrotado en la segunda vuelta de las elecciones presidenciales de Brasil, anunció este domingo que concederá en los próximos días entrevistas a grandes medios de comunicación brasileños e internacionales para decir \"lo que ya nadie puede.",
-   "fuente": "infobae.com",
-   "t": 1793575859000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Entre polémicas, Reino Unido coquetea con la UE de la mano de Andy Burnham",
-   "bajada": "El primer ministro británico dijo que le gustaría ver ese regreso en vida, aunque evitó comprometerse a convocar otro referéndum.",
-   "leer": "Entre polémicas, Reino Unido coquetea con la UE de la mano de Andy Burnham. El primer ministro británico dijo que le gustaría ver ese regreso en vida, aunque evitó comprometerse a convocar otro referéndum.",
+   "titulo": "Gabriel Rolón, psicoanalista: “Muchas veces estamos sólo cumpliendo un mandato inconsciente”",
+   "bajada": "En una entrevista exclusiva para LN+, el psicoanalista y escritor reflexionó sobre la naturaleza humana y propuso una mirada cruda sobre el amor, la muerte y la persistencia de los mandatos sociales.",
+   "leer": "Gabriel Rolón, psicoanalista: “Muchas veces estamos sólo cumpliendo un mandato inconsciente”. En una entrevista exclusiva para LN+, el psicoanalista y escritor reflexionó sobre la naturaleza humana y propuso una mirada cruda sobre el amor, la muerte y la persistencia de los mandatos sociales.",
    "fuente": "lanacion.com.ar",
-   "t": 1793575813000
+   "t": 1793599200000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Hermanas, polistas y “rivales”. Viajan por el mundo, se codean con la realeza y pronto se enfrentarán en el Abierto de Polo Femenino",
+   "bajada": "Catalina, Juana e Isabella crecieron entre Argentina e Inglaterra, hicieron del deporte una forma de vida y brillan con luz propia dentro y fuera de la cancha.",
+   "leer": "Hermanas, polistas y “rivales”. Viajan por el mundo, se codean con la realeza y pronto se enfrentarán en el Abierto de Polo Femenino. Catalina, Juana e Isabella crecieron entre Argentina e Inglaterra, hicieron del deporte una forma de vida y brillan con luz propia dentro y fuera de la cancha.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793599200000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El poderío chino que abre oportunidades para la Argentina en un sector estratégico",
+   "bajada": "Inteligencia artificial, robótica, maquinaria autónoma y conectividad marcaron la exposición CIAME 2026 en Tianjin; el desafío argentino es transformar estos avances en inversiones, productividad y alianzas industriales.",
+   "leer": "El poderío chino que abre oportunidades para la Argentina en un sector estratégico. Inteligencia artificial, robótica, maquinaria autónoma y conectividad marcaron la exposición CIAME 2026 en Tianjin; el desafío argentino es transformar estos avances en inversiones, productividad y alianzas industriales.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793599200000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Lo detuvieron por matar a la madre de sus hijos a puñaladas y explicó por qué lo hizo: \"Se me rió en la cara\"",
+   "bajada": "El acusado, que pasó varios días prófugo, aseguró que atacó a María Eugenia Galván después de preguntarle por un supuesto amante. La mujer murió luego de recibir cinco heridas de arma blanca en Santiago del Estero.",
+   "leer": "Lo detuvieron por matar a la madre de sus hijos a puñaladas y explicó por qué lo hizo: \"Se me rió en la cara\". El acusado, que pasó varios días prófugo, aseguró que atacó a María Eugenia Galván después de preguntarle por un supuesto amante. La mujer murió luego de recibir cinco heridas de arma blanca en Santiago del Estero.",
+   "fuente": "clarin.com",
+   "t": 1793598665000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Quién fue el octavo eliminado de La Granja VIP 2026",
+   "bajada": "La Gala de Eliminación sorprendió con un nuevo participante fuera de la competencia.",
+   "leer": "Quién fue el octavo eliminado de La Granja VIP 2026. La Gala de Eliminación sorprendió con un nuevo participante fuera de la competencia.",
+   "fuente": "infobae.com",
+   "t": 1793598645000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Finaliza el alto el fuego humanitario en Oleshki tras completarse el reparto de ayuda y la salida de civiles",
+   "bajada": "El periodo de cesación de hostilidades acordado entre Rusia y Ucrania en la localidad de Oleshki, en la provincia de Jersón, ha llegado a su fin tras permanecer vigente desde el pasado 27 de octubre, según ha confirmado la comisionada de Derechos Humanos de Rusia, Yana Lantratova.",
+   "leer": "Finaliza el alto el fuego humanitario en Oleshki tras completarse el reparto de ayuda y la salida de civiles. El periodo de cesación de hostilidades acordado entre Rusia y Ucrania en la localidad de Oleshki, en la provincia de Jersón, ha llegado a su fin tras permanecer vigente desde el pasado 27 de octubre, según ha confirmado la comisionada de Derechos Humanos de Rusia, Yana Lantratova.",
+   "fuente": "infobae.com",
+   "t": 1793598338000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Guerra, tasas y riesgo país: qué efectos pueden tener en la Argentina las elecciones de medio término de Estados Unidos",
+   "bajada": "Este martes se renuevan los dos tercios del Congreso de Estados Unidos. Cómo cada resultado, a favor o en contra del partido de Donald Trump, puede afectar a la Argentina.",
+   "leer": "Guerra, tasas y riesgo país: qué efectos pueden tener en la Argentina las elecciones de medio término de Estados Unidos. Este martes se renuevan los dos tercios del Congreso de Estados Unidos. Cómo cada resultado, a favor o en contra del partido de Donald Trump, puede afectar a la Argentina.",
+   "fuente": "infobae.com",
+   "t": 1793598079000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Víctor Hugo, novelista francés: \"Los cuarenta son la edad madura de la juventud; los cincuenta la juventud de la edad madura\"",
+   "bajada": "El autor francés atravesó exilios, pérdidas familiares y cambios políticos mientras construía una obra que siguió creciendo durante su madurez. Una de sus frases más conocidas utiliza dos décadas de la vida para describir ese paso del tiempo.",
+   "leer": "Víctor Hugo, novelista francés: \"Los cuarenta son la edad madura de la juventud; los cincuenta la juventud de la edad madura\". El autor francés atravesó exilios, pérdidas familiares y cambios políticos mientras construía una obra que siguió creciendo durante su madurez. Una de sus frases más conocidas utiliza dos décadas de la vida para describir ese paso del tiempo.",
+   "fuente": "clarin.com",
+   "t": 1793597510000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Inundaciones repentinas provocan evacuaciones en el suroeste de EEUU, alerta en pueblo de Colorado",
+   "bajada": "Fuertes lluvias en el suroeste de EE.UU. causan inundaciones y evacuaciones, afectando zonas turísticas y comunidades en Colorado, Arizona y Nuevo México. Las autoridades advierten sobre crecidas históricas de ríos, mientras se cierran carreteras y se realizan rescates en áreas afectadas por el clima extremo.",
+   "leer": "Inundaciones repentinas provocan evacuaciones en el suroeste de EEUU, alerta en pueblo de Colorado. Fuertes lluvias en el suroeste de EE.UU. causan inundaciones y evacuaciones, afectando zonas turísticas y comunidades en Colorado, Arizona y Nuevo México. Las autoridades advierten sobre crecidas históricas de ríos, mientras se cierran carreteras y se realizan rescates en áreas afectadas por el clima extremo.",
+   "fuente": "clarin.com",
+   "t": 1793596807000
   },
   {
    "tema": "fútbol",
-   "titulo": "Colapinto se enteró del triunfo de Boca en medio de la carrera: \"¡Me lo dijeron en la bandera roja!\"",
-   "bajada": "Después de un gran GP de México, en el que llegó 8° y sumó puntos, Franco habló de la victoria en el superclásico contra River.",
-   "leer": "Colapinto se enteró del triunfo de Boca en medio de la carrera: \"¡Me lo dijeron en la bandera roja!\". Después de un gran GP de México, en el que llegó 8° y sumó puntos, Franco habló de la victoria en el superclásico contra River.",
-   "fuente": "ole.com.ar",
-   "t": 1793575328000
+   "titulo": "Atenas se quedó con un final electrizante ante Racing",
+   "bajada": "",
+   "leer": "Atenas se quedó con un final electrizante ante Racing.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1793591534000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "\"Nos vamos a estrellar. Se nos acaba el tiempo\": el último mensaje desde el avión que cayó en Florida",
+   "bajada": "Una grabación registró los desesperados mensajes de la tripulación del jet ejecutivo que se estrelló cerca de Mar-a-Lago, la residencia privada de Donald Trump. En el accidente murieron las nueve personas que iban a bordo.",
+   "leer": "\"Nos vamos a estrellar. Se nos acaba el tiempo\": el último mensaje desde el avión que cayó en Florida. Una grabación registró los desesperados mensajes de la tripulación del jet ejecutivo que se estrelló cerca de Mar-a-Lago, la residencia privada de Donald Trump. En el accidente murieron las nueve personas que iban a bordo.",
+   "fuente": "clarin.com",
+   "t": 1793590134000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este lunes 2 noviembre de 2026",
+   "bajada": "",
+   "leer": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este lunes 2 noviembre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1793588584000
   },
   {
    "tema": "fútbol",
-   "titulo": "Colapinto cortó en México una racha de cuatro fechas sin sumar en la F1",
-   "bajada": "El argentino terminó octavo este domingo en el Autódromo Hermanos Rodríguez y volvió a sumar puntos tras cuatro Grandes Premios sin hacerlo. La última vez había sido en Madrid.",
-   "leer": "Colapinto cortó en México una racha de cuatro fechas sin sumar en la F1. El argentino terminó octavo este domingo en el Autódromo Hermanos Rodríguez y volvió a sumar puntos tras cuatro Grandes Premios sin hacerlo. La última vez había sido en Madrid.",
+   "titulo": "Fortalezas y heridas que deja el clásico",
+   "bajada": "Boca afronta con gran ánimo y recursos la recta final hacia un horizonte de títulos. River, a los tropezones, ofuscado y en medio de incertidumbres, tiene objetivos inmediatos de segundo orden.",
+   "leer": "Fortalezas y heridas que deja el clásico. Boca afronta con gran ánimo y recursos la recta final hacia un horizonte de títulos. River, a los tropezones, ofuscado y en medio de incertidumbres, tiene objetivos inmediatos de segundo orden.",
    "fuente": "ole.com.ar",
-   "t": 1793575066000
+   "t": 1793588275000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Gran Premio de México: Kimi Antonelli se consagró campeón a los 20 años y Franco Colapinto terminó octavo",
-   "bajada": "Ganó Max Verstappen, detrás llegó Lewis Hamilton y cerró el podio el italiano, en la cima de la Fórmula 1 con Mercedes.",
-   "leer": "Gran Premio de México: Kimi Antonelli se consagró campeón a los 20 años y Franco Colapinto terminó octavo. Ganó Max Verstappen, detrás llegó Lewis Hamilton y cerró el podio el italiano, en la cima de la Fórmula 1 con Mercedes.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793574949000
+   "tema": "fútbol",
+   "titulo": "Con una sorpresa, los jugadores que votó Messi para el premio Kopa",
+   "bajada": "En las últimas horas se dio a conocer a los futbolistas que eligió Leo para el premio al mejor jugador joven y, entre sus votos, se quedó con un candidato que solo recibió su apoyo.",
+   "leer": "Con una sorpresa, los jugadores que votó Messi para el premio Kopa. En las últimas horas se dio a conocer a los futbolistas que eligió Leo para el premio al mejor jugador joven y, entre sus votos, se quedó con un candidato que solo recibió su apoyo.",
+   "fuente": "ole.com.ar",
+   "t": 1793586971000
   },
   {
-   "tema": "actualidad",
-   "titulo": "El riesgo país argentino subió en octubre hasta seis veces lo que aumentó en la región y el Gobierno contuvo el dólar",
-   "bajada": "El ministro de Economía transmitió su inquietud por el contexto global a compañeros de Gabinete y empresarios; administración del tipo de cambio y búsqueda de fuentes de financiamiento alternativas.",
-   "leer": "El riesgo país argentino subió en octubre hasta seis veces lo que aumentó en la región y el Gobierno contuvo el dólar. El ministro de Economía transmitió su inquietud por el contexto global a compañeros de Gabinete y empresarios; administración del tipo de cambio y búsqueda de fuentes de financiamiento alternativas.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793574082000
+   "tema": "fútbol",
+   "titulo": "Video: el gol de Messi ante New England Revolution",
+   "bajada": "Lionel marcó el 2 a 1 del Inter Miami en el Foxborough luego de una buena jugada individual. Eludió a tres rivales antes de clavar el zurdazo.",
+   "leer": "Video: el gol de Messi ante New England Revolution. Lionel marcó el 2 a 1 del Inter Miami en el Foxborough luego de una buena jugada individual. Eludió a tres rivales antes de clavar el zurdazo.",
+   "fuente": "ole.com.ar",
+   "t": 1793586209000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "AFA publicó los audios del VAR de las dos expulsiones de River, pero no las otras polémicas del Superclásico: de la \"acción de juego\" al \"cambio correcto\"",
+   "bajada": "Son las charlas que tuvieron el árbitro Nicolás Ramírez y Silvio Trucco, a cargo de la cabina en el predio de Ezeiza. Mirá el video.",
+   "leer": "AFA publicó los audios del VAR de las dos expulsiones de River, pero no las otras polémicas del Superclásico: de la \"acción de juego\" al \"cambio correcto\". Son las charlas que tuvieron el árbitro Nicolás Ramírez y Silvio Trucco, a cargo de la cabina en el predio de Ezeiza. Mirá el video.",
+   "fuente": "clarin.com",
+   "t": 1793585304000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La remontada de los delanteros de San Lorenzo",
+   "bajada": "",
+   "leer": "La remontada de los delanteros de San Lorenzo.",
+   "fuente": "San Lorenzo Primero",
+   "t": 1793585156000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Riquelme habló de las polémicas en el Superclásico y habilitó que los jugadores de Boca \"salgan a bailar\": \"Siempre el que pierde va a pedir\"",
+   "bajada": "El presidente del conjunto azul y oro valoró la victoria sobre River, que no generó peligro sobre el arquero Montero. Mirá el video.",
+   "leer": "Riquelme habló de las polémicas en el Superclásico y habilitó que los jugadores de Boca \"salgan a bailar\": \"Siempre el que pierde va a pedir\". El presidente del conjunto azul y oro valoró la victoria sobre River, que no generó peligro sobre el arquero Montero. Mirá el video.",
+   "fuente": "clarin.com",
+   "t": 1793584442000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Franco Colapinto volvió a ser sancionado en la Fórmula 1 y pasó de los puntos al 15° puesto en el GP de México: ¿cuál fue el motivo?",
+   "bajada": "Varias horas después de haber finalizado en el octavo puesto, la FIA comunicó la decisión. A Oscar Piastri también lo penalizaron, mientras que a su compañero Pierre Gasly no le quitaron tiempo, pero sí puntos en la superlicencia.",
+   "leer": "Varias horas después de haber finalizado en el octavo puesto, la FIA comunicó la decisión. A Oscar Piastri también lo penalizaron, mientras que a su compañero Pierre Gasly no le quitaron tiempo, pero sí puntos en la superlicencia.",
+   "fuente": "clarin.com",
+   "t": 1793584359000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Al estilo Nicolás Maduro, Delcy Rodríguez adelantó la Navidad en Venezuela y encendió las luces que dieron inicio al festejo",
+   "bajada": "La mandataria encabezó el encendido de luces durante el festival Venezuela Renace Fest. Las festividades de este año están marcadas por la ausencia del expresidente, detenido desde enero en Estados Unidos.",
+   "leer": "Al estilo Nicolás Maduro, Delcy Rodríguez adelantó la Navidad en Venezuela y encendió las luces que dieron inicio al festejo. La mandataria encabezó el encendido de luces durante el festival Venezuela Renace Fest. Las festividades de este año están marcadas por la ausencia del expresidente, detenido desde enero en Estados Unidos.",
+   "fuente": "clarin.com",
+   "t": 1793581926000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca Juniors gana el superclásico argentino al River Plate",
+   "bajada": "",
+   "leer": "Boca Juniors gana el superclásico argentino al River Plate.",
+   "fuente": "DW.com",
+   "t": 1793579116000
+  },
+  {
+   "tema": "música",
+   "titulo": "“Venimos a festejar a puro rock”: Turf celebra sus 30 años en Catamarca",
+   "bajada": "",
+   "leer": "“Venimos a festejar a puro rock”: Turf celebra sus 30 años en Catamarca.",
+   "fuente": "El Esquiu",
+   "t": 1793578800000
+  },
+  {
+   "tema": "clima",
+   "titulo": "El SMN bajó el nivel de alerta por tormentas a amarillo: se esperan nuevas precipitaciones durante la jornada",
+   "bajada": "",
+   "leer": "El SMN bajó el nivel de alerta por tormentas a amarillo: se esperan nuevas precipitaciones durante la jornada.",
+   "fuente": "Cadena Nueve - Diario Digital",
+   "t": 1793577881000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Gobierno avala la reelección indefinida en la Provincia para sumar a la UCR al armado anti K",
+   "bajada": "En la Casa Rosada dan por hecho que conformarán una alianza con el PRO, pero también con el radicalismo, detrás de la postulación de Diego Santilli. Para evitar repartir cargos con los otros partidos, sería clave que se apruebe la reelección indefinida para los intendentes bonaerenses.",
+   "leer": "El Gobierno avala la reelección indefinida en la Provincia para sumar a la UCR al armado anti K. En la Casa Rosada dan por hecho que conformarán una alianza con el PRO, pero también con el radicalismo, detrás de la postulación de Diego Santilli. Para evitar repartir cargos con los otros partidos, sería clave que se apruebe la reelección indefinida para los intendentes bonaerenses.",
+   "fuente": "clarin.com",
+   "t": 1793577211000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las decisiones de Arruabarrena en el 11 de Boca ante Independiente",
+   "bajada": "",
+   "leer": "Las decisiones de Arruabarrena en el 11 de Boca ante Independiente.",
+   "fuente": "Olé",
+   "t": 1793577018000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Cómo se produjo el hackeo de US$ 6.300 millones a Binance",
+   "bajada": "Una reunión de crisis. Una llamada a conferencia global. Un fundador que transmitió en vivo el mayor robo cripto de la historia. Desde adentro, 24 horas de paroxismo vividas en la bolsa de criptomonedas más grande del mundo.",
+   "leer": "Cómo se produjo el hackeo de US$ 6.300 millones a Binance. Una reunión de crisis. Una llamada a conferencia global. Un fundador que transmitió en vivo el mayor robo cripto de la historia. Desde adentro, 24 horas de paroxismo vividas en la bolsa de criptomonedas más grande del mundo.",
+   "fuente": "clarin.com",
+   "t": 1793576302000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Rescataron a tres turistas canadienses que arribaron en un velero que se incendió en el puerto de Mar del Plata",
+   "bajada": "La embarcación realizaba maniobras de amarre en una boya de cortesía cuando comenzó el fuego. Los pasajeros de la nave provenían de Uruguay.",
+   "leer": "Rescataron a tres turistas canadienses que arribaron en un velero que se incendió en el puerto de Mar del Plata. La embarcación realizaba maniobras de amarre en una boya de cortesía cuando comenzó el fuego. Los pasajeros de la nave provenían de Uruguay.",
+   "fuente": "clarin.com",
+   "t": 1793574550000
   },
   {
    "tema": "fútbol",
@@ -72,14 +224,6 @@
    "leer": "Independiente visita a Defensa y define su pase a playoffs.",
    "fuente": "Diario El Norte - San Nicolás",
    "t": 1793574036000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Michael Mann, director de \"Heat\", se disparó accidentalmente en un campo de tiro",
-   "bajada": "El director de clásicos policiacos sufrió un accidente leve en un campo de tiro en Los Ángeles. El disparo fue accidental, según la policía. Mann, de 83 años, reconocido por sus intensas escenas de acción, fue atendido y dado de alta tras el incidente, informó su representante.",
-   "leer": "Michael Mann, director de \"Heat\", se disparó accidentalmente en un campo de tiro. El director de clásicos policiacos sufrió un accidente leve en un campo de tiro en Los Ángeles. El disparo fue accidental, según la policía. Mann, de 83 años, reconocido por sus intensas escenas de acción, fue atendido y dado de alta tras el incidente, informó su representante.",
-   "fuente": "clarin.com",
-   "t": 1793574013000
   },
   {
    "tema": "música",
@@ -91,35 +235,19 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Parecía un hincha de Mercedes, pero era el futuro campeón de la Fórmula 1: la historia de Kimi Antonelli",
-   "bajada": "En febrero de 2025, un tímido adolescente de 18 años se presentó ante la prensa en Londres y saludó uno por uno a los periodistas, incluido Olé . Tenía una sonrisa tímida, no había sacado el registro y lo llevaba la mamá al colegio.",
-   "leer": "Parecía un hincha de Mercedes, pero era el futuro campeón de la Fórmula 1: la historia de Kimi Antonelli. En febrero de 2025, un tímido adolescente de 18 años se presentó ante la prensa en Londres y saludó uno por uno a los periodistas, incluido Olé . Tenía una sonrisa tímida, no había sacado el registro y lo llevaba la mamá al colegio.",
-   "fuente": "ole.com.ar",
-   "t": 1793573645000
+   "titulo": "Ruben Darío Insua comparó su vuelta a San Lorenzo con el ciclo de 2022: \"Hoy es más complejo, pasaron cosas graves\"",
+   "bajada": "",
+   "leer": "Ruben Darío Insua comparó su vuelta a San Lorenzo con el ciclo de 2022: \"Hoy es más complejo, pasaron cosas graves\".",
+   "fuente": "Olé",
+   "t": 1793573652000
   },
   {
-   "tema": "actualidad",
+   "tema": "política",
    "titulo": "Milei viaja otra vez a España y se reúne la mesa política en medio de las tensiones por la suspensión de las PASO",
    "bajada": "El Presidente llegará a Madrid por segunda vez en los últimos 15 días y la cuarta en lo que va del año. En este caso, asistirá a la Cumbre Iberoamericana de jefes y jefas de Estado y de gobierno.",
    "leer": "Milei viaja otra vez a España y se reúne la mesa política en medio de las tensiones por la suspensión de las PASO. El Presidente llegará a Madrid por segunda vez en los últimos 15 días y la cuarta en lo que va del año. En este caso, asistirá a la Cumbre Iberoamericana de jefes y jefas de Estado y de gobierno.",
    "fuente": "clarin.com",
    "t": 1793573308000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Inundaciones repentinas por fuertes lluvias provocan evacuaciones en Arizona y Colorado",
-   "bajada": "Fuertes lluvias en el suroeste de EE.UU. provocan inundaciones en Colorado y Arizona, obligando a evacuar comunidades cercanas a ríos desbordados. Autoridades advierten sobre crecidas históricas en el río San Juan, mientras que Sedona y Camp Verde enfrentan evacuaciones por torrentes peligrosos.",
-   "leer": "Inundaciones repentinas por fuertes lluvias provocan evacuaciones en Arizona y Colorado. Fuertes lluvias en el suroeste de EE.UU. provocan inundaciones en Colorado y Arizona, obligando a evacuar comunidades cercanas a ríos desbordados. Autoridades advierten sobre crecidas históricas en el río San Juan, mientras que Sedona y Camp Verde enfrentan evacuaciones por torrentes peligrosos.",
-   "fuente": "clarin.com",
-   "t": 1793572809000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Estados Unidos: la Casa Blanca promete ayudas por 15.000 millones de dólares al sector rural, un voto clave en las elecciones",
-   "bajada": "Son iniciativas para compensar el aumento del diésel y los fertilizantes, en gran medida a causa de los aranceles de Trump. El presidente hizo campaña ayer en los Estados de Iowa y Kansas.",
-   "leer": "Estados Unidos: la Casa Blanca promete ayudas por 15.000 millones de dólares al sector rural, un voto clave en las elecciones. Son iniciativas para compensar el aumento del diésel y los fertilizantes, en gran medida a causa de los aranceles de Trump. El presidente hizo campaña ayer en los Estados de Iowa y Kansas.",
-   "fuente": "clarin.com",
-   "t": 1793572505000
   },
   {
    "tema": "política",
@@ -138,60 +266,12 @@
    "t": 1793571747000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Independiente visita a Defensa y Justicia buscando un lugar en los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "Independiente visita a Defensa y Justicia buscando un lugar en los playoffs del Torneo Clausura.",
-   "fuente": "Agencia Noticias Argentinas",
-   "t": 1793570700000
-  },
-  {
    "tema": "recitales",
    "titulo": "Fito Páez anunció un nuevo recital en Rosario: cuándo será y qué dijo sobre el show",
    "bajada": "",
    "leer": "Fito Páez anunció un nuevo recital en Rosario: cuándo será y qué dijo sobre el show.",
    "fuente": "Radiofonica 100.7",
    "t": 1793570586000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Kimi Antonelli, el nene que no quería bajarse del kart y hoy es el campeón más joven de la historia de la Fórmula 1",
-   "bajada": "El italiano de 20 años se consagró en el Gran Premio de Ciudad de México al llegar tercero.. Tenía apenas un año cuando se subió por primera vez a un kart y no quería bajarse. Toto Wolff apostó por él como reemplazante de Lewis Hamilton en Mercedes e hizo un pleno.",
-   "leer": "Kimi Antonelli, el nene que no quería bajarse del kart y hoy es el campeón más joven de la historia de la Fórmula 1. El italiano de 20 años se consagró en el Gran Premio de Ciudad de México al llegar tercero.. Tenía apenas un año cuando se subió por primera vez a un kart y no quería bajarse. Toto Wolff apostó por él como reemplazante de Lewis Hamilton en Mercedes e hizo un pleno.",
-   "fuente": "clarin.com",
-   "t": 1793570520000
-  },
-  {
-   "tema": "política",
-   "titulo": "Trece gobernadores para ahuyentar las brujas, la cláusula Ritondo por las PASO y una inédita cumbre de Kicillof en Jujuy",
-   "bajada": "El oficialismo dispone de apenas dos semanas para negociar el Presupuesto 2027 en un Congreso con plazos acotados por el receso ante la visita del Papa. Mauricio Macri advirtió sobre la falta de coordinación política del Gobierno y las dificultades de la economía para repuntar.",
-   "leer": "Trece gobernadores para ahuyentar las brujas, la cláusula Ritondo por las PASO y una inédita cumbre de Kicillof en Jujuy. El oficialismo dispone de apenas dos semanas para negociar el Presupuesto 2027 en un Congreso con plazos acotados por el receso ante la visita del Papa. Mauricio Macri advirtió sobre la falta de coordinación política del Gobierno y las dificultades de la economía para repuntar.",
-   "fuente": "clarin.com",
-   "t": 1793570420000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Leandro Paredes, el hombre de la sonrisa indisimulable que caminó por la cornisa pero festejó otra vez en el Superclásico: \"Fuimos inteligentes\"",
-   "bajada": "Todo River reclamó por una segunda amarilla al capitán de Boca, que se mantuvo en cancha y fue el conductor de su equipo. Está invicto en cinco partidos en su carrera contra el clásico rival y ganó su tercero consecutivo.",
-   "leer": "Leandro Paredes, el hombre de la sonrisa indisimulable que caminó por la cornisa pero festejó otra vez en el Superclásico: \"Fuimos inteligentes\". Todo River reclamó por una segunda amarilla al capitán de Boca, que se mantuvo en cancha y fue el conductor de su equipo. Está invicto en cinco partidos en su carrera contra el clásico rival y ganó su tercero consecutivo.",
-   "fuente": "clarin.com",
-   "t": 1793570133000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Nueve muertos al estrellarse un avión en Florida cerca de Mar-a-Lago, la residencia privada de Donald Trump",
-   "bajada": "La aeronave había partido de Texas e iba rumbo a Bahamas. El episodio ocurrió en una zona residencial de Palm Beach.",
-   "leer": "Nueve muertos al estrellarse un avión en Florida cerca de Mar-a-Lago, la residencia privada de Donald Trump. La aeronave había partido de Texas e iba rumbo a Bahamas. El episodio ocurrió en una zona residencial de Palm Beach.",
-   "fuente": "clarin.com",
-   "t": 1793569685000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca sigue en carrera por todos los títulos: así está en cada torneo",
-   "bajada": "",
-   "leer": "Boca sigue en carrera por todos los títulos: así está en cada torneo.",
-   "fuente": "ESPN Argentina",
-   "t": 1793569575000
   },
   {
    "tema": "recitales",
@@ -202,14 +282,6 @@
    "t": 1793569334000
   },
   {
-   "tema": "política",
-   "titulo": "Cambios en la Magistratura: pierde presencia Cristina y gana La Libertad Avanza",
-   "bajada": "A fines de noviembre vencen los mandatos de los ocho consejeros que le corresponden a Diputados y el Senado.",
-   "leer": "Cambios en la Magistratura: pierde presencia Cristina y gana La Libertad Avanza. A fines de noviembre vencen los mandatos de los ocho consejeros que le corresponden a Diputados y el Senado.",
-   "fuente": "clarin.com",
-   "t": 1793568956000
-  },
-  {
    "tema": "sociedad",
    "titulo": "Una argentina murió en un choque entre un auto y un camión en Nueva Zelanda",
    "bajada": "Ayelén Amarilla tenía 37 años y era oriunda de Mar del Plata. Vivía en ese país desde 2020. El accidente sucedió cuando regresaba de su trabajo.",
@@ -218,12 +290,12 @@
    "t": 1793568814000
   },
   {
-   "tema": "deportes",
-   "titulo": "Boca ganó en un Superclásico con escándalo: River terminó con 9 jugadores y reclamó por dos penales",
-   "bajada": "La temprana roja a Martínez Quarta condicionó el desarrollo de un partido que se definió por el cabezazo de Di Lollo, en el primer tiempo. Montiel también se fue antes del final a los vestuarios y despotricó contra el árbitro Nicolás Ramírez y el VAR Trucco. Mirá el resumen.",
-   "leer": "Boca ganó en un Superclásico con escándalo: River terminó con 9 jugadores y reclamó por dos penales. La temprana roja a Martínez Quarta condicionó el desarrollo de un partido que se definió por el cabezazo de Di Lollo, en el primer tiempo. Montiel también se fue antes del final a los vestuarios y despotricó contra el árbitro Nicolás Ramírez y el VAR Trucco. Mirá el resumen.",
-   "fuente": "clarin.com",
-   "t": 1793568640000
+   "tema": "fútbol",
+   "titulo": "Los puntajes de Boca vs. River, por el Torneo Clausura",
+   "bajada": "",
+   "leer": "Los puntajes de Boca vs. River, por el Torneo Clausura.",
+   "fuente": "TyC Sports",
+   "t": 1793567719000
   },
   {
    "tema": "economía",
@@ -243,14 +315,6 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Puntajes de Boca Juniors vs River Plate: las notas que dejó un caliente Superclásico en La Bombonera",
-   "bajada": "",
-   "leer": "Puntajes de Boca Juniors vs River Plate: las notas que dejó un caliente Superclásico en La Bombonera.",
-   "fuente": "365Scores",
-   "t": 1793563922000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "Resumen | Boca Junios vs. River Plate: Los bosteros se llevan el Superclásico",
    "bajada": "",
    "leer": "Resumen | Boca Junios vs. River Plate: Los bosteros se llevan el Superclásico.",
@@ -259,27 +323,11 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Racing terminó arriba, la “A” tiene sus cruces y Central llevó la final de la “B” a un tercer partido",
+   "titulo": "Los puntajes de River vs. Boca: Uno por Uno del superclásico",
    "bajada": "",
-   "leer": "Racing terminó arriba, la “A” tiene sus cruces y Central llevó la final de la “B” a un tercer partido.",
-   "fuente": "Sur 24 Noticias",
-   "t": 1793561013000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo de Mar del Plata: gloria, hazañas y una trayectoria que merece volver a ocupar el lugar que supo conquistar",
-   "bajada": "",
-   "leer": "San Lorenzo de Mar del Plata: gloria, hazañas y una trayectoria que merece volver a ocupar el lugar que supo conquistar.",
-   "fuente": "Agencia NOVA",
-   "t": 1793559453000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Dos informes ponen la lupa sobre los riesgos para la salud de utilizar termos falsificados",
-   "bajada": "Uno de los estudios detectó una concentración de cobre superior al límite reglamentario. En tanto, otro registró incumplimientos de los requisitos del Código Alimentario Argentino.",
-   "leer": "Dos informes ponen la lupa sobre los riesgos para la salud de utilizar termos falsificados. Uno de los estudios detectó una concentración de cobre superior al límite reglamentario. En tanto, otro registró incumplimientos de los requisitos del Código Alimentario Argentino.",
-   "fuente": "clarin.com",
-   "t": 1793559181000
+   "leer": "Los puntajes de River vs. Boca: Uno por Uno del superclásico.",
+   "fuente": "La Página Millonaria",
+   "t": 1793563383000
   },
   {
    "tema": "economía",
@@ -296,14 +344,6 @@
    "leer": "Al cineasta Michael Mann se le disparó un arma en un campo de tiro y resultó herido. El cineasta, que dirigió \"Colateral\" y \"Ferrari\", estaba guardando la pistola en su funda cuando se le disparó en forma accidental.",
    "fuente": "clarin.com",
    "t": 1793557572000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca 1-0 River Plate (1 de Nov., 2026) Estadísticas del equipo",
-   "bajada": "",
-   "leer": "Boca 1-0 River Plate (1 de Nov., 2026) Estadísticas del equipo.",
-   "fuente": "ESPN Deportes",
-   "t": 1793556090000
   },
   {
    "tema": "economía",
@@ -330,52 +370,12 @@
    "t": 1793544888000
   },
   {
-   "tema": "música",
-   "titulo": "Juanse, a 40 años del primer disco de Ratones Paranoicos y antes del show con Ron Wood: “El rock es muy complejo”",
-   "bajada": "",
-   "leer": "Juanse, a 40 años del primer disco de Ratones Paranoicos y antes del show con Ron Wood: “El rock es muy complejo”.",
-   "fuente": "Infobae",
-   "t": 1793543220000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Racing y otra mala noticia: Maravilla Martínez no jugará hasta el año próximo por lesión",
    "bajada": "",
    "leer": "Racing y otra mala noticia: Maravilla Martínez no jugará hasta el año próximo por lesión.",
    "fuente": "DeporTV",
    "t": 1793543040000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo rescató un punto ante Vélez y dejó abierta la definición por los playoffs",
-   "bajada": "",
-   "leer": "San Lorenzo rescató un punto ante Vélez y dejó abierta la definición por los playoffs.",
-   "fuente": "Diario Democracia",
-   "t": 1793542944000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Alerta meteorológica por tormentas fuertes, granizo y ráfagas de hasta 90 km/h en 13 provincias",
-   "bajada": "",
-   "leer": "Alerta meteorológica por tormentas fuertes, granizo y ráfagas de hasta 90 km/h en 13 provincias.",
-   "fuente": "Ambito",
-   "t": 1793537880000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Hay alerta amarilla por tormentas para el AMBA y 8 provincias: cómo estará el tiempo a la hora del Superclásico",
-   "bajada": "",
-   "leer": "Hay alerta amarilla por tormentas para el AMBA y 8 provincias: cómo estará el tiempo a la hora del Superclásico.",
-   "fuente": "Infobae",
-   "t": 1793528580000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Del Family a la Play: el rol crucial de la piratería en la historia de los videojuegos en Argentina",
-   "bajada": "Una investigación de Modo Historia Podcast reconstruye la historia del desarrollo, consumo y distribución de videojuegos en Argentina. Más de 50 entrevistas, juegos recuperados y contratos permiten revisar ese pasado.",
-   "leer": "Del Family a la Play: el rol crucial de la piratería en la historia de los videojuegos en Argentina. Una investigación de Modo Historia Podcast reconstruye la historia del desarrollo, consumo y distribución de videojuegos en Argentina. Más de 50 entrevistas, juegos recuperados y contratos permiten revisar ese pasado.",
-   "fuente": "clarin.com",
-   "t": 1793523700000
   }
  ]
 }
