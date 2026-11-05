@@ -1,133 +1,349 @@
 {
- "t": 1793892482105,
+ "t": 1793915973400,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Paracas: congresistas anuncian una iniciativa para reforzar protección de la reserva natural",
-   "bajada": "La jornada reunió a pescadores artesanales, organizaciones civiles y especialistas, quienes expusieron sus preocupaciones por la fauna, el turismo y el impacto del calentamiento marino.",
-   "leer": "Paracas: congresistas anuncian una iniciativa para reforzar protección de la reserva natural. La jornada reunió a pescadores artesanales, organizaciones civiles y especialistas, quienes expusieron sus preocupaciones por la fauna, el turismo y el impacto del calentamiento marino.",
-   "fuente": "infobae.com",
-   "t": 1793892308000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La Policía identifica a los dos máximos mandos policiales de Marruecos que supervisaban el dispositivo fronterizo durante la entrada masiva en Ceuta",
-   "bajada": "El jefe de Policía de Tetuán y el supervisor general de M’diq-Fnideq aparecen en cinco vídeos analizados por la Comisaría General de Información dando indicaciones a los agentes antidisturbios y siguiendo los movimientos de las fuerzas desplegadas junto a la frontera.",
-   "leer": "La Policía identifica a los dos máximos mandos policiales de Marruecos que supervisaban el dispositivo fronterizo durante la entrada masiva en Ceuta. El jefe de Policía de Tetuán y el supervisor general de M’diq-Fnideq aparecen en cinco vídeos analizados por la Comisaría General de Información dando indicaciones a los agentes antidisturbios y siguiendo los movimientos de las fuerzas desplegadas junto a la frontera.",
-   "fuente": "infobae.com",
-   "t": 1793892281000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Autoridades tendrían chats entre Petro y Angie Rodríguez sobre contratos para Deicy Jiménez: la exfuncionaria anunció que entregará su celular a las autoridades este jueves 5 de noviembre",
-   "bajada": "El contenido de las conversaciones deberá ser verificado dentro de las actuaciones judiciales, al igual que las circunstancias de la eventual vinculación contractual de la extrabajadora sexual.",
-   "leer": "Autoridades tendrían chats entre Petro y Angie Rodríguez sobre contratos para Deicy Jiménez: la exfuncionaria anunció que entregará su celular a las autoridades este jueves 5 de noviembre. El contenido de las conversaciones deberá ser verificado dentro de las actuaciones judiciales, al igual que las circunstancias de la eventual vinculación contractual de la extrabajadora sexual.",
-   "fuente": "infobae.com",
-   "t": 1793892242000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Murió Patricia Walsh, histórica dirigente de la izquierda y una de las impulsoras de los juicios por los crímenes de la dictadura",
-   "bajada": "Tenía 74 años y padecía una enfermedad; fue diputada nacional, legisladora porteña y candidata presidencial; era la hija de Rodolfo Walsh, escritor y periodista.",
-   "leer": "Murió Patricia Walsh, histórica dirigente de la izquierda y una de las impulsoras de los juicios por los crímenes de la dictadura. Tenía 74 años y padecía una enfermedad; fue diputada nacional, legisladora porteña y candidata presidencial; era la hija de Rodolfo Walsh, escritor y periodista.",
+   "titulo": "Una mujer se cayó en la calle por una baldosa faltante y el Estado deberá pagarle una indemnización millonaria",
+   "bajada": "La Justicia chaqueña ratificó la condena contra la empresa provincial de energía; el fallo impone un resarcimiento superior a los nueve millones de pesos por falta de mantenimiento en la vía pública.",
+   "leer": "Una mujer se cayó en la calle por una baldosa faltante y el Estado deberá pagarle una indemnización millonaria. La Justicia chaqueña ratificó la condena contra la empresa provincial de energía; el fallo impone un resarcimiento superior a los nueve millones de pesos por falta de mantenimiento en la vía pública.",
    "fuente": "lanacion.com.ar",
-   "t": 1793892077000
+   "t": 1793915623000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Santiago Peña renunció a la Presidencia de Paraguay por el escándalo del Ueno Bank",
+   "bajada": "Se levantó una sesión en el Congreso en la que se debatía aceptar o no la dimisión del primer mandatario.",
+   "leer": "Santiago Peña renunció a la Presidencia de Paraguay por el escándalo del Ueno Bank. Se levantó una sesión en el Congreso en la que se debatía aceptar o no la dimisión del primer mandatario.",
+   "fuente": "infobae.com",
+   "t": 1793915577000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Caso ‘Policías Albañiles’: oficial de la PNP es condenada por ocultar en documentos que 15 efectivos realizaban trabajos de construcción",
+   "bajada": "Una oficial de la Policía Nacional recibió una sentencia por consignar información falsa sobre las funciones asignadas a un grupo de efectivos que, durante varios meses, fueron destinados a realizar trabajos de construcción y remodelación dentro de una dependencia policial de Arequipa.",
+   "leer": "Caso ‘Policías Albañiles’: oficial de la PNP es condenada por ocultar en documentos que 15 efectivos realizaban trabajos de construcción. Una oficial de la Policía Nacional recibió una sentencia por consignar información falsa sobre las funciones asignadas a un grupo de efectivos que, durante varios meses, fueron destinados a realizar trabajos de construcción y remodelación dentro de una dependencia policial de Arequipa.",
+   "fuente": "infobae.com",
+   "t": 1793915572000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Dos argentinos sufrieron un grave accidente mientras viajaban en moto por Indonesia: uno quedó en coma",
+   "bajada": "Se trata de dos jóvenes identificados como Federico Domínguez y Paz Lupo que estaban de vacaciones en Bali cuando se accidentaron. La familia comenzó con una colecta para ayudar con los gastos médicos.",
+   "leer": "Dos argentinos sufrieron un grave accidente mientras viajaban en moto por Indonesia: uno quedó en coma. Se trata de dos jóvenes identificados como Federico Domínguez y Paz Lupo que estaban de vacaciones en Bali cuando se accidentaron. La familia comenzó con una colecta para ayudar con los gastos médicos.",
+   "fuente": "infobae.com",
+   "t": 1793915556000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El gobierno de Milei niega que Santiago Peña esté en la Argentina, frente a versiones originadas en Paraguay",
+   "bajada": "Desde la Casa Rosada descartaron que el presidente saliente haya pisado suelo nacional en las últimas horas.",
+   "leer": "El gobierno de Milei niega que Santiago Peña esté en la Argentina, frente a versiones originadas en Paraguay. Desde la Casa Rosada descartaron que el presidente saliente haya pisado suelo nacional en las últimas horas.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793915425000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Detuvieron en Tucumán a dos jóvenes brasileños acusados del homicidio de un creador de videojuegos norteamericano",
+   "bajada": "Tienen 19 y 20 años y fueron arrestados por personal de la Policía Federal Argentina (PFA) en cumplimiento de una circular roja de Interpol; la víctima, de 46 años, fue asesinada en una residencia de lujo en Maringá, en el noroeste del estado de Paraná.",
+   "leer": "Detuvieron en Tucumán a dos jóvenes brasileños acusados del homicidio de un creador de videojuegos norteamericano. Tienen 19 y 20 años y fueron arrestados por personal de la Policía Federal Argentina (PFA) en cumplimiento de una circular roja de Interpol; la víctima, de 46 años, fue asesinada en una residencia de lujo en Maringá, en el noroeste del estado de Paraná.",
+   "fuente": "lanacion.com.ar",
+   "t": 1793915304000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Fito Páez sumó una tercera fecha en Rosario tras agotar las dos primeras funciones",
+   "bajada": "",
+   "leer": "Fito Páez sumó una tercera fecha en Rosario tras agotar las dos primeras funciones.",
+   "fuente": "Rosario Nuestro",
+   "t": 1793915079000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Liga Profesional: Racing cierra un 2026 para el olvido con una complicada visita a Barracas",
+   "bajada": "",
+   "leer": "Liga Profesional: Racing cierra un 2026 para el olvido con una complicada visita a Barracas.",
+   "fuente": "Página|12",
+   "t": 1793914996000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Tribunal de Disciplina: le dio un plazo a Estudiantes y cuatro entrenadores suspendidos",
+   "bajada": "Desde la AFA le dieron cinco días al Pincha para presentar su descargo por la denuncia del referí Hernán Mastrángelo. Hubo dos fechas a Kudelka y una para los Melli Barros Schelotto y Facundo Sava.",
+   "leer": "Tribunal de Disciplina: le dio un plazo a Estudiantes y cuatro entrenadores suspendidos. Desde la AFA le dieron cinco días al Pincha para presentar su descargo por la denuncia del referí Hernán Mastrángelo. Hubo dos fechas a Kudelka y una para los Melli Barros Schelotto y Facundo Sava.",
+   "fuente": "ole.com.ar",
+   "t": 1793914882000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Increíble racha: por qué Vaccari y Defensa pueden arruinarle la fiesta a Boca",
+   "bajada": "El DT del Halcón acumula seis cruces sin derrotas ni goles en contra ante el Xeneize.",
+   "leer": "Increíble racha: por qué Vaccari y Defensa pueden arruinarle la fiesta a Boca. El DT del Halcón acumula seis cruces sin derrotas ni goles en contra ante el Xeneize.",
+   "fuente": "ole.com.ar",
+   "t": 1793914640000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Descubren a una falsa médica que realizaba tratamientos estéticos ilegales en Liniers: le allanaron el local y le secuestraron instrumental quirúrgico",
+   "bajada": "La mujer inyectaba a sus clientas ácido hialurónico y plasma rico en plaquetas. Le secuestraron aparatología y medicamentos.",
+   "leer": "Descubren a una falsa médica que realizaba tratamientos estéticos ilegales en Liniers: le allanaron el local y le secuestraron instrumental quirúrgico. La mujer inyectaba a sus clientas ácido hialurónico y plasma rico en plaquetas. Le secuestraron aparatología y medicamentos.",
+   "fuente": "clarin.com",
+   "t": 1793914071000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El deseo de Riquelme de cara a la final por la Tabla Anual que jugará Boca ante Defensa",
+   "bajada": "En la conferencia de los tres candidatos a quedarse con la Tabla Anual, el presidente de Boca habló de su ilusión para la definición que se vivirá en la Bombonera.",
+   "leer": "El deseo de Riquelme de cara a la final por la Tabla Anual que jugará Boca ante Defensa. En la conferencia de los tres candidatos a quedarse con la Tabla Anual, el presidente de Boca habló de su ilusión para la definición que se vivirá en la Bombonera.",
+   "fuente": "ole.com.ar",
+   "t": 1793913965000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Los demócratas logran una gran mayoría de más de 250 escaños en Cámara de Representantes",
+   "bajada": "Los demócratas logran una amplia mayoría en la Cámara Baja con 259 escaños, superando a los republicanos, quienes pierden su anterior control. El Senado también queda bajo dominio demócrata, lo que les permitirá bloquear iniciativas del presidente y liderar investigaciones.",
+   "leer": "Los demócratas logran una gran mayoría de más de 250 escaños en Cámara de Representantes. Los demócratas logran una amplia mayoría en la Cámara Baja con 259 escaños, superando a los republicanos, quienes pierden su anterior control. El Senado también queda bajo dominio demócrata, lo que les permitirá bloquear iniciativas del presidente y liderar investigaciones.",
+   "fuente": "clarin.com",
+   "t": 1793913608000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Leonardo Ponzio, tras el triunfo de River: explicó los cambios tácticos y respaldó a los juveniles después de una semana difícil",
+   "bajada": "El entrenador analizó el triunfo, explicó algunas de sus decisiones y destacó el acompañamiento de los hinchas. También se refirió a la titularidad de Santiago Espíndola, el regreso al gol de Lucas Beltrán y la situación de Mauro Arambarri.",
+   "leer": "Leonardo Ponzio, tras el triunfo de River: explicó los cambios tácticos y respaldó a los juveniles después de una semana difícil. El entrenador analizó el triunfo, explicó algunas de sus decisiones y destacó el acompañamiento de los hinchas. También se refirió a la titularidad de Santiago Espíndola, el regreso al gol de Lucas Beltrán y la situación de Mauro Arambarri.",
+   "fuente": "clarin.com",
+   "t": 1793913544000
+  },
+  {
+   "tema": "tránsito",
+   "titulo": "Desde el viernes 6, habrá un nuevo sistema de pago en las autopistas porteñas",
+   "bajada": "",
+   "leer": "Desde el viernes 6, habrá un nuevo sistema de pago en las autopistas porteñas.",
+   "fuente": "BAE Negocios",
+   "t": 1793912829000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Qué es Ueno Bank: sus vínculos con la política y con el renunciante presidente de Paraguay, Santiago Peña",
+   "bajada": "La firma intervenida administraba cerca de 850 millones de dólares en recursos estatales, incluyendo prestaciones y partidas del Instituto de Previsión Social.",
+   "leer": "Qué es Ueno Bank: sus vínculos con la política y con el renunciante presidente de Paraguay, Santiago Peña. La firma intervenida administraba cerca de 850 millones de dólares en recursos estatales, incluyendo prestaciones y partidas del Instituto de Previsión Social.",
+   "fuente": "clarin.com",
+   "t": 1793912444000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La AFA explicó por qué no le dio las acreditaciones a TN: un video sobre Nico Paz, inteligencia artificial y una dura acusación",
+   "bajada": "La entidad que preside Claudio Tapia explicó los motivos por los que suspendió por tiempo indeterminado las acreditaciones del canal de noticias. También denunció la comercialización irregular de credenciales y la adulteración de identidades por parte de dos emisoras.",
+   "leer": "La AFA explicó por qué no le dio las acreditaciones a TN: un video sobre Nico Paz, inteligencia artificial y una dura acusación. La entidad que preside Claudio Tapia explicó los motivos por los que suspendió por tiempo indeterminado las acreditaciones del canal de noticias. También denunció la comercialización irregular de credenciales y la adulteración de identidades por parte de dos emisoras.",
+   "fuente": "clarin.com",
+   "t": 1793912064000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Hallaron los restos de un bebé sustraído en 1986 en Mendoza: la madre lo reconoció por una medallita y pide un juicio por la verdad",
+   "bajada": "Un juzgado federal encabeza las actuaciones en el marco de una causa por desaparición forzada en democracia. Los investigadores buscan establecer qué ocurrió desde la separación del bebé de su madre hasta su llegada al cementerio de la ciudad.",
+   "leer": "Hallaron los restos de un bebé sustraído en 1986 en Mendoza: la madre lo reconoció por una medallita y pide un juicio por la verdad. Un juzgado federal encabeza las actuaciones en el marco de una causa por desaparición forzada en democracia. Los investigadores buscan establecer qué ocurrió desde la separación del bebé de su madre hasta su llegada al cementerio de la ciudad.",
+   "fuente": "clarin.com",
+   "t": 1793911780000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "La periodista cubana independiente Yoani Sánchez fue detenida al salir de su casa en La Habana",
+   "bajada": "La comunicadora alcanzó a avisar a sus compañeros de redacción que estaba siendo detenida. La periodista es la directora del medio independiente 14Ymedio.",
+   "leer": "La periodista cubana independiente Yoani Sánchez fue detenida al salir de su casa en La Habana. La comunicadora alcanzó a avisar a sus compañeros de redacción que estaba siendo detenida. La periodista es la directora del medio independiente 14Ymedio.",
+   "fuente": "clarin.com",
+   "t": 1793910828000
+  },
+  {
+   "tema": "política",
+   "titulo": "La Corte votó totalmente dividida en un caso de lesa humanidad",
+   "bajada": "Con la participación de dos conjueces, confirmó la condena de un exdirectivo de la empresa Ford, en cuya fábrica fueron secuestrados 24 obreros en 1976. Rosatti formó una mayoría, Lorenzetti votó por rechazar el recurso extraordinario por una formalidad y Rosenkrantz firmó una dura disidencia con críticas a sus colegas.",
+   "leer": "La Corte votó totalmente dividida en un caso de lesa humanidad. Con la participación de dos conjueces, confirmó la condena de un exdirectivo de la empresa Ford, en cuya fábrica fueron secuestrados 24 obreros en 1976. Rosatti formó una mayoría, Lorenzetti votó por rechazar el recurso extraordinario por una formalidad y Rosenkrantz firmó una dura disidencia con críticas a sus colegas.",
+   "fuente": "clarin.com",
+   "t": 1793910173000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "River ganó en Mar del Plata y se aseguró un lugar en la Copa Sudamericana 2027: cómo quedó la tabla anual y cuáles serían los cruces de los playoffs",
+   "bajada": "El equipo de Leonardo Ponzio venció 2-0 a Aldosivi, con goles de Lucas Beltrán y Ángel Correa, y llegó a los 55 puntos en la clasificación acumulada. El Millonario se mantiene cuarto en la Zona B y, por ahora, enfrentaría a Lanús en los octavos de final.",
+   "leer": "River ganó en Mar del Plata y se aseguró un lugar en la Copa Sudamericana 2027: cómo quedó la tabla anual y cuáles serían los cruces de los playoffs. El equipo de Leonardo Ponzio venció 2-0 a Aldosivi, con goles de Lucas Beltrán y Ángel Correa, y llegó a los 55 puntos en la clasificación acumulada. El Millonario se mantiene cuarto en la Zona B y, por ahora, enfrentaría a Lanús en los octavos de final.",
+   "fuente": "clarin.com",
+   "t": 1793909902000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Ignacio Zaballa: el mediapunta de la Reserva que concentra por primera vez con San Lorenzo",
+   "bajada": "",
+   "leer": "Ignacio Zaballa: el mediapunta de la Reserva que concentra por primera vez con San Lorenzo.",
+   "fuente": "San Lorenzo Primero",
+   "t": 1793909792000
+  },
+  {
+   "tema": "política",
+   "titulo": "Nueva votación por el máximo sillón de la ONU: Grynspan lidera, pero Grossi sigue en carrera",
+   "bajada": "El proceso para nominar al sucesor de Antonio Guterres al frente del organismo internacional sigue trabado tras la octava votación en el Consejo de Seguridad. Las diferencias entre las potencias impiden alcanzar un consenso.",
+   "leer": "Nueva votación por el máximo sillón de la ONU: Grynspan lidera, pero Grossi sigue en carrera. El proceso para nominar al sucesor de Antonio Guterres al frente del organismo internacional sigue trabado tras la octava votación en el Consejo de Seguridad. Las diferencias entre las potencias impiden alcanzar un consenso.",
+   "fuente": "clarin.com",
+   "t": 1793909311000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Arde Avellaneda: La increíble guerra que se desató entre Racing e Independiente",
+   "bajada": "",
+   "leer": "Arde Avellaneda: La increíble guerra que se desató entre Racing e Independiente.",
+   "fuente": "Urgente24",
+   "t": 1793909040000
+  },
+  {
+   "tema": "política",
+   "titulo": "Javier Faroni, vinculado a Tapia y Toviggino, ahora pretende silenciar investigaciones periodísticas de Clarín",
+   "bajada": "El empresario, dueño de TourProdEnter y ex diputado del Frente Renovador, envió cartas documento a Daniel Santoro y Federico Teijeiro.",
+   "leer": "Javier Faroni, vinculado a Tapia y Toviggino, ahora pretende silenciar investigaciones periodísticas de Clarín. El empresario, dueño de TourProdEnter y ex diputado del Frente Renovador, envió cartas documento a Daniel Santoro y Federico Teijeiro.",
+   "fuente": "clarin.com",
+   "t": 1793908762000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Crisis en Pauny: fracasó una nueva audiencia entre la empresa y el sindicato y se profundiza el conflicto en la fábrica de tractores cordobesa",
+   "bajada": "La reunión se llevó a cabo este jueves en el ministerio de Trabajo cordobés, sin resultados positivos, por lo cual continuará la ocupación de la planta de Las Varillas por parte de los empleados. La empresa debe salarios, y tiene deudas financieras. Su producción está paralizada.",
+   "leer": "Crisis en Pauny: fracasó una nueva audiencia entre la empresa y el sindicato y se profundiza el conflicto en la fábrica de tractores cordobesa. La reunión se llevó a cabo este jueves en el ministerio de Trabajo cordobés, sin resultados positivos, por lo cual continuará la ocupación de la planta de Las Varillas por parte de los empleados. La empresa debe salarios, y tiene deudas financieras. Su producción está paralizada.",
+   "fuente": "clarin.com",
+   "t": 1793908659000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River ganó y se ilusiona con el Clausura: así quedaron la Tabla Anual y los cruces de octavos de final",
+   "bajada": "",
+   "leer": "River ganó y se ilusiona con el Clausura: así quedaron la Tabla Anual y los cruces de octavos de final.",
+   "fuente": "Bolavip Argentina",
+   "t": 1793908642000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El VAR, esta vez, le hizo dos guiños a River: un gol anulado a Aldosivi y un penal vía tecnología para que Lucas Beltrán corte la racha sin goles",
+   "bajada": "Primero zafó luego de un blooper entre Beltrán y Otamendi que terminaba con el grito de Moya. Luego, José Carreras, desde Ezeza, vio una mano en el área de Vombergar luego de un tiro libre de Driussi.",
+   "leer": "El VAR, esta vez, le hizo dos guiños a River: un gol anulado a Aldosivi y un penal vía tecnología para que Lucas Beltrán corte la racha sin goles. Primero zafó luego de un blooper entre Beltrán y Otamendi que terminaba con el grito de Moya. Luego, José Carreras, desde Ezeza, vio una mano en el área de Vombergar luego de un tiro libre de Driussi.",
+   "fuente": "clarin.com",
+   "t": 1793908149000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "El papa León XIV empieza una histórica gira que lo traerá a la Argentina: su extenuante agenda de 11 días",
+   "bajada": "Este viernes a las 7, parte su vuelo desde Italia hacia Montevideo, Uruguay. El domingo a las 16.30 aterrizará en Buenos Aires y permanecerá en el país hasta el miércoles 11. Luego seguirá hacia Perú. En total recorrerá más de 30 mil kilómetros y visitará 10 ciudades.",
+   "leer": "El papa León XIV empieza una histórica gira que lo traerá a la Argentina: su extenuante agenda de 11 días. Este viernes a las 7, parte su vuelo desde Italia hacia Montevideo, Uruguay. El domingo a las 16.30 aterrizará en Buenos Aires y permanecerá en el país hasta el miércoles 11. Luego seguirá hacia Perú. En total recorrerá más de 30 mil kilómetros y visitará 10 ciudades.",
+   "fuente": "clarin.com",
+   "t": 1793907697000
+  },
+  {
+   "tema": "tránsito",
+   "titulo": "Panamericana y Acceso Oeste: cómo pagar el peaje con QR y obtener un 50% de descuento con Mercado Pago",
+   "bajada": "",
+   "leer": "Panamericana y Acceso Oeste: cómo pagar el peaje con QR y obtener un 50% de descuento con Mercado Pago.",
+   "fuente": "Zona Norte Hoy",
+   "t": 1793906842000
+  },
+  {
+   "tema": "economía",
+   "titulo": "AmCham advirtió que un cambio de gobierno en EEUU podría restarle prioridad al vínculo con la Argentina",
+   "bajada": "La cámara empresaria analizó el nuevo escenario tras las legislativas y pidió consolidar la relación bilateral para que no dependa de afinidades políticas.",
+   "leer": "AmCham advirtió que un cambio de gobierno en EEUU podría restarle prioridad al vínculo con la Argentina. La cámara empresaria analizó el nuevo escenario tras las legislativas y pidió consolidar la relación bilateral para que no dependa de afinidades políticas.",
+   "fuente": "ambito.com",
+   "t": 1793905980000
+  },
+  {
+   "tema": "economía",
+   "titulo": "José Luis Daza reconoció un crecimiento \"menor al esperado\", pero ve señales positivas y una \"impaciencia muy grande\"",
+   "bajada": "El viceministro de Economía aseguró que el potencial de la economía argentina es único en el mundo. En ese sentido, llamó a consolidar la estabilización y completar las medidas para garantizar el crecimiento de largo plazo.",
+   "leer": "José Luis Daza reconoció un crecimiento \"menor al esperado\", pero ve señales positivas y una \"impaciencia muy grande\". El viceministro de Economía aseguró que el potencial de la economía argentina es único en el mundo. En ese sentido, llamó a consolidar la estabilización y completar las medidas para garantizar el crecimiento de largo plazo.",
+   "fuente": "ambito.com",
+   "t": 1793905740000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Riesgo país, cerca de los 930 puntos: Argentina le pagó al FMI y culpa al frente externo por la incertidumbre",
+   "bajada": "Las reservas cayeron por un pago de US$ 800 millones al Fondo. El equipo económico vinculó la caída en los bonos de hasta el 4% con el desplome de las bolsas internacionales. En la city, apuntan a un sondeo que lo catapulta a Kicillof.",
+   "leer": "Riesgo país, cerca de los 930 puntos: Argentina le pagó al FMI y culpa al frente externo por la incertidumbre. Las reservas cayeron por un pago de US$ 800 millones al Fondo. El equipo económico vinculó la caída en los bonos de hasta el 4% con el desplome de las bolsas internacionales. En la city, apuntan a un sondeo que lo catapulta a Kicillof.",
+   "fuente": "clarin.com",
+   "t": 1793905338000
   },
   {
    "tema": "espectáculos",
-   "titulo": "Los creadores de \"The Pitt\" y \"ER\" irán a juicio por el parecido entre ambas series",
-   "bajada": "La Justicia estadounidense permitió que avance la demanda presentada por la viuda de Michael Crichton, creador de la recordada ficción médica de 1994. Qué similitudes encontró el tribunal y qué puede pasar ahora con el exitoso drama de HBO Max.",
-   "leer": "Los creadores de \"The Pitt\" y \"ER\" irán a juicio por el parecido entre ambas series. La Justicia estadounidense permitió que avance la demanda presentada por la viuda de Michael Crichton, creador de la recordada ficción médica de 1994. Qué similitudes encontró el tribunal y qué puede pasar ahora con el exitoso drama de HBO Max.",
+   "titulo": "Russell Brand fue condenado por violación: los detalles de la sentencia",
+   "bajada": "El actor y comediante británico fue declarado culpable de violar a una mujer y agredir sexualmente a otras tres. La Justicia ordenó su detención y anticipó que recibirá una pena de prisión, cuya duración se conocerá el lunes 9 de noviembre.",
+   "leer": "Russell Brand fue condenado por violación: los detalles de la sentencia. El actor y comediante británico fue declarado culpable de violar a una mujer y agredir sexualmente a otras tres. La Justicia ordenó su detención y anticipó que recibirá una pena de prisión, cuya duración se conocerá el lunes 9 de noviembre.",
    "fuente": "clarin.com",
-   "t": 1793891911000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "“Pasaporte digital de la vaca”: una revolucionaria tecnología ayuda a estimar la grasa de la carne desde el celular y registrar datos clave",
-   "bajada": "Sebastián Victorica, cofundador y director de UBI Meat, hablará en el 5º Congreso Federal Ganadero de Rosgan sobre la necesidad de reunir la información que se genera desde el campo hasta el frigorífico para que todos los eslabones puedan conocer y acreditar las características del producto final.",
-   "leer": "“Pasaporte digital de la vaca”: una revolucionaria tecnología ayuda a estimar la grasa de la carne desde el celular y registrar datos clave. Sebastián Victorica, cofundador y director de UBI Meat, hablará en el 5º Congreso Federal Ganadero de Rosgan sobre la necesidad de reunir la información que se genera desde el campo hasta el frigorífico para que todos los eslabones puedan conocer y acreditar las características del producto final.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793891907000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Santiago Peña, contra las cuerdas por el escándalo de Ueno Bank: su propio partido votará a favor del juicio político",
-   "bajada": "El Partido Colorado le soltó la mano al presidente en medio de la crisis que dejó congelados los ahorros de cientos de miles de clientes y dejó al presidente al borde de la destitución.",
-   "leer": "Santiago Peña, contra las cuerdas por el escándalo de Ueno Bank: su propio partido votará a favor del juicio político. El Partido Colorado le soltó la mano al presidente en medio de la crisis que dejó congelados los ahorros de cientos de miles de clientes y dejó al presidente al borde de la destitución.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793891835000
+   "t": 1793905139000
   },
   {
    "tema": "fútbol",
-   "titulo": "Di Carlo, sobre la localía de la Selección en la Bombonera: \"Creo que se comete un error\"",
-   "bajada": "El presidente de River indicó que \"no me molesta que se juegue en la Bombonera\", pero atribuyó que la sede para el partido con Uruguay se debe a su enfrentamiento con Tapia y no a una cuestión futbolística.",
-   "leer": "Di Carlo, sobre la localía de la Selección en la Bombonera: \"Creo que se comete un error\". El presidente de River indicó que \"no me molesta que se juegue en la Bombonera\", pero atribuyó que la sede para el partido con Uruguay se debe a su enfrentamiento con Tapia y no a una cuestión futbolística.",
-   "fuente": "ole.com.ar",
-   "t": 1793891565000
+   "titulo": "La baja de último momento en Boca para la fecha que definirá el título de la Anual",
+   "bajada": "",
+   "leer": "La baja de último momento en Boca para la fecha que definirá el título de la Anual.",
+   "fuente": "Olé",
+   "t": 1793902426000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Marcela Morelo celebra 30 años de carrera con un disco de colaboraciones: “Es hermoso escuchar a otros cantar algo que yo escribí”",
+   "bajada": "La cantante presentó La Morelo , un álbum que reúne nuevas versiones de sus éxitos junto a Abel Pintos, Soledad Pastorutti, Luciano Pereyra y otras figuras. En diálogo con Clarín, habló del proceso creativo, el vínculo de su música con distintas generaciones y su próximo show del sábado en el Gran Rex.",
+   "leer": "Marcela Morelo celebra 30 años de carrera con un disco de colaboraciones: “Es hermoso escuchar a otros cantar algo que yo escribí”. La cantante presentó La Morelo , un álbum que reúne nuevas versiones de sus éxitos junto a Abel Pintos, Soledad Pastorutti, Luciano Pereyra y otras figuras. En diálogo con Clarín, habló del proceso creativo, el vínculo de su música con distintas generaciones y su próximo show del sábado en el Gran Rex.",
+   "fuente": "clarin.com",
+   "t": 1793902130000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Aldosivi vs. River Plate (5 de Nov., 2026) Estadísticas del equipo",
+   "bajada": "",
+   "leer": "Aldosivi vs. River Plate (5 de Nov., 2026) Estadísticas del equipo.",
+   "fuente": "ESPN Argentina",
+   "t": 1793901888000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Pronósticos Barracas Central vs. Racing Club: la Academia busca despedirse con una sonrisa",
+   "bajada": "",
+   "leer": "Pronósticos Barracas Central vs. Racing Club: la Academia busca despedirse con una sonrisa.",
+   "fuente": "Bolavip",
+   "t": 1793901600000
   },
   {
    "tema": "economía",
-   "titulo": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo",
-   "bajada": "La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
-   "leer": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo. La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
-   "fuente": "ambito.com",
-   "t": 1793891340000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Fuerte caída de los bonos argentinos: se derrumban hasta 2,4%",
-   "bajada": "En Nueva York, el Nasdaq pierde 3,3%. La incertidumbre local potencia la baja de las bolsas de Estados Unidos.",
-   "leer": "Fuerte caída de los bonos argentinos: se derrumban hasta 2,4%. En Nueva York, el Nasdaq pierde 3,3%. La incertidumbre local potencia la baja de las bolsas de Estados Unidos.",
+   "titulo": "Francisco De Narváez compró los supermercados DIA en la Argentina, tras el intento fallido de Carrefour",
+   "bajada": "El grupo español dueño de la cadena se va del país, el último donde tenía presencia por fuera de su nación de origen. El empresario se suma a la lista de compras recientes encabezadas por grupos locales. La transacción se cerró en US$ 53,8 millones.",
+   "leer": "Francisco De Narváez compró los supermercados DIA en la Argentina, tras el intento fallido de Carrefour. El grupo español dueño de la cadena se va del país, el último donde tenía presencia por fuera de su nación de origen. El empresario se suma a la lista de compras recientes encabezadas por grupos locales. La transacción se cerró en US$ 53,8 millones.",
    "fuente": "clarin.com",
-   "t": 1793891110000
+   "t": 1793900038000
   },
   {
-   "tema": "actualidad",
-   "titulo": "En medio de la interna del PJ, Axel Kicillof pidió que se elimine el límite a las reelecciones de los intendentes",
-   "bajada": "El gobernador bonaerense aseguró que ya fijaron postura pero que \"necesita determinadas mayorías legislativas\". El intendente Mario Secco llamó \"mamarracho\" a Massa por no apoyar las reelecciones.",
-   "leer": "En medio de la interna del PJ, Axel Kicillof pidió que se elimine el límite a las reelecciones de los intendentes. El gobernador bonaerense aseguró que ya fijaron postura pero que \"necesita determinadas mayorías legislativas\". El intendente Mario Secco llamó \"mamarracho\" a Massa por no apoyar las reelecciones.",
+   "tema": "espectáculos",
+   "titulo": "El marido de Dua Lipa podría ser el próximo James Bond y ya tiene el visto bueno de Pierce Brosnan",
+   "bajada": "Callum Turner es uno de los principales candidatos para interpretar al agente 007 tras la salida de Daniel Craig. Qué dijo el ex protagonista de la saga sobre el actor británico y qué se sabe de la próxima película.",
+   "leer": "El marido de Dua Lipa podría ser el próximo James Bond y ya tiene el visto bueno de Pierce Brosnan. Callum Turner es uno de los principales candidatos para interpretar al agente 007 tras la salida de Daniel Craig. Qué dijo el ex protagonista de la saga sobre el actor británico y qué se sabe de la próxima película.",
    "fuente": "clarin.com",
-   "t": 1793891056000
+   "t": 1793899937000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Mueren seis personas en un incendio en Nueva York",
-   "bajada": "Un incendio en una casa de Brooklyn dejó seis víctimas mortales y cuatro heridos, incluyendo a personal de emergencia. El fuego aún está bajo investigación. El alcalde lamentó la tragedia, destacando la devastación en la comunidad. Las llamas consumieron la vivienda en Sunset Park, causando un profundo impacto local.",
-   "leer": "Mueren seis personas en un incendio en Nueva York. Un incendio en una casa de Brooklyn dejó seis víctimas mortales y cuatro heridos, incluyendo a personal de emergencia. El fuego aún está bajo investigación. El alcalde lamentó la tragedia, destacando la devastación en la comunidad. Las llamas consumieron la vivienda en Sunset Park, causando un profundo impacto local.",
-   "fuente": "clarin.com",
-   "t": 1793890821000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Vladimir Werning, vice del BCRA: \"La rentabilidad de los sectores exportadores tiene un efecto derrame fuertísimo\"",
-   "bajada": "Pese a que en los próximos días se confirmaría la recesión técnica, el funcionario aseguró que la dinámica del comercio exterior genera un beneficio sistémico para la economía argentina.",
-   "leer": "Vladimir Werning, vice del BCRA: \"La rentabilidad de los sectores exportadores tiene un efecto derrame fuertísimo\". Pese a que en los próximos días se confirmaría la recesión técnica, el funcionario aseguró que la dinámica del comercio exterior genera un beneficio sistémico para la economía argentina.",
-   "fuente": "ambito.com",
-   "t": 1793890380000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Reunión clave entre la dirigencia y el plantel de San Lorenzo",
+   "tema": "clima",
+   "titulo": "El pronóstico anticipa tormentas, lluvias y viento Zonda en 5 provincias",
    "bajada": "",
-   "leer": "Reunión clave entre la dirigencia y el plantel de San Lorenzo.",
-   "fuente": "San Lorenzo Primero",
-   "t": 1793890054000
+   "leer": "El pronóstico anticipa tormentas, lluvias y viento Zonda en 5 provincias.",
+   "fuente": "Crónica",
+   "t": 1793895600000
   },
   {
    "tema": "fútbol",
-   "titulo": "Colapinto llegó a Interlagos: charla con un papá campeón, batucada y su Alpine en pleno armado",
-   "bajada": "Franco entró al paddock bajo unas gotas y se encontró con el papá de Antonelli. Mientras lo espera una agenda de entrevistas, los mecánicos preparan el #43 para salir a pista el viernes.",
-   "leer": "Colapinto llegó a Interlagos: charla con un papá campeón, batucada y su Alpine en pleno armado. Franco entró al paddock bajo unas gotas y se encontró con el papá de Antonelli. Mientras lo espera una agenda de entrevistas, los mecánicos preparan el #43 para salir a pista el viernes.",
-   "fuente": "ole.com.ar",
-   "t": 1793889864000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Barracas Central vs Racing Club: pronóstico, consejos y cuotas | Liga Profesional Argentina",
+   "titulo": "Torneo de las Promos 2026: estudiantes compartieron una jornada de competencias y encuentro en el Club Racing",
    "bajada": "",
-   "leer": "Barracas Central vs Racing Club: pronóstico, consejos y cuotas | Liga Profesional Argentina.",
-   "fuente": "Mundo Deportivo",
-   "t": 1793889602000
+   "leer": "Torneo de las Promos 2026: estudiantes compartieron una jornada de competencias y encuentro en el Club Racing.",
+   "fuente": "Olavarria.gov.ar",
+   "t": 1793894178000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Arruabarrena lo tiene claro: cómo formará Boca ante Defensa y Justicia para ir por el título",
+   "bajada": "",
+   "leer": "Arruabarrena lo tiene claro: cómo formará Boca ante Defensa y Justicia para ir por el título.",
+   "fuente": "Planeta Boca Juniors",
+   "t": 1793893667000
   },
   {
    "tema": "música",
@@ -146,100 +362,12 @@
    "t": 1793888650000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Francia vive un \"jueves negro\": paro general indefinido y más de un millón de personas contra el alza del costo de vida",
-   "bajada": "La movilización nacional reúne a centrales sindicales, empleados y estudiantes para exigir incrementos salariales inmediatos ante la disparada de la inflación. Unos 70.000 policías y gendarmes fueron desplegados en todo el país ante el temor del gobierno a que se desaten saqueos y actos de violencia.",
-   "leer": "Francia vive un \"jueves negro\": paro general indefinido y más de un millón de personas contra el alza del costo de vida. La movilización nacional reúne a centrales sindicales, empleados y estudiantes para exigir incrementos salariales inmediatos ante la disparada de la inflación. Unos 70.000 policías y gendarmes fueron desplegados en todo el país ante el temor del gobierno a que se desaten saqueos y actos de violencia.",
-   "fuente": "clarin.com",
-   "t": 1793888553000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La ayuda de Trump a la Argentina, en riesgo: dos proyectos en el Congreso de EE.UU. podrían complicar un nuevo rescate financiero",
-   "bajada": "Fueron presentados por legisladores demócratas, que tendrán más poder a partir del 1 de enero, cuando se renueven las cámaras.",
-   "leer": "La ayuda de Trump a la Argentina, en riesgo: dos proyectos en el Congreso de EE.UU. podrían complicar un nuevo rescate financiero. Fueron presentados por legisladores demócratas, que tendrán más poder a partir del 1 de enero, cuando se renueven las cámaras.",
-   "fuente": "clarin.com",
-   "t": 1793888511000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La intimidad de la F1 en Brasil: el paseo de Colapinto por el paddock, el boom Antonelli y el piloto más madrugador en Interlagos",
-   "bajada": "La Máxima empieza a vibrar en el emblemático circuito de San Pablo, copado por argentinos. En el día de atención a la prensa, Franco disfruta su vida con la elite del deporte automotor. En el hospitality de Racing Bulls, Liam Lawson desayuna con su equipo de trabajo.",
-   "leer": "La intimidad de la F1 en Brasil: el paseo de Colapinto por el paddock, el boom Antonelli y el piloto más madrugador en Interlagos. La Máxima empieza a vibrar en el emblemático circuito de San Pablo, copado por argentinos. En el día de atención a la prensa, Franco disfruta su vida con la elite del deporte automotor. En el hospitality de Racing Bulls, Liam Lawson desayuna con su equipo de trabajo.",
-   "fuente": "clarin.com",
-   "t": 1793888339000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Histórico: con fecha confirmada, Vélez tendrá un debate con los cuatro candidatos a presidente antes de sus elecciones",
-   "bajada": "Con un gran esfuerzo de los medios partidarios del club y el compromiso de los dirigentes, el Fortín protagonizará un hito para la democracias de las asociaciones civiles.",
-   "leer": "Histórico: con fecha confirmada, Vélez tendrá un debate con los cuatro candidatos a presidente antes de sus elecciones. Con un gran esfuerzo de los medios partidarios del club y el compromiso de los dirigentes, el Fortín protagonizará un hito para la democracias de las asociaciones civiles.",
-   "fuente": "ole.com.ar",
-   "t": 1793888040000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Por la crecida del Paraná y el Uruguay, el gobierno de Entre Ríos declaró la emergencia agropecuaria en la zona de islas e inundables",
-   "bajada": "Lo hizo a través del decreto 3.692. La provincia busca que la medida sea homologada por Nación.",
-   "leer": "Por la crecida del Paraná y el Uruguay, el gobierno de Entre Ríos declaró la emergencia agropecuaria en la zona de islas e inundables. Lo hizo a través del decreto 3.692. La provincia busca que la medida sea homologada por Nación.",
-   "fuente": "clarin.com",
-   "t": 1793887902000
-  },
-  {
-   "tema": "política",
-   "titulo": "Murió Elsa Pavón, la primera Abuela de Plaza de Mayo en recuperar a su nieta",
-   "bajada": "Pavón, que fue cofundadora de Abuelas, falleció esta madrugada a los 90 años. Referentes políticos y de derechos humanos la recordaron como una \"luchadora incansable\".",
-   "leer": "Murió Elsa Pavón, la primera Abuela de Plaza de Mayo en recuperar a su nieta. Pavón, que fue cofundadora de Abuelas, falleció esta madrugada a los 90 años. Referentes políticos y de derechos humanos la recordaron como una \"luchadora incansable\".",
-   "fuente": "clarin.com",
-   "t": 1793886823000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Escala la crisis en Paraguay: toda la Cámara de Diputados apoya el inicio del juicio político contra el presidente Santiago Peña",
-   "bajada": "El Congreso inició la sesión para abrir un proceso de destitución contra el mandatario conservador. El bloque oficialista anunció que votará a favor del proceso. Dos ex presidentes de su mismo Partido Colorado, Horacio Cartes y Nicanor Duarte, piden la renuncia del mandatario por el escándalo del Ueno Bank.",
-   "leer": "Escala la crisis en Paraguay: toda la Cámara de Diputados apoya el inicio del juicio político contra el presidente Santiago Peña. El Congreso inició la sesión para abrir un proceso de destitución contra el mandatario conservador. El bloque oficialista anunció que votará a favor del proceso. Dos ex presidentes de su mismo Partido Colorado, Horacio Cartes y Nicanor Duarte, piden la renuncia del mandatario por el escándalo del Ueno Bank.",
-   "fuente": "clarin.com",
-   "t": 1793886691000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Aumentó la pobreza y alcanza a 34,4% de la población, según datos del INDEC",
-   "bajada": "Hay unos 800.000 pobres más que el año pasado, de los cuales casi 300.000 son nuevos indigentes.",
-   "leer": "Aumentó la pobreza y alcanza a 34,4% de la población, según datos del INDEC. Hay unos 800.000 pobres más que el año pasado, de los cuales casi 300.000 son nuevos indigentes.",
-   "fuente": "clarin.com",
-   "t": 1793886571000
-  },
-  {
-   "tema": "política",
-   "titulo": "Duro reclamo de 17 ciudades del interior al Gobierno por fondos para salud y transporte: \"Argentina atraviesa uno de sus momentos más inequitativos\"",
-   "bajada": "Los intendentes de Córdoba, Rosario, Paraná y Río Gallegos, entre otras ciudades, reclamaron en Diputados por los recortes al Plan Remediar y a los subsidios al transporte público. Su pedido fue a la comisión de Presupuesto, pero advierten que si no avanza irán a la Corte Suprema.",
-   "leer": "Duro reclamo de 17 ciudades del interior al Gobierno por fondos para salud y transporte: \"Argentina atraviesa uno de sus momentos más inequitativos\". Los intendentes de Córdoba, Rosario, Paraná y Río Gallegos, entre otras ciudades, reclamaron en Diputados por los recortes al Plan Remediar y a los subsidios al transporte público. Su pedido fue a la comisión de Presupuesto, pero advierten que si no avanza irán a la Corte Suprema.",
-   "fuente": "clarin.com",
-   "t": 1793885957000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Una por una: todas las finales que puede disputar Boca en el cierre del 2026",
-   "bajada": "",
-   "leer": "Una por una: todas las finales que puede disputar Boca en el cierre del 2026.",
-   "fuente": "El Intransigente",
-   "t": 1793885384000
-  },
-  {
    "tema": "tecnología",
-   "titulo": "Motorola redobló su apuesta contra Apple y Samsung: lanzaron el Signature 27, su nuevo celular ultrapremium con la mejor cámara Android del mundo",
-   "bajada": "La compañía presentó en Río de Janeiro su nuevo modelo de alta gama. Incorpora un teleobjetivo periscópico, batería de 7.000 mAh y procesador Snapdragon de última generación. Costará desde US$ 1.599 a nivel internacional y llegará a la Argentina en las próximas semanas, según la empresa.",
-   "leer": "Motorola redobló su apuesta contra Apple y Samsung: lanzaron el Signature 27, su nuevo celular ultrapremium con la mejor cámara Android del mundo. La compañía presentó en Río de Janeiro su nuevo modelo de alta gama. Incorpora un teleobjetivo periscópico, batería de 7.000 mAh y procesador Snapdragon de última generación. Costará desde US$ 1.599 a nivel internacional y llegará a la Argentina en las próximas semanas, según la empresa.",
+   "titulo": "Motorola redobló su apuesta contra Apple y Samsung: lanzaron el Signature 27, el celular con la mejor cámara Android del mundo",
+   "bajada": "La compañía presentó en Río de Janeiro su nuevo modelo de alta gama. Incorpora un procesador de última generación y un sistema de sensores galardonado por DXOMARK. Características, precio y fecha de llegada la Argentina.",
+   "leer": "Motorola redobló su apuesta contra Apple y Samsung: lanzaron el Signature 27, el celular con la mejor cámara Android del mundo. La compañía presentó en Río de Janeiro su nuevo modelo de alta gama. Incorpora un procesador de última generación y un sistema de sensores galardonado por DXOMARK. Características, precio y fecha de llegada la Argentina.",
    "fuente": "clarin.com",
    "t": 1793885178000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River jugará la Copa Navidad 2026 en San Juan entre el 8 y 12 de diciembre",
-   "bajada": "",
-   "leer": "River jugará la Copa Navidad 2026 en San Juan entre el 8 y 12 de diciembre.",
-   "fuente": "LA17",
-   "t": 1793883000000
   },
   {
    "tema": "recitales",
@@ -250,100 +378,12 @@
    "t": 1793882504000
   },
   {
-   "tema": "política",
-   "titulo": "Pidieron el procesamiento de Ariel Vallejo, el financista vinculado a \"Chiqui\" Tapia, por lavado de dinero y asociación ilícita",
-   "bajada": "Lo requirió la Fiscalía federal de Lomas de Zamora para el financista cercano a Claudio \"Chiqui\" Tapia y para otras 14 personas. Consideró que blanqueó dinero proveniente de la intermediación financiera, la evasión y del juego ilegal.",
-   "leer": "Pidieron el procesamiento de Ariel Vallejo, el financista vinculado a \"Chiqui\" Tapia, por lavado de dinero y asociación ilícita. Lo requirió la Fiscalía federal de Lomas de Zamora para el financista cercano a Claudio \"Chiqui\" Tapia y para otras 14 personas. Consideró que blanqueó dinero proveniente de la intermediación financiera, la evasión y del juego ilegal.",
-   "fuente": "clarin.com",
-   "t": 1793880471000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Súper Niño 2026 en Argentina, EN VIVO: dónde habrá tormentas fuertes y qué provincias están en alerta este 5 de noviembre",
-   "bajada": "El Servicio Meteorológico indicó que el centro de la provincia de La Pampa y el este de Chubut están bajo alerta amarilla por tormentas. Mientras que en Neuquén y Río Negro hay alerta amarilla por lluvias.",
-   "leer": "El Servicio Meteorológico indicó que el centro de la provincia de La Pampa y el este de Chubut están bajo alerta amarilla por tormentas. Mientras que en Neuquén y Río Negro hay alerta amarilla por lluvias.",
-   "fuente": "clarin.com",
-   "t": 1793879948000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Se realizó la autopsia preliminar a Jesús de Miguel, el futbolista que murió en España",
-   "bajada": "El jugador de Tenerife falleció después de un fuerte impacto con el arquero Jesús Owono durante un partido ante el FC Andorra. El examen forense se llevó a cabo el martes por la tarde en el Instituto de Medicina Legal de Santa Cruz de Tenerife.",
-   "leer": "Se realizó la autopsia preliminar a Jesús de Miguel, el futbolista que murió en España. El jugador de Tenerife falleció después de un fuerte impacto con el arquero Jesús Owono durante un partido ante el FC Andorra. El examen forense se llevó a cabo el martes por la tarde en el Instituto de Medicina Legal de Santa Cruz de Tenerife.",
-   "fuente": "clarin.com",
-   "t": 1793879583000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Cuándo se cruzarían Boca y River en los playoffs",
-   "bajada": "",
-   "leer": "Cuándo se cruzarían Boca y River en los playoffs.",
-   "fuente": "TyC Sports",
-   "t": 1793879181000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Visita del Papa a la Argentina, EN VIVO: León XIV regresa a América Latina en un \"viaje muy deseado\", destacó el Vaticano",
-   "bajada": "\"La parada en Perú será un regreso a casa para el Santo Padre, pero Argentina y Uruguay también son tierras que conoce bien\", aseguraron desde la Santa Sede. Este viernes arribará a Uruguay y el domingo a la Argentina. La agenda de su visita.",
-   "leer": "\"La parada en Perú será un regreso a casa para el Santo Padre, pero Argentina y Uruguay también son tierras que conoce bien\", aseguraron desde la Santa Sede. Este viernes arribará a Uruguay y el domingo a la Argentina. La agenda de su visita.",
-   "fuente": "clarin.com",
-   "t": 1793878646000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente se juega la clasificación ante Deportivo Riestra en Avellaneda",
-   "bajada": "",
-   "leer": "Independiente se juega la clasificación ante Deportivo Riestra en Avellaneda.",
-   "fuente": "Avellaneda Hoy",
-   "t": 1793878470000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Barracas Central vs. Racing Club, todo lo que tenés que saber del duelo del Clausura",
-   "bajada": "",
-   "leer": "Barracas Central vs. Racing Club, todo lo que tenés que saber del duelo del Clausura.",
-   "fuente": "DSports",
-   "t": 1793877657000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Cristiano Ronaldo anunció que se retira de la selección de Portugal: \"Es hora de devolver la número 7\"",
-   "bajada": "El astro publicó un video en sus redes sociales en el que reveló su decisión. Tras la polémica por su salida, la Federación dice que quiere organizar un partido despedida.",
-   "leer": "Cristiano Ronaldo anunció que se retira de la selección de Portugal: \"Es hora de devolver la número 7\". El astro publicó un video en sus redes sociales en el que reveló su decisión. Tras la polémica por su salida, la Federación dice que quiere organizar un partido despedida.",
-   "fuente": "clarin.com",
-   "t": 1793876508000
-  },
-  {
    "tema": "clima",
    "titulo": "Lluvias y tormentas en el AMBA: cuándo llegan y qué anticipa el pronóstico para el fin de semana",
    "bajada": "",
    "leer": "Lluvias y tormentas en el AMBA: cuándo llegan y qué anticipa el pronóstico para el fin de semana.",
    "fuente": "Infobae",
    "t": 1793874540000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El uno por uno de los 39 mata-mata de Boca contra brasileños: su tremendo registro y los antecedentes más cercanos",
-   "bajada": "",
-   "leer": "El uno por uno de los 39 mata-mata de Boca contra brasileños: su tremendo registro y los antecedentes más cercanos.",
-   "fuente": "Olé",
-   "t": 1793874225000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este jueves 5 de noviembre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este jueves 5 de noviembre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1793873702000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "\"Sacrificio: Los elegidos\", la película maldita que reúne a Anya Taylor-Joy con Chris Evans",
-   "bajada": "Cómo es el filme de Romain Gavras (hijo de Costa-Gavras) que estrena este jueves en la Argentina, y tiene a la actriz que vivió en la Argentina y el actor que interpretó al Capitán América. Una sátira que es mejor cuando busca la complicidad cómica que cuando se pone seria.",
-   "leer": "\"Sacrificio: Los elegidos\", la película maldita que reúne a Anya Taylor-Joy con Chris Evans. Cómo es el filme de Romain Gavras (hijo de Costa-Gavras) que estrena este jueves en la Argentina, y tiene a la actriz que vivió en la Argentina y el actor que interpretó al Capitán América. Una sátira que es mejor cuando busca la complicidad cómica que cuando se pone seria.",
-   "fuente": "clarin.com",
-   "t": 1793869359000
   },
   {
    "tema": "tecnología",
@@ -360,22 +400,6 @@
    "leer": "Bomba en San Lorenzo: Moretti le inició un juicio al club por casi 300.000 dólares.",
    "fuente": "Olé",
    "t": 1793863539000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Maxi Meza: del cambio de posición clave a su buen momento en Independiente",
-   "bajada": "",
-   "leer": "Maxi Meza: del cambio de posición clave a su buen momento en Independiente.",
-   "fuente": "Olé",
-   "t": 1793858952000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este jueves 5 noviembre de 2026",
-   "bajada": "",
-   "leer": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este jueves 5 noviembre de 2026.",
-   "fuente": "Clarin.com",
-   "t": 1793848255000
   }
  ]
 }
