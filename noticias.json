@@ -1,101 +1,317 @@
 {
- "t": 1793987940975,
+ "t": 1794006601935,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Vacaciones en Brasil 2027: cuánto cuesta alquilar una casa o un departamento en las playas más elegidas por los argentinos",
-   "bajada": "Un relevamiento de alquileres temporarios muestra desde opciones de alquiler para parejas hasta casas para seis personas en los principales destinos turísticos.",
-   "leer": "Vacaciones en Brasil 2027: cuánto cuesta alquilar una casa o un departamento en las playas más elegidas por los argentinos. Un relevamiento de alquileres temporarios muestra desde opciones de alquiler para parejas hasta casas para seis personas en los principales destinos turísticos.",
-   "fuente": "lanacion.com.ar",
-   "t": 1793988900000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "“A nosotros nos tiraban de a locos”: Sheinbaum reprocha falta de reclamo social ante fraudes electorales con Calderón y Peña tras confesión de Fox",
-   "bajada": "Hace unos días el expresidente panista dio a conocer que él hizo que ganara Felipe Calderón en los comicios de 2006.",
-   "leer": "“A nosotros nos tiraban de a locos”: Sheinbaum reprocha falta de reclamo social ante fraudes electorales con Calderón y Peña tras confesión de Fox. Hace unos días el expresidente panista dio a conocer que él hizo que ganara Felipe Calderón en los comicios de 2006.",
+   "titulo": "Independiente vence a Riestra y avanza a los octavos del Torneo Clausura, mientras que San Lorenzo pierde y queda eliminado",
+   "bajada": "El Rojo se enfrenta a Riestra y el Ciclón choca ante Platense. Además, Unión se mide al clasificado Vélez.",
+   "leer": "Independiente vence a Riestra y avanza a los octavos del Torneo Clausura, mientras que San Lorenzo pierde y queda eliminado. El Rojo se enfrenta a Riestra y el Ciclón choca ante Platense. Además, Unión se mide al clasificado Vélez.",
    "fuente": "infobae.com",
-   "t": 1793987733000
+   "t": 1794006480000
   },
   {
    "tema": "actualidad",
-   "titulo": "La FAA concluye que el arco propuesto por Trump no representa un peligro para los vuelos en Washington",
-   "bajada": "La estructura deberá contar con una “llama eterna” en su parte superior e iluminación en la base para que los pilotos puedan identificarla.",
-   "leer": "La FAA concluye que el arco propuesto por Trump no representa un peligro para los vuelos en Washington. La estructura deberá contar con una “llama eterna” en su parte superior e iluminación en la base para que los pilotos puedan identificarla.",
+   "titulo": "Los mosquitos de la malaria son más rápidos que los del dengue al picar, afirma un estudio",
+   "bajada": "Videos de alta velocidad y registros eléctricos revelaron cinco fases en la picadura de Anopheles coluzzii. La especie encontró vasos sanguíneos 17 segundos antes que Aedes aegypti.",
+   "leer": "Los mosquitos de la malaria son más rápidos que los del dengue al picar, afirma un estudio. Videos de alta velocidad y registros eléctricos revelaron cinco fases en la picadura de Anopheles coluzzii. La especie encontró vasos sanguíneos 17 segundos antes que Aedes aegypti.",
    "fuente": "infobae.com",
-   "t": 1793987688000
+   "t": 1794006441000
   },
   {
    "tema": "actualidad",
-   "titulo": "Juicio a “Pity” Álvarez, en vivo: “Jamás hubo un arma en manos de la víctima”, afirmó la querella al inicio de su alegato",
-   "bajada": "Tras la declaración de la hermana del músico, comenzaron las exposiciones finales por el crimen de Cristian Díaz. El abogado Fabián Améndola rechazó que el acusado hubiera actuado para defenderse.",
-   "leer": "Tras la declaración de la hermana del músico, comenzaron las exposiciones finales por el crimen de Cristian Díaz. El abogado Fabián Améndola rechazó que el acusado hubiera actuado para defenderse.",
+   "titulo": "EN VIVO | El Congreso tomó juramento a Pedro Alliana como nuevo presidente de Paraguay",
+   "bajada": "Una sala bicameral del Parlamento paraguayo invistió al dirigente del Partido Colorado como nuevo primer mandatario tras la destitución de Santiago Peña.",
+   "leer": "Una sala bicameral del Parlamento paraguayo invistió al dirigente del Partido Colorado como nuevo primer mandatario tras la destitución de Santiago Peña.",
    "fuente": "infobae.com",
-   "t": 1793987675000
+   "t": 1794006406000
   },
   {
    "tema": "actualidad",
-   "titulo": "“¿Qué te hacés mi mamá?”: se viralizó el video de una alumna que insultó y empujó a una profesora",
-   "bajada": "El episodio ocurrió hace un mes en una escuela secundaria de Villa Jardín, en San Fernando, pero comenzó a circular en las últimas horas; el Ministerio de Educación bonaerense inició una investigación y la docente no presentó una denuncia penal.",
-   "leer": "El episodio ocurrió hace un mes en una escuela secundaria de Villa Jardín, en San Fernando, pero comenzó a circular en las últimas horas; el Ministerio de Educación bonaerense inició una investigación y la docente no presentó una denuncia penal.",
+   "titulo": "Dura caída de Argentina XV frente a Inglaterra A: un mal resultado, una experiencia necesaria",
+   "bajada": "El equipo albiceleste fue derrotado en un test match jugado en Bath.",
+   "leer": "Dura caída de Argentina XV frente a Inglaterra A: un mal resultado, una experiencia necesaria. El equipo albiceleste fue derrotado en un test match jugado en Bath.",
    "fuente": "lanacion.com.ar",
-   "t": 1793987523000
+   "t": 1794006223000
   },
   {
    "tema": "actualidad",
-   "titulo": "Los tecnológicas rebotan en Wall Street pero persisten temores sobre las inversiones en IA",
-   "bajada": "El sector tecnológico en EE.UU. repunta tras una caída, aunque persisten dudas por posibles regulaciones y correcciones del mercado. El mercado laboral estadounidense sorprende con un aumento de empleos, pero la posible alza de tasas de la Fed genera incertidumbre en las inversiones.",
-   "leer": "Los tecnológicas rebotan en Wall Street pero persisten temores sobre las inversiones en IA. El sector tecnológico en EE.UU. repunta tras una caída, aunque persisten dudas por posibles regulaciones y correcciones del mercado. El mercado laboral estadounidense sorprende con un aumento de empleos, pero la posible alza de tasas de la Fed genera incertidumbre en las inversiones.",
-   "fuente": "clarin.com",
-   "t": 1793987416000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Moria Casán supo en vivo que Sofía Gala podría ganar un juicio: “Me entero por la tele, ¿está por solucionarse? ¿puede haber un dinero?\"",
-   "bajada": "En medio del debate por la estafa que sufrió Lucas Bertero, el abogado del periodista ejemplificó con la hija de la conductora y descolocó a todos.",
-   "leer": "En medio del debate por la estafa que sufrió Lucas Bertero, el abogado del periodista ejemplificó con la hija de la conductora y descolocó a todos.",
+   "titulo": "Martín Fierro de Cable 2026: quiénes son los nominados a los premios de APTRA",
+   "bajada": "Los reconocimientos se entregarán el próximo jueves; LN+ compite por cinco galardones.",
+   "leer": "Martín Fierro de Cable 2026: quiénes son los nominados a los premios de APTRA. Los reconocimientos se entregarán el próximo jueves; LN+ compite por cinco galardones.",
    "fuente": "lanacion.com.ar",
-   "t": 1793987343000
+   "t": 1794006184000
   },
   {
    "tema": "actualidad",
-   "titulo": "Juicio a La Toretto: desisten de los últimos testigos y fijan la fecha para los alegatos",
-   "bajada": "Este viernes, la defensa de Felicitas Alvite (23) decidió no sumar más testimonios, por lo que el tribunal a cargo del debate dio por cerrada la etapa de incorporación de pruebas. Cuándo será la próxima audiencia, en la que las partes expondrán sus argumentos finales y pedirán pena.",
-   "leer": "Juicio a La Toretto: desisten de los últimos testigos y fijan la fecha para los alegatos. Este viernes, la defensa de Felicitas Alvite (23) decidió no sumar más testimonios, por lo que el tribunal a cargo del debate dio por cerrada la etapa de incorporación de pruebas. Cuándo será la próxima audiencia, en la que las partes expondrán sus argumentos finales y pedirán pena.",
-   "fuente": "clarin.com",
-   "t": 1793987232000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Ya entró en vigor y es oficial: la policía estatal Georgia ahora acepta licencias de conducir digitales para todos los conductores",
-   "bajada": "El trámite para obtenerla es gratuito y opcional. Recomiendan portar la tarjeta tradicional en caso de que algunos agentes todavía no hayan adoptado la modalidad.",
-   "leer": "Ya entró en vigor y es oficial: la policía estatal Georgia ahora acepta licencias de conducir digitales para todos los conductores. El trámite para obtenerla es gratuito y opcional. Recomiendan portar la tarjeta tradicional en caso de que algunos agentes todavía no hayan adoptado la modalidad.",
-   "fuente": "clarin.com",
-   "t": 1793987217000
+   "titulo": "El simulador del Clausura: así está la clasificación y cómo quedan los cruces de octavos de final",
+   "bajada": "Se definen las posiciones de las zonas A y B del torneo, que terminan el avance de 16 equipos.",
+   "leer": "El simulador del Clausura: así está la clasificación y cómo quedan los cruces de octavos de final. Se definen las posiciones de las zonas A y B del torneo, que terminan el avance de 16 equipos.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794006034000
   },
   {
    "tema": "fútbol",
-   "titulo": "La irrisoria multa que le aplicaron a Franco Colapinto en San Pablo",
-   "bajada": "Franco la ligó por exceso de velocidad en boxes durante la primera práctica. La FIA sancionó a Alpine con... 100 euros, sin consecuencias para la parrilla.",
-   "leer": "La irrisoria multa que le aplicaron a Franco Colapinto en San Pablo. Franco la ligó por exceso de velocidad en boxes durante la primera práctica. La FIA sancionó a Alpine con... 100 euros, sin consecuencias para la parrilla.",
+   "titulo": "Video: penal y roja por VAR para Unión y dos amonestados por la trampa del arquero de Vélez",
+   "bajada": "Andrés Gariano no había advertido una falta de Silvero de último recurso: lo llamaron de la cabina y, mientras tanto, Marchiori hacía un pozo en el punto penal y Joaquín Mosqueira lo tiró al piso. Tarragona marcó el 1 a 0.",
+   "leer": "Video: penal y roja por VAR para Unión y dos amonestados por la trampa del arquero de Vélez. Andrés Gariano no había advertido una falta de Silvero de último recurso: lo llamaron de la cabina y, mientras tanto, Marchiori hacía un pozo en el punto penal y Joaquín Mosqueira lo tiró al piso. Tarragona marcó el 1 a 0.",
    "fuente": "ole.com.ar",
-   "t": 1793986670000
+   "t": 1794005254000
   },
   {
    "tema": "fútbol",
-   "titulo": "En Racing se ilusionan de cara al 2027: «Vamos a tener un equipo súper competitivo»",
+   "titulo": "Video: el gol y la emoción de Mateo Pérez Curci en Independiente",
+   "bajada": "El juvenil hizo el primero para el Rojo contra Riestra y quedó al borde de las lágrimas en el festejo.",
+   "leer": "Video: el gol y la emoción de Mateo Pérez Curci en Independiente. El juvenil hizo el primero para el Rojo contra Riestra y quedó al borde de las lágrimas en el festejo.",
+   "fuente": "ole.com.ar",
+   "t": 1794005177000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "FIFA aflojó con Molina pero no con la sanción a Paredes: AFA va al TAS",
+   "bajada": "La Cámara de Apelaciones redujo de siete a cuatro partidos el castigo al lateral, ratificó la pena al volante y la AFA recurrirá al Tribunal de Alzada internacional.",
+   "leer": "FIFA aflojó con Molina pero no con la sanción a Paredes: AFA va al TAS. La Cámara de Apelaciones redujo de siete a cuatro partidos el castigo al lateral, ratificó la pena al volante y la AFA recurrirá al Tribunal de Alzada internacional.",
+   "fuente": "ole.com.ar",
+   "t": 1794004535000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Franco Colapinto se ilusiona con volver a los puntos en San Pablo: \"Está todo muy apretado\"",
+   "bajada": "El argentino terminó 11° en la segunda práctica libre y quedó a solo 51 milésimas del décimo puesto. Aunque reconoció que Alpine todavía debe mejorar, confía en que hay margen para dar un salto antes de la clasificación.",
+   "leer": "Franco Colapinto se ilusiona con volver a los puntos en San Pablo: \"Está todo muy apretado\". El argentino terminó 11° en la segunda práctica libre y quedó a solo 51 milésimas del décimo puesto. Aunque reconoció que Alpine todavía debe mejorar, confía en que hay margen para dar un salto antes de la clasificación.",
+   "fuente": "clarin.com",
+   "t": 1794004346000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Profesores aprueban moción de censura contra la dirección de una universidad en EEUU por denuncia de violación",
+   "bajada": "La comunidad académica de Cornell censuró a su dirección por la gestión de un caso de violación grupal que involucra a una fraternidad estudiantil. La fiscal general de Nueva York lidera la investigación, mientras se critica la respuesta institucional y se evalúa su manejo por un ente externo.",
+   "leer": "Profesores aprueban moción de censura contra la dirección de una universidad en EEUU por denuncia de violación. La comunidad académica de Cornell censuró a su dirección por la gestión de un caso de violación grupal que involucra a una fraternidad estudiantil. La fiscal general de Nueva York lidera la investigación, mientras se critica la respuesta institucional y se evalúa su manejo por un ente externo.",
+   "fuente": "clarin.com",
+   "t": 1794003612000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "FATE: la Justicia laboral dio por saldadas las deudas, pero la causa penal sigue sin resolver la ocupación de la fábrica",
+   "bajada": "Con el pago de las indemnizaciones y salarios y el levantamiento del embargo, se zanjó la discusión sobre las obligaciones económicas derivadas del cierre. Quejas porque la planta de San Fernando continúa ocupada y la restitución del inmueble a sus propietarios sigue pendiente.",
+   "leer": "FATE: la Justicia laboral dio por saldadas las deudas, pero la causa penal sigue sin resolver la ocupación de la fábrica. Con el pago de las indemnizaciones y salarios y el levantamiento del embargo, se zanjó la discusión sobre las obligaciones económicas derivadas del cierre. Quejas porque la planta de San Fernando continúa ocupada y la restitución del inmueble a sus propietarios sigue pendiente.",
+   "fuente": "clarin.com",
+   "t": 1794003588000
+  },
+  {
+   "tema": "política",
+   "titulo": "La derrota de los dueños del algoritmo y el dilema de Milei",
+   "bajada": "El fracaso de Trump expuso los límites del poder de Silicon Valley y de la eficacia de la estrategia digital. Dudas sobre inversiones en IA afectan a la Argentina. El Presidente sufre las repercusiones de su alineamiento internacional con una economía en riesgo.",
+   "leer": "La derrota de los dueños del algoritmo y el dilema de Milei. El fracaso de Trump expuso los límites del poder de Silicon Valley y de la eficacia de la estrategia digital. Dudas sobre inversiones en IA afectan a la Argentina. El Presidente sufre las repercusiones de su alineamiento internacional con una economía en riesgo.",
+   "fuente": "clarin.com",
+   "t": 1794003588000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "El Congreso destituyó a Santiago Peña en un juicio político exprés y Paraguay tendrá nuevo presidente: festejos en Asunción y dudas sobre el futuro",
+   "bajada": "El Senado confirmó el proceso que había iniciado la Cámara de Diputados el jueves. Asumirá Pedro Alliana, actual vice. La defensa del presidente advirtió que irán a tribunales internacionales.",
+   "leer": "El Congreso destituyó a Santiago Peña en un juicio político exprés y Paraguay tendrá nuevo presidente: festejos en Asunción y dudas sobre el futuro. El Senado confirmó el proceso que había iniciado la Cámara de Diputados el jueves. Asumirá Pedro Alliana, actual vice. La defensa del presidente advirtió que irán a tribunales internacionales.",
+   "fuente": "clarin.com",
+   "t": 1794003389000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "El papa León XIV habló con los periodistas en el avión: sus definiciones sobre el cáncer, por qué votó en EE.UU. y el caso de un argentino preso en Venezuela",
+   "bajada": "Durante el vuelo que dio inicio a su gira sudamericana, se refirió a su rápida recuperación médica y destacó la importancia de los controles preventivos para la salud. Y expresó su alegría por recorrer la patria de su antecesor.",
+   "leer": "El papa León XIV habló con los periodistas en el avión: sus definiciones sobre el cáncer, por qué votó en EE.UU. y el caso de un argentino preso en Venezuela. Durante el vuelo que dio inicio a su gira sudamericana, se refirió a su rápida recuperación médica y destacó la importancia de los controles preventivos para la salud. Y expresó su alegría por recorrer la patria de su antecesor.",
+   "fuente": "clarin.com",
+   "t": 1794002211000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La pobreza alcanzó el 45,4% con ponderadores actualizados y afectó a 21,1 millones de argentinos",
+   "bajada": "Con esta medición, habría 6 millones de pobres más que con la medición del INDEC y el indicador se ubicaría por encima del que dejó Mauricio Macri en la Argentina al cierre de su gestión.",
+   "leer": "La pobreza alcanzó el 45,4% con ponderadores actualizados y afectó a 21,1 millones de argentinos. Con esta medición, habría 6 millones de pobres más que con la medición del INDEC y el indicador se ubicaría por encima del que dejó Mauricio Macri en la Argentina al cierre de su gestión.",
+   "fuente": "ambito.com",
+   "t": 1794001920000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente suma otra inhibición de la FIFA por una deuda millonaria",
    "bajada": "",
-   "leer": "En Racing se ilusionan de cara al 2027: «Vamos a tener un equipo súper competitivo».",
-   "fuente": "El Intransigente",
-   "t": 1793985639000
+   "leer": "Independiente suma otra inhibición de la FIFA por una deuda millonaria.",
+   "fuente": "Agencia Noticias Argentinas",
+   "t": 1794001380000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Semana negra para la soja: su precio internacional cayó US$ 15 durante la semana, mientras que el aceite se derrumbó más de US$ 80",
+   "bajada": "El ingreso de la cosecha norteamericana, la baja del petróleo y la devaluación del real, entre las principales razones que impactan en las cotizaciones.",
+   "leer": "Semana negra para la soja: su precio internacional cayó US$ 15 durante la semana, mientras que el aceite se derrumbó más de US$ 80. El ingreso de la cosecha norteamericana, la baja del petróleo y la devaluación del real, entre las principales razones que impactan en las cotizaciones.",
+   "fuente": "clarin.com",
+   "t": 1794000612000
   },
   {
    "tema": "fútbol",
-   "titulo": "\"Todavía no caigo\": la emoción de Espíndola tras el debut en River y sus auspiciosas cifras",
-   "bajada": "El volante central de 18 años cumplió el sueño en el Minella: sus sensaciones, el apoyo del plantel y el agradecimiento a los hinchas.",
-   "leer": "\"Todavía no caigo\": la emoción de Espíndola tras el debut en River y sus auspiciosas cifras. El volante central de 18 años cumplió el sueño en el Minella: sus sensaciones, el apoyo del plantel y el agradecimiento a los hinchas.",
-   "fuente": "ole.com.ar",
-   "t": 1793985607000
+   "titulo": "El papa León XIV en Argentina: cómo es la camiseta especial que presentó San Lorenzo con guiño a Francisco",
+   "bajada": "",
+   "leer": "El papa León XIV en Argentina: cómo es la camiseta especial que presentó San Lorenzo con guiño a Francisco.",
+   "fuente": "C5N",
+   "t": 1793999160000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Alineaciones de Independiente y Deportivo Riestra para el duelo de la fecha 16 del Torneo Clausura",
+   "bajada": "",
+   "leer": "Alineaciones de Independiente y Deportivo Riestra para el duelo de la fecha 16 del Torneo Clausura.",
+   "fuente": "Bolavip Argentina",
+   "t": 1793997839000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura",
+   "bajada": "",
+   "leer": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura.",
+   "fuente": "Infobae",
+   "t": 1793996880000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Tras ganarle a Aldosivi, contra quién jugaría River hoy los octavos de final del Torneo Clausura",
+   "bajada": "",
+   "leer": "Tras ganarle a Aldosivi, contra quién jugaría River hoy los octavos de final del Torneo Clausura.",
+   "fuente": "TyC Sports",
+   "t": 1793996654000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La construcción repuntó en septiembre, pero la industria sigue por debajo del año pasado",
+   "bajada": "La actividad de la construcción creció 7,8% frente a agosto y 5,1% interanual, después de dos meses de caídas contra 2025. La producción fabril mejoró 0,7% mensual, aunque acumula una baja de 2,6% en el año.",
+   "leer": "La construcción repuntó en septiembre, pero la industria sigue por debajo del año pasado. La actividad de la construcción creció 7,8% frente a agosto y 5,1% interanual, después de dos meses de caídas contra 2025. La producción fabril mejoró 0,7% mensual, aunque acumula una baja de 2,6% en el año.",
+   "fuente": "clarin.com",
+   "t": 1793996229000
+  },
+  {
+   "tema": "política",
+   "titulo": "Milei y su apuesta en política internacional: sus aliados caen en desgracia y sus enemigos ganan poder",
+   "bajada": "El libertario entrará en diciembre en el último año de su mandato, viendo caer a sus más amigos y a los que le dio todo lo que pudo aún rompiendo con las tradiciones argentinas: Trump, Bolsonaro y probablemente Netanyahu. La renuncia de Peña también lo deja solo en el Cono Sur.",
+   "leer": "Milei y su apuesta en política internacional: sus aliados caen en desgracia y sus enemigos ganan poder. El libertario entrará en diciembre en el último año de su mandato, viendo caer a sus más amigos y a los que le dio todo lo que pudo aún rompiendo con las tradiciones argentinas: Trump, Bolsonaro y probablemente Netanyahu. La renuncia de Peña también lo deja solo en el Cono Sur.",
+   "fuente": "clarin.com",
+   "t": 1793995609000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Russell Brand: cómo funcionó la protección de las grandes estrellas en la televisión británica",
+   "bajada": "El comediante fue declarado culpable de violación y tres agresiones sexuales. Antes del juicio, había intentado frenar el proceso al considerar que la exposición mediática afectaba su derecho a recibir un juicio justo.",
+   "leer": "Russell Brand: cómo funcionó la protección de las grandes estrellas en la televisión británica. El comediante fue declarado culpable de violación y tres agresiones sexuales. Antes del juicio, había intentado frenar el proceso al considerar que la exposición mediática afectaba su derecho a recibir un juicio justo.",
+   "fuente": "clarin.com",
+   "t": 1793995606000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La inflación en los países de la OCDE saltó al 4,5% en septiembre por repunte de la energía",
+   "bajada": "El índice general trepó dos décimas frente a agosto empujado por el salto de la energía en 31 economías del bloque, mientras que en la zona euro escaló al 3,8% y Eurostat prevé un 4% para octubre. Los detalles, en la nota.",
+   "leer": "La inflación en los países de la OCDE saltó al 4,5% en septiembre por repunte de la energía. El índice general trepó dos décimas frente a agosto empujado por el salto de la energía en 31 economías del bloque, mientras que en la zona euro escaló al 3,8% y Eurostat prevé un 4% para octubre. Los detalles, en la nota.",
+   "fuente": "ambito.com",
+   "t": 1793995440000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Barracas Central venció por 2-0 a Racing Club, por el Torneo Clausura 2026",
+   "bajada": "",
+   "leer": "Barracas Central venció por 2-0 a Racing Club, por el Torneo Clausura 2026.",
+   "fuente": "La Nación",
+   "t": 1793995260000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing cerró su año con una nueva derrota: cayó 2-0 ante Barracas Central en la última fecha de Torneo Clausura",
+   "bajada": "",
+   "leer": "Racing cerró su año con una nueva derrota: cayó 2-0 ante Barracas Central en la última fecha de Torneo Clausura.",
+   "fuente": "Infobae",
+   "t": 1793995200000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "La visita de León XIV: la estola con Mamá Antula y la Cruz de Matará que le regalarán al Papa",
+   "bajada": "La hicieron teleras de Santiago del Estero, con el objetivo de difundir el patrimonio cultural, la identidad y la historia de las comunidades santiagueñas. La impulsó la Cátedra Abierta de Mama Antula de la Universidad Nacional de Santiago del Estero (UNSE).",
+   "leer": "La visita de León XIV: la estola con Mamá Antula y la Cruz de Matará que le regalarán al Papa. La hicieron teleras de Santiago del Estero, con el objetivo de difundir el patrimonio cultural, la identidad y la historia de las comunidades santiagueñas. La impulsó la Cátedra Abierta de Mama Antula de la Universidad Nacional de Santiago del Estero (UNSE).",
+   "fuente": "clarin.com",
+   "t": 1793994246000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Tras la derrota electoral, Donald Trump nombra a un \"halcón\" como jefe de Gabinete y se prepara para una guerra contra el Congreso",
+   "bajada": "El mandatario republicano nombró a Stephen Miller, un leal al presidente y un duro opositor a la inmigración, tras el duro revés en las legislativas del martes. La Casa Blanca comienza una nueva etapa, que se prevé más agresiva, para enfrentar a un Congreso de mayoría demócrata.",
+   "leer": "Tras la derrota electoral, Donald Trump nombra a un \"halcón\" como jefe de Gabinete y se prepara para una guerra contra el Congreso. El mandatario republicano nombró a Stephen Miller, un leal al presidente y un duro opositor a la inmigración, tras el duro revés en las legislativas del martes. La Casa Blanca comienza una nueva etapa, que se prevé más agresiva, para enfrentar a un Congreso de mayoría demócrata.",
+   "fuente": "clarin.com",
+   "t": 1793994224000
+  },
+  {
+   "tema": "política",
+   "titulo": "ADEPA expresó su preocupación y repudio por las acciones de la AFA contra distintos medios de comunicación",
+   "bajada": "Cuestionó la decisión de la entidad del fútbol argentino de impedir a TN la cobertura de los seleccionados nacionales. También alertó sobre la presión judicial contra los periodistas de Clarín Daniel Santoro y Federico Teijeiro.",
+   "leer": "ADEPA expresó su preocupación y repudio por las acciones de la AFA contra distintos medios de comunicación. Cuestionó la decisión de la entidad del fútbol argentino de impedir a TN la cobertura de los seleccionados nacionales. También alertó sobre la presión judicial contra los periodistas de Clarín Daniel Santoro y Federico Teijeiro.",
+   "fuente": "clarin.com",
+   "t": 1793993972000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Liga Desarrollo de Básquetbol | Noticia | Boca pisó fuerte ante San Martín",
+   "bajada": "",
+   "leer": "Liga Desarrollo de Básquetbol | Noticia | Boca pisó fuerte ante San Martín.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1793993229000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La foto que le falta a Román: a un paso de su primera vuelta olímpica como presidente de Boca",
+   "bajada": "",
+   "leer": "La foto que le falta a Román: a un paso de su primera vuelta olímpica como presidente de Boca.",
+   "fuente": "Olé",
+   "t": 1793992617000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La producción industrial cayó 1,8% en septiembre, pero la construcción mostró una fuerte recuperación",
+   "bajada": "En agosto, ambos indicadores se habían recuperado tras el fuerte retroceso de julio, cuando habían registrado caídas cercanas al 5%.",
+   "leer": "La producción industrial cayó 1,8% en septiembre, pero la construcción mostró una fuerte recuperación. En agosto, ambos indicadores se habían recuperado tras el fuerte retroceso de julio, cuando habían registrado caídas cercanas al 5%.",
+   "fuente": "clarin.com",
+   "t": 1793992030000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Murió Eber Bueno, exjugador de San Lorenzo y padre del héroe de la salvación del Ciclón en 2012",
+   "bajada": "El exdelantero uruguayo falleció a los 67 años en Ecuador, donde estaba radicado. La Asociación Uruguaya de Fútbol lamentó su muerte. Jugó en el club de Boedo entre 1983 y 1984. Su hijo, Carlos, también vistió la camiseta azulgrana y fue decisivo para evitar el descenso.",
+   "leer": "Murió Eber Bueno, exjugador de San Lorenzo y padre del héroe de la salvación del Ciclón en 2012. El exdelantero uruguayo falleció a los 67 años en Ecuador, donde estaba radicado. La Asociación Uruguaya de Fútbol lamentó su muerte. Jugó en el club de Boedo entre 1983 y 1984. Su hijo, Carlos, también vistió la camiseta azulgrana y fue decisivo para evitar el descenso.",
+   "fuente": "clarin.com",
+   "t": 1793991699000
+  },
+  {
+   "tema": "tránsito",
+   "titulo": "Atención conductores: qué cambia en los peajes de CABA desde este viernes",
+   "bajada": "",
+   "leer": "Atención conductores: qué cambia en los peajes de CABA desde este viernes.",
+   "fuente": "MDZ Online",
+   "t": 1793991600000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Murió Sebastián Lelio, el director de \"Una mujer fantástica\", la película chilena que ganó el Oscar en 2018",
+   "bajada": "El cineasta tenía 52 años y, por el momento, se desconocen las causas de su muerte. Aunque desarrolló su carrera en Chile, había nacido en Mendoza y se convirtió en una de las figuras más reconocidas del cine latinoamericano.",
+   "leer": "Murió Sebastián Lelio, el director de \"Una mujer fantástica\", la película chilena que ganó el Oscar en 2018. El cineasta tenía 52 años y, por el momento, se desconocen las causas de su muerte. Aunque desarrolló su carrera en Chile, había nacido en Mendoza y se convirtió en una de las figuras más reconocidas del cine latinoamericano.",
+   "fuente": "clarin.com",
+   "t": 1793989715000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "Quién es Dario Amodei, el cerebro detrás de Claude",
+   "bajada": "Hijo de un artesano toscano, físico y biofísico, estuvo detrás de GPT-2 y GPT-3 antes de fundar Anthropic con su hermana. Hoy Anthropic, la empresa detrás de Claude, facturó USD 16.800 millones en un trimestre y se prepara para salir a la bolsa.",
+   "leer": "Quién es Dario Amodei, el cerebro detrás de Claude. Hijo de un artesano toscano, físico y biofísico, estuvo detrás de GPT-2 y GPT-3 antes de fundar Anthropic con su hermana. Hoy Anthropic, la empresa detrás de Claude, facturó USD 16.800 millones en un trimestre y se prepara para salir a la bolsa.",
+   "fuente": "clarin.com",
+   "t": 1793988272000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El drama de Jesús Owono, el arquero involucrado en la muerte de Jesús de Miguel: piensa en retirarse y su familia sufre amenazas e insultos",
+   "bajada": "Recibe asistencia psicológica tras el golpe que provocó la muerte del futbolista español y atraviesa días muy difíciles. Su entorno denunció el hostigamiento que sufren sus familiares, mientras los hinchas de Andorra le expresaron su apoyo.",
+   "leer": "El drama de Jesús Owono, el arquero involucrado en la muerte de Jesús de Miguel: piensa en retirarse y su familia sufre amenazas e insultos. Recibe asistencia psicológica tras el golpe que provocó la muerte del futbolista español y atraviesa días muy difíciles. Su entorno denunció el hostigamiento que sufren sus familiares, mientras los hinchas de Andorra le expresaron su apoyo.",
+   "fuente": "clarin.com",
+   "t": 1793985412000
   },
   {
    "tema": "espectáculos",
@@ -106,132 +322,12 @@
    "t": 1793984689000
   },
   {
-   "tema": "fútbol",
-   "titulo": "La lista de concentrados de Boca ante Defensa con el regreso de Aranda",
-   "bajada": "El Vasco suma una alternativa para el tramo decisivo del año y define cómo utilizarla. Su recuperación, la baja y los elegidos para recibir al Halcón.",
-   "leer": "La lista de concentrados de Boca ante Defensa con el regreso de Aranda. El Vasco suma una alternativa para el tramo decisivo del año y define cómo utilizarla. Su recuperación, la baja y los elegidos para recibir al Halcón.",
-   "fuente": "ole.com.ar",
-   "t": 1793984522000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Quién es quién en la crisis de Paraguay: los cinco protagonistas del escándalo de Ueno Bank que provocó un sismo político",
-   "bajada": "Desde el presidente renunciante hasta el CEO del Ueno Bank integran la lista de personajes clave para entender la debacle. Cómo están involucrados y qué ocurrirá con ellos.",
-   "leer": "Quién es quién en la crisis de Paraguay: los cinco protagonistas del escándalo de Ueno Bank que provocó un sismo político. Desde el presidente renunciante hasta el CEO del Ueno Bank integran la lista de personajes clave para entender la debacle. Cómo están involucrados y qué ocurrirá con ellos.",
-   "fuente": "clarin.com",
-   "t": 1793984457000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Alerta en Europa: medios británicos e irlandeses recibieron amenazas de bomba e interrumpieron transmisiones",
-   "bajada": "Señales como RTE, Bauer Media, Virgin Media y Mediahuis tuvieron que evacuar sus sedes irlandesas a raíz de llamados intimidatorios. En paralelo, plataformas informativas británicas pidieron intervención a la Policía sin brindar detalles adicionales por razones de resguardo.",
-   "leer": "Alerta en Europa: medios británicos e irlandeses recibieron amenazas de bomba e interrumpieron transmisiones. Señales como RTE, Bauer Media, Virgin Media y Mediahuis tuvieron que evacuar sus sedes irlandesas a raíz de llamados intimidatorios. En paralelo, plataformas informativas británicas pidieron intervención a la Policía sin brindar detalles adicionales por razones de resguardo.",
-   "fuente": "clarin.com",
-   "t": 1793983654000
-  },
-  {
    "tema": "deportes",
    "titulo": "Messi va por otro récord histórico en la MLS: quiere lograr algo que nadie consiguió en 31 años y acercarse a su tercer MVP",
    "bajada": "El argentino, de 39 años, suma 26 goles y está a un paso de convertirse en el primer jugador en ganar dos Botines de Oro consecutivos. Inter Miami recibe este sábado a Charlotte FC y buscará asegurar el segundo puesto de la Conferencia Este para llegar mejor posicionado a los playoffs.",
    "leer": "Messi va por otro récord histórico en la MLS: quiere lograr algo que nadie consiguió en 31 años y acercarse a su tercer MVP. El argentino, de 39 años, suma 26 goles y está a un paso de convertirse en el primer jugador en ganar dos Botines de Oro consecutivos. Inter Miami recibe este sábado a Charlotte FC y buscará asegurar el segundo puesto de la Conferencia Este para llegar mejor posicionado a los playoffs.",
    "fuente": "clarin.com",
    "t": 1793982158000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Maluma está ‘Loco x volver’: Bogotá será una de las primeras paradas de su gira mundial",
-   "bajada": "",
-   "leer": "Maluma está ‘Loco x volver’: Bogotá será una de las primeras paradas de su gira mundial.",
-   "fuente": "Kienyke",
-   "t": 1793981516000
-  },
-  {
-   "tema": "política",
-   "titulo": "Carlos Rosenkrantz les pidió a los abogados que controlen en el Consejo de la Magistratura que no se altere el orden de mérito en los concursos para jueces",
-   "bajada": "En una presentación ante el Colegio de Abogados de la Ciudad de Buenos Aires, el ministro de la Corte alertó por la baja participación de los letrados en la elección para consejeros.",
-   "leer": "Carlos Rosenkrantz les pidió a los abogados que controlen en el Consejo de la Magistratura que no se altere el orden de mérito en los concursos para jueces. En una presentación ante el Colegio de Abogados de la Ciudad de Buenos Aires, el ministro de la Corte alertó por la baja participación de los letrados en la elección para consejeros.",
-   "fuente": "clarin.com",
-   "t": 1793981328000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La inflación de octubre pega más en la clase media porteña: cuánto hay que ganar para seguir perteneciendo a ese sector",
-   "bajada": "Los rubros ligados a ese segmento de la sociedad aumentan por encima del promedio. Sin alquiler, una familia necesita ingresos de al menos $ 2.740.000 por mes.",
-   "leer": "La inflación de octubre pega más en la clase media porteña: cuánto hay que ganar para seguir perteneciendo a ese sector. Los rubros ligados a ese segmento de la sociedad aumentan por encima del promedio. Sin alquiler, una familia necesita ingresos de al menos $ 2.740.000 por mes.",
-   "fuente": "clarin.com",
-   "t": 1793980856000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Manon y su trágica historia suben a escena con el Ballet del Teatro Colón",
-   "bajada": "El Ballet del Teatro, bajo la dirección de Julio Bocca, presenta la creación del británico Kenneth MacMillan. Los primeros bailarines de la Ópera de París Dorothée Gilbert y Hugo Marchand encabezan el elenco invitado.",
-   "leer": "Manon y su trágica historia suben a escena con el Ballet del Teatro Colón. El Ballet del Teatro, bajo la dirección de Julio Bocca, presenta la creación del británico Kenneth MacMillan. Los primeros bailarines de la Ópera de París Dorothée Gilbert y Hugo Marchand encabezan el elenco invitado.",
-   "fuente": "clarin.com",
-   "t": 1793980175000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La racha centenaria que Racing cortará esta tarde ante Barracas Central",
-   "bajada": "",
-   "leer": "La racha centenaria que Racing cortará esta tarde ante Barracas Central.",
-   "fuente": "El Gráfico",
-   "t": 1793980111000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Habló la mujer que encontró los restos de su bebé robado hace 40 años: \"Mi corazón me dice que sí es mi hijo\"",
-   "bajada": "El bebé nació en 1986, pero los médicos le dijeron que había muerto y nunca le entregaron el cuerpo. Volvió a recurrir a la Justicia y esta semana hallaron restos de un recién nacido con una chapita idéntica a una que ella conservó. Un estudio de ADN debe ahora confirmar el vínculo.",
-   "leer": "Habló la mujer que encontró los restos de su bebé robado hace 40 años: \"Mi corazón me dice que sí es mi hijo\". El bebé nació en 1986, pero los médicos le dijeron que había muerto y nunca le entregaron el cuerpo. Volvió a recurrir a la Justicia y esta semana hallaron restos de un recién nacido con una chapita idéntica a una que ella conservó. Un estudio de ADN debe ahora confirmar el vínculo.",
-   "fuente": "clarin.com",
-   "t": 1793979554000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Una entidad rural se reunió con Sturzenegger y planteó sus reparos sobre la utilización de la plataforma Visec para exportar a Europa",
-   "bajada": "Autoridades de Confederaciones Rurales Argentinas (CRA) se reunieron este jueves con el funcionario nacional, y plantearon sus preocupaciones por el reglamento antideforestación impuesto por la Unión Europea.",
-   "leer": "Una entidad rural se reunió con Sturzenegger y planteó sus reparos sobre la utilización de la plataforma Visec para exportar a Europa. Autoridades de Confederaciones Rurales Argentinas (CRA) se reunieron este jueves con el funcionario nacional, y plantearon sus preocupaciones por el reglamento antideforestación impuesto por la Unión Europea.",
-   "fuente": "clarin.com",
-   "t": 1793978839000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Jorge Macri se reunió con el jefe de la Fórmula 1 en Brasil y puso fecha al sueño de recuperar el Gran Premio de Argentina",
-   "bajada": "El jefe de Gobierno porteño mantuvo un encuentro de 40 minutos con Stefano Domenicali en Interlagos y ratificó el interés de Buenos Aires por volver al calendario. Apuntan a 2029 o 2030, aunque no descartan una oportunidad antes. La Ciudad busca cerrar un acuerdo por al menos cinco años.",
-   "leer": "Jorge Macri se reunió con el jefe de la Fórmula 1 en Brasil y puso fecha al sueño de recuperar el Gran Premio de Argentina. El jefe de Gobierno porteño mantuvo un encuentro de 40 minutos con Stefano Domenicali en Interlagos y ratificó el interés de Buenos Aires por volver al calendario. Apuntan a 2029 o 2030, aunque no descartan una oportunidad antes. La Ciudad busca cerrar un acuerdo por al menos cinco años.",
-   "fuente": "clarin.com",
-   "t": 1793978506000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Del corpiño con tachas al catsuit rojo: subastan prendas de la serie de Moria Casán por una causa solidaria",
-   "bajada": "Algunos de los looks más llamativos de Moria , la ficción de Netflix sobre La One, saldrán a remate este viernes. La iniciativa incluye vestuario y obras de arte de la producción y busca recaudar fondos para Fundación Huésped.",
-   "leer": "Del corpiño con tachas al catsuit rojo: subastan prendas de la serie de Moria Casán por una causa solidaria. Algunos de los looks más llamativos de Moria , la ficción de Netflix sobre La One, saldrán a remate este viernes. La iniciativa incluye vestuario y obras de arte de la producción y busca recaudar fondos para Fundación Huésped.",
-   "fuente": "clarin.com",
-   "t": 1793978316000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Tesla anunció la fecha de su llegada a la Argentina: grabó un comercial con autos en la Ciudad",
-   "bajada": "La automotriz de Elon Musk informó que desembarcará en el país el 20 de noviembre. Lo comunicó a través de su cuenta de América Latina en X, con un comercial por el lanzamiento. La empresa se instalará en el país de forma directa, sin socios locales.",
-   "leer": "Tesla anunció la fecha de su llegada a la Argentina: grabó un comercial con autos en la Ciudad. La automotriz de Elon Musk informó que desembarcará en el país el 20 de noviembre. Lo comunicó a través de su cuenta de América Latina en X, con un comercial por el lanzamiento. La empresa se instalará en el país de forma directa, sin socios locales.",
-   "fuente": "clarin.com",
-   "t": 1793977898000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Buenas noticias para el Vasco Arruabarrena: Colombia no convocó a Álvaro Montero y Boca lo tendrá para la Copa Argentina",
-   "bajada": "El arquero quedó fuera de la lista de Néstor Lorenzo para los amistosos de noviembre y podrá jugar la semifinal contra Banfield. El chileno Williams Alarcón será el único ausente por la fecha FIFA.",
-   "leer": "Buenas noticias para el Vasco Arruabarrena: Colombia no convocó a Álvaro Montero y Boca lo tendrá para la Copa Argentina. El arquero quedó fuera de la lista de Néstor Lorenzo para los amistosos de noviembre y podrá jugar la semifinal contra Banfield. El chileno Williams Alarcón será el único ausente por la fecha FIFA.",
-   "fuente": "clarin.com",
-   "t": 1793977716000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Los precios globales de los alimentos bajaron en octubre, pero aún son 6% más altos que en 2025",
-   "bajada": "El índice general de la FAO cedió a 133,9 puntos en octubre empujado por el repliegue de los granos tras la cosecha en EEUU y la distensión en el mar Negro. Sin embargo, el encarecimiento interanual persiste sostenido por el impacto de las lluvias en Brasil.",
-   "leer": "Los precios globales de los alimentos bajaron en octubre, pero aún son 6% más altos que en 2025. El índice general de la FAO cedió a 133,9 puntos en octubre empujado por el repliegue de los granos tras la cosecha en EEUU y la distensión en el mar Negro. Sin embargo, el encarecimiento interanual persiste sostenido por el impacto de las lluvias en Brasil.",
-   "fuente": "ambito.com",
-   "t": 1793977620000
   },
   {
    "tema": "fútbol",
@@ -250,46 +346,6 @@
    "t": 1793976988000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura.",
-   "fuente": "Infobae",
-   "t": 1793976960000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El desempleo bajó en EEUU y el mercado refuerza la expectativa de una suba de tasas de la Fed en diciembre",
-   "bajada": "La cantidad de puestos de trabajo creados en octubre casi triplicó lo estimado por los analistas del mercado. Además, también se revisó al alza la cifra del mes anterior.",
-   "leer": "El desempleo bajó en EEUU y el mercado refuerza la expectativa de una suba de tasas de la Fed en diciembre. La cantidad de puestos de trabajo creados en octubre casi triplicó lo estimado por los analistas del mercado. Además, también se revisó al alza la cifra del mes anterior.",
-   "fuente": "ambito.com",
-   "t": 1793976900000
-  },
-  {
-   "tema": "política",
-   "titulo": "Silencio y sorpresa en el gobierno argentino por la caída de Santiago Peña, al que Milei elogiaba hasta hace poco",
-   "bajada": "\"Sin comentarios\" es la frase que se repite desde hace horas en la administración mileísta.",
-   "leer": "Silencio y sorpresa en el gobierno argentino por la caída de Santiago Peña, al que Milei elogiaba hasta hace poco. \"Sin comentarios\" es la frase que se repite desde hace horas en la administración mileísta.",
-   "fuente": "clarin.com",
-   "t": 1793976594000
-  },
-  {
-   "tema": "política",
-   "titulo": "La Corte volteó el plan de Alberto Fernández para llevar a la justicia porteña la causa en su contra por violencia de género",
-   "bajada": "El expresidente está acusado de lesiones leves reiteradas en dos oportunidades, lesiones graves y amenazas coactivas, agravados por el vínculo y el abuso de poder, en perjuicio de su expareja, Fabiola Yáñez.",
-   "leer": "La Corte volteó el plan de Alberto Fernández para llevar a la justicia porteña la causa en su contra por violencia de género. El expresidente está acusado de lesiones leves reiteradas en dos oportunidades, lesiones graves y amenazas coactivas, agravados por el vínculo y el abuso de poder, en perjuicio de su expareja, Fabiola Yáñez.",
-   "fuente": "clarin.com",
-   "t": 1793976546000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Tragedia en Florencio Varela: salió a comprar carne y lo mató un balcón que se le cayó encima",
-   "bajada": "El desprendimiento de la fachada aplastó a un hombre de 57 años que caminaba por la vereda de la calle Pedro Morán al 65. Efectivos de la Comisaría 2.ª acordonaron la zona preventivamente, mientras la fiscalía ordenó realizar pericias para determinar las causas del desplome.",
-   "leer": "Tragedia en Florencio Varela: salió a comprar carne y lo mató un balcón que se le cayó encima. El desprendimiento de la fachada aplastó a un hombre de 57 años que caminaba por la vereda de la calle Pedro Morán al 65. Efectivos de la Comisaría 2.ª acordonaron la zona preventivamente, mientras la fiscalía ordenó realizar pericias para determinar las causas del desplome.",
-   "fuente": "clarin.com",
-   "t": 1793975822000
-  },
-  {
    "tema": "música",
    "titulo": "Cororock llega al Teatro 25 de Mayo: el rock nacional se fusionará con un coro y una orquesta en un espectáculo único",
    "bajada": "",
@@ -298,52 +354,20 @@
    "t": 1793975709000
   },
   {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo y Platense: de la ventaja histórica que buscará ratificar al golpe reciente",
+   "tema": "recitales",
+   "titulo": "MAGOS anunció el lanzamiento de “Comodín”, su nuevo single",
    "bajada": "",
-   "leer": "San Lorenzo y Platense: de la ventaja histórica que buscará ratificar al golpe reciente.",
-   "fuente": "Vamos Ciclón",
-   "t": 1793974854000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca depende de Boca: todos los resultados que lo sacan campeón de la tabla anual",
-   "bajada": "",
-   "leer": "Boca depende de Boca: todos los resultados que lo sacan campeón de la tabla anual.",
-   "fuente": "TyC Sports",
-   "t": 1793969936000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Flavio Azzaro reveló qué hay entre Boca y Rodrigo De Paul: \"Se los aseguro\"",
-   "bajada": "",
-   "leer": "Flavio Azzaro reveló qué hay entre Boca y Rodrigo De Paul: \"Se los aseguro\".",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1793968597000
+   "leer": "MAGOS anunció el lanzamiento de “Comodín”, su nuevo single.",
+   "fuente": "https://www.radiourbanasf.com.ar/",
+   "t": 1793966689000
   },
   {
    "tema": "recitales",
-   "titulo": "Babasónicos llega a Tucumán con un recital en el Palacio de los Deportes",
+   "titulo": "Cadena Perpetua cierra su gira con un show solidario en Groove",
    "bajada": "",
-   "leer": "Babasónicos llega a Tucumán con un recital en el Palacio de los Deportes.",
-   "fuente": "https://www.radiourbanasf.com.ar/",
-   "t": 1793966989000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente busca su pase a los playoffs en casa",
-   "bajada": "",
-   "leer": "Independiente busca su pase a los playoffs en casa.",
-   "fuente": "» Cholila Online",
-   "t": 1793965825000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Jadson Viera y el motivo del cambio de arquero en Independiente: \"Hablé con ellos y lo decidí porque...\"",
-   "bajada": "",
-   "leer": "Jadson Viera y el motivo del cambio de arquero en Independiente: \"Hablé con ellos y lo decidí porque...\".",
-   "fuente": "Olé",
-   "t": 1793964772000
+   "leer": "Cadena Perpetua cierra su gira con un show solidario en Groove.",
+   "fuente": "Fm La Boca",
+   "t": 1793963506000
   },
   {
    "tema": "música",
@@ -360,14 +384,6 @@
    "leer": "Cambio en las autopistas porteñas: el nuevo sistema de pago en peajes.",
    "fuente": "iProfesional",
    "t": 1793960700000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Tras ganarle a Aldosivi, contra quién jugaría River hoy los octavos de final del Torneo Clausura",
-   "bajada": "",
-   "leer": "Tras ganarle a Aldosivi, contra quién jugaría River hoy los octavos de final del Torneo Clausura.",
-   "fuente": "TyC Sports",
-   "t": 1793960310000
   },
   {
    "tema": "clima",
