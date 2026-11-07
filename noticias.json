@@ -1,61 +1,221 @@
 {
- "t": 1794068855120,
+ "t": 1794084815145,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "México busca recuperar terreno en la industria farmacéutica y reducir su dependencia de importaciones",
-   "bajada": "La expectativa es que el proyecto genere un impacto económico de al menos 30 mil millones de pesos entre 2027 y 2030, al considerar otras inversiones previstas.",
-   "leer": "México busca recuperar terreno en la industria farmacéutica y reducir su dependencia de importaciones. La expectativa es que el proyecto genere un impacto económico de al menos 30 mil millones de pesos entre 2027 y 2030, al considerar otras inversiones previstas.",
-   "fuente": "infobae.com",
-   "t": 1794068455000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Alfredo Adame defiende a Vadhir Derbez ante nueva denuncia por presunto abuso sexual",
-   "bajada": "Autoridades capitalinas continúan las diligencias de una carpeta relacionada con hechos denunciados.",
-   "leer": "Alfredo Adame defiende a Vadhir Derbez ante nueva denuncia por presunto abuso sexual. Autoridades capitalinas continúan las diligencias de una carpeta relacionada con hechos denunciados.",
-   "fuente": "infobae.com",
-   "t": 1794068454000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesional con Santos",
-   "bajada": "Llegó al club brasileño a los 13 años, se destaca por sus goles y ya fue convocado para las selecciones juveniles argentinas.",
-   "leer": "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesional con Santos. Llegó al club brasileño a los 13 años, se destaca por sus goles y ya fue convocado para las selecciones juveniles argentinas.",
+   "titulo": "Franco Colapinto quedó eliminado en la Q1 y largará muy atrás el Gran Premio de San Pablo",
+   "bajada": "Bajo la lluvia y ante un gran número de argentinos, el argentino concluyó en el puesto 17, pero comenzará dos lugares más adelante por las penalidades a Hamilton y Verstappen.",
+   "leer": "Franco Colapinto quedó eliminado en la Q1 y largará muy atrás el Gran Premio de San Pablo. Bajo la lluvia y ante un gran número de argentinos, el argentino concluyó en el puesto 17, pero comenzará dos lugares más adelante por las penalidades a Hamilton y Verstappen.",
    "fuente": "lanacion.com.ar",
-   "t": 1794068406000
+   "t": 1794084525000
   },
   {
    "tema": "actualidad",
-   "titulo": "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasificación para Interlagos",
-   "bajada": "Su compañero de equipo, Pierre Gasly, finalizó undécimo en el circuito brasileño.",
-   "leer": "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasificación para Interlagos. Su compañero de equipo, Pierre Gasly, finalizó undécimo en el circuito brasileño.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794068394000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Crisis en Paraguay EN VIVO | Santiago Peña llegó a la Fiscalía General del Estado para prestar declaración tras ser detenido",
-   "bajada": "El ex mandatario se presenta ante las autoridades luego de haber sido destituido mediante un juicio político por su presunta vinculación con el colapso del banco local Ueno.",
-   "leer": "El ex mandatario se presenta ante las autoridades luego de haber sido destituido mediante un juicio político por su presunta vinculación con el colapso del banco local Ueno.",
+   "titulo": "Boca, Argentinos Juniors y Rosario Central buscan el título de la Tabla Anual",
+   "bajada": "Este sábado se define quién se queda con el trofeo de campeón de Liga en el fútbol argentino.",
+   "leer": "Boca, Argentinos Juniors y Rosario Central buscan el título de la Tabla Anual. Este sábado se define quién se queda con el trofeo de campeón de Liga en el fútbol argentino.",
    "fuente": "infobae.com",
-   "t": 1794068391000
+   "t": 1794084522000
   },
   {
    "tema": "actualidad",
-   "titulo": "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escándalo entre Mauro Icardi y Wanda Nara",
-   "bajada": "El viernes, el exmatrimonio protagonizó una tensa situación en Nordelta que requirió intervención médica y policial; sus parejas estuvieron en el lugar y habrían intentado apaciguar el conflicto.",
-   "leer": "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escándalo entre Mauro Icardi y Wanda Nara. El viernes, el exmatrimonio protagonizó una tensa situación en Nordelta que requirió intervención médica y policial; sus parejas estuvieron en el lugar y habrían intentado apaciguar el conflicto.",
+   "titulo": "Newman - Hindú, la final del Top 14 de URBA, en vivo",
+   "bajada": "El Cardenal y el Elefante se cruzan en la cancha de CASI para determinar al campeón de 2026.",
+   "leer": "El Cardenal y el Elefante se cruzan en la cancha de CASI para determinar al campeón de 2026.",
    "fuente": "lanacion.com.ar",
-   "t": 1794068387000
+   "t": 1794084494000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Tragedia en Chile: al menos 13 muertos y 15 heridos por un choque múltiple en Valparaíso",
+   "bajada": "El siniestro se produjo por la mañana sobre la denominada “Ruta de la Fruta” e involucró a un camión, un micro y un auto.",
+   "leer": "Tragedia en Chile: al menos 13 muertos y 15 heridos por un choque múltiple en Valparaíso. El siniestro se produjo por la mañana sobre la denominada “Ruta de la Fruta” e involucró a un camión, un micro y un auto.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794084493000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El Cabildo de Gran Canaria ordena suspender toda actividad este domingo por la borrasca",
+   "bajada": "Las Palmas de Gran Canaria, 7 nov (EFE).- El Cabildo de Gran Canaria ha ordenado suspender a partir de las 12.00 horas del domingo en la isla toda actividad pública o privada que reúna a personas, \"sea cual sea su aforo\" y tanto al aire libre como en espacios cerrados, ante el riesgo que comporta la borrasca Bruna. EFE.",
+   "leer": "El Cabildo de Gran Canaria ordena suspender toda actividad este domingo por la borrasca. Las Palmas de Gran Canaria, 7 nov (EFE).- El Cabildo de Gran Canaria ha ordenado suspender a partir de las 12.00 horas del domingo en la isla toda actividad pública o privada que reúna a personas, \"sea cual sea su aforo\" y tanto al aire libre como en espacios cerrados, ante el riesgo que comporta la borrasca Bruna. EFE.",
+   "fuente": "infobae.com",
+   "t": 1794084480000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El papa visita un hogar para los sacerdotes ancianos en Montevideo",
+   "bajada": "Montevideo, 7 nov (EFE).- El papa León XIV hizo este sábado una breve parada en el Hogar Sacerdotal Monseñor Jacinto Vera de Montevideo para reunirse con una veintena de sacerdotes ancianos que residen allí y llevarles su cercanía, informó el Vaticano.",
+   "leer": "El papa visita un hogar para los sacerdotes ancianos en Montevideo. Montevideo, 7 nov (EFE).- El papa León XIV hizo este sábado una breve parada en el Hogar Sacerdotal Monseñor Jacinto Vera de Montevideo para reunirse con una veintena de sacerdotes ancianos que residen allí y llevarles su cercanía, informó el Vaticano.",
+   "fuente": "infobae.com",
+   "t": 1794084463000
   },
   {
    "tema": "fútbol",
-   "titulo": "La determinante respuesta de Culotta sobre Insúa para el 2027",
+   "titulo": "Así quedó la parrilla de salida del GP de Brasil de Fórmula 1",
+   "bajada": "La lluvia complicó la clasificación en Interlagos, donde Lando Norris consiguió su cuarta pole de la temporada y la tercera consecutiva en este circuito.",
+   "leer": "Así quedó la parrilla de salida del GP de Brasil de Fórmula 1. La lluvia complicó la clasificación en Interlagos, donde Lando Norris consiguió su cuarta pole de la temporada y la tercera consecutiva en este circuito.",
+   "fuente": "ole.com.ar",
+   "t": 1794083956000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Messi y su Inter Miami vs. Charlotte por la MLS EN VIVO: terminar 2° y la Bota de Oro a la vista",
+   "bajada": "El equipo de Florida cierra la fase regular con el objetivo de terminar lo más arriba posible en el Este. Seguilo en Olé.",
+   "leer": "El equipo de Florida cierra la fase regular con el objetivo de terminar lo más arriba posible en el Este. Seguilo en Olé.",
+   "fuente": "ole.com.ar",
+   "t": 1794083816000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los pasos a seguir en San Lorenzo tras la eliminación",
    "bajada": "",
-   "leer": "La determinante respuesta de Culotta sobre Insúa para el 2027.",
+   "leer": "Los pasos a seguir en San Lorenzo tras la eliminación.",
    "fuente": "San Lorenzo Primero",
-   "t": 1794067718000
+   "t": 1794083373000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Colapinto, tranquilo pese a la floja qualy en San Pablo: “Vamos a trabajar para andar más rápido”",
+   "bajada": "Franco apareció sereno después de quedar 17° en la clasificación de San Pablo. Explicó los problemas con las gomas de lluvia extrema y apuntó al trabajo para la carrera: “Vamos a trabajar para andar más rápido”.",
+   "leer": "Colapinto, tranquilo pese a la floja qualy en San Pablo: “Vamos a trabajar para andar más rápido”. Franco apareció sereno después de quedar 17° en la clasificación de San Pablo. Explicó los problemas con las gomas de lluvia extrema y apuntó al trabajo para la carrera: “Vamos a trabajar para andar más rápido”.",
+   "fuente": "ole.com.ar",
+   "t": 1794082883000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Trump ofrece cargo de secretario de prensa de la Casa Blanca a jefe de la UFC, Dana White",
+   "bajada": "El mandatario estadounidense propuso a un empresario de la UFC para ocupar el puesto vacante de portavoz de la Casa Blanca. La oferta se realizó tras la reciente derrota electoral del partido del presidente, quien aún espera respuesta del magnate.",
+   "leer": "Trump ofrece cargo de secretario de prensa de la Casa Blanca a jefe de la UFC, Dana White. El mandatario estadounidense propuso a un empresario de la UFC para ocupar el puesto vacante de portavoz de la Casa Blanca. La oferta se realizó tras la reciente derrota electoral del partido del presidente, quien aún espera respuesta del magnate.",
+   "fuente": "clarin.com",
+   "t": 1794082817000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Tras las consultas parlamentarias: Isaac Herzog le encomendará a Gadi Eisenkot armar el nuevo gobierno en Israel",
+   "bajada": "La resolución del jefe de Estado se conoció luego de mantener intercambios con representantes de diferentes facciones parlamentarias. Durante el fin de semana se llevaron a cabo consultas adicionales que terminaron de definir la asignación.",
+   "leer": "Tras las consultas parlamentarias: Isaac Herzog le encomendará a Gadi Eisenkot armar el nuevo gobierno en Israel. La resolución del jefe de Estado se conoció luego de mantener intercambios con representantes de diferentes facciones parlamentarias. Durante el fin de semana se llevaron a cabo consultas adicionales que terminaron de definir la asignación.",
+   "fuente": "clarin.com",
+   "t": 1794082616000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Villarruel vuelve a tener un rol central con la visita del Papa: participará del encuentro con León XIV y se rearma para el 2027",
+   "bajada": "La vicepresidenta especuló que no iba a ser invitada por el Gobierno. Hubo presiones de los senadores para que sea parte de la comitiva oficial y estará en el encuentro protocolar con legisladores, gobernadores y empresarios.",
+   "leer": "Villarruel vuelve a tener un rol central con la visita del Papa: participará del encuentro con León XIV y se rearma para el 2027. La vicepresidenta especuló que no iba a ser invitada por el Gobierno. Hubo presiones de los senadores para que sea parte de la comitiva oficial y estará en el encuentro protocolar con legisladores, gobernadores y empresarios.",
+   "fuente": "clarin.com",
+   "t": 1794082531000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La nefasta estadística de Racing en 2026",
+   "bajada": "",
+   "leer": "La nefasta estadística de Racing en 2026.",
+   "fuente": "Racing de Alma",
+   "t": 1794082343000
+  },
+  {
+   "tema": "música",
+   "titulo": "Con Bersuit y Coty Hernández, Humboldt vivirá una gran fiesta aniversario",
+   "bajada": "",
+   "leer": "Con Bersuit y Coty Hernández, Humboldt vivirá una gran fiesta aniversario.",
+   "fuente": "Esperanza Dia X Dia",
+   "t": 1794081825000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Trump le ofreció el puesto de secretario de Prensa al presidente de la UFC, Dana White, y le pidió \"por favor\" que acepte",
+   "bajada": "La secretaria de Prensa está vacante desde el 16 de octubre, tras la salida de Katie Zacharia. En junio, White ayudó a Trump a organizar una serie de combates de la UFC en el jardín de la Casa Blanca.",
+   "leer": "Trump le ofreció el puesto de secretario de Prensa al presidente de la UFC, Dana White, y le pidió \"por favor\" que acepte. La secretaria de Prensa está vacante desde el 16 de octubre, tras la salida de Katie Zacharia. En junio, White ayudó a Trump a organizar una serie de combates de la UFC en el jardín de la Casa Blanca.",
+   "fuente": "clarin.com",
+   "t": 1794081100000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Agenda cargada y \"buenas expectativas\": arracó el fin de semana extra largo en Mar del Plata",
+   "bajada": "Los operadores turísticos confían en que, con la mejora del clima, aumenten las reservas. Cine, running, teatro, música y un festival gastronomía, entre las opciones para disfrutar.",
+   "leer": "Agenda cargada y \"buenas expectativas\": arracó el fin de semana extra largo en Mar del Plata. Los operadores turísticos confían en que, con la mejora del clima, aumenten las reservas. Cine, running, teatro, música y un festival gastronomía, entre las opciones para disfrutar.",
+   "fuente": "clarin.com",
+   "t": 1794079786000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Marcha del Orgullo 2026: una multitud va al Congreso entre reclamos por el ataque a mujeres trans y la coincidencia con la visita del Papa",
+   "bajada": "Este sábado se hace la 35° edición de la movilización, que luego de la controversia por el cambio de fecha, terminó modificando su recorrido. La agresión del último domingo en Palermo se convirtió en uno de los temas centrales entre los manifestantes.",
+   "leer": "Marcha del Orgullo 2026: una multitud va al Congreso entre reclamos por el ataque a mujeres trans y la coincidencia con la visita del Papa. Este sábado se hace la 35° edición de la movilización, que luego de la controversia por el cambio de fecha, terminó modificando su recorrido. La agresión del último domingo en Palermo se convirtió en uno de los temas centrales entre los manifestantes.",
+   "fuente": "clarin.com",
+   "t": 1794078613000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las inferiores de Atlético sumaron una victoria y dos empates ante Independiente",
+   "bajada": "",
+   "leer": "Las inferiores de Atlético sumaron una victoria y dos empates ante Independiente.",
+   "fuente": "Diario Castellanos",
+   "t": 1794077465000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La planta que más litio produce en el país comenzó una ampliación con un RIGI de casi US$ 1.200 millones",
+   "bajada": "La ampliación de Exar en la Puna de Jujuy permitirá más que duplicar su capacidad de producción. La empresa operada por la china Ganfeng Lithium genera unos 1.800 empleos directos e indirectos, casi un 80% jujeños.",
+   "leer": "La planta que más litio produce en el país comenzó una ampliación con un RIGI de casi US$ 1.200 millones. La ampliación de Exar en la Puna de Jujuy permitirá más que duplicar su capacidad de producción. La empresa operada por la china Ganfeng Lithium genera unos 1.800 empleos directos e indirectos, casi un 80% jujeños.",
+   "fuente": "clarin.com",
+   "t": 1794077070000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Alineaciones de Boca y Defensa y Justicia para el duelo de la fecha 16 del Torneo Clausura",
+   "bajada": "",
+   "leer": "Alineaciones de Boca y Defensa y Justicia para el duelo de la fecha 16 del Torneo Clausura.",
+   "fuente": "Bolavip Argentina",
+   "t": 1794075290000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Un sobre secreto y un auditor \"castigado\" por sus infidencias: así se gestó la investigación que destapó el escándalo del Ueno Bank",
+   "bajada": "Antonio Barrios, nuevo vicepresidente de Paraguay, reveló detalles sobre las filtraciones que derivaron en la pesquisa sobre la entidad financiera. Un auditor técnico, el primero en revelar la trama, había sido desplazado de su cargo antes de publicar sus hallazgos.",
+   "leer": "Un sobre secreto y un auditor \"castigado\" por sus infidencias: así se gestó la investigación que destapó el escándalo del Ueno Bank. Antonio Barrios, nuevo vicepresidente de Paraguay, reveló detalles sobre las filtraciones que derivaron en la pesquisa sobre la entidad financiera. Un auditor técnico, el primero en revelar la trama, había sido desplazado de su cargo antes de publicar sus hallazgos.",
+   "fuente": "clarin.com",
+   "t": 1794074545000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River y Boca, campeones en torneos juveniles internacionales",
+   "bajada": "",
+   "leer": "River y Boca, campeones en torneos juveniles internacionales.",
+   "fuente": "AFA",
+   "t": 1794074445000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso",
+   "bajada": "",
+   "leer": "Los concentrados de Boca vs. Independiente con Paredes y una baja de mucho peso.",
+   "fuente": "Olé",
+   "t": 1794070592000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Loco un poco: el emotivo video que Boca le dedicó a Palermo en su día",
+   "bajada": "",
+   "leer": "Loco un poco: el emotivo video que Boca le dedicó a Palermo en su día.",
+   "fuente": "Olé",
+   "t": 1794069600000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura",
+   "bajada": "",
+   "leer": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura.",
+   "fuente": "Olé",
+   "t": 1794069484000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El GP de San Pablo seguirá en el calendario de la Fórmula 1 hasta 2035: por qué puede ser un guiño para la Argentina",
+   "bajada": "El viernes, el jefe de Gobierno porteño, Jorge Macri, se reunió con Stéfano Domenicali. Los millonarios ingresos que prevén los organizadores brasileños.",
+   "leer": "El GP de San Pablo seguirá en el calendario de la Fórmula 1 hasta 2035: por qué puede ser un guiño para la Argentina. El viernes, el jefe de Gobierno porteño, Jorge Macri, se reunió con Stéfano Domenicali. Los millonarios ingresos que prevén los organizadores brasileños.",
+   "fuente": "clarin.com",
+   "t": 1794068527000
   },
   {
    "tema": "música",
@@ -66,28 +226,12 @@
    "t": 1794067417000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Noah Okafor marca como suplente en 97 segundos y Leeds supera a Spurs entre críticas al VAR",
-   "bajada": "El suplente impactó con su gol al entrar en el campo y dar el triunfo a su equipo. Leeds sube al octavo lugar tras vencer al rival. El encuentro se tornó polémico tras una entrada no sancionada que dejó lesionado a un jugador clave del conjunto rival. El VAR no intervino.",
-   "leer": "Noah Okafor marca como suplente en 97 segundos y Leeds supera a Spurs entre críticas al VAR. El suplente impactó con su gol al entrar en el campo y dar el triunfo a su equipo. Leeds sube al octavo lugar tras vencer al rival. El encuentro se tornó polémico tras una entrada no sancionada que dejó lesionado a un jugador clave del conjunto rival. El VAR no intervino.",
-   "fuente": "clarin.com",
-   "t": 1794067204000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "deportes",
    "titulo": "Simeone se queda sin Cuti Romero y alaba a Julián Alvarez antes del reencuentro del Atlético de Madrid contra Barcelona, tras el culebrón pos Mundial 2026",
    "bajada": "Se enfrentan este domingo en el estadio Metropolitano, en el cierre de la fecha 12 de la Liga de España. ¿Qué dijo el Cholo?",
    "leer": "Simeone se queda sin Cuti Romero y alaba a Julián Alvarez antes del reencuentro del Atlético de Madrid contra Barcelona, tras el culebrón pos Mundial 2026. Se enfrentan este domingo en el estadio Metropolitano, en el cierre de la fecha 12 de la Liga de España. ¿Qué dijo el Cholo?",
    "fuente": "clarin.com",
    "t": 1794066968000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Cuba denuncia \"carácter extraterritorial e ilegal\" de sanciones de EEUU a empresas chinas",
-   "bajada": "Cuba denuncia sanciones de EE.UU. a empresas chinas por supuesta venta de equipos militares, calificándolas de ilegales y extraterritoriales. China rechaza las medidas, defendiendo su cooperación con la isla y prometiendo proteger sus intereses frente a injerencias externas.",
-   "leer": "Cuba denuncia \"carácter extraterritorial e ilegal\" de sanciones de EEUU a empresas chinas. Cuba denuncia sanciones de EE.UU. a empresas chinas por supuesta venta de equipos militares, calificándolas de ilegales y extraterritoriales. China rechaza las medidas, defendiendo su cooperación con la isla y prometiendo proteger sus intereses frente a injerencias externas.",
-   "fuente": "clarin.com",
-   "t": 1794066611000
   },
   {
    "tema": "deportes",
@@ -98,22 +242,6 @@
    "t": 1794064957000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Durísimo: Verstappen va al fondo y las Ferrari pierden diez puestos en la parrilla de F1 en el GP de San Pablo",
-   "bajada": "Habrá más penalizaciones por cambios de componentes: Max deberá remontar desde atrás, Hamilton y Leclerc retrocederán diez lugares y Pérez también queda comprometido. Russell ya tenía cinco puestos de sanción.",
-   "leer": "Durísimo: Verstappen va al fondo y las Ferrari pierden diez puestos en la parrilla de F1 en el GP de San Pablo. Habrá más penalizaciones por cambios de componentes: Max deberá remontar desde atrás, Hamilton y Leclerc retrocederán diez lugares y Pérez también queda comprometido. Russell ya tenía cinco puestos de sanción.",
-   "fuente": "ole.com.ar",
-   "t": 1794064942000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El conmovedor mensaje de Merentiel que emocionó a Paredes hasta las lágrimas",
-   "bajada": "El capitán y el goleador de Boca coincidieron en una producción de Conmebol y no se guardaron nada. Mirá el video completo.",
-   "leer": "El conmovedor mensaje de Merentiel que emocionó a Paredes hasta las lágrimas. El capitán y el goleador de Boca coincidieron en una producción de Conmebol y no se guardaron nada. Mirá el video completo.",
-   "fuente": "ole.com.ar",
-   "t": 1794064214000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Charly García sorprendió a Ronnie Wood en Buenos Aires: el regalo especial que le llevó al camarín del Movistar Arena",
    "bajada": "El músico argentino visitó al guitarrista de los Rolling Stones antes de su show en Villa Crespo. El encuentro reunió a dos leyendas del rock entre vinilos, abrazos y varias fotos.",
@@ -122,52 +250,12 @@
    "t": 1794064043000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Habló el expresidente de Uruguay que protagonizó un incómodo momento con el papa León XIV: \"Hice lo que tenía que hacer como fiel\"",
-   "bajada": "Luis Lacalle Herrera, presidente de Uruguay entre 1990 y 1995, le explicó a Clarín la situación. \"Me sorprende la viralización, es por la ignorancia\", remarcó.",
-   "leer": "Habló el expresidente de Uruguay que protagonizó un incómodo momento con el papa León XIV: \"Hice lo que tenía que hacer como fiel\". Luis Lacalle Herrera, presidente de Uruguay entre 1990 y 1995, le explicó a Clarín la situación. \"Me sorprende la viralización, es por la ignorancia\", remarcó.",
-   "fuente": "clarin.com",
-   "t": 1794063898000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Brasil se aseguró la Fórmula 1 hasta 2035: ¿un guiño para Argentina?",
-   "bajada": "Interlagos renovó por cinco años y garantizó su lugar en el calendario. La continuidad de San Pablo puede favorecer un eventual GP de Buenos Aires si ambas carreras se disputan en fechas consecutivas.",
-   "leer": "Interlagos renovó por cinco años y garantizó su lugar en el calendario. La continuidad de San Pablo puede favorecer un eventual GP de Buenos Aires si ambas carreras se disputan en fechas consecutivas.",
-   "fuente": "ole.com.ar",
-   "t": 1794063829000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca Juniors afronta la Copa Argentina y la Sudamericana tras la definición anual",
-   "bajada": "",
-   "leer": "Boca Juniors afronta la Copa Argentina y la Sudamericana tras la definición anual.",
-   "fuente": "El Intransigente",
-   "t": 1794063459000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Cambeses apuntó contra la dirigencia de Racing y fue autocrítico: «Veo todo negativo»",
    "bajada": "",
    "leer": "Cambeses apuntó contra la dirigencia de Racing y fue autocrítico: «Veo todo negativo».",
    "fuente": "El Intransigente",
    "t": 1794063002000
-  },
-  {
-   "tema": "música",
-   "titulo": "Charly García visitó a Ronnie Wood en Buenos Aires y le regaló vinilos antes de su show en el Movistar Arena",
-   "bajada": "",
-   "leer": "Charly García visitó a Ronnie Wood en Buenos Aires y le regaló vinilos antes de su show en el Movistar Arena.",
-   "fuente": "La Voz del Interior",
-   "t": 1794062467000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "León XIV dio su primera misa en Uruguay: mención especial al mate, un signo de unión, familia y amistad",
-   "bajada": "El Papa habló este sábado en Paysandú bajo un clima desapacible y poca concurrencia, pese a que hubo una marcada presencia de argentinos que viajaron especialmente. También hizo referencias al puente entre ambos países y los palmares, y destacó la importancia de la integración y los valores comunes.",
-   "leer": "León XIV dio su primera misa en Uruguay: mención especial al mate, un signo de unión, familia y amistad. El Papa habló este sábado en Paysandú bajo un clima desapacible y poca concurrencia, pese a que hubo una marcada presencia de argentinos que viajaron especialmente. También hizo referencias al puente entre ambos países y los palmares, y destacó la importancia de la integración y los valores comunes.",
-   "fuente": "clarin.com",
-   "t": 1794062101000
   },
   {
    "tema": "economía",
@@ -184,22 +272,6 @@
    "leer": "Dólares para inteligencia artificial: la dueña de ChatGPT consiguió US$ 11.000 millones de financiamiento y alcanza un valor de US$ 1,25 billones. Realizó una primera ronda entre inversores privados. Su rival, Anthropic, está dando pasos para realizar una oferta pública de acciones.",
    "fuente": "clarin.com",
    "t": 1794060455000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La calculadora de Independiente para entrar a la Copa Sudamericana",
-   "bajada": "",
-   "leer": "La calculadora de Independiente para entrar a la Copa Sudamericana.",
-   "fuente": "El Gráfico",
-   "t": 1794058763000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura",
-   "bajada": "",
-   "leer": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura.",
-   "fuente": "Olé",
-   "t": 1794058625000
   },
   {
    "tema": "economía",
@@ -226,44 +298,12 @@
    "t": 1794057784000
   },
   {
-   "tema": "deportes",
-   "titulo": "El nuevo desafío de Gael Monfils tras su retiro como jugador: será capitán del equipo de Copa Davis de Francia",
-   "bajada": "La \"Pantera\" anunció que no jugará más después de su separación con Svitolina. Esta semana, estuvo en el Masters 1000 de París y le dejó un tierno mensaje a su hija Skai.",
-   "leer": "El nuevo desafío de Gael Monfils tras su retiro como jugador: será capitán del equipo de Copa Davis de Francia. La \"Pantera\" anunció que no jugará más después de su separación con Svitolina. Esta semana, estuvo en el Masters 1000 de París y le dejó un tierno mensaje a su hija Skai.",
-   "fuente": "clarin.com",
-   "t": 1794056812000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Qué conviene no perderse este fin de semana en el Festival de Cine de Mar del Plata: las películas recomendadas de la cita marplatense",
    "bajada": "La 41° edición del Festival de Cine de Mar del Plata ofrece una programación con títulos premiados en Cannes y Berlín, grandes clásicos del cine y documentales argentinos.",
    "leer": "Qué conviene no perderse este fin de semana en el Festival de Cine de Mar del Plata: las películas recomendadas de la cita marplatense. La 41° edición del Festival de Cine de Mar del Plata ofrece una programación con títulos premiados en Cannes y Berlín, grandes clásicos del cine y documentales argentinos.",
    "fuente": "clarin.com",
    "t": 1794056393000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente se mete a los playoffs y San Lorenzo se queda afuera",
-   "bajada": "",
-   "leer": "Independiente se mete a los playoffs y San Lorenzo se queda afuera.",
-   "fuente": "VS Sports",
-   "t": 1794055936000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Los secretos de la visita de León XIV a la Argentina, EN VIVO: Sergio Rubin cuenta lo que no se ve del viaje del Papa",
-   "bajada": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Segunda entrega, desde Uruguay.",
-   "leer": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Segunda entrega, desde Uruguay.",
-   "fuente": "clarin.com",
-   "t": 1794054965000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Tras ser destituido y detenido, Santiago Peña declara ante la Justicia por la quiebra de Ueno Bank",
-   "bajada": "Se presentó ante la fiscalía especializada en delitos económicos. Tuvo que ser trasladado con custodia por incidentes frente a su residencia donde permanecía detenido.",
-   "leer": "Tras ser destituido y detenido, Santiago Peña declara ante la Justicia por la quiebra de Ueno Bank. Se presentó ante la fiscalía especializada en delitos económicos. Tuvo que ser trasladado con custodia por incidentes frente a su residencia donde permanecía detenido.",
-   "fuente": "clarin.com",
-   "t": 1794054224000
   },
   {
    "tema": "política",
@@ -274,28 +314,12 @@
    "t": 1794053822000
   },
   {
-   "tema": "economía",
-   "titulo": "\"Dólares hasta por las orejas\": a dónde se fueron todos los billetes que entraron por las exportaciones récord",
-   "bajada": "En los primeros 9 meses del año, entre el saldo comercial de bienes y el ingreso de divisas por deuda, entraron más de US$ 40,000 millones. Pero en el Banco Central solo quedaron US$ 5.000 millones.",
-   "leer": "\"Dólares hasta por las orejas\": a dónde se fueron todos los billetes que entraron por las exportaciones récord. En los primeros 9 meses del año, entre el saldo comercial de bienes y el ingreso de divisas por deuda, entraron más de US$ 40,000 millones. Pero en el Banco Central solo quedaron US$ 5.000 millones.",
-   "fuente": "clarin.com",
-   "t": 1794053602000
-  },
-  {
    "tema": "política",
    "titulo": "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares",
    "bajada": "El nuevo director de Ciberseguridad dictó una normativa que bloquea a las empresas chinas la provisión de equipos al sector público. La Disposición 7 establece que el Ente Nacional de Comunicaciones evalúe la incorporación de los nuevos requisitos, lo cual podría restringir la provisión de celulares.",
    "leer": "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares. El nuevo director de Ciberseguridad dictó una normativa que bloquea a las empresas chinas la provisión de equipos al sector público. La Disposición 7 establece que el Ente Nacional de Comunicaciones evalúe la incorporación de los nuevos requisitos, lo cual podría restringir la provisión de celulares.",
    "fuente": "clarin.com",
    "t": 1794052218000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "ABECH: Racing eliminó a Germinal y Huracán llevó la serie ante Ferro a un tercer partido",
-   "bajada": "",
-   "leer": "ABECH: Racing eliminó a Germinal y Huracán llevó la serie ante Ferro a un tercer partido.",
-   "fuente": "Canal 12 Web",
-   "t": 1794047557000
   },
   {
    "tema": "política",
@@ -306,36 +330,12 @@
    "t": 1794045670000
   },
   {
-   "tema": "deportes",
-   "titulo": "La dramática definición por penales con la que Brasil le ganó a la Argentina para dejarla sin final en la Finalissima de futsal",
-   "bajada": "Fue 5-4 en Río de Janeiro, después de empatar 1-1 en el tiempo regular. Mirá el video.",
-   "leer": "La dramática definición por penales con la que Brasil le ganó a la Argentina para dejarla sin final en la Finalissima de futsal. Fue 5-4 en Río de Janeiro, después de empatar 1-1 en el tiempo regular. Mirá el video.",
-   "fuente": "clarin.com",
-   "t": 1794043868000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Benjamín Rodríguez y Joel Pensotti firmaron su primer contrato profesional",
-   "bajada": "",
-   "leer": "Benjamín Rodríguez y Joel Pensotti firmaron su primer contrato profesional.",
-   "fuente": "www.riverplate.com",
-   "t": 1794043553000
-  },
-  {
    "tema": "clima",
    "titulo": "Urgente: hay alertas naranja y amarilla por tormentas y vientos fuertes en 11 provincias",
    "bajada": "",
    "leer": "Urgente: hay alertas naranja y amarilla por tormentas y vientos fuertes en 11 provincias.",
    "fuente": "Crónica",
    "t": 1794041520000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros",
-   "bajada": "",
-   "leer": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros.",
-   "fuente": "Olé",
-   "t": 1794038589000
   },
   {
    "tema": "clima",
