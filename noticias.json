@@ -1,56 +1,312 @@
 {
- "t": 1794046299369,
+ "t": 1794068855120,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Pegatinas para las uñas, “cubos de hielo” inteligentes o pulseras con sensor: el ocio nocturno en España se blinda ante la sumisión química",
-   "bajada": "Ante el aumento de los casos, diversas iniciativas y productos buscan proveer de recursos a las víctimas para que puedan detectar cuándo su bebida ha sido adulterada.",
-   "leer": "Pegatinas para las uñas, “cubos de hielo” inteligentes o pulseras con sensor: el ocio nocturno en España se blinda ante la sumisión química. Ante el aumento de los casos, diversas iniciativas y productos buscan proveer de recursos a las víctimas para que puedan detectar cuándo su bebida ha sido adulterada.",
+   "titulo": "México busca recuperar terreno en la industria farmacéutica y reducir su dependencia de importaciones",
+   "bajada": "La expectativa es que el proyecto genere un impacto económico de al menos 30 mil millones de pesos entre 2027 y 2030, al considerar otras inversiones previstas.",
+   "leer": "México busca recuperar terreno en la industria farmacéutica y reducir su dependencia de importaciones. La expectativa es que el proyecto genere un impacto económico de al menos 30 mil millones de pesos entre 2027 y 2030, al considerar otras inversiones previstas.",
    "fuente": "infobae.com",
-   "t": 1794046077000
+   "t": 1794068455000
   },
   {
    "tema": "actualidad",
-   "titulo": "De dónde es el papa León XIV: la historia del Sumo Pontífice",
-   "bajada": "El papa tiene un fuerte llega al país este domingo y se quedará hasta el miércoles; estas son las actividades que tiene pautadas.",
-   "leer": "De dónde es el papa León XIV: la historia del Sumo Pontífice. El papa tiene un fuerte llega al país este domingo y se quedará hasta el miércoles; estas son las actividades que tiene pautadas.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794045895000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Confirmación oficial: el próximo fin de semana es largo con un feriado nacional",
-   "bajada": "El calendario sufrió una modificación por la llegada del papa León XIV a la Argentina y se agregaron nuevos asuetos.",
-   "leer": "Confirmación oficial: el próximo fin de semana es largo con un feriado nacional. El calendario sufrió una modificación por la llegada del papa León XIV a la Argentina y se agregaron nuevos asuetos.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794045866000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Feriados por la visita del papa León XIV: uno por uno, estos son los días de noviembre afectados",
-   "bajada": "Por las visita del Sumo Pontífice, el Gobierno dispuso tres asuetos en la Argentina; el detalle, a continuación.",
-   "leer": "Feriados por la visita del papa León XIV: uno por uno, estos son los días de noviembre afectados. Por las visita del Sumo Pontífice, el Gobierno dispuso tres asuetos en la Argentina; el detalle, a continuación.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794045858000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Crisis en Paraguay EN VIVO | Entre decretos y nombramientos, Pedro Alliana inicia su mandato como presidente",
-   "bajada": "El nuevo jefe de Estado comienza su primera jornada oficial en el Palacio de López, donde prevé firmar las primeras resoluciones para organizar su administración tras asumir el cargo ante el Congreso Nacional.",
-   "leer": "El nuevo jefe de Estado comienza su primera jornada oficial en el Palacio de López, donde prevé firmar las primeras resoluciones para organizar su administración tras asumir el cargo ante el Congreso Nacional.",
+   "titulo": "Alfredo Adame defiende a Vadhir Derbez ante nueva denuncia por presunto abuso sexual",
+   "bajada": "Autoridades capitalinas continúan las diligencias de una carpeta relacionada con hechos denunciados.",
+   "leer": "Alfredo Adame defiende a Vadhir Derbez ante nueva denuncia por presunto abuso sexual. Autoridades capitalinas continúan las diligencias de una carpeta relacionada con hechos denunciados.",
    "fuente": "infobae.com",
-   "t": 1794045846000
+   "t": 1794068454000
   },
   {
    "tema": "actualidad",
-   "titulo": "Embutido marino y sumiller de la carne, la inventiva que se inspira en otras áreas gastro",
-   "bajada": "Juan Javier Ríos Barcelona, 7 nov (EFE).- La innovación en el mundo de la gastronomía no tiene fin y, cuando ya parece que todo o casi todo está inventado, salen nuevas propuestas que reflejan cómo sectores distintos, como el del pescado, la carne o el vino, se \"roban\" formatos y hasta vocabulario.",
-   "leer": "Embutido marino y sumiller de la carne, la inventiva que se inspira en otras áreas gastro. Juan Javier Ríos Barcelona, 7 nov (EFE).- La innovación en el mundo de la gastronomía no tiene fin y, cuando ya parece que todo o casi todo está inventado, salen nuevas propuestas que reflejan cómo sectores distintos, como el del pescado, la carne o el vino, se \"roban\" formatos y hasta vocabulario.",
+   "titulo": "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesional con Santos",
+   "bajada": "Llegó al club brasileño a los 13 años, se destaca por sus goles y ya fue convocado para las selecciones juveniles argentinas.",
+   "leer": "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesional con Santos. Llegó al club brasileño a los 13 años, se destaca por sus goles y ya fue convocado para las selecciones juveniles argentinas.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794068406000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasificación para Interlagos",
+   "bajada": "Su compañero de equipo, Pierre Gasly, finalizó undécimo en el circuito brasileño.",
+   "leer": "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasificación para Interlagos. Su compañero de equipo, Pierre Gasly, finalizó undécimo en el circuito brasileño.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794068394000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Crisis en Paraguay EN VIVO | Santiago Peña llegó a la Fiscalía General del Estado para prestar declaración tras ser detenido",
+   "bajada": "El ex mandatario se presenta ante las autoridades luego de haber sido destituido mediante un juicio político por su presunta vinculación con el colapso del banco local Ueno.",
+   "leer": "El ex mandatario se presenta ante las autoridades luego de haber sido destituido mediante un juicio político por su presunta vinculación con el colapso del banco local Ueno.",
    "fuente": "infobae.com",
-   "t": 1794045704000
+   "t": 1794068391000
   },
   {
    "tema": "actualidad",
+   "titulo": "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escándalo entre Mauro Icardi y Wanda Nara",
+   "bajada": "El viernes, el exmatrimonio protagonizó una tensa situación en Nordelta que requirió intervención médica y policial; sus parejas estuvieron en el lugar y habrían intentado apaciguar el conflicto.",
+   "leer": "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escándalo entre Mauro Icardi y Wanda Nara. El viernes, el exmatrimonio protagonizó una tensa situación en Nordelta que requirió intervención médica y policial; sus parejas estuvieron en el lugar y habrían intentado apaciguar el conflicto.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794068387000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La determinante respuesta de Culotta sobre Insúa para el 2027",
+   "bajada": "",
+   "leer": "La determinante respuesta de Culotta sobre Insúa para el 2027.",
+   "fuente": "San Lorenzo Primero",
+   "t": 1794067718000
+  },
+  {
+   "tema": "música",
+   "titulo": "Ya es ley: la Ruta 76 llevará el nombre de Ricardo Iorio",
+   "bajada": "",
+   "leer": "Ya es ley: la Ruta 76 llevará el nombre de Ricardo Iorio.",
+   "fuente": "Agencia El Vigía",
+   "t": 1794067417000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Noah Okafor marca como suplente en 97 segundos y Leeds supera a Spurs entre críticas al VAR",
+   "bajada": "El suplente impactó con su gol al entrar en el campo y dar el triunfo a su equipo. Leeds sube al octavo lugar tras vencer al rival. El encuentro se tornó polémico tras una entrada no sancionada que dejó lesionado a un jugador clave del conjunto rival. El VAR no intervino.",
+   "leer": "Noah Okafor marca como suplente en 97 segundos y Leeds supera a Spurs entre críticas al VAR. El suplente impactó con su gol al entrar en el campo y dar el triunfo a su equipo. Leeds sube al octavo lugar tras vencer al rival. El encuentro se tornó polémico tras una entrada no sancionada que dejó lesionado a un jugador clave del conjunto rival. El VAR no intervino.",
+   "fuente": "clarin.com",
+   "t": 1794067204000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Simeone se queda sin Cuti Romero y alaba a Julián Alvarez antes del reencuentro del Atlético de Madrid contra Barcelona, tras el culebrón pos Mundial 2026",
+   "bajada": "Se enfrentan este domingo en el estadio Metropolitano, en el cierre de la fecha 12 de la Liga de España. ¿Qué dijo el Cholo?",
+   "leer": "Simeone se queda sin Cuti Romero y alaba a Julián Alvarez antes del reencuentro del Atlético de Madrid contra Barcelona, tras el culebrón pos Mundial 2026. Se enfrentan este domingo en el estadio Metropolitano, en el cierre de la fecha 12 de la Liga de España. ¿Qué dijo el Cholo?",
+   "fuente": "clarin.com",
+   "t": 1794066968000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Cuba denuncia \"carácter extraterritorial e ilegal\" de sanciones de EEUU a empresas chinas",
+   "bajada": "Cuba denuncia sanciones de EE.UU. a empresas chinas por supuesta venta de equipos militares, calificándolas de ilegales y extraterritoriales. China rechaza las medidas, defendiendo su cooperación con la isla y prometiendo proteger sus intereses frente a injerencias externas.",
+   "leer": "Cuba denuncia \"carácter extraterritorial e ilegal\" de sanciones de EEUU a empresas chinas. Cuba denuncia sanciones de EE.UU. a empresas chinas por supuesta venta de equipos militares, calificándolas de ilegales y extraterritoriales. China rechaza las medidas, defendiendo su cooperación con la isla y prometiendo proteger sus intereses frente a injerencias externas.",
+   "fuente": "clarin.com",
+   "t": 1794066611000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Franco Colapinto hizo que Lewis Hamilton pruebe el mate y descontroló el Fan Zone del GP de Brasil de la Fórmula 1",
+   "bajada": "Fue en la previa de la FP3, en el circuito de Interlagos y ante una multitud bajo un calor abrasador. Mirá el video.",
+   "leer": "Franco Colapinto hizo que Lewis Hamilton pruebe el mate y descontroló el Fan Zone del GP de Brasil de la Fórmula 1. Fue en la previa de la FP3, en el circuito de Interlagos y ante una multitud bajo un calor abrasador. Mirá el video.",
+   "fuente": "clarin.com",
+   "t": 1794064957000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Durísimo: Verstappen va al fondo y las Ferrari pierden diez puestos en la parrilla de F1 en el GP de San Pablo",
+   "bajada": "Habrá más penalizaciones por cambios de componentes: Max deberá remontar desde atrás, Hamilton y Leclerc retrocederán diez lugares y Pérez también queda comprometido. Russell ya tenía cinco puestos de sanción.",
+   "leer": "Durísimo: Verstappen va al fondo y las Ferrari pierden diez puestos en la parrilla de F1 en el GP de San Pablo. Habrá más penalizaciones por cambios de componentes: Max deberá remontar desde atrás, Hamilton y Leclerc retrocederán diez lugares y Pérez también queda comprometido. Russell ya tenía cinco puestos de sanción.",
+   "fuente": "ole.com.ar",
+   "t": 1794064942000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El conmovedor mensaje de Merentiel que emocionó a Paredes hasta las lágrimas",
+   "bajada": "El capitán y el goleador de Boca coincidieron en una producción de Conmebol y no se guardaron nada. Mirá el video completo.",
+   "leer": "El conmovedor mensaje de Merentiel que emocionó a Paredes hasta las lágrimas. El capitán y el goleador de Boca coincidieron en una producción de Conmebol y no se guardaron nada. Mirá el video completo.",
+   "fuente": "ole.com.ar",
+   "t": 1794064214000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Charly García sorprendió a Ronnie Wood en Buenos Aires: el regalo especial que le llevó al camarín del Movistar Arena",
+   "bajada": "El músico argentino visitó al guitarrista de los Rolling Stones antes de su show en Villa Crespo. El encuentro reunió a dos leyendas del rock entre vinilos, abrazos y varias fotos.",
+   "leer": "Charly García sorprendió a Ronnie Wood en Buenos Aires: el regalo especial que le llevó al camarín del Movistar Arena. El músico argentino visitó al guitarrista de los Rolling Stones antes de su show en Villa Crespo. El encuentro reunió a dos leyendas del rock entre vinilos, abrazos y varias fotos.",
+   "fuente": "clarin.com",
+   "t": 1794064043000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Habló el expresidente de Uruguay que protagonizó un incómodo momento con el papa León XIV: \"Hice lo que tenía que hacer como fiel\"",
+   "bajada": "Luis Lacalle Herrera, presidente de Uruguay entre 1990 y 1995, le explicó a Clarín la situación. \"Me sorprende la viralización, es por la ignorancia\", remarcó.",
+   "leer": "Habló el expresidente de Uruguay que protagonizó un incómodo momento con el papa León XIV: \"Hice lo que tenía que hacer como fiel\". Luis Lacalle Herrera, presidente de Uruguay entre 1990 y 1995, le explicó a Clarín la situación. \"Me sorprende la viralización, es por la ignorancia\", remarcó.",
+   "fuente": "clarin.com",
+   "t": 1794063898000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Brasil se aseguró la Fórmula 1 hasta 2035: ¿un guiño para Argentina?",
+   "bajada": "Interlagos renovó por cinco años y garantizó su lugar en el calendario. La continuidad de San Pablo puede favorecer un eventual GP de Buenos Aires si ambas carreras se disputan en fechas consecutivas.",
+   "leer": "Interlagos renovó por cinco años y garantizó su lugar en el calendario. La continuidad de San Pablo puede favorecer un eventual GP de Buenos Aires si ambas carreras se disputan en fechas consecutivas.",
+   "fuente": "ole.com.ar",
+   "t": 1794063829000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca Juniors afronta la Copa Argentina y la Sudamericana tras la definición anual",
+   "bajada": "",
+   "leer": "Boca Juniors afronta la Copa Argentina y la Sudamericana tras la definición anual.",
+   "fuente": "El Intransigente",
+   "t": 1794063459000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cambeses apuntó contra la dirigencia de Racing y fue autocrítico: «Veo todo negativo»",
+   "bajada": "",
+   "leer": "Cambeses apuntó contra la dirigencia de Racing y fue autocrítico: «Veo todo negativo».",
+   "fuente": "El Intransigente",
+   "t": 1794063002000
+  },
+  {
+   "tema": "música",
+   "titulo": "Charly García visitó a Ronnie Wood en Buenos Aires y le regaló vinilos antes de su show en el Movistar Arena",
+   "bajada": "",
+   "leer": "Charly García visitó a Ronnie Wood en Buenos Aires y le regaló vinilos antes de su show en el Movistar Arena.",
+   "fuente": "La Voz del Interior",
+   "t": 1794062467000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "León XIV dio su primera misa en Uruguay: mención especial al mate, un signo de unión, familia y amistad",
+   "bajada": "El Papa habló este sábado en Paysandú bajo un clima desapacible y poca concurrencia, pese a que hubo una marcada presencia de argentinos que viajaron especialmente. También hizo referencias al puente entre ambos países y los palmares, y destacó la importancia de la integración y los valores comunes.",
+   "leer": "León XIV dio su primera misa en Uruguay: mención especial al mate, un signo de unión, familia y amistad. El Papa habló este sábado en Paysandú bajo un clima desapacible y poca concurrencia, pese a que hubo una marcada presencia de argentinos que viajaron especialmente. También hizo referencias al puente entre ambos países y los palmares, y destacó la importancia de la integración y los valores comunes.",
+   "fuente": "clarin.com",
+   "t": 1794062101000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La visita del papa León XIV generará un impacto económico superior a los u$s88 millones en Buenos Aires",
+   "bajada": "La Ciudad espera recibir más de 1,24 millones de visitantes entre el 6 y el 10 de noviembre, entre turistas nacionales e internacionales y excursionistas. Habrá actividades culturales, visitas guiadas y recorridos por templos porteños.",
+   "leer": "La visita del papa León XIV generará un impacto económico superior a los u$s88 millones en Buenos Aires. La Ciudad espera recibir más de 1,24 millones de visitantes entre el 6 y el 10 de noviembre, entre turistas nacionales e internacionales y excursionistas. Habrá actividades culturales, visitas guiadas y recorridos por templos porteños.",
+   "fuente": "ambito.com",
+   "t": 1794060480000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Dólares para inteligencia artificial: la dueña de ChatGPT consiguió US$ 11.000 millones de financiamiento y alcanza un valor de US$ 1,25 billones",
+   "bajada": "Realizó una primera ronda entre inversores privados. Su rival, Anthropic, está dando pasos para realizar una oferta pública de acciones.",
+   "leer": "Dólares para inteligencia artificial: la dueña de ChatGPT consiguió US$ 11.000 millones de financiamiento y alcanza un valor de US$ 1,25 billones. Realizó una primera ronda entre inversores privados. Su rival, Anthropic, está dando pasos para realizar una oferta pública de acciones.",
+   "fuente": "clarin.com",
+   "t": 1794060455000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La calculadora de Independiente para entrar a la Copa Sudamericana",
+   "bajada": "",
+   "leer": "La calculadora de Independiente para entrar a la Copa Sudamericana.",
+   "fuente": "El Gráfico",
+   "t": 1794058763000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura",
+   "bajada": "",
+   "leer": "Con el cuarto puesto de su zona asegurado, quiénes son los posibles rivales de River en octavos del Clausura.",
+   "fuente": "Olé",
+   "t": 1794058625000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Fusión en el mundo de las finanzas: Banco VALO compra la plataforma de inversiones PPI",
+   "bajada": "VALO, encabezada por Juan Napoli y dedicada a la banca corporativa, suma una sociedad de Bolsa enfocada en inversores minoristas.",
+   "leer": "Fusión en el mundo de las finanzas: Banco VALO compra la plataforma de inversiones PPI. VALO, encabezada por Juan Napoli y dedicada a la banca corporativa, suma una sociedad de Bolsa enfocada en inversores minoristas.",
+   "fuente": "clarin.com",
+   "t": 1794058451000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo",
+   "bajada": "La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
+   "leer": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo. La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
+   "fuente": "ambito.com",
+   "t": 1794058080000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Netflix prepara una nueva precuela de Stranger Things: de qué tratará y cuándo se estrenará",
+   "bajada": "La nueva ficción estará ambientada en los años 50, varias décadas antes de los acontecimientos de la serie original. Los hermanos Duffer prometen una historia inédita y nuevos personajes.",
+   "leer": "Netflix prepara una nueva precuela de Stranger Things: de qué tratará y cuándo se estrenará. La nueva ficción estará ambientada en los años 50, varias décadas antes de los acontecimientos de la serie original. Los hermanos Duffer prometen una historia inédita y nuevos personajes.",
+   "fuente": "clarin.com",
+   "t": 1794057784000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El nuevo desafío de Gael Monfils tras su retiro como jugador: será capitán del equipo de Copa Davis de Francia",
+   "bajada": "La \"Pantera\" anunció que no jugará más después de su separación con Svitolina. Esta semana, estuvo en el Masters 1000 de París y le dejó un tierno mensaje a su hija Skai.",
+   "leer": "El nuevo desafío de Gael Monfils tras su retiro como jugador: será capitán del equipo de Copa Davis de Francia. La \"Pantera\" anunció que no jugará más después de su separación con Svitolina. Esta semana, estuvo en el Masters 1000 de París y le dejó un tierno mensaje a su hija Skai.",
+   "fuente": "clarin.com",
+   "t": 1794056812000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Qué conviene no perderse este fin de semana en el Festival de Cine de Mar del Plata: las películas recomendadas de la cita marplatense",
+   "bajada": "La 41° edición del Festival de Cine de Mar del Plata ofrece una programación con títulos premiados en Cannes y Berlín, grandes clásicos del cine y documentales argentinos.",
+   "leer": "Qué conviene no perderse este fin de semana en el Festival de Cine de Mar del Plata: las películas recomendadas de la cita marplatense. La 41° edición del Festival de Cine de Mar del Plata ofrece una programación con títulos premiados en Cannes y Berlín, grandes clásicos del cine y documentales argentinos.",
+   "fuente": "clarin.com",
+   "t": 1794056393000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente se mete a los playoffs y San Lorenzo se queda afuera",
+   "bajada": "",
+   "leer": "Independiente se mete a los playoffs y San Lorenzo se queda afuera.",
+   "fuente": "VS Sports",
+   "t": 1794055936000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Los secretos de la visita de León XIV a la Argentina, EN VIVO: Sergio Rubin cuenta lo que no se ve del viaje del Papa",
+   "bajada": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Segunda entrega, desde Uruguay.",
+   "leer": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Segunda entrega, desde Uruguay.",
+   "fuente": "clarin.com",
+   "t": 1794054965000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Tras ser destituido y detenido, Santiago Peña declara ante la Justicia por la quiebra de Ueno Bank",
+   "bajada": "Se presentó ante la fiscalía especializada en delitos económicos. Tuvo que ser trasladado con custodia por incidentes frente a su residencia donde permanecía detenido.",
+   "leer": "Tras ser destituido y detenido, Santiago Peña declara ante la Justicia por la quiebra de Ueno Bank. Se presentó ante la fiscalía especializada en delitos económicos. Tuvo que ser trasladado con custodia por incidentes frente a su residencia donde permanecía detenido.",
+   "fuente": "clarin.com",
+   "t": 1794054224000
+  },
+  {
+   "tema": "política",
+   "titulo": "Javier Milei y sus medidas, EN VIVO: el Gobierno pone en pausa su interna a la espera de recibir al papa León XIV en Argentina",
+   "bajada": "La tensión con Patricia Bullrich y la postergación de iniciativas legislativas obligan al oficialismo a reordenar su agenda, en medio de los reveses electorales de la derecha y la visita al país del Sumo Pontífice.",
+   "leer": "La tensión con Patricia Bullrich y la postergación de iniciativas legislativas obligan al oficialismo a reordenar su agenda, en medio de los reveses electorales de la derecha y la visita al país del Sumo Pontífice.",
+   "fuente": "clarin.com",
+   "t": 1794053822000
+  },
+  {
+   "tema": "economía",
+   "titulo": "\"Dólares hasta por las orejas\": a dónde se fueron todos los billetes que entraron por las exportaciones récord",
+   "bajada": "En los primeros 9 meses del año, entre el saldo comercial de bienes y el ingreso de divisas por deuda, entraron más de US$ 40,000 millones. Pero en el Banco Central solo quedaron US$ 5.000 millones.",
+   "leer": "\"Dólares hasta por las orejas\": a dónde se fueron todos los billetes que entraron por las exportaciones récord. En los primeros 9 meses del año, entre el saldo comercial de bienes y el ingreso de divisas por deuda, entraron más de US$ 40,000 millones. Pero en el Banco Central solo quedaron US$ 5.000 millones.",
+   "fuente": "clarin.com",
+   "t": 1794053602000
+  },
+  {
+   "tema": "política",
+   "titulo": "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares",
+   "bajada": "El nuevo director de Ciberseguridad dictó una normativa que bloquea a las empresas chinas la provisión de equipos al sector público. La Disposición 7 establece que el Ente Nacional de Comunicaciones evalúe la incorporación de los nuevos requisitos, lo cual podría restringir la provisión de celulares.",
+   "leer": "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares. El nuevo director de Ciberseguridad dictó una normativa que bloquea a las empresas chinas la provisión de equipos al sector público. La Disposición 7 establece que el Ente Nacional de Comunicaciones evalúe la incorporación de los nuevos requisitos, lo cual podría restringir la provisión de celulares.",
+   "fuente": "clarin.com",
+   "t": 1794052218000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "ABECH: Racing eliminó a Germinal y Huracán llevó la serie ante Ferro a un tercer partido",
+   "bajada": "",
+   "leer": "ABECH: Racing eliminó a Germinal y Huracán llevó la serie ante Ferro a un tercer partido.",
+   "fuente": "Canal 12 Web",
+   "t": 1794047557000
+  },
+  {
+   "tema": "política",
+   "titulo": "Por la visita del Papa León XIV, el Congreso estará paralizado toda la semana y el oficialismo gana tiempo para negociar",
+   "bajada": "El lunes es feriado nacional, el martes hay asueto en la Ciudad y el miércoles por el Día del Empleado Legislativo no trabaja el personal del Congreso. LLA negocia para sesionar el miércoles 18 en Diputados y el jueves 19 en el Senado.",
+   "leer": "Por la visita del Papa León XIV, el Congreso estará paralizado toda la semana y el oficialismo gana tiempo para negociar. El lunes es feriado nacional, el martes hay asueto en la Ciudad y el miércoles por el Día del Empleado Legislativo no trabaja el personal del Congreso. LLA negocia para sesionar el miércoles 18 en Diputados y el jueves 19 en el Senado.",
+   "fuente": "clarin.com",
+   "t": 1794045670000
+  },
+  {
+   "tema": "deportes",
    "titulo": "La dramática definición por penales con la que Brasil le ganó a la Argentina para dejarla sin final en la Finalissima de futsal",
    "bajada": "Fue 5-4 en Río de Janeiro, después de empatar 1-1 en el tiempo regular. Mirá el video.",
    "leer": "La dramática definición por penales con la que Brasil le ganó a la Argentina para dejarla sin final en la Finalissima de futsal. Fue 5-4 en Río de Janeiro, después de empatar 1-1 en el tiempo regular. Mirá el video.",
@@ -58,108 +314,12 @@
    "t": 1794043868000
   },
   {
-   "tema": "actualidad",
-   "titulo": "\"Hace un año, mi esposo dejó atrás su carrera docente de 18 años, vendimos nuestra casa, nos deshicimos del 95% de nuestras pertenencias y nos fuimos de Connecticut\"",
-   "bajada": "Rebecca Cretella y su marido se mudaron a un pequeño departamento en Madrid junto a sus dos hijos. Esperaban que la mudanza transformara su rutina familiar, pero no imaginaron cuánto cambiaría su matrimonio.",
-   "leer": "\"Hace un año, mi esposo dejó atrás su carrera docente de 18 años, vendimos nuestra casa, nos deshicimos del 95% de nuestras pertenencias y nos fuimos de Connecticut\". Rebecca Cretella y su marido se mudaron a un pequeño departamento en Madrid junto a sus dos hijos. Esperaban que la mudanza transformara su rutina familiar, pero no imaginaron cuánto cambiaría su matrimonio.",
-   "fuente": "clarin.com",
-   "t": 1794043868000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Rompecabezas, el pasatiempo secreto de Marixa Balli",
-   "bajada": "En su intimidad, la cantante, bailarina y panelista es fanática de armar puzzles. “Me permite desconectarme, es el momento en el que soy feliz”, dice.",
-   "leer": "Rompecabezas, el pasatiempo secreto de Marixa Balli. En su intimidad, la cantante, bailarina y panelista es fanática de armar puzzles. “Me permite desconectarme, es el momento en el que soy feliz”, dice.",
-   "fuente": "clarin.com",
-   "t": 1794043268000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Visita del Papa a la Argentina, EN VIVO: se espera que miles de argentinos crucen a Uruguay para ver a León XIV en Paysandú",
-   "bajada": "El Sumo Pontífice arribó durante la tarde del viernes a Montevideo para iniciar una gira de once días que incluirá a la Argentina y concluirá en Perú, su patria adoptiva. La agenda completa.",
-   "leer": "El Sumo Pontífice arribó durante la tarde del viernes a Montevideo para iniciar una gira de once días que incluirá a la Argentina y concluirá en Perú, su patria adoptiva. La agenda completa.",
-   "fuente": "clarin.com",
-   "t": 1794042622000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Migración de multimillonarios: por qué los magnates de Brasil y Gran Bretaña se van con sus fortunas a Dubai",
-   "bajada": "Emiratos Árabes Unidos recibió a casi 10 mil familias de alto patrimonio en el último año, sobre todo de esa procedencia. La exención impositiva sobre ganancias personales, la libre repatriación de capitales y el blindaje jurídico a sus negocios, claves.",
-   "leer": "Migración de multimillonarios: por qué los magnates de Brasil y Gran Bretaña se van con sus fortunas a Dubai. Emiratos Árabes Unidos recibió a casi 10 mil familias de alto patrimonio en el último año, sobre todo de esa procedencia. La exención impositiva sobre ganancias personales, la libre repatriación de capitales y el blindaje jurídico a sus negocios, claves.",
-   "fuente": "clarin.com",
-   "t": 1794042187000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Crece la tensión en Ferrari: Vasseur reunió a Leclerc y Hamilton y les recordó que \"la marca está primero\"",
-   "bajada": "El jefe de la Scuderia confirmó que habló con sus dos pilotos después del cruce que protagonizaron en México. Reconoció que ambos son muy competitivos y que la situación tiene aspectos positivos y negativos.",
-   "leer": "Crece la tensión en Ferrari: Vasseur reunió a Leclerc y Hamilton y les recordó que \"la marca está primero\". El jefe de la Scuderia confirmó que habló con sus dos pilotos después del cruce que protagonizaron en México. Reconoció que ambos son muy competitivos y que la situación tiene aspectos positivos y negativos.",
-   "fuente": "clarin.com",
-   "t": 1794042070000
-  },
-  {
-   "tema": "política",
-   "titulo": "Guerra de canales por la visita del papa León XIV: más de 500 acreditados argentinos y una programación especial",
-   "bajada": "Los canales de noticias y la TV de aire preparan un operativo periodístico extraordinario para cubrir la gira del Pontífice por Argentina, Uruguay y Perú. No podrán transmitir imágenes propias de las actividades oficiales. Los principales conductores salen a la calle, con móviles en todo el país.",
-   "leer": "Guerra de canales por la visita del papa León XIV: más de 500 acreditados argentinos y una programación especial. Los canales de noticias y la TV de aire preparan un operativo periodístico extraordinario para cubrir la gira del Pontífice por Argentina, Uruguay y Perú. No podrán transmitir imágenes propias de las actividades oficiales. Los principales conductores salen a la calle, con móviles en todo el país.",
-   "fuente": "clarin.com",
-   "t": 1794042069000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Nelson Pugliese, candidato a presidente de Vélez: \"Me imagino que Guillermo está siendo tentado por varios clubes, pero quiere continuar y nosotros queremos que continúe\"",
-   "bajada": "El actual vice del club de Liniers encabezará la lista del oficialismo para las elecciones del 15 de noviembre. Asegura que están trabajando en la renovación de Barros Schelotto, pretendido por Racing e Independiente.",
-   "leer": "Nelson Pugliese, candidato a presidente de Vélez: \"Me imagino que Guillermo está siendo tentado por varios clubes, pero quiere continuar y nosotros queremos que continúe\". El actual vice del club de Liniers encabezará la lista del oficialismo para las elecciones del 15 de noviembre. Asegura que están trabajando en la renovación de Barros Schelotto, pretendido por Racing e Independiente.",
-   "fuente": "clarin.com",
-   "t": 1794042069000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "El Kun Agüero y una nueva Copa Potrero: el sueño de llevar el fútbol de barrio a la pantalla grande",
-   "bajada": "El exdelantero explicó por qué creó el torneo que disputará su tercera edición y va por ESPN y Disney+. Con casi mil jugadores, 40 equipos y 350.000 dólares en premios, la competencia tendrá también una categoría Sub-13. Además, Nahuel Senger presentó los refuerzos de Argentina Streamers: Éver Banega y Leonel Vangioni.",
-   "leer": "El Kun Agüero y una nueva Copa Potrero: el sueño de llevar el fútbol de barrio a la pantalla grande. El exdelantero explicó por qué creó el torneo que disputará su tercera edición y va por ESPN y Disney+. Con casi mil jugadores, 40 equipos y 350.000 dólares en premios, la competencia tendrá también una categoría Sub-13. Además, Nahuel Senger presentó los refuerzos de Argentina Streamers: Éver Banega y Leonel Vangioni.",
-   "fuente": "clarin.com",
-   "t": 1794042068000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "John & Yoko: se cumplen 60 años del día en que se conoció la pareja más icónica de la historia del rock",
-   "bajada": "Lennon ya era un famoso beatle y Ono una artista conceptual nacida en Japón, que preparaba una exposición en la Galería Indica de Londres. Fue una de las historias de amor más fascinantes y controvertidas del siglo XX. .",
-   "leer": "John & Yoko: se cumplen 60 años del día en que se conoció la pareja más icónica de la historia del rock. Lennon ya era un famoso beatle y Ono una artista conceptual nacida en Japón, que preparaba una exposición en la Galería Indica de Londres. Fue una de las historias de amor más fascinantes y controvertidas del siglo XX. .",
-   "fuente": "clarin.com",
-   "t": 1794042067000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Papa León XIV en Argentina: la particular historia de los sillones en los que se sentará y dónde está la silla centenaria que usó Juan Pablo II",
-   "bajada": "Este mueble tiene una fuerte simbología: es la sede del sumo pontífice fuera del Vaticano. Por eso se los hace especialmente para cada misa que da y luego quedan como recuerdo. Uno de los que utilizó el papa polaco en 1987 está exhibido al público en un restaurante.",
-   "leer": "Papa León XIV en Argentina: la particular historia de los sillones en los que se sentará y dónde está la silla centenaria que usó Juan Pablo II. Este mueble tiene una fuerte simbología: es la sede del sumo pontífice fuera del Vaticano. Por eso se los hace especialmente para cada misa que da y luego quedan como recuerdo. Uno de los que utilizó el papa polaco en 1987 está exhibido al público en un restaurante.",
-   "fuente": "clarin.com",
-   "t": 1794042067000
-  },
-  {
-   "tema": "política",
-   "titulo": "Una nueva encuesta le dio todo mal a Milei, menos un dato clave sobre la oposición",
-   "bajada": "Es el último estudio nacional de la consultora Pulso Research. Evaluó la gestión, la imagen del Presidente y el rumbo del Gobierno. También tiene números importantes para la economía.",
-   "leer": "Una nueva encuesta le dio todo mal a Milei, menos un dato clave sobre la oposición. Es el último estudio nacional de la consultora Pulso Research. Evaluó la gestión, la imagen del Presidente y el rumbo del Gobierno. También tiene números importantes para la economía.",
-   "fuente": "clarin.com",
-   "t": 1794042066000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Tras la salida del cepo a las empresas, las multinacionales giraron este año US$ 4.000 millones al exterior",
-   "bajada": "Casi la mitad de ese monto está concentrado en tres rubros. Durante años, las compañías tenían prohibido mandar utilidades. Debían reinvertir en el mercado local o enviarlas con brecha cambiaria perdiendo plata. Qué podría pasar durante el año electoral.",
-   "leer": "Tras la salida del cepo a las empresas, las multinacionales giraron este año US$ 4.000 millones al exterior. Casi la mitad de ese monto está concentrado en tres rubros. Durante años, las compañías tenían prohibido mandar utilidades. Debían reinvertir en el mercado local o enviarlas con brecha cambiaria perdiendo plata. Qué podría pasar durante el año electoral.",
-   "fuente": "clarin.com",
-   "t": 1794042066000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "“Esperar es resistir”: Daniel Aráoz y Luis Ziembrowski hablan de ‘Esperando a Godot’",
-   "bajada": "La directora española Helena Pimenta propone recuperar la humanidad de dos personajes atrapados en una espera interminable. Los actores hablan del absurdo, el humor, la angustia y la vigencia política de una obra fundamental del teatro del siglo XX.",
-   "leer": "“Esperar es resistir”: Daniel Aráoz y Luis Ziembrowski hablan de ‘Esperando a Godot’. La directora española Helena Pimenta propone recuperar la humanidad de dos personajes atrapados en una espera interminable. Los actores hablan del absurdo, el humor, la angustia y la vigencia política de una obra fundamental del teatro del siglo XX.",
-   "fuente": "clarin.com",
-   "t": 1794042066000
+   "tema": "fútbol",
+   "titulo": "Benjamín Rodríguez y Joel Pensotti firmaron su primer contrato profesional",
+   "bajada": "",
+   "leer": "Benjamín Rodríguez y Joel Pensotti firmaron su primer contrato profesional.",
+   "fuente": "www.riverplate.com",
+   "t": 1794043553000
   },
   {
    "tema": "clima",
@@ -171,59 +331,11 @@
   },
   {
    "tema": "fútbol",
-   "titulo": "Boca, Argentinos Juniors y Rosario Central definen al Campeón de Liga",
-   "bajada": "",
-   "leer": "Boca, Argentinos Juniors y Rosario Central definen al Campeón de Liga.",
-   "fuente": "Perfil",
-   "t": 1794040200000
-  },
-  {
-   "tema": "fútbol",
    "titulo": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros",
    "bajada": "",
    "leer": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros.",
    "fuente": "Olé",
    "t": 1794038589000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente logró una victoria agónica y se metió en los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "Independiente logró una victoria agónica y se metió en los playoffs del Torneo Clausura.",
-   "fuente": "El Gráfico",
-   "t": 1794032029000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Santiago Peña tuvo que ser trasladado de urgencia a un sitio militar, tras sufrir un escrache con incidentes en la puerta de su casa",
-   "bajada": "El expresidente debía cumplir prisión domiciliaria hasta este sábado por la mañana, pero un grupo de manifestantes se enfrentó con la policía y agredió el frente del domicilio. Tres camionetas abandonaron la residencia particular de Peña, del barrio Mburucuyá en Asunción, alrededor de la medianoche.",
-   "leer": "Santiago Peña tuvo que ser trasladado de urgencia a un sitio militar, tras sufrir un escrache con incidentes en la puerta de su casa. El expresidente debía cumplir prisión domiciliaria hasta este sábado por la mañana, pero un grupo de manifestantes se enfrentó con la policía y agredió el frente del domicilio. Tres camionetas abandonaron la residencia particular de Peña, del barrio Mburucuyá en Asunción, alrededor de la medianoche.",
-   "fuente": "clarin.com",
-   "t": 1794028654000
-  },
-  {
-   "tema": "música",
-   "titulo": "Quilmes Rock 2027: tres jornadas en abril con Babasónicos, Divididos y Fito Páez",
-   "bajada": "",
-   "leer": "Quilmes Rock 2027: tres jornadas en abril con Babasónicos, Divididos y Fito Páez.",
-   "fuente": "mercado.com.ar",
-   "t": 1794025426000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Qué canal de TV transmite Aldosivi vs. River, por el Torneo Clausura 2026",
-   "bajada": "",
-   "leer": "Qué canal de TV transmite Aldosivi vs. River, por el Torneo Clausura 2026.",
-   "fuente": "Olé",
-   "t": 1794024620000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Minería: el potencial en la cadena de valor local y en las exportaciones",
-   "bajada": "La industria atrae inversiones productivas con proyectos aprobados en todo el país. Representantes del sector analizaron las expectativas, los desafíos y las oportunidades en un nuevo encuentro del ciclo Visión 360° de Clarín.",
-   "leer": "Minería: el potencial en la cadena de valor local y en las exportaciones. La industria atrae inversiones productivas con proyectos aprobados en todo el país. Representantes del sector analizaron las expectativas, los desafíos y las oportunidades en un nuevo encuentro del ciclo Visión 360° de Clarín.",
-   "fuente": "clarin.com",
-   "t": 1794022382000
   },
   {
    "tema": "clima",
@@ -240,150 +352,6 @@
    "leer": "Bomba en San Lorenzo: Moretti le inició un juicio al club por casi 300.000 dólares.",
    "fuente": "Olé",
    "t": 1794021004000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "Con Boca Juniors y River Plate ya clasificados, así está el cuadro de los octavos de final de los playoffs del Torneo Clausura.",
-   "fuente": "Infobae",
-   "t": 1794020700000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Finalissima: Argentina cayó por penales por Brasil",
-   "bajada": "El partido en Río de Janeiro había terminado 1 a 1 pero en la definición la Verdeamerla se impuso por 5 a 4. Lucas Trípodi, autor dle gol argentino, falló el último remate. Mirá los videos.",
-   "leer": "Finalissima: Argentina cayó por penales por Brasil. El partido en Río de Janeiro había terminado 1 a 1 pero en la definición la Verdeamerla se impuso por 5 a 4. Lucas Trípodi, autor dle gol argentino, falló el último remate. Mirá los videos.",
-   "fuente": "ole.com.ar",
-   "t": 1794019644000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Tempone, el héroe inesperado de Independiente: \"Se dio lo que tantas veces soñé\"",
-   "bajada": "El delantero de 20 años ingresó desde el banco y clavó el 2-1 agónico del Rojo ante Riestra para asegurar la clasificación a los octavos de final del Torneo Clausura. \"Estamos preparados\", avisó.",
-   "leer": "Tempone, el héroe inesperado de Independiente: \"Se dio lo que tantas veces soñé\". El delantero de 20 años ingresó desde el banco y clavó el 2-1 agónico del Rojo ante Riestra para asegurar la clasificación a los octavos de final del Torneo Clausura. \"Estamos preparados\", avisó.",
-   "fuente": "ole.com.ar",
-   "t": 1794019509000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "¿Qué necesitan Boca, Argentinos y Central para ser Campeón de Liga?",
-   "bajada": "Se viene una súper definición este sábado con tres equipos peleando codo a codo para levantar un título. Conocé las combinaciones que consagraría a cada uno.",
-   "leer": "Se viene una súper definición este sábado con tres equipos peleando codo a codo para levantar un título. Conocé las combinaciones que consagraría a cada uno.",
-   "fuente": "ole.com.ar",
-   "t": 1794018217000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo perdió con Platense y quedó afuera de los playoffs del Torneo Clausura",
-   "bajada": "",
-   "leer": "San Lorenzo perdió con Platense y quedó afuera de los playoffs del Torneo Clausura.",
-   "fuente": "Análisis Digital",
-   "t": 1794014879000
-  },
-  {
-   "tema": "música",
-   "titulo": "Charly García fue a ver a Ronnie Wood: la foto del encuentro de dos leyendas del rock en Buenos Aires",
-   "bajada": "",
-   "leer": "Charly García fue a ver a Ronnie Wood: la foto del encuentro de dos leyendas del rock en Buenos Aires.",
-   "fuente": "Infobae",
-   "t": 1794013380000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Motos vs. autos: Argentina ya tiene una relación de patentamientos propia de países de bajos ingresos",
-   "bajada": "Un informe de Analytica mostró que en octubre se patentaron 177 motos por cada 100 autos, un nuevo récord de la serie iniciada en 2007. Remarcaron que ningún país de ingresos altos exhibe este comportamiento.",
-   "leer": "Motos vs. autos: Argentina ya tiene una relación de patentamientos propia de países de bajos ingresos. Un informe de Analytica mostró que en octubre se patentaron 177 motos por cada 100 autos, un nuevo récord de la serie iniciada en 2007. Remarcaron que ningún país de ingresos altos exhibe este comportamiento.",
-   "fuente": "ambito.com",
-   "t": 1794011100000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "VIDEO: resumen de Independiente vs. Riestra en el Torneo Clausura 2026",
-   "bajada": "",
-   "leer": "VIDEO: resumen de Independiente vs. Riestra en el Torneo Clausura 2026.",
-   "fuente": "ESPN Deportes",
-   "t": 1794010800000
-  },
-  {
-   "tema": "política",
-   "titulo": "Procesaron por lavado de dinero a Ariel Vallejo, el financista cercano a Chiqui Tapia, con prisión domiciliaria",
-   "bajada": "El juez federal de Lomas Tomás Rodríguez Ponte lo acusa como organizador de una asociación ilícita para lavar fondos; evasión tributaria agravada y simple y apropiación indebida de recursos de la seguridad social. Lo embargó por 40.000 millones de pesos.",
-   "leer": "Procesaron por lavado de dinero a Ariel Vallejo, el financista cercano a Chiqui Tapia, con prisión domiciliaria. El juez federal de Lomas Tomás Rodríguez Ponte lo acusa como organizador de una asociación ilícita para lavar fondos; evasión tributaria agravada y simple y apropiación indebida de recursos de la seguridad social. Lo embargó por 40.000 millones de pesos.",
-   "fuente": "clarin.com",
-   "t": 1794009999000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El incómodo momento de un expresidente de Uruguay con el Papa León XIV: intentó besarle el anillo y el Santa Padre le sacó la mano",
-   "bajada": "Luis Lacalle Herrera, presidente uruguayo entre 1991 y 1995, se convirtió en viral por su gesto ante el Papa.",
-   "leer": "El incómodo momento de un expresidente de Uruguay con el Papa León XIV: intentó besarle el anillo y el Santa Padre le sacó la mano. Luis Lacalle Herrera, presidente uruguayo entre 1991 y 1995, se convirtió en viral por su gesto ante el Papa.",
-   "fuente": "clarin.com",
-   "t": 1794007518000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La pobreza alcanzó el 45,4% con ponderadores actualizados y afectó a 21,1 millones de argentinos",
-   "bajada": "Con esta medición, habría 6 millones de pobres más que con la medición del INDEC y el indicador se ubicaría por encima del que dejó Mauricio Macri en la Argentina al cierre de su gestión.",
-   "leer": "La pobreza alcanzó el 45,4% con ponderadores actualizados y afectó a 21,1 millones de argentinos. Con esta medición, habría 6 millones de pobres más que con la medición del INDEC y el indicador se ubicaría por encima del que dejó Mauricio Macri en la Argentina al cierre de su gestión.",
-   "fuente": "ambito.com",
-   "t": 1794001920000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Russell Brand: cómo funcionó la protección de las grandes estrellas en la televisión británica",
-   "bajada": "El comediante fue declarado culpable de violación y tres agresiones sexuales. Antes del juicio, había intentado frenar el proceso al considerar que la exposición mediática afectaba su derecho a recibir un juicio justo.",
-   "leer": "Russell Brand: cómo funcionó la protección de las grandes estrellas en la televisión británica. El comediante fue declarado culpable de violación y tres agresiones sexuales. Antes del juicio, había intentado frenar el proceso al considerar que la exposición mediática afectaba su derecho a recibir un juicio justo.",
-   "fuente": "clarin.com",
-   "t": 1793995606000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Barracas Central venció por 2-0 a Racing Club, por el Torneo Clausura 2026",
-   "bajada": "",
-   "leer": "Barracas Central venció por 2-0 a Racing Club, por el Torneo Clausura 2026.",
-   "fuente": "La Nación",
-   "t": 1793995260000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing cerró su año con una nueva derrota: cayó 2-0 ante Barracas Central en la última fecha de Torneo Clausura",
-   "bajada": "",
-   "leer": "Racing cerró su año con una nueva derrota: cayó 2-0 ante Barracas Central en la última fecha de Torneo Clausura.",
-   "fuente": "Infobae",
-   "t": 1793995200000
-  },
-  {
-   "tema": "tránsito",
-   "titulo": "Atención conductores: qué cambia en los peajes de CABA desde este viernes",
-   "bajada": "",
-   "leer": "Atención conductores: qué cambia en los peajes de CABA desde este viernes.",
-   "fuente": "MDZ Online",
-   "t": 1793991600000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Maluma regresa a Argentina con dos shows en el Movistar Arena",
-   "bajada": "",
-   "leer": "Maluma regresa a Argentina con dos shows en el Movistar Arena.",
-   "fuente": "LA COOPE 102.7",
-   "t": 1793990820000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Quién es Dario Amodei, el cerebro detrás de Claude",
-   "bajada": "Hijo de un artesano toscano, físico y biofísico, estuvo detrás de GPT-2 y GPT-3 antes de fundar Anthropic con su hermana. Hoy Anthropic, la empresa detrás de Claude, facturó USD 16.800 millones en un trimestre y se prepara para salir a la bolsa.",
-   "leer": "Quién es Dario Amodei, el cerebro detrás de Claude. Hijo de un artesano toscano, físico y biofísico, estuvo detrás de GPT-2 y GPT-3 antes de fundar Anthropic con su hermana. Hoy Anthropic, la empresa detrás de Claude, facturó USD 16.800 millones en un trimestre y se prepara para salir a la bolsa.",
-   "fuente": "clarin.com",
-   "t": 1793988272000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Maluma está ‘Loco x volver’: Bogotá será una de las primeras paradas de su gira mundial",
-   "bajada": "",
-   "leer": "Maluma está ‘Loco x volver’: Bogotá será una de las primeras paradas de su gira mundial.",
-   "fuente": "Kienyke",
-   "t": 1793981516000
   }
  ]
 }
