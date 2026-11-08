@@ -1,80 +1,272 @@
 {
- "t": 1794150797845,
+ "t": 1794166971278,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "El desafío de abrir el corazón a su mensaje",
-   "bajada": "La llegada de León XIV a la Argentina invita a dejar de interpretar cualquier diferencia como una amenaza.",
-   "leer": "El desafío de abrir el corazón a su mensaje. La llegada de León XIV a la Argentina invita a dejar de interpretar cualquier diferencia como una amenaza.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794150673000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La frase que Leandro Paredes recibió de su psicóloga y que lo motivó hacia el título de Boca",
-   "bajada": "Volvió al club para liderar una reconstrucción compleja y levantó el primer trofeo desde su regreso; se convirtió en la cara de una nueva etapa xeneize.",
-   "leer": "La frase que Leandro Paredes recibió de su psicóloga y que lo motivó hacia el título de Boca. Volvió al club para liderar una reconstrucción compleja y levantó el primer trofeo desde su regreso; se convirtió en la cara de una nueva etapa xeneize.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794150457000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Las ventas minoristas del comercio pyme bajaron 1,6% interanual en octubre",
-   "bajada": "Si bien tuvieron un aumento del 0,3% respecto de septiembre, el retroceso anual acumulado es del 2 por ciento. A su vez, la encuesta mensual de CAME marca un notable contraste entre la percepción negativa de la situación actual respecto del año pasado y la positiva respecto de cómo serán las cosas dentro de un año.",
-   "leer": "Las ventas minoristas del comercio pyme bajaron 1,6% interanual en octubre. Si bien tuvieron un aumento del 0,3% respecto de septiembre, el retroceso anual acumulado es del 2 por ciento. A su vez, la encuesta mensual de CAME marca un notable contraste entre la percepción negativa de la situación actual respecto del año pasado y la positiva respecto de cómo serán las cosas dentro de un año.",
+   "titulo": "El homenaje a las ‘brujas de Zugarramurdi’ quemadas en Logroño por la Inquisición en 1610: la última condena de brujería que reunió a 30.000 personas",
+   "bajada": "La Asociación Histórico Cultural Guardias de Santiago ha organizado la plantación de once olmos en el ‘Bosque de la memoria’ en honor a las once víctimas acusadas de brujería.",
+   "leer": "El homenaje a las ‘brujas de Zugarramurdi’ quemadas en Logroño por la Inquisición en 1610: la última condena de brujería que reunió a 30.000 personas. La Asociación Histórico Cultural Guardias de Santiago ha organizado la plantación de once olmos en el ‘Bosque de la memoria’ en honor a las once víctimas acusadas de brujería.",
    "fuente": "infobae.com",
-   "t": 1794150405000
+   "t": 1794166695000
   },
   {
    "tema": "actualidad",
-   "titulo": "Así es GhostMap, el fallo que hace que un celular Android se reinicie en bucle con instalar un app",
-   "bajada": "La recomendación es evitar la instalación de archivos APK obtenidos fuera de las tiendas oficiales como Google Play.",
-   "leer": "Así es GhostMap, el fallo que hace que un celular Android se reinicie en bucle con instalar un app. La recomendación es evitar la instalación de archivos APK obtenidos fuera de las tiendas oficiales como Google Play.",
+   "titulo": "¿Disputa en Juntos por el Perú? Diputado Marlon Aguirre denuncia bloqueo de siete proyectos por parte de Ernesto Zunini",
+   "bajada": "El parlamentario acusó al vocero de su bancada de no firmar ni tramitar sus iniciativas. Según su despacho, las presuntas trabas responderían a una confrontación por el control político de la agrupación.",
+   "leer": "El parlamentario acusó al vocero de su bancada de no firmar ni tramitar sus iniciativas. Según su despacho, las presuntas trabas responderían a una confrontación por el control político de la agrupación.",
    "fuente": "infobae.com",
-   "t": 1794150301000
+   "t": 1794166692000
   },
   {
    "tema": "actualidad",
-   "titulo": "Engaño, torturas, quemaduras y robo: así atacaron a un hombre de 81 años en una casa de Maryland",
-   "bajada": "Dos personas enfrentan cargos tras atraer a un anciano de Delaware a una vivienda, donde lo inmovilizaron, lo agredieron con jarabe hirviente y le exigieron la combinación de una caja fuerte.",
-   "leer": "Engaño, torturas, quemaduras y robo: así atacaron a un hombre de 81 años en una casa de Maryland. Dos personas enfrentan cargos tras atraer a un anciano de Delaware a una vivienda, donde lo inmovilizaron, lo agredieron con jarabe hirviente y le exigieron la combinación de una caja fuerte.",
+   "titulo": "El papa León XIV llegó a Buenos Aires para iniciar su histórica visita a la Argentina",
+   "bajada": "El pontífice arribó a las 16.33 al Aeroparque Jorge Newbery y es recibido por el presidente Javier Milei. Comenzará con una intensa agenda de cuatro días que incluye misas, encuentros institucionales y actividades en la Ciudad de Buenos Aires, Córdoba y Luján.",
+   "leer": "El papa León XIV llegó a Buenos Aires para iniciar su histórica visita a la Argentina. El pontífice arribó a las 16.33 al Aeroparque Jorge Newbery y es recibido por el presidente Javier Milei. Comenzará con una intensa agenda de cuatro días que incluye misas, encuentros institucionales y actividades en la Ciudad de Buenos Aires, Córdoba y Luján.",
    "fuente": "infobae.com",
-   "t": 1794150289000
+   "t": 1794166692000
   },
   {
    "tema": "actualidad",
-   "titulo": "El Papa llega, ¿estamos dispuestos a escucharlo?",
-   "bajada": "La visita del Santo Padre podría producir en nosotros algo realmente importante: empezar a mirar con amor aquello que no siempre queremos ver.",
-   "leer": "La visita del Santo Padre podría producir en nosotros algo realmente importante: empezar a mirar con amor aquello que no siempre queremos ver.",
+   "titulo": "Papa León XIV en la Argentina, EN VIVO: el arribo al país, la agenda del domingo y las últimas noticias hoy",
+   "bajada": "El sumo pontífice inicia su gira en la Argentina con un intenso cronograma; encuentro con el Presidente, visita al Pequeño Cottolengo de Don Orione y misas masivas; la agenda.",
+   "leer": "El sumo pontífice inicia su gira en la Argentina con un intenso cronograma; encuentro con el Presidente, visita al Pequeño Cottolengo de Don Orione y misas masivas; la agenda.",
    "fuente": "lanacion.com.ar",
-   "t": 1794150273000
+   "t": 1794166567000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Qué ver en Netflix: las mejores películas y series para disfrutar este fin de semana largo",
+   "bajada": "El gigante del streaming ya tiene listas las producciones más vistas de los suscriptores de Argentina; enterate cuáles son y sumergite en una maratón; los detalles en la nota.",
+   "leer": "Qué ver en Netflix: las mejores películas y series para disfrutar este fin de semana largo. El gigante del streaming ya tiene listas las producciones más vistas de los suscriptores de Argentina; enterate cuáles son y sumergite en una maratón; los detalles en la nota.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794166559000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Matt Damon reveló el dramático problema de salud de su esposa argentina: “Sufrió un aneurisma cerebral”",
+   "bajada": "El reconocido actor contó detalles del aneurisma cerebral que sufrió Luciana Barroso en 2024 y la compleja intervención quirúrgica que debió afrontar en la semana previa a los Oscar; los detalles en la nota.",
+   "leer": "Matt Damon reveló el dramático problema de salud de su esposa argentina: “Sufrió un aneurisma cerebral”. El reconocido actor contó detalles del aneurisma cerebral que sufrió Luciana Barroso en 2024 y la compleja intervención quirúrgica que debió afrontar en la semana previa a los Oscar; los detalles en la nota.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794166544000
   },
   {
    "tema": "fútbol",
-   "titulo": "Dibu Martínez no pudo reaparecer en Chelsea antes de la Selección: \"Era demasiado arriesgado\"",
-   "bajada": "En la previa del duelo con Sunderland, Xabi Alonso reconoció que el arquero argentino todavía tiene para algunos días de recuperación: \"Tras el parón estará disponible\".",
-   "leer": "Dibu Martínez no pudo reaparecer en Chelsea antes de la Selección: \"Era demasiado arriesgado\". En la previa del duelo con Sunderland, Xabi Alonso reconoció que el arquero argentino todavía tiene para algunos días de recuperación: \"Tras el parón estará disponible\".",
-   "fuente": "ole.com.ar",
-   "t": 1794149255000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Jorge Escobar, odontólogo: “Respirar por la boca es uno de los hábitos a los que más atención deberíamos prestar”",
-   "bajada": "El especialista señala que el deterioro bucodental no debe asumirse como una consecuencia de la edad y destaca la importancia de los hábitos diarios para prevenir enfermedades.",
-   "leer": "Jorge Escobar, odontólogo: “Respirar por la boca es uno de los hábitos a los que más atención deberíamos prestar”. El especialista señala que el deterioro bucodental no debe asumirse como una consecuencia de la edad y destaca la importancia de los hábitos diarios para prevenir enfermedades.",
-   "fuente": "clarin.com",
-   "t": 1794149014000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Independiente quedó fuera de la pelea por clasificar a las copas de 2027 por el fair play",
+   "titulo": "Pampita festejó a puro llanto el campeonato de Boca Juniors acompañada de una persona muy especial",
    "bajada": "",
-   "leer": "Independiente quedó fuera de la pelea por clasificar a las copas de 2027 por el fair play.",
-   "fuente": "Agencia Noticias Argentinas",
-   "t": 1794148918000
+   "leer": "Pampita festejó a puro llanto el campeonato de Boca Juniors acompañada de una persona muy especial.",
+   "fuente": "La Nación",
+   "t": 1794166320000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Colapinto tras el GP de San Pablo y la razón de la caída de Alpine: un punto en seis fechas",
+   "bajada": "Si bien Franco rescató algiunos aspectos positivos, también reconoció que en esta última parte del año \"no estuvimos tan fuertes\".",
+   "leer": "Colapinto tras el GP de San Pablo y la razón de la caída de Alpine: un punto en seis fechas. Si bien Franco rescató algiunos aspectos positivos, también reconoció que en esta última parte del año \"no estuvimos tan fuertes\".",
+   "fuente": "ole.com.ar",
+   "t": 1794166005000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Mercedes se coronó en Brasil y alcanzó el podio histórico de constructores de la F1",
+   "bajada": "La escudería alemana conquistó su noveno título de constructores en San Pablo e igualó a Williams como el tercer equipo más ganador de la Máxima.",
+   "leer": "Mercedes se coronó en Brasil y alcanzó el podio histórico de constructores de la F1. La escudería alemana conquistó su noveno título de constructores en San Pablo e igualó a Williams como el tercer equipo más ganador de la Máxima.",
+   "fuente": "ole.com.ar",
+   "t": 1794165976000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Así quedaron las posiciones de la Fórmula 1 tras el GP de Brasil",
+   "bajada": "Una fecha después de que Antonelli se consagrara campeón del mundo, Mercedes se aseguró el Campeonato de Constructores. Acá, todos los números.",
+   "leer": "Así quedaron las posiciones de la Fórmula 1 tras el GP de Brasil. Una fecha después de que Antonelli se consagrara campeón del mundo, Mercedes se aseguró el Campeonato de Constructores. Acá, todos los números.",
+   "fuente": "ole.com.ar",
+   "t": 1794165951000
   },
   {
    "tema": "actualidad",
+   "titulo": "Trump y demócratas enfrentan desafíos para lograr el alivio económico que exigieron los votantes",
+   "bajada": "Los votantes estadounidenses exigen soluciones a la inflación y al déficit fiscal. Demócratas y republicanos enfrentan presión para responder. Trump busca colaborar con demócratas en el Congreso, pero la tensión por el gasto público y la economía sigue latente.",
+   "leer": "Trump y demócratas enfrentan desafíos para lograr el alivio económico que exigieron los votantes. Los votantes estadounidenses exigen soluciones a la inflación y al déficit fiscal. Demócratas y republicanos enfrentan presión para responder. Trump busca colaborar con demócratas en el Congreso, pero la tensión por el gasto público y la economía sigue latente.",
+   "fuente": "clarin.com",
+   "t": 1794165007000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "“Queremos que sepan que son aceptados”: Roze y su beso viral en la Marcha del Orgullo",
+   "bajada": "Rocco y Treze se sumaron a la 35° Marcha del Orgullo con un repertorio de cumbia, clásicos populares y danzas tradicionales argentinas. Los integrantes del dúo explicaron a Clarín el significado de sus looks y remarcaron la necesidad de visibilizar la lucha contra los discursos de odio.",
+   "leer": "“Queremos que sepan que son aceptados”: Roze y su beso viral en la Marcha del Orgullo. Rocco y Treze se sumaron a la 35° Marcha del Orgullo con un repertorio de cumbia, clásicos populares y danzas tradicionales argentinas. Los integrantes del dúo explicaron a Clarín el significado de sus looks y remarcaron la necesidad de visibilizar la lucha contra los discursos de odio.",
+   "fuente": "clarin.com",
+   "t": 1794164421000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Irán dice que las negociaciones están estancadas tras el \"shock\" electoral en EEUU",
+   "bajada": "El diálogo entre Irán y EE.UU. está paralizado tras el impacto electoral en Washington. El ministro iraní insta a la paciencia y espera decisiones. Irán condiciona el fin de la guerra a que EE.UU. acepte sus términos, incluyendo el desbloqueo de activos y el levantamiento de sanciones.",
+   "leer": "Irán dice que las negociaciones están estancadas tras el \"shock\" electoral en EEUU. El diálogo entre Irán y EE.UU. está paralizado tras el impacto electoral en Washington. El ministro iraní insta a la paciencia y espera decisiones. Irán condiciona el fin de la guerra a que EE.UU. acepte sus términos, incluyendo el desbloqueo de activos y el levantamiento de sanciones.",
+   "fuente": "clarin.com",
+   "t": 1794164412000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Tras la derrota de Trump, EEUU ratificó su apoyo a Milei, pero crecen las dudas sobre la asistencia financiera en 2027",
+   "bajada": "El embajador Peter Lamelas aseguró que el compromiso de Washington con la Argentina sigue firme pese al triunfo demócrata en las elecciones legislativas.",
+   "leer": "Tras la derrota de Trump, EEUU ratificó su apoyo a Milei, pero crecen las dudas sobre la asistencia financiera en 2027. El embajador Peter Lamelas aseguró que el compromiso de Washington con la Argentina sigue firme pese al triunfo demócrata en las elecciones legislativas.",
+   "fuente": "ambito.com",
+   "t": 1794164040000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "La visita de León XIV: las balas de Malvinas que el orfebre Juan Carlos Pallarols convirtió en un cáliz para el Papa",
+   "bajada": "En su casa de San Telmo, el platero de 84 años preparó este objeto de la liturgia y un sillón de plata para el Sumo Pontífice. Entre recuerdos de Perón, Maradona, Fangio y Francisco, contó cómo nació una obra en la que participaron miles de personas.",
+   "leer": "La visita de León XIV: las balas de Malvinas que el orfebre Juan Carlos Pallarols convirtió en un cáliz para el Papa. En su casa de San Telmo, el platero de 84 años preparó este objeto de la liturgia y un sillón de plata para el Sumo Pontífice. Entre recuerdos de Perón, Maradona, Fangio y Francisco, contó cómo nació una obra en la que participaron miles de personas.",
+   "fuente": "clarin.com",
+   "t": 1794163635000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Llega el Papa León XIV a la Argentina: expectativa y fuerte operativo en Aeroparque",
+   "bajada": "Una gran cantidad de policías custodian la cabecera sur del Aeroparque Jorge Newbery, donde está previsto que a las 16.30 aterrice el máximo pontífice. Muchos fieles están esperando desde temprano para recibirlo.",
+   "leer": "Llega el Papa León XIV a la Argentina: expectativa y fuerte operativo en Aeroparque. Una gran cantidad de policías custodian la cabecera sur del Aeroparque Jorge Newbery, donde está previsto que a las 16.30 aterrice el máximo pontífice. Muchos fieles están esperando desde temprano para recibirlo.",
+   "fuente": "clarin.com",
+   "t": 1794161979000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Polonia: ¿Qué saber del tiroteo en Cracovia que dejó 6 muertos?",
+   "bajada": "Las autoridades investigan como un delito terrorista el ataque ejecutado por un joven de 24 años con inclinaciones ultranacionalistas y de extrema derecha. En paralelo, la policía halló sin vida a los padres y a la hermana del sospechoso en la vivienda familiar con aparentes heridas de bala.",
+   "leer": "Las autoridades investigan como un delito terrorista el ataque ejecutado por un joven de 24 años con inclinaciones ultranacionalistas y de extrema derecha. En paralelo, la policía halló sin vida a los padres y a la hermana del sospechoso en la vivienda familiar con aparentes heridas de bala.",
+   "fuente": "clarin.com",
+   "t": 1794161583000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Quién es Laufey, la cantante que puso a la generación TikTok a escuchar jazz y se convirtió en un fenómeno mundial",
+   "bajada": "Tiene 27 años, nació en Islandia y recuperó los sonidos de las grandes voces de los años 50 para conquistar a millones de jóvenes. Cómo pasó de estudiar música clásica a ganar dos premios Grammy y presentarse en algunos de los escenarios más importantes de la escena musical actual.",
+   "leer": "Quién es Laufey, la cantante que puso a la generación TikTok a escuchar jazz y se convirtió en un fenómeno mundial. Tiene 27 años, nació en Islandia y recuperó los sonidos de las grandes voces de los años 50 para conquistar a millones de jóvenes. Cómo pasó de estudiar música clásica a ganar dos premios Grammy y presentarse en algunos de los escenarios más importantes de la escena musical actual.",
+   "fuente": "clarin.com",
+   "t": 1794160930000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las cinco bajas que tendrá River ante Aldosivi y los cambios que evalúa Ponzio",
+   "bajada": "",
+   "leer": "Las cinco bajas que tendrá River ante Aldosivi y los cambios que evalúa Ponzio.",
+   "fuente": "Olé",
+   "t": 1794159272000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Independiente se juega todo ante Boca: el volantazo táctico de Viera con Meza y un sorpresivo doble tres",
+   "bajada": "",
+   "leer": "Independiente se juega todo ante Boca: el volantazo táctico de Viera con Meza y un sorpresivo doble tres.",
+   "fuente": "Olé",
+   "t": 1794158799000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los puntajes de Boca vs. Defensa y Justicia por el Torneo Clausura 2026",
+   "bajada": "",
+   "leer": "Los puntajes de Boca vs. Defensa y Justicia por el Torneo Clausura 2026.",
+   "fuente": "Planeta Boca Juniors",
+   "t": 1794158517000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Tragedia en Brasil: diez personas de una familia fallecieron tras volcar su auto y caer a un lago en Río de Janeiro",
+   "bajada": "Ocurrió en la localidad de Ataulfo ​​de Paiva, en el estado de Rio de Janeiro. Las víctimas son una beba, una niña, dos niños, cuatro mujeres y dos hombres.",
+   "leer": "Tragedia en Brasil: diez personas de una familia fallecieron tras volcar su auto y caer a un lago en Río de Janeiro. Ocurrió en la localidad de Ataulfo ​​de Paiva, en el estado de Rio de Janeiro. Las víctimas son una beba, una niña, dos niños, cuatro mujeres y dos hombres.",
+   "fuente": "clarin.com",
+   "t": 1794158079000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Martín Barrios, el jugador que deberá volver a Racing para 2027",
+   "bajada": "",
+   "leer": "Martín Barrios, el jugador que deberá volver a Racing para 2027.",
+   "fuente": "TyC Sports",
+   "t": 1794156242000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La Academia, el mejor lugar para aprender",
+   "bajada": "",
+   "leer": "La Academia, el mejor lugar para aprender.",
+   "fuente": "Racing Club",
+   "t": 1794155565000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Día a día: cuándo le cantarán al Papa Abel Pintos, Luciano Pereyra, Jairo y Nahuel Pennisi",
+   "bajada": "El Papa León XIV tendrá una agenda musical en Buenos Aires, Córdoba y Luján durante su visita al país. Más de 600 coreutas y 200 músicos participarán de las celebraciones y encuentros. También actuarán Nahuel Pennisi, Maggie Cullen y Valentino Merlo.",
+   "leer": "Día a día: cuándo le cantarán al Papa Abel Pintos, Luciano Pereyra, Jairo y Nahuel Pennisi. El Papa León XIV tendrá una agenda musical en Buenos Aires, Córdoba y Luján durante su visita al país. Más de 600 coreutas y 200 músicos participarán de las celebraciones y encuentros. También actuarán Nahuel Pennisi, Maggie Cullen y Valentino Merlo.",
+   "fuente": "clarin.com",
+   "t": 1794155410000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La visita del papa León XIV podría generar u$s270 millones y dispara el turismo religioso: el impacto en hoteles, comercios y gastronomía",
+   "bajada": "La llegada del Sumo Pontífice a la Argentina genera expectativas en distintos sectores de la economía. Las búsquedas de alojamiento aumentaron más del 500% en Luján y superaron el 400% en Córdoba, mientras que la ocupación hotelera en Buenos Aires podría superar el 85%.",
+   "leer": "La visita del papa León XIV podría generar u$s270 millones y dispara el turismo religioso: el impacto en hoteles, comercios y gastronomía. La llegada del Sumo Pontífice a la Argentina genera expectativas en distintos sectores de la economía. Las búsquedas de alojamiento aumentaron más del 500% en Luján y superaron el 400% en Córdoba, mientras que la ocupación hotelera en Buenos Aires podría superar el 85%.",
+   "fuente": "ambito.com",
+   "t": 1794154860000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Tras la derrota electoral de Trump, el embajador de Estados Unidos en Argentina ratificó el apoyo al gobierno de Milei: \"Nuestro compromiso sigue firme\"",
+   "bajada": "El funcionario norteamericano destacó la relación entre Trump y Milei. \"La Argentina tiene recursos, talento y una gente trabajadora\", aseguró.",
+   "leer": "Tras la derrota electoral de Trump, el embajador de Estados Unidos en Argentina ratificó el apoyo al gobierno de Milei: \"Nuestro compromiso sigue firme\". El funcionario norteamericano destacó la relación entre Trump y Milei. \"La Argentina tiene recursos, talento y una gente trabajadora\", aseguró.",
+   "fuente": "clarin.com",
+   "t": 1794154067000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Rosario recibirá a Ronnie Wood, histórico guitarrista de los Rolling Stones",
+   "bajada": "",
+   "leer": "Rosario recibirá a Ronnie Wood, histórico guitarrista de los Rolling Stones.",
+   "fuente": "La Capital",
+   "t": 1794152820000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Insólito: Independiente quedó afuera de las copas continentales en 2027 por la tabla de Fair Play",
+   "bajada": "",
+   "leer": "Insólito: Independiente quedó afuera de las copas continentales en 2027 por la tabla de Fair Play.",
+   "fuente": "Perfil",
+   "t": 1794152285000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Cómo sigue la vida de San Lorenzo sin competencias por delante",
+   "bajada": "",
+   "leer": "Cómo sigue la vida de San Lorenzo sin competencias por delante.",
+   "fuente": "Vamos Ciclón",
+   "t": 1794152002000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La grave lesión de Manuel Neuer, el arquero verdugo de Argentina en el Mundial 2014: a los 40 años, ¿acelera su retiro?",
+   "bajada": "El alemán la sufrió al salir a cortar un centro, que derivó en un gol contra su equipo Bayern Munich, en la Bundesliga. Mirá el video.",
+   "leer": "El alemán la sufrió al salir a cortar un centro, que derivó en un gol contra su equipo Bayern Munich, en la Bundesliga. Mirá el video.",
+   "fuente": "clarin.com",
+   "t": 1794151156000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Rating del sábado: cómo le fue a PH después del escándalo y cuánto midió la mesa de Juana Viale",
+   "bajada": "Una semana después del polémico enfrentamiento entre Santiago Maratea y la China Ansa, Andy Kusnetzoff volvió a competir por la audiencia del prime time. Cómo quedaron los números de Telefe y El Trece y cuáles fueron los cinco programas más vistos.",
+   "leer": "Rating del sábado: cómo le fue a PH después del escándalo y cuánto midió la mesa de Juana Viale. Una semana después del polémico enfrentamiento entre Santiago Maratea y la China Ansa, Andy Kusnetzoff volvió a competir por la audiencia del prime time. Cómo quedaron los números de Telefe y El Trece y cuáles fueron los cinco programas más vistos.",
+   "fuente": "clarin.com",
+   "t": 1794150461000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "\"Las 60\", el grupo de mujeres argentinas que viajó a Interlagos para alentar a Colapinto en el GP de San Pablo: \"No nos conocíamos y ahora somos amigas\"",
+   "bajada": "Se juntaron a través de las redes sociales y armaron un contingente que no pasa desapercibido con sus pilotos color rosa. Chechu, su ideóloga, habló con Clarín en la previa de la carrera del domingo.",
+   "leer": "\"Las 60\", el grupo de mujeres argentinas que viajó a Interlagos para alentar a Colapinto en el GP de San Pablo: \"No nos conocíamos y ahora somos amigas\". Se juntaron a través de las redes sociales y armaron un contingente que no pasa desapercibido con sus pilotos color rosa. Chechu, su ideóloga, habló con Clarín en la previa de la carrera del domingo.",
+   "fuente": "clarin.com",
+   "t": 1794149264000
+  },
+  {
+   "tema": "deportes",
    "titulo": "Leandro Paredes y el efecto cumplido más allá de ser campeón con Boca: \"Lo que quería era que la gente esté identificada con este equipo\"",
    "bajada": "El capitán pudo festejar con el club del cual es hincha y levantó el trofeo en La Bombonera. \"No tengo palabras para describir lo que estoy sintiendo\", confesó.",
    "leer": "Leandro Paredes y el efecto cumplido más allá de ser campeón con Boca: \"Lo que quería era que la gente esté identificada con este equipo\". El capitán pudo festejar con el club del cual es hincha y levantó el trofeo en La Bombonera. \"No tengo palabras para describir lo que estoy sintiendo\", confesó.",
@@ -82,36 +274,12 @@
    "t": 1794148414000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Los hutíes reivindican ataque a rascacielos de la petrolera Aramco en Riad",
-   "bajada": "Combatientes proiraníes atacaron una torre en el centro financiero de la capital saudita, causando daños sin víctimas, en una escalada del conflicto. La coalición liderada por Riad interceptó misiles hutíes, mientras el reino busca apoyo internacional ante el aumento de la violencia en la región.",
-   "leer": "Los hutíes reivindican ataque a rascacielos de la petrolera Aramco en Riad. Combatientes proiraníes atacaron una torre en el centro financiero de la capital saudita, causando daños sin víctimas, en una escalada del conflicto. La coalición liderada por Riad interceptó misiles hutíes, mientras el reino busca apoyo internacional ante el aumento de la violencia en la región.",
-   "fuente": "clarin.com",
-   "t": 1794148214000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Octavos Liga Argentina 2026: cuándo se juegan, la fecha y los cruces",
+   "titulo": "Los dos posibles rivales de River en octavos y cómo se define",
    "bajada": "",
-   "leer": "Octavos Liga Argentina 2026: cuándo se juegan, la fecha y los cruces.",
+   "leer": "Los dos posibles rivales de River en octavos y cómo se define.",
    "fuente": "TyC Sports",
-   "t": 1794146628000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La reacción en redes del hincha de Central que se viralizó en medio del festejo trunco del Canalla",
-   "bajada": "Luego de convertirse en una de las caras visibles en medio de la confusión en el Gigante de Arroyito, el fanático del Canalla estalló con fuertes amenazas: \"Si son tan picantes atrás del teclado, vengan mano a mano, cagones\".",
-   "leer": "La reacción en redes del hincha de Central que se viralizó en medio del festejo trunco del Canalla. Luego de convertirse en una de las caras visibles en medio de la confusión en el Gigante de Arroyito, el fanático del Canalla estalló con fuertes amenazas: \"Si son tan picantes atrás del teclado, vengan mano a mano, cagones\".",
-   "fuente": "ole.com.ar",
-   "t": 1794146567000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El récord mundial que rompió Boca tras consagrarse Campeón de Liga",
-   "bajada": "El Xeneize conquistó una nueva estrella tras vencer 1-0 a Defensa y Justicia y quebró una marca internacional gracias al gol de Enner Valencia sobre la hora.",
-   "leer": "El récord mundial que rompió Boca tras consagrarse Campeón de Liga. El Xeneize conquistó una nueva estrella tras vencer 1-0 a Defensa y Justicia y quebró una marca internacional gracias al gol de Enner Valencia sobre la hora.",
-   "fuente": "ole.com.ar",
-   "t": 1794146430000
+   "t": 1794146257000
   },
   {
    "tema": "economía",
@@ -122,22 +290,6 @@
    "t": 1794146077000
   },
   {
-   "tema": "economía",
-   "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre y el consumo no repunta",
-   "bajada": "Las ventas pyme mostraron una leve recuperación frente a septiembre, pero no lograron revertir la tendencia negativa. Un informe del sector también expuso las dificultades de los comercios para sostener la rentabilidad.",
-   "leer": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre y el consumo no repunta. Las ventas pyme mostraron una leve recuperación frente a septiembre, pero no lograron revertir la tendencia negativa. Un informe del sector también expuso las dificultades de los comercios para sostener la rentabilidad.",
-   "fuente": "ambito.com",
-   "t": 1794145980000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "“No puede ser ko, soy un expresidente de la República”: la queja de Santiago Peña cuando le dijeron que debía ser esposado",
-   "bajada": "El expresidente de Paraguay fue llevado ante el juez y debieron esposarlo para moverse dentro del Palacio de Justicia. Fue destituido el viernes por el Congreso tras el escándalo financiero de Ueno Bank, donde se sospecha que está implicado.",
-   "leer": "“No puede ser ko, soy un expresidente de la República”: la queja de Santiago Peña cuando le dijeron que debía ser esposado. El expresidente de Paraguay fue llevado ante el juez y debieron esposarlo para moverse dentro del Palacio de Justicia. Fue destituido el viernes por el Congreso tras el escándalo financiero de Ueno Bank, donde se sospecha que está implicado.",
-   "fuente": "clarin.com",
-   "t": 1794145229000
-  },
-  {
    "tema": "política",
    "titulo": "Entre altares, fieles y el barro político: la visita de Juan Pablo II que sacudió a la Argentina de Alfonsín",
    "bajada": "Crónica de los seis días que pasó el Papa polaco en el país hace 39 años. Actos con empresarios, la CGT, la discusión por el actos divorcio y la amenaza latente de los militares.",
@@ -146,92 +298,12 @@
    "t": 1794145185000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Perdió Defensa: cuáles son los posibles rivales de River en octavos de final del Clausura",
-   "bajada": "",
-   "leer": "Perdió Defensa: cuáles son los posibles rivales de River en octavos de final del Clausura.",
-   "fuente": "La Página Millonaria",
-   "t": 1794144279000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Cómo estará el clima en la visita de León XIV a la Argentina: actividad por actividad, qué dice el pronóstico para la estadía del Papa",
-   "bajada": "El Sumo Pontífice recorrerá la Ciudad, la Provincia de Buenos Aires y Córdoba durante su histórica gira por el país. El pronóstico prevé jornadas primaverales y sin lluvias importantes en las concentraciones masivas al aire libre.",
-   "leer": "Cómo estará el clima en la visita de León XIV a la Argentina: actividad por actividad, qué dice el pronóstico para la estadía del Papa. El Sumo Pontífice recorrerá la Ciudad, la Provincia de Buenos Aires y Córdoba durante su histórica gira por el país. El pronóstico prevé jornadas primaverales y sin lluvias importantes en las concentraciones masivas al aire libre.",
-   "fuente": "clarin.com",
-   "t": 1794143910000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "El posteo de Angel Di María tras el festejo frustrado de Rosario Central, el saludo a Paredes por Boca campeón y la frase que desató la euforia: \"Lo anuló\"",
-   "bajada": "El capitán del \"Canalla\", que no pudo jugar la última fecha por una molestia física, valoró la temporada de su equipo, que durante 10 segundos celebró con sus hinchas por error. Mirá el video.",
-   "leer": "El posteo de Angel Di María tras el festejo frustrado de Rosario Central, el saludo a Paredes por Boca campeón y la frase que desató la euforia: \"Lo anuló\". El capitán del \"Canalla\", que no pudo jugar la última fecha por una molestia física, valoró la temporada de su equipo, que durante 10 segundos celebró con sus hinchas por error. Mirá el video.",
-   "fuente": "clarin.com",
-   "t": 1794142917000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Festival Callejón: vuelve mañana la maratón de artes escénicas independientes al Abasto",
-   "bajada": "La novena edición del Festival Callejón reunirá a artistas jóvenes y referentes de la escena independiente porteña durante seis jornadas. Entre las propuestas se destacan Fronter, Animal anterior y Archivo de proyectos no realizados . El encuentro finalizará el sábado 14 con música en vivo y una fiesta.",
-   "leer": "Festival Callejón: vuelve mañana la maratón de artes escénicas independientes al Abasto. La novena edición del Festival Callejón reunirá a artistas jóvenes y referentes de la escena independiente porteña durante seis jornadas. Entre las propuestas se destacan Fronter, Animal anterior y Archivo de proyectos no realizados . El encuentro finalizará el sábado 14 con música en vivo y una fiesta.",
-   "fuente": "clarin.com",
-   "t": 1794142885000
-  },
-  {
    "tema": "música",
    "titulo": "Discos. Charly García, un lector de Hortensia que le dio un destino impensado a una tira de Crist",
    "bajada": "",
    "leer": "Discos. Charly García, un lector de Hortensia que le dio un destino impensado a una tira de Crist.",
    "fuente": "La Voz del Interior",
    "t": 1794142389000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "¡Boca, campeón! Así quedó la tabla histórica de títulos del fútbol argentino",
-   "bajada": "",
-   "leer": "¡Boca, campeón! Así quedó la tabla histórica de títulos del fútbol argentino.",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1794142122000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River y Boca, campeones en torneos juveniles internacionales",
-   "bajada": "",
-   "leer": "River y Boca, campeones en torneos juveniles internacionales.",
-   "fuente": "AFA",
-   "t": 1794142088000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Los secretos de la visita de León XIV a la Argentina este domingo, EN VIVO: Sergio Rubin cuenta lo que no se ve del viaje del Papa",
-   "bajada": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Tercera entrega, desde Uruguay.",
-   "leer": "Toda la intimidad de la visita del Santo Padre en una cobertura especial de Clarín en el lugar de los hechos y con la mirada de un especialista. Tercera entrega, desde Uruguay.",
-   "fuente": "clarin.com",
-   "t": 1794142043000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Polonia considera un acto de terrorismo el tiroteo que dejó seis muertos en Cracovia",
-   "bajada": "El atacante es un polaco de 24 años, que está detenido y herido de gravedad, tras abrir fuego en forma indiscriminada en la plaza del Mercado de Cracovia. Resultaron heridas 15 personas, cinco de ellas extranjeras.",
-   "leer": "Polonia considera un acto de terrorismo el tiroteo que dejó seis muertos en Cracovia. El atacante es un polaco de 24 años, que está detenido y herido de gravedad, tras abrir fuego en forma indiscriminada en la plaza del Mercado de Cracovia. Resultaron heridas 15 personas, cinco de ellas extranjeras.",
-   "fuente": "clarin.com",
-   "t": 1794141425000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Técnico de Racing: los partidos a seguir de cerca",
-   "bajada": "",
-   "leer": "Técnico de Racing: los partidos a seguir de cerca.",
-   "fuente": "Racing de Alma",
-   "t": 1794139455000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Todo lo que no se vio de la presentación de María Becerra, La Joaqui y Roze en la Marcha del Orgullo",
-   "bajada": "La movilización por los derechos de la comunidad LGBTQ+ tuvo una extensa grilla musical y convocó a una multitud. Roze sorprendió con un beso durante su show y La Joaqui habló sobre los prejuicios. María Becerra cerró la jornada con un mensaje contra los crímenes de odio.",
-   "leer": "Todo lo que no se vio de la presentación de María Becerra, La Joaqui y Roze en la Marcha del Orgullo. La movilización por los derechos de la comunidad LGBTQ+ tuvo una extensa grilla musical y convocó a una multitud. Roze sorprendió con un beso durante su show y La Joaqui habló sobre los prejuicios. María Becerra cerró la jornada con un mensaje contra los crímenes de odio.",
-   "fuente": "clarin.com",
-   "t": 1794138347000
   },
   {
    "tema": "fútbol",
@@ -250,30 +322,6 @@
    "t": 1794135600000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este domingo 8 de noviembre de 2026 en Argentina",
-   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este domingo 8 de noviembre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
-   "fuente": "clarin.com",
-   "t": 1794132902000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Cesc Fábregas, el técnico que revolucionó al Como: el amigo de Messi que potencia a Nico Paz y les enseña fútbol hasta a los dueños del club",
-   "bajada": "El español transformó a un equipo de la Serie B en protagonista de la Champions League con una propuesta ofensiva que sorprende a Europa. Formado en la Masía, combina las enseñanzas de Wenger y Guardiola con un método particular: les envía informes tácticos a los propietarios antes y después de cada partido.",
-   "leer": "Cesc Fábregas, el técnico que revolucionó al Como: el amigo de Messi que potencia a Nico Paz y les enseña fútbol hasta a los dueños del club. El español transformó a un equipo de la Serie B en protagonista de la Champions League con una propuesta ofensiva que sorprende a Europa. Formado en la Masía, combina las enseñanzas de Wenger y Guardiola con un método particular: les envía informes tácticos a los propietarios antes y después de cada partido.",
-   "fuente": "clarin.com",
-   "t": 1794128483000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Boca y la costumbre de sufrir: las últimas tres vueltas olímpicas se definieron con el corazón en la Bombonera y los ojos en otra cancha",
-   "bajada": "La consagración ante Defensa y Justicia se sumó a los desenlaces dramáticos de 2020 y 2022, cuando el Xeneize también festejó ante su gente. Los goles de Tevez y Valencia, el penal que atajó Armani y tres campeonatos que se resolvieron en simultáneo y con suspenso hasta el final.",
-   "leer": "Boca y la costumbre de sufrir: las últimas tres vueltas olímpicas se definieron con el corazón en la Bombonera y los ojos en otra cancha. La consagración ante Defensa y Justicia se sumó a los desenlaces dramáticos de 2020 y 2022, cuando el Xeneize también festejó ante su gente. Los goles de Tevez y Valencia, el penal que atajó Armani y tres campeonatos que se resolvieron en simultáneo y con suspenso hasta el final.",
-   "fuente": "clarin.com",
-   "t": 1794128483000
-  },
-  {
    "tema": "política",
    "titulo": "La expectativa en Gobierno: mantener el tono pastoral",
    "bajada": "Se trabajó en una organización coordinada con El Vaticano. Y se espera que, aún en aún en los lugares más sensibles, no estalle la polémica política.",
@@ -288,14 +336,6 @@
    "leer": "Manzanita iluminada y pantalla táctil: la MacBook Pro 2026 que rompe con una tradición y desafía el legado de Steve Jobs. La compañía presentó una renovación histórica de su línea de notebook premium, con tecnología OLED y muchas características heredadas del iPhone. Cuánto cuestan, cuáles son las diferencias entre los modelos.",
    "fuente": "clarin.com",
    "t": 1794128482000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los dos jugadores que podría recuperar Gorosito ante Unión",
-   "bajada": "",
-   "leer": "Los dos jugadores que podría recuperar Gorosito ante Unión.",
-   "fuente": "Vamos Ciclón",
-   "t": 1794124813000
   },
   {
    "tema": "política",
@@ -320,38 +360,6 @@
    "leer": "Claudio Gabis: cómo nació Manal, el motivo real de la separación y el clásico que se escribió en 40 minutos.",
    "fuente": "La Nación",
    "t": 1794106860000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Martín Polo: “Lo peor que le podría pasar a la Argentina en 2027 es acudir a la ayuda de EEUU”",
-   "bajada": "El economista analizó el castigo de los inversores ante una actividad estancada, una inflación que no cede y la incertidumbre global tras el revés electoral de Donald Trump.",
-   "leer": "Martín Polo: “Lo peor que le podría pasar a la Argentina en 2027 es acudir a la ayuda de EEUU”. El economista analizó el castigo de los inversores ante una actividad estancada, una inflación que no cede y la incertidumbre global tras el revés electoral de Donald Trump.",
-   "fuente": "ambito.com",
-   "t": 1794106800000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Alerta amarilla por lluvias al AMBA: cuándo llegan y cómo estará el tiempo para la visita del papa León XIV",
-   "bajada": "",
-   "leer": "Alerta amarilla por lluvias al AMBA: cuándo llegan y cómo estará el tiempo para la visita del papa León XIV.",
-   "fuente": "Ambito",
-   "t": 1794105956000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La insólita forma en que Independiente se quedó sin copas en 2027 por tabla anual",
-   "bajada": "",
-   "leer": "La insólita forma en que Independiente se quedó sin copas en 2027 por tabla anual.",
-   "fuente": "TyC Sports",
-   "t": 1794102238000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "VIDEO: resumen de Boca vs. Defensa y Justicia por el Torneo Clausura",
-   "bajada": "",
-   "leer": "VIDEO: resumen de Boca vs. Defensa y Justicia por el Torneo Clausura.",
-   "fuente": "ESPN Argentina",
-   "t": 1794090120000
   }
  ]
 }
