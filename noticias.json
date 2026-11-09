@@ -1,101 +1,325 @@
 {
- "t": 1794205902605,
+ "t": 1794245426193,
  "items": [
+  {
+   "tema": "actualidad",
+   "titulo": "Julio César Chávez Jr. adelanta cuándo podría ser su próxima pelea y una fecha tentativa del retiro",
+   "bajada": "Chávez Jr. aseguró que ya recibió varias ofertas para regresar al ring.",
+   "leer": "Julio César Chávez Jr. adelanta cuándo podría ser su próxima pelea y una fecha tentativa del retiro. Chávez Jr. aseguró que ya recibió varias ofertas para regresar al ring.",
+   "fuente": "infobae.com",
+   "t": 1794245290000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "De las municiones de Malvinas al altar del Vaticano: la historia del cáliz que recibió el papa León XIV",
+   "bajada": "El orfebre argentino Juan Carlos Pallarols utilizó restos de municiones del conflicto de 1982 para crear la pieza, que demandó diez meses de trabajo y reunió las marcas de más de un millón de personas.",
+   "leer": "De las municiones de Malvinas al altar del Vaticano: la historia del cáliz que recibió el papa León XIV. El orfebre argentino Juan Carlos Pallarols utilizó restos de municiones del conflicto de 1982 para crear la pieza, que demandó diez meses de trabajo y reunió las marcas de más de un millón de personas.",
+   "fuente": "infobae.com",
+   "t": 1794245285000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Iván Cepeda se refirió a las acusaciones contra el hacker Carlos Oyola de querer influir en las elecciones que ganó Abelardo de la Espriella: “Pretenden descalificar el resultado”",
+   "bajada": "El congresista del Pacto Histórico aseguró que se pretende descalificar el resultado electoral sin sustento probatorio Iván a través de un supuesto plan de manipulación electoral.",
+   "leer": "Iván Cepeda se refirió a las acusaciones contra el hacker Carlos Oyola de querer influir en las elecciones que ganó Abelardo de la Espriella: “Pretenden descalificar el resultado”. El congresista del Pacto Histórico aseguró que se pretende descalificar el resultado electoral sin sustento probatorio Iván a través de un supuesto plan de manipulación electoral.",
+   "fuente": "infobae.com",
+   "t": 1794245257000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Obsequios para León XIV: de un retrato hiperrealista a una Virgen hecha con barro y agua bendita",
+   "bajada": "Javier de Aubeyzon y Richar de Itatí celebran la visita del Pontífice a la Argentina con obras donde la fe confluye con tradiciones cristianas y de los pueblos originarios.",
+   "leer": "Obsequios para León XIV: de un retrato hiperrealista a una Virgen hecha con barro y agua bendita. Javier de Aubeyzon y Richar de Itatí celebran la visita del Pontífice a la Argentina con obras donde la fe confluye con tradiciones cristianas y de los pueblos originarios.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794244944000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "“Queremos llevarnos los mensajes”: llegados de La Quiaca, Río Negro o Haedo, una marea humana compartió la misa del Papa",
+   "bajada": "Con distintos niveles de fe y expectativas, una multitud se dio cita en el Monumento de los Españoles para participar de la celebración encabezada por León XIV.",
+   "leer": "“Queremos llevarnos los mensajes”: llegados de La Quiaca, Río Negro o Haedo, una marea humana compartió la misa del Papa. Con distintos niveles de fe y expectativas, una multitud se dio cita en el Monumento de los Españoles para participar de la celebración encabezada por León XIV.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794244671000
+  },
   {
    "tema": "fútbol",
    "titulo": "Recalculando: las cuentas que Independiente, San Lorenzo, Gimnasia (M), Unión y Platense hacen para meterse en playoffs",
    "bajada": "",
    "leer": "Recalculando: las cuentas que Independiente, San Lorenzo, Gimnasia (M), Unión y Platense hacen para meterse en playoffs.",
    "fuente": "Olé",
-   "t": 1794205730000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Papa León XIV en la Argentina, EN VIVO: la misa en Buenos Aires, la agenda del día y las últimas noticas hoy",
-   "bajada": "El Sumo Pontífice llegó al país este domingo y comienza la gira con un intenso cronograma; este lunes, estará en el Monumento a los Españoles y visitará al Pequeño Cottolengo de Don Orione.",
-   "leer": "El Sumo Pontífice llegó al país este domingo y comienza la gira con un intenso cronograma; este lunes, estará en el Monumento a los Españoles y visitará al Pequeño Cottolengo de Don Orione.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794205413000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Embalses España lunes 9 de noviembre: reserva de agua bajó -0,73 %",
-   "bajada": "El Ministerio para la Transición Ecológica y el Reto Demográfico ha actualizado su más reciente boletín sobre la capacidad de los embalses de agua en España.",
-   "leer": "Embalses España lunes 9 de noviembre: reserva de agua bajó -0,73 %. El Ministerio para la Transición Ecológica y el Reto Demográfico ha actualizado su más reciente boletín sobre la capacidad de los embalses de agua en España.",
-   "fuente": "infobae.com",
-   "t": 1794204992000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Pico y Placa: qué automóviles no circulan en Bogotá este 9 de noviembre",
-   "bajada": "La restricción vehicular en la ciudad se modifica todos los días y depende del tipo de transporte que tienes, así como del último número de tu placa.",
-   "leer": "Pico y Placa: qué automóviles no circulan en Bogotá este 9 de noviembre. La restricción vehicular en la ciudad se modifica todos los días y depende del tipo de transporte que tienes, así como del último número de tu placa.",
-   "fuente": "infobae.com",
-   "t": 1794204974000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "'The Lord of the Rings' y el Premio Booker, claves de la agenda cultural esta semana",
-   "bajada": "Redacción Internacional, 9 nov (EFE).- La esperada vuelta de la serie 'The Lord of the Rings', el Premio Booker y la celebración de Eurovisión Asia, son tres de los protagonistas de esta semana en la agenda cultural internacional.",
-   "leer": "'The Lord of the Rings' y el Premio Booker, claves de la agenda cultural esta semana. Redacción Internacional, 9 nov (EFE).- La esperada vuelta de la serie 'The Lord of the Rings', el Premio Booker y la celebración de Eurovisión Asia, son tres de los protagonistas de esta semana en la agenda cultural internacional.",
-   "fuente": "infobae.com",
-   "t": 1794204935000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Carmen Lorea, la pamplonesa de 105 años que sigue recorriendo la ciudad: \"Para cenar me como un bocadillo de sardinas o uno de tocino del bueno\"",
-   "bajada": "En conversación con un medio local, la centenaria hizo un repaso de su vida. También detalló cómo transcurren sus días en la actualidad y qué tipo de alimentación tiene.",
-   "leer": "Carmen Lorea, la pamplonesa de 105 años que sigue recorriendo la ciudad: \"Para cenar me como un bocadillo de sardinas o uno de tocino del bueno\". En conversación con un medio local, la centenaria hizo un repaso de su vida. También detalló cómo transcurren sus días en la actualidad y qué tipo de alimentación tiene.",
-   "fuente": "clarin.com",
-   "t": 1794204092000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "“No quedó nada”: retiraron miles de vacas de una zona cercana a un gran humedal",
-   "bajada": "Desde Villa Ocampo, Santa Fe, dos productores contaron a LA NACION cómo trasladaron sus rodeos a campos más altos antes de que el agua cubriera los puestos y corrales; con pocos establecimientos disponibles para alquilar, algunos vecinos ya empezaron a vender parte de sus animales.",
-   "leer": "“No quedó nada”: retiraron miles de vacas de una zona cercana a un gran humedal. Desde Villa Ocampo, Santa Fe, dos productores contaron a LA NACION cómo trasladaron sus rodeos a campos más altos antes de que el agua cubriera los puestos y corrales; con pocos establecimientos disponibles para alquilar, algunos vecinos ya empezaron a vender parte de sus animales.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794204000000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Gabriel Rolón, psicoanalista: “Podemos alcanzar la faltacidad, la mezcla de falta y felicidad, que es una felicidad en falta”",
-   "bajada": "En una entrevista para LA NACION, el psicólogo analizó la importancia de esa construcción en el presente; aseguró que las personas deben abandonar la espera de un destino idealizado para abrazar la realidad.",
-   "leer": "Gabriel Rolón, psicoanalista: “Podemos alcanzar la faltacidad, la mezcla de falta y felicidad, que es una felicidad en falta”. En una entrevista para LA NACION, el psicólogo analizó la importancia de esa construcción en el presente; aseguró que las personas deben abandonar la espera de un destino idealizado para abrazar la realidad.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794204000000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Temporada de caza: Iowa pierde 10.000 acres de acceso público para la caza de faisanes este 2026 y los propietarios de ranchos no abren sus propiedades a los aficionados",
-   "bajada": "Es casi una tercera parte de la superficie destinada a estas aves en todo el Estado. La temporada de caza abarca del 31 de octubre hasta el 10 de enero.",
-   "leer": "Temporada de caza: Iowa pierde 10.000 acres de acceso público para la caza de faisanes este 2026 y los propietarios de ranchos no abren sus propiedades a los aficionados. Es casi una tercera parte de la superficie destinada a estas aves en todo el Estado. La temporada de caza abarca del 31 de octubre hasta el 10 de enero.",
-   "fuente": "clarin.com",
-   "t": 1794203732000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Giannis Antetokounmpo anota 29 puntos y guía al Heat a vencer 114-108 a los Kings en crisis",
-   "bajada": "El conjunto de Miami, liderado por el destacado jugador griego, superó a Sacramento en un reñido encuentro. El equipo visitante se impuso 114-108. La escuadra californiana no logró remontar pese al esfuerzo de Acuff Jr. y la ausencia de Sabonis. Los Kings continúan sin victorias en casa.",
-   "leer": "Giannis Antetokounmpo anota 29 puntos y guía al Heat a vencer 114-108 a los Kings en crisis. El conjunto de Miami, liderado por el destacado jugador griego, superó a Sacramento en un reñido encuentro. El equipo visitante se impuso 114-108. La escuadra californiana no logró remontar pese al esfuerzo de Acuff Jr. y la ausencia de Sabonis. Los Kings continúan sin victorias en casa.",
-   "fuente": "clarin.com",
-   "t": 1794202803000
+   "t": 1794244623000
   },
   {
    "tema": "fútbol",
-   "titulo": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros",
-   "bajada": "",
-   "leer": "Los convocados de Boca para el Súper, con dos regresos y cinco extranjeros.",
-   "fuente": "Olé",
-   "t": 1794200654000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El Vasco lo transformó en un Boca ganador",
-   "bajada": "Riquelme decidió ir por un DT mejor calificado y bancarse sus decisiones, que empezaron por echar a Cavani y Ander. Arruabarrena cambió el juego y el espíritu de un equipo confundido.",
-   "leer": "El Vasco lo transformó en un Boca ganador. Riquelme decidió ir por un DT mejor calificado y bancarse sus decisiones, que empezaron por echar a Cavani y Ander. Arruabarrena cambió el juego y el espíritu de un equipo confundido.",
+   "titulo": "Uno por uno, los 19 amistosos de las selecciones Conmebol en la fecha FIFA de noviembre",
+   "bajada": "A continuación, cómo se jugarán los partidos que involucrana a las selecciones sudamericanas. Para Argentina, ya será sin Messi.",
+   "leer": "Uno por uno, los 19 amistosos de las selecciones Conmebol en la fecha FIFA de noviembre. A continuación, cómo se jugarán los partidos que involucrana a las selecciones sudamericanas. Para Argentina, ya será sin Messi.",
    "fuente": "ole.com.ar",
-   "t": 1794194906000
+   "t": 1794244526000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La picante frase de un ayudante de Arruabarrena en medio de los festejos",
+   "bajada": "El egipcio Amr Mokhtar habló después de la consagración en la Bombonera.",
+   "leer": "La picante frase de un ayudante de Arruabarrena en medio de los festejos. El egipcio Amr Mokhtar habló después de la consagración en la Bombonera.",
+   "fuente": "ole.com.ar",
+   "t": 1794244361000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El nuevo pedido de María Elvira Salazar a Donald Trump: “Unir a republicanos y demócratas para arreglar nuestro sistema de inmigración”",
+   "bajada": "María Elvira Salazar pidió a Donald Trump unir a republicanos y demócratas para reformar el sistema migratorio de EE.UU. Qué dijo la congresista y por qué reavivó el debate sobre inmigración tras las midterms 2026.",
+   "leer": "El nuevo pedido de María Elvira Salazar a Donald Trump: “Unir a republicanos y demócratas para arreglar nuestro sistema de inmigración”. María Elvira Salazar pidió a Donald Trump unir a republicanos y demócratas para reformar el sistema migratorio de EE.UU. Qué dijo la congresista y por qué reavivó el debate sobre inmigración tras las midterms 2026.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794244345000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Demócratas darán visibilidad a placa en honor a agentes que afrontaron asalto al Capitolio",
+   "bajada": "Los representantes buscan resaltar la placa que homenajea a los defensores del Capitolio, moviéndola a un sitio prominente del edificio. Este gesto simboliza el deseo de recordar el violento episodio de 2021, cuando numerosos oficiales resultaron heridos y algunos fallecieron.",
+   "leer": "Demócratas darán visibilidad a placa en honor a agentes que afrontaron asalto al Capitolio. Los representantes buscan resaltar la placa que homenajea a los defensores del Capitolio, moviéndola a un sitio prominente del edificio. Este gesto simboliza el deseo de recordar el violento episodio de 2021, cuando numerosos oficiales resultaron heridos y algunos fallecieron.",
+   "fuente": "clarin.com",
+   "t": 1794243615000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Rodrigo García Platas, psicoterapeuta: \"Las heridas de la infancia pueden seguir dirigiendo tus relaciones sin que te des cuenta\"",
+   "bajada": "El especialista explica cómo las experiencias de los primeros años pueden condicionar la elección de pareja y generar vínculos que reproducen viejos patrones. La importancia de reconocer el dolor, gestionar las emociones y comprender las propias reacciones para construir vínculos más saludables.",
+   "leer": "Rodrigo García Platas, psicoterapeuta: \"Las heridas de la infancia pueden seguir dirigiendo tus relaciones sin que te des cuenta\". El especialista explica cómo las experiencias de los primeros años pueden condicionar la elección de pareja y generar vínculos que reproducen viejos patrones. La importancia de reconocer el dolor, gestionar las emociones y comprender las propias reacciones para construir vínculos más saludables.",
+   "fuente": "clarin.com",
+   "t": 1794243602000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Alanis Morissette sorprendió al revelar que es pansexual a los 52 años: qué dijo su pasado amoroso",
+   "bajada": "La cantante canadiense hizo una inesperada confesión durante una entrevista y dejó desconcertados a los conductores. Sus experiencias con mujeres, su relación con Ryan Reynolds y su matrimonio de 16 años.",
+   "leer": "Alanis Morissette sorprendió al revelar que es pansexual a los 52 años: qué dijo su pasado amoroso. La cantante canadiense hizo una inesperada confesión durante una entrevista y dejó desconcertados a los conductores. Sus experiencias con mujeres, su relación con Ryan Reynolds y su matrimonio de 16 años.",
+   "fuente": "clarin.com",
+   "t": 1794243320000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los historiales de los cruces de octavos: Boca ante un rival al que conoce poco y el flojo registro de River contra Lanús",
+   "bajada": "El Clausura ya tiene definidas sus llaves de eliminación directa. Por eso, en Olé te mostramos cómo está el registro de partidos en cada uno de los ocho cruces.",
+   "leer": "Los historiales de los cruces de octavos: Boca ante un rival al que conoce poco y el flojo registro de River contra Lanús. El Clausura ya tiene definidas sus llaves de eliminación directa. Por eso, en Olé te mostramos cómo está el registro de partidos en cada uno de los ocho cruces.",
+   "fuente": "ole.com.ar",
+   "t": 1794242332000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Messi podría volver al Monumental para enfrentar a River: el amistoso que prepara Inter Miami y las señales del Kily González",
+   "bajada": "El encuentro se disputaría el 19 de enero, en el marco de la pretemporada del equipo estadounidense. Una empresa trabaja en la organización y todavía falta la confirmación oficial. Sería el primer partido de Messi con un club en la Argentina.",
+   "leer": "Messi podría volver al Monumental para enfrentar a River: el amistoso que prepara Inter Miami y las señales del Kily González. El encuentro se disputaría el 19 de enero, en el marco de la pretemporada del equipo estadounidense. Una empresa trabaja en la organización y todavía falta la confirmación oficial. Sería el primer partido de Messi con un club en la Argentina.",
+   "fuente": "clarin.com",
+   "t": 1794240611000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Los festejos íntimos del plantel de Boca Juniors tras conquistar el título: el muñeco cábala y la figura que celebró con una máscara",
+   "bajada": "",
+   "leer": "Los festejos íntimos del plantel de Boca Juniors tras conquistar el título: el muñeco cábala y la figura que celebró con una máscara.",
+   "fuente": "Infobae",
+   "t": 1794240540000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "DESESPERACIÓN EN EL OFICIALISMO PARA CONCURSAR AL CLUB, DEUDA Y LA CHANCE DE VOMBERGAR",
+   "bajada": "",
+   "leer": "DESESPERACIÓN EN EL OFICIALISMO PARA CONCURSAR AL CLUB, DEUDA Y LA CHANCE DE VOMBERGAR.",
+   "fuente": "San Lorenzo Website",
+   "t": 1794240194000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "\"Perseguirlo hasta su tumba\": en sus memorias, Biden le dejó una advertencia a Trump sobre la toma del Capitolio",
+   "bajada": "Este lunes se conoció el primer extracto de “Promise Me, America”, donde el expresidente demócrata de Estados Unidos repasa su vida y trayectoria política.",
+   "leer": "\"Perseguirlo hasta su tumba\": en sus memorias, Biden le dejó una advertencia a Trump sobre la toma del Capitolio. Este lunes se conoció el primer extracto de “Promise Me, America”, donde el expresidente demócrata de Estados Unidos repasa su vida y trayectoria política.",
+   "fuente": "clarin.com",
+   "t": 1794239914000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Las bajas que tendrá River en esta fecha FIFA",
+   "bajada": "",
+   "leer": "Las bajas que tendrá River en esta fecha FIFA.",
+   "fuente": "TyC Sports",
+   "t": 1794239799000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Parroquias, amigos, familias y gente del interior: el perfil de los fieles en la misa de León XIV en Palermo",
+   "bajada": "Peregrinos de distintas edades y puntos del país se reunieron en el Monumento de los Españoles. Entre cantos y banderas, viven la celebración como un momento histórico.",
+   "leer": "Parroquias, amigos, familias y gente del interior: el perfil de los fieles en la misa de León XIV en Palermo. Peregrinos de distintas edades y puntos del país se reunieron en el Monumento de los Españoles. Entre cantos y banderas, viven la celebración como un momento histórico.",
+   "fuente": "clarin.com",
+   "t": 1794239763000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Fixture del Clausura 2026: calendario de partidos y resultados",
+   "bajada": "",
+   "leer": "Fixture del Clausura 2026: calendario de partidos y resultados.",
+   "fuente": "TyC Sports",
+   "t": 1794239004000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Cuál es la agenda completa y el lema del papa León XIV en Perú: cuándo llega, las ciudades que visitará y todas las actividades que confirmó el Vaticano",
+   "bajada": "Arribará el miércoles 11 de noviembre al país donde vivió y fue obispo. Se quedará hasta el lunes 16. Encabezará misas y otras actividades multitudinarias en Lima, Chiclayo, Cusco y Santa Cruz de Succhabamba.",
+   "leer": "Cuál es la agenda completa y el lema del papa León XIV en Perú: cuándo llega, las ciudades que visitará y todas las actividades que confirmó el Vaticano. Arribará el miércoles 11 de noviembre al país donde vivió y fue obispo. Se quedará hasta el lunes 16. Encabezará misas y otras actividades multitudinarias en Lima, Chiclayo, Cusco y Santa Cruz de Succhabamba.",
+   "fuente": "clarin.com",
+   "t": 1794238920000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Un escenario de ocho pisos de altura y tres símbolos religiosos: la monumental obra que recibió al Papa en Palermo",
+   "bajada": "La estructura de casi 24 metros de altura fue ideada por un sacerdote y combinó elementos centrales de la fe católica. El imponente montaje formó parte del presupuesto de 5,6 millones de dólares, donde León XIV dio misa ante más de dos millones de personas.",
+   "leer": "Un escenario de ocho pisos de altura y tres símbolos religiosos: la monumental obra que recibió al Papa en Palermo. La estructura de casi 24 metros de altura fue ideada por un sacerdote y combinó elementos centrales de la fe católica. El imponente montaje formó parte del presupuesto de 5,6 millones de dólares, donde León XIV dio misa ante más de dos millones de personas.",
+   "fuente": "clarin.com",
+   "t": 1794238553000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Qué necesita River para asegurarse la localía en los octavos del Clausura y por qué no depende de sí mismo",
+   "bajada": "",
+   "leer": "Qué necesita River para asegurarse la localía en los octavos del Clausura y por qué no depende de sí mismo.",
+   "fuente": "Olé",
+   "t": 1794238006000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El partido despedida de Chelo Díaz: los ex Racing que confirmaron su asistencia",
+   "bajada": "",
+   "leer": "El partido despedida de Chelo Díaz: los ex Racing que confirmaron su asistencia.",
+   "fuente": "El Primer Grande",
+   "t": 1794237982000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "CrossFit: Agustín Richelme logró un tricampeonato histórico y Lucila Carro ganó su primer título en el mayor torneo de Argentina",
+   "bajada": "Más de 1.300 atletas compitieron durante tres días en el SouthFit Challenge 2026, en el Parque Olímpico de la Juventud. La regularidad fue decisiva en las pruebas de fuerza, resistencia y destreza.",
+   "leer": "CrossFit: Agustín Richelme logró un tricampeonato histórico y Lucila Carro ganó su primer título en el mayor torneo de Argentina. Más de 1.300 atletas compitieron durante tres días en el SouthFit Challenge 2026, en el Parque Olímpico de la Juventud. La regularidad fue decisiva en las pruebas de fuerza, resistencia y destreza.",
+   "fuente": "clarin.com",
+   "t": 1794237751000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Mac Allister habló del vacío que dejó Messi en la Selección Argentina: “Nos tenemos que hacer más fuertes porque no habrá nadie como él”",
+   "bajada": "El mediocampista del Liverpool reconoció que todavía cuesta acostumbrarse a la ausencia del capitán y explicó cómo deberá reinventarse el equipo de Scaloni. También elogió a Nico Paz, uno de los futbolistas llamados a protagonizar el recambio generacional, y destacó la importancia de acompañarlo en su crecimiento.",
+   "leer": "Mac Allister habló del vacío que dejó Messi en la Selección Argentina: “Nos tenemos que hacer más fuertes porque no habrá nadie como él”. El mediocampista del Liverpool reconoció que todavía cuesta acostumbrarse a la ausencia del capitán y explicó cómo deberá reinventarse el equipo de Scaloni. También elogió a Nico Paz, uno de los futbolistas llamados a protagonizar el recambio generacional, y destacó la importancia de acompañarlo en su crecimiento.",
+   "fuente": "clarin.com",
+   "t": 1794237606000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Una figura de Independiente puede irse junto a Jadson Viera en diciembre",
+   "bajada": "",
+   "leer": "Una figura de Independiente puede irse junto a Jadson Viera en diciembre.",
+   "fuente": "El Intransigente",
+   "t": 1794237602000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "El actor Russell Brand fue condenado a 10 años y 6 meses de prisión por violación y agresiones sexuales",
+   "bajada": "El humorista fue denunciado por seis mujeres por ataques cometidos entre 2004 y 2009. \"Hace 20 años, usted era divertido y carismático. También se había convertido en un depredador sexual\", dijo el juez.",
+   "leer": "El actor Russell Brand fue condenado a 10 años y 6 meses de prisión por violación y agresiones sexuales. El humorista fue denunciado por seis mujeres por ataques cometidos entre 2004 y 2009. \"Hace 20 años, usted era divertido y carismático. También se había convertido en un depredador sexual\", dijo el juez.",
+   "fuente": "clarin.com",
+   "t": 1794236989000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo",
+   "bajada": "La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
+   "leer": "Cuánto cuesta el libro de León XIV, \"La fuerza del Evangelio\" y dónde comprarlo. La obra reúne textos del pontífice y organiza su mirada pastoral alrededor de diez conceptos vinculados con la fe cristiana y la vida cotidiana.",
+   "fuente": "ambito.com",
+   "t": 1794235860000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Rating del domingo: la visita del papa León XIV cambió toda la programación, pero ¿qué fue lo más visto del día?",
+   "bajada": "La llegada del Sumo Pontífice a la Argentina alteró la televisión abierta y la cadena nacional alcanzó un pico de 22,2 puntos al sumar las señales de noticias. Cuánto midió su discurso desde el Palacio Libertad y qué canal ganó la jornada.",
+   "leer": "La llegada del Sumo Pontífice a la Argentina alteró la televisión abierta y la cadena nacional alcanzó un pico de 22,2 puntos al sumar las señales de noticias. Cuánto midió su discurso desde el Palacio Libertad y qué canal ganó la jornada.",
+   "fuente": "clarin.com",
+   "t": 1794235169000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La Liga Argentina de Básquetbol | Noticia | El invicto de la Sur sale de gira en un lunes de cuatro partidos",
+   "bajada": "",
+   "leer": "La Liga Argentina de Básquetbol | Noticia | El invicto de la Sur sale de gira en un lunes de cuatro partidos.",
+   "fuente": "Liga Nacional de Básquet",
+   "t": 1794227826000
+  },
+  {
+   "tema": "política",
+   "titulo": "Jorge Macri cuestionó a los que hicieron un uso partidario del discurso del Papa León XIV: \"Es escaso intelectualmente\"",
+   "bajada": "El jefe de Gobierno porteño consideró \"un error\" intentar apropiarse del discurso que dio anoche en el Palacio Libertad. \"El Papa nos llama al esfuerzo de la unidad\", afirmó.",
+   "leer": "Jorge Macri cuestionó a los que hicieron un uso partidario del discurso del Papa León XIV: \"Es escaso intelectualmente\". El jefe de Gobierno porteño consideró \"un error\" intentar apropiarse del discurso que dio anoche en el Palacio Libertad. \"El Papa nos llama al esfuerzo de la unidad\", afirmó.",
+   "fuente": "clarin.com",
+   "t": 1794227714000
+  },
+  {
+   "tema": "música",
+   "titulo": "Rock en Baradero reunió a más de 25 mil personas",
+   "bajada": "",
+   "leer": "Rock en Baradero reunió a más de 25 mil personas.",
+   "fuente": "https://www.radiourbanasf.com.ar/",
+   "t": 1794227240000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "Hallan mil videos de abuso sexual infantil en TikTok y acusan a la red social de ser “una herramienta sin filtros para un pedófilo”",
+   "bajada": "Una investigación periodística recorrió durante más de un mes la plataforma en búsqueda de contenido. Compartieron los hallazgos sobre la facilidad con la que pudieron descubrir material de abuso y además denunciaron a las autoridades.",
+   "leer": "Hallan mil videos de abuso sexual infantil en TikTok y acusan a la red social de ser “una herramienta sin filtros para un pedófilo”. Una investigación periodística recorrió durante más de un mes la plataforma en búsqueda de contenido. Compartieron los hallazgos sobre la facilidad con la que pudieron descubrir material de abuso y además denunciaron a las autoridades.",
+   "fuente": "clarin.com",
+   "t": 1794225236000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "LNB: San Martín de Corrientes logró un amplio triunfo ante San Lorenzo",
+   "bajada": "",
+   "leer": "LNB: San Martín de Corrientes logró un amplio triunfo ante San Lorenzo.",
+   "fuente": "Radio Dos Corrientes",
+   "t": 1794224971000
+  },
+  {
+   "tema": "música",
+   "titulo": "Qué ruta bonaerense llevará el nombre de unos de los grandes íconos del rock argentino",
+   "bajada": "",
+   "leer": "Qué ruta bonaerense llevará el nombre de unos de los grandes íconos del rock argentino.",
+   "fuente": "DataClave",
+   "t": 1794222981000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 9 de noviembre de 2026 en Argentina",
+   "bajada": "Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "leer": "Qué ver en Disney+ hoy: las 10 series y películas que lideran el ranking este lunes 9 de noviembre de 2026 en Argentina. Cada día, Disney Plus actualiza su ranking y da una pista clara de qué producciones son tendencia en los fanáticos. Hay un amplio catálogo de series y películas que no te podés perder, entre estrenos recientes, clásicos de siempre y alguna sorpresa.",
+   "fuente": "clarin.com",
+   "t": 1794219303000
+  },
+  {
+   "tema": "política",
+   "titulo": "Los evangélicos de Kicillof: \"No somos la Iglesia Universal, tenemos la bendición de Axel\"",
+   "bajada": "Forman el \"Movimiento Cristiano Argentino\" dentro del \"Justicialismo Cristiano\". \"No todos los evangélicos son de derecha\", sostienen. Aseguran que aunque no comulgan con la ley del aborto o la del matrimonio igualitario no le exigen al peronismo que las derogue.",
+   "leer": "Los evangélicos de Kicillof: \"No somos la Iglesia Universal, tenemos la bendición de Axel\". Forman el \"Movimiento Cristiano Argentino\" dentro del \"Justicialismo Cristiano\". \"No todos los evangélicos son de derecha\", sostienen. Aseguran que aunque no comulgan con la ley del aborto o la del matrimonio igualitario no le exigen al peronismo que las derogue.",
+   "fuente": "clarin.com",
+   "t": 1794214895000
+  },
+  {
+   "tema": "tecnología",
+   "titulo": "La inteligencia artificial ayuda a robar datos y acelerar ciberataques en América Latina",
+   "bajada": "Una investigación documentó campañas cibercriminales contra organismos públicos, servicios esenciales y el sector financiero. En México, un chatbot ayudó a superar un problema que impedía robar información sensible.",
+   "leer": "La inteligencia artificial ayuda a robar datos y acelerar ciberataques en América Latina. Una investigación documentó campañas cibercriminales contra organismos públicos, servicios esenciales y el sector financiero. En México, un chatbot ayudó a superar un problema que impedía robar información sensible.",
+   "fuente": "clarin.com",
+   "t": 1794213934000
+  },
+  {
+   "tema": "tránsito",
+   "titulo": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján",
+   "bajada": "",
+   "leer": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján.",
+   "fuente": "MercedesYA",
+   "t": 1794209258000
   },
   {
    "tema": "clima",
@@ -106,44 +330,20 @@
    "t": 1794193844000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Con la coronación de Boca, ¿cómo queda el rompecabezas de los cupos a las copas internacionales?",
-   "bajada": "El Xeneize se consagró campeón de la tabla anual y el mapa de la clasificación a los torneos continentales puede seguir variando de cara a fin de año. Acá, todas las preguntas y respuestas.",
-   "leer": "El Xeneize se consagró campeón de la tabla anual y el mapa de la clasificación a los torneos continentales puede seguir variando de cara a fin de año. Acá, todas las preguntas y respuestas.",
-   "fuente": "ole.com.ar",
-   "t": 1794192991000
-  },
-  {
-   "tema": "música",
-   "titulo": "Todo lo que tenés que saber del Crespo Rock 2026: lugar, entradas y bandas presentes en esta edición",
+   "tema": "clima",
+   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este lunes 9 noviembre de 2026",
    "bajada": "",
-   "leer": "Todo lo que tenés que saber del Crespo Rock 2026: lugar, entradas y bandas presentes en esta edición.",
-   "fuente": "Desde Entre Ríos",
-   "t": 1794191760000
+   "leer": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este lunes 9 noviembre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1794193385000
   },
   {
-   "tema": "sociedad",
-   "titulo": "El primer discurso del Papa León XIV en Argentina: pidió diálogo, límites en el poder y una economía al servicio de la gente",
-   "bajada": "El Sumo Pontífice llegó de Montevideo esta tarde y, después de reunirse con Milei en la Casa Rosada, habló ante buena parte del arco político. En el Palacio Libertad, afirmó que “ninguna generación comienza la patria desde cero” y también abordó el tema de la corrupción.",
-   "leer": "El primer discurso del Papa León XIV en Argentina: pidió diálogo, límites en el poder y una economía al servicio de la gente. El Sumo Pontífice llegó de Montevideo esta tarde y, después de reunirse con Milei en la Casa Rosada, habló ante buena parte del arco político. En el Palacio Libertad, afirmó que “ninguna generación comienza la patria desde cero” y también abordó el tema de la corrupción.",
-   "fuente": "clarin.com",
-   "t": 1794187399000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Paredes: la receta Scaloneta del capitán campeón con Boca",
-   "bajada": "Su fútbol, su liderazgo y los gestos puertas adentro explican una conexión que el equipo recuperó con sus hinchas. El campeón del mundo construyó un grupo y le devolvió al Xeneize una identidad.",
-   "leer": "Paredes: la receta Scaloneta del capitán campeón con Boca. Su fútbol, su liderazgo y los gestos puertas adentro explican una conexión que el equipo recuperó con sus hinchas. El campeón del mundo construyó un grupo y le devolvió al Xeneize una identidad.",
-   "fuente": "ole.com.ar",
-   "t": 1794186715000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Tablas del descenso: quiénes se fueron a la Primera Nacional en la Liga Argentina 2026",
-   "bajada": "",
-   "leer": "Tablas del descenso: quiénes se fueron a la Primera Nacional en la Liga Argentina 2026.",
-   "fuente": "TyC Sports",
-   "t": 1794185295000
+   "tema": "economía",
+   "titulo": "Luego que la ola azul tapara a Donald Trump, Wall Street retoma su programación habitual",
+   "bajada": "En una semana brutal, a Donald Trump lo tapó una gran ola azul y a Wall Street, un tsunami de números en rojo. ¿Y la economía? Sin problemas.",
+   "leer": "Luego que la ola azul tapara a Donald Trump, Wall Street retoma su programación habitual. En una semana brutal, a Donald Trump lo tapó una gran ola azul y a Wall Street, un tsunami de números en rojo. ¿Y la economía? Sin problemas.",
+   "fuente": "ambito.com",
+   "t": 1794193200000
   },
   {
    "tema": "política",
@@ -152,214 +352,6 @@
    "leer": "\"Mezquina\": el Gobierno criticó a la oposición por la lectura del discurso del Papa y apuntó contra Villarruel. El propio Javier Milei calificó los análisis sobre el mensaje de León XIV como \"una caricaturización malévola\" impulsada por la oposición política y el periodismo.",
    "fuente": "clarin.com",
    "t": 1794185229000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Confirmado: el rival de River en octavos del Clausura",
-   "bajada": "",
-   "leer": "Confirmado: el rival de River en octavos del Clausura.",
-   "fuente": "TyC Sports",
-   "t": 1794184803000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Se definieron los octavos del Torneo Clausura: los caminos de Boca y River y la única chance de Superclásico",
-   "bajada": "Las eliminatorias comenzarán el fin de semana del 21 y 22 de noviembre, una vez concluida la doble fecha FIFA. El encuentro decisivo del Torneo Clausura se disputará el 12 o 13 de diciembre en el renovado estadio Ciudad de La Plata.",
-   "leer": "Se definieron los octavos del Torneo Clausura: los caminos de Boca y River y la única chance de Superclásico. Las eliminatorias comenzarán el fin de semana del 21 y 22 de noviembre, una vez concluida la doble fecha FIFA. El encuentro decisivo del Torneo Clausura se disputará el 12 o 13 de diciembre en el renovado estadio Ciudad de La Plata.",
-   "fuente": "clarin.com",
-   "t": 1794184606000
-  },
-  {
-   "tema": "política",
-   "titulo": "El primer mensaje del Papa en la Argentina: el termómetro de aplausos, preocupación de los gobernadores y un protocolo a prueba",
-   "bajada": "Mandatarios provinciales, jueces de la Corte Suprema y diputados y senadores de todo el arco político escucharon el discurso de León XIV en el Palacio Libertad. Tanto referentes del oficialismo como representantes de la oposición interrumpieron con aplausos pasajes específicos del mensaje, según sus propias lecturas.",
-   "leer": "El primer mensaje del Papa en la Argentina: el termómetro de aplausos, preocupación de los gobernadores y un protocolo a prueba. Mandatarios provinciales, jueces de la Corte Suprema y diputados y senadores de todo el arco político escucharon el discurso de León XIV en el Palacio Libertad. Tanto referentes del oficialismo como representantes de la oposición interrumpieron con aplausos pasajes específicos del mensaje, según sus propias lecturas.",
-   "fuente": "clarin.com",
-   "t": 1794183925000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "River ya conoce a su rival para octavos y una certeza: jugará en el Monumental",
-   "bajada": "",
-   "leer": "River ya conoce a su rival para octavos y una certeza: jugará en el Monumental.",
-   "fuente": "ESPN Argentina",
-   "t": 1794183780000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Con la visita del Papa los empresarios llaman a una mesa amplia de diálogo con el Gobierno y los trabajadores",
-   "bajada": "Lo expresó el Grupo de los Seis que reúne a las principales entidades, desde la UIA, la Rural, los bancos, las Cámaras de Comercio y la Construcción y la Bolsa. La intención es acordar unas \"pocas bases\" que se sostengan más allá de cada Gobierno.",
-   "leer": "Con la visita del Papa los empresarios llaman a una mesa amplia de diálogo con el Gobierno y los trabajadores. Lo expresó el Grupo de los Seis que reúne a las principales entidades, desde la UIA, la Rural, los bancos, las Cámaras de Comercio y la Construcción y la Bolsa. La intención es acordar unas \"pocas bases\" que se sostengan más allá de cada Gobierno.",
-   "fuente": "clarin.com",
-   "t": 1794182984000
-  },
-  {
-   "tema": "política",
-   "titulo": "“No quiero poner al Santo Padre en el debate rastrero de la política local”: Milei evitó opinar sobre el discurso del Papa",
-   "bajada": "El Pontífice habló sobre temas ásperos para el Gobierno, como la universidad, la economía, los discapacitados y los límites al poder. \"Prefiero tener una visión que es mi opinión\", dijo el Presidente para evitar opinar.",
-   "leer": "“No quiero poner al Santo Padre en el debate rastrero de la política local”: Milei evitó opinar sobre el discurso del Papa. El Pontífice habló sobre temas ásperos para el Gobierno, como la universidad, la economía, los discapacitados y los límites al poder. \"Prefiero tener una visión que es mi opinión\", dijo el Presidente para evitar opinar.",
-   "fuente": "clarin.com",
-   "t": 1794182952000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Contramano y maniobra \"Superman\" en la Panamericana: la Provincia les suspendió la licencia a dos conductores",
-   "bajada": "Ocurrieron a la altura de Derqui y Pilar. Ambos conductores fueron registrados por cámaras de seguridad y sufrieron la suspensión preventiva de sus registros.",
-   "leer": "Contramano y maniobra \"Superman\" en la Panamericana: la Provincia les suspendió la licencia a dos conductores. Ocurrieron a la altura de Derqui y Pilar. Ambos conductores fueron registrados por cámaras de seguridad y sufrieron la suspensión preventiva de sus registros.",
-   "fuente": "clarin.com",
-   "t": 1794182931000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Escándalo con el CEO de Nvidia: la empresa abrió una investigación contra Jensen Huang por su amorío con una espía china",
-   "bajada": "En un mensaje a la empresa difundido este domingo, Huang reconoció que le fue infiel a su mujer. Hay temor de que Beijing haya obtenido información sensible vinculada a la empresa y sus chips para inteligencia artificial.",
-   "leer": "Escándalo con el CEO de Nvidia: la empresa abrió una investigación contra Jensen Huang por su amorío con una espía china. En un mensaje a la empresa difundido este domingo, Huang reconoció que le fue infiel a su mujer. Hay temor de que Beijing haya obtenido información sensible vinculada a la empresa y sus chips para inteligencia artificial.",
-   "fuente": "clarin.com",
-   "t": 1794182464000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La Natividad-La Dolfina sigue imparable: campeón de Tortugas, estiró su racha a 20 victorias al hilo y va por todo en Palermo",
-   "bajada": "El equipo de 40 goles de valoración derrotó por 16 a 10 a La Hache y conquistó su quinto título consecutivo. Con 20 victorias seguidas, la formación de Cañuelas mantuvo intacto el objetivo de ganar la Triple Corona por segundo año consecutivo.",
-   "leer": "La Natividad-La Dolfina sigue imparable: campeón de Tortugas, estiró su racha a 20 victorias al hilo y va por todo en Palermo. El equipo de 40 goles de valoración derrotó por 16 a 10 a La Hache y conquistó su quinto título consecutivo. Con 20 victorias seguidas, la formación de Cañuelas mantuvo intacto el objetivo de ganar la Triple Corona por segundo año consecutivo.",
-   "fuente": "clarin.com",
-   "t": 1794181242000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Semana corta en los mercados: el Gobierno enfrenta una rueda clave, tras las fuertes caídas en bonos y acciones",
-   "bajada": "El mercado de cambios y la bolsa reanudarán el miércoles tras los feriados por la visita del Papa. El riesgo país cerró en 939 puntos por el shock sobre los bonos en dólares. El Gobierno intervino, pero hubo efecto contagio sobre el mercado de pesos.",
-   "leer": "Semana corta en los mercados: el Gobierno enfrenta una rueda clave, tras las fuertes caídas en bonos y acciones. El mercado de cambios y la bolsa reanudarán el miércoles tras los feriados por la visita del Papa. El riesgo país cerró en 939 puntos por el shock sobre los bonos en dólares. El Gobierno intervino, pero hubo efecto contagio sobre el mercado de pesos.",
-   "fuente": "clarin.com",
-   "t": 1794179563000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El gobierno de Paraguay \"pesificará\" los depósitos en dólares atrapados en Ueno, pero el guaraní ya se devaluó un 10 por ciento",
-   "bajada": "El Banco Central devolverá en guaraníes los saldos en dólares de los ahorristas. Según explicaron, así está establecido en la legislación local que regula a la entidad, y que deberán hacerlo al tipo de cambio del día que cerró la entidad, el 2 de noviembre. Desde ese día, se devaluó un 10 por ciento.",
-   "leer": "El gobierno de Paraguay \"pesificará\" los depósitos en dólares atrapados en Ueno, pero el guaraní ya se devaluó un 10 por ciento. El Banco Central devolverá en guaraníes los saldos en dólares de los ahorristas. Según explicaron, así está establecido en la legislación local que regula a la entidad, y que deberán hacerlo al tipo de cambio del día que cerró la entidad, el 2 de noviembre. Desde ese día, se devaluó un 10 por ciento.",
-   "fuente": "clarin.com",
-   "t": 1794178395000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Manchester United sigue rompiendo récords (negativos): le hicieron dos goles en tres minutos, remontó un partido de locos y está en zona de descenso tras 40 años",
-   "bajada": "Los Diablos Rojos perdían 4 a 2 ante el Aston Villa pero lo igualaron con dos goles en tiempo de descuento. Por primera vez en cuatro décadas el equipo se ubica en posición de pérdida de categoría.",
-   "leer": "Manchester United sigue rompiendo récords (negativos): le hicieron dos goles en tres minutos, remontó un partido de locos y está en zona de descenso tras 40 años. Los Diablos Rojos perdían 4 a 2 ante el Aston Villa pero lo igualaron con dos goles en tiempo de descuento. Por primera vez en cuatro décadas el equipo se ubica en posición de pérdida de categoría.",
-   "fuente": "clarin.com",
-   "t": 1794178189000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Quién es quién en el encuentro más esperado por gremios y empresarios con el Papa",
-   "bajada": "Hay distintas instancias. Una más VIP en la carpa que estará mañana en el Monumento a los Españoles y otra más masiva a partir de las 14 en la UCA de Puerto Madero. Los asistentes y el mensaje que genera tanta expectativa.",
-   "leer": "Quién es quién en el encuentro más esperado por gremios y empresarios con el Papa. Hay distintas instancias. Una más VIP en la carpa que estará mañana en el Monumento a los Españoles y otra más masiva a partir de las 14 en la UCA de Puerto Madero. Los asistentes y el mensaje que genera tanta expectativa.",
-   "fuente": "clarin.com",
-   "t": 1794175577000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo y un detalle de la temporada 2026 pocas veces visto en un club de fútbol",
-   "bajada": "",
-   "leer": "San Lorenzo y un detalle de la temporada 2026 pocas veces visto en un club de fútbol.",
-   "fuente": "San Lorenzo Primero",
-   "t": 1794174379000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Quedó afuera por \"jugar sucio\": Independiente quedó excluido de las copas internacionales de 2027 por una tabla que nadie tenía en cuenta",
-   "bajada": "",
-   "leer": "Quedó afuera por \"jugar sucio\": Independiente quedó excluido de las copas internacionales de 2027 por una tabla que nadie tenía en cuenta.",
-   "fuente": "Gente de Salta",
-   "t": 1794169320000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "EL UNO POR UNO DE LOS QUE NO SIGUEN EN EL CLUB PARA EL 2027",
-   "bajada": "",
-   "leer": "EL UNO POR UNO DE LOS QUE NO SIGUEN EN EL CLUB PARA EL 2027.",
-   "fuente": "San Lorenzo Website",
-   "t": 1794166995000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Sylvester Stallone contó cómo terminó la feroz rivalidad de 20 años con Arnold Schwarzenegger: peleas, celos y una reconciliación inesperada",
-   "bajada": "Durante dos décadas, los actores compitieron por convertirse en las grandes estrellas del cine de acción de Hollywood. Ahora, el protagonista de Rocky reveló qué episodio puso fin a su enfrentamiento y cómo lograron convertirse en amigos.",
-   "leer": "Sylvester Stallone contó cómo terminó la feroz rivalidad de 20 años con Arnold Schwarzenegger: peleas, celos y una reconciliación inesperada. Durante dos décadas, los actores compitieron por convertirse en las grandes estrellas del cine de acción de Hollywood. Ahora, el protagonista de Rocky reveló qué episodio puso fin a su enfrentamiento y cómo lograron convertirse en amigos.",
-   "fuente": "clarin.com",
-   "t": 1794166495000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Estiman que la pobreza subió en el tercer trimestre y ya afecta a 16,2 millones de argentinos",
-   "bajada": "Se trata de un aumento de casi 3,4 millones más que en 2025 y se proyecta que, si continúa con el mismo ritmo de aumento, puede superar el nivel de la pandemia al cierre de 2027. Los datos se conocen en la previa de la visita del papa León XIV a la Argentina.",
-   "leer": "Estiman que la pobreza subió en el tercer trimestre y ya afecta a 16,2 millones de argentinos. Se trata de un aumento de casi 3,4 millones más que en 2025 y se proyecta que, si continúa con el mismo ritmo de aumento, puede superar el nivel de la pandemia al cierre de 2027. Los datos se conocen en la previa de la visita del papa León XIV a la Argentina.",
-   "fuente": "ambito.com",
-   "t": 1794165120000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "“Queremos que sepan que son aceptados”: Roze y su beso viral en la Marcha del Orgullo",
-   "bajada": "Rocco y Treze se sumaron a la 35° Marcha del Orgullo con un repertorio de cumbia, clásicos populares y danzas tradicionales argentinas. Los integrantes del dúo explicaron a Clarín el significado de sus looks y remarcaron la necesidad de visibilizar la lucha contra los discursos de odio.",
-   "leer": "“Queremos que sepan que son aceptados”: Roze y su beso viral en la Marcha del Orgullo. Rocco y Treze se sumaron a la 35° Marcha del Orgullo con un repertorio de cumbia, clásicos populares y danzas tradicionales argentinas. Los integrantes del dúo explicaron a Clarín el significado de sus looks y remarcaron la necesidad de visibilizar la lucha contra los discursos de odio.",
-   "fuente": "clarin.com",
-   "t": 1794164421000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "¡Confusión! Rosario festeja ser campeón, pero Boca Juniors ganó el título",
-   "bajada": "",
-   "leer": "¡Confusión! Rosario festeja ser campeón, pero Boca Juniors ganó el título.",
-   "fuente": "TUDN",
-   "t": 1794164340000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Tras la derrota de Trump, EEUU ratificó su apoyo a Milei, pero crecen las dudas sobre la asistencia financiera en 2027",
-   "bajada": "El embajador Peter Lamelas aseguró que el compromiso de Washington con la Argentina sigue firme pese al triunfo demócrata en las elecciones legislativas.",
-   "leer": "Tras la derrota de Trump, EEUU ratificó su apoyo a Milei, pero crecen las dudas sobre la asistencia financiera en 2027. El embajador Peter Lamelas aseguró que el compromiso de Washington con la Argentina sigue firme pese al triunfo demócrata en las elecciones legislativas.",
-   "fuente": "ambito.com",
-   "t": 1794164040000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Quién es Laufey, la cantante que puso a la generación TikTok a escuchar jazz y se convirtió en un fenómeno mundial",
-   "bajada": "Tiene 27 años, nació en Islandia y recuperó los sonidos de las grandes voces de los años 50 para conquistar a millones de jóvenes. Cómo pasó de estudiar música clásica a ganar dos premios Grammy y presentarse en algunos de los escenarios más importantes de la escena musical actual.",
-   "leer": "Quién es Laufey, la cantante que puso a la generación TikTok a escuchar jazz y se convirtió en un fenómeno mundial. Tiene 27 años, nació en Islandia y recuperó los sonidos de las grandes voces de los años 50 para conquistar a millones de jóvenes. Cómo pasó de estudiar música clásica a ganar dos premios Grammy y presentarse en algunos de los escenarios más importantes de la escena musical actual.",
-   "fuente": "clarin.com",
-   "t": 1794160930000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La Academia, el mejor lugar para aprender",
-   "bajada": "",
-   "leer": "La Academia, el mejor lugar para aprender.",
-   "fuente": "Racing Club",
-   "t": 1794155565000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Rosario recibirá a Ronnie Wood, histórico guitarrista de los Rolling Stones",
-   "bajada": "",
-   "leer": "Rosario recibirá a Ronnie Wood, histórico guitarrista de los Rolling Stones.",
-   "fuente": "La Capital",
-   "t": 1794152820000
-  },
-  {
-   "tema": "música",
-   "titulo": "Perjudiciales, a puro rock nacional en la Galería Jardín",
-   "bajada": "",
-   "leer": "Perjudiciales, a puro rock nacional en la Galería Jardín.",
-   "fuente": "noticiasmercedinas.com",
-   "t": 1794151477000
-  },
-  {
-   "tema": "clima",
-   "titulo": "El SMN confirmó alerta amarilla por 48 horas: fuertes lluvias, ráfagas de viento de hasta 100 km/h y probabilidad de granizo afectarán Santa Cruz y Tierra del Fuego",
-   "bajada": "",
-   "leer": "El SMN confirmó alerta amarilla por 48 horas: fuertes lluvias, ráfagas de viento de hasta 100 km/h y probabilidad de granizo afectarán Santa Cruz y Tierra del Fuego.",
-   "fuente": "El Cronista",
-   "t": 1794141513000
   }
  ]
 }
