@@ -1,56 +1,192 @@
 {
- "t": 1794353001686,
+ "t": 1794378178636,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Papa León XIV en la Argentina, EN VIVO: visita a la Catedral en Córdoba y todo sobre la vigilia joven en el Monumento de los Españoles",
-   "bajada": "El Sumo Pontífice concluyó su recorrido por la capital cordobesa con un encuentro con obispos y clérigos en la iglesia matriz de la provincia; en su última actividad del día, el Santo Padre encabeza un encuentro con jóvenes en Palermo.",
-   "leer": "El Sumo Pontífice concluyó su recorrido por la capital cordobesa con un encuentro con obispos y clérigos en la iglesia matriz de la provincia; en su última actividad del día, el Santo Padre encabeza un encuentro con jóvenes en Palermo.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794352788000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "“La juventud está muy necesitada”: tienen entre 15 y 35, y dan la bienvenida al Papa en la cita que él pidió expresamente",
-   "bajada": "Bajo el lema ¡Ánimo, levántate! Él te llama”, la vigilia tendrá a lo largo de la tarde y de la noche música en vivo, entrevistas, testimonios y un momento de oración.",
-   "leer": "“La juventud está muy necesitada”: tienen entre 15 y 35, y dan la bienvenida al Papa en la cita que él pidió expresamente. Bajo el lema ¡Ánimo, levántate! Él te llama”, la vigilia tendrá a lo largo de la tarde y de la noche música en vivo, entrevistas, testimonios y un momento de oración.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794352575000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Dispararon más de diez balazos contra un jardín de infantes, cerca de un búnker de venta de drogas",
-   "bajada": "Dos sicarios abrieron fuego contra el establecimiento situado en González Catán, en el partido de La Matanza; no hubo heridos.",
-   "leer": "Dispararon más de diez balazos contra un jardín de infantes, cerca de un búnker de venta de drogas. Dos sicarios abrieron fuego contra el establecimiento situado en González Catán, en el partido de La Matanza; no hubo heridos.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794352557000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Congresista republicana Salazar gana la reelección tras cuestionar deportaciones de Trump",
-   "bajada": "Miami (EE.UU.), 10 nov (EFE).- La congresista republicana estadounidense María Elvira Salazar ganó este martes su reelección por menos de 1.100 votos en Miami tras un polémico recuento y una campaña que alcanzó notoriedad nacional por cuestionar las deportaciones del presidente de Estados Unidos, Donald Trump.",
-   "leer": "Congresista republicana Salazar gana la reelección tras cuestionar deportaciones de Trump. Miami (EE.UU.), 10 nov (EFE).- La congresista republicana estadounidense María Elvira Salazar ganó este martes su reelección por menos de 1.100 votos en Miami tras un polémico recuento y una campaña que alcanzó notoriedad nacional por cuestionar las deportaciones del presidente de Estados Unidos, Donald Trump.",
+   "titulo": "Scott Bessent pidió por unas relaciones comerciales más equilibradas con China antes de las conversaciones entre Trump y Xi",
+   "bajada": "El titular del Tesoro estadounidense sostuvo en Nueva York que Washington debe disminuir su dependencia de las importaciones y China de sus exportaciones, en vísperas del encuentro previsto entre los mandatarios en Shenzhen la próxima semana.",
+   "leer": "Scott Bessent pidió por unas relaciones comerciales más equilibradas con China antes de las conversaciones entre Trump y Xi. El titular del Tesoro estadounidense sostuvo en Nueva York que Washington debe disminuir su dependencia de las importaciones y China de sus exportaciones, en vísperas del encuentro previsto entre los mandatarios en Shenzhen la próxima semana.",
    "fuente": "infobae.com",
-   "t": 1794352527000
+   "t": 1794377933000
   },
   {
    "tema": "actualidad",
-   "titulo": "Un millón de jóvenes asisten a la vigilia que encabezará el papa León XIV en el Monumento de los Españoles",
-   "bajada": "Fuentes del Gobierno confirmaron a Infobae la cantidad de asistentes en Palermo. El Sumo Pontífice cerrará así una jornada que comenzó en Córdoba, donde celebró una misa multitudinaria y mantuvo un encuentro con obispos, sacerdotes, diáconos, religiosos, religiosas, seminaristas y agentes pastorales.",
-   "leer": "Un millón de jóvenes asisten a la vigilia que encabezará el papa León XIV en el Monumento de los Españoles. Fuentes del Gobierno confirmaron a Infobae la cantidad de asistentes en Palermo. El Sumo Pontífice cerrará así una jornada que comenzó en Córdoba, donde celebró una misa multitudinaria y mantuvo un encuentro con obispos, sacerdotes, diáconos, religiosos, religiosas, seminaristas y agentes pastorales.",
+   "titulo": "Revelaron nuevos detalles del crimen del hombre mutilado en Bragado y los detenidos se negaron a declarar",
+   "bajada": "La víctima, de 27 años, era buscada desde el sábado tras una denuncia familiar. Tras una búsqueda por la zona, su cuerpo fue hallado en un canal.",
+   "leer": "Revelaron nuevos detalles del crimen del hombre mutilado en Bragado y los detenidos se negaron a declarar. La víctima, de 27 años, era buscada desde el sábado tras una denuncia familiar. Tras una búsqueda por la zona, su cuerpo fue hallado en un canal.",
    "fuente": "infobae.com",
-   "t": 1794352514000
+   "t": 1794377900000
   },
   {
    "tema": "actualidad",
-   "titulo": "Tribunal rechaza recurso de Hernán Bermúdez Requena para frenar posible extradición a Estados Unidos",
-   "bajada": "Los magistrados confirmaron el rechazo al amparo del exsecretario de Seguridad de Tabasco, al determinar que Estados Unidos todavía no ha solicitado formalmente su extradición.",
-   "leer": "Tribunal rechaza recurso de Hernán Bermúdez Requena para frenar posible extradición a Estados Unidos. Los magistrados confirmaron el rechazo al amparo del exsecretario de Seguridad de Tabasco, al determinar que Estados Unidos todavía no ha solicitado formalmente su extradición.",
+   "titulo": "Huelga general en España, en directo: UGT y CCOO hablan de “amplio seguimiento”, con piquetes en distintos sectores estratégicos",
+   "bajada": "Seguimos el primer paro del país en 14 años, a las puertas del inicio de la campaña electoral.",
+   "leer": "Seguimos el primer paro del país en 14 años, a las puertas del inicio de la campaña electoral.",
    "fuente": "infobae.com",
-   "t": 1794352436000
+   "t": 1794377861000
   },
   {
    "tema": "actualidad",
+   "titulo": "León XIV llamó a no arrodillarse ante ídolos como el dinero o la popularidad y habló de una Iglesia abierta",
+   "bajada": "En una emotiva y multitudinaria vigilia con jóvenes en Palermo, marcada por la alegría, el Papa convocó a ser solidarios, advirtió sobre el uso de redes sociales, escuchó testimonios, respondió preguntas, vio expresiones artísticas y cantó Alma Misionera; en su mensaje, citó palabras de Francisco e.",
+   "leer": "León XIV llamó a no arrodillarse ante ídolos como el dinero o la popularidad y habló de una Iglesia abierta. En una emotiva y multitudinaria vigilia con jóvenes en Palermo, marcada por la alegría, el Papa convocó a ser solidarios, advirtió sobre el uso de redes sociales, escuchó testimonios, respondió preguntas, vio expresiones artísticas y cantó Alma Misionera; en su mensaje, citó palabras de Francisco e.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794377397000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Javier Milei y sus medidas, EN VIVO: “Así somos imparables”, dijo Quirno sobre la visita del Papa",
+   "bajada": "El canciller le agradeció al Pontífice por su viaje a la Argentina y a los jóvenes del país; este miércoles, el Santo Padre continúa con su gira por Perú.",
+   "leer": "El canciller le agradeció al Pontífice por su viaje a la Argentina y a los jóvenes del país; este miércoles, el Santo Padre continúa con su gira por Perú.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794377270000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Andrés López Roldán, odontólogo, sobre el sangrado de encías: “No es un síntoma normal. Si no se trata, puede llevar a la pérdida de dientes”",
+   "bajada": "Cómo afecta y cuáles son los riesgos de la enfermedad periodontal . Las mejores formas de prevenir esta afección tan frecuente.",
+   "leer": "Andrés López Roldán, odontólogo, sobre el sangrado de encías: “No es un síntoma normal. Si no se trata, puede llevar a la pérdida de dientes”. Cómo afecta y cuáles son los riesgos de la enfermedad periodontal . Las mejores formas de prevenir esta afección tan frecuente.",
+   "fuente": "clarin.com",
+   "t": 1794376919000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Hay alerta amarilla por tormentas y vientos fuertes para este miércoles 11 de noviembre: las provincias afectadas",
+   "bajada": "El Servicio Meteorológico Nacional advirtió por condiciones adversas en distintas regiones; en la Ciudad y en Luján, donde estará el Papa, se esperan chaparrones.",
+   "leer": "Hay alerta amarilla por tormentas y vientos fuertes para este miércoles 11 de noviembre: las provincias afectadas. El Servicio Meteorológico Nacional advirtió por condiciones adversas en distintas regiones; en la Ciudad y en Luján, donde estará el Papa, se esperan chaparrones.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794376837000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "EEUU continúa las redadas migratorias pese a los comentarios de Trump tras la derrota republicana",
+   "bajada": "La política migratoria de Trump sigue firme tras el revés electoral republicano, con detenciones en hospitales y aeropuertos, generando críticas. A pesar de las promesas de diálogo, las operaciones del ICE no cesan, afectando a estudiantes y solicitantes de asilo, lo que provoca protestas y preocupación.",
+   "leer": "EEUU continúa las redadas migratorias pese a los comentarios de Trump tras la derrota republicana. La política migratoria de Trump sigue firme tras el revés electoral republicano, con detenciones en hospitales y aeropuertos, generando críticas. A pesar de las promesas de diálogo, las operaciones del ICE no cesan, afectando a estudiantes y solicitantes de asilo, lo que provoca protestas y preocupación.",
+   "fuente": "clarin.com",
+   "t": 1794376812000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Jaylen Brown y Jayson Tatum se muestran distanciados en 1ra visita de Celtics a 76ers tras canje",
+   "bajada": "El reencuentro entre los excompañeros de Boston, ahora rivales, marcó un duelo tenso en Filadelfia. Brown y Tatum, figuras clave en sus equipos, evitaron contacto y declaraciones antes del enfrentamiento, destacando la ruptura de su relación personal.",
+   "leer": "Jaylen Brown y Jayson Tatum se muestran distanciados en 1ra visita de Celtics a 76ers tras canje. El reencuentro entre los excompañeros de Boston, ahora rivales, marcó un duelo tenso en Filadelfia. Brown y Tatum, figuras clave en sus equipos, evitaron contacto y declaraciones antes del enfrentamiento, destacando la ruptura de su relación personal.",
+   "fuente": "clarin.com",
+   "t": 1794376805000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Recalculando: las cuentas que Independiente, San Lorenzo, Gimnasia (M), Unión y Platense hacen para meterse en playoffs",
+   "bajada": "",
+   "leer": "Recalculando: las cuentas que Independiente, San Lorenzo, Gimnasia (M), Unión y Platense hacen para meterse en playoffs.",
+   "fuente": "Olé",
+   "t": 1794374875000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "La Justicia brasileña multó a Meta por incumplir un trato igualitario entre Lula y Bolsonaro en el balotage de Brasil",
+   "bajada": "La sanción asciende a los 7,5 millones de reales, cerca de 1,3 millones de dólares. Antes de las elecciones, Lula había denunciado que había una \"manipulación algorítmica\" en favor de Flávio Bolsonaro.",
+   "leer": "La Justicia brasileña multó a Meta por incumplir un trato igualitario entre Lula y Bolsonaro en el balotage de Brasil. La sanción asciende a los 7,5 millones de reales, cerca de 1,3 millones de dólares. Antes de las elecciones, Lula había denunciado que había una \"manipulación algorítmica\" en favor de Flávio Bolsonaro.",
+   "fuente": "clarin.com",
+   "t": 1794372061000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "\"Tenía que llover\": cómo se vivió desde adentro el encuentro del Papa con los jóvenes y un épico final",
+   "bajada": "La lluvia le dio un clima especial a la vigilia en Palermo. Un sentimiento en común pareció invadir a todos los presentes en una noche llena de emociones.",
+   "leer": "\"Tenía que llover\": cómo se vivió desde adentro el encuentro del Papa con los jóvenes y un épico final. La lluvia le dio un clima especial a la vigilia en Palermo. Un sentimiento en común pareció invadir a todos los presentes en una noche llena de emociones.",
+   "fuente": "clarin.com",
+   "t": 1794367613000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Miércoles caótico: el Acceso Oeste, cerrado por completo durante 14 horas por la visita del papa León XIV a Luján",
+   "bajada": "El corte inició este miércoles a primera hora y afecta a ambos sentidos de la autopista, entre la avenida General Paz hasta la localidad bonaerense. La medida se tomó por el operativo de seguridad que conlleva con el cierre del sumo pontifice en el país.",
+   "leer": "Miércoles caótico: el Acceso Oeste, cerrado por completo durante 14 horas por la visita del papa León XIV a Luján. El corte inició este miércoles a primera hora y afecta a ambos sentidos de la autopista, entre la avenida General Paz hasta la localidad bonaerense. La medida se tomó por el operativo de seguridad que conlleva con el cierre del sumo pontifice en el país.",
+   "fuente": "clarin.com",
+   "t": 1794367587000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Bahía Blanca, Buenos Aires: el pronóstico del tiempo para este miércoles 11 noviembre de 2026",
+   "bajada": "",
+   "leer": "Clima hoy en Bahía Blanca, Buenos Aires: el pronóstico del tiempo para este miércoles 11 noviembre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1794366184000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Atención Estudiantes: más entradas para la final de la Libertadores",
+   "bajada": "El Pincha comunicó que se habilitaron nuevos tickets, que se pondrán a la venta este miércoles a las 17.00. Mirá la data.",
+   "leer": "Atención Estudiantes: más entradas para la final de la Libertadores. El Pincha comunicó que se habilitaron nuevos tickets, que se pondrán a la venta este miércoles a las 17.00. Mirá la data.",
+   "fuente": "ole.com.ar",
+   "t": 1794365144000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La respuesta de Ponzio cuando le preguntaron por la guerra de River con AFA y los arbitrajes polémicos",
+   "bajada": "",
+   "leer": "La respuesta de Ponzio cuando le preguntaron por la guerra de River con AFA y los arbitrajes polémicos.",
+   "fuente": "La Página Millonaria",
+   "t": 1794362596000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "El descargo del relator apuntado por el festejo fallido de Rosario Central en la definición del Torneo Clausura: \"Las redes son crueles\"",
+   "bajada": "Se trata de Jesús Emiliano, quien tenía a su cargo la transmisión de Radio 2 de Rosario y en redes sociales fue acusado de provocar la invasión de los hinchas en el estadio del \"Canalla\". Una posible anulación del gol de Enner Valencia fue lo que desembocó en la imagen surrealista que recorrió el mundo.",
+   "leer": "El descargo del relator apuntado por el festejo fallido de Rosario Central en la definición del Torneo Clausura: \"Las redes son crueles\". Se trata de Jesús Emiliano, quien tenía a su cargo la transmisión de Radio 2 de Rosario y en redes sociales fue acusado de provocar la invasión de los hinchas en el estadio del \"Canalla\". Una posible anulación del gol de Enner Valencia fue lo que desembocó en la imagen surrealista que recorrió el mundo.",
+   "fuente": "clarin.com",
+   "t": 1794362422000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Gallardo dio de baja a dos de los futbolistas que pidió Atlético Mineiro",
+   "bajada": "El Muñeco no contará, por cuestiones médicas, con Alan Minda y Alan Franco, dos jugadores que el rival de Boca en la final de la Sudamericana había reclamado que no estén con Ecuador.",
+   "leer": "Gallardo dio de baja a dos de los futbolistas que pidió Atlético Mineiro. El Muñeco no contará, por cuestiones médicas, con Alan Minda y Alan Franco, dos jugadores que el rival de Boca en la final de la Sudamericana había reclamado que no estén con Ecuador.",
+   "fuente": "ole.com.ar",
+   "t": 1794362352000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Saúl Durán: lo subieron a la Reserva de River y lo llamó la selección mayor de Costa Rica",
+   "bajada": "El arquero, de 19 años, fue promocionado para estar en el banco del Millo contra Rosario Central al mismo tiempo que el cuerpo técnico de los Ticos lo convocó para entrenarse con el plantel antes del partido con Argentina.",
+   "leer": "Saúl Durán: lo subieron a la Reserva de River y lo llamó la selección mayor de Costa Rica. El arquero, de 19 años, fue promocionado para estar en el banco del Millo contra Rosario Central al mismo tiempo que el cuerpo técnico de los Ticos lo convocó para entrenarse con el plantel antes del partido con Argentina.",
+   "fuente": "ole.com.ar",
+   "t": 1794360872000
+  },
+  {
+   "tema": "política",
+   "titulo": "El mensaje completo del Papa León XIV durante el encuentro con los jóvenes en Palermo",
+   "bajada": "El Papa se presentó ante más de un millón de personas en el Monumento de los Españoles. \"Vayan y anuncien\", pidió el pontífice a la juventud.",
+   "leer": "El mensaje completo del Papa León XIV durante el encuentro con los jóvenes en Palermo. El Papa se presentó ante más de un millón de personas en el Monumento de los Españoles. \"Vayan y anuncien\", pidió el pontífice a la juventud.",
+   "fuente": "clarin.com",
+   "t": 1794359051000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Atenas enfrenta a un San Lorenzo en crisis: hora, TV y cómo llegan al duelo de Liga Nacional",
+   "bajada": "",
+   "leer": "Atenas enfrenta a un San Lorenzo en crisis: hora, TV y cómo llegan al duelo de Liga Nacional.",
+   "fuente": "La Voz del Interior",
+   "t": 1794358093000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Sarmiento y Racing de Carhué se enfrentarán en un clásico por los cuartos de final del torneo de Veteranos",
+   "bajada": "",
+   "leer": "Sarmiento y Racing de Carhué se enfrentarán en un clásico por los cuartos de final del torneo de Veteranos.",
+   "fuente": "Cambio 2000",
+   "t": 1794357884000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Italia vs Los Pumas, por el Nations Championship: un duelo de urgencias y viejas historias que también salen a la cancha en Génova",
+   "bajada": "Gonzalo Quesada, ex Puma y actual entrenador de la Azzurra, volverá a cruzarse con Ledesma, reincorporado al staff argentino. Miotti, que no volvió a jugar para la Albiceleste desde 2022, eligió representar a los europeos, aunque no está confirmado para el sábado.",
+   "leer": "Italia vs Los Pumas, por el Nations Championship: un duelo de urgencias y viejas historias que también salen a la cancha en Génova. Gonzalo Quesada, ex Puma y actual entrenador de la Azzurra, volverá a cruzarse con Ledesma, reincorporado al staff argentino. Miotti, que no volvió a jugar para la Albiceleste desde 2022, eligió representar a los europeos, aunque no está confirmado para el sábado.",
+   "fuente": "clarin.com",
+   "t": 1794354643000
+  },
+  {
+   "tema": "deportes",
    "titulo": "La muerte de Marcos Camino: el lamento de su amado Colón de Santa Fe y el guiño viral que proyecta a Los Palmeras en la final de la Copa Sudamericana con Boca",
    "bajada": "Reconocido hincha del \"Sabalero\", el histórico acordeonista forjó un lazo con la pelota tras la presentación de la banda en la final de la Copa Sudamericana 2019, en Paraguay. Su partida se dio después de un guiño viral hacia los fanáticos de Boca de la banda de la que ya no formaba parte.",
    "leer": "La muerte de Marcos Camino: el lamento de su amado Colón de Santa Fe y el guiño viral que proyecta a Los Palmeras en la final de la Copa Sudamericana con Boca. Reconocido hincha del \"Sabalero\", el histórico acordeonista forjó un lazo con la pelota tras la presentación de la banda en la final de la Copa Sudamericana 2019, en Paraguay. Su partida se dio después de un guiño viral hacia los fanáticos de Boca de la banda de la que ya no formaba parte.",
@@ -58,23 +194,7 @@
    "t": 1794351311000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Independiente negocia la venta de Santi López en plena cuenta regresiva electoral",
-   "bajada": "A poco más de un mes para las elecciones en el Rojo, la dirigencia de Tigre abrió charlas para tratar de quedarse con el extremo de 20 años. Los detalles.",
-   "leer": "Independiente negocia la venta de Santi López en plena cuenta regresiva electoral. A poco más de un mes para las elecciones en el Rojo, la dirigencia de Tigre abrió charlas para tratar de quedarse con el extremo de 20 años. Los detalles.",
-   "fuente": "ole.com.ar",
-   "t": 1794351295000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Conmebol multó a Flamengo por la semi de la Copa Libertadores contra Estudiantes",
-   "bajada": "El Mengao, que reclamó pasar por escritorio, tendrá que desembolsar 36.000 dólares por distintas infracciones.",
-   "leer": "Conmebol multó a Flamengo por la semi de la Copa Libertadores contra Estudiantes. El Mengao, que reclamó pasar por escritorio, tendrá que desembolsar 36.000 dólares por distintas infracciones.",
-   "fuente": "ole.com.ar",
-   "t": 1794351153000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "el mundo",
    "titulo": "Quién es la mujer en el centro del escándalo de espionaje de Nvidia",
    "bajada": "Alice Huang, a quien la inteligencia estadounidense identificó como una agente china, surgió del pujante mundo de las finanzas de Shanghái para trabajar con gigantes tecnológicos y obtener chips de IA esenciales. La amante del CEO de Nvidia, Jensen Huang, que desató el escándalo y la investigación interna de la empresa.",
    "leer": "Quién es la mujer en el centro del escándalo de espionaje de Nvidia. Alice Huang, a quien la inteligencia estadounidense identificó como una agente china, surgió del pujante mundo de las finanzas de Shanghái para trabajar con gigantes tecnológicos y obtener chips de IA esenciales. La amante del CEO de Nvidia, Jensen Huang, que desató el escándalo y la investigación interna de la empresa.",
@@ -82,12 +202,20 @@
    "t": 1794351046000
   },
   {
-   "tema": "actualidad",
+   "tema": "economía",
    "titulo": "La inflación sigue viva y el Gobierno no termina de explicar cómo piensa matarla",
-   "bajada": "Este jueves el Indec publicará el dato de inflación de octubre. El mercado espera 1,8%. \"La desinflación lleva 14 meses estancada en 32% anual\", dice Miguel Angel Broda.",
-   "leer": "La inflación sigue viva y el Gobierno no termina de explicar cómo piensa matarla. Este jueves el Indec publicará el dato de inflación de octubre. El mercado espera 1,8%. \"La desinflación lleva 14 meses estancada en 32% anual\", dice Miguel Angel Broda.",
+   "bajada": "Este jueves el Indec publicará el dato de octubre. El mercado espera 1,8%. \"La desinflación lleva 14 meses estancada en 32% anual\", dice Miguel Angel Broda.",
+   "leer": "La inflación sigue viva y el Gobierno no termina de explicar cómo piensa matarla. Este jueves el Indec publicará el dato de octubre. El mercado espera 1,8%. \"La desinflación lleva 14 meses estancada en 32% anual\", dice Miguel Angel Broda.",
    "fuente": "clarin.com",
    "t": 1794351044000
+  },
+  {
+   "tema": "política",
+   "titulo": "Tras la derrota electoral de los republicanos, el vicepresidente de Trump suspendió su viaje a la Argentina",
+   "bajada": "J.D. Vance tenía previsto visitar el país a fines de noviembre como parte de una gira en la que también recorrería Colombia, Chile y República Dominicana.",
+   "leer": "Tras la derrota electoral de los republicanos, el vicepresidente de Trump suspendió su viaje a la Argentina. J.D. Vance tenía previsto visitar el país a fines de noviembre como parte de una gira en la que también recorrería Colombia, Chile y República Dominicana.",
+   "fuente": "clarin.com",
+   "t": 1794350547000
   },
   {
    "tema": "fútbol",
@@ -98,44 +226,20 @@
    "t": 1794350522000
   },
   {
-   "tema": "fútbol",
-   "titulo": "A qué Uruguay se va a enfrentar Argentina",
-   "bajada": "La Celeste llega con el técnico Diego Forlán como interino: se mantiene la base. Olé consultó a Gregorio Pérez, quien valoró la calidad del plantel y que hay un nuevo entusiasmo en los jugadores y los hinchas.",
-   "leer": "A qué Uruguay se va a enfrentar Argentina. La Celeste llega con el técnico Diego Forlán como interino: se mantiene la base. Olé consultó a Gregorio Pérez, quien valoró la calidad del plantel y que hay un nuevo entusiasmo en los jugadores y los hinchas.",
-   "fuente": "ole.com.ar",
-   "t": 1794350069000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Caso Ueno bank: la Fiscalía de Paraguay aclaró que la supuesta bóveda en la casa de Santiago Peña es una sala de pánico vacía",
-   "bajada": "La fiscal Silvia González detalló que el espacio reforzado descubierto en la casa valuada en más de un millón de dólares no presentaba signos de uso previo. Desde el Regimiento de Escolta Presidencial, el ex jefe de Estado le indicó a la comitiva judicial dónde se encontraba la llave para concretar la apertura.",
-   "leer": "Caso Ueno bank: la Fiscalía de Paraguay aclaró que la supuesta bóveda en la casa de Santiago Peña es una sala de pánico vacía. La fiscal Silvia González detalló que el espacio reforzado descubierto en la casa valuada en más de un millón de dólares no presentaba signos de uso previo. Desde el Regimiento de Escolta Presidencial, el ex jefe de Estado le indicó a la comitiva judicial dónde se encontraba la llave para concretar la apertura.",
+   "tema": "espectáculos",
+   "titulo": "Marcos Camino, el hombre que le puso su acordeón a la fiesta de Los Palmeras",
+   "bajada": "Fue uno de los fundadores y el gran director musical de la banda santafesina. Murió este martes a los 76 años. Durante más de 50 años construyó un sonido inconfundible. Su historia estuvo marcada por la pasión, el trabajo y la exigencia.",
+   "leer": "Marcos Camino, el hombre que le puso su acordeón a la fiesta de Los Palmeras. Fue uno de los fundadores y el gran director musical de la banda santafesina. Murió este martes a los 76 años. Durante más de 50 años construyó un sonido inconfundible. Su historia estuvo marcada por la pasión, el trabajo y la exigencia.",
    "fuente": "clarin.com",
-   "t": 1794349815000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La fiesta terminó: la decisión de Arruabarrena en la vuelta a las prácticas en Boca Predio",
-   "bajada": "",
-   "leer": "La fiesta terminó: la decisión de Arruabarrena en la vuelta a las prácticas en Boca Predio.",
-   "fuente": "Olé",
-   "t": 1794349740000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Willian Pacho elogió a Enner Valencia por su título con Boca Juniors y palpitó la nueva fecha FIFA",
-   "bajada": "",
-   "leer": "Willian Pacho elogió a Enner Valencia por su título con Boca Juniors y palpitó la nueva fecha FIFA.",
-   "fuente": "ESPN Argentina",
-   "t": 1794348960000
+   "t": 1794350302000
   },
   {
    "tema": "política",
-   "titulo": "Seguirá detenido el hombre acusado de amenazar de muerte al Papa León XIV",
-   "bajada": "Fue indagado este martes y negó haber realizado el llamado anónimo. “Voy a matar al Papa”, dijo al 911. Declaró que algún compañero de trabajo pudo sacarle el teléfono y se hará un cotejo de voz.",
-   "leer": "Seguirá detenido el hombre acusado de amenazar de muerte al Papa León XIV. Fue indagado este martes y negó haber realizado el llamado anónimo. “Voy a matar al Papa”, dijo al 911. Declaró que algún compañero de trabajo pudo sacarle el teléfono y se hará un cotejo de voz.",
+   "titulo": "Murió Ximena de Tezanos Pinto, la famosa \"vecina de arriba\" de Cristina Kirchner",
+   "bajada": "En 2025, había anunciado en sus redes que estaba atravesando una grave enfermedad. La mujer se había hecho conocida por desplegar banderas críticas contra la ex presidenta cuando vivía en un piso de Juncal y Uruguay.",
+   "leer": "Murió Ximena de Tezanos Pinto, la famosa \"vecina de arriba\" de Cristina Kirchner. En 2025, había anunciado en sus redes que estaba atravesando una grave enfermedad. La mujer se había hecho conocida por desplegar banderas críticas contra la ex presidenta cuando vivía en un piso de Juncal y Uruguay.",
    "fuente": "clarin.com",
-   "t": 1794348210000
+   "t": 1794349963000
   },
   {
    "tema": "música",
@@ -146,20 +250,12 @@
    "t": 1794348151000
   },
   {
-   "tema": "política",
-   "titulo": "Tras la postergación de la ONU, una comitiva de \"Cristina Libre\" se reunió con congresistas demócratas en Estados Unidos",
-   "bajada": "La delegación, integrada por Jorge Taiana, Vanesa Siley, Delfina Rossi y Franco Metaza, mantuvo un encuentro con Pramila Jayapal y Jesús \"Chuy\" García en Washington.",
-   "leer": "Tras la postergación de la ONU, una comitiva de \"Cristina Libre\" se reunió con congresistas demócratas en Estados Unidos. La delegación, integrada por Jorge Taiana, Vanesa Siley, Delfina Rossi y Franco Metaza, mantuvo un encuentro con Pramila Jayapal y Jesús \"Chuy\" García en Washington.",
-   "fuente": "clarin.com",
-   "t": 1794347071000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Rusia lanzó un estudio con 7.000 primates para cumplir los sueños de \"vida eterna\" de Vladimir Putin",
-   "bajada": "Uno de los centros de investigación estatal más importantes del país explora formas de alargar la esperanza de vida saludable. Este asunto es una prioridad para el Kremlin. El Estado destina fondos millonarios a trabajos de genética, medicina nuclear y otras tecnologías asociadas a la salud.",
-   "leer": "Rusia lanzó un estudio con 7.000 primates para cumplir los sueños de \"vida eterna\" de Vladimir Putin. Uno de los centros de investigación estatal más importantes del país explora formas de alargar la esperanza de vida saludable. Este asunto es una prioridad para el Kremlin. El Estado destina fondos millonarios a trabajos de genética, medicina nuclear y otras tecnologías asociadas a la salud.",
-   "fuente": "clarin.com",
-   "t": 1794346826000
+   "tema": "fútbol",
+   "titulo": "Boca volvió a los entrenamientos con dos diferenciados y un esperado regreso",
+   "bajada": "",
+   "leer": "Boca volvió a los entrenamientos con dos diferenciados y un esperado regreso.",
+   "fuente": "TyC Sports",
+   "t": 1794347419000
   },
   {
    "tema": "economía",
@@ -170,14 +266,6 @@
    "t": 1794346385000
   },
   {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo prepara un 2027 para jugar con juveniles",
-   "bajada": "",
-   "leer": "San Lorenzo prepara un 2027 para jugar con juveniles.",
-   "fuente": "sanlorenzowebsite.com.ar",
-   "t": 1794346161000
-  },
-  {
    "tema": "economía",
    "titulo": "El futuro de la Trumponomics: ¿acuerdo o fracaso?",
    "bajada": "Con los demócratas al frente de ambas cámaras del Congreso, Donald Trump podría verse obligado a negociar parte de su agenda económica. El gasto público, los aranceles, la política migratoria y la regulación de la inteligencia artificial aparecen entre los principales temas de discusión.",
@@ -186,36 +274,12 @@
    "t": 1794346020000
   },
   {
-   "tema": "política",
-   "titulo": "Tras la visita del Papa, el Gobierno apura el debate por el Presupuesto aunque entre los aliados aumentan las dudas",
-   "bajada": "El oficialismo reunirá este jueves a los presidentes de los bloques dialoguistas para intentar adelantar la sesión al 18 de noviembre. Desde la oposición aseguran que sigue sin definirse el tema de la emergencia en Discapacidad y el pago de la deuda con la Ciudad.",
-   "leer": "Tras la visita del Papa, el Gobierno apura el debate por el Presupuesto aunque entre los aliados aumentan las dudas. El oficialismo reunirá este jueves a los presidentes de los bloques dialoguistas para intentar adelantar la sesión al 18 de noviembre. Desde la oposición aseguran que sigue sin definirse el tema de la emergencia en Discapacidad y el pago de la deuda con la Ciudad.",
-   "fuente": "clarin.com",
-   "t": 1794345265000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "La inesperada polémica en Bayern Múnich por la salud de Jamal Musiala y su millonario contrato",
-   "bajada": "El extremo alemán se descompensó en pleno campo de juego durante la pretemporada y asustó al mundo del fútbol. Fue \"crisis de ausencia causadas por una disfunción neurológica\", que no representaba un riesgo para su salud. Una leyenda del club puso en duda cómo volverá a jugar.",
-   "leer": "La inesperada polémica en Bayern Múnich por la salud de Jamal Musiala y su millonario contrato. El extremo alemán se descompensó en pleno campo de juego durante la pretemporada y asustó al mundo del fútbol. Fue \"crisis de ausencia causadas por una disfunción neurológica\", que no representaba un riesgo para su salud. Una leyenda del club puso en duda cómo volverá a jugar.",
-   "fuente": "clarin.com",
-   "t": 1794344514000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El puesto maldito: los tres volantes que busca River Plate para rescatar su fútbol",
+   "tema": "tránsito",
+   "titulo": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján",
    "bajada": "",
-   "leer": "El puesto maldito: los tres volantes que busca River Plate para rescatar su fútbol.",
-   "fuente": "Sitio Andino",
-   "t": 1794344460000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Atacaron a balazos una radio en Caleta Olivia: hubo más de 16 tiros y los disparos llegaron hasta la sala de controles",
-   "bajada": "Se trata de la emisora El Caletense, ubicada en la localidad del norte santacruceño. El gobernador de Santa Cruz, Claudio Vidal, condenó el hecho. El medio de comunicación denunció que los quieren \"silenciar\".",
-   "leer": "Atacaron a balazos una radio en Caleta Olivia: hubo más de 16 tiros y los disparos llegaron hasta la sala de controles. Se trata de la emisora El Caletense, ubicada en la localidad del norte santacruceño. El gobernador de Santa Cruz, Claudio Vidal, condenó el hecho. El medio de comunicación denunció que los quieren \"silenciar\".",
-   "fuente": "clarin.com",
-   "t": 1794344447000
+   "leer": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján.",
+   "fuente": "MercedesYA",
+   "t": 1794344036000
   },
   {
    "tema": "economía",
@@ -226,12 +290,12 @@
    "t": 1794343620000
   },
   {
-   "tema": "sociedad",
-   "titulo": "Duchas por $ 20 mil, recarga de celulares y lockers: todo lo que ofrecen los vecinos de Luján por la llegada del Papa",
-   "bajada": "La gente improvisó servicios para los miles de fieles que llegaron a la ciudad. El Municipio espera más de un millón de visitantes para la última misa del Papa en la Argentina.",
-   "leer": "Duchas por $ 20 mil, recarga de celulares y lockers: todo lo que ofrecen los vecinos de Luján por la llegada del Papa. La gente improvisó servicios para los miles de fieles que llegaron a la ciudad. El Municipio espera más de un millón de visitantes para la última misa del Papa en la Argentina.",
-   "fuente": "clarin.com",
-   "t": 1794343237000
+   "tema": "fútbol",
+   "titulo": "Qué hay detrás de la ausencia de Abaldo y cuál será su futuro en Independiente",
+   "bajada": "",
+   "leer": "Qué hay detrás de la ausencia de Abaldo y cuál será su futuro en Independiente.",
+   "fuente": "TyC Sports",
+   "t": 1794342607000
   },
   {
    "tema": "economía",
@@ -240,14 +304,6 @@
    "leer": "Fuerte suba del precio internacional de la soja por un informe de un organismo de Estados Unidos. Tras la publicación del informe de oferta y demanda mundial de granos (Wasde) del Departamento de Agricultura de Estados Unidos (USDA), la oleaginosa recuperó parte de lo perdido en las últimas sesiones del mercado de Chicago.",
    "fuente": "clarin.com",
    "t": 1794341140000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Sacco exige explicaciones por el pasivo millonario de Independiente",
-   "bajada": "",
-   "leer": "Sacco exige explicaciones por el pasivo millonario de Independiente.",
-   "fuente": "Diario El Norte - San Nicolás",
-   "t": 1794340932000
   },
   {
    "tema": "espectáculos",
@@ -266,14 +322,6 @@
    "t": 1794338580000
   },
   {
-   "tema": "deportes",
-   "titulo": "Arrancó la era pos-Messi: cómo fue el primer entrenamiento en Ezeiza, el posible equipo ante Uruguay y qué se sabe de la renovación de Scaloni",
-   "bajada": "El plantel nacional puso en marcha sus entrenamientos en Ezeiza de cara al clásico frente a Uruguay en la Bombonera. Esta etapa marca el inicio formal de las prácticas sin la presencia de Lionel Messi en el campo de juego.",
-   "leer": "Arrancó la era pos-Messi: cómo fue el primer entrenamiento en Ezeiza, el posible equipo ante Uruguay y qué se sabe de la renovación de Scaloni. El plantel nacional puso en marcha sus entrenamientos en Ezeiza de cara al clásico frente a Uruguay en la Bombonera. Esta etapa marca el inicio formal de las prácticas sin la presencia de Lionel Messi en el campo de juego.",
-   "fuente": "clarin.com",
-   "t": 1794338333000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Primer cimbronazo de la fusión Paramount y Warner Bros: decapitaron a James Gunn al frente de DC Studios y lo reemplaza un ex Marvel",
    "bajada": "Gunn estuvo cuatro años al frente del estudio, tras pasar de Marvel, donde había dirigido las tres \"Guardianes de la galaxia\". El flamante conglomerado bautizado Skydance prevé ahorros por miles de millones de dólares.",
@@ -290,44 +338,12 @@
    "t": 1794335905000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "A 40 años de \"La La La\", Fito Páez dio una sorpresa en pleno homenaje al disco que grabó con Spinetta",
-   "bajada": "El músico rosarino tocó el piano y cantó algunas de las canciones del álbum de 1986. El encuentro tuvo invitados especiales y fue una celebración que cruzó generaciones.",
-   "leer": "A 40 años de \"La La La\", Fito Páez dio una sorpresa en pleno homenaje al disco que grabó con Spinetta. El músico rosarino tocó el piano y cantó algunas de las canciones del álbum de 1986. El encuentro tuvo invitados especiales y fue una celebración que cruzó generaciones.",
-   "fuente": "clarin.com",
-   "t": 1794335828000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Ponzio y una concentración de 48 horas en Pilar para poner a punto a su River: doble turno y dos jugadores a recuperar",
-   "bajada": "El plantel de River estará concentrado en Pilar este miércoles y jueves para completar jornadas de trabajo en doble turno. Además, el equipo disputará el sábado un amistoso a puertas cerradas contra Gimnasia La Plata en el Monumental para mantener el ritmo futbolístico.",
-   "leer": "Ponzio y una concentración de 48 horas en Pilar para poner a punto a su River: doble turno y dos jugadores a recuperar. El plantel de River estará concentrado en Pilar este miércoles y jueves para completar jornadas de trabajo en doble turno. Además, el equipo disputará el sábado un amistoso a puertas cerradas contra Gimnasia La Plata en el Monumental para mantener el ritmo futbolístico.",
-   "fuente": "clarin.com",
-   "t": 1794333716000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El secreto de Caputo: por qué sigue tranquilo el dólar mientras se dispara el riesgo país y hasta cuándo puede durar la calma",
-   "bajada": "El dólar minorista tuvo una leve suba y se mantiene en torno a $ 1.570. El Banco Central desvió la demanda hacia bonos cortos y redujo la emisión de pesos. El costo oculto de las medidas y las advertencias de los economistas.",
-   "leer": "El secreto de Caputo: por qué sigue tranquilo el dólar mientras se dispara el riesgo país y hasta cuándo puede durar la calma. El dólar minorista tuvo una leve suba y se mantiene en torno a $ 1.570. El Banco Central desvió la demanda hacia bonos cortos y redujo la emisión de pesos. El costo oculto de las medidas y las advertencias de los economistas.",
-   "fuente": "clarin.com",
-   "t": 1794330365000
-  },
-  {
    "tema": "clima",
    "titulo": "Alerta amarilla por fuertes vientos: habrá zonas donde las ráfagas superarán los 90 km/h",
    "bajada": "",
    "leer": "Alerta amarilla por fuertes vientos: habrá zonas donde las ráfagas superarán los 90 km/h.",
    "fuente": "Crónica",
    "t": 1794326700000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los tres jugadores que pierde Racing para el amistoso con Colo Colo",
-   "bajada": "",
-   "leer": "Los tres jugadores que pierde Racing para el amistoso con Colo Colo.",
-   "fuente": "TyC Sports",
-   "t": 1794326433000
   },
   {
    "tema": "fútbol",
@@ -338,28 +354,20 @@
    "t": 1794324488000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Independiente, el rival en 8vos. del Clausura -",
-   "bajada": "",
-   "leer": "Independiente, el rival en 8vos. del Clausura -.",
-   "fuente": "Argentinos Pasión",
-   "t": 1794324211000
-  },
-  {
-   "tema": "tránsito",
-   "titulo": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján",
-   "bajada": "",
-   "leer": "Cortan el Acceso Oeste por la visita del Papa: cómo viajar de Mercedes a Capital sin pasar por Luján.",
-   "fuente": "MercedesYA",
-   "t": 1794322187000
-  },
-  {
    "tema": "recitales",
    "titulo": "Don Osvaldo anunció su primer show de 2027: cuándo toca y cómo conseguir entradas",
    "bajada": "",
    "leer": "Don Osvaldo anunció su primer show de 2027: cuándo toca y cómo conseguir entradas.",
    "fuente": "En Agenda",
    "t": 1794321718000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La agenda del Boca campeón de cara a los próximos partidos clave",
+   "bajada": "",
+   "leer": "La agenda del Boca campeón de cara a los próximos partidos clave.",
+   "fuente": "Olé",
+   "t": 1794321411000
   },
   {
    "tema": "recitales",
@@ -376,22 +384,6 @@
    "leer": "Anthropic, la dueña de Claude, apunta a recaudar más que el récord de SpaceX en su salida a la Bolsa. Fijó el valor de sus acciones entre US$ 70 y 78, lo que le daría un valor de mercado de US$ 1 billón o hasta US$ 1,4 billones si se cuentan las acciones que venderán los empleados y otros colocadores privados.",
    "fuente": "clarin.com",
    "t": 1794314154000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Avanzan chaparrones y tormentas desde Córdoba y Cuyo hacia Buenos Aires y el sur del Litoral: cómo sigue la semana",
-   "bajada": "",
-   "leer": "Avanzan chaparrones y tormentas desde Córdoba y Cuyo hacia Buenos Aires y el sur del Litoral: cómo sigue la semana.",
-   "fuente": "Meteored Argentina",
-   "t": 1794312493000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Nvidia, el gigante tecnológico envuelto en un escándalo de romance y espionaje: qué hace y por qué es clave para la IA",
-   "bajada": "La investigación sobre su CEO, Jensen Huang, puso a la compañía en el centro de la escena. Sus procesadores impulsan herramientas como ChatGPT y los modelos más avanzados de inteligencia artificial. Cómo pasó de fabricar placas de video a convertirse en una de las empresas más valiosas del mundo.",
-   "leer": "Nvidia, el gigante tecnológico envuelto en un escándalo de romance y espionaje: qué hace y por qué es clave para la IA. La investigación sobre su CEO, Jensen Huang, puso a la compañía en el centro de la escena. Sus procesadores impulsan herramientas como ChatGPT y los modelos más avanzados de inteligencia artificial. Cómo pasó de fabricar placas de video a convertirse en una de las empresas más valiosas del mundo.",
-   "fuente": "clarin.com",
-   "t": 1794300347000
   }
  ]
 }
