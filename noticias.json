@@ -1,56 +1,216 @@
 {
- "t": 1794609520124,
+ "t": 1794626251630,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Estos robots humanoides ya manipulan componentes en fábricas de computadoras",
-   "bajada": "El entrenamiento del robot Gallop combina demostraciones humanas grabadas con cámaras, simulación y práctica en realidad virtual.",
-   "leer": "Estos robots humanoides ya manipulan componentes en fábricas de computadoras. El entrenamiento del robot Gallop combina demostraciones humanas grabadas con cámaras, simulación y práctica en realidad virtual.",
-   "fuente": "infobae.com",
-   "t": 1794609215000
+   "titulo": "Reelección de intendentes: globo de ensayo y moneda de cambio",
+   "bajada": "Ante la imposibilidad de conseguir los votos para cambiar la ley que impide perpetuarse en el poder, crecen las presiones y el toma y daca en la Legislatura bonaerense.",
+   "leer": "Reelección de intendentes: globo de ensayo y moneda de cambio. Ante la imposibilidad de conseguir los votos para cambiar la ley que impide perpetuarse en el poder, crecen las presiones y el toma y daca en la Legislatura bonaerense.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794625800000
   },
   {
    "tema": "actualidad",
-   "titulo": "Aeropuerto de CDMX informa sobre afectaciones de vuelos desde y hacia EEUU",
-   "bajada": "El AICM pide a pasajeros verificar su vuelo luego de que la autoridad aérea estadounidense ordenara detener todos los despegues.",
-   "leer": "Aeropuerto de CDMX informa sobre afectaciones de vuelos desde y hacia EEUU. El AICM pide a pasajeros verificar su vuelo luego de que la autoridad aérea estadounidense ordenara detener todos los despegues.",
-   "fuente": "infobae.com",
-   "t": 1794609206000
+   "titulo": "Una carta inédita muestra a un Cortázar con ideas liberales",
+   "bajada": "Una misiva que el autor de Rayuela le envió a un candidato a presidente de la Nación en 1943 refleja posiciones políticas de las que el escritor luego se alejaría.",
+   "leer": "Una carta inédita muestra a un Cortázar con ideas liberales. Una misiva que el autor de Rayuela le envió a un candidato a presidente de la Nación en 1943 refleja posiciones políticas de las que el escritor luego se alejaría.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794625800000
   },
   {
    "tema": "actualidad",
-   "titulo": "Suspensión de vuelos en Estados Unidos EN VIVO: investigan una falla en el sistema de control del tráfico aéreo",
-   "bajada": "La Administración Federal de Aviación ordenó mantener en tierra todas las aeronaves que todavía no despegaron por motivos de seguridad. Los vuelos internacionales serán evaluados caso por caso.",
-   "leer": "La Administración Federal de Aviación ordenó mantener en tierra todas las aeronaves que todavía no despegaron por motivos de seguridad. Los vuelos internacionales serán evaluados caso por caso.",
+   "titulo": "¡Gracias Francisco, qué Papa nos dejaste!",
+   "bajada": "La visita León XIV a nuestro país, además de tratarse de un hecho histórico, fue para todos los argentinos un hecho conmovedor.",
+   "leer": "¡Gracias Francisco, qué Papa nos dejaste!. La visita León XIV a nuestro país, además de tratarse de un hecho histórico, fue para todos los argentinos un hecho conmovedor.",
+   "fuente": "lanacion.com.ar",
+   "t": 1794625740000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Marine Le Pen se mostró dispuesta a reunirse con Zelensky pese a su rechazo a financiar a Ucrania",
+   "bajada": "La dirigente ultraderechista, favorita en los sondeos para las presidenciales francesas de 2027, planteó que el encuentro podría celebrarse en Bruselas y adelantó que hablará sobre esa posibilidad con el embajador ucraniano en París.",
+   "leer": "Marine Le Pen se mostró dispuesta a reunirse con Zelensky pese a su rechazo a financiar a Ucrania. La dirigente ultraderechista, favorita en los sondeos para las presidenciales francesas de 2027, planteó que el encuentro podría celebrarse en Bruselas y adelantó que hablará sobre esa posibilidad con el embajador ucraniano en París.",
    "fuente": "infobae.com",
-   "t": 1794609194000
+   "t": 1794625733000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Desde daños en propiedad ajena a enfrentamientos con montachoques: el historial de acusaciones de Ari Telch por el que ya fue denunciado",
+   "bajada": "Las nuevas polémicas se suman a los conflictos matrimoniales y por su hija Sofía, narrados por su exesposa Ninel Conde.",
+   "leer": "Desde daños en propiedad ajena a enfrentamientos con montachoques: el historial de acusaciones de Ari Telch por el que ya fue denunciado. Las nuevas polémicas se suman a los conflictos matrimoniales y por su hija Sofía, narrados por su exesposa Ninel Conde.",
+   "fuente": "infobae.com",
+   "t": 1794625691000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Francia negocia aumentos salariales para 5,8 millones de empleados públicos tras años de reclamos",
+   "bajada": "El primer ministro Sébastien Lecornu anunció una ronda de conversaciones de un mes con los sindicatos, que amenazan con una huelga para el 17 de noviembre.",
+   "leer": "Francia negocia aumentos salariales para 5,8 millones de empleados públicos tras años de reclamos. El primer ministro Sébastien Lecornu anunció una ronda de conversaciones de un mes con los sindicatos, que amenazan con una huelga para el 17 de noviembre.",
+   "fuente": "infobae.com",
+   "t": 1794625593000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este sábado 14 noviembre de 2026",
+   "bajada": "",
+   "leer": "Clima hoy en la Ciudad de Buenos Aires: el pronóstico del tiempo para este sábado 14 noviembre de 2026.",
+   "fuente": "Clarín",
+   "t": 1794625384000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Lisandro Martínez: \"nos hacen dos goles por errores nuestros\" y su actualidad en el Manchester",
+   "bajada": "Luego de la derrota con Uruguay, el defensor se expresó en zona mixta. Analizó el partido y dejó una frase sobre su actualidad en los Diablos Rojos.",
+   "leer": "Lisandro Martínez: \"nos hacen dos goles por errores nuestros\" y su actualidad en el Manchester. Luego de la derrota con Uruguay, el defensor se expresó en zona mixta. Analizó el partido y dejó una frase sobre su actualidad en los Diablos Rojos.",
+   "fuente": "ole.com.ar",
+   "t": 1794623941000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Scaloni: \"No podemos pretender que los jóvenes se pongan el equipo al hombro\"",
+   "bajada": "El técnico de la Selección consideró que el equipo no hizo un mal partido en la caída por 2-1 ante Uruguay. Y se refirió a la baja convocatoria de público: \"La gente va a venir porque es incondicional\".",
+   "leer": "Scaloni: \"No podemos pretender que los jóvenes se pongan el equipo al hombro\". El técnico de la Selección consideró que el equipo no hizo un mal partido en la caída por 2-1 ante Uruguay. Y se refirió a la baja convocatoria de público: \"La gente va a venir porque es incondicional\".",
+   "fuente": "ole.com.ar",
+   "t": 1794622507000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Primera victoria para Gallardo en Ecuador",
+   "bajada": "El equipo del Muñeco ganó 2 a 0 ante Costa Rica, con goles de Jordy Caicedo y Moisés Caicedo. Jugó Angelo Preciado, el lateral que Atlético Mineiro había pedido que no estuviera.",
+   "leer": "Primera victoria para Gallardo en Ecuador. El equipo del Muñeco ganó 2 a 0 ante Costa Rica, con goles de Jordy Caicedo y Moisés Caicedo. Jugó Angelo Preciado, el lateral que Atlético Mineiro había pedido que no estuviera.",
+   "fuente": "ole.com.ar",
+   "t": 1794622162000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La formación de Boca vs. Banfield, por la Copa Argentina",
+   "bajada": "",
+   "leer": "La formación de Boca vs. Banfield, por la Copa Argentina.",
+   "fuente": "TyC Sports",
+   "t": 1794620053000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El 1x1 de la Selección contra Uruguay: la conducción de Enzo, la resurrección de Julián Alvarez y el punto más flojo de la derrota contra Uruguay",
+   "bajada": "La Albiceleste volvió a tropezar contra la Celeste en La Bombonera, en pleno recambio de futbolistas y en su primer encuentro sin Lionel Messi. Los puntajes de Clarín.",
+   "leer": "El 1x1 de la Selección contra Uruguay: la conducción de Enzo, la resurrección de Julián Alvarez y el punto más flojo de la derrota contra Uruguay. La Albiceleste volvió a tropezar contra la Celeste en La Bombonera, en pleno recambio de futbolistas y en su primer encuentro sin Lionel Messi. Los puntajes de Clarín.",
+   "fuente": "clarin.com",
+   "t": 1794620041000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "José Luis Manzano suma un nuevo rubro a su imperio: se queda con Burger King en la Argentina",
+   "bajada": "A través de Integra Capital sumará los más de 100 locales de la cadena de hamburguesas. Busca hacer sinergia con las estaciones de servicios de Shell, como YPF con McDonald's.",
+   "leer": "José Luis Manzano suma un nuevo rubro a su imperio: se queda con Burger King en la Argentina. A través de Integra Capital sumará los más de 100 locales de la cadena de hamburguesas. Busca hacer sinergia con las estaciones de servicios de Shell, como YPF con McDonald's.",
+   "fuente": "clarin.com",
+   "t": 1794619839000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Suspensión de vuelos en EEUU desata caos",
+   "bajada": "Una falla de comunicaciones paralizó el tráfico aéreo en EE.UU., dejando a miles de pasajeros varados. Autoridades descartan ataque malicioso. La suspensión, similar a la de enero 2023, generó caos y confusión en aeropuertos, mientras el gobierno busca modernizar el sistema aéreo.",
+   "leer": "Suspensión de vuelos en EEUU desata caos. Una falla de comunicaciones paralizó el tráfico aéreo en EE.UU., dejando a miles de pasajeros varados. Autoridades descartan ataque malicioso. La suspensión, similar a la de enero 2023, generó caos y confusión en aeropuertos, mientras el gobierno busca modernizar el sistema aéreo.",
+   "fuente": "clarin.com",
+   "t": 1794619215000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Abren las inscripciones al programa \"Terminá la escuela en casa\"",
+   "bajada": "",
+   "leer": "Abren las inscripciones al programa \"Terminá la escuela en casa\".",
+   "fuente": "www.riverplate.com",
+   "t": 1794619088000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing cerró el año con otro papelón: perdió contra los suplentes de Colo Colo",
+   "bajada": "",
+   "leer": "Racing cerró el año con otro papelón: perdió contra los suplentes de Colo Colo.",
+   "fuente": "El Primer Grande",
+   "t": 1794617472000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Trueno confirmó su regreso a la Argentina con un show en 2027: cuándo comprar las entradas",
+   "bajada": "",
+   "leer": "Trueno confirmó su regreso a la Argentina con un show en 2027: cuándo comprar las entradas.",
+   "fuente": "Minutouno",
+   "t": 1794614520000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing cerró el año perdiendo contra Colo Colo",
+   "bajada": "",
+   "leer": "Racing cerró el año perdiendo contra Colo Colo.",
+   "fuente": "Racing de Alma",
+   "t": 1794614202000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La demanda de pesos que sigue el BCRA cayó en octubre, pero hubo señales positivas: ¿arranca la remonetización?",
+   "bajada": "Mientras el circulante y los plazos fijos crecieron, los depósitos a la vista arrojaron una importante contracción. Asimismo, el crédito en pesos tuvo una leve mejora, pero no así en los préstamos para el consumo.",
+   "leer": "Mientras el circulante y los plazos fijos crecieron, los depósitos a la vista arrojaron una importante contracción. Asimismo, el crédito en pesos tuvo una leve mejora, pero no así en los préstamos para el consumo.",
+   "fuente": "ambito.com",
+   "t": 1794611580000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Suspensión de vuelos en EE. UU.: cómo impacta la medida en las salidas desde la Argentina",
+   "bajada": "Las reprogramaciones para los trayectos con destino a Miami y Dallas fluctúan entre una y seis horas. No se reportan cancelaciones en las partidas nocturnas hacia suelo norteamericano.",
+   "leer": "Suspensión de vuelos en EE. UU.: cómo impacta la medida en las salidas desde la Argentina. Las reprogramaciones para los trayectos con destino a Miami y Dallas fluctúan entre una y seis horas. No se reportan cancelaciones en las partidas nocturnas hacia suelo norteamericano.",
+   "fuente": "clarin.com",
+   "t": 1794611570000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La Bombonera semivacía y con tribunas cerradas: la indiferencia de los hinchas con la Selección en el primer partido post Messi",
+   "bajada": "La información oficial es que se habían vendido apenas 24 mil boletos. La ausencia del capitán y los precios elevados, algunos de los motivos.",
+   "leer": "La Bombonera semivacía y con tribunas cerradas: la indiferencia de los hinchas con la Selección en el primer partido post Messi. La información oficial es que se habían vendido apenas 24 mil boletos. La ausencia del capitán y los precios elevados, algunos de los motivos.",
+   "fuente": "clarin.com",
+   "t": 1794611498000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Desesperada búsqueda de un operario desaparecido tras la explosión en Remedios de Escalada",
+   "bajada": "La familia de Marcelo García difundió su foto y pidió ayuda a la comunidad a través de las redes sociales. También realizaron la denuncia correspondiente ante la Policía. Trabaja en MetroGAS desde hace varios años, contaron sus sobrinos a Clarín.",
+   "leer": "Desesperada búsqueda de un operario desaparecido tras la explosión en Remedios de Escalada. La familia de Marcelo García difundió su foto y pidió ayuda a la comunidad a través de las redes sociales. También realizaron la denuncia correspondiente ante la Policía. Trabaja en MetroGAS desde hace varios años, contaron sus sobrinos a Clarín.",
+   "fuente": "clarin.com",
+   "t": 1794611316000
+  },
+  {
+   "tema": "política",
+   "titulo": "El momento de Patricia y por qué no da marcha atrás",
+   "bajada": "La senadora continúa marcando diferencias con el Gobierno y presiona por cambios. En su entorno consideran que si no hay mejoras en la economía puede volver el kirchnerismo. Avisan que no se irá.",
+   "leer": "El momento de Patricia y por qué no da marcha atrás. La senadora continúa marcando diferencias con el Gobierno y presiona por cambios. En su entorno consideran que si no hay mejoras en la economía puede volver el kirchnerismo. Avisan que no se irá.",
+   "fuente": "clarin.com",
+   "t": 1794611131000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing goleó 5 a 1 a Independiente en el clásico de Avellaneda y le dio una chance más a Unión",
+   "bajada": "",
+   "leer": "Racing goleó 5 a 1 a Independiente en el clásico de Avellaneda y le dio una chance más a Unión.",
+   "fuente": "El Litoral",
+   "t": 1794611082000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Una fiesta popular recibió al Papa en Chiclayo, Perú, donde fue obispo durante siete años",
+   "bajada": "Un aluvión de gente, con banderas y los retratos del pontífice, saludó a León en la humilde ciudad peruana Fue uno de los momentos mas sensible de la gira Misa y crítica al paradigma tecnocrático.",
+   "leer": "Una fiesta popular recibió al Papa en Chiclayo, Perú, donde fue obispo durante siete años. Un aluvión de gente, con banderas y los retratos del pontífice, saludó a León en la humilde ciudad peruana Fue uno de los momentos mas sensible de la gira Misa y crítica al paradigma tecnocrático.",
+   "fuente": "clarin.com",
+   "t": 1794609318000
   },
   {
    "tema": "fútbol",
    "titulo": "Femenino: San Lorenzo sufrió una dura derrota ante Unión",
    "bajada": "",
    "leer": "Femenino: San Lorenzo sufrió una dura derrota ante Unión.",
-   "fuente": "sanlorenzowebsite.com.ar",
+   "fuente": "San Lorenzo Website",
    "t": 1794609177000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Jennifer Aniston, actriz: “Habría dado cualquier cosa si alguien me hubiera dicho que congele mis óvulos; el tren ya pasó”",
-   "bajada": "Durante años, millones de personas opinaron sobre por qué Jennifer Aniston no tenía hijos. Lo que casi nadie sabía era que, en privado, llevaba tiempo intentando quedar embarazada.",
-   "leer": "Jennifer Aniston, actriz: “Habría dado cualquier cosa si alguien me hubiera dicho que congele mis óvulos; el tren ya pasó”. Durante años, millones de personas opinaron sobre por qué Jennifer Aniston no tenía hijos. Lo que casi nadie sabía era que, en privado, llevaba tiempo intentando quedar embarazada.",
-   "fuente": "clarin.com",
-   "t": 1794608926000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "\"Hizo lo que cualquiera hubiera hecho en su lugar\": la defensa de Pity Álvarez pidió su absolución",
-   "bajada": "Los abogados del músico realizaron este viernes un extenso alegato ante el Tribunal Oral en lo Criminal (TOC) 29 a cargo del debate. Plantearon la nulidad del juicio y que se trató de un caso de legítima defensa. Cuándo serán las últimas palabras del acusado y se dará a conocer el veredicto.",
-   "leer": "\"Hizo lo que cualquiera hubiera hecho en su lugar\": la defensa de Pity Álvarez pidió su absolución. Los abogados del músico realizaron este viernes un extenso alegato ante el Tribunal Oral en lo Criminal (TOC) 29 a cargo del debate. Plantearon la nulidad del juicio y que se trató de un caso de legítima defensa. Cuándo serán las últimas palabras del acusado y se dará a conocer el veredicto.",
-   "fuente": "clarin.com",
-   "t": 1794608805000
-  },
-  {
-   "tema": "actualidad",
+   "tema": "el mundo",
    "titulo": "\"Esto no es otro 11 de septiembre\": Estados Unidos afirmó que la suspensión de despegues aéreos no se debe a un ataque terrorista",
    "bajada": "Lo dijo el secretario de Seguridad Nacional de Estados Unidos, Markwayne Mullin, en medio de la paranoia que se generó tras la cancelación de todos los vuelos. La administración Federal de Aviación suspendió los despegues en aeropuertos de todo el país, medida que se había tomado tras el ataque a las Torres Gemelas.",
    "leer": "\"Esto no es otro 11 de septiembre\": Estados Unidos afirmó que la suspensión de despegues aéreos no se debe a un ataque terrorista. Lo dijo el secretario de Seguridad Nacional de Estados Unidos, Markwayne Mullin, en medio de la paranoia que se generó tras la cancelación de todos los vuelos. La administración Federal de Aviación suspendió los despegues en aeropuertos de todo el país, medida que se había tomado tras el ataque a las Torres Gemelas.",
@@ -58,68 +218,60 @@
    "t": 1794608611000
   },
   {
-   "tema": "actualidad",
-   "titulo": "A los 93 años, murió la historietista Martha Barnes, pionera del cómic en la Argentina",
-   "bajada": "A partir de la década de 1950, colaboró para revistas de gran tirada como “Intervalo” y “El Tony”, para DC Comics en Estados Unidos y LA NACION.",
-   "leer": "A los 93 años, murió la historietista Martha Barnes, pionera del cómic en la Argentina. A partir de la década de 1950, colaboró para revistas de gran tirada como “Intervalo” y “El Tony”, para DC Comics en Estados Unidos y LA NACION.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794608581000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El pedido desgarrador de la familia de uno de los operarios de Metrogas que está desaparecido tras la explosión",
-   "bajada": "Marcelo García se encontraba trabajando en la obra cuando ocurrió el incidente; sus seres queridos lo buscaron en los hospitales de la zona sin éxito.",
-   "leer": "El pedido desgarrador de la familia de uno de los operarios de Metrogas que está desaparecido tras la explosión. Marcelo García se encontraba trabajando en la obra cuando ocurrió el incidente; sus seres queridos lo buscaron en los hospitales de la zona sin éxito.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794608413000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Pilar Sordo explica por qué sentirse incómodo es parte de crecer",
-   "bajada": "La psicóloga chilena analizó el impacto del diálogo interno en la salud mental; reflexionó sobre el duelo y la necesidad de habitar el presente con conciencia de la finitud.",
-   "leer": "Pilar Sordo explica por qué sentirse incómodo es parte de crecer. La psicóloga chilena analizó el impacto del diálogo interno en la salud mental; reflexionó sobre el duelo y la necesidad de habitar el presente con conciencia de la finitud.",
-   "fuente": "lanacion.com.ar",
-   "t": 1794608400000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Videos: lo mejor de la previa del partido entre la Selección y Uruguay",
-   "bajada": "La Scaloneta recibe a la Celeste en La Bombonera, por el primer amistoso de la fecha FIFA. Acá, lo más destacado de los momentos previos al cruce.",
-   "leer": "Videos: lo mejor de la previa del partido entre la Selección y Uruguay. La Scaloneta recibe a la Celeste en La Bombonera, por el primer amistoso de la fecha FIFA. Acá, lo más destacado de los momentos previos al cruce.",
-   "fuente": "ole.com.ar",
-   "t": 1794607588000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Goleada clásica: Racing fue mucho más que Independiente en el Cilindro",
-   "bajada": "",
-   "leer": "Goleada clásica: Racing fue mucho más que Independiente en el Cilindro.",
-   "fuente": "DeporTV",
-   "t": 1794607140000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Estudiantes se clasificó a la Recopa de Campeones: cuándo se juega y el picante partido que tendrá ante Central",
-   "bajada": "Al ganar la Supercopa Argentina, el Pincha se aseguró un lugar en el triangular que también tiene al Canalla y se sumará el campeón de la Copa Argentina.",
-   "leer": "Estudiantes se clasificó a la Recopa de Campeones: cuándo se juega y el picante partido que tendrá ante Central. Al ganar la Supercopa Argentina, el Pincha se aseguró un lugar en el triangular que también tiene al Canalla y se sumará el campeón de la Copa Argentina.",
-   "fuente": "ole.com.ar",
-   "t": 1794607076000
-  },
-  {
    "tema": "recitales",
    "titulo": "El Indio Solari y el anuncio en sus redes: qué hay detrás del mensaje que emociona a sus fanáticos, recuerda un recital histórico y nombra a una ciudad",
    "bajada": "",
    "leer": "El Indio Solari y el anuncio en sus redes: qué hay detrás del mensaje que emociona a sus fanáticos, recuerda un recital histórico y nombra a una ciudad.",
    "fuente": "El Destape",
-   "t": 1794606883000
+   "t": 1794606874000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Video: el insólito doble blooper de Grecia en la goleada de Países Bajos",
-   "bajada": "Mavropanos cometió dos errores que le costaron a los griegos la apertura del marcador. Para colmo, terminaron recibiendo una estrepitosa derrota como visitante.",
-   "leer": "Video: el insólito doble blooper de Grecia en la goleada de Países Bajos. Mavropanos cometió dos errores que le costaron a los griegos la apertura del marcador. Para colmo, terminaron recibiendo una estrepitosa derrota como visitante.",
-   "fuente": "ole.com.ar",
-   "t": 1794605983000
+   "tema": "política",
+   "titulo": "Dura reacción del fiscal Luciani a la revelación de que Lázaro Báez seguía alquilando sus propiedades embargadas",
+   "bajada": "El fiscal del juicio de Vialidad pidió \"medidas urgentes\" para que se custodien los bienes confiscados que el empresario K estaba alquilando de manera irregular.",
+   "leer": "Dura reacción del fiscal Luciani a la revelación de que Lázaro Báez seguía alquilando sus propiedades embargadas. El fiscal del juicio de Vialidad pidió \"medidas urgentes\" para que se custodien los bienes confiscados que el empresario K estaba alquilando de manera irregular.",
+   "fuente": "clarin.com",
+   "t": 1794605926000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "De faltazos al colegio a vigilias bajo el sol: la fiesta de los hinchas de Boca en la previa del choque con Banfield en Mendoza por la Copa Argentina",
+   "bajada": "La delegación arribó a la capital cuyana para disputar la semifinal, este sábado a las 19. Una multitud afrontó una jornada de 36 grados y largas horas de espera en la puerta del hotel para conseguir fotos y autógrafos del plantel.",
+   "leer": "De faltazos al colegio a vigilias bajo el sol: la fiesta de los hinchas de Boca en la previa del choque con Banfield en Mendoza por la Copa Argentina. La delegación arribó a la capital cuyana para disputar la semifinal, este sábado a las 19. Una multitud afrontó una jornada de 36 grados y largas horas de espera en la puerta del hotel para conseguir fotos y autógrafos del plantel.",
+   "fuente": "clarin.com",
+   "t": 1794605890000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Se conoció la sanción deportiva para Jesús Owono, el arquero que le aplicó el golpe mortal a Jesús de Miguel en España",
+   "bajada": "El Comité de Disciplina de la RFEF sancionó con 12 partidos a Jesús Owono por la violenta acción que le provocó la muerte a Jesús de Miguel. El club Andorra decidió no recurrir el fallo y aceptó de forma absoluta el castigo aplicado a su futbolista.",
+   "leer": "Se conoció la sanción deportiva para Jesús Owono, el arquero que le aplicó el golpe mortal a Jesús de Miguel en España. El Comité de Disciplina de la RFEF sancionó con 12 partidos a Jesús Owono por la violenta acción que le provocó la muerte a Jesús de Miguel. El club Andorra decidió no recurrir el fallo y aceptó de forma absoluta el castigo aplicado a su futbolista.",
+   "fuente": "clarin.com",
+   "t": 1794605557000
+  },
+  {
+   "tema": "política",
+   "titulo": "\"Sacar a Sánchez del poder y terminar de una vez con el maldito socialismo\": Javier Milei envió un video a Santiago Abascal en el arranque de la campaña electoral en España",
+   "bajada": "El presidente libertario se sumó a un coro de referentes de la derecha mundial para apoyar al candidato de VOX. Volvió a cargar contra el presidente socialista Pedro Sánchez, tal como hizo en sus últimos dos viajes a ese país.",
+   "leer": "\"Sacar a Sánchez del poder y terminar de una vez con el maldito socialismo\": Javier Milei envió un video a Santiago Abascal en el arranque de la campaña electoral en España. El presidente libertario se sumó a un coro de referentes de la derecha mundial para apoyar al candidato de VOX. Volvió a cargar contra el presidente socialista Pedro Sánchez, tal como hizo en sus últimos dos viajes a ese país.",
+   "fuente": "clarin.com",
+   "t": 1794605485000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Compraron por US$ 20 millones una mina de oro y plata en Santa Cruz y buscan reabrirla en 2027",
+   "bajada": "Cerrado Gold le compró Manantial Espejo a Pan American Silver. Minera Don Nicolás, la filial argentina, financiará la operación y la puesta en marcha. El Gobierno de Santa Cruz estima que la reapertura podría generar 300 empleos directos.",
+   "leer": "Compraron por US$ 20 millones una mina de oro y plata en Santa Cruz y buscan reabrirla en 2027. Cerrado Gold le compró Manantial Espejo a Pan American Silver. Minera Don Nicolás, la filial argentina, financiará la operación y la puesta en marcha. El Gobierno de Santa Cruz estima que la reapertura podría generar 300 empleos directos.",
+   "fuente": "clarin.com",
+   "t": 1794603888000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Plazo fijo: cuánto debés invertir para ganar $200.000",
+   "bajada": "La diferencia entre entidades modifica el capital inicial necesario para alcanzar ese rendimiento en una colocación tradicional de 30 días.",
+   "leer": "Plazo fijo: cuánto debés invertir para ganar $200.000. La diferencia entre entidades modifica el capital inicial necesario para alcanzar ese rendimiento en una colocación tradicional de 30 días.",
+   "fuente": "ambito.com",
+   "t": 1794603600000
   },
   {
    "tema": "economía",
@@ -128,14 +280,6 @@
    "leer": "Salarios: en lo que va del año, pierden frente a la inflación. El salario privado registrado registra una baja real del 2,9% en relación con igual periodo de 2025. En el caso del sector público nacional la pérdida real es 6,4% y en el provincial 1,8%.",
    "fuente": "clarin.com",
    "t": 1794601471000
-  },
-  {
-   "tema": "política",
-   "titulo": "Vialidad II: por otra condena, Martín Báez, el hijo de Lázaro Báez, recibió una pena unificada de 7 años y 9 meses de prisión",
-   "bajada": "El Tribunal Oral Federal 2 le impuso una pena de tres años de prisión que se unificó con otra condena por lavado de dinero, en un juicio abreviado. También extendieron el decomiso de casi 685 mil millones de pesos.",
-   "leer": "Vialidad II: por otra condena, Martín Báez, el hijo de Lázaro Báez, recibió una pena unificada de 7 años y 9 meses de prisión. El Tribunal Oral Federal 2 le impuso una pena de tres años de prisión que se unificó con otra condena por lavado de dinero, en un juicio abreviado. También extendieron el decomiso de casi 685 mil millones de pesos.",
-   "fuente": "clarin.com",
-   "t": 1794601028000
   },
   {
    "tema": "clima",
@@ -154,12 +298,12 @@
    "t": 1794599878000
   },
   {
-   "tema": "deportes",
-   "titulo": "Boca vs Atlético Mineiro: la Conmebol confirmó al árbitro de la final de la Copa Sudamericana y habrá mayoría uruguaya",
-   "bajada": "Andrés Matonte será el encargado de dirigir el partido decisivo que se disputará en Barranquilla dentro de ocho días. El uruguayo estará acompañado por sus compatriotas Nicolás Tarán y Andrés Nievas, mientras que Antonio García será el responsable del VAR.",
-   "leer": "Boca vs Atlético Mineiro: la Conmebol confirmó al árbitro de la final de la Copa Sudamericana y habrá mayoría uruguaya. Andrés Matonte será el encargado de dirigir el partido decisivo que se disputará en Barranquilla dentro de ocho días. El uruguayo estará acompañado por sus compatriotas Nicolás Tarán y Andrés Nievas, mientras que Antonio García será el responsable del VAR.",
+   "tema": "espectáculos",
+   "titulo": "El Festival de Mar del Plata y un Borges \"diferente\"",
+   "bajada": "Este sábado \"Borges and Me\" será la película de clausura. Entrevista al cineasta Marc Turtletaub, quien cuenta lo que aspira que suceda con el público argentino.",
+   "leer": "El Festival de Mar del Plata y un Borges \"diferente\". Este sábado \"Borges and Me\" será la película de clausura. Entrevista al cineasta Marc Turtletaub, quien cuenta lo que aspira que suceda con el público argentino.",
    "fuente": "clarin.com",
-   "t": 1794599771000
+   "t": 1794599742000
   },
   {
    "tema": "fútbol",
@@ -170,22 +314,6 @@
    "t": 1794598672000
   },
   {
-   "tema": "deportes",
-   "titulo": "Fox Sports dejará de emitirse en Argentina: cuándo será el cierre y qué pasará con Telemétrico y las transmisiones de la Fórmula 1",
-   "bajada": "La señal deportiva bajará definitivamente la persiana el 31 de enero de 2027, después de cinco años de funcionamiento bajo la órbita de Mediapro. Los trabajadores ya fueron notificados. Qué hay detrás de la decisión y cómo puede afectar a los fanáticos del automovilismo.",
-   "leer": "Fox Sports dejará de emitirse en Argentina: cuándo será el cierre y qué pasará con Telemétrico y las transmisiones de la Fórmula 1. La señal deportiva bajará definitivamente la persiana el 31 de enero de 2027, después de cinco años de funcionamiento bajo la órbita de Mediapro. Los trabajadores ya fueron notificados. Qué hay detrás de la decisión y cómo puede afectar a los fanáticos del automovilismo.",
-   "fuente": "clarin.com",
-   "t": 1794598140000
-  },
-  {
-   "tema": "política",
-   "titulo": "Duro revés para Ariel Vallejo, el financista cercano al Chiqui Tapia: el Banco Central dio de baja la billetera virtual de Sur Finanzas",
-   "bajada": "La entidad regulatoria descubrió que la financiera había declarado no tener operaciones, pese a que registró movimientos por 400 mil millones de pesos en los últimos meses. El empresario está procesado, con prisión domiciliaria, por lavado de dinero y asociación ilícita.",
-   "leer": "Duro revés para Ariel Vallejo, el financista cercano al Chiqui Tapia: el Banco Central dio de baja la billetera virtual de Sur Finanzas. La entidad regulatoria descubrió que la financiera había declarado no tener operaciones, pese a que registró movimientos por 400 mil millones de pesos en los últimos meses. El empresario está procesado, con prisión domiciliaria, por lavado de dinero y asociación ilícita.",
-   "fuente": "clarin.com",
-   "t": 1794597993000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Las tres claves para entender la hipotética (e increíble) clasificación de Independiente a la Sudamericana",
    "bajada": "",
@@ -194,34 +322,18 @@
    "t": 1794597699000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Operación Vivaldi: la trastienda del plan con el que Ucrania hizo retroceder a Rusia",
-   "bajada": "Tras meses de hermetismo, los comandantes ucranianos permitieron que periodistas del New York Times ingresaran en los búnkers y campos de entrenamiento. Aquí, los detalles de una ofensiva que llevó meses y dio vuelta el partido en la crucial región de Donetsk.",
-   "leer": "Operación Vivaldi: la trastienda del plan con el que Ucrania hizo retroceder a Rusia. Tras meses de hermetismo, los comandantes ucranianos permitieron que periodistas del New York Times ingresaran en los búnkers y campos de entrenamiento. Aquí, los detalles de una ofensiva que llevó meses y dio vuelta el partido en la crucial región de Donetsk.",
-   "fuente": "clarin.com",
-   "t": 1794597687000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Máxima de los Países Bajos hizo historia: se convirtió en la primera reina consorte en recibir formación militar",
-   "bajada": "Tras un exigente entrenamiento militar incluyó manejo de armas y pruebas físicas, la economista nacida en Argentina fue ascendida a teniente coronel.",
-   "leer": "Máxima de los Países Bajos hizo historia: se convirtió en la primera reina consorte en recibir formación militar. Tras un exigente entrenamiento militar incluyó manejo de armas y pruebas físicas, la economista nacida en Argentina fue ascendida a teniente coronel.",
-   "fuente": "clarin.com",
-   "t": 1794596770000
-  },
-  {
    "tema": "música",
    "titulo": "Se inauguró la exposición Una que sepamos todos. Partituras del rock nacional que hicieron historia",
    "bajada": "",
    "leer": "Se inauguró la exposición Una que sepamos todos. Partituras del rock nacional que hicieron historia.",
    "fuente": "Biblioteca Nacional Mariano Moreno",
-   "t": 1794595909000
+   "t": 1794595887000
   },
   {
    "tema": "economía",
-   "titulo": "Buenos Aires: la provincia laudó un aumento en la tarifa del transporte de granos por encima de lo pedido por los transportistas y estalló la bronca del campo",
-   "bajada": "Así lo denunciaron Carbap, Coninagro y el Centro de Acopiadores. La propuesta de incremento de las entidades agropecuarias era del 11,5%, mientras que las cámaras transportistas pidieron el 15%. Finalmente, el gobierno bonaerense laudó un 16%.",
-   "leer": "Buenos Aires: la provincia laudó un aumento en la tarifa del transporte de granos por encima de lo pedido por los transportistas y estalló la bronca del campo. Así lo denunciaron Carbap, Coninagro y el Centro de Acopiadores. La propuesta de incremento de las entidades agropecuarias era del 11,5%, mientras que las cámaras transportistas pidieron el 15%. Finalmente, el gobierno bonaerense laudó un 16%.",
+   "titulo": "Polémica en Buenos Aires: entidades denunciaron que la provincia laudó un aumento en la tarifa de carga de granos por encima de lo pedido por los transportistas, pero el gobierno de Kicillof lo niega",
+   "bajada": "Así lo denunciaron Carbap, Coninagro y el Centro de Acopiadores. Según las entidades, la propuesta de incremento por parte de las mismas era del 11,5%, mientras que las cámaras transportistas pidieron el 15%, porcentaje que el Ministerio de Transporte desmiente.",
+   "leer": "Polémica en Buenos Aires: entidades denunciaron que la provincia laudó un aumento en la tarifa de carga de granos por encima de lo pedido por los transportistas, pero el gobierno de Kicillof lo niega. Así lo denunciaron Carbap, Coninagro y el Centro de Acopiadores. Según las entidades, la propuesta de incremento por parte de las mismas era del 11,5%, mientras que las cámaras transportistas pidieron el 15%, porcentaje que el Ministerio de Transporte desmiente.",
    "fuente": "clarin.com",
    "t": 1794595025000
   },
@@ -234,68 +346,12 @@
    "t": 1794594877000
   },
   {
-   "tema": "fútbol",
-   "titulo": "River vs. Inter Miami: qué se sabe de la venta de entradas para el amistoso en el Monumental",
-   "bajada": "",
-   "leer": "River vs. Inter Miami: qué se sabe de la venta de entradas para el amistoso en el Monumental.",
-   "fuente": "La Nación",
-   "t": 1794593880000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Terror en la casa del arquero argentino Matías Dituro en Elche: tres encapuchados entraron a robarle cuando llegaba con sus hijos",
-   "bajada": "El futbolista del Elche denunció que cuatro delincuentes participaron del asalto a su vivienda. Llegó en auto con sus hijos de 6 y 8 años cuando los ladrones todavía estaban en el interior. “Fueron unos minutos de auténtico terror que nunca olvidaremos”, contó.",
-   "leer": "Terror en la casa del arquero argentino Matías Dituro en Elche: tres encapuchados entraron a robarle cuando llegaba con sus hijos. El futbolista del Elche denunció que cuatro delincuentes participaron del asalto a su vivienda. Llegó en auto con sus hijos de 6 y 8 años cuando los ladrones todavía estaban en el interior. “Fueron unos minutos de auténtico terror que nunca olvidaremos”, contó.",
-   "fuente": "clarin.com",
-   "t": 1794593546000
-  },
-  {
-   "tema": "política",
-   "titulo": "Contrapunto entre la ex canciller de Macri y diplomáticos por la candidatura a la ONU de Rafael Grossi",
-   "bajada": "Susana Malcorra sacó una carta con más de treinta ex ministros en la que respaldaron la candidatura de la costarricense Rebeca Gryspan.",
-   "leer": "Contrapunto entre la ex canciller de Macri y diplomáticos por la candidatura a la ONU de Rafael Grossi. Susana Malcorra sacó una carta con más de treinta ex ministros en la que respaldaron la candidatura de la costarricense Rebeca Gryspan.",
-   "fuente": "clarin.com",
-   "t": 1794592620000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Amistoso internacional: River Plate vs. Inter Miami CF en el Estadio Monumental",
-   "bajada": "",
-   "leer": "Amistoso internacional: River Plate vs. Inter Miami CF en el Estadio Monumental.",
-   "fuente": "www.riverplate.com",
-   "t": 1794590388000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dos sectores golpeados de la economía usaron la reforma laboral para tomar 32 mil empleados con costo más bajo",
-   "bajada": "Según el Gobierno, industria y comercio ingresaron al esquema de contratación con impuestos reducidos. A pesar de eso, desde que se implementó la norma perdieron dotación de personal. Qué pasó con el blanqueo para trabajadores informales.",
-   "leer": "Dos sectores golpeados de la economía usaron la reforma laboral para tomar 32 mil empleados con costo más bajo. Según el Gobierno, industria y comercio ingresaron al esquema de contratación con impuestos reducidos. A pesar de eso, desde que se implementó la norma perdieron dotación de personal. Qué pasó con el blanqueo para trabajadores informales.",
-   "fuente": "clarin.com",
-   "t": 1794590316000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "¿No le alcanza con conquistar la música? Rosalía ahora va por el cine de la mano de Javier Bardem",
    "bajada": "Después de conquistar los escenarios y arrasar en los Latin Grammy, la cantante española se prepara para un nuevo desafío en Hollywood. Aunque ya tuvo pequeñas apariciones como actriz, esta será su primera gran apuesta en la pantalla grande.",
    "leer": "Después de conquistar los escenarios y arrasar en los Latin Grammy, la cantante española se prepara para un nuevo desafío en Hollywood. Aunque ya tuvo pequeñas apariciones como actriz, esta será su primera gran apuesta en la pantalla grande.",
    "fuente": "clarin.com",
    "t": 1794589018000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El milagro de Independiente: el boletín disciplinario y los tres factores que alimentan el sueño de la Sudamericana",
-   "bajada": "",
-   "leer": "El milagro de Independiente: el boletín disciplinario y los tres factores que alimentan el sueño de la Sudamericana.",
-   "fuente": "El Liberal",
-   "t": 1794588900000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Boca Juniors confirmó una importante baja de cara a la semifinal de Copa Argentina contra Banfield",
-   "bajada": "",
-   "leer": "Boca Juniors confirmó una importante baja de cara a la semifinal de Copa Argentina contra Banfield.",
-   "fuente": "Infobae",
-   "t": 1794587760000
   },
   {
    "tema": "espectáculos",
@@ -306,14 +362,6 @@
    "t": 1794587475000
   },
   {
-   "tema": "espectáculos",
-   "titulo": "Murió Michael John Roberts, una figura clave en la animación de la exitosa serie de Netflix BoJack Horseman: tenía 48 años",
-   "bajada": "El artista canadiense formó parte del equipo creativo de la reconocida serie animada de la plataforma, donde tuvo un papel destacado en el desarrollo visual de sus episodios. Falleció en Los Ángeles tras ser diagnosticado con un agresivo cáncer cerebral.",
-   "leer": "Murió Michael John Roberts, una figura clave en la animación de la exitosa serie de Netflix BoJack Horseman: tenía 48 años. El artista canadiense formó parte del equipo creativo de la reconocida serie animada de la plataforma, donde tuvo un papel destacado en el desarrollo visual de sus episodios. Falleció en Los Ángeles tras ser diagnosticado con un agresivo cáncer cerebral.",
-   "fuente": "clarin.com",
-   "t": 1794585474000
-  },
-  {
    "tema": "fútbol",
    "titulo": "SIN BAJAR LA INTENSIDAD, SAN LORENZO SIGUE TRABAJANDO",
    "bajada": "",
@@ -322,36 +370,12 @@
    "t": 1794585385000
   },
   {
-   "tema": "sociedad",
-   "titulo": "Explosión en Remedios de Escalada: qué obra estaba haciendo Metrogas y derivó en un incendio con 20 heridos",
-   "bajada": "La empresa estaba renovando los caños de la red de distribución. Una tunelera dañó uno y provocó el siniestro.",
-   "leer": "Explosión en Remedios de Escalada: qué obra estaba haciendo Metrogas y derivó en un incendio con 20 heridos. La empresa estaba renovando los caños de la red de distribución. Una tunelera dañó uno y provocó el siniestro.",
-   "fuente": "clarin.com",
-   "t": 1794585059000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "\"Había un olor a gas muy fuerte\": la conmoción de los vecinos por la explosión en pleno centro de Remedios de Escalada",
-   "bajada": "El estallido ocurrió en la esquina de Beltrán y Del Valle Iberlucea mientras una cuadrilla de Metrogas realizaba tareas frente a un local. El saldo provisorio indica al 21 heridos, de los cuales seis sufrieron lesiones de gravedad.",
-   "leer": "\"Había un olor a gas muy fuerte\": la conmoción de los vecinos por la explosión en pleno centro de Remedios de Escalada. El estallido ocurrió en la esquina de Beltrán y Del Valle Iberlucea mientras una cuadrilla de Metrogas realizaba tareas frente a un local. El saldo provisorio indica al 21 heridos, de los cuales seis sufrieron lesiones de gravedad.",
-   "fuente": "clarin.com",
-   "t": 1794584444000
-  },
-  {
    "tema": "fútbol",
-   "titulo": "Fútbol Femenino/Juveniles de AFA: Talleres recibe a Racing",
+   "titulo": "Amistoso internacional: River Plate vs. Inter Miami CF en el Estadio Monumental",
    "bajada": "",
-   "leer": "Fútbol Femenino/Juveniles de AFA: Talleres recibe a Racing.",
-   "fuente": "Club Atlético Talleres",
-   "t": 1794584023000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Maluma anunció que vuelve a Córdoba en 2027 y tocará en Instituto",
-   "bajada": "",
-   "leer": "Maluma anunció que vuelve a Córdoba en 2027 y tocará en Instituto.",
-   "fuente": "Cadena 3 Argentina",
-   "t": 1794583457000
+   "leer": "Amistoso internacional: River Plate vs. Inter Miami CF en el Estadio Monumental.",
+   "fuente": "Inter Miami CF",
+   "t": 1794578339000
   },
   {
    "tema": "tecnología",
@@ -360,14 +384,6 @@
    "leer": "Caída mundial de Microsoft: qué provocó la falla de Outlook y por qué lleva tantas horas sin solucionarse. La interrupción comenzó el jueves y afectó a usuarios de todo el mundo. La empresa identificó servidores que dejaron de responder y una sobrecarga de su infraestructura.",
    "fuente": "clarin.com",
    "t": 1794578132000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Calor y lluvias: cómo estará el clima durante el fin de semana",
-   "bajada": "",
-   "leer": "Calor y lluvias: cómo estará el clima durante el fin de semana.",
-   "fuente": "Infobae",
-   "t": 1794567720000
   }
  ]
 }
