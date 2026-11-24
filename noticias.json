@@ -1,104 +1,312 @@
 {
- "t": 1795469213778,
+ "t": 1795500262934,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Una leyenda del Manchester United fustigó a Lisandro Martínez tras la goleada contra el Liverpool: “Estoy harto de él”",
-   "bajada": "Peter Schmeichel, histórico arquero del cuadro británico, recriminó la actuación del marcador central argentino en la derrota por 4-0 en Anfield.",
-   "leer": "Una leyenda del Manchester United fustigó a Lisandro Martínez tras la goleada contra el Liverpool: “Estoy harto de él”. Peter Schmeichel, histórico arquero del cuadro británico, recriminó la actuación del marcador central argentino en la derrota por 4-0 en Anfield.",
+   "titulo": "Con la suspensión de las PASO como foco principal, el Senado inicia su última semana de sesiones ordinarias",
+   "bajada": "La Libertad Avanza eleva la guardia para sellar votos que desactiven las Primarias. Mientras tanto, buscará dictaminar mañana cambios al proyecto sobre ludopatía.",
+   "leer": "Con la suspensión de las PASO como foco principal, el Senado inicia su última semana de sesiones ordinarias. La Libertad Avanza eleva la guardia para sellar votos que desactiven las Primarias. Mientras tanto, buscará dictaminar mañana cambios al proyecto sobre ludopatía.",
    "fuente": "infobae.com",
-   "t": 1795468847000
+   "t": 1795500180000
   },
   {
    "tema": "actualidad",
-   "titulo": "Las imágenes satelitales publicadas por la NASA que muestran el antes y el después de El Niño en el desierto de Atacama",
-   "bajada": "La agencia espacial registró una floración histórica en el norte de Chile; el fenómeno climático transformó un paisaje árido en un manto de colores.",
-   "leer": "Las imágenes satelitales publicadas por la NASA que muestran el antes y el después de El Niño en el desierto de Atacama. La agencia espacial registró una floración histórica en el norte de Chile; el fenómeno climático transformó un paisaje árido en un manto de colores.",
+   "titulo": "Anya Taylor-Joy confiesa que se quedó muda al ver a Ian McKellen en el rodaje de ‘El señor de los anillos: La caza de Gollum’: “¡Es el maldito Gandalf!\"",
+   "bajada": "La actriz, una de las nuevas incorporaciones a la franquicia, ha demostrado su capacidad de sorpresa a encontrarse en el rodaje con el mítico intérprete británico.",
+   "leer": "Anya Taylor-Joy confiesa que se quedó muda al ver a Ian McKellen en el rodaje de ‘El señor de los anillos: La caza de Gollum’: “¡Es el maldito Gandalf!\". La actriz, una de las nuevas incorporaciones a la franquicia, ha demostrado su capacidad de sorpresa a encontrarse en el rodaje con el mítico intérprete británico.",
+   "fuente": "infobae.com",
+   "t": 1795500169000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "El PJ empieza a transitar la discusión sobre cómo ordenarse sin PASO: la compleja tarea para conservar la unidad",
+   "bajada": "Qué herramienta electoral se utilizará para resolver las candidaturas es un tema central en este momento del peronismo. La necesidad de un acuerdo obligado para evitar la ruptura.",
+   "leer": "El PJ empieza a transitar la discusión sobre cómo ordenarse sin PASO: la compleja tarea para conservar la unidad. Qué herramienta electoral se utilizará para resolver las candidaturas es un tema central en este momento del peronismo. La necesidad de un acuerdo obligado para evitar la ruptura.",
+   "fuente": "infobae.com",
+   "t": 1795500088000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "David Broncano, el patrimonio del presentador español: dos áticos en Madrid, una productora millonaria y un auto de 160.000 euros",
+   "bajada": "Estuvo en el ojo de la tormenta de la opinión pública por sus entrevistas en RTVE. Es fanático de los autos y supo canalizar su humor para generar dinero en la televisión.",
+   "leer": "David Broncano, el patrimonio del presentador español: dos áticos en Madrid, una productora millonaria y un auto de 160.000 euros. Estuvo en el ojo de la tormenta de la opinión pública por sus entrevistas en RTVE. Es fanático de los autos y supo canalizar su humor para generar dinero en la televisión.",
+   "fuente": "clarin.com",
+   "t": 1795498406000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Wembanyama no juega ante Kings por rigidez en la espalda tras partido de 50 puntos y 19 rebotes",
+   "bajada": "La figura del conjunto texano se ausentó del enfrentamiento contra Sacramento por molestias en la espalda. Su baja fue anunciada poco antes del inicio. El joven talento destacó previamente con 50 puntos y 19 rebotes ante Nueva Orleans, logrando marcas históricas en la liga.",
+   "leer": "Wembanyama no juega ante Kings por rigidez en la espalda tras partido de 50 puntos y 19 rebotes. La figura del conjunto texano se ausentó del enfrentamiento contra Sacramento por molestias en la espalda. Su baja fue anunciada poco antes del inicio. El joven talento destacó previamente con 50 puntos y 19 rebotes ante Nueva Orleans, logrando marcas históricas en la liga.",
+   "fuente": "clarin.com",
+   "t": 1795497605000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Cerró la 61ª Bienal de Venecia: qué queda en la memoria tras recorrer sus \"claves menores\"",
+   "bajada": "Entre mitos, sonidos del mar, agua y minerales, la gran cita del arte contemporáneo bajó el telón con una propuesta que preguntó por las condiciones de la vida.",
+   "leer": "Cerró la 61ª Bienal de Venecia: qué queda en la memoria tras recorrer sus \"claves menores\". Entre mitos, sonidos del mar, agua y minerales, la gran cita del arte contemporáneo bajó el telón con una propuesta que preguntó por las condiciones de la vida.",
+   "fuente": "clarin.com",
+   "t": 1795497207000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Deportaciones masivas: el DHS audita el uso de cámaras corporales por agentes de ICE en detenciones migratorias",
+   "bajada": "El auditor del Congreso informó que no hubo amonestaciones escritas por incumplir las reglas hasta septiembre de 2025 y que seis de diez sedes tenían dudas.",
+   "leer": "Deportaciones masivas: el DHS audita el uso de cámaras corporales por agentes de ICE en detenciones migratorias. El auditor del Congreso informó que no hubo amonestaciones escritas por incumplir las reglas hasta septiembre de 2025 y que seis de diez sedes tenían dudas.",
    "fuente": "lanacion.com.ar",
-   "t": 1795468845000
+   "t": 1795496880000
   },
   {
    "tema": "actualidad",
-   "titulo": "Presidente del Congreso explicó cómo se desarrollará el debate de la Ley de Rescate del Gobierno De la Espriella una vez finalicen las audiencias",
-   "bajada": "Honorio Henríquez se refirió a la reforma tributaria y manifestó que se construirá “la mejor propuesta que beneficie a todos los sectores de nuestra nación”.",
-   "leer": "Presidente del Congreso explicó cómo se desarrollará el debate de la Ley de Rescate del Gobierno De la Espriella una vez finalicen las audiencias. Honorio Henríquez se refirió a la reforma tributaria y manifestó que se construirá “la mejor propuesta que beneficie a todos los sectores de nuestra nación”.",
-   "fuente": "infobae.com",
-   "t": 1795468829000
+   "titulo": "Explotó un coche bomba en Colombia: hay heridos, se cortó la electricidad y acusan un ataque narcoterrorista",
+   "bajada": "La detonación ocurrió en el departamento de Meta en la ciudad de Villavicencio; el presidente Abelardo De La Espriella vinculó el acto con el mundo narco; hasta el momento, no se registraron víctimas fatales.",
+   "leer": "Explotó un coche bomba en Colombia: hay heridos, se cortó la electricidad y acusan un ataque narcoterrorista. La detonación ocurrió en el departamento de Meta en la ciudad de Villavicencio; el presidente Abelardo De La Espriella vinculó el acto con el mundo narco; hasta el momento, no se registraron víctimas fatales.",
+   "fuente": "lanacion.com.ar",
+   "t": 1795496032000
   },
   {
    "tema": "actualidad",
-   "titulo": "Fede Bal filmó a Evelyn Botto disfrutando de la pileta de su casa: “Las curvas del verano”",
-   "bajada": "El conductor compartió imágenes de la integrante de Otro día perdido en el agua aprovechando las altas temperaturas, en malla y muy divertidos. El video.",
-   "leer": "Fede Bal filmó a Evelyn Botto disfrutando de la pileta de su casa: “Las curvas del verano”. El conductor compartió imágenes de la integrante de Otro día perdido en el agua aprovechando las altas temperaturas, en malla y muy divertidos. El video.",
-   "fuente": "infobae.com",
-   "t": 1795468823000
+   "titulo": "MasterChef Celebrity: “Yo sentí cero de eso”, la chicana de Damián Betular a Germán Martitegui",
+   "bajada": "Comienza una nueva semana cargada de una temática musical.",
+   "leer": "MasterChef Celebrity: “Yo sentí cero de eso”, la chicana de Damián Betular a Germán Martitegui. Comienza una nueva semana cargada de una temática musical.",
+   "fuente": "lanacion.com.ar",
+   "t": 1795495114000
   },
   {
    "tema": "fútbol",
-   "titulo": "¿Cómo están los lesionados en Independiente de cara al choque con Vélez?",
-   "bajada": "Santiago Arias y Ezequiel Ávila se fueron del triunfo 2-1 ante Argentinos en La Paternal con lesiones. Este martes se realizarán estudios luego de hacer ejercicios de rehabilitación en la práctica del lunes.",
-   "leer": "Santiago Arias y Ezequiel Ávila se fueron del triunfo 2-1 ante Argentinos en La Paternal con lesiones. Este martes se realizarán estudios luego de hacer ejercicios de rehabilitación en la práctica del lunes.",
-   "fuente": "ole.com.ar",
-   "t": 1795468503000
+   "titulo": "San Lorenzo: ascenso y cinco títulos para la Tira C de hockey",
+   "bajada": "",
+   "leer": "San Lorenzo: ascenso y cinco títulos para la Tira C de hockey.",
+   "fuente": "Mundo Azulgrana",
+   "t": 1795493532000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este martes 24 noviembre de 2026",
+   "bajada": "",
+   "leer": "Clima hoy en Punta Lara, Buenos Aires: el pronóstico del tiempo para este martes 24 noviembre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1795489849000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Avellaneda será un Infierno: Luciano Nakis vs. Gastón Gaudio vs. Enrique Sacco",
+   "bajada": "",
+   "leer": "Avellaneda será un Infierno: Luciano Nakis vs. Gastón Gaudio vs. Enrique Sacco.",
+   "fuente": "Urgente24",
+   "t": 1795489831000
+  },
+  {
+   "tema": "clima",
+   "titulo": "Clima hoy en Mar del Plata, Buenos Aires: el pronóstico del tiempo para este martes 24 noviembre de 2026",
+   "bajada": "",
+   "leer": "Clima hoy en Mar del Plata, Buenos Aires: el pronóstico del tiempo para este martes 24 noviembre de 2026.",
+   "fuente": "Clarin.com",
+   "t": 1795489583000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Córdoba: salieron a caminar y quedaron atrapados en medio de la crecida del río",
+   "bajada": "Ocurrió en Villa de Soto, donde cuatro personas quedaron aisladas mientras hacían un circuito de trekking. Policías y bomberos participaron del operativo de rescate.",
+   "leer": "Córdoba: salieron a caminar y quedaron atrapados en medio de la crecida del río. Ocurrió en Villa de Soto, donde cuatro personas quedaron aisladas mientras hacían un circuito de trekking. Policías y bomberos participaron del operativo de rescate.",
+   "fuente": "clarin.com",
+   "t": 1795489544000
   },
   {
    "tema": "música",
-   "titulo": "La Orquesta Municipal de San Salvador presentó su espectáculo de rock sinfónico coral en Chajarí y Federación",
+   "titulo": "De La Sole a la música urbana: los artistas nacionales que los sanjuaninos piden para la próxima Fiesta Nacional del Sol",
    "bajada": "",
-   "leer": "La Orquesta Municipal de San Salvador presentó su espectáculo de rock sinfónico coral en Chajarí y Federación.",
-   "fuente": "La Semana Entre Dos Ríos",
-   "t": 1795468229000
+   "leer": "De La Sole a la música urbana: los artistas nacionales que los sanjuaninos piden para la próxima Fiesta Nacional del Sol.",
+   "fuente": "Tiempo de San Juan",
+   "t": 1795489080000
+  },
+  {
+   "tema": "espectáculos",
+   "titulo": "Premios Emmy: la segunda temporada de \"División Palermo\" se llevó el Emmy Internacional a Mejor Serie de Comedia",
+   "bajada": "La serie de Santiago Korovsky ya había ganado en \"Mejor Comedia\" en 2024. No pudieron coronarse Ricardo Darín (por \"El Eternauta\") ni Leo Sbaraglia (por \"Menem\").",
+   "leer": "Premios Emmy: la segunda temporada de \"División Palermo\" se llevó el Emmy Internacional a Mejor Serie de Comedia. La serie de Santiago Korovsky ya había ganado en \"Mejor Comedia\" en 2024. No pudieron coronarse Ricardo Darín (por \"El Eternauta\") ni Leo Sbaraglia (por \"Menem\").",
+   "fuente": "clarin.com",
+   "t": 1795487981000
   },
   {
    "tema": "fútbol",
-   "titulo": "Video: el golazo de atrás de mitad de la cancha en el Reducido de la Primera C",
-   "bajada": "Brian Duarte lo hizo en la victoria por 3-1 de Berazategui ante Sportivo Barracas, por la ida de la semifinal del torneo por el segundo ascenso.",
-   "leer": "Video: el golazo de atrás de mitad de la cancha en el Reducido de la Primera C. Brian Duarte lo hizo en la victoria por 3-1 de Berazategui ante Sportivo Barracas, por la ida de la semifinal del torneo por el segundo ascenso.",
+   "titulo": "La provocación de Gabriel Mercado a Tarzia: ¿qué le quiso expresar?",
+   "bajada": "El defensor del Inter de Porto Alegre tuvo un tenso cruce con el delantero de Vitória. El Colorado perdió 5 a 2, con un gol del ex Independiente, y quedó al borde del descenso.",
+   "leer": "El defensor del Inter de Porto Alegre tuvo un tenso cruce con el delantero de Vitória. El Colorado perdió 5 a 2, con un gol del ex Independiente, y quedó al borde del descenso.",
    "fuente": "ole.com.ar",
-   "t": 1795468163000
+   "t": 1795485993000
+  },
+  {
+   "tema": "política",
+   "titulo": "Quién es Verónica Pérez, la nueva directora del PAMI",
+   "bajada": "Junto a la médica Elizabeth Ana Osterberg llegan al organismo tras la salida de Esteban Leguizamo y Carlos Zamparolo, quienes se desempeñaban como director y subdirector ejecutivo. Pérez es escribana y abogada, además de coordinadora ejecutiva de la obra social de los jubilados.",
+   "leer": "Quién es Verónica Pérez, la nueva directora del PAMI. Junto a la médica Elizabeth Ana Osterberg llegan al organismo tras la salida de Esteban Leguizamo y Carlos Zamparolo, quienes se desempeñaban como director y subdirector ejecutivo. Pérez es escribana y abogada, además de coordinadora ejecutiva de la obra social de los jubilados.",
+   "fuente": "clarin.com",
+   "t": 1795485363000
   },
   {
    "tema": "fútbol",
-   "titulo": "¿Vuelve Villa a la selección de Colombia? Su nivel en Boca reinstaló el debate",
-   "bajada": "La prensa y los hinchas cafeteros reclaman el regreso del atacante al equipo que dirige Néstor Lorenzo y el presidente de la Federación lo calificó de \"jugadorazo\" y dejó la determinación en manos del entrenador.",
-   "leer": "La prensa y los hinchas cafeteros reclaman el regreso del atacante al equipo que dirige Néstor Lorenzo y el presidente de la Federación lo calificó de \"jugadorazo\" y dejó la determinación en manos del entrenador.",
+   "titulo": "Arruabarrena, a fondo: cuándo Boca hizo el “click”, quiénes jugarán ante Independiente Rivadavia y la terminante frase sobre lo que viene",
+   "bajada": "",
+   "leer": "Arruabarrena, a fondo: cuándo Boca hizo el “click”, quiénes jugarán ante Independiente Rivadavia y la terminante frase sobre lo que viene.",
+   "fuente": "Infobae",
+   "t": 1795484520000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing Club llega a Santa Cruz en busca de nuevos talentos del fútbol",
+   "bajada": "",
+   "leer": "Racing Club llega a Santa Cruz en busca de nuevos talentos del fútbol.",
+   "fuente": "Diario Nuevo Día",
+   "t": 1795482069000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Fuerte repunte bursátil en Asia: las acciones tecnológicas vuelan impulsadas por la vuelta de Jensen Huang a Nvidia",
+   "bajada": "La restitución unánime del director ejecutivo de Nvidia tras un escándalo desató una ola de optimismo en los principales parqués asiáticos. Ante el fuerte incremento en los futuros del Kospi 200, el operador bursátil debió activar un mecanismo de control de volatilidad.",
+   "leer": "Fuerte repunte bursátil en Asia: las acciones tecnológicas vuelan impulsadas por la vuelta de Jensen Huang a Nvidia. La restitución unánime del director ejecutivo de Nvidia tras un escándalo desató una ola de optimismo en los principales parqués asiáticos. Ante el fuerte incremento en los futuros del Kospi 200, el operador bursátil debió activar un mecanismo de control de volatilidad.",
+   "fuente": "clarin.com",
+   "t": 1795481495000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "El fuerte posteo de Maxi Rodríguez contrá Nicolás Ramírez luego de la derrota de Newell's",
+   "bajada": "El exfutbolista de la Lepra se quejó con ironías luego de la eliminación de los rosarinos en el Clausura. \"La figura de los partidos son los árbitros\", afirmó.",
+   "leer": "El fuerte posteo de Maxi Rodríguez contrá Nicolás Ramírez luego de la derrota de Newell's. El exfutbolista de la Lepra se quejó con ironías luego de la eliminación de los rosarinos en el Clausura. \"La figura de los partidos son los árbitros\", afirmó.",
    "fuente": "ole.com.ar",
-   "t": 1795468092000
+   "t": 1795481370000
   },
   {
-   "tema": "actualidad",
-   "titulo": "¿La Copa América 2028 se juega en Estados Unidos? Esto es todo lo que se sabe",
-   "bajada": "En los últimos trascendió extraoficialmente que el torneo se volverá a jugar en la misma sede que el 2024; participarían equipos de la Concacaf.",
-   "leer": "En los últimos trascendió extraoficialmente que el torneo se volverá a jugar en la misma sede que el 2024; participarían equipos de la Concacaf.",
-   "fuente": "lanacion.com.ar",
-   "t": 1795467911000
+   "tema": "fútbol",
+   "titulo": "Boca no postergó el duelo con Independiente Rivadavia y Arruabarrena evalúa cambios: las dudas tras el festejo",
+   "bajada": "Sin descanso tras coronarse en Colombia y con la final de Copa Argentina en la mira, el Xeneize jugará este miércoles y el DT evalúa el estado físico de Paredes, Ascacíbar y varios jugadores.",
+   "leer": "Boca no postergó el duelo con Independiente Rivadavia y Arruabarrena evalúa cambios: las dudas tras el festejo. Sin descanso tras coronarse en Colombia y con la final de Copa Argentina en la mira, el Xeneize jugará este miércoles y el DT evalúa el estado físico de Paredes, Ascacíbar y varios jugadores.",
+   "fuente": "ole.com.ar",
+   "t": 1795481341000
   },
   {
-   "tema": "actualidad",
-   "titulo": "Tyson Fury anuncia un diagnóstico tremendo antes de su combate contra Anthony Joshua",
-   "bajada": "El excampeón mundial de los pesados reveló que padee esquizofrenia y trastorno bipolar.",
-   "leer": "Tyson Fury anuncia un diagnóstico tremendo antes de su combate contra Anthony Joshua. El excampeón mundial de los pesados reveló que padee esquizofrenia y trastorno bipolar.",
-   "fuente": "lanacion.com.ar",
-   "t": 1795467897000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "MLB mantiene el tope salarial. Jugadores dicen que dueños deben compartir ingresos sin el mismo",
-   "bajada": "El sindicato de jugadores rechaza el tope salarial propuesto por la liga, sugiriendo compartir ingresos equitativamente entre equipos. MLB busca imponer límite salarial y ofrece cambios en bonos y contratos, en medio de tensiones por el vencimiento del acuerdo laboral.",
-   "leer": "MLB mantiene el tope salarial. Jugadores dicen que dueños deben compartir ingresos sin el mismo. El sindicato de jugadores rechaza el tope salarial propuesto por la liga, sugiriendo compartir ingresos equitativamente entre equipos. MLB busca imponer límite salarial y ofrece cambios en bonos y contratos, en medio de tensiones por el vencimiento del acuerdo laboral.",
+   "tema": "deportes",
+   "titulo": "Los fenómenos virales del Mundial 2026 hicieron historia en Sudamérica: Tim Payne dio la vuelta con Olimpia y Vozinha fue héroe en Colo Colo",
+   "bajada": "Seis meses después de convertirse en figuras populares de la Copa del Mundo 2026, el defensor neozelandés y el arquero de Cabo Verde celebraron en el fútbol sudamericano durante el mismo fin de semana.",
+   "leer": "Los fenómenos virales del Mundial 2026 hicieron historia en Sudamérica: Tim Payne dio la vuelta con Olimpia y Vozinha fue héroe en Colo Colo. Seis meses después de convertirse en figuras populares de la Copa del Mundo 2026, el defensor neozelandés y el arquero de Cabo Verde celebraron en el fútbol sudamericano durante el mismo fin de semana.",
    "fuente": "clarin.com",
-   "t": 1795467011000
+   "t": 1795480672000
   },
   {
-   "tema": "actualidad",
-   "titulo": "José Noblejas analiza el compromiso de la Reina Sofía con la Corona a sus 88 años: \"Para ella es una forma de entender el servicio\"",
-   "bajada": "El experto en imagen pública analiza cómo la madre de Felipe VI mantiene la agenda a sus 88 años. Indica que su compromiso es fundamental y que la edad le suma más condimentos a sus actos institucionales.",
-   "leer": "José Noblejas analiza el compromiso de la Reina Sofía con la Corona a sus 88 años: \"Para ella es una forma de entender el servicio\". El experto en imagen pública analiza cómo la madre de Felipe VI mantiene la agenda a sus 88 años. Indica que su compromiso es fundamental y que la edad le suma más condimentos a sus actos institucionales.",
+   "tema": "fútbol",
+   "titulo": "Milito definió de dónde sacará el dinero para reforzar a Racing",
+   "bajada": "",
+   "leer": "Milito definió de dónde sacará el dinero para reforzar a Racing.",
+   "fuente": "El Primer Grande",
+   "t": 1795480206000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "La final de la Libertadores que puede definir el futuro internacional de Independiente y Barracas Central",
+   "bajada": "",
+   "leer": "La final de la Libertadores que puede definir el futuro internacional de Independiente y Barracas Central.",
+   "fuente": "El Gráfico",
+   "t": 1795479362000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "El Gobierno cambió la cúpula del PAMI: se van el jefe y su segundo, en medio de una fuerte crisis",
+   "bajada": "Esteban Leguizamo y Carlos Zamparolo se desempeñaban como director y subdirector ejecutivo. Verónica Gabriela Pérez y Elizabeth Ana Osterberg los reemplazarán.",
+   "leer": "El Gobierno cambió la cúpula del PAMI: se van el jefe y su segundo, en medio de una fuerte crisis. Esteban Leguizamo y Carlos Zamparolo se desempeñaban como director y subdirector ejecutivo. Verónica Gabriela Pérez y Elizabeth Ana Osterberg los reemplazarán.",
    "fuente": "clarin.com",
-   "t": 1795466962000
+   "t": 1795479193000
   },
   {
-   "tema": "actualidad",
+   "tema": "el mundo",
+   "titulo": "Escándalo en Paraguay: ordenan la detención del hermano de Santiago Peña por presunto lavado de dinero",
+   "bajada": "El avance judicial profundiza la crisis institucional desatada tras la intervención del Banco Central paraguayo sobre el Ueno Bank. La causa penal 92/2026 atribuye a los imputados maniobras de administración en provecho propio e ilícitos financieros.",
+   "leer": "Escándalo en Paraguay: ordenan la detención del hermano de Santiago Peña por presunto lavado de dinero. El avance judicial profundiza la crisis institucional desatada tras la intervención del Banco Central paraguayo sobre el Ueno Bank. La causa penal 92/2026 atribuye a los imputados maniobras de administración en provecho propio e ilícitos financieros.",
+   "fuente": "clarin.com",
+   "t": 1795478992000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca juniors vs Atlético Mineiro por la Copa Sudamericana: el color de la previa a la gran final en las mejores fotos",
+   "bajada": "",
+   "leer": "Boca juniors vs Atlético Mineiro por la Copa Sudamericana: el color de la previa a la gran final en las mejores fotos.",
+   "fuente": "Clarin.com",
+   "t": 1795478677000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Más de 12.000 evacuados por una “sustancia desconocida” en un concierto en el Reino Unido",
+   "bajada": "",
+   "leer": "Más de 12.000 evacuados por una “sustancia desconocida” en un concierto en el Reino Unido.",
+   "fuente": "La Gaceta",
+   "t": 1795477669000
+  },
+  {
+   "tema": "música",
+   "titulo": "Organizan una misa ricotera en Plaza de Mayo para homenajear al Indio Solari",
+   "bajada": "",
+   "leer": "Organizan una misa ricotera en Plaza de Mayo para homenajear al Indio Solari.",
+   "fuente": "Data Diario",
+   "t": 1795477548000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Nicolás Ramírez y otro partido que se le fue de las manos: Newell's explotó tras terminar con 9 y el arquero de Gimnasia se pierde los cuartos de final",
+   "bajada": "Los dirigidos por Frank Kudelka terminaron el alargue con nueve futbolistas y no lograron sostener la igualdad para llegar a los penales. Tras el pitazo final, el conjunto platense sufrió la expulsión de su arquero, que quedó en el medio de los forcejeos con los futbolistas del club rosarino.",
+   "leer": "Nicolás Ramírez y otro partido que se le fue de las manos: Newell's explotó tras terminar con 9 y el arquero de Gimnasia se pierde los cuartos de final. Los dirigidos por Frank Kudelka terminaron el alargue con nueve futbolistas y no lograron sostener la igualdad para llegar a los penales. Tras el pitazo final, el conjunto platense sufrió la expulsión de su arquero, que quedó en el medio de los forcejeos con los futbolistas del club rosarino.",
+   "fuente": "clarin.com",
+   "t": 1795476733000
+  },
+  {
+   "tema": "economía",
+   "titulo": "GTA VI: Argentina lidera ranking de países más caros",
+   "bajada": "Pasado el furor inicial por la reaparición de una nueva versión del célebre videojuego GTA, algunos expertos de la industria del entretenimiento revisaron cuánto costaba en varios países y algunos hallazgos sorprenden, incluso a la hora de comparar cuántas horas de trabajo son necesarias para comprarlo.",
+   "leer": "GTA VI: Argentina lidera ranking de países más caros. Pasado el furor inicial por la reaparición de una nueva versión del célebre videojuego GTA, algunos expertos de la industria del entretenimiento revisaron cuánto costaba en varios países y algunos hallazgos sorprenden, incluso a la hora de comparar cuántas horas de trabajo son necesarias para comprarlo.",
+   "fuente": "ambito.com",
+   "t": 1795472134000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Locura en la Primera C: Brian \"Chapa\" Duarte metió un golazo de mitad de cancha para el triunfo de Berazategui",
+   "bajada": "El futbolista de Berazategui sorprendió al arquero rival con un remate desde el círculo central a los 27 minutos del primer tiempo. El Naranja se impuso por 3-1 como visitante ante Sportivo Barracas en la ida de las semifinales del Reducido.",
+   "leer": "Locura en la Primera C: Brian \"Chapa\" Duarte metió un golazo de mitad de cancha para el triunfo de Berazategui. El futbolista de Berazategui sorprendió al arquero rival con un remate desde el círculo central a los 27 minutos del primer tiempo. El Naranja se impuso por 3-1 como visitante ante Sportivo Barracas en la ida de las semifinales del Reducido.",
+   "fuente": "clarin.com",
+   "t": 1795470536000
+  },
+  {
+   "tema": "economía",
+   "titulo": "¿Pausa al carry trade?: la suba del dólar borra ganancias y obliga a inversores a revisar estrategias",
+   "bajada": "El salto del tipo de cambio cambia la ecuación para quienes venían apostando a la tasa. Qué consecuencias puede traer al programa económico.",
+   "leer": "El salto del tipo de cambio cambia la ecuación para quienes venían apostando a la tasa. Qué consecuencias puede traer al programa económico.",
+   "fuente": "clarin.com",
+   "t": 1795469308000
+  },
+  {
+   "tema": "recitales",
+   "titulo": "Shakira regresa a Guatemala tras casi 16 años de ausencia y la sede de su concierto ya fue confirmada oficialmente",
+   "bajada": "",
+   "leer": "Shakira regresa a Guatemala tras casi 16 años de ausencia y la sede de su concierto ya fue confirmada oficialmente.",
+   "fuente": "Infobae",
+   "t": 1795469100000
+  },
+  {
+   "tema": "política",
+   "titulo": "Santucho, el apóstol de la violencia que será homenajeado por la UBA",
+   "bajada": "Con gobiernos constitucionales o en dictadura, el líder del ERP jugó siempre a todo o nada, y siempre en la vereda opuesta a los procesos democráticos.",
+   "leer": "Santucho, el apóstol de la violencia que será homenajeado por la UBA. Con gobiernos constitucionales o en dictadura, el líder del ERP jugó siempre a todo o nada, y siempre en la vereda opuesta a los procesos democráticos.",
+   "fuente": "clarin.com",
+   "t": 1795468542000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Por la suba del riesgo país, el Gobierno reforzó el préstamo Repo de US$ 6.000 millones con bancos",
+   "bajada": "En Wall Street afirman que el Banco Central sumó US$ 700 millones en efectivo o bonos a las garantías. Fue para compensar la pérdida del 26% en el valor de los bonos utilizados como garantía colateral. El préstamo es clave para el pago de la deuda y evitar una corrida en 2027.",
+   "leer": "Por la suba del riesgo país, el Gobierno reforzó el préstamo Repo de US$ 6.000 millones con bancos. En Wall Street afirman que el Banco Central sumó US$ 700 millones en efectivo o bonos a las garantías. Fue para compensar la pérdida del 26% en el valor de los bonos utilizados como garantía colateral. El préstamo es clave para el pago de la deuda y evitar una corrida en 2027.",
+   "fuente": "clarin.com",
+   "t": 1795468263000
+  },
+  {
+   "tema": "política",
    "titulo": "Fijaron audiencia para revisar las condenas por el intento de homicidio de Cristina Kirchner",
    "bajada": "El próximo 16 de diciembre la Cámara Federal de Casación Penal revisará las condenas de 10 y 8 años de prisión para Fernando Sabag Montiel y Brenda Uliarte.",
    "leer": "Fijaron audiencia para revisar las condenas por el intento de homicidio de Cristina Kirchner. El próximo 16 de diciembre la Cámara Federal de Casación Penal revisará las condenas de 10 y 8 años de prisión para Fernando Sabag Montiel y Brenda Uliarte.",
@@ -106,28 +314,12 @@
    "t": 1795466326000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Por qué Boca tendría que jugar una final ante Aston Villa, pero no lo hará",
-   "bajada": "",
-   "leer": "Por qué Boca tendría que jugar una final ante Aston Villa, pero no lo hará.",
-   "fuente": "Planeta Boca Juniors",
-   "t": 1795462107000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Olimpia avisó que quiere retener a Richard Sánchez: qué postura tomará Racing",
-   "bajada": "",
-   "leer": "Olimpia avisó que quiere retener a Richard Sánchez: qué postura tomará Racing.",
-   "fuente": "TyC Sports",
-   "t": 1795461593000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Semanas claves en San Lorenzo: Insua define el futuro del plantel",
-   "bajada": "",
-   "leer": "Semanas claves en San Lorenzo: Insua define el futuro del plantel.",
-   "fuente": "Mundo Azulgrana",
-   "t": 1795460850000
+   "tema": "economía",
+   "titulo": "Un funcionario de Caputo dijo que la suba del riesgo país y del dólar \"no le pegan\" a la economía y la inflación",
+   "bajada": "El secretario de Finanzas Federico Furiase aseguró que la escalada del índice de riesgo argentino no afectará el plan económico. \"No tenemos que salir al mundo a financiarnos\", argumentó.",
+   "leer": "Un funcionario de Caputo dijo que la suba del riesgo país y del dólar \"no le pegan\" a la economía y la inflación. El secretario de Finanzas Federico Furiase aseguró que la escalada del índice de riesgo argentino no afectará el plan económico. \"No tenemos que salir al mundo a financiarnos\", argumentó.",
+   "fuente": "clarin.com",
+   "t": 1795465431000
   },
   {
    "tema": "fútbol",
@@ -146,36 +338,12 @@
    "t": 1795459020000
   },
   {
-   "tema": "política",
-   "titulo": "La confianza en el Gobierno de Milei volvió a subir en noviembre, pero sigue lejos de los niveles de 2025",
-   "bajada": "El índice que elabora la Universidad Di Tella avanzó 4,1% y alcanzó los 2,04 puntos, la segunda mejora consecutiva tras la recuperación de octubre. Sin embargo, acumula una caída interanual del 17,5% y el promedio de la gestión libertaria permanece en su nivel más bajo.",
-   "leer": "La confianza en el Gobierno de Milei volvió a subir en noviembre, pero sigue lejos de los niveles de 2025. El índice que elabora la Universidad Di Tella avanzó 4,1% y alcanzó los 2,04 puntos, la segunda mejora consecutiva tras la recuperación de octubre. Sin embargo, acumula una caída interanual del 17,5% y el promedio de la gestión libertaria permanece en su nivel más bajo.",
-   "fuente": "clarin.com",
-   "t": 1795458550000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Presión de Wall Street y apoyo de Donald Trump: la trama secreta detrás de la vuelta del CEO de Nvidia",
-   "bajada": "El respaldo del presidente y el temor a una fuerte pérdida bursátil aceleraron la reincorporación de Jensen Huang al frente de la compañía. El especialista Ahmed Banafa explicó a Clarín cómo el poder geopolítico y las demandas de Wall Street forzaron la marcha atrás del directorio.",
-   "leer": "Presión de Wall Street y apoyo de Donald Trump: la trama secreta detrás de la vuelta del CEO de Nvidia. El respaldo del presidente y el temor a una fuerte pérdida bursátil aceleraron la reincorporación de Jensen Huang al frente de la compañía. El especialista Ahmed Banafa explicó a Clarín cómo el poder geopolítico y las demandas de Wall Street forzaron la marcha atrás del directorio.",
-   "fuente": "clarin.com",
-   "t": 1795457642000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Joaquín Mastronardi y Tomás Barneche participaron de la prueba de jugadores en San Lorenzo de Almagro",
    "bajada": "",
    "leer": "Joaquín Mastronardi y Tomás Barneche participaron de la prueba de jugadores en San Lorenzo de Almagro.",
    "fuente": "Ayacucho al Día",
    "t": 1795457007000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Explosión en los festejos de Ezpeleta: un local que había abierto hace 15 días y un cocinero que pelea por su vida",
-   "bajada": "El encargado de un negocio de pollo al espiedo está internado en estado reservado con la mitad de su cuerpo quemado. El joven hacía de cocinero y estaba cambiando una garrafa, cerca de las 22. Investigan qué fue lo que falló. Hay otros seis heridos.",
-   "leer": "Explosión en los festejos de Ezpeleta: un local que había abierto hace 15 días y un cocinero que pelea por su vida. El encargado de un negocio de pollo al espiedo está internado en estado reservado con la mitad de su cuerpo quemado. El joven hacía de cocinero y estaba cambiando una garrafa, cerca de las 22. Investigan qué fue lo que falló. Hay otros seis heridos.",
-   "fuente": "clarin.com",
-   "t": 1795456434000
   },
   {
    "tema": "espectáculos",
@@ -186,70 +354,6 @@
    "t": 1795456421000
   },
   {
-   "tema": "el mundo",
-   "titulo": "Escándalo en Francia: usan imágenes de los abusos que sufrió Gisèle Pelicot para promocionar un libro que niega su condición de víctima",
-   "bajada": "La psicoanalista Sabine Prokhoris escribió un ensayo que la define como una \"exhibicionista que engañó a los medios y a la Justicia\". \"Hoy vuelvo a encontrarme humillada, expuesta y herida\", dijo Pelicot, quien logró que condenaran a su marido y a 50 años que la violaron cuando estaba drogada.",
-   "leer": "Escándalo en Francia: usan imágenes de los abusos que sufrió Gisèle Pelicot para promocionar un libro que niega su condición de víctima. La psicoanalista Sabine Prokhoris escribió un ensayo que la define como una \"exhibicionista que engañó a los medios y a la Justicia\". \"Hoy vuelvo a encontrarme humillada, expuesta y herida\", dijo Pelicot, quien logró que condenaran a su marido y a 50 años que la violaron cuando estaba drogada.",
-   "fuente": "clarin.com",
-   "t": 1795455897000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El nuevo Apple Watch escucha tus conversaciones",
-   "bajada": "Apple presentó dos nuevas funciones para que permiten recuperar fragmentos de conversaciones La compañía asegura que protege la privacidad de los usuarios, pero el anuncio reabrió el debate sobre las grabaciones sin consentimiento.",
-   "leer": "El nuevo Apple Watch escucha tus conversaciones. Apple presentó dos nuevas funciones para que permiten recuperar fragmentos de conversaciones La compañía asegura que protege la privacidad de los usuarios, pero el anuncio reabrió el debate sobre las grabaciones sin consentimiento.",
-   "fuente": "clarin.com",
-   "t": 1795455560000
-  },
-  {
-   "tema": "economía",
-   "titulo": "El fin de semana largo movilizó $332.557 millones, pero cayó el gasto turístico y hubo menos viajeros",
-   "bajada": "Unos 1,41 millones de turistas recorrieron el país durante el feriado por el Día de la Soberanía Nacional. La cantidad de viajeros bajó 17,4% interanual y el impacto económico retrocedió 30,3% en términos reales, en un contexto de estadías más cortas y consumo moderado.",
-   "leer": "El fin de semana largo movilizó $332.557 millones, pero cayó el gasto turístico y hubo menos viajeros. Unos 1,41 millones de turistas recorrieron el país durante el feriado por el Día de la Soberanía Nacional. La cantidad de viajeros bajó 17,4% interanual y el impacto económico retrocedió 30,3% en términos reales, en un contexto de estadías más cortas y consumo moderado.",
-   "fuente": "ambito.com",
-   "t": 1795455300000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Violencia contra las mujeres: solo el 7% de las sobrevivientes denuncia ante la policía y la justicia sigue fallando",
-   "bajada": "Un informe mundial de ONU Mujeres advierte que apenas 1 de cada 4 mujeres que atravesaron violencia física o sexual busca ayuda. En Argentina, la mitad de las mujeres adultas sufrió violencia en una relación de pareja. Los datos de femicidios muestran que la mayoría de las víctimas no había realizado denuncias previas.",
-   "leer": "Violencia contra las mujeres: solo el 7% de las sobrevivientes denuncia ante la policía y la justicia sigue fallando. Un informe mundial de ONU Mujeres advierte que apenas 1 de cada 4 mujeres que atravesaron violencia física o sexual busca ayuda. En Argentina, la mitad de las mujeres adultas sufrió violencia en una relación de pareja. Los datos de femicidios muestran que la mayoría de las víctimas no había realizado denuncias previas.",
-   "fuente": "clarin.com",
-   "t": 1795455080000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Argentinos Juniors e Independiente se enfrentan por los octavos de final del Torneo Clausura",
-   "bajada": "",
-   "leer": "Argentinos Juniors e Independiente se enfrentan por los octavos de final del Torneo Clausura.",
-   "fuente": "Noticias de Bariloche",
-   "t": 1795453582000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Caballeros de la Quema suma nueva fecha en Vorterix",
-   "bajada": "",
-   "leer": "Caballeros de la Quema suma nueva fecha en Vorterix.",
-   "fuente": "CMTV.com.ar",
-   "t": 1795453286000
-  },
-  {
-   "tema": "política",
-   "titulo": "Vuelos complicados: ATE amenaza con nuevos “paros a la japonesa” en los aeropuertos y podría impactar en las Fiestas",
-   "bajada": "Las medidas de fuerza se llevarán a cabo durante todo diciembre, en todos los aeropuertos del país. Podría incluir también retención de tareas y paro total de actividades.",
-   "leer": "Vuelos complicados: ATE amenaza con nuevos “paros a la japonesa” en los aeropuertos y podría impactar en las Fiestas. Las medidas de fuerza se llevarán a cabo durante todo diciembre, en todos los aeropuertos del país. Podría incluir también retención de tareas y paro total de actividades.",
-   "fuente": "clarin.com",
-   "t": 1795452882000
-  },
-  {
-   "tema": "política",
-   "titulo": "El hijo de Santucho le respondió al Gobierno de Milei y ratificó el homenaje a su padre en la UBA: “Hay que recuperar lo esencial de esa generación”",
-   "bajada": "Mario Santucho hijo planteó que la polémica por el acto anunciado en la UBA es parte del conflicto entre el Gobierno y la universidad pública. \"El acto se hace, salvo que las autoridades de la UBA lo censuren\", afirmó.",
-   "leer": "El hijo de Santucho le respondió al Gobierno de Milei y ratificó el homenaje a su padre en la UBA: “Hay que recuperar lo esencial de esa generación”. Mario Santucho hijo planteó que la polémica por el acto anunciado en la UBA es parte del conflicto entre el Gobierno y la universidad pública. \"El acto se hace, salvo que las autoridades de la UBA lo censuren\", afirmó.",
-   "fuente": "clarin.com",
-   "t": 1795452624000
-  },
-  {
    "tema": "tecnología",
    "titulo": "Monitores gamer: llegan nuevos modelos a la Argentina con tecnología OLED y precios para todos los bolsillos",
    "bajada": "Samsung presentó su nueva línea Odyssey, con opciones que van desde pantallas Full HD de 200 Hz hasta modelos 4K de alta gama. Qué diferencias hay entre las tecnologías disponibles, cuánto cuestan y qué tener en cuenta antes de comprar.",
@@ -258,84 +362,12 @@
    "t": 1795452480000
   },
   {
-   "tema": "deportes",
-   "titulo": "Suspendieron a una tenista juvenil argentina por doping: la sustancia que le encontraron y la sanción aplicada",
-   "bajada": "Se trata de Valentina Rossi, de 21 años y que solo ha jugado torneos del circuito World Tennis Tour de la ITF. Además, la ITIA suspendió a un profesional colombiano por haber cometido \"irregularidades relacionadas con el amaño de partidos y apuestas\".",
-   "leer": "Suspendieron a una tenista juvenil argentina por doping: la sustancia que le encontraron y la sanción aplicada. Se trata de Valentina Rossi, de 21 años y que solo ha jugado torneos del circuito World Tennis Tour de la ITF. Además, la ITIA suspendió a un profesional colombiano por haber cometido \"irregularidades relacionadas con el amaño de partidos y apuestas\".",
-   "fuente": "clarin.com",
-   "t": 1795452290000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Preocupación empresaria por una nueva traba burocrática en la provincia de Buenos Aires: piden que se anule la medida",
-   "bajada": "Empleadores del distrito deberán informar todos los meses cuánto pagaron en salarios y cómo controlan la jornada de trabajo. Para diferentes cámaras, la medida es contraria a la simplificación de trámites. Piden que se reconsidere su aplicación prevista desde enero de 2027.",
-   "leer": "Preocupación empresaria por una nueva traba burocrática en la provincia de Buenos Aires: piden que se anule la medida. Empleadores del distrito deberán informar todos los meses cuánto pagaron en salarios y cómo controlan la jornada de trabajo. Para diferentes cámaras, la medida es contraria a la simplificación de trámites. Piden que se reconsidere su aplicación prevista desde enero de 2027.",
-   "fuente": "clarin.com",
-   "t": 1795452236000
-  },
-  {
-   "tema": "música",
-   "titulo": "Rodrigo de la Serna vuelve a la pantalla con \"Gordon\": la playlist de 43 canciones que acompaña la serie de Netflix",
-   "bajada": "",
-   "leer": "Rodrigo de la Serna vuelve a la pantalla con \"Gordon\": la playlist de 43 canciones que acompaña la serie de Netflix.",
-   "fuente": "Crónica",
-   "t": 1795452060000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "La chicana de Boca a Independiente tras llegar a 19 títulos internacionales",
-   "bajada": "",
-   "leer": "La chicana de Boca a Independiente tras llegar a 19 títulos internacionales.",
-   "fuente": "La Gaceta",
-   "t": 1795450881000
-  },
-  {
    "tema": "espectáculos",
    "titulo": "Arnold Schwarzenegger habló de su hijo fisicoculturista y reveló el consejo que le dio sobre su futuro",
    "bajada": "El menor de los cinco hijos del protagonista de \"Terminator\" debutó como fisicoculturista profesional y quedó entre los cinco mejores de su categoría. El actor celebró que siga sus pasos, pero también explicó por qué le recomendó que no abandonara su trabajo en el sector inmobiliario.",
    "leer": "Arnold Schwarzenegger habló de su hijo fisicoculturista y reveló el consejo que le dio sobre su futuro. El menor de los cinco hijos del protagonista de \"Terminator\" debutó como fisicoculturista profesional y quedó entre los cinco mejores de su categoría. El actor celebró que siga sus pasos, pero también explicó por qué le recomendó que no abandonara su trabajo en el sector inmobiliario.",
    "fuente": "clarin.com",
    "t": 1795450117000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Cómo usan la plata los adolescentes: sin efectivo, con ayuda de la IA para invertir y expuestos a estafas y apuestas",
-   "bajada": "El 63% de los jóvenes hasta 19 años paga principalmente con billeteras digitales. Más de la mitad ya consultó a la IA sobre dinero. El 6,5% reconoció que apostó online en el último mes pero el 40% tiene un amigo que lo hace regularmente.",
-   "leer": "Cómo usan la plata los adolescentes: sin efectivo, con ayuda de la IA para invertir y expuestos a estafas y apuestas. El 63% de los jóvenes hasta 19 años paga principalmente con billeteras digitales. Más de la mitad ya consultó a la IA sobre dinero. El 6,5% reconoció que apostó online en el último mes pero el 40% tiene un amigo que lo hace regularmente.",
-   "fuente": "clarin.com",
-   "t": 1795450083000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Escándalo en el ascenso uruguayo: Deportivo Colonia fue a la Justicia para revertir una decisión de la AUF que lo dejó fuera de la final por el ascenso",
-   "bajada": "El club presentó un recurso de amparo después de que la Asociación Uruguaya de Fútbol le diera por ganado un partido a Sportivo Bella Italia sin que se disputara. Deportivo Italiano, el equipo que supuestamente había renunciado a jugar, desconoce esa decisión y cuestiona la legitimidad de quien la comunicó.",
-   "leer": "Escándalo en el ascenso uruguayo: Deportivo Colonia fue a la Justicia para revertir una decisión de la AUF que lo dejó fuera de la final por el ascenso. El club presentó un recurso de amparo después de que la Asociación Uruguaya de Fútbol le diera por ganado un partido a Sportivo Bella Italia sin que se disputara. Deportivo Italiano, el equipo que supuestamente había renunciado a jugar, desconoce esa decisión y cuestiona la legitimidad de quien la comunicó.",
-   "fuente": "clarin.com",
-   "t": 1795449773000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "Los dos récords indeseables que sufrió Pochettino en su debut como DT del Manchester United con goleada ante Liverpool",
-   "bajada": "El entrenador argentino, apenas con dos días de entrenamientos, asumió la visita a Anfield por la Premier League y perdió 4-0. El miércoles jugará por la Champions League, donde está casi obligado a ganar.",
-   "leer": "Los dos récords indeseables que sufrió Pochettino en su debut como DT del Manchester United con goleada ante Liverpool. El entrenador argentino, apenas con dos días de entrenamientos, asumió la visita a Anfield por la Premier League y perdió 4-0. El miércoles jugará por la Champions League, donde está casi obligado a ganar.",
-   "fuente": "clarin.com",
-   "t": 1795449171000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Por qué Boca evalúa pedir el cambio de fecha para el partido con Independiente Rivadavia",
-   "bajada": "",
-   "leer": "Por qué Boca evalúa pedir el cambio de fecha para el partido con Independiente Rivadavia.",
-   "fuente": "Olé",
-   "t": 1795447241000
-  },
-  {
-   "tema": "espectáculos",
-   "titulo": "Emmy Internacionales 2026: este lunes se entregan los premios y Ricardo Darín y Leo Sbaraglia, entre otros argentinos, buscan quedarse con una estatuilla",
-   "bajada": "Ellos dos, junto a Santiago Korovsky (protagonista y creador de \"División Palermo\"), viajaron a Nueva York para participar de la ceremonia. \"El Eternauta\", \"División Palermo\" y \"Menem\" competirán contra producciones de todo el mundo. La lista completa de nominados.",
-   "leer": "Emmy Internacionales 2026: este lunes se entregan los premios y Ricardo Darín y Leo Sbaraglia, entre otros argentinos, buscan quedarse con una estatuilla. Ellos dos, junto a Santiago Korovsky (protagonista y creador de \"División Palermo\"), viajaron a Nueva York para participar de la ceremonia. \"El Eternauta\", \"División Palermo\" y \"Menem\" competirán contra producciones de todo el mundo. La lista completa de nominados.",
-   "fuente": "clarin.com",
-   "t": 1795447036000
   },
   {
    "tema": "tránsito",
@@ -352,46 +384,6 @@
    "leer": "Matadoras: La formación Albiazul para jugar ante River Plate.",
    "fuente": "Club Atlético Talleres",
    "t": 1795441188000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Un fan cordobés esperó 2 años para conocer a María Becerra: cómo cumplió su sueño y la dedicatoria especial",
-   "bajada": "",
-   "leer": "Un fan cordobés esperó 2 años para conocer a María Becerra: cómo cumplió su sueño y la dedicatoria especial.",
-   "fuente": "eldoce",
-   "t": 1795440403000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Alerta amarilla en seis provincias por tormentas y ráfagas de viento de más de 90 km/h",
-   "bajada": "",
-   "leer": "Alerta amarilla en seis provincias por tormentas y ráfagas de viento de más de 90 km/h.",
-   "fuente": "Agencia Noticias Argentinas",
-   "t": 1795437658000
-  },
-  {
-   "tema": "clima",
-   "titulo": "Semana calurosa en el AMBA: qué días la temperatura superará los 30 grados",
-   "bajada": "",
-   "leer": "Semana calurosa en el AMBA: qué días la temperatura superará los 30 grados.",
-   "fuente": "Infobae",
-   "t": 1795427580000
-  },
-  {
-   "tema": "tecnología",
-   "titulo": "Cuánto cuesta jugar al GTA VI en Argentina: desde la opción más barata hasta una experiencia premium de $6 millones",
-   "bajada": "El nuevo juego de Rockstar ya está disponible para PlayStation 5 y Xbox Series X|S. Cuánto cuestan las consolas, qué alternativas existen para gastar menos y cuánto hay que invertir en un equipo completo con pantalla gigante y sonido envolvente.",
-   "leer": "Cuánto cuesta jugar al GTA VI en Argentina: desde la opción más barata hasta una experiencia premium de $6 millones. El nuevo juego de Rockstar ya está disponible para PlayStation 5 y Xbox Series X|S. Cuánto cuestan las consolas, qué alternativas existen para gastar menos y cuánto hay que invertir en un equipo completo con pantalla gigante y sonido envolvente.",
-   "fuente": "clarin.com",
-   "t": 1795423514000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "El club argentino que se contactó con Miljevic para sacarlo de Racing",
-   "bajada": "",
-   "leer": "El club argentino que se contactó con Miljevic para sacarlo de Racing.",
-   "fuente": "El Destape",
-   "t": 1795411113000
   }
  ]
 }
