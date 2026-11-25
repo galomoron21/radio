@@ -1,117 +1,301 @@
 {
- "t": 1795542395818,
+ "t": 1795573834384,
  "items": [
   {
    "tema": "actualidad",
-   "titulo": "Cuadramente",
-   "bajada": "Cómo jugar al Cuadramente Cuadramente es un juego online que propone completar toda la cuadrícula con rectángulos. Para resolverlo, debés tener en cuenta que cada número indica la cantidad de celdas que debe ocupar el rectángulo correspondiente.",
-   "leer": "Cuadramente. Cómo jugar al Cuadramente Cuadramente es un juego online que propone completar toda la cuadrícula con rectángulos. Para resolverlo, debés tener en cuenta que cada número indica la cantidad de celdas que debe ocupar el rectángulo correspondiente.",
-   "fuente": "lanacion.com.ar",
-   "t": 1795542260000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La Iglesia convocó a los diputados bonaerenses para expresar su “profunda preocupación” por la ludopatía",
-   "bajada": "El arzobispo de La Plata se encontrará con jefes de bloque y autoridades de la Cámara y reforzará “los recientes llamados del Papa León XIV”; hay proyectos en pugna y el mañana será la última sesión ordinaria del año.",
-   "leer": "La Iglesia convocó a los diputados bonaerenses para expresar su “profunda preocupación” por la ludopatía. El arzobispo de La Plata se encontrará con jefes de bloque y autoridades de la Cámara y reforzará “los recientes llamados del Papa León XIV”; hay proyectos en pugna y el mañana será la última sesión ordinaria del año.",
-   "fuente": "lanacion.com.ar",
-   "t": 1795542255000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "El Congreso se pone en pie de guerra por la intervención de Trump para restituir a Huang y le suma presión al CEO de Nvidia",
-   "bajada": "La admisión del presidente amplió el alcance de las investigaciones de los demócratas sobre el caso y generó críticas de legisladores republicanos.",
-   "leer": "El Congreso se pone en pie de guerra por la intervención de Trump para restituir a Huang y le suma presión al CEO de Nvidia. La admisión del presidente amplió el alcance de las investigaciones de los demócratas sobre el caso y generó críticas de legisladores republicanos.",
-   "fuente": "lanacion.com.ar",
-   "t": 1795542138000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "La comisión de finanzas aprueba un dictamen de Q 172.420,9 millones (unos 22.509 millones de dólares) para el presupuesto guatemalteco de 2027",
-   "bajada": "El recorte a los bonos del Tesoro reduce el déficit fiscal previsto para 2027 al 3,2% del PIB. El ajuste financiero disminuye la emisión de títulos de Q 42.750 millones a Q 31.394,5 millones y mantiene la inversión pública originalmente planteada, mientras los ingresos totales se proyectan en Q 134.152,2 millones.",
-   "leer": "La comisión de finanzas aprueba un dictamen de Q 172.420,9 millones (unos 22.509 millones de dólares) para el presupuesto guatemalteco de 2027. El recorte a los bonos del Tesoro reduce el déficit fiscal previsto para 2027 al 3,2% del PIB. El ajuste financiero disminuye la emisión de títulos de Q 42.750 millones a Q 31.394,5 millones y mantiene la inversión pública originalmente planteada, mientras los ingresos totales se proyectan en Q 134.152,2 millones.",
+   "titulo": "El portero Wuilker Faríñez reveló que extraña a Millonarios y a sus aficionados: “El hincha es muy apasionado”",
+   "bajada": "El deportista venezolano recordó su etapa con el equipo azul, con el que logró la Superliga 2018 y que le abrió las puertas del fútbol colombiano para jugar en otros clubes.",
+   "leer": "El portero Wuilker Faríñez reveló que extraña a Millonarios y a sus aficionados: “El hincha es muy apasionado”. El deportista venezolano recordó su etapa con el equipo azul, con el que logró la Superliga 2018 y que le abrió las puertas del fútbol colombiano para jugar en otros clubes.",
    "fuente": "infobae.com",
-   "t": 1795542031000
+   "t": 1795573647000
   },
   {
    "tema": "actualidad",
-   "titulo": "Diez detenidos en la alcaldía Miguel Hidalgo enfrentarán proceso por narcomenudeo: cuatro habrían ofrecido motos a policías",
-   "bajada": "Los imputados fueron detenidos con 437 envoltorios de droga; la SSC los relaciona con una célula dedicada a la extorsión y al fraude conocido como “La Patrona”.",
-   "leer": "Diez detenidos en la alcaldía Miguel Hidalgo enfrentarán proceso por narcomenudeo: cuatro habrían ofrecido motos a policías. Los imputados fueron detenidos con 437 envoltorios de droga; la SSC los relaciona con una célula dedicada a la extorsión y al fraude conocido como “La Patrona”.",
+   "titulo": "Abogado penalista cuestiona cadena perpetua para policías vinculados a organizaciones criminales: \"Es populismo punitivo\"",
+   "bajada": "El especialista advierte que el proyecto del Ejecutivo podría ser declarado inconstitucional por el Tribunal Constitucional debido a una posible violación del principio de proporcionalidad penal.",
+   "leer": "Abogado penalista cuestiona cadena perpetua para policías vinculados a organizaciones criminales: \"Es populismo punitivo\". El especialista advierte que el proyecto del Ejecutivo podría ser declarado inconstitucional por el Tribunal Constitucional debido a una posible violación del principio de proporcionalidad penal.",
    "fuente": "infobae.com",
-   "t": 1795542029000
+   "t": 1795573631000
   },
   {
    "tema": "actualidad",
-   "titulo": "El Ejército israelí eliminó al jefe de seguridad interna de Hamas en un ataque con dron en Gaza",
-   "bajada": "Las autoridades del enclave denunciaron que la operación aérea vulnera la tregua acordada en octubre de 2025, mientras el hospital Shifa informó que Naim Muhamad Abú Nahal fue alcanzado en el Palacio Al Hakim.",
-   "leer": "El Ejército israelí eliminó al jefe de seguridad interna de Hamas en un ataque con dron en Gaza. Las autoridades del enclave denunciaron que la operación aérea vulnera la tregua acordada en octubre de 2025, mientras el hospital Shifa informó que Naim Muhamad Abú Nahal fue alcanzado en el Palacio Al Hakim.",
+   "titulo": "Miss Universo 2026 EN VIVO: María Alejandra López se mete al Top 30 en la gala HOY en Puerto Rico",
+   "bajada": "La ingeniera industrial de Pereira es la representante nacional en la edición número 75 del certamen de belleza, luego de una trayectoria internacional que incluyó dos puestos de finalista y varios triunfos fuera del país.",
+   "leer": "La ingeniera industrial de Pereira es la representante nacional en la edición número 75 del certamen de belleza, luego de una trayectoria internacional que incluyó dos puestos de finalista y varios triunfos fuera del país.",
    "fuente": "infobae.com",
-   "t": 1795542004000
+   "t": 1795573627000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "La agenda de la TV del miércoles: Boca juega por los octavos de final del Clausura, el Sub 17, más Champions League y la Copa Davis",
+   "bajada": "La actividad deportiva en la continuidad de la semana, disponible a través de las pantallas.",
+   "leer": "La agenda de la TV del miércoles: Boca juega por los octavos de final del Clausura, el Sub 17, más Champions League y la Copa Davis. La actividad deportiva en la continuidad de la semana, disponible a través de las pantallas.",
+   "fuente": "lanacion.com.ar",
+   "t": 1795572763000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Palmeiras ni siquiera viajó con sus titulares para su último partido antes de la final de la Copa Libertadores: Chapecoense lo goleó a 10 años de la tragedia",
+   "bajada": "El conjunto paulista puso un equipo completamente alternativo para la penúltima fecha del Brasileirao, que ya tiene como campeón al Flamengo. Mirá el resumen.",
+   "leer": "Palmeiras ni siquiera viajó con sus titulares para su último partido antes de la final de la Copa Libertadores: Chapecoense lo goleó a 10 años de la tragedia. El conjunto paulista puso un equipo completamente alternativo para la penúltima fecha del Brasileirao, que ya tiene como campeón al Flamengo. Mirá el resumen.",
+   "fuente": "clarin.com",
+   "t": 1795572389000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Verano 2027 en Florianópolis: cuánto cuesta alquilar y cuáles son las playas más buscadas",
+   "bajada": "Los departamentos para dos personas promedian entre US$75 y US$100 por noche según la distancia al mar; las diferencias entre Canasvieiras y Jurerê amplían el abanico de precios.",
+   "leer": "Verano 2027 en Florianópolis: cuánto cuesta alquilar y cuáles son las playas más buscadas. Los departamentos para dos personas promedian entre US$75 y US$100 por noche según la distancia al mar; las diferencias entre Canasvieiras y Jurerê amplían el abanico de precios.",
+   "fuente": "lanacion.com.ar",
+   "t": 1795572373000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Lo condujeron por última vez en la Navidad de 1970 y ahora lo venden: la historia de un Pontiac clásico de Estados Unidos",
+   "bajada": "Lo compraron en 1964 y lo condujeron por última vez en 1970. Ahora lo venden porque carecen de presupuesto para terminar su restauración.",
+   "leer": "Lo condujeron por última vez en la Navidad de 1970 y ahora lo venden: la historia de un Pontiac clásico de Estados Unidos. Lo compraron en 1964 y lo condujeron por última vez en 1970. Ahora lo venden porque carecen de presupuesto para terminar su restauración.",
+   "fuente": "clarin.com",
+   "t": 1795572220000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Mariana Fabbiani no vuelve a América y ya es figura de canal Nueve para 2027",
+   "bajada": "El pase de la conductora es el primero que se confirma luego de la venta de la productora Mandarina al grupo Octubre.",
+   "leer": "Mariana Fabbiani no vuelve a América y ya es figura de canal Nueve para 2027. El pase de la conductora es el primero que se confirma luego de la venta de la productora Mandarina al grupo Octubre.",
+   "fuente": "lanacion.com.ar",
+   "t": 1795572180000
+  },
+  {
+   "tema": "actualidad",
+   "titulo": "Senador dice que salvadoreño deportado por error en 2025 deja EEUU por su voluntad",
+   "bajada": "Un residente de Maryland deportado por error en 2025 salió de EE.UU., tras ser detenido en una prisión salvadoreña el año pasado. El caso de Kilmar Abrego se volvió emblemático contra la política migratoria de Trump. Ahora, viaja libremente a un destino no revelado.",
+   "leer": "Senador dice que salvadoreño deportado por error en 2025 deja EEUU por su voluntad. Un residente de Maryland deportado por error en 2025 salió de EE.UU., tras ser detenido en una prisión salvadoreña el año pasado. El caso de Kilmar Abrego se volvió emblemático contra la política migratoria de Trump. Ahora, viaja libremente a un destino no revelado.",
+   "fuente": "clarin.com",
+   "t": 1795572019000
   },
   {
    "tema": "fútbol",
-   "titulo": "Un viejo conocido: ¿quién es el delantero de 37 años que busca el Bayern Munich para reemplazar a Harry Kane?",
-   "bajada": "El inglés sufrió una lesión en el tobillo izquierdo y estaría cerca de tres meses afuera, por eso los bávaros analizan opciones...",
-   "leer": "El inglés sufrió una lesión en el tobillo izquierdo y estaría cerca de tres meses afuera, por eso los bávaros analizan opciones...",
-   "fuente": "ole.com.ar",
-   "t": 1795541805000
+   "titulo": "Atento Boca Juniors: la sorprendente frase de Paulo Dybala sobre su futuro",
+   "bajada": "",
+   "leer": "Atento Boca Juniors: la sorprendente frase de Paulo Dybala sobre su futuro.",
+   "fuente": "Infobae",
+   "t": 1795571580000
   },
   {
    "tema": "fútbol",
-   "titulo": "La banca del Cholo Simeone a Julián Alvarez: \"Los goles seguramente aparecerán\"",
-   "bajada": "El DT palpitó el encuentro del Atlético de Madrid ante el Viking por la Champions y se refirió al presente de la Araña.",
-   "leer": "La banca del Cholo Simeone a Julián Alvarez: \"Los goles seguramente aparecerán\". El DT palpitó el encuentro del Atlético de Madrid ante el Viking por la Champions y se refirió al presente de la Araña.",
+   "titulo": "Final de un ciclo muy exitoso: el Turco Mohamed se va de Toluca",
+   "bajada": "El técnico argentino terminará en diciembre próximo su etapa en los Diablos Rojos: ganó seis títulos en dos años. Lloró en una emotiva conferencia de prensa. Mirá los videos.",
+   "leer": "Final de un ciclo muy exitoso: el Turco Mohamed se va de Toluca. El técnico argentino terminará en diciembre próximo su etapa en los Diablos Rojos: ganó seis títulos en dos años. Lloró en una emotiva conferencia de prensa. Mirá los videos.",
    "fuente": "ole.com.ar",
-   "t": 1795541473000
+   "t": 1795570748000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Boca vs. Independiente Rivadavia: la fiesta en la Bombonera y otra final",
+   "bajada": "Luego de ganar la Sudamericana, el Xeneize afronta un escenario repetido: un partido sin mañana. El claro mensaje de Arruabarrena, que pone lo mejor.",
+   "leer": "Boca vs. Independiente Rivadavia: la fiesta en la Bombonera y otra final. Luego de ganar la Sudamericana, el Xeneize afronta un escenario repetido: un partido sin mañana. El claro mensaje de Arruabarrena, que pone lo mejor.",
+   "fuente": "ole.com.ar",
+   "t": 1795569393000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "No guarda nada: la lista de Arruabarrena para jugar con Independiente Rivadavia",
+   "bajada": "Tras ganar la Sudamericana, el Vasco convocó a 24 jugadores con el objetivo de meterse en los cuartos de final del Clausura.",
+   "leer": "No guarda nada: la lista de Arruabarrena para jugar con Independiente Rivadavia. Tras ganar la Sudamericana, el Vasco convocó a 24 jugadores con el objetivo de meterse en los cuartos de final del Clausura.",
+   "fuente": "ole.com.ar",
+   "t": 1795568994000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La economía en recesión: cuánto tiempo puede durar y qué hay detrás de la caída de la actividad",
+   "bajada": "El rebote de septiembre dejó un arrastre favorable para que la actividad vuelva a crecer en el cuarto trimestre. Pero la debilidad del empleo, los ingresos y el crédito condiciona la recuperación, mientras la tensión financiera amenaza con demorarla.",
+   "leer": "La economía en recesión: cuánto tiempo puede durar y qué hay detrás de la caída de la actividad. El rebote de septiembre dejó un arrastre favorable para que la actividad vuelva a crecer en el cuarto trimestre. Pero la debilidad del empleo, los ingresos y el crédito condiciona la recuperación, mientras la tensión financiera amenaza con demorarla.",
+   "fuente": "ambito.com",
+   "t": 1795565700000
+  },
+  {
+   "tema": "política",
+   "titulo": "Tras el escándalo por el homenaje fallido a Santucho, la Facultad de Sociales de la UBA convocó una \"jornada de debate y reflexión\" sobre los años 60 y 70",
+   "bajada": "Este martes la casa de estudios resolvió dejar sin efecto el reconocimiento, con escultura incluida, al exlíder del Ejército Revolucionario del Pueblo (ERP). Además, el comunicado cita que se refuerza \"el compromiso inclaudicable e irrestricto de la Facultad con los valores y el sistema democrático\".",
+   "leer": "Tras el escándalo por el homenaje fallido a Santucho, la Facultad de Sociales de la UBA convocó una \"jornada de debate y reflexión\" sobre los años 60 y 70. Este martes la casa de estudios resolvió dejar sin efecto el reconocimiento, con escultura incluida, al exlíder del Ejército Revolucionario del Pueblo (ERP). Además, el comunicado cita que se refuerza \"el compromiso inclaudicable e irrestricto de la Facultad con los valores y el sistema democrático\".",
+   "fuente": "clarin.com",
+   "t": 1795563894000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing, cada vez más cerca de finalizar el predio de Ezeiza: \"listo un 95%\" y qué falta por completar",
+   "bajada": "",
+   "leer": "Racing, cada vez más cerca de finalizar el predio de Ezeiza: \"listo un 95%\" y qué falta por completar.",
+   "fuente": "TyC Sports",
+   "t": 1795562726000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "River tiene negociaciones avanzadas para incorporar a Palacios: todos los detalles",
+   "bajada": "",
+   "leer": "River tiene negociaciones avanzadas para incorporar a Palacios: todos los detalles.",
+   "fuente": "TyC Sports",
+   "t": 1795562248000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "San Lorenzo no pudo revertir la serie ante Gimnasia.",
+   "bajada": "",
+   "leer": "San Lorenzo no pudo revertir la serie ante Gimnasia..",
+   "fuente": "Mundo Azulgrana",
+   "t": 1795561797000
+  },
+  {
+   "tema": "política",
+   "titulo": "Ley de Ludopatía: contra reloj, el oficialismo negocia con sus aliados los cambios al proyecto aprobado en Diputados",
+   "bajada": "El alcance de la publicidad de las empresas de juego online y las competencias de las provincias, entre los principales ejes de discusión. Si no lo votan antes del 30 de noviembre, el proyecto pierde estado parlamentario y la discusión debe empezar de cero.",
+   "leer": "Ley de Ludopatía: contra reloj, el oficialismo negocia con sus aliados los cambios al proyecto aprobado en Diputados. El alcance de la publicidad de las empresas de juego online y las competencias de las provincias, entre los principales ejes de discusión. Si no lo votan antes del 30 de noviembre, el proyecto pierde estado parlamentario y la discusión debe empezar de cero.",
+   "fuente": "clarin.com",
+   "t": 1795561600000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "\"La rompió\": la Conmebol destacó a un jugador de Boca en la final de la Sudamericana",
+   "bajada": "",
+   "leer": "\"La rompió\": la Conmebol destacó a un jugador de Boca en la final de la Sudamericana.",
+   "fuente": "TyC Sports",
+   "t": 1795561485000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La economía está deprimida hace un año y medio",
+   "bajada": "Hay una dinámica dual con sectores primarios creciendo a tasas chinas, además de la fuerte recuperación del agro desde la sequía de 2023. Pero esos sectores primarios representan alrededor del 6% del empleo privado formal, mientras que la industria, la construcción y el comercio un 45%.",
+   "leer": "La economía está deprimida hace un año y medio. Hay una dinámica dual con sectores primarios creciendo a tasas chinas, además de la fuerte recuperación del agro desde la sequía de 2023. Pero esos sectores primarios representan alrededor del 6% del empleo privado formal, mientras que la industria, la construcción y el comercio un 45%.",
+   "fuente": "clarin.com",
+   "t": 1795561271000
+  },
+  {
+   "tema": "política",
+   "titulo": "Marcha atrás con el insólito homenaje a Santucho en la UBA: solo la agrupación de Grabois estaba a favor de hacerlo",
+   "bajada": "La decisión se tomó en una reunión extraordinaria, convocada por Zoom, de la que participaron los integrantes del Consejo Directivo de la Facultad y la decana Ana Arias. Hubo una votación casi unánime en contra del acto y solo la agrupación La Mella, cercana a Grabois, votó en contra de la suspensión.",
+   "leer": "Marcha atrás con el insólito homenaje a Santucho en la UBA: solo la agrupación de Grabois estaba a favor de hacerlo. La decisión se tomó en una reunión extraordinaria, convocada por Zoom, de la que participaron los integrantes del Consejo Directivo de la Facultad y la decana Ana Arias. Hubo una votación casi unánime en contra del acto y solo la agrupación La Mella, cercana a Grabois, votó en contra de la suspensión.",
+   "fuente": "clarin.com",
+   "t": 1795560844000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "Ola de frío polar en Francia: el termómetro se desplomó a -8,2 °C y rige alerta por nevadas",
+   "bajada": "Las marcas bajo cero alcanzaron localidades como Metz, Nancy, Reims y Lille, donde el ambiente invernal superó las previsiones habituales. Para este miércoles se espera el ingreso de un frente lluvioso con riesgo de lluvia helada sobre superficies con marcas inferiores a cero.",
+   "leer": "Ola de frío polar en Francia: el termómetro se desplomó a -8,2 °C y rige alerta por nevadas. Las marcas bajo cero alcanzaron localidades como Metz, Nancy, Reims y Lille, donde el ambiente invernal superó las previsiones habituales. Para este miércoles se espera el ingreso de un frente lluvioso con riesgo de lluvia helada sobre superficies con marcas inferiores a cero.",
+   "fuente": "clarin.com",
+   "t": 1795560098000
+  },
+  {
+   "tema": "economía",
+   "titulo": "El mercado no le cree a Luis Caputo y ahora todos miran a Scott Bessent",
+   "bajada": "Hay disconformidad en EE.UU., tanto en círculos del mercado como oficiales, con la caída de los bonos y con el Gobierno. Habría promesas incumplidas como haber salido al mercado. La caída de los títulos aumenta el colateral de los préstamos Repo de la deuda.",
+   "leer": "El mercado no le cree a Luis Caputo y ahora todos miran a Scott Bessent. Hay disconformidad en EE.UU., tanto en círculos del mercado como oficiales, con la caída de los bonos y con el Gobierno. Habría promesas incumplidas como haber salido al mercado. La caída de los títulos aumenta el colateral de los préstamos Repo de la deuda.",
+   "fuente": "clarin.com",
+   "t": 1795559408000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Una jornada muy especial por Octubre Rosa",
+   "bajada": "",
+   "leer": "Una jornada muy especial por Octubre Rosa.",
+   "fuente": "riverplate.com",
+   "t": 1795559263000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Se achica la estructura del Gobierno porteño: desaparece Espacio Público, en una señal a los libertarios y a Mauricio Macri",
+   "bajada": "Se reducen los cargos, que serán absorbidos por el ministerio de Gobierno y por la Jefatura de Gabinete. Gana espacio Gustavo Gago, vocero de Jorge Macri, que pasa a ser el secretario general.",
+   "leer": "Se achica la estructura del Gobierno porteño: desaparece Espacio Público, en una señal a los libertarios y a Mauricio Macri. Se reducen los cargos, que serán absorbidos por el ministerio de Gobierno y por la Jefatura de Gabinete. Gana espacio Gustavo Gago, vocero de Jorge Macri, que pasa a ser el secretario general.",
+   "fuente": "clarin.com",
+   "t": 1795559171000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "Racing Club primer finalista del Clausura 2026",
+   "bajada": "",
+   "leer": "Racing Club primer finalista del Clausura 2026.",
+   "fuente": "La Razon de Chivilcoy",
+   "t": 1795558284000
+  },
+  {
+   "tema": "sociedad",
+   "titulo": "Condenaron a un pastor evangélico por abusar de su hija: le decía que nadie le iba a creer por su buena reputación",
+   "bajada": "Los abusos ocurrieron en Santa Fe y Córdoba, entre 2015 y 2023. La investigación comenzó cuando la chica cumplió 18 años y presentó la denuncia.",
+   "leer": "Condenaron a un pastor evangélico por abusar de su hija: le decía que nadie le iba a creer por su buena reputación. Los abusos ocurrieron en Santa Fe y Córdoba, entre 2015 y 2023. La investigación comenzó cuando la chica cumplió 18 años y presentó la denuncia.",
+   "fuente": "clarin.com",
+   "t": 1795558067000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Paulo Dybala sorprende al mundo Boca y confiesa que sueña retirarse en la Roma: \"Sería muy lindo, no me veo en otro lugar\"",
+   "bajada": "La Joya sorprendió en conferencia con una declaración de amor hacia el conjunto capitalino. \"Llevo aquí casi la mitad de mi vida y soy muy feliz\", declaró, en relación a su historia en Italia. El cordobés sonaba fuerte para seguir los pasos de Leandro Paredes y jugar en la Bombonera.",
+   "leer": "Paulo Dybala sorprende al mundo Boca y confiesa que sueña retirarse en la Roma: \"Sería muy lindo, no me veo en otro lugar\". La Joya sorprendió en conferencia con una declaración de amor hacia el conjunto capitalino. \"Llevo aquí casi la mitad de mi vida y soy muy feliz\", declaró, en relación a su historia en Italia. El cordobés sonaba fuerte para seguir los pasos de Leandro Paredes y jugar en la Bombonera.",
+   "fuente": "clarin.com",
+   "t": 1795557710000
+  },
+  {
+   "tema": "el mundo",
+   "titulo": "El ajuste de Lula da Silva calma a los mercados y el dólar retrocede en Brasil",
+   "bajada": "El plan avalado por el Congreso prevé reducir el gasto estatal, las transferencias a los estados y las exenciones tributarias. La divisa estadounidense frenó su escalada y bajó un 2%, a 5,8 reales por billete.",
+   "leer": "El ajuste de Lula da Silva calma a los mercados y el dólar retrocede en Brasil. El plan avalado por el Congreso prevé reducir el gasto estatal, las transferencias a los estados y las exenciones tributarias. La divisa estadounidense frenó su escalada y bajó un 2%, a 5,8 reales por billete.",
+   "fuente": "clarin.com",
+   "t": 1795557698000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "Murió Jeanine Grasmeijer, la apneísta récord mundial en inmersión libre: tenía 33 años",
+   "bajada": "La familia de la joven confirmó su fallecimiento en las últimas horas. Había marcado dos récords en 2013 y 2016 al sumergirse más de 90 metros en menos de cuatro minutos.",
+   "leer": "Murió Jeanine Grasmeijer, la apneísta récord mundial en inmersión libre: tenía 33 años. La familia de la joven confirmó su fallecimiento en las últimas horas. Había marcado dos récords en 2013 y 2016 al sumergirse más de 90 metros en menos de cuatro minutos.",
+   "fuente": "clarin.com",
+   "t": 1795556964000
+  },
+  {
+   "tema": "economía",
+   "titulo": "La economía entró en recesión técnica: sumó dos trimestres seguidos de caída pese a crecer 1,1% mensual en septiembre",
+   "bajada": "La actividad económica cayó 1,2% interanual y acumuló su tercer mes consecutivo de retroceso en esa medición. El deterioro de la industria, el comercio y la intermediación financiera plantea nuevos desafíos para la recuperación de cara a 2027.",
+   "leer": "La economía entró en recesión técnica: sumó dos trimestres seguidos de caída pese a crecer 1,1% mensual en septiembre. La actividad económica cayó 1,2% interanual y acumuló su tercer mes consecutivo de retroceso en esa medición. El deterioro de la industria, el comercio y la intermediación financiera plantea nuevos desafíos para la recuperación de cara a 2027.",
+   "fuente": "ambito.com",
+   "t": 1795556220000
+  },
+  {
+   "tema": "deportes",
+   "titulo": "La ofrenda de Messi que llegó al Cementerio de Darwin y volvió a unir a la Scaloneta con Malvinas: \"Firmada por él\"",
+   "bajada": "Una réplica de la camiseta que usó 10 ante Inglaterra llegó a las Malvinas. El CECIM La Plata agradeció decidió llevársela a los caídos en las islas.",
+   "leer": "La ofrenda de Messi que llegó al Cementerio de Darwin y volvió a unir a la Scaloneta con Malvinas: \"Firmada por él\". Una réplica de la camiseta que usó 10 ante Inglaterra llegó a las Malvinas. El CECIM La Plata agradeció decidió llevársela a los caídos en las islas.",
+   "fuente": "clarin.com",
+   "t": 1795555284000
+  },
+  {
+   "tema": "economía",
+   "titulo": "Fondo para indemnizaciones: el Banco Nación ofrecerá beneficios a empresas y trabajadores que adhieran al FAL",
+   "bajada": "A partir del 1° de diciembre comenzará a regir el Fondo de Asistencia Laboral. El banco público reintegrará a los empleadores las comisiones de administración hasta fines de 2027.",
+   "leer": "Fondo para indemnizaciones: el Banco Nación ofrecerá beneficios a empresas y trabajadores que adhieran al FAL. A partir del 1° de diciembre comenzará a regir el Fondo de Asistencia Laboral. El banco público reintegrará a los empleadores las comisiones de administración hasta fines de 2027.",
+   "fuente": "clarin.com",
+   "t": 1795555262000
+  },
+  {
+   "tema": "fútbol",
+   "titulo": "San Lorenzo anunció que tres juveniles se van libres y declaró \"persona no grata\" a un representante",
+   "bajada": "",
+   "leer": "San Lorenzo anunció que tres juveniles se van libres y declaró \"persona no grata\" a un representante.",
+   "fuente": "TyC Sports",
+   "t": 1795551800000
   },
   {
    "tema": "música",
-   "titulo": "Vitico Bereciartua y Michel Peyronel recibieron de Victorio Pirillo dos piezas únicas de la historia del rock",
+   "titulo": "De María Gabriela Epumer al cine africano: qué ver esta semana en el Cineclub Municipal",
    "bajada": "",
-   "leer": "Vitico Bereciartua y Michel Peyronel recibieron de Victorio Pirillo dos piezas únicas de la historia del rock.",
-   "fuente": "Zona Norte Diario Online",
-   "t": 1795541115000
+   "leer": "De María Gabriela Epumer al cine africano: qué ver esta semana en el Cineclub Municipal.",
+   "fuente": "Cultura – Municipalidad de Córdoba",
+   "t": 1795549128000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Diego Flores y la advertencia a River: \"No intimida\" y \"va a tener que hacer mucho porque vamos a dejar la vida\"",
-   "bajada": "El DT de Instituto sacó pecho antes de los cuartos de final: remarcó que el Millonario perdió seis partidos contra dos de la Gloria, bancó la localía en Alta Córdoba y habló de los tocados.",
-   "leer": "Diego Flores y la advertencia a River: \"No intimida\" y \"va a tener que hacer mucho porque vamos a dejar la vida\". El DT de Instituto sacó pecho antes de los cuartos de final: remarcó que el Millonario perdió seis partidos contra dos de la Gloria, bancó la localía en Alta Córdoba y habló de los tocados.",
-   "fuente": "ole.com.ar",
-   "t": 1795541100000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "San Lorenzo finaliza su participación en la División de Honor",
+   "tema": "recitales",
+   "titulo": "2 noches en 360°: Las Pastillas del Abuelo brillaron en el Movistar Arena",
    "bajada": "",
-   "leer": "San Lorenzo finaliza su participación en la División de Honor.",
-   "fuente": "San Lorenzo Website",
-   "t": 1795540511000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Fábregas contó cómo protege a Nico Paz de las comparaciones con Messi: \"Es muy humilde y tiene un DT detrás que no va a dejar que se venga arriba\"",
-   "bajada": "El entrenador del Como marcó la cancha ante los incesantes rumores sobre una posible salida y se rindió ante su dirigido: \"Nico es un chico 10, con una personalidad increíble. Me encanta su carácter, su manera de ver las cosas y es un competidor\".",
-   "leer": "Fábregas contó cómo protege a Nico Paz de las comparaciones con Messi: \"Es muy humilde y tiene un DT detrás que no va a dejar que se venga arriba\". El entrenador del Como marcó la cancha ante los incesantes rumores sobre una posible salida y se rindió ante su dirigido: \"Nico es un chico 10, con una personalidad increíble. Me encanta su carácter, su manera de ver las cosas y es un competidor\".",
-   "fuente": "clarin.com",
-   "t": 1795540329000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "EEUU prevé el mayor tráfico aéreo en 16 años durante Acción de Gracias en medio de fallos",
-   "bajada": "Se espera un tráfico aéreo récord en EE.UU. durante el festivo de Acción de Gracias, con más de 417.000 vuelos, pese a fallos técnicos y falta de controladores. La AAA prevé que 81,5 millones de estadounidenses viajarán, con una ligera baja en vuelos y un aumento en el costo de boletos, en medio de tormentas y retrasos.",
-   "leer": "EEUU prevé el mayor tráfico aéreo en 16 años durante Acción de Gracias en medio de fallos. Se espera un tráfico aéreo récord en EE.UU. durante el festivo de Acción de Gracias, con más de 417.000 vuelos, pese a fallos técnicos y falta de controladores. La AAA prevé que 81,5 millones de estadounidenses viajarán, con una ligera baja en vuelos y un aumento en el costo de boletos, en medio de tormentas y retrasos.",
-   "fuente": "clarin.com",
-   "t": 1795540213000
-  },
-  {
-   "tema": "actualidad",
-   "titulo": "Mamdani apuntó contra Wall Street tras el escándalo de Nvidia: \"Las jubilaciones no pueden depender de la fidelidad de un empresario\"",
-   "bajada": "El alcalde de Nueva York advirtió sobre el impacto de las grandes empresas tecnológicas en los ahorros jubilatorios de millones de estadounidenses y cuestionó la concentración de la riqueza.",
-   "leer": "Mamdani apuntó contra Wall Street tras el escándalo de Nvidia: \"Las jubilaciones no pueden depender de la fidelidad de un empresario\". El alcalde de Nueva York advirtió sobre el impacto de las grandes empresas tecnológicas en los ahorros jubilatorios de millones de estadounidenses y cuestionó la concentración de la riqueza.",
-   "fuente": "clarin.com",
-   "t": 1795540160000
+   "leer": "2 noches en 360°: Las Pastillas del Abuelo brillaron en el Movistar Arena.",
+   "fuente": "CMTV.com.ar",
+   "t": 1795544535000
   },
   {
    "tema": "espectáculos",
@@ -122,68 +306,12 @@
    "t": 1795539934000
   },
   {
-   "tema": "deportes",
-   "titulo": "Instituto vs. River, por los cuartos del Clausura: se confirmó que se jugará en Alta Córdoba y sin hinchas visitantes",
-   "bajada": "La dirigencia y el cuerpo técnico encabezado por Diego Flores priorizaron la ventaja deportiva por sobre la recaudación que hubiese generado una mudanza al estadio Kempes. De este modo, el conjunto cordobés recibirá al elenco de Núñez únicamente con su propio público en las tribunas del Monumental Presidente Perón.",
-   "leer": "Instituto vs. River, por los cuartos del Clausura: se confirmó que se jugará en Alta Córdoba y sin hinchas visitantes. La dirigencia y el cuerpo técnico encabezado por Diego Flores priorizaron la ventaja deportiva por sobre la recaudación que hubiese generado una mudanza al estadio Kempes. De este modo, el conjunto cordobés recibirá al elenco de Núñez únicamente con su propio público en las tribunas del Monumental Presidente Perón.",
-   "fuente": "clarin.com",
-   "t": 1795539292000
-  },
-  {
    "tema": "fútbol",
    "titulo": "Sorpresa en las elecciones de Independiente: cinco candidatos presentaron sus listas y marcarán un hito en la historia del club",
    "bajada": "",
    "leer": "Sorpresa en las elecciones de Independiente: cinco candidatos presentaron sus listas y marcarán un hito en la historia del club.",
    "fuente": "Infobae",
    "t": 1795539239000
-  },
-  {
-   "tema": "política",
-   "titulo": "Homenaje a Mario Santucho: en medio de la polémica, el fiscal Stornelli pidió suspender el acto en la Facultad de Sociales de la UBA",
-   "bajada": "En un escrito, solicitó además que se investigue a todas las personas involucradas en la aprobación y realización del evento. El homenaje al exlíder del ERP está programado para el próximo 10 de diciembre.",
-   "leer": "Homenaje a Mario Santucho: en medio de la polémica, el fiscal Stornelli pidió suspender el acto en la Facultad de Sociales de la UBA. En un escrito, solicitó además que se investigue a todas las personas involucradas en la aprobación y realización del evento. El homenaje al exlíder del ERP está programado para el próximo 10 de diciembre.",
-   "fuente": "clarin.com",
-   "t": 1795539215000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "El corpiño rojo de Jensen Huang: Trump bromea en redes por el caso Nvidia, pero en el Congreso asoma una investigación",
-   "bajada": "La restitución de Jensen Huang en la conducción de la compañía desató fuertes críticas tanto de demócratas como de republicanos en el Congreso. Los parlamentarios cuestionaron la injerencia del mandatario y advirtieron sobre los riesgos de seguridad nacional vinculados a un presunto caso de espionaje chino.",
-   "leer": "El corpiño rojo de Jensen Huang: Trump bromea en redes por el caso Nvidia, pero en el Congreso asoma una investigación. La restitución de Jensen Huang en la conducción de la compañía desató fuertes críticas tanto de demócratas como de republicanos en el Congreso. Los parlamentarios cuestionaron la injerencia del mandatario y advirtieron sobre los riesgos de seguridad nacional vinculados a un presunto caso de espionaje chino.",
-   "fuente": "clarin.com",
-   "t": 1795538488000
-  },
-  {
-   "tema": "economía",
-   "titulo": "¿Qué pasa en el campo?: pese a la cosecha record predomina la cautela a la hora de invertir",
-   "bajada": "Un relevamiento mostró menos necesidad de financiamiento (52%) y menos postergaciones (35,3%), pero el saldo de intención de inversión pasó a negativo por primera vez en la administración Milei. Cayó 14,4 puntos.",
-   "leer": "Un relevamiento mostró menos necesidad de financiamiento (52%) y menos postergaciones (35,3%), pero el saldo de intención de inversión pasó a negativo por primera vez en la administración Milei. Cayó 14,4 puntos.",
-   "fuente": "clarin.com",
-   "t": 1795537432000
-  },
-  {
-   "tema": "política",
-   "titulo": "Cumbre libertaria en el inicio de una semana clave: dudas por la economía y la urgencia por las PASO y el Presupuesto",
-   "bajada": "Karina Milei reúne a la mesa política, que acumula cuentas pendientes e internas. El miércoles, Diego Santilli brinda su informe en la Cámara Alta. El jueves, se debate la Reforma Política y el Presupuesto.",
-   "leer": "Cumbre libertaria en el inicio de una semana clave: dudas por la economía y la urgencia por las PASO y el Presupuesto. Karina Milei reúne a la mesa política, que acumula cuentas pendientes e internas. El miércoles, Diego Santilli brinda su informe en la Cámara Alta. El jueves, se debate la Reforma Política y el Presupuesto.",
-   "fuente": "clarin.com",
-   "t": 1795537386000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "¿Cómo encajará Teruaki Sato en los Chicago Cubs? Lineup proyectado, rol en los jardines y poder",
-   "bajada": "Tras acordar un contrato de seis años y US$ 120 millones este martes 24 de noviembre de 2026, el dos veces MVP de la Liga Central Teruaki Sato desembarca directo en el corazón ofensivo de los Chicago Cubs.",
-   "leer": "Tras acordar un contrato de seis años y US$ 120 millones este martes 24 de noviembre de 2026, el dos veces MVP de la Liga Central Teruaki Sato desembarca directo en el corazón ofensivo de los Chicago Cubs.",
-   "fuente": "clarin.com",
-   "t": 1795536547000
-  },
-  {
-   "tema": "deportes",
-   "titulo": "El Vasco Arruabarrena habló de la salud de Paredes, tras el desmayo en la Sudamericana",
-   "bajada": "El DT aseguró que el equipo llega machucado y aseguró que sólo dispondrá de los que estén al cien por ciento para el cruce con Independiente Rivadavia. ¿Descansa Paredes?",
-   "leer": "El Vasco Arruabarrena habló de la salud de Paredes, tras el desmayo en la Sudamericana. El DT aseguró que el equipo llega machucado y aseguró que sólo dispondrá de los que estén al cien por ciento para el cruce con Independiente Rivadavia. ¿Descansa Paredes?",
-   "fuente": "clarin.com",
-   "t": 1795535985000
   },
   {
    "tema": "espectáculos",
@@ -194,44 +322,12 @@
    "t": 1795535913000
   },
   {
-   "tema": "economía",
-   "titulo": "Brasil profundiza el ajuste fiscal: el Congreso aprobó un paquete de recortes y Lula prepara nuevas medidas",
-   "bajada": "El Parlamento dio luz verde a una iniciativa que busca contener el gasto público y reducir beneficios tributarios. En paralelo, el presidente brasileño autorizó una segunda ronda de reformas para mejorar las cuentas fiscales, en un contexto de presión sobre el real y preocupación por la deuda.",
-   "leer": "Brasil profundiza el ajuste fiscal: el Congreso aprobó un paquete de recortes y Lula prepara nuevas medidas. El Parlamento dio luz verde a una iniciativa que busca contener el gasto público y reducir beneficios tributarios. En paralelo, el presidente brasileño autorizó una segunda ronda de reformas para mejorar las cuentas fiscales, en un contexto de presión sobre el real y preocupación por la deuda.",
-   "fuente": "ambito.com",
-   "t": 1795535160000
-  },
-  {
    "tema": "clima",
    "titulo": "Doble alerta meteorológica con tormentas severas y fuertes ráfagas de viento en varias provincias",
    "bajada": "",
    "leer": "Doble alerta meteorológica con tormentas severas y fuertes ráfagas de viento en varias provincias.",
    "fuente": "Crónica",
    "t": 1795535100000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Los dos ex San Lorenzo que gustan para reforzar la defensa",
-   "bajada": "",
-   "leer": "Los dos ex San Lorenzo que gustan para reforzar la defensa.",
-   "fuente": "Mundo Azulgrana",
-   "t": 1795534662000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Sorpresa en River: por qué Juanfer Quintero fue tendencia",
-   "bajada": "",
-   "leer": "Sorpresa en River: por qué Juanfer Quintero fue tendencia.",
-   "fuente": "Olé",
-   "t": 1795534585000
-  },
-  {
-   "tema": "economía",
-   "titulo": "Dos exfundadores de Mercado Libre recaudan US$ 650 millones para invertir en firmas de IA en América latina",
-   "bajada": "Kaszek Ventures, prevé aportar fondos a unas 20 a 30 empresas, principalmente de México y Brasil, pero también miran a Argentina y Colombia.",
-   "leer": "Dos exfundadores de Mercado Libre recaudan US$ 650 millones para invertir en firmas de IA en América latina. Kaszek Ventures, prevé aportar fondos a unas 20 a 30 empresas, principalmente de México y Brasil, pero también miran a Argentina y Colombia.",
-   "fuente": "clarin.com",
-   "t": 1795534566000
   },
   {
    "tema": "recitales",
@@ -242,60 +338,12 @@
    "t": 1795534560000
   },
   {
-   "tema": "política",
-   "titulo": "Lula desinvitó a Milei a su jura y confirmó que su embajador no vuelve a la Argentina",
-   "bajada": "La decisión se da en medio de la tensión entre ambos países. Hubo molestias con el cancller Pablo Quirno porque defendió las agresiones del Presidente a Lula y puso en duda los resultados electorales.",
-   "leer": "Lula desinvitó a Milei a su jura y confirmó que su embajador no vuelve a la Argentina. La decisión se da en medio de la tensión entre ambos países. Hubo molestias con el cancller Pablo Quirno porque defendió las agresiones del Presidente a Lula y puso en duda los resultados electorales.",
-   "fuente": "clarin.com",
-   "t": 1795534080000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Racing está interesado en la vuelta de Gabriel Rojas",
-   "bajada": "",
-   "leer": "Racing está interesado en la vuelta de Gabriel Rojas.",
-   "fuente": "Racing de Alma",
-   "t": 1795532935000
-  },
-  {
-   "tema": "el mundo",
-   "titulo": "Robaron en Anmer Hall, la casa de campo de Kate y William en Sandringham: hay dos detenidos",
-   "bajada": "Los príncipes de Gales y sus tres hijos se encontraban en su vivienda de Windsor cuando ocurrió la intrusión en el inmueble rural. Durante el operativo, las fuerzas de seguridad de Norfolk desplegaron perros rastreadores, drones y un helicóptero policial para capturar a los sospechosos.",
-   "leer": "Robaron en Anmer Hall, la casa de campo de Kate y William en Sandringham: hay dos detenidos. Los príncipes de Gales y sus tres hijos se encontraban en su vivienda de Windsor cuando ocurrió la intrusión en el inmueble rural. Durante el operativo, las fuerzas de seguridad de Norfolk desplegaron perros rastreadores, drones y un helicóptero policial para capturar a los sospechosos.",
-   "fuente": "clarin.com",
-   "t": 1795532804000
-  },
-  {
    "tema": "música",
    "titulo": "Grillitos Sinfónicos llevará rock nacional a la Fiesta del Deporte Misionero",
    "bajada": "",
    "leer": "Grillitos Sinfónicos llevará rock nacional a la Fiesta del Deporte Misionero.",
    "fuente": "Primera Edición",
    "t": 1795532724000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Estudios para Paredes tras su desmayo: cómo está y qué pasa con Independiente Rivadavia",
-   "bajada": "",
-   "leer": "Estudios para Paredes tras su desmayo: cómo está y qué pasa con Independiente Rivadavia.",
-   "fuente": "Olé",
-   "t": 1795532286000
-  },
-  {
-   "tema": "economía",
-   "titulo": "La UE pone topes a la importación de autos híbridos de China y otros países",
-   "bajada": "Las medidas de \"salvaguardia\" buscan proteger a la industria local y alcanzan también a Japón, Turquía, Reino Unido, Corea del Sur, México, Marruecos, Serbia y Estados Unidos. En el caso de China, el límite surge de un acuerdo cerrado el mes pasado.",
-   "leer": "La UE pone topes a la importación de autos híbridos de China y otros países. Las medidas de \"salvaguardia\" buscan proteger a la industria local y alcanzan también a Japón, Turquía, Reino Unido, Corea del Sur, México, Marruecos, Serbia y Estados Unidos. En el caso de China, el límite surge de un acuerdo cerrado el mes pasado.",
-   "fuente": "ambito.com",
-   "t": 1795532280000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Gastón Gálvez superó a Nicolás Alessio y es el jugador con más presencias de Racing de Carhué en la LRF",
-   "bajada": "",
-   "leer": "Gastón Gálvez superó a Nicolás Alessio y es el jugador con más presencias de Racing de Carhué en la LRF.",
-   "fuente": "Cambio 2000",
-   "t": 1795531757000
   },
   {
    "tema": "espectáculos",
@@ -306,20 +354,12 @@
    "t": 1795531624000
   },
   {
-   "tema": "sociedad",
-   "titulo": "La influencer de cocina de bajo costo que rechazó una oferta millonaria de un casino online: \"No puedo incentivarte a economizar y después decirte que te gastes tu sueldo en apuestas\"",
-   "bajada": "Una casa de apuestas le ofreció a Daiana Bernengo $ 1.400.000 por semana por promocionar sus juegos entre sus 200 mil seguidores. \"Es chocante ver la cifra y saber todo lo que podría hacer, pero no lo comparto: el juego enferma familias y destruye jóvenes\", explica.",
-   "leer": "La influencer de cocina de bajo costo que rechazó una oferta millonaria de un casino online: \"No puedo incentivarte a economizar y después decirte que te gastes tu sueldo en apuestas\". Una casa de apuestas le ofreció a Daiana Bernengo $ 1.400.000 por semana por promocionar sus juegos entre sus 200 mil seguidores. \"Es chocante ver la cifra y saber todo lo que podría hacer, pero no lo comparto: el juego enferma familias y destruye jóvenes\", explica.",
-   "fuente": "clarin.com",
-   "t": 1795530259000
-  },
-  {
-   "tema": "economía",
-   "titulo": "No se detiene la sangría en los mercados: el dólar toca los $ 1.615 y el riesgo país se acerca a los 1.110 puntos",
-   "bajada": "Las mejoras que habían tenido las bolsas mundiales el lunes se dieron vuelta y cae el Nasdaq. Los bonos argentinos en dólares pierden hasta 3% en Wall Street.",
-   "leer": "No se detiene la sangría en los mercados: el dólar toca los $ 1.615 y el riesgo país se acerca a los 1.110 puntos. Las mejoras que habían tenido las bolsas mundiales el lunes se dieron vuelta y cae el Nasdaq. Los bonos argentinos en dólares pierden hasta 3% en Wall Street.",
-   "fuente": "clarin.com",
-   "t": 1795528875000
+   "tema": "fútbol",
+   "titulo": "Las listas para las elecciones en Independiente: quiénes son los cinco candidatos a presidente",
+   "bajada": "",
+   "leer": "Las listas para las elecciones en Independiente: quiénes son los cinco candidatos a presidente.",
+   "fuente": "TyC Sports",
+   "t": 1795530639000
   },
   {
    "tema": "tecnología",
@@ -330,22 +370,6 @@
    "t": 1795528839000
   },
   {
-   "tema": "fútbol",
-   "titulo": "Elecciones a presidente en Independiente: quiénes son los cinco candidatos para conducir el club",
-   "bajada": "",
-   "leer": "Elecciones a presidente en Independiente: quiénes son los cinco candidatos para conducir el club.",
-   "fuente": "Clarin.com",
-   "t": 1795526089000
-  },
-  {
-   "tema": "sociedad",
-   "titulo": "Conflicto en el Garrahan: protesta de ATE dentro del hospital por despidos y suspensiones",
-   "bajada": "Las autoridades confirmaron las sanciones a 38 empleados que en octubre de 2025 tomaron la oficina de la dirección. También repudiaron la manifestación y aseguraron que la manifestación puso \"en riesgo la salud de los niños que pelean por sus vidas\".",
-   "leer": "Conflicto en el Garrahan: protesta de ATE dentro del hospital por despidos y suspensiones. Las autoridades confirmaron las sanciones a 38 empleados que en octubre de 2025 tomaron la oficina de la dirección. También repudiaron la manifestación y aseguraron que la manifestación puso \"en riesgo la salud de los niños que pelean por sus vidas\".",
-   "fuente": "clarin.com",
-   "t": 1795522720000
-  },
-  {
    "tema": "clima",
    "titulo": "Cambios drásticos en el clima por El Niño: hay alerta amarilla por tormentas, mientras llega el calor extremo",
    "bajada": "",
@@ -354,36 +378,12 @@
    "t": 1795518720000
   },
   {
-   "tema": "fútbol",
-   "titulo": "El pedido de los titulares de Boca que cambió el plan de Arruabarrena para los octavos de final",
-   "bajada": "",
-   "leer": "El pedido de los titulares de Boca que cambió el plan de Arruabarrena para los octavos de final.",
-   "fuente": "TyC Sports",
-   "t": 1795517564000
-  },
-  {
-   "tema": "fútbol",
-   "titulo": "Qué tiene que pasar para que River vuelva a ser local en los playoffs",
-   "bajada": "",
-   "leer": "Qué tiene que pasar para que River vuelva a ser local en los playoffs.",
-   "fuente": "TyC Sports",
-   "t": 1795514513000
-  },
-  {
    "tema": "tecnología",
    "titulo": "Running inteligente: los relojes y sensores que ayudan a correr mejor y mejorar el rendimiento",
    "bajada": "Desde relojes con GPS hasta sensores de zapatillas y bandas cardíacas, los nuevos dispositivos permiten medir el esfuerzo, analizar la técnica y ajustar los entrenamientos. Qué ofrece cada tecnología y cuánto cuesta en la Argentina.",
    "leer": "Running inteligente: los relojes y sensores que ayudan a correr mejor y mejorar el rendimiento. Desde relojes con GPS hasta sensores de zapatillas y bandas cardíacas, los nuevos dispositivos permiten medir el esfuerzo, analizar la técnica y ajustar los entrenamientos. Qué ofrece cada tecnología y cuánto cuesta en la Argentina.",
    "fuente": "clarin.com",
    "t": 1795509928000
-  },
-  {
-   "tema": "recitales",
-   "titulo": "Más de 12.000 evacuados por una “sustancia desconocida” en un concierto en el Reino Unido",
-   "bajada": "",
-   "leer": "Más de 12.000 evacuados por una “sustancia desconocida” en un concierto en el Reino Unido.",
-   "fuente": "La Gaceta",
-   "t": 1795477669000
   }
  ]
 }
